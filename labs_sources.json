@@ -1,0 +1,291 @@
+{
+ "_note": "Per-lab source config, from /workspace/frontier-labs-sources.md (NAB Research, Oct 15 2026). type = parser hook in labs.py (rss | atom | html). status: provisional = verified working 2026-10-15; disabled = deliberately not polled (see note). Optional per source: include_keywords, exclude_keywords, max, label, unofficial. Headline + date + link only; one request per source per hourly run.",
+ "labs": [
+  {
+   "slug": "xai",
+   "name": "xAI",
+   "blurb": "Grok models, the Grok app and the xAI API.",
+   "title": "xAI & Grok latest releases: Grok models, API and news | NextAiBreakout",
+   "description": "Latest xAI releases and Grok model news, with dates and links to official xAI sources. Refreshed hourly.",
+   "sources": [
+    {
+     "name": "xAI News",
+     "url": "https://x.ai/news",
+     "type": "html",
+     "base": "https://x.ai",
+     "link_prefix": "/news/",
+     "status": "provisional",
+     "note": "No RSS; light listing scrape (robots.txt allows /news)."
+    },
+    {
+     "name": "GitHub: xai-org/xai-sdk-python releases",
+     "url": "https://github.com/xai-org/xai-sdk-python/releases.atom",
+     "type": "atom",
+     "status": "provisional",
+     "max": 1,
+     "exclude_keywords": [
+      "alpha",
+      "beta",
+      "-rc",
+      "rc1",
+      "rc2",
+      "rc3"
+     ],
+     "product": "xAI SDK (Python)"
+    },
+    {
+     "name": "xAI Status (incidents)",
+     "url": "https://status.x.ai/feed.xml",
+     "type": "rss",
+     "status": "disabled",
+     "note": "Official RSS exists (feed.xml) but it is incident history, not releases."
+    }
+   ]
+  },
+  {
+   "slug": "tesla-ai",
+   "name": "Tesla AI",
+   "blurb": "FSD, Optimus and Tesla AI chips only.",
+   "title": "Tesla AI releases: FSD, Optimus and AI chips | NextAiBreakout",
+   "description": "Latest Tesla AI news covering FSD, Optimus and Tesla AI chips (AI5, Dojo), with dates and source links. Tesla has no official feed; third-party items are labelled unofficial. Refreshed hourly.",
+   "sources": [
+    {
+     "name": "Not a Tesla App RSS",
+     "label": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "url": "https://www.notateslaapp.com/rss",
+     "type": "rss",
+     "status": "provisional",
+     "include_keywords": [
+      "FSD",
+      "Full Self-Driving",
+      "Optimus",
+      "Dojo",
+      "AI5",
+      "AI6",
+      "AI4",
+      "AI chip",
+      "AI chips"
+     ],
+     "note": "Third-party; headline + link out only.",
+     "exclude_title_patterns": [
+      "\\b(insurance|discount|promo\\w*|offer|deal|referral|free supercharging)\\b",
+      "\\b(halloween|christmas|holiday|easter egg|games?|arcade|theater|toybox|light show|boombox|entertainment)\\b"
+     ]
+    },
+    {
+     "name": "teslascope.com/software",
+     "url": "https://teslascope.com/software",
+     "type": "html",
+     "status": "disabled",
+     "note": "Scrape-only and its robots.txt sets Content-Signal ai-input=no; not polled."
+    },
+    {
+     "name": "tesla.com/blog",
+     "url": "https://www.tesla.com/blog/rss",
+     "type": "rss",
+     "status": "disabled",
+     "note": "Official, but returns 403 to automated fetches."
+    }
+   ]
+  },
+  {
+   "slug": "openai",
+   "name": "OpenAI",
+   "blurb": "GPT models, ChatGPT and the OpenAI API.",
+   "title": "OpenAI latest releases: GPT models, ChatGPT and API news | NextAiBreakout",
+   "description": "Latest OpenAI releases and announcements with dates and links to official OpenAI sources. Refreshed hourly.",
+   "sources": [
+    {
+     "name": "OpenAI News RSS",
+     "url": "https://openai.com/news/rss.xml",
+     "type": "rss",
+     "status": "provisional",
+     "include_categories": [
+      "Product",
+      "Research",
+      "Publication",
+      "Release",
+      "Engineering"
+     ],
+     "note": "Keeps RSS categories Product/Research/Publication/Release/Engineering; uncategorized items are customer stories and are dropped."
+    },
+    {
+     "name": "GitHub: openai/codex releases",
+     "url": "https://github.com/openai/codex/releases.atom",
+     "type": "atom",
+     "status": "provisional",
+     "max": 1,
+     "exclude_keywords": [
+      "alpha",
+      "beta",
+      "-rc",
+      "rc1",
+      "rc2",
+      "rc3"
+     ],
+     "product": "Codex CLI"
+    }
+   ]
+  },
+  {
+   "slug": "anthropic",
+   "name": "Anthropic",
+   "blurb": "Claude models and Anthropic research.",
+   "title": "Anthropic latest releases: Claude models and research | NextAiBreakout",
+   "description": "Latest Anthropic and Claude releases with dates and links to official Anthropic sources. Refreshed hourly.",
+   "sources": [
+    {
+     "name": "Anthropic News",
+     "url": "https://www.anthropic.com/news",
+     "type": "html",
+     "base": "https://www.anthropic.com",
+     "link_prefix": "/news/",
+     "status": "provisional",
+     "note": "No RSS; light listing scrape (robots.txt allows all)."
+    },
+    {
+     "name": "GitHub: anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases.atom",
+     "type": "atom",
+     "status": "provisional",
+     "max": 1,
+     "exclude_keywords": [
+      "alpha",
+      "beta",
+      "-rc",
+      "rc1",
+      "rc2",
+      "rc3"
+     ],
+     "product": "Claude Code"
+    }
+   ]
+  },
+  {
+   "slug": "google-deepmind",
+   "name": "Google DeepMind",
+   "blurb": "Gemini models and DeepMind research.",
+   "title": "Google DeepMind latest releases: Gemini models and research | NextAiBreakout",
+   "description": "Latest Google DeepMind and Gemini releases with dates and links to official Google sources. Refreshed hourly.",
+   "sources": [
+    {
+     "name": "Google DeepMind Blog RSS",
+     "url": "https://deepmind.google/blog/rss.xml",
+     "type": "rss",
+     "status": "provisional"
+    },
+    {
+     "name": "Google AI Blog RSS",
+     "url": "https://blog.google/technology/ai/rss/",
+     "type": "rss",
+     "status": "provisional",
+     "max": 4,
+     "include_keywords": [
+      "Gemini",
+      "Gemma",
+      "DeepMind",
+      "model",
+      "models",
+      "Veo",
+      "Imagen",
+      "Genie",
+      "AlphaFold",
+      "Alpha"
+     ],
+     "keywords_title_only": true
+    },
+    {
+     "name": "GitHub: google-deepmind/gemma releases",
+     "url": "https://github.com/google-deepmind/gemma/releases.atom",
+     "type": "atom",
+     "status": "provisional",
+     "max": 1,
+     "exclude_keywords": [
+      "alpha",
+      "beta",
+      "-rc",
+      "rc1",
+      "rc2",
+      "rc3"
+     ],
+     "product": "Gemma"
+    }
+   ]
+  },
+  {
+   "slug": "meta",
+   "name": "Meta",
+   "blurb": "Llama and Muse models and Meta AI research.",
+   "title": "Meta AI latest releases: Muse, Llama models and research | NextAiBreakout",
+   "description": "Latest Meta AI releases (Muse, Llama, SAM, DINO) with dates and links to official Meta sources. Refreshed hourly.",
+   "sources": [
+    {
+     "name": "Meta Newsroom RSS (AI category only)",
+     "url": "https://about.fb.com/news/feed/",
+     "type": "rss",
+     "status": "provisional",
+     "include_categories": [
+      "AI"
+     ],
+     "require_title_keywords": [
+      "AI",
+      "model",
+      "models",
+      "Muse",
+      "Llama",
+      "agent",
+      "agents",
+      "superintelligence",
+      "LLM",
+      "Meta AI"
+     ]
+    },
+    {
+     "name": "Engineering at Meta: ML Applications RSS",
+     "url": "https://engineering.fb.com/category/ml-applications/feed/",
+     "type": "rss",
+     "status": "provisional",
+     "max": 4,
+     "include_keywords": [
+      "AI",
+      "LLM",
+      "LLMs",
+      "model",
+      "models",
+      "inference",
+      "GenAI",
+      "generative",
+      "machine learning",
+      "foundation model",
+      "agents"
+     ],
+     "keywords_title_only": true
+    },
+    {
+     "name": "GitHub: meta-llama/llama-models releases",
+     "url": "https://github.com/meta-llama/llama-models/releases.atom",
+     "type": "atom",
+     "status": "provisional",
+     "max": 1,
+     "exclude_keywords": [
+      "alpha",
+      "beta",
+      "-rc",
+      "rc1",
+      "rc2",
+      "rc3"
+     ],
+     "product": "Llama Models"
+    },
+    {
+     "name": "ai.meta.com/blog",
+     "url": "https://ai.meta.com/blog/",
+     "type": "html",
+     "status": "disabled",
+     "note": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
+    }
+   ]
+  }
+ ]
+}

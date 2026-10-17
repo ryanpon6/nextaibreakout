@@ -1,0 +1,43 @@
+# ALLOWLIST: everything is ignored unless listed below. Public repo = pipeline code + site assets only.
+# Never commit: data/ (state lives on the `state` branch), dist*/, node_modules/, .wrangler/, secrets/.env files,
+# GSC or Cloudflare credentials, marketing/ops notes (packs/, AUTOPOST.md, x-growth-playbook.md, seo-audit-*.md,
+# posted.jsonl, xpost.py, cards/, grok-bot-updates.md, scheduler-plan.md, token-steps.md), screenshots, logs, backups.
+/*
+!/.gitignore
+!/.github/
+!/ci/
+!/README.md
+!/archive.py
+!/build.py
+!/common.py
+!/fetch.py
+!/grokbot.py
+!/labs.py
+!/migrate_archive.py
+!/score.py
+!/selfcheck.py
+!/seo2.py
+!/labs.css
+!/seo2.css
+!/labs_sources.json
+!/run.sh
+!/cron-tick.sh
+!/tick-loop.sh
+!/package.json
+!/package-lock.json
+!/static/
+!/fonts/
+!/images/
+# belt and braces inside allowed dirs
+.wrangler/
+node_modules/
+__pycache__/
+*.env
+.env*
+.secrets/
+*gsc*
+*cloudflare*.env
+*.bak*
+*.log
+*.pem
+*.key

@@ -1,0 +1,15 @@
+# OPTIONAL phase-2 watchdog. LOCAL PROTOTYPE ONLY: do not `wrangler deploy` without Ryan's explicit OK.
+# Every 30 min: read live data.json; if older than MAX_AGE_MIN, call GitHub workflow_dispatch for hourly-refresh.
+# Uses 1 of the 5 free-plan cron triggers, 48 invocations/day, 2 subrequests and ~1-2 ms CPU per invocation.
+name = "nab-refresh-watchdog"
+main = "index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false            # no public URL; it only runs on the cron
+[triggers]
+crons = ["5,35 * * * *"]
+[vars]
+SITE = "https://nextaibreakout.com"
+MAX_AGE_MIN = "100"
+GH_REPO = "ryanpon6/nextaibreakout"   # placeholder until the repo exists
+GH_WORKFLOW = "refresh.yml"
+# secret (set only at deploy time): GH_DISPATCH_TOKEN = fine-grained PAT, this repo only, Actions: read & write

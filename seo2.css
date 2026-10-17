@@ -1,0 +1,27 @@
+/* SEO2: contrast + heading-order fixes (design unchanged: near-black, off-white, #3DDC84) */
+.tk-in i{color:#8A8F8B}
+.rk,tbody tr:nth-child(n+4) .rk{color:#9A9F9B}
+.tg{color:#A3A8A4}
+.hcard h2.hc-h{font-size:24px;margin:0;line-height:1.2}
+p a,.dim a,.arch a,.lab-sources a,.daynav a,.dayidx a{text-decoration:underline;text-underline-offset:3px}
+.arch{margin:14px 0 0;font-size:12px}.arch a{color:var(--gr)}
+.daylist,.dayidx{list-style:none;padding:0;margin:24px 0 0}
+.daylist li{display:grid;grid-template-columns:52px minmax(0,1fr);gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
+.daylist .rk{font-size:20px}.daylist .what{margin:4px 0}.daylist p.mono{font-size:12px;margin:2px 0}
+.dayidx li{padding:12px 0;border-bottom:1px solid var(--line)}
+.item-spark{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}.item-spark svg{width:100%;height:auto}
+.apps{width:100%;border-collapse:collapse;font-size:13px}.apps th,.apps td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}.apps th{color:var(--mut);font-weight:500}
+.stats .fs{font-size:14px}.daynav{margin-top:20px}
+@media (max-width:640px){.stats{grid-template-columns:1fr 1fr}.apps{font-size:12px}.apps th,.apps td{padding:6px}}
+.out{margin-left:6px;color:var(--mut);font-size:13px;text-decoration:none}.out:hover{color:var(--gr)}
+.tk-in{animation:tk2 45s linear infinite;padding-left:100%}.tk-in span{white-space:nowrap}
+@keyframes tk2{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.tk-in{animation:none;padding-left:0}}
+.spon.slim{padding:10px 16px;margin:18px 0 0}.spon.slim p{flex:1;margin:0;font-size:13px;color:var(--mut)}
+.crumbs{font-size:11px;color:var(--mut);margin:26px 0 -30px;letter-spacing:.04em}.crumbs a{color:var(--mut);text-decoration:underline;text-underline-offset:3px}.crumbs span{color:var(--fg)}
+.footlinks{display:flex;flex-wrap:wrap;gap:6px 14px;width:100%;margin-bottom:10px;font-size:12px}.footlinks a{color:var(--mut)}.footlinks a:hover{color:var(--gr)}
+footer{flex-wrap:wrap}
+.catlinks{font-size:12px;color:var(--mut);margin:12px 0 0;display:flex;flex-wrap:wrap;gap:6px 12px}.catlinks a{color:var(--gr);text-decoration:underline;text-underline-offset:3px}
+.daylist .tg{margin-right:4px}
+.crumbs a,.footlinks a{display:inline!important;font-size:inherit}
+@media (max-width:820px){.apps,.apps tbody{display:table-row-group}.apps{display:table;width:100%}.apps thead{display:table-header-group}.apps tr{display:table-row;position:static;padding:0}.apps td,.apps th{display:table-cell;padding:6px;border-bottom:1px solid var(--line)}}

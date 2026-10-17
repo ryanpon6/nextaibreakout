@@ -1,0 +1,20 @@
+og-default.png: NextAiBreakout — Tracking the road to superintelligence, white and green text on a dark grid.
+og-grok-bot.png: Grok Bot updates — What Grok Bots are doing in the real world, on a dark grid.
+grok-bot-hero.png: Grok Bot updates — What Grok Bots are doing in the real world, white headline over a dark grid with green accents.
+og-labs.png: AI Labs — Latest releases from the frontier labs, on a dark grid.
+og-blog.png: Breakouts — What moved in AI, and what's next, on a dark grid.
+labs-xai-header.png: AI LABS · NEXTAIBREAKOUT — SpaceXSI (xAI) — Latest releases, tracked by NextAiBreakout.
+labs-xai-og.png: AI LABS — SpaceXSI (xAI) — Latest releases, tracked by NextAiBreakout.
+labs-tesla-ai-header.png: AI LABS · NEXTAIBREAKOUT — Tesla AI — Latest releases, tracked by NextAiBreakout — Unofficial tracker, not affiliated with Tesla.
+labs-tesla-ai-og.png: AI LABS — Tesla AI — Latest releases, tracked by NextAiBreakout — Unofficial tracker, not affiliated with Tesla.
+labs-openai-header.png: AI LABS · NEXTAIBREAKOUT — OpenAI — Latest releases, tracked by NextAiBreakout.
+labs-openai-og.png: AI LABS — OpenAI — Latest releases, tracked by NextAiBreakout.
+labs-anthropic-header.png: AI LABS · NEXTAIBREAKOUT — Anthropic — Latest releases, tracked by NextAiBreakout.
+labs-anthropic-og.png: AI LABS — Anthropic — Latest releases, tracked by NextAiBreakout.
+labs-google-deepmind-header.png: AI LABS · NEXTAIBREAKOUT — Google DeepMind — Latest releases, tracked by NextAiBreakout.
+labs-google-deepmind-og.png: AI LABS — Google DeepMind — Latest releases, tracked by NextAiBreakout.
+labs-meta-header.png: AI LABS · NEXTAIBREAKOUT — Meta — Latest releases, tracked by NextAiBreakout.
+labs-meta-og.png: AI LABS — Meta — Latest releases, tracked by NextAiBreakout.
+blog-template.svg: {{period_label}} — Breakouts issue {{issue}}, {{date}}: {{item1}}, {{item2}}, {{item3}}.
+blog-template-header.svg: {{period_label}} — Breakouts issue {{issue}}, {{date}}: {{item1}}, {{item2}}, {{item3}}.
+og-item-template.svg: {{name}} — breakout score {{score}}, source {{source}}, as of {{timestamp}} MT.
