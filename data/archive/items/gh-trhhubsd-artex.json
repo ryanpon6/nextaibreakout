@@ -1,0 +1,56 @@
+{
+ "id": "gh:trhhubsd/ARTEX",
+ "slug": "gh-trhhubsd-artex",
+ "first_seen": "2026-10-18T17:34:34.590562+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 93.0,
+   "metric": 1243,
+   "t": "2026-10-18T17:34:34.590562+00:00"
+  }
+ ],
+ "peak_score": 93.0,
+ "best_rank": 9,
+ "name": "trhhubsd/ARTEX",
+ "url": "https://github.com/trhhubsd/ARTEX",
+ "source": "github",
+ "kind": "tool",
+ "desc": "ARTEX \u00b7 AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) \u00b7 AI \u81ea\u4e3b\u6e17\u900f\u6d4b\u8bd5\u7cfb\u7edf \u00b7 \u767e\u5ea6 agent+ \u653b\u9632\u6311\u6218\u8d5b\u51a0\u519b",
+ "what": "ARTEX \u00b7 AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) \u00b7 AI \u81ea\u4e3b\u6e17\u900f\u6d4b\u8bd5\u7cfb\u7edf \u00b7 \u767e\u5ea6 agent+ \u653b\u9632\u6311\u6218\u8d5b\u51a0\u519b",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-08T20:35:22Z",
+ "last_seen": "2026-10-18T17:34:34.590562+00:00",
+ "last_why": "1.2K stars since launch 10 days ago \u2248 126 stars/day since launch.",
+ "extra": {
+  "forks": 127,
+  "lang": "Go",
+  "topics": [
+   "ai-agent",
+   "ai-security",
+   "artex",
+   "autonomous-agents",
+   "cybersecurity",
+   "go",
+   "hacking",
+   "llm",
+   "llm-agent",
+   "mcp",
+   "nextjs",
+   "offensive-security",
+   "penetration-testing",
+   "pentest",
+   "red-team",
+   "security",
+   "security-tools",
+   "vulnerability",
+   "vulnerability-scanners",
+   "web-security"
+  ],
+  "repo_id": 1410926671
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}

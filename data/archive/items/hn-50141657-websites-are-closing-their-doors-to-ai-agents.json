@@ -1,0 +1,33 @@
+{
+ "id": "hn:50141657",
+ "slug": "hn-50141657-websites-are-closing-their-doors-to-ai-agents",
+ "first_seen": "2026-10-18T17:34:34.590562+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 108,
+   "t": "2026-10-18T17:34:34.590562+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Websites are closing their doors to AI agents",
+ "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-18T14:58:10Z",
+ "last_seen": "2026-10-18T17:34:34.590562+00:00",
+ "last_why": "108 points in 3h on Hacker News (88 comments).",
+ "extra": {
+  "comments": 88,
+  "hn": "https://news.ycombinator.com/item?id=50141657"
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}
