@@ -20,6 +20,12 @@
    "score": 96.7,
    "metric": 133,
    "t": "2026-10-18T18:55:37.917827+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 133,
+   "t": "2026-10-18T18:59:26.276013+00:00"
   }
  ],
  "peak_score": 96.7,
@@ -33,8 +39,8 @@
  "tag": "safety",
  "metric_name": "points",
  "created": "2026-10-18T14:30:27Z",
- "last_seen": "2026-10-18T18:55:37.917827+00:00",
- "last_why": "+266 points/day pace right now (133 total).",
+ "last_seen": "2026-10-18T18:59:26.276013+00:00",
+ "last_why": "+255 points/day pace right now (133 total).",
  "extra": {
   "comments": 147,
   "hn": "https://news.ycombinator.com/item?id=50141429"

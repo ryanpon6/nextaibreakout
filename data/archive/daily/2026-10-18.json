@@ -12,7 +12,8 @@
   "2026-10-18T14:18:17.509614+00:00",
   "2026-10-18T17:34:34.590562+00:00",
   "2026-10-18T18:50:14.038516+00:00",
-  "2026-10-18T18:55:37.917827+00:00"
+  "2026-10-18T18:55:37.917827+00:00",
+  "2026-10-18T18:59:26.276013+00:00"
  ],
  "items": {
   "hn-50129045-deepseek-v4-1-flash-1017": {
@@ -47,20 +48,20 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10233,
-    "trending": 1189,
+    "trending": 1191,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+590 likes/day pace right now (1.0K total).",
-   "metric_at_peak": 1027,
+   "why_at_peak": "+390 likes/day pace right now (1.3K total).",
+   "metric_at_peak": 1281,
    "metric_name": "likes"
   },
   "gh-reason-machines-reason-network": {
@@ -73,8 +74,8 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
@@ -291,8 +292,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 96.0,
    "best_rank": 5,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -313,8 +314,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 93.0,
    "best_rank": 8,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -460,12 +461,12 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 223,
+    "comments": 224,
     "hn": "https://news.ycombinator.com/item?id=50138531"
    },
    "why_at_peak": "+914 points/day pace right now (346 total).",
@@ -482,8 +483,8 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
@@ -565,8 +566,8 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini,\u2026",
    "tag": "agents",
    "extra": {
@@ -636,8 +637,8 @@
    "first_seen": "2026-10-18T12:43:48.479714+00:00",
    "peak_score": 93.7,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
    "tag": "agents",
    "extra": {
@@ -656,8 +657,8 @@
     ],
     "repo_id": 1409246014
    },
-   "why_at_peak": "+1.7K stars/day pace right now (5.3K total).",
-   "metric_at_peak": 5312,
+   "why_at_peak": "+1.6K stars/day pace right now (5.3K total).",
+   "metric_at_peak": 5315,
    "metric_name": "stars"
   },
   "hf-nvidia-nvidia-nemotron-3-5-super-vl-120b-a12b-nvfp4": {
@@ -727,8 +728,8 @@
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
@@ -749,15 +750,15 @@
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
    "peak_score": 96.7,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-18T18:55:37.917827+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-18T18:59:26.276013+00:00",
    "what": "",
    "tag": "safety",
    "extra": {
     "comments": 147,
     "hn": "https://news.ycombinator.com/item?id=50141429"
    },
-   "why_at_peak": "+266 points/day pace right now (133 total).",
+   "why_at_peak": "+255 points/day pace right now (133 total).",
    "metric_at_peak": 133,
    "metric_name": "points"
   },
