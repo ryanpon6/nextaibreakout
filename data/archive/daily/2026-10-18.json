@@ -16,7 +16,8 @@
   "2026-10-18T18:59:26.276013+00:00",
   "2026-10-18T19:10:15.535953+00:00",
   "2026-10-18T20:44:11.403718+00:00",
-  "2026-10-18T21:56:07.890677+00:00"
+  "2026-10-18T21:56:07.890677+00:00",
+  "2026-10-18T23:13:13.420811+00:00"
  ],
  "items": {
   "hn-50129045-deepseek-v4-1-flash-1017": {
@@ -51,13 +52,13 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10233,
-    "trending": 1217,
+    "trending": 1227,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -265,12 +266,12 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 95.4,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-18T04:05:00.242937+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "tag": "agents",
    "extra": {
-    "forks": 42,
+    "forks": 48,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -293,10 +294,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
-   "peak_score": 96.0,
-   "best_rank": 5,
-   "runs_in_top10": 15,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "peak_score": 96.7,
+   "best_rank": 4,
+   "runs_in_top10": 16,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -315,10 +316,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
-   "peak_score": 93.0,
+   "peak_score": 93.8,
    "best_rank": 8,
-   "runs_in_top10": 15,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "runs_in_top10": 16,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -438,13 +439,13 @@
    "first_seen": "2026-10-18T04:05:00.242937+00:00",
    "peak_score": 93.7,
    "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-18T19:10:15.535953+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 338036,
-    "trending": 617,
+    "trending": 633,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -464,12 +465,12 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 248,
+    "comments": 251,
     "hn": "https://news.ycombinator.com/item?id=50138531"
    },
    "why_at_peak": "+914 points/day pace right now (346 total).",
@@ -512,12 +513,12 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 97.5,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-18T14:18:17.509614+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 57,
+    "comments": 81,
     "hn": "https://news.ycombinator.com/item?id=50137950"
    },
    "why_at_peak": "+278 points/day pace right now (177 total).",
@@ -638,14 +639,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-18T12:43:48.479714+00:00",
-   "peak_score": 94.5,
-   "best_rank": 7,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "peak_score": 95.2,
+   "best_rank": 6,
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
    "tag": "agents",
    "extra": {
-    "forks": 653,
+    "forks": 660,
     "lang": "Rust",
     "topics": [
      "3d-modeling",
@@ -660,8 +661,8 @@
     ],
     "repo_id": 1409246014
    },
-   "why_at_peak": "+1.7K stars/day pace right now (5.3K total).",
-   "metric_at_peak": 5329,
+   "why_at_peak": "+1.7K stars/day pace right now (5.6K total).",
+   "metric_at_peak": 5618,
    "metric_name": "stars"
   },
   "hf-nvidia-nvidia-nemotron-3-5-super-vl-120b-a12b-nvfp4": {
@@ -698,10 +699,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-18T13:45:58.611226+00:00",
-   "peak_score": 95.2,
-   "best_rank": 6,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "peak_score": 96.0,
+   "best_rank": 5,
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "Git designed for AI agents.",
    "tag": "agents",
    "extra": {
@@ -717,8 +718,8 @@
     ],
     "repo_id": 1420751050
    },
-   "why_at_peak": "+5.8K stars/day pace right now (1.9K total).",
-   "metric_at_peak": 1868,
+   "why_at_peak": "+5.9K stars/day pace right now (2.2K total).",
+   "metric_at_peak": 2182,
    "metric_name": "stars"
   },
   "hn-50141657-websites-are-closing-their-doors-to-ai-agents": {
@@ -917,16 +918,16 @@
    "first_seen": "2026-10-18T21:56:07.890677+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-18T21:56:07.890677+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-18T23:13:13.420811+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 21,
+    "comments": 70,
     "hn": "https://news.ycombinator.com/item?id=50145337"
    },
-   "why_at_peak": "50 points in 1h on Hacker News (21 comments).",
-   "metric_at_peak": 50,
+   "why_at_peak": "+1.4K points/day pace right now (127 total).",
+   "metric_at_peak": 127,
    "metric_name": "points"
   }
  }
