@@ -1,5 +1,5 @@
 """Render static site + per-run OG image to dist/."""
-import datetime as dt, html, json, os, shutil, subprocess, tempfile
+import datetime as dt, hashlib, html, json, os, shutil, subprocess, tempfile
 from common import DATA, DIST, ROOT
 DIST = os.getenv("NAB_DIST") or DIST
 LABS = os.getenv("LABS") == "1"
@@ -14,13 +14,15 @@ e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">'
 GOLD = "#F2C14E"
+# Cache-busting: stylesheet/font URLs carry a hash of their contents, so a visitor's browser never pairs new pages with an old cached stylesheet.
+VER = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("static/style.css", "fonts/fonts.css"))).hexdigest()[:10]
 # Mark: a frame with a line breaking out through its top-right corner
-LOGO = ('<svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
+LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
         '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#F2C14E" stroke-width="2.6" stroke-linecap="square"/></svg>')
 WORD = f'{LOGO}<span>NextAiBreakout</span>'
-XICON = '<svg class="xi" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.8 2.5h3.1l-6.8 7.8 8 10.6h-6.3l-4.9-6.4-5.6 6.4H2.2l7.3-8.3L1.9 2.5h6.4l4.4 5.9 5.1-5.9zm-1.1 16.6h1.7L7.4 4.3H5.6l11.1 14.8z"/></svg>'
-SUN = '<svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>'
-MOON = '<svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>'
+XICON = '<svg class="xi" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M17.8 2.5h3.1l-6.8 7.8 8 10.6h-6.3l-4.9-6.4-5.6 6.4H2.2l7.3-8.3L1.9 2.5h6.4l4.4 5.9 5.1-5.9zm-1.1 16.6h1.7L7.4 4.3H5.6l11.1 14.8z"/></svg>'
+SUN = '<svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>'
+MOON = '<svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>'
 # Theme: follows the device (prefers-color-scheme) until the visitor picks one with the header button; the choice is kept in localStorage.
 THEME_JS = ("<script>(function(){var d=document.documentElement;try{var t=localStorage.getItem('nab-theme');if(t==='dark'||t==='light')d.setAttribute('data-theme',t)}catch(_){}"
             "document.addEventListener('click',function(ev){var b=ev.target.closest&&ev.target.closest('[data-theme-toggle]');if(!b)return;"
@@ -51,7 +53,7 @@ def trend(hist):
     return spark(hist)
 
 def head(title, desc, path, root="", extra=""):
-    labscss = f'<link rel="stylesheet" href="{root or "/"}labs.css">' if LABS else ""
+    labscss = ""  # lab styles now live in style.css
     labsnav = f'<a href="{root or "/"}labs/">Labs</a>' if LABS else ""
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title>
@@ -62,7 +64,7 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#EDEFF4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#05070D" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="{root}style.css">{labscss}{extra}{THEME_JS}</head><body>
+<link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{THEME_JS}</head><body>
 <header class="top"><a class="brand" href="{root}index.html" aria-label="{BRAND} home">{WORD}</a>
 <nav><a href="{root}index.html#top10">Today</a>{labsnav}<a href="{root}index.html#sponsor">Sponsor</a><a href="{root}about.html">About</a></nav>
 <div class="acts"><button class="ib" type="button" data-theme-toggle aria-label="Switch light or dark theme">{SUN}{MOON}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="{root}index.html#subscribe" class="cta">Subscribe</a></div></header>"""

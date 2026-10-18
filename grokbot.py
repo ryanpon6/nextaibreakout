@@ -79,7 +79,7 @@ def apply(DIST):
                   "itemListElement": [{"@type": "ListItem", "position": k, "name": t, "url": u} for k, (d, t, u) in enumerate(allitems, 1)]}),
               ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in (Q1, Q2)]}),
               ld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": "Grok Bot updates", "item": SITE + PATH}]})]
-    headpart += "".join(schema)  # page styles live in seo2.css (.gb), so they follow the site theme
+    headpart += "".join(schema)  # page styles live in style.css (.gb), so they follow the site theme
     body_open = re.search(r"<body[^>]*>.*?</header>", tpl, re.S).group(0)
     foot = re.search(r"<footer.*?</footer>", tpl, re.S).group(0)
     footlinks = re.search(r'<nav class="footlinks.*?</nav>', tpl, re.S)

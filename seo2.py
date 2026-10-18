@@ -9,7 +9,7 @@ ARC = os.path.join(DATA, "archive")
 TITLE = "Trending AI Repos, Models & Releases Today, Ranked Hourly | NextAiBreakout"
 H1 = B.e(B.H1_TEXT)
 FONT_LINKS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
-              '<link rel="stylesheet" href="/fonts/fonts.css">')
+              f'<link rel="stylesheet" href="/fonts/fonts.css?v={B.VER}">')
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot",
            "Perplexity-User", "Google-Extended", "CCBot", "Applebot-Extended", "Bingbot", "Googlebot"]
 def ipath(slug_or_I, source=None):
@@ -96,7 +96,7 @@ def ld(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_a
 def common(h):
     """Applied to every page: self-hosted fonts, /about canonical+links, root-absolute nav."""
     h = h.replace(B.FONTS, FONT_LINKS)
-    h = re.sub(r'(<link rel="stylesheet" href="/?style\.css">(?:<link rel="stylesheet" href="/labs\.css">)?)', r'\1<link rel="stylesheet" href="/seo2.css">', h, 1)  # load last so overrides win
+    # seo2.css is no longer linked: all styles live in the versioned style.css
     h = h.replace(f"{SITE}/about.html", f"{SITE}/about").replace('href="/about.html"', 'href="/about"').replace('href="about.html', 'href="/about')
     h = h.replace('href="index.html#', 'href="/#').replace('href="index.html"', 'href="/"').replace('href="/index.html#', 'href="/#').replace('href="/index.html"', 'href="/"')
     h = re.sub(r"<nav>.*?</nav>", lambda m: m.group(0) if "/breakouts/" in m.group(0) else m.group(0).replace('<a href="/#sponsor">Sponsor</a>', '<a href="/breakouts/">Breakouts</a><a href="/daily/">Archive</a>', 1), h, 1, re.S)
