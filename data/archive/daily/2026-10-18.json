@@ -8,7 +8,8 @@
   "2026-10-18T08:09:55.667736+00:00",
   "2026-10-18T08:11:57.022141+00:00",
   "2026-10-18T12:43:48.479714+00:00",
-  "2026-10-18T13:45:58.611226+00:00"
+  "2026-10-18T13:45:58.611226+00:00",
+  "2026-10-18T13:53:11.256816+00:00"
  ],
  "items": {
   "hn-50129045-deepseek-v4-1-flash-1017": {
@@ -21,12 +22,12 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-18T04:05:00.242937+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 608,
+    "comments": 675,
     "hn": "https://news.ycombinator.com/item?id=50129045"
    },
    "why_at_peak": "+617 points/day pace right now (673 total).",
@@ -43,13 +44,13 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10233,
-    "trending": 1132,
+    "trending": 1134,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -69,8 +70,8 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 98.3,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
@@ -287,8 +288,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 96.0,
    "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -309,8 +310,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 93.0,
    "best_rank": 8,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -456,16 +457,16 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 153,
+    "comments": 155,
     "hn": "https://news.ycombinator.com/item?id=50138531"
    },
-   "why_at_peak": "+764 points/day pace right now (319 total).",
-   "metric_at_peak": 319,
+   "why_at_peak": "+789 points/day pace right now (324 total).",
+   "metric_at_peak": 324,
    "metric_name": "points"
   },
   "hf-comfy-org-moss-image": {
@@ -504,8 +505,8 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 97.5,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
@@ -561,12 +562,12 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 334,
+    "forks": 338,
     "lang": "Python",
     "topics": [
      "ai-assistant",
@@ -666,8 +667,8 @@
    "first_seen": "2026-10-18T13:45:58.611226+00:00",
    "peak_score": 95.2,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
@@ -692,12 +693,12 @@
    "first_seen": "2026-10-18T13:45:58.611226+00:00",
    "peak_score": 93.7,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-18T13:53:11.256816+00:00",
    "what": "Git designed for AI agents.",
    "tag": "agents",
    "extra": {
-    "forks": 154,
+    "forks": 155,
     "lang": "Go",
     "topics": [
      "ai-agents",
@@ -709,8 +710,8 @@
     ],
     "repo_id": 1420751050
    },
-   "why_at_peak": "+1.9K stars/day pace right now (1.3K total).",
-   "metric_at_peak": 1256,
+   "why_at_peak": "+2.1K stars/day pace right now (1.3K total).",
+   "metric_at_peak": 1272,
    "metric_name": "stars"
   }
  }
