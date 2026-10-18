@@ -3,11 +3,10 @@
 # so a dropped or late slot costs at most ~30 min of freshness. Cron times are UTC.
 name: hourly-refresh
 on:
-  # DISABLED until switchover (Ryan's step): schedule commented out, and the workflow is also disabled in GitHub.
-  # To enable at cutover: uncomment the 3 schedule lines, push, then `gh workflow enable refresh.yml`.
-  # schedule:
-  #   - cron: "17 * * * *"
-  #   - cron: "47 * * * *"
+  # LIVE since 2026-10-18 (switchover approved by Ryan); box tick-loop stopped, run.sh/cron-tick.sh kept for manual fallback.
+  schedule:
+    - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
     inputs:
       force: { description: "Refresh even if the live site is fresh", type: boolean, default: false }
