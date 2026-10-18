@@ -79,7 +79,7 @@ def apply(DIST):
                   "itemListElement": [{"@type": "ListItem", "position": k, "name": t, "url": u} for k, (d, t, u) in enumerate(allitems, 1)]}),
               ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in (Q1, Q2)]}),
               ld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": "Grok Bot updates", "item": SITE + PATH}]})]
-    headpart += "".join(schema) + '<style>.gb h1{font-size:2rem;margin:.2em 0}.gb .lede{color:#b8b8b0;max-width:62ch}.gb ol{list-style:none;padding:0}.gb li.c{border-top:1px solid #222;padding:14px 0}.gb .meta{color:#8a8a84;font-size:.82rem}.gb .meta b{color:#3DDC84;font-weight:600}.gb li.c a{color:#f2f2ee;text-decoration:none;font-weight:600}.gb li.c a:hover{color:#3DDC84}.gb ul.n{margin:.4em 0 0 1.1em;color:#b8b8b0}.gb h2{margin-top:2em;font-size:1.25rem}.gb .faq p{color:#b8b8b0;max-width:70ch}</style>'
+    headpart += "".join(schema)  # page styles live in seo2.css (.gb), so they follow the site theme
     body_open = re.search(r"<body[^>]*>.*?</header>", tpl, re.S).group(0)
     foot = re.search(r"<footer.*?</footer>", tpl, re.S).group(0)
     footlinks = re.search(r'<nav class="footlinks.*?</nav>', tpl, re.S)
@@ -107,7 +107,7 @@ def apply(DIST):
             if h2 != h: open(p, "w").write(h2)
     hp = os.path.join(DIST, "index.html"); h = open(hp).read()
     if 'class="gbhome"' not in h:
-        h = h.replace('<footer', '<p class="wrap mono gbhome">New: <a href="/grok-bot/">Grok Bot updates, features &amp; changelog</a></p><footer', 1); open(hp, "w").write(h)
+        h = h.replace('<footer', '<p class="wrap gbhome">New: <a href="/grok-bot/">Grok Bot updates, features &amp; changelog</a></p><footer', 1); open(hp, "w").write(h)
     xp = os.path.join(DIST, "labs", "xai", "index.html")
     if os.path.exists(xp):
         h = open(xp).read()

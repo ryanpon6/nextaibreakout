@@ -1,14 +1,14 @@
 """SEO2 layer (enabled only with SEO2=1): keyword titles, JSON-LD, /about fixes, robots/llms, self-hosted fonts,
 contrast/heading fixes, daily archive pages and permanent per-item pages. Uses only real recorded data."""
 import datetime as dt, glob, json, os, re, shutil
+from urllib.parse import quote
 import build as B
 from common import DATA, ROOT, SNAP, canon, aliases
 e = B.e; SITE = B.SITE; BRAND = B.BRAND
 ARC = os.path.join(DATA, "archive")
 TITLE = "Trending AI Repos, Models & Releases Today, Ranked Hourly | NextAiBreakout"
-H1 = 'Trending AI repos &amp; models<br><span class="grad">right now.</span>'
-FONT_LINKS = ('<link rel="preload" href="/fonts/SpaceGrotesk-500.woff2" as="font" type="font/woff2" crossorigin>'
-              '<link rel="preload" href="/fonts/JetBrainsMono-400.woff2" as="font" type="font/woff2" crossorigin>'
+H1 = B.e(B.H1_TEXT)
+FONT_LINKS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
               '<link rel="stylesheet" href="/fonts/fonts.css">')
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot",
            "Perplexity-User", "Google-Extended", "CCBot", "Applebot-Extended", "Bingbot", "Googlebot"]
@@ -21,8 +21,8 @@ CATS = [("github", "GitHub", "Trending AI GitHub repos", "source"), ("huggingfac
         ("npm", "npm", "Accelerating AI npm packages", "source"), ("pypi", "PyPI", "Accelerating AI Python packages on PyPI", "source"),
         ("agents", "Agents", "Trending AI agent projects", "tag"), ("models", "Models", "Trending AI models", "tag")]
 def vcrumbs(*pairs):
-    return '<nav class="crumbs mono" aria-label="Breadcrumb">' + " / ".join(f'<a href="{u}">{e(n)}</a>' if k < len(pairs) - 1 else f'<span aria-current="page">{e(n)}</span>' for k, (n, u) in enumerate(pairs)) + "</nav>"
-FOOT_LINKS = ('<nav class="footlinks mono" aria-label="Site"><a href="/">Today</a><a href="/breakouts/">Breakouts</a><a href="/daily/">Daily archive</a>'
+    return '<nav class="crumbs" aria-label="Breadcrumb">' + " / ".join(f'<a href="{u}">{e(n)}</a>' if k < len(pairs) - 1 else f'<span aria-current="page">{e(n)}</span>' for k, (n, u) in enumerate(pairs)) + "</nav>"
+FOOT_LINKS = ('<nav class="footlinks" aria-label="Site"><a href="/">Today</a><a href="/breakouts/">Breakouts</a><a href="/daily/">Daily archive</a>'
               '<a href="/github/">GitHub</a><a href="/huggingface/">Hugging Face</a><a href="/npm/">npm</a><a href="/pypi/">PyPI</a><a href="/agents/">Agents</a><a href="/models/">Models</a>'
               '<a href="/labs/">Frontier Labs</a><a href="/about">About</a><a href="/feed.xml">RSS</a></nav>')
 BLABEL = "Breakouts"
@@ -86,9 +86,9 @@ def badge(x):
 SPONSOR_CONTACT = os.getenv("SPONSOR_CONTACT", "").strip()  # e.g. sponsors@nextaibreakout.com once its forwarding is verified
 def sponsor_strip():
     if re.fullmatch(r"[^@\s]+@[^@\s]+\.[a-z]{2,}", SPONSOR_CONTACT or ""):
-        return (f'<section id="sponsor" class="spon slim"><span class="tag-s mono">SPONSOR</span><p>Your product here, pinned for 7 days. Sponsor this spot: email for rates.</p>'
+        return (f'<section id="sponsor" class="spon slim"><span class="tag-s">Sponsor</span><p>Your product here, pinned for 7 days. Sponsor this spot: email for rates.</p>'
                 f'<a class="btn" href="mailto:{e(SPONSOR_CONTACT)}?subject=NextAiBreakout%20sponsorship">{e(SPONSOR_CONTACT)}</a></section>')
-    return '<section id="sponsor" class="spon slim"><span class="tag-s mono">SPONSOR</span><p>Your product here, pinned for 7 days. Sponsorships: contact coming soon.</p></section>'
+    return '<section id="sponsor" class="spon slim"><span class="tag-s">Sponsor</span><p>Your product here, pinned for 7 days. Sponsorships: contact coming soon.</p></section>'
 def sponsor_about():
     if SPONSOR_CONTACT: return f'One pinned slot per week on the site. Sponsor this spot: email <a href="mailto:{e(SPONSOR_CONTACT)}">{e(SPONSOR_CONTACT)}</a> for rates.'
     return "One pinned slot per week on the site. Sponsorships: contact coming soon."
@@ -180,35 +180,25 @@ def apply(DIST, d, t):
     h = re.sub(r"<title>.*?</title>", f"<title>{e(TITLE)}</title>", h, 1, re.S)
     h = h.replace('<meta property="og:title" content="' + e(f"{BRAND}: what's breaking out in AI right now") + '">', f'<meta property="og:title" content="{e(TITLE)}">')
     h = re.sub(r"<h1>.*?</h1>", f"<h1>{H1}</h1>", h, 1, re.S)
-    h = re.sub(r'(<a class="hcard"[^>]*>.*?)<h3>(.*?)</h3>', r'\1<h2 class="hc-h">\2</h2>', h, 1, re.S)  # heading order: h1 -> h2
     def hrow(i, n):
         sl = slug_of[i["id"]]; ip = ipath(sl, i["source"]) if sl in items else None
         t_ = (f'<a class="title" href="{ip}">{e(i["name"])}</a>' if ip else f'<a class="title" href="{e(i["url"])}" rel="nofollow noopener" target="_blank">{e(i["name"])}</a>')
-        return (f'<tr data-src="{i["source"]}" data-tag="{i["tag"]}"><td class="rk mono">{n:02d}</td><td class="it"><div class="badges"><span class="sb s-{i["source"]}">{badge(i)}</span><span class="tg"># {e(i["tag"])}</span></div>'
+        return (f'<tr data-src="{i["source"]}" data-tag="{i["tag"]}"><td class="rk">{n}</td><td class="it"><div class="badges"><span class="sb s-{i["source"]}">{badge(i)}</span><span class="tg">#{e(i["tag"])}</span></div>'
                 f'{t_}<a class="out" href="{e(i["url"])}" rel="nofollow noopener" target="_blank" aria-label="Open on {B.LABEL[i["source"]]}">↗</a><p class="what">{e(desc_of(i))}</p></td>'
-                f'<td class="tr">{B.spark(i.get("hist"))}</td><td class="mo mono"><b>{e(measure(i))}</b><span>{e(total_of(i))}</span></td>'
-                f'<td class="sc mono"><b>{i["score"]:.0f}</b><i><u style="width:{i["score"]:.0f}%"></u></i></td></tr>')
+                f'<td class="tr">{B.trend(i.get("hist"))}</td><td class="mo"><b>{e(measure(i))}</b><span>{e(total_of(i))}</span></td>'
+                f'<td class="sc"><b>{i["score"]:.0f}</b><i><u style="width:{i["score"]:.0f}%"></u></i></td></tr>')
     h = re.sub(r"<tbody>.*?</tbody>", "<tbody>" + "".join(hrow(i, n + 1) for n, i in enumerate(d["top"])).replace("\\", "\\\\") + "</tbody>", h, 1, re.S)
-    if d["top"]:
-        o = d["top"][0]
-        if slug_of[o["id"]] in items: h = h.replace(f'<a class="hcard" href="{e(o["url"])}" rel="nofollow noopener" target="_blank">', f'<a class="hcard" href="{ipath(slug_of[o["id"]], o["source"])}">', 1)
-        h = re.sub(r'<div class="hc-stats mono"><div><b class="green">.*?</span></div>', f'<div class="hc-stats mono"><div><b class="green">{e(measure(o))}</b><span>{e(total_of(o))}</span></div>', h, 1, re.S)
-        h = re.sub(r'(<a class="hcard"[^>]*>.*?</h2>)<p>.*?</p>', lambda m: m.group(1) + f"<p>{e(desc_of(o))}</p>", h, 1, re.S)
-        h = re.sub(r'(<div class="hc-top mono"><span class="pink">#1 BREAKING NOW</span><span class="sb s-[a-z]+">)[^<]*', lambda m: m.group(1) + badge(o), h, 1)
-    # ticker: one copy only, names cut on word boundaries (no mid-word cuts on phones)
-    def wcut(x, n=40): return x if len(x) <= n else x[:n].rsplit(" ", 1)[0].rstrip(" -:,") + "…"
-    tk = "".join(f'<span><i>{k+1:02d}</i> {e(wcut(x["name"]))} <b>▲ {x["score"]:.0f}</b></span>' for k, x in enumerate(d["top"]))
-    h = re.sub(r'<div class="tk-in">.*?</div></div></div>', f'<div class="tk-in">{tk}</div></div></div>', h, 1, re.S)
+    # hero chart label: link to the item's permanent page when it has one
+    for o in d["top"]:
+        if slug_of[o["id"]] in items:
+            h = h.replace(f'<a class="hc-link" href="{e(o["url"])}" rel="nofollow noopener" target="_blank">', f'<a class="hc-link" href="{ipath(slug_of[o["id"]], o["source"])}">', 1)
     # sponsor: slim strip below the top 10
-    m = re.search(r'<section id="sponsor" class="spon">.*?</section>\n?', h, re.S)
-    if m:
-        h = h.replace(m.group(0), "", 1)
-        strip = sponsor_strip()
-        h = h.replace('<section id="frontier">', strip + '<section id="frontier">', 1)
+    m = re.search(r'<section id="sponsor" class="spon">.*?</section>', h, re.S)
+    if m: h = h.replace(m.group(0), sponsor_strip(), 1)
     cats = "".join(f'<a href="/{c[0]}/">{c[1]}</a>' for c in CATS)
-    h = h.replace('<p class="empty dim" hidden>', f'<p class="catlinks mono">Browse: {cats}<a href="/breakouts/">Breakouts</a></p><p class="empty dim" hidden>', 1)
+    h = h.replace('<p class="empty dim" hidden>', f'<p class="catlinks">Browse: {cats}<a href="/breakouts/">Breakouts</a></p><p class="empty dim" hidden>', 1)
     latest = max(days) if days else None
-    arch = (f'<p class="arch mono dim">Every top-10 item gets a permanent history page. <a href="/daily/{latest}/">Today\'s archive ({latest}) →</a> · <a href="/daily/">All days</a></p>'
+    arch = (f'<p class="arch dim">Every top-10 item gets a permanent history page. <a href="/daily/{latest}/">Today\'s archive ({latest})</a> <a href="/daily/">All days</a></p>'
             if latest else "")
     h = h.replace('<p class="empty dim" hidden>', arch + '<p class="empty dim" hidden>', 1)
     j = {"@context": "https://schema.org", "@graph": [
@@ -239,17 +229,20 @@ def apply(DIST, d, t):
         cur = POOL.get(I["id"], {}); Iv = {**I, **{k: cur[k] for k in ("metric", "extra") if k in cur}}
         if not Iv.get("metric") and I.get("appearances"): Iv["metric"] = I["appearances"][-1]["metric"]
         hist = [m for _, m in S]
-        rows = "".join(f"<tr><td class='mono dim'>{fmt_t(a['t'])}</td><td class='mono'>#{a['rank']}</td><td class='mono'>{a['score']:.0f}</td><td class='mono'>{B.e(str(a['metric']))}</td></tr>" for a in reversed(I["appearances"][-48:]))
-        dlinks = " · ".join(f'<a href="/daily/{x}/">{x}</a>' for x in reversed(I.get("days", [])))
+        rows = "".join(f"<tr><td class='dim'>{fmt_t(a['t'])}</td><td>#{a['rank']}</td><td>{a['score']:.0f}</td><td>{B.e(str(a['metric']))}</td></tr>" for a in reversed(I["appearances"][-48:]))
+        dlinks = ", ".join(f'<a href="/daily/{x}/">{x}</a>' for x in reversed(I.get("days", [])))
         title = f"{I['name'][:70]}: breakout history and stats | {BRAND}"
         desc = f"{I['name'][:80]} ({badge(I)}) reached #{I['best_rank']} on NextAiBreakout's hourly AI breakout ranking. Real hourly {I['metric_name']} history and top-10 appearances."
-        page = B.head(title, desc, path, "/", ld(item_schema(Iv, path))) + f"""<main><section class="labs-hero"><p class="kick mono"><a href="/daily/">ARCHIVE</a> / {e(badge(I).upper())}</p>
+        enough = len(hist) >= 3 and max(hist) != min(hist)
+        chart = (f'<div class="item-spark">{B.spark(hist, 720, 120, B.GOLD, True)}</div>' if enough else
+                 f'<div class="item-spark wait"><p>The history chart appears once this item has 3 hourly snapshots. {plural(len(hist), "snapshot")} recorded so far.</p></div>')
+        page = B.head(title, desc, path, "/", ld(item_schema(Iv, path))) + f"""<main><section class="labs-hero">
 <h1>{e(I['name'])}</h1><p class="dim">{e(desc_of(I))}</p>
-<div class="btns"><a class="btn pri" href="{e(I['url'])}" rel="nofollow noopener" target="_blank">Open on {B.LABEL[I['source']]} →</a></div></section>
-<section class="stats"><div><span class="mono">BEST RANK</span><b>#{I['best_rank']}</b></div><div><span class="mono">PEAK SCORE</span><b>{I['peak_score']:.0f}</b></div>
-<div><span class="mono">HOURS IN TOP 10</span><b>{len(I['appearances'])}</b></div><div><span class="mono">FIRST SEEN</span><b class="mono fs">{fmt_t(I['first_seen'])[:12]}</b></div></section>
+<div class="btns"><a class="btn pri" href="{e(I['url'])}" rel="nofollow noopener" target="_blank">Open on {B.LABEL[I['source']]}</a><a class="btn share" href="https://x.com/intent/tweet?text={quote(I['name'][:120] + ' is breaking out on NextAiBreakout')}&amp;url={quote(SITE + path)}&amp;via={B.X_HANDLE[1:]}" rel="noopener" target="_blank">Share on X</a></div></section>
+<section class="stats"><div><span>Best rank</span><b>#{I['best_rank']}</b></div><div><span>Peak score</span><b>{I['peak_score']:.0f}</b></div>
+<div><span>Hours in top 10</span><b>{len(I['appearances'])}</b></div><div><span>First seen</span><b class="fs">{fmt_t(I['first_seen'])[:12]}</b></div></section>
 <section><h2>{e(I['metric_name'].capitalize())} history</h2><p class="dim">From {len(hist)} real hourly snapshots{(' (' + fmt_t(S[0][0]) + ' to ' + fmt_t(S[-1][0]) + ')') if S else ''}. Nothing is interpolated.</p>
-<div class="item-spark">{B.spark(hist, 720, 120, '#3DDC84', True)}</div><p class="mono dim">Momentum: {e(measure(Iv))} · {e(total_of(Iv))}</p></section>
+{chart}<p class="dim mom">Momentum: {e(measure(Iv))}, {e(total_of(Iv))}</p></section>
 <section><h2>Top-10 appearances</h2><div class="tbl"><table class="apps"><thead><tr><th>Run</th><th>Rank</th><th>Score</th><th>{e(I['metric_name'])}</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="dim">Days in the archive: {dlinks}</p></section></main>""" + B.foot(t.year, "/") + "</body></html>"
         page = page.replace("<main>", "<main>" + vcrumbs(("Home", "/"), (B.LABEL[I["source"]], f"/{I['source']}/" if I["source"] in {c[0] for c in CATS} else "/daily/"), (I["name"][:60], path)), 1)
@@ -260,22 +253,22 @@ def apply(DIST, d, t):
         D = days[day]; its = sorted(D["items"].values(), key=lambda x: (-x["peak_score"], x["best_rank"]))
         path = f"/daily/{day}/"; nice = dt.date.fromisoformat(day).strftime("%B %-d, %Y")
         nav = (f'<a href="/daily/{ds[k-1]}/">← {ds[k-1]}</a>' if k else "") + (f' <a href="/daily/{ds[k+1]}/">{ds[k+1]} →</a>' if k + 1 < len(ds) else "")
-        lis = "".join(f"""<li><span class="rk mono">{n:02d}</span><div><span class="sb s-{x['source']}">{badge(x)}</span> <a class="title" href="{ipath(x)}">{e(x['name'])}</a>
-<p class="what">{e(desc_of(x))}</p><p class="mono dim">Peak score {x['peak_score']:.0f} · best #{x['best_rank']} · {min(x['runs_in_top10'], len(D['runs']))} of {plural(len(D['runs']), 'hourly run')} in top 10 · {e(measure(dict(x, metric=(SER.get(x['id']) or [(0, x.get('metric_at_peak') or 0)])[-1][1], created=items.get(x['slug'], {}).get('created'))))}</p></div></li>""" for n, x in enumerate(its, 1))
+        lis = "".join(f"""<li><span class="rk">{n}</span><div><span class="sb s-{x['source']}">{badge(x)}</span> <a class="title" href="{ipath(x)}">{e(x['name'])}</a>
+<p class="what">{e(desc_of(x))}</p><p class="meta dim">Peak score {x['peak_score']:.0f} · best #{x['best_rank']} · {min(x['runs_in_top10'], len(D['runs']))} of {plural(len(D['runs']), 'hourly run')} in top 10 · {e(measure(dict(x, metric=(SER.get(x['id']) or [(0, x.get('metric_at_peak') or 0)])[-1][1], created=items.get(x['slug'], {}).get('created'))))}</p></div></li>""" for n, x in enumerate(its, 1))
         title = f"Trending AI repos & models on {nice}: daily breakout archive | {BRAND}"
         desc = f"The AI repos, models and stories that hit NextAiBreakout's hourly top 10 on {nice} (UTC), with peak scores and real metrics."
         j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": f"AI breakouts on {nice}", "url": SITE + path, "datePublished": day,
              "mainEntity": {"@type": "ItemList", "numberOfItems": len(its), "itemListElement": [{"@type": "ListItem", "position": n, "name": x["name"], "url": SITE + ipath(x)} for n, x in enumerate(its, 1)]}},
              crumbs(("Home", "/"), ("Archive", "/daily/"), (day, path))]}
-        page = B.head(title, desc, path, "/", ld(j)) + f"""<main><section class="labs-hero"><p class="kick mono"><a href="/daily/">DAILY ARCHIVE</a> / {day}</p>
-<h1>Trending AI on {nice}</h1><p class="stamp mono"><span class="dot"></span>{len(D['runs'])} hourly run{'s' if len(D['runs']) != 1 else ''} recorded · day in UTC · last {fmt_t(D['runs'][-1])}</p>
+        page = B.head(title, desc, path, "/", ld(j)) + f"""<main><section class="labs-hero">
+<h1>Trending AI on {nice}</h1><p class="stamp"><span class="dot"></span>{len(D['runs'])} hourly run{'s' if len(D['runs']) != 1 else ''} recorded · day in UTC · last {fmt_t(D['runs'][-1])}</p>
 <p class="dim">Everything that reached the hourly top 10 on this day, ordered by peak breakout score. Recorded live; no days are backfilled.</p></section>
-<ol class="daylist">{lis}</ol><p class="mono daynav">{nav}</p></main>""" + B.foot(t.year, "/") + "</body></html>"
+<ol class="daylist">{lis}</ol><p class="daynav">{nav}</p></main>""" + B.foot(t.year, "/") + "</body></html>"
         page = page.replace("<main>", "<main>" + vcrumbs(("Home", "/"), ("Daily archive", "/daily/"), (day, path)), 1)
         wr(os.path.join(DIST, "daily", day, "index.html"), page)
-    idx = "".join(f'<li><a href="/daily/{x}/">{dt.date.fromisoformat(x).strftime("%B %-d, %Y")}</a> <span class="mono dim">· {len(days[x]["items"])} items · {len(days[x]["runs"])} runs</span></li>' for x in reversed(ds))
+    idx = "".join(f'<li><a href="/daily/{x}/">{dt.date.fromisoformat(x).strftime("%B %-d, %Y")}</a> <span class="dim">{len(days[x]["items"])} items, {len(days[x]["runs"])} runs</span></li>' for x in reversed(ds))
     page = B.head(f"Daily AI breakout archive: trending AI repos and models by day | {BRAND}", "Day-by-day archive of the AI repos, models and stories that reached NextAiBreakout's hourly top 10. Recorded live since Oct 15, 2026.", "/daily/", "/",
-                  ld({"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "Daily AI breakout archive", "url": SITE + "/daily/"}, crumbs(("Home", "/"), ("Archive", "/daily/"))]})) + f"""<main><section class="labs-hero"><p class="kick mono">ARCHIVE</p><h1>Daily AI breakout archive</h1>
+                  ld({"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "Daily AI breakout archive", "url": SITE + "/daily/"}, crumbs(("Home", "/"), ("Archive", "/daily/"))]})) + f"""<main><section class="labs-hero"><h1>Daily AI breakout archive</h1>
 <p class="dim">One page per day, recorded live from the hourly ranking since {ds[0] if ds else 'today'}. No backfilled days.</p></section><ul class="dayidx">{idx or '<li class="dim">No days recorded yet.</li>'}</ul></main>""" + B.foot(t.year, "/") + "</body></html>"
     wr(os.path.join(DIST, "daily", "index.html"), page.replace("<main>", "<main>" + vcrumbs(("Home", "/"), ("Daily archive", "/daily/")), 1))
     extra_pages(DIST, d, t, items, days, slug_of, ser)
@@ -301,9 +294,9 @@ def row_html(x, items, slug_of, n):
     import archive
     sl = archive.slug(x); ip = ipath(sl, x["source"]) if sl in items else None
     title = f'<a class="title" href="{ip}">{e(x["name"])}</a>' if ip else f'<a class="title" href="{e(x["url"])}" rel="nofollow noopener" target="_blank">{e(x["name"])}</a>'
-    return (f'<li><span class="rk mono">{n:02d}</span><div><span class="sb s-{x["source"]}">{badge(x)}</span> <span class="tg">#{e(x.get("tag") or "")}</span> {title}'
+    return (f'<li><span class="rk">{n}</span><div><span class="sb s-{x["source"]}">{badge(x)}</span> <span class="tg">#{e(x.get("tag") or "")}</span> {title}'
             f'<a class="out" href="{e(x["url"])}" rel="nofollow noopener" target="_blank" aria-label="Open on {B.LABEL[x["source"]]}">↗</a>'
-            f'<p class="what">{e(desc_of(x))}</p><p class="mono dim">Score {x["score"]:.0f} · {e(measure(x))} · {e(total_of(x))}</p></div></li>')
+            f'<p class="what">{e(desc_of(x))}</p><p class="meta dim">Score {x["score"]:.0f} · {e(measure(x))} · {e(total_of(x))}</p></div></li>')
 def extra_pages(DIST, d, t, items, days, slug_of, ser):
     pool = {}
     for k in ("top", "models", "tools", "news", "frontier"):
@@ -322,8 +315,8 @@ def extra_pages(DIST, d, t, items, days, slug_of, ser):
              "url": SITE + ipath(slug_of.get(x["id"]) or __import__("archive").slug(x), x["source"]) if (__import__("archive").slug(x) in items) else x["url"]} for n, x in enumerate(its, 1)]}},
              crumbs(("Home", "/"), (label, path))]}
         body = "".join(row_html(x, items, slug_of, n) for n, x in enumerate(its, 1)) or f'<li class="dim lab-empty">Nothing from {e(label)} in this hour\'s scored set.</li>'
-        page = B.head(title, desc, path, "/", ld(j)) + f"""<main>{vcrumbs(("Home", "/"), (label, path))}<section class="labs-hero"><p class="kick mono">{e(label.upper())}</p><h1>{e(h1)}</h1>
-<p class="stamp mono"><span class="dot"></span>Updated {stamp}</p><p class="dim">{rule}</p></section><ol class="daylist">{body}</ol></main>""" + B.foot(t.year, "/") + "</body></html>"
+        page = B.head(title, desc, path, "/", ld(j)) + f"""<main>{vcrumbs(("Home", "/"), (label, path))}<section class="labs-hero"><h1>{e(h1)}</h1>
+<p class="stamp"><span class="dot"></span>Updated {stamp}</p><p class="dim">{rule}</p></section><ol class="daylist">{body}</ol></main>""" + B.foot(t.year, "/") + "</body></html>"
         wr(os.path.join(DIST, key, "index.html"), page)
     # ---- weekly breakouts (last 7 recorded days, real archive only)
     last = sorted(days)[-7:]; agg = {}
@@ -337,13 +330,13 @@ def extra_pages(DIST, d, t, items, days, slug_of, ser):
     ranked = sorted(agg.items(), key=lambda kv: (-kv[1]["runs"], -kv[1]["peak_score"]))
     its = [x for n, (sl, x) in enumerate(ranked) if n < 25 or sl in cur10]
     nruns = sum(len(days[x]["runs"]) for x in last)
-    lis = "".join(f"""<li><span class="rk mono">{n:02d}</span><div><span class="sb s-{x['source']}">{badge(x)}</span> <a class="title" href="{ipath(x)}">{e(x['name'])}</a><a class="out" href="{e(x['url'])}" rel="nofollow noopener" target="_blank" aria-label="Open on {B.LABEL[x['source']]}">↗</a>
-<p class="what">{e(desc_of(x))}</p><p class="mono dim">{min(x['runs'], nruns)} of {plural(nruns, 'hourly run')} in the top 10 · peak score {x['peak_score']:.0f} · best #{x['best_rank']} · {len(x['days'])} day{'s' if len(x['days'])!=1 else ''}</p></div></li>""" for n, x in enumerate(its, 1)) or '<li class="dim">No runs recorded yet.</li>'
+    lis = "".join(f"""<li><span class="rk">{n}</span><div><span class="sb s-{x['source']}">{badge(x)}</span> <a class="title" href="{ipath(x)}">{e(x['name'])}</a><a class="out" href="{e(x['url'])}" rel="nofollow noopener" target="_blank" aria-label="Open on {B.LABEL[x['source']]}">↗</a>
+<p class="what">{e(desc_of(x))}</p><p class="meta dim">{min(x['runs'], nruns)} of {plural(nruns, 'hourly run')} in the top 10 · peak score {x['peak_score']:.0f} · best #{x['best_rank']} · {len(x['days'])} day{'s' if len(x['days'])!=1 else ''}</p></div></li>""" for n, x in enumerate(its, 1)) or '<li class="dim">No runs recorded yet.</li>'
     span = f"{last[0]} to {last[-1]}" if last else "no days yet"
     j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": BLABEL, "url": SITE + "/breakouts/",
          "mainEntity": {"@type": "ItemList", "numberOfItems": len(its), "itemListElement": [{"@type": "ListItem", "position": n, "name": x["name"], "url": SITE + ipath(x)} for n, x in enumerate(its, 1)]}}, crumbs(("Home", "/"), (BLABEL, "/breakouts/"))]}
     page = B.head(f"{BLABEL}: AI repos and models that stayed in the top 10 | {BRAND}", f"The AI repos, models and stories that held NextAiBreakout's hourly top 10 longest over the last 7 recorded days ({span}).", "/breakouts/", "/", ld(j)) + f"""<main>{vcrumbs(("Home", "/"), (BLABEL, "/breakouts/"))}
-<section class="labs-hero"><p class="kick mono">{e(BLABEL.upper())}</p><h1>{e(BLABEL)}</h1><p class="stamp mono"><span class="dot"></span>{span} · {plural(nruns, 'hourly run')} recorded</p>
+<section class="labs-hero"><h1>{e(BLABEL)}</h1><p class="stamp"><span class="dot"></span>{span} · {plural(nruns, 'hourly run')} recorded</p>
 <p class="dim">Ranked by how many hourly runs each item spent in the top 10, then by peak score; everything in the current top 10 is always listed. Built only from recorded runs{' (recording started Oct 15, 2026, so this list is partial)' if len(last) < 7 else ''}.</p></section><ol class="daylist">{lis}</ol></main>""" + B.foot(t.year, "/") + "</body></html>"
     wr(os.path.join(DIST, "breakouts", "index.html"), page)
     # ---- RSS: newest items to enter the top 10 (real first-seen times)

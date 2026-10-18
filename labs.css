@@ -1,9 +1,1 @@
-/* frontier labs */
-.lab-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.lab-card h3{margin:6px 0 2px}
-.labs-hero h1{font-size:40px;line-height:1.1;margin:10px 0}
-.lab-panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 20px;margin-top:24px}
-.lab-items{list-style:none;margin:0;padding:0}.lab-items li{display:grid;grid-template-columns:130px minmax(0,1fr) auto;gap:14px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
-.lab-items li:last-child{border:0}.lab-items time,.lab-src{font-size:12px}.lab-items a:hover{color:var(--gr)}.lab-empty{padding:18px 0}
-.lab-sources{margin-top:30px}.lab-sources a{color:var(--gr)}
-@media (max-width:820px){.lab-grid{grid-template-columns:minmax(0,1fr)}}
-@media (max-width:640px){.labs-hero h1{font-size:28px}.lab-items li{grid-template-columns:minmax(0,1fr);gap:4px}}
+/* Frontier Labs styles now live in style.css. Kept so existing pages that link it still load. */
