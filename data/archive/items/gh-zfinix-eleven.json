@@ -1,0 +1,76 @@
+{
+ "id": "gh:Zfinix/eleven",
+ "slug": "gh-zfinix-eleven",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.0,
+   "metric": 420,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.3,
+   "metric": 495,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.3,
+   "metric": 495,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.9,
+   "metric": 499,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 560,
+   "t": "2026-10-16T11:55:01.939711+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 568,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  }
+ ],
+ "peak_score": 97.0,
+ "best_rank": 2,
+ "name": "Zfinix/eleven",
+ "url": "https://github.com/Zfinix/eleven",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.",
+ "what": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-13T13:47:31Z",
+ "last_seen": "2026-10-16T13:08:32.004159+00:00",
+ "last_why": "+157 stars/day pace right now (568 total).",
+ "days": [
+  "2026-10-15",
+  "2026-10-16"
+ ],
+ "extra": {
+  "forks": 90,
+  "lang": "TypeScript",
+  "topics": [
+   "acp",
+   "ai-agents",
+   "android",
+   "decompiler",
+   "disassembler",
+   "ghidra",
+   "hopper",
+   "macos",
+   "rea",
+   "reverse-engineering"
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "hfmodel:meta-models/Muse-Spark-Open-816B-A42B",
+ "slug": "hf-meta-models-muse-spark-open-816b-a42b",
+ "first_seen": "2026-10-16T03:27:57.286903+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 90.9,
+   "metric": 280,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 90.8,
+   "metric": 359,
+   "t": "2026-10-16T11:55:01.939711+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.8,
+   "metric": 369,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.8,
+   "metric": 388,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.5,
+   "metric": 399,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.2,
+   "metric": 416,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.9,
+   "metric": 420,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 90.3,
+   "metric": 421,
+   "t": "2026-10-16T18:50:01.541764+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 6,
+ "name": "meta-models/Muse-Spark-Open-816B-A42B",
+ "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-15T19:23:19.000Z",
+ "last_seen": "2026-10-16T18:50:01.541764+00:00",
+ "last_why": "+160 likes/day pace right now (421 total).",
+ "extra": {
+  "downloads": 815,
+  "trending": 399,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

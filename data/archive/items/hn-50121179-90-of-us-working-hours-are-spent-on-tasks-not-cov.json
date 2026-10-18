@@ -1,0 +1,52 @@
+{
+ "id": "hn:50121179",
+ "slug": "hn-50121179-90-of-us-working-hours-are-spent-on-tasks-not-cov",
+ "first_seen": "2026-10-16T18:05:01.095508+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 74,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 144,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.6,
+   "metric": 167,
+   "t": "2026-10-16T18:50:01.541764+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.8,
+   "metric": 419,
+   "t": "2026-10-17T02:55:01.951277+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+ "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-16T17:08:38Z",
+ "last_seen": "2026-10-17T02:55:01.951277+00:00",
+ "last_why": "+352 points/day pace right now (419 total).",
+ "extra": {
+  "comments": 355,
+  "hn": "https://news.ycombinator.com/item?id=50121179"
+ },
+ "days": [
+  "2026-10-16",
+  "2026-10-17"
+ ]
+}

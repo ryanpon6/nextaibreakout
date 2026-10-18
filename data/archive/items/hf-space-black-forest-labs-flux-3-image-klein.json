@@ -1,0 +1,43 @@
+{
+ "id": "hfspace:black-forest-labs/flux-3-image-klein",
+ "slug": "hf-space-black-forest-labs-flux-3-image-klein",
+ "first_seen": "2026-10-16T03:05:22.658292+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 92.0,
+   "metric": 45,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 92.0,
+   "metric": 45,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  }
+ ],
+ "peak_score": 92.0,
+ "best_rank": 6,
+ "name": "black-forest-labs/flux-3-image-klein",
+ "url": "https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein",
+ "source": "huggingface",
+ "kind": "tool",
+ "desc": "gradio",
+ "what": "",
+ "tag": "tools",
+ "metric_name": "likes",
+ "created": "2026-10-14T12:10:53.000Z",
+ "last_seen": "2026-10-16T03:07:01.766756+00:00",
+ "last_why": "",
+ "extra": {
+  "downloads": null,
+  "trending": 46,
+  "hf_type": "space",
+  "title": "FLUX 3 Image Klein",
+  "summary": "5.6B open weights. Text-to-image, editing, bounding boxes",
+  "sdk": "gradio"
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "hfmodel:datalab-to/indra-ocr",
+ "slug": "hf-datalab-to-indra-ocr",
+ "first_seen": "2026-10-16T20:35:01.886580+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 124,
+   "t": "2026-10-16T20:35:01.886580+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 124,
+   "t": "2026-10-16T20:40:01.109613+00:00"
+  }
+ ],
+ "peak_score": 93.6,
+ "best_rank": 8,
+ "name": "datalab-to/indra-ocr",
+ "url": "https://huggingface.co/datalab-to/indra-ocr",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-text",
+ "what": "image-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-10T14:12:33.000Z",
+ "last_seen": "2026-10-16T20:40:01.109613+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 124 likes, 442 downloads.",
+ "extra": {
+  "downloads": 442,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

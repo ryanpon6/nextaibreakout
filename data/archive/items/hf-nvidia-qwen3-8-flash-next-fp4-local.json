@@ -1,0 +1,67 @@
+{
+ "id": "hfmodel:nvidia/Qwen3.8-Flash-Next-FP4-Local",
+ "slug": "hf-nvidia-qwen3-8-flash-next-fp4-local",
+ "first_seen": "2026-10-16T18:05:01.095508+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 94.2,
+   "metric": 125,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.6,
+   "metric": 128,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 88.4,
+   "metric": 138,
+   "t": "2026-10-16T20:35:01.886580+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 87.1,
+   "metric": 138,
+   "t": "2026-10-16T20:40:01.109613+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 91.7,
+   "metric": 143,
+   "t": "2026-10-16T23:40:01.929973+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 89.8,
+   "metric": 143,
+   "t": "2026-10-16T23:45:01.686524+00:00"
+  }
+ ],
+ "peak_score": 95.6,
+ "best_rank": 6,
+ "name": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+ "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-08T16:20:17.000Z",
+ "last_seen": "2026-10-16T23:45:01.686524+00:00",
+ "last_why": "+66 likes/day pace right now (143 total).",
+ "extra": {
+  "downloads": 771,
+  "trending": 142,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

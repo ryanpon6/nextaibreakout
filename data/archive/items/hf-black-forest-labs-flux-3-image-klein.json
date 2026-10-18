@@ -1,0 +1,99 @@
+{
+ "id": "hfmodel:black-forest-labs/flux-3-image-klein",
+ "slug": "hf-black-forest-labs-flux-3-image-klein",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.0,
+   "metric": 173,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.0,
+   "metric": 256,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.0,
+   "metric": 257,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.6,
+   "metric": 261,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 92.8,
+   "metric": 343,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.0,
+   "metric": 358,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 370,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.2,
+   "metric": 379,
+   "t": "2026-10-16T17:00:01.940387+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 84.1,
+   "metric": 396,
+   "t": "2026-10-16T22:35:01.258098+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 84.1,
+   "metric": 396,
+   "t": "2026-10-16T22:40:01.224918+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.7,
+   "metric": 439,
+   "t": "2026-10-17T17:05:00.456633+00:00"
+  }
+ ],
+ "peak_score": 98.0,
+ "best_rank": 2,
+ "name": "black-forest-labs/flux-3-image-klein",
+ "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-image",
+ "what": "image-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-13T10:58:40.000Z",
+ "last_seen": "2026-10-17T17:05:00.456633+00:00",
+ "last_why": "+174 likes/day pace right now (439 total).",
+ "extra": {
+  "downloads": 46123,
+  "trending": 409,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-15",
+  "2026-10-16",
+  "2026-10-17"
+ ]
+}

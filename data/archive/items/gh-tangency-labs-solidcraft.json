@@ -1,0 +1,98 @@
+{
+ "id": "gh:tangency-labs/solidcraft",
+ "slug": "gh-tangency-labs-solidcraft",
+ "first_seen": "2026-10-16T15:35:01.463894+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.2,
+   "metric": 2992,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.6,
+   "metric": 3005,
+   "t": "2026-10-16T17:00:01.940387+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.9,
+   "metric": 3024,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.5,
+   "metric": 3028,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.9,
+   "metric": 3633,
+   "t": "2026-10-17T13:55:42.763161+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.9,
+   "metric": 3722,
+   "t": "2026-10-17T14:55:00.866467+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.9,
+   "metric": 3950,
+   "t": "2026-10-17T18:05:00.160579+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 93.2,
+   "metric": 4006,
+   "t": "2026-10-17T19:05:00.188345+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 93.0,
+   "metric": 4826,
+   "t": "2026-10-18T12:43:48.479714+00:00"
+  }
+ ],
+ "peak_score": 95.6,
+ "best_rank": 4,
+ "name": "tangency-labs/solidcraft",
+ "url": "https://github.com/tangency-labs/solidcraft",
+ "source": "github",
+ "kind": "tool",
+ "desc": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+ "what": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-07T18:57:48Z",
+ "last_seen": "2026-10-18T12:43:48.479714+00:00",
+ "last_why": "+1.5K stars/day pace right now (4.8K total).",
+ "extra": {
+  "forks": 576,
+  "lang": "Rust",
+  "topics": [
+   "3d-modeling",
+   "brep",
+   "cad",
+   "egui",
+   "mcp",
+   "parametric-cad",
+   "rust",
+   "step",
+   "wasm"
+  ],
+  "repo_id": 1409246014
+ },
+ "days": [
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-18"
+ ],
+ "aliases": [
+  "gh:bherbruck/solidcraft"
+ ]
+}

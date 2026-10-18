@@ -1,0 +1,51 @@
+{
+ "id": "gh:hanzohanzhe/Grandet",
+ "slug": "gh-hanzohanzhe-grandet",
+ "first_seen": "2026-10-16T15:35:01.463894+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.8,
+   "metric": 197,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 5,
+ "name": "hanzohanzhe/Grandet",
+ "url": "https://github.com/hanzohanzhe/Grandet",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Find the cheapest API for any model and connect it from your AI agent: Grandet Skill and an anonymous MCP server, backed by listed prices from 1,800+ official, inference and relay providers on grandet.ai.",
+ "what": "Find the cheapest API for any model and connect it from your AI agent: Grandet Skill and an anonymous MCP server, backed by listed prices\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-05T06:50:33Z",
+ "last_seen": "2026-10-16T15:35:01.463894+00:00",
+ "last_why": "+202 stars/day pace right now (197 total).",
+ "extra": {
+  "forks": 3,
+  "lang": "JavaScript",
+  "topics": [
+   "agent-skills",
+   "ai",
+   "ai-agents",
+   "api-credits",
+   "api-pricing",
+   "api-relay",
+   "claude-code",
+   "codex",
+   "developer-tools",
+   "free-api",
+   "free-tier",
+   "llm",
+   "llm-api",
+   "mcp",
+   "mcp-server",
+   "price-comparison"
+  ]
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

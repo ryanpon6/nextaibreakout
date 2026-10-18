@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+ "slug": "hf-nvidia-nvidia-nemotron-3-5-super-vl-120b-a12b-nvfp4",
+ "first_seen": "2026-10-18T13:45:58.611226+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 95.2,
+   "metric": 142,
+   "t": "2026-10-18T13:45:58.611226+00:00"
+  }
+ ],
+ "peak_score": 95.2,
+ "best_rank": 6,
+ "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+ "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-12T15:32:30.000Z",
+ "last_seen": "2026-10-18T13:45:58.611226+00:00",
+ "last_why": "Trending score 139 on Hugging Face; 142 likes, 7.6K downloads.",
+ "extra": {
+  "downloads": 7599,
+  "trending": 139,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}

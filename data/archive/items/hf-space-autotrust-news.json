@@ -1,0 +1,29 @@
+{
+ "id": "hfspace:autotrust/news",
+ "slug": "hf-space-autotrust-news",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.3,
+   "metric": 145,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  }
+ ],
+ "peak_score": 98.3,
+ "best_rank": 1,
+ "name": "autotrust/news",
+ "url": "https://huggingface.co/spaces/autotrust/news",
+ "source": "huggingface",
+ "kind": "tool",
+ "desc": "static",
+ "what": "static",
+ "tag": "dev tools",
+ "metric_name": "likes",
+ "created": "2026-10-14T22:10:52.000Z",
+ "last_seen": "2026-10-15T21:08:25.792112+00:00",
+ "last_why": "+401 likes/day pace right now (145 total).",
+ "days": [
+  "2026-10-15"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "hfmodel:tencent/Hy-Memory-30B-A3B",
+ "slug": "hf-tencent-hy-memory-30b-a3b",
+ "first_seen": "2026-10-17T02:35:01.356358+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 124,
+   "t": "2026-10-17T02:35:01.356358+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 124,
+   "t": "2026-10-17T02:45:48.244050+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 124,
+   "t": "2026-10-17T02:50:01.617268+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 124,
+   "t": "2026-10-17T02:55:01.951277+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 93.2,
+   "metric": 145,
+   "t": "2026-10-17T13:55:42.763161+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.6,
+   "metric": 150,
+   "t": "2026-10-17T18:05:00.160579+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.1,
+   "metric": 154,
+   "t": "2026-10-17T19:05:00.188345+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.9,
+   "metric": 160,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.3,
+   "metric": 163,
+   "t": "2026-10-18T04:05:00.242937+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.3,
+   "metric": 170,
+   "t": "2026-10-18T08:09:55.667736+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.3,
+   "metric": 170,
+   "t": "2026-10-18T08:11:57.022141+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "tencent/Hy-Memory-30B-A3B",
+ "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-15T09:52:00.000Z",
+ "last_seen": "2026-10-18T08:11:57.022141+00:00",
+ "last_why": "+41 likes/day pace right now (170 total).",
+ "extra": {
+  "downloads": 736,
+  "trending": 170,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-17",
+  "2026-10-18"
+ ]
+}

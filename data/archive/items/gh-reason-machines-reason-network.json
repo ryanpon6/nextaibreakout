@@ -1,0 +1,96 @@
+{
+ "id": "gh:reason-machines/reason-network",
+ "slug": "gh-reason-machines-reason-network",
+ "first_seen": "2026-10-17T20:23:05.813826+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 196,
+   "t": "2026-10-17T20:23:05.813826+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 208,
+   "t": "2026-10-17T22:55:38.521191+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.1,
+   "metric": 218,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.5,
+   "metric": 232,
+   "t": "2026-10-18T02:06:23.378780+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.5,
+   "metric": 242,
+   "t": "2026-10-18T03:06:28.246232+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 252,
+   "t": "2026-10-18T04:05:00.242937+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 298,
+   "t": "2026-10-18T08:09:55.667736+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 299,
+   "t": "2026-10-18T08:11:57.022141+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.5,
+   "metric": 331,
+   "t": "2026-10-18T12:43:48.479714+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 346,
+   "t": "2026-10-18T13:45:58.611226+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "reason-machines/reason-network",
+ "url": "https://github.com/reason-machines/reason-network",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+ "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-16T15:34:34Z",
+ "last_seen": "2026-10-18T13:45:58.611226+00:00",
+ "last_why": "+347 stars/day pace right now (346 total).",
+ "extra": {
+  "forks": 29,
+  "lang": "Rust",
+  "topics": [
+   "coding-agents",
+   "iroh",
+   "mcp",
+   "peer-to-peer",
+   "reason"
+  ],
+  "repo_id": 1422344223
+ },
+ "days": [
+  "2026-10-17",
+  "2026-10-18"
+ ]
+}

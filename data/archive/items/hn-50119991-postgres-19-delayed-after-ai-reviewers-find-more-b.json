@@ -1,0 +1,45 @@
+{
+ "id": "hn:50119991",
+ "slug": "hn-50119991-postgres-19-delayed-after-ai-reviewers-find-more-b",
+ "first_seen": "2026-10-16T18:05:01.095508+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.6,
+   "metric": 87,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.9,
+   "metric": 109,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.2,
+   "metric": 119,
+   "t": "2026-10-16T18:50:01.541764+00:00"
+  }
+ ],
+ "peak_score": 97.6,
+ "best_rank": 3,
+ "name": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+ "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-16T15:55:40Z",
+ "last_seen": "2026-10-16T18:50:01.541764+00:00",
+ "last_why": "+1.0K points/day pace right now (119 total).",
+ "extra": {
+  "comments": 37,
+  "hn": "https://news.ycombinator.com/item?id=50119991"
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

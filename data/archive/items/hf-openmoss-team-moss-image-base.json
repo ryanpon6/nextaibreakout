@@ -1,0 +1,116 @@
+{
+ "id": "hfmodel:OpenMOSS-Team/MOSS-Image-Base",
+ "slug": "hf-openmoss-team-moss-image-base",
+ "first_seen": "2026-10-17T00:25:01.567878+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 92.9,
+   "metric": 124,
+   "t": "2026-10-17T00:25:01.567878+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 124,
+   "t": "2026-10-17T00:30:01.349458+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 125,
+   "t": "2026-10-17T00:35:01.181344+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 125,
+   "t": "2026-10-17T00:40:01.760080+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.7,
+   "metric": 137,
+   "t": "2026-10-17T02:10:01.937742+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.0,
+   "metric": 139,
+   "t": "2026-10-17T02:15:01.162639+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.0,
+   "metric": 141,
+   "t": "2026-10-17T02:20:01.510779+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 90.7,
+   "metric": 142,
+   "t": "2026-10-17T02:35:01.356358+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 90.7,
+   "metric": 143,
+   "t": "2026-10-17T02:45:48.244050+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 91.3,
+   "metric": 144,
+   "t": "2026-10-17T02:50:01.617268+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 92.0,
+   "metric": 145,
+   "t": "2026-10-17T02:55:01.951277+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 91.1,
+   "metric": 193,
+   "t": "2026-10-17T13:55:42.763161+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.7,
+   "metric": 205,
+   "t": "2026-10-17T16:07:05.584551+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.0,
+   "metric": 232,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 7,
+ "name": "OpenMOSS-Team/MOSS-Image-Base",
+ "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-image",
+ "what": "text-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-11T06:49:17.000Z",
+ "last_seen": "2026-10-18T00:15:00.200029+00:00",
+ "last_why": "+181 likes/day pace right now (232 total).",
+ "extra": {
+  "downloads": 958,
+  "trending": 223,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-17",
+  "2026-10-18"
+ ]
+}

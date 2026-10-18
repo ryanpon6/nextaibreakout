@@ -1,0 +1,64 @@
+{
+ "id": "hn:50104654",
+ "slug": "hn-50104654-simons-foundation-launches-15m-effort-to-help-mat",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 91.1,
+   "metric": 201,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 80.2,
+   "metric": 232,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 80.8,
+   "metric": 232,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 82.0,
+   "metric": 232,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 88.7,
+   "metric": 242,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.2,
+   "metric": 243,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  }
+ ],
+ "peak_score": 96.2,
+ "best_rank": 5,
+ "name": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+ "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-15T14:58:48Z",
+ "last_seen": "2026-10-16T14:30:52.240104+00:00",
+ "last_why": "+17 points/day pace right now (243 total).",
+ "days": [
+  "2026-10-15",
+  "2026-10-16"
+ ],
+ "extra": {
+  "comments": 196,
+  "hn": "https://news.ycombinator.com/item?id=50104654"
+ }
+}

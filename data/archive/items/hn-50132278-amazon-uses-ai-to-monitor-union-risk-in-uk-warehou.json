@@ -1,0 +1,58 @@
+{
+ "id": "hn:50132278",
+ "slug": "hn-50132278-amazon-uses-ai-to-monitor-union-risk-in-uk-warehou",
+ "first_seen": "2026-10-17T18:05:00.160579+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.8,
+   "metric": 92,
+   "t": "2026-10-17T18:05:00.160579+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.6,
+   "metric": 117,
+   "t": "2026-10-17T19:05:00.188345+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 89.8,
+   "metric": 139,
+   "t": "2026-10-17T22:55:38.521191+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 145,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.5,
+   "metric": 151,
+   "t": "2026-10-18T03:06:28.246232+00:00"
+  }
+ ],
+ "peak_score": 96.8,
+ "best_rank": 4,
+ "name": "Amazon uses AI to monitor union risk in UK warehouses",
+ "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-17T16:04:23Z",
+ "last_seen": "2026-10-18T03:06:28.246232+00:00",
+ "last_why": "+96 points/day pace right now (151 total).",
+ "extra": {
+  "comments": 58,
+  "hn": "https://news.ycombinator.com/item?id=50132278"
+ },
+ "days": [
+  "2026-10-17",
+  "2026-10-18"
+ ]
+}

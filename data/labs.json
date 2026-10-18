@@ -1,0 +1,792 @@
+{
+ "generated": "2026-10-18T13:47:14.309985+00:00",
+ "labs": {
+  "xai": {
+   "items": [
+    {
+     "title": "Introducing Grok Voice 3.0",
+     "url": "https://x.ai/news/grok-voice-3",
+     "date": "2026-10-14T12:00:00+00:00",
+     "day": "2026-10-14",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Team Bots: shared AI teammates that learn as they work",
+     "url": "https://x.ai/news/team-bots",
+     "date": "2026-09-28T12:00:00+00:00",
+     "day": "2026-09-28",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "xAI SDK (Python) v1.20.0",
+     "url": "https://github.com/xai-org/xai-sdk-python/releases/tag/v1.20.0",
+     "date": "2026-09-24T18:05:54+00:00",
+     "day": "2026-09-24",
+     "summary": "",
+     "source": "GitHub: xai-org/xai-sdk-python releases",
+     "unofficial": false,
+     "prio": 1
+    },
+    {
+     "title": "Introducing Grok 4.7",
+     "url": "https://x.ai/news/grok-4-7",
+     "date": "2026-09-21T12:00:00+00:00",
+     "day": "2026-09-21",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Introducing Grok Voice Transcribe 2.0",
+     "url": "https://x.ai/news/grok-voice-transcribe-2",
+     "date": "2026-09-18T12:00:00+00:00",
+     "day": "2026-09-18",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Memory in Grok Build",
+     "url": "https://x.ai/news/grok-build-memory",
+     "date": "2026-09-16T12:00:00+00:00",
+     "day": "2026-09-16",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Designing Grok Bot for a world of persistent agents",
+     "url": "https://x.ai/news/designing-grok-bot",
+     "date": "2026-09-03T12:00:00+00:00",
+     "day": "2026-09-03",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Grok Bot for Enterprise",
+     "url": "https://x.ai/news/grok-bot-for-enterprise",
+     "date": "2026-09-03T12:00:00+00:00",
+     "day": "2026-09-03",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Biosecurity at the frontier",
+     "url": "https://x.ai/news/biosafety-at-the-frontier",
+     "date": "2026-09-01T12:00:00+00:00",
+     "day": "2026-09-01",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Grok Bot now works with X",
+     "url": "https://x.ai/news/grok-bot-and-x",
+     "date": "2026-08-29T12:00:00+00:00",
+     "day": "2026-08-29",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "xAI News",
+     "url": "https://x.ai/news",
+     "status": "provisional",
+     "ok": true,
+     "count": 10,
+     "raw": 87
+    },
+    {
+     "name": "GitHub: xai-org/xai-sdk-python releases",
+     "url": "https://github.com/xai-org/xai-sdk-python/releases.atom",
+     "status": "provisional",
+     "ok": true,
+     "count": 1,
+     "raw": 10
+    },
+    {
+     "name": "xAI Status (incidents)",
+     "url": "https://status.x.ai/feed.xml",
+     "status": "disabled",
+     "ok": false,
+     "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
+    }
+   ],
+   "fetched": "2026-10-18T13:47:14.309985+00:00"
+  },
+  "tesla-ai": {
+   "items": [
+    {
+     "title": "Why the New Tesla Roadster Won\u2019t Get Full FSD",
+     "url": "https://www.notateslaapp.com/news/4842/why-the-new-tesla-roadster-wont-get-full-fsd",
+     "date": "2026-10-17T15:00:00+00:00",
+     "day": "2026-10-17",
+     "summary": "The new Tesla Roadster has the cameras for FSD, but its design and expected low sales mean owners will only get a limited version of the software Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Watch Tesla FSD Clear a Path for an Ambulance at a Red Light [VIDEO]",
+     "url": "https://www.notateslaapp.com/news/4841/watch-tesla-fsd-clear-a-path-for-an-ambulance-at-a-red-light-video",
+     "date": "2026-10-16T22:14:00+00:00",
+     "day": "2026-10-16",
+     "summary": "Tesla FSD cleared a path for an ambulance from a full stop at a red light, turning across three lanes and automatically updating navigation to take a new route Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Slovakia Becomes 9th European Country to Approve Tesla FSD",
+     "url": "https://www.notateslaapp.com/news/4838/slovakia-becomes-9th-european-country-to-approve-tesla-fsd",
+     "date": "2026-10-16T19:02:00+00:00",
+     "day": "2026-10-16",
+     "summary": "Tesla Europe says FSD is now approved in Slovakia with a rollout coming soon, bringing the number of approving European countries to nine. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla Rolls Out FSD V14 Lite to Legacy Model S/X for First Time",
+     "url": "https://www.notateslaapp.com/news/4827/tesla-rolls-out-fsd-v14-lite-to-legacy-model-sx-for-first-time",
+     "date": "2026-10-14T21:44:00+00:00",
+     "day": "2026-10-14",
+     "summary": "FSD v14.3 Lite is rolling out to legacy Intel Model S and X with update 2026.38.5.1, but without Arrival Options, reversing, or starting FSD from Park. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla FSD v14.3.12 With Halloween Mode Release Notes (Update 2026.38.5)",
+     "url": "https://www.notateslaapp.com/software-updates/version/2026.38.5/release-notes",
+     "date": "2026-10-10T22:28:56+00:00",
+     "day": "2026-10-10",
+     "summary": "We take a look at the release notes and what's new in Tesla update 2026.38.5. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla Renames FSD to \u2018Tesla Assisted Driving\u2019 in Europe",
+     "url": "https://www.notateslaapp.com/news/4794/tesla-renames-fsd-to-tesla-assisted-driving-in-europe",
+     "date": "2026-10-08T20:41:00+00:00",
+     "day": "2026-10-08",
+     "summary": "Tesla now calls FSD (Supervised) \u2018Tesla Assisted Driving\u2019 in Europe, meeting one of Germany\u2019s conditions for backing EU-wide approval in an upcoming vote Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla Patent Reveals Flexible Sensors That Let Optimus Feel Objects",
+     "url": "https://www.notateslaapp.com/news/4790/tesla-patent-reveals-flexible-sensors-that-let-optimus-feel-objects",
+     "date": "2026-10-08T14:48:00+00:00",
+     "day": "2026-10-08",
+     "summary": "Tesla's patent application details flexible robotic touch sensors, how they detect pressure, and two approaches to manufacturing curved sensor arrays. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla FSD v14.3.11 and FSD v14.3 Lite Release Notes (Update 2026.33.5)",
+     "url": "https://www.notateslaapp.com/software-updates/version/2026.33.5/release-notes",
+     "date": "2026-10-07T02:27:31+00:00",
+     "day": "2026-10-07",
+     "summary": "We take a look at the release notes and what's new in Tesla update 2026.33.5. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Germany Will Support FSD in EU Vote If Tesla Renames It",
+     "url": "https://www.notateslaapp.com/news/4778/germany-will-support-fsd-in-eu-vote-if-tesla-renames-it",
+     "date": "2026-10-06T20:29:00+00:00",
+     "day": "2026-10-06",
+     "summary": "Germany to back EU approval of Full Self-Driving if it's renamed Tesla Assisted Driving and limits speeding to 10%, ahead of a December vote Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "Not a Tesla App RSS",
+     "url": "https://www.notateslaapp.com/rss",
+     "status": "provisional",
+     "ok": true,
+     "count": 9,
+     "raw": 50
+    },
+    {
+     "name": "teslascope.com/software",
+     "url": "https://teslascope.com/software",
+     "status": "disabled",
+     "ok": false,
+     "error": "Scrape-only and its robots.txt sets Content-Signal ai-input=no; not polled."
+    },
+    {
+     "name": "tesla.com/blog",
+     "url": "https://www.tesla.com/blog/rss",
+     "status": "disabled",
+     "ok": false,
+     "error": "Official, but returns 403 to automated fetches."
+    }
+   ],
+   "fetched": "2026-10-18T13:47:14.309985+00:00"
+  },
+  "openai": {
+   "items": [
+    {
+     "title": "Codex CLI 0.163.0",
+     "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+     "date": "2026-10-15T21:33:06+00:00",
+     "day": "2026-10-15",
+     "summary": "",
+     "source": "GitHub: openai/codex releases",
+     "unofficial": false,
+     "prio": 1
+    },
+    {
+     "title": "Bringing GPT-Rosalind to academic research labs",
+     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+     "date": "2026-10-15T19:00:00+00:00",
+     "day": "2026-10-15",
+     "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+     "categories": [
+      "Research"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Helping teens learn, plan, and shape the future of AI",
+     "url": "https://openai.com/index/teens-learn-and-plan",
+     "date": "2026-10-07T12:00:00+00:00",
+     "day": "2026-10-07",
+     "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone",
+     "date": "2026-10-07T00:00:00+00:00",
+     "day": "2026-10-07",
+     "summary": "GPT\u20116 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Sharing AI progress in mathematics",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+     "date": "2026-10-06T12:00:00+00:00",
+     "day": "2026-10-06",
+     "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+     "categories": [
+      "Research"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Advancing computer use with Ironclad",
+     "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+     "date": "2026-10-06T10:00:00+00:00",
+     "day": "2026-10-06",
+     "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+     "categories": [
+      "Publication"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Building advertising for the way people use AI",
+     "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+     "date": "2026-10-05T10:00:00+00:00",
+     "day": "2026-10-05",
+     "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "A model guide for the GPT-6 family",
+     "url": "https://openai.com/index/practical-guide-building-gpt-6",
+     "date": "2026-10-02T16:15:00+00:00",
+     "day": "2026-10-02",
+     "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Introducing GPT-6.1 Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+     "date": "2026-09-29T10:00:00+00:00",
+     "day": "2026-09-29",
+     "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra\u2019s standard API input and output token prices.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Introducing dots",
+     "url": "https://openai.com/index/introducing-dots",
+     "date": "2026-09-29T00:00:00+00:00",
+     "day": "2026-09-29",
+     "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "OpenAI News RSS",
+     "url": "https://openai.com/news/rss.xml",
+     "status": "provisional",
+     "ok": true,
+     "count": 10,
+     "raw": 1299
+    },
+    {
+     "name": "GitHub: openai/codex releases",
+     "url": "https://github.com/openai/codex/releases.atom",
+     "status": "provisional",
+     "ok": true,
+     "count": 1,
+     "raw": 10
+    }
+   ],
+   "fetched": "2026-10-18T13:47:14.309985+00:00"
+  },
+  "anthropic": {
+   "items": [
+    {
+     "title": "Claude Code v2.1.302",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+     "date": "2026-10-16T20:53:06+00:00",
+     "day": "2026-10-16",
+     "summary": "",
+     "source": "GitHub: anthropics/claude-code releases",
+     "unofficial": false,
+     "prio": 1
+    },
+    {
+     "title": "An update on independent evaluators",
+     "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+     "date": "2026-10-15T12:00:00+00:00",
+     "day": "2026-10-15",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Preparing for the 2026 US midterms",
+     "url": "https://www.anthropic.com/news/2026-us-midterms",
+     "date": "2026-10-14T12:00:00+00:00",
+     "day": "2026-10-14",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+     "url": "https://www.anthropic.com/news/singapore-office-opening",
+     "date": "2026-10-14T12:00:00+00:00",
+     "day": "2026-10-14",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "2026 Usage Policy update",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+     "date": "2026-10-08T12:00:00+00:00",
+     "day": "2026-10-08",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Building on our commitment to American scientific discovery",
+     "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+     "date": "2026-10-08T12:00:00+00:00",
+     "day": "2026-10-08",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Introducing the Anthropic Cyber Mission",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+     "date": "2026-10-08T12:00:00+00:00",
+     "day": "2026-10-08",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Expanding the Cyber Verification Program",
+     "url": "https://www.anthropic.com/news/cyber-verification-program",
+     "date": "2026-10-06T12:00:00+00:00",
+     "day": "2026-10-06",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+     "url": "https://www.anthropic.com/news/claude-frontier-academy",
+     "date": "2026-10-02T12:00:00+00:00",
+     "day": "2026-10-02",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+     "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+     "date": "2026-09-23T12:00:00+00:00",
+     "day": "2026-09-23",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "Anthropic News",
+     "url": "https://www.anthropic.com/news",
+     "status": "provisional",
+     "ok": true,
+     "count": 9,
+     "raw": 10
+    },
+    {
+     "name": "GitHub: anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases.atom",
+     "status": "provisional",
+     "ok": true,
+     "count": 1,
+     "raw": 10
+    }
+   ],
+   "fetched": "2026-10-18T13:47:14.309985+00:00"
+  },
+  "google-deepmind": {
+   "items": [
+    {
+     "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+     "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+     "date": "2026-10-15T16:08:03+00:00",
+     "day": "2026-10-15",
+     "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+     "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+     "date": "2026-10-14T02:00:14+00:00",
+     "day": "2026-10-14",
+     "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Developing Gemini 4 Argon responsibly and safely",
+     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+     "date": "2026-10-13T19:43:07+00:00",
+     "day": "2026-10-13",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Gemini 4 Argon for Robotics",
+     "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+     "date": "2026-10-13T16:01:58+00:00",
+     "day": "2026-10-13",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Gemini 4 Argon: Built to solve your hardest problems",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+     "date": "2026-10-13T16:01:52+00:00",
+     "day": "2026-10-13",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+     "date": "2026-10-06T19:57:04+00:00",
+     "day": "2026-10-06",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Gemini 4 Argon: our next era of frontier intelligence",
+     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+     "date": "2026-09-30T20:01:45+00:00",
+     "day": "2026-09-30",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Introducing SynthID Bio",
+     "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+     "date": "2026-09-30T15:03:07+00:00",
+     "day": "2026-09-30",
+     "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Introducing Gemini 3.8 Live with Live Avatar",
+     "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+     "date": "2026-09-24T16:20:39+00:00",
+     "day": "2026-09-24",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Advancing Private AI Compute with secure, server-side memory",
+     "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+     "date": "2026-09-23T16:00:57+00:00",
+     "day": "2026-09-23",
+     "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    }
+   ],
+   "sources": [
+    {
+     "name": "Google DeepMind Blog RSS",
+     "url": "https://deepmind.google/blog/rss.xml",
+     "status": "provisional",
+     "ok": true,
+     "count": 10,
+     "raw": 100
+    },
+    {
+     "name": "Google AI Blog RSS",
+     "url": "https://blog.google/technology/ai/rss/",
+     "status": "provisional",
+     "ok": true,
+     "count": 1,
+     "raw": 20
+    },
+    {
+     "name": "GitHub: google-deepmind/gemma releases",
+     "url": "https://github.com/google-deepmind/gemma/releases.atom",
+     "status": "provisional",
+     "ok": true,
+     "count": 0,
+     "raw": 10
+    }
+   ],
+   "fetched": "2026-10-18T13:47:14.309985+00:00"
+  },
+  "meta": {
+   "items": [
+    {
+     "title": "How Meta Built Forum With AI-Native Engineering",
+     "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+     "date": "2026-10-15T19:00:03+00:00",
+     "day": "2026-10-15",
+     "summary": "Meta&#8217;s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We&#",
+     "categories": [
+      "Android",
+      "iOS",
+      "ML Applications",
+      "Web"
+     ],
+     "source": "Engineering at Meta: ML Applications RSS",
+     "unofficial": false,
+     "prio": 1
+    },
+    {
+     "title": "Meta\u2019s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+     "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+     "date": "2026-10-13T16:01:00+00:00",
+     "day": "2026-10-13",
+     "summary": "Last year, we introduced GEM, the industry\u2019s largest recommendation system (RecSys) foundation model. GEM established Meta&#8217;s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundat",
+     "categories": [
+      "ML Applications"
+     ],
+     "source": "Engineering at Meta: ML Applications RSS",
+     "unofficial": false,
+     "prio": 1
+    },
+    {
+     "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+     "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+     "date": "2026-10-12T21:19:18+00:00",
+     "day": "2026-10-12",
+     "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric ",
+     "categories": [
+      "Data Center Engineering",
+      "Data Infrastructure",
+      "DevInfra",
+      "ML Applications",
+      "Networking & Traffic",
+      "Open Source"
+     ],
+     "source": "Engineering at Meta: ML Applications RSS",
+     "unofficial": false,
+     "prio": 1
+    },
+    {
+     "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+     "date": "2026-10-12T17:08:05+00:00",
+     "day": "2026-10-12",
+     "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier",
+     "categories": [
+      "Meta",
+      "Recent News",
+      "Sidebar - Featured",
+      "Technology and Innovation",
+      "AI"
+     ],
+     "source": "Meta Newsroom RSS (AI category only)",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+     "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+     "date": "2026-10-12T16:00:50+00:00",
+     "day": "2026-10-12",
+     "summary": "At Meta, we\u2019ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromis",
+     "categories": [
+      "ML Applications"
+     ],
+     "source": "Engineering at Meta: ML Applications RSS",
+     "unofficial": false,
+     "prio": 1
+    }
+   ],
+   "sources": [
+    {
+     "name": "Meta Newsroom RSS (AI category only)",
+     "url": "https://about.fb.com/news/feed/",
+     "status": "provisional",
+     "ok": true,
+     "count": 1,
+     "raw": 10
+    },
+    {
+     "name": "Engineering at Meta: ML Applications RSS",
+     "url": "https://engineering.fb.com/category/ml-applications/feed/",
+     "status": "provisional",
+     "ok": true,
+     "count": 4,
+     "raw": 9
+    },
+    {
+     "name": "GitHub: meta-llama/llama-models releases",
+     "url": "https://github.com/meta-llama/llama-models/releases.atom",
+     "status": "provisional",
+     "ok": true,
+     "count": 0,
+     "raw": 10
+    },
+    {
+     "name": "ai.meta.com/blog",
+     "url": "https://ai.meta.com/blog/",
+     "status": "disabled",
+     "ok": false,
+     "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
+    }
+   ],
+   "fetched": "2026-10-18T13:47:14.309985+00:00"
+  }
+ }
+}

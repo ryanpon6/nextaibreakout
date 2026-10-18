@@ -1,0 +1,69 @@
+{
+ "id": "hn:50129121",
+ "slug": "hn-50129121-deepseek-deepseek-v4-1-flash-1017",
+ "first_seen": "2026-10-17T12:42:19.519112+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 275,
+   "t": "2026-10-17T12:42:19.519112+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 277,
+   "t": "2026-10-17T12:45:55.504650+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 277,
+   "t": "2026-10-17T12:47:17.021272+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 366,
+   "t": "2026-10-17T13:55:42.763161+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.5,
+   "metric": 420,
+   "t": "2026-10-17T14:55:00.866467+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 496,
+   "t": "2026-10-17T16:07:05.584551+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 90.4,
+   "metric": 509,
+   "t": "2026-10-17T17:05:00.456633+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "DeepSeek: DeepSeek v4.1 Flash 1017",
+ "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-17T08:37:46Z",
+ "last_seen": "2026-10-17T17:05:00.456633+00:00",
+ "last_why": "+323 points/day pace right now (509 total).",
+ "extra": {
+  "comments": 5,
+  "hn": "https://news.ycombinator.com/item?id=50129121"
+ },
+ "days": [
+  "2026-10-17"
+ ]
+}

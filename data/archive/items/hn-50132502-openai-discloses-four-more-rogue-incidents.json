@@ -1,0 +1,45 @@
+{
+ "id": "hn:50132502",
+ "slug": "hn-50132502-openai-discloses-four-more-rogue-incidents",
+ "first_seen": "2026-10-17T18:05:00.160579+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 58,
+   "t": "2026-10-17T18:05:00.160579+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 94,
+   "t": "2026-10-17T19:05:00.188345+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 106,
+   "t": "2026-10-17T20:23:05.813826+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "OpenAI discloses four more rogue incidents",
+ "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-17T16:31:12Z",
+ "last_seen": "2026-10-17T20:23:05.813826+00:00",
+ "last_why": "+221 points/day pace right now (106 total).",
+ "extra": {
+  "comments": 116,
+  "hn": "https://news.ycombinator.com/item?id=50132502"
+ },
+ "days": [
+  "2026-10-17"
+ ]
+}

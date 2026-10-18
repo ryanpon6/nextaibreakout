@@ -1,0 +1,51 @@
+{
+ "id": "gh:jwuthri-cloud/Tracely-ai",
+ "slug": "gh-jwuthri-cloud-tracely-ai",
+ "first_seen": "2026-10-18T00:15:00.200029+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 92.5,
+   "metric": 929,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  }
+ ],
+ "peak_score": 92.5,
+ "best_rank": 9,
+ "name": "jwuthri-cloud/Tracely-ai",
+ "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
+ "what": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-11T15:38:03Z",
+ "last_seen": "2026-10-18T00:15:00.200029+00:00",
+ "last_why": "929 stars since launch 6 days ago \u2248 146 stars/day since launch.",
+ "extra": {
+  "forks": 139,
+  "lang": "Python",
+  "topics": [
+   "agent-evaluation",
+   "ai-agents",
+   "ai-testing",
+   "ci-cd",
+   "clickhouse",
+   "developer-tools",
+   "llm-evaluation",
+   "llm-observability",
+   "llmops",
+   "mcp",
+   "observability",
+   "python",
+   "regression-testing",
+   "self-hosted",
+   "tracing"
+  ],
+  "repo_id": 1414493071
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}

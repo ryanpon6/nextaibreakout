@@ -1,0 +1,58 @@
+{
+ "id": "gh:deeplethe/solid-glass",
+ "slug": "gh-deeplethe-solid-glass",
+ "first_seen": "2026-10-17T02:10:01.937742+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 92.0,
+   "metric": 1417,
+   "t": "2026-10-17T02:10:01.937742+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.0,
+   "metric": 1434,
+   "t": "2026-10-17T02:45:48.244050+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.0,
+   "metric": 1434,
+   "t": "2026-10-17T02:50:01.617268+00:00"
+  }
+ ],
+ "peak_score": 92.0,
+ "best_rank": 9,
+ "name": "deeplethe/solid-glass",
+ "url": "https://github.com/deeplethe/solid-glass",
+ "source": "github",
+ "kind": "tool",
+ "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+ "what": "A design system for AI applications. Material, physical, tactile, technical.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-12T09:19:02Z",
+ "last_seen": "2026-10-17T02:50:01.617268+00:00",
+ "last_why": "+676 stars/day pace right now (1.4K total).",
+ "extra": {
+  "forks": 21,
+  "lang": "TypeScript",
+  "topics": [
+   "agent-ui",
+   "ai",
+   "ai-agents",
+   "chat-ui",
+   "design-system",
+   "llm",
+   "react",
+   "shadcn",
+   "shadcn-ui",
+   "tailwindcss",
+   "theme"
+  ]
+ },
+ "days": [
+  "2026-10-17"
+ ]
+}

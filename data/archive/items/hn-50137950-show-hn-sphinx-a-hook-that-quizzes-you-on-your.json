@@ -1,0 +1,51 @@
+{
+ "id": "hn:50137950",
+ "slug": "hn-50137950-show-hn-sphinx-a-hook-that-quizzes-you-on-your",
+ "first_seen": "2026-10-18T08:09:55.667736+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 95.2,
+   "metric": 96,
+   "t": "2026-10-18T08:09:55.667736+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.2,
+   "metric": 97,
+   "t": "2026-10-18T08:11:57.022141+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.0,
+   "metric": 165,
+   "t": "2026-10-18T12:43:48.479714+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.5,
+   "metric": 177,
+   "t": "2026-10-18T13:45:58.611226+00:00"
+  }
+ ],
+ "peak_score": 97.5,
+ "best_rank": 3,
+ "name": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
+ "url": "https://sphinx-six-theta.vercel.app/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-18T04:33:49Z",
+ "last_seen": "2026-10-18T13:45:58.611226+00:00",
+ "last_why": "+278 points/day pace right now (177 total).",
+ "extra": {
+  "comments": 54,
+  "hn": "https://news.ycombinator.com/item?id=50137950"
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}

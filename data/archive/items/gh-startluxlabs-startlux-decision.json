@@ -1,0 +1,47 @@
+{
+ "id": "gh:StartLuxLabs/StartLux-Decision",
+ "slug": "gh-startluxlabs-startlux-decision",
+ "first_seen": "2026-10-16T18:35:01.986511+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.2,
+   "metric": 509,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  }
+ ],
+ "peak_score": 94.2,
+ "best_rank": 7,
+ "name": "StartLuxLabs/StartLux-Decision",
+ "url": "https://github.com/StartLuxLabs/StartLux-Decision",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine for vLLM, llama.cpp and MLX.",
+ "what": "Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-29T11:53:37Z",
+ "last_seen": "2026-10-16T18:35:01.986511+00:00",
+ "last_why": "+121 stars/day pace right now (509 total).",
+ "extra": {
+  "forks": 49,
+  "lang": "Python",
+  "topics": [
+   "agents",
+   "calibration",
+   "classification",
+   "decision-making",
+   "gguf",
+   "inference",
+   "llama-cpp",
+   "llm",
+   "mlx",
+   "open-weights",
+   "reasoning",
+   "vllm"
+  ]
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

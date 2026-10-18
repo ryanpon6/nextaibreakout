@@ -1,0 +1,64 @@
+{
+ "id": "hn:50122112",
+ "slug": "hn-50122112-anthropic-assigned-highest-junk-credit-rating-in-j",
+ "first_seen": "2026-10-16T22:35:01.258098+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 172,
+   "t": "2026-10-16T22:35:01.258098+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 172,
+   "t": "2026-10-16T22:40:01.224918+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.6,
+   "metric": 192,
+   "t": "2026-10-16T23:40:01.929973+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.0,
+   "metric": 192,
+   "t": "2026-10-16T23:45:01.686524+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 202,
+   "t": "2026-10-17T00:15:54.358780+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 202,
+   "t": "2026-10-17T00:20:01.391916+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Anthropic assigned highest junk credit rating in June",
+ "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-16T18:11:42Z",
+ "last_seen": "2026-10-17T00:20:01.391916+00:00",
+ "last_why": "+432 points/day pace right now (202 total).",
+ "extra": {
+  "comments": 60,
+  "hn": "https://news.ycombinator.com/item?id=50122112"
+ },
+ "days": [
+  "2026-10-16",
+  "2026-10-17"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "npm:@anthropic-ai/sdk",
+ "slug": "npm--anthropic-ai-sdk",
+ "first_seen": "2026-10-16T11:55:01.939711+00:00",
+ "appearances": [
+  {
+   "rank": 10,
+   "score": 71.3,
+   "metric": 8355414,
+   "t": "2026-10-16T11:55:01.939711+00:00"
+  }
+ ],
+ "peak_score": 71.3,
+ "best_rank": 10,
+ "name": "@anthropic-ai/sdk",
+ "url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
+ "source": "npm",
+ "kind": "tool",
+ "desc": "npm package",
+ "what": "npm package",
+ "tag": "dev tools",
+ "metric_name": "downloads/day",
+ "created": null,
+ "last_seen": "2026-10-16T11:55:01.939711+00:00",
+ "last_why": "8.4M downloads yesterday, 1.26\u00d7 its 7-day average.",
+ "extra": {
+  "week": 46461312,
+  "days": [
+   0,
+   9109963,
+   9780976,
+   8235739,
+   5526311,
+   5452909,
+   8355414
+  ]
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

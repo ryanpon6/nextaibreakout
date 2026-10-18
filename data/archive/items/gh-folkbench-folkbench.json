@@ -1,0 +1,50 @@
+{
+ "id": "gh:Folkbench/folkbench",
+ "slug": "gh-folkbench-folkbench",
+ "first_seen": "2026-10-18T03:06:28.246232+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.9,
+   "metric": 1557,
+   "t": "2026-10-18T03:06:28.246232+00:00"
+  }
+ ],
+ "peak_score": 93.9,
+ "best_rank": 7,
+ "name": "Folkbench/folkbench",
+ "url": "https://github.com/Folkbench/folkbench",
+ "source": "github",
+ "kind": "tool",
+ "desc": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+ "what": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-02T09:50:45Z",
+ "last_seen": "2026-10-18T03:06:28.246232+00:00",
+ "last_why": "+2.1K stars/day pace right now (1.6K total).",
+ "extra": {
+  "forks": 9,
+  "lang": "Rust",
+  "topics": [
+   "ai",
+   "api-relay",
+   "api-relay-pricing",
+   "benchmark",
+   "benchmarks",
+   "claude",
+   "claude-code",
+   "codex",
+   "folkbench",
+   "llm",
+   "model-evaluation",
+   "openai-api",
+   "reliability",
+   "tauri"
+  ],
+  "repo_id": 1401469171
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}

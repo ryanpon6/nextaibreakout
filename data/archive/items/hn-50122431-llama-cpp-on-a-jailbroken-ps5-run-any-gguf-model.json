@@ -1,0 +1,107 @@
+{
+ "id": "hn:50122431",
+ "slug": "hn-50122431-llama-cpp-on-a-jailbroken-ps5-run-any-gguf-model",
+ "first_seen": "2026-10-16T20:35:01.886580+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.9,
+   "metric": 76,
+   "t": "2026-10-16T20:35:01.886580+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 95.0,
+   "metric": 115,
+   "t": "2026-10-16T20:40:01.109613+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.3,
+   "metric": 166,
+   "t": "2026-10-17T00:25:01.567878+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 168,
+   "t": "2026-10-17T00:30:01.349458+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 97.0,
+   "metric": 171,
+   "t": "2026-10-17T00:35:01.181344+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.3,
+   "metric": 173,
+   "t": "2026-10-17T00:40:01.760080+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 205,
+   "t": "2026-10-17T02:10:01.937742+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 207,
+   "t": "2026-10-17T02:15:01.162639+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 208,
+   "t": "2026-10-17T02:20:01.510779+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.6,
+   "metric": 211,
+   "t": "2026-10-17T02:35:01.356358+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.6,
+   "metric": 215,
+   "t": "2026-10-17T02:45:48.244050+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.6,
+   "metric": 215,
+   "t": "2026-10-17T02:50:01.617268+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.5,
+   "metric": 215,
+   "t": "2026-10-17T02:55:01.951277+00:00"
+  }
+ ],
+ "peak_score": 98.3,
+ "best_rank": 2,
+ "name": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+ "url": "https://github.com/cobanov/PS5LM",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-16T18:32:35Z",
+ "last_seen": "2026-10-17T02:55:01.951277+00:00",
+ "last_why": "+320 points/day pace right now (215 total).",
+ "extra": {
+  "comments": 57,
+  "hn": "https://news.ycombinator.com/item?id=50122431",
+  "repo_created": "2026-10-01T21:09:59Z"
+ },
+ "days": [
+  "2026-10-16",
+  "2026-10-17"
+ ]
+}

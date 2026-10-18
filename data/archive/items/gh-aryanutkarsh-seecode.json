@@ -1,0 +1,61 @@
+{
+ "id": "gh:Aryanutkarsh/SeeCode",
+ "slug": "gh-aryanutkarsh-seecode",
+ "first_seen": "2026-10-16T14:30:52.240104+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.1,
+   "metric": 509,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.5,
+   "metric": 528,
+   "t": "2026-10-16T17:00:01.940387+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 7,
+ "name": "Aryanutkarsh/SeeCode",
+ "url": "https://github.com/Aryanutkarsh/SeeCode",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Animated, explorable diagrams for Claude and other coding agents, from a short JSON spec.",
+ "what": "Animated, explorable diagrams for Claude and other coding agents, from a short JSON spec.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-02T18:41:07Z",
+ "last_seen": "2026-10-16T17:00:01.940387+00:00",
+ "last_why": "+169 stars/day pace right now (528 total).",
+ "extra": {
+  "forks": 26,
+  "lang": "JavaScript",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "architecture-diagram",
+   "claude-code",
+   "claude-skills",
+   "codex",
+   "coding-agents",
+   "data-visualization",
+   "developer-tools",
+   "diagrams",
+   "diagrams-as-code",
+   "drawio",
+   "flowchart",
+   "isometric",
+   "mermaid",
+   "sequence-diagram",
+   "software-architecture",
+   "svg",
+   "system-design",
+   "visualization"
+  ]
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "id": "hn:50127979",
+ "slug": "hn-50127979-show-hn-llmspeed-feel-how-fast-a-local-llm-runs",
+ "first_seen": "2026-10-17T12:42:19.519112+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 95.4,
+   "metric": 116,
+   "t": "2026-10-17T12:42:19.519112+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.4,
+   "metric": 117,
+   "t": "2026-10-17T12:45:55.504650+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.4,
+   "metric": 117,
+   "t": "2026-10-17T12:47:17.021272+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.4,
+   "metric": 143,
+   "t": "2026-10-17T13:55:42.763161+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.1,
+   "metric": 165,
+   "t": "2026-10-17T14:55:00.866467+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 91.8,
+   "metric": 179,
+   "t": "2026-10-17T16:07:05.584551+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.3,
+   "metric": 194,
+   "t": "2026-10-17T17:05:00.456633+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 90.5,
+   "metric": 233,
+   "t": "2026-10-17T22:55:38.521191+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.4,
+   "metric": 243,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 254,
+   "t": "2026-10-18T02:06:23.378780+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.6,
+   "metric": 258,
+   "t": "2026-10-18T03:06:28.246232+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.9,
+   "metric": 264,
+   "t": "2026-10-18T04:05:00.242937+00:00"
+  }
+ ],
+ "peak_score": 96.1,
+ "best_rank": 5,
+ "name": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
+ "url": "https://llmspeed.dev/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-17T04:36:53Z",
+ "last_seen": "2026-10-18T04:05:00.242937+00:00",
+ "last_why": "+148 points/day pace right now (264 total).",
+ "extra": {
+  "comments": 77,
+  "hn": "https://news.ycombinator.com/item?id=50127979"
+ },
+ "days": [
+  "2026-10-17",
+  "2026-10-18"
+ ]
+}

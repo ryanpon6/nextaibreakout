@@ -1,0 +1,123 @@
+{
+ "id": "hfmodel:OpenMOSS-Team/MOSS-Image-SFT",
+ "slug": "hf-openmoss-team-moss-image-sft",
+ "first_seen": "2026-10-16T23:40:01.929973+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.7,
+   "metric": 129,
+   "t": "2026-10-16T23:40:01.929973+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 130,
+   "t": "2026-10-16T23:45:01.686524+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 131,
+   "t": "2026-10-17T00:15:54.358780+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 131,
+   "t": "2026-10-17T00:20:01.391916+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 133,
+   "t": "2026-10-17T00:25:01.567878+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.3,
+   "metric": 134,
+   "t": "2026-10-17T00:30:01.349458+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.3,
+   "metric": 134,
+   "t": "2026-10-17T00:35:01.181344+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.3,
+   "metric": 134,
+   "t": "2026-10-17T00:40:01.760080+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 90.0,
+   "metric": 141,
+   "t": "2026-10-17T02:10:01.937742+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.3,
+   "metric": 141,
+   "t": "2026-10-17T02:15:01.162639+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 88.7,
+   "metric": 141,
+   "t": "2026-10-17T02:20:01.510779+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 90.4,
+   "metric": 206,
+   "t": "2026-10-17T16:07:05.584551+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 91.8,
+   "metric": 217,
+   "t": "2026-10-17T18:05:00.160579+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 91.1,
+   "metric": 246,
+   "t": "2026-10-18T02:06:23.378780+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 89.0,
+   "metric": 253,
+   "t": "2026-10-18T03:06:28.246232+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 6,
+ "name": "OpenMOSS-Team/MOSS-Image-SFT",
+ "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-image",
+ "what": "text-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-11T07:01:17.000Z",
+ "last_seen": "2026-10-18T03:06:28.246232+00:00",
+ "last_why": "+168 likes/day pace right now (253 total).",
+ "extra": {
+  "downloads": 1036,
+  "trending": 244,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-18"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50105791",
+ "slug": "hn-50105791-frontier-pre-training-at-microsoft-ai",
+ "first_seen": "2026-10-16T13:08:32.004159+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 89.4,
+   "metric": 42,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  }
+ ],
+ "peak_score": 89.4,
+ "best_rank": 9,
+ "name": "Frontier Pre-Training at Microsoft AI",
+ "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-15T16:12:13Z",
+ "last_seen": "2026-10-16T13:08:32.004159+00:00",
+ "last_why": "+20 points/day pace right now (42 total).",
+ "extra": {
+  "comments": 4,
+  "hn": "https://news.ycombinator.com/item?id=50105791"
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

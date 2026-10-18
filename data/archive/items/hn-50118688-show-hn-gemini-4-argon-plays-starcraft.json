@@ -1,0 +1,57 @@
+{
+ "id": "hn:50118688",
+ "slug": "hn-50118688-show-hn-gemini-4-argon-plays-starcraft",
+ "first_seen": "2026-10-16T15:35:01.463894+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 48,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.2,
+   "metric": 69,
+   "t": "2026-10-16T17:00:01.940387+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.2,
+   "metric": 109,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.2,
+   "metric": 121,
+   "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 88.3,
+   "metric": 124,
+   "t": "2026-10-16T18:50:01.541764+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Show HN: Gemini 4 Argon plays StarCraft",
+ "url": "https://starskirmish.com/bench/v0-2/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-16T14:18:44Z",
+ "last_seen": "2026-10-16T18:50:01.541764+00:00",
+ "last_why": "+480 points/day pace right now (124 total).",
+ "extra": {
+  "comments": 64,
+  "hn": "https://news.ycombinator.com/item?id=50118688"
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

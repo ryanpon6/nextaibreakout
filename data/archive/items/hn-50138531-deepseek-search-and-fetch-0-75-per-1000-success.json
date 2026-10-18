@@ -1,0 +1,51 @@
+{
+ "id": "hn:50138531",
+ "slug": "hn-50138531-deepseek-search-and-fetch-0-75-per-1000-success",
+ "first_seen": "2026-10-18T08:09:55.667736+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 84,
+   "t": "2026-10-18T08:09:55.667736+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 85,
+   "t": "2026-10-18T08:11:57.022141+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 286,
+   "t": "2026-10-18T12:43:48.479714+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 319,
+   "t": "2026-10-18T13:45:58.611226+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
+ "url": "https://api-docs.deepseek.com/guides/search/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-18T06:50:36Z",
+ "last_seen": "2026-10-18T13:45:58.611226+00:00",
+ "last_why": "+764 points/day pace right now (319 total).",
+ "extra": {
+  "comments": 153,
+  "hn": "https://news.ycombinator.com/item?id=50138531"
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}

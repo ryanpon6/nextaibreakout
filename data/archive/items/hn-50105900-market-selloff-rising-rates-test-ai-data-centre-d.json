@@ -1,0 +1,40 @@
+{
+ "id": "hn:50105900",
+ "slug": "hn-50105900-market-selloff-rising-rates-test-ai-data-centre-d",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 88.5,
+   "metric": 64,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 84.4,
+   "metric": 72,
+   "t": "2026-10-16T17:00:01.940387+00:00"
+  }
+ ],
+ "peak_score": 88.5,
+ "best_rank": 8,
+ "name": "Market selloff, rising rates test AI data centre deal boom",
+ "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-15T16:17:40Z",
+ "last_seen": "2026-10-16T17:00:01.940387+00:00",
+ "last_why": "+17 points/day pace right now (72 total).",
+ "days": [
+  "2026-10-15",
+  "2026-10-16"
+ ],
+ "extra": {
+  "comments": 85,
+  "hn": "https://news.ycombinator.com/item?id=50105900"
+ }
+}

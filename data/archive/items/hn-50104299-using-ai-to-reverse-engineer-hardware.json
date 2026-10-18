@@ -1,0 +1,75 @@
+{
+ "id": "hn:50104299",
+ "slug": "hn-50104299-using-ai-to-reverse-engineer-hardware",
+ "first_seen": "2026-10-16T03:05:22.658292+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 88.3,
+   "metric": 126,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 88.3,
+   "metric": 127,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 87.7,
+   "metric": 131,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 82.3,
+   "metric": 210,
+   "t": "2026-10-16T11:55:01.939711+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.9,
+   "metric": 218,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 228,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 85.5,
+   "metric": 235,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 90.2,
+   "metric": 236,
+   "t": "2026-10-16T17:00:01.940387+00:00"
+  }
+ ],
+ "peak_score": 98.3,
+ "best_rank": 2,
+ "name": "Using AI to reverse engineer hardware",
+ "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-15T14:35:15Z",
+ "last_seen": "2026-10-16T17:00:01.940387+00:00",
+ "last_why": "+17 points/day pace right now (236 total).",
+ "days": [
+  "2026-10-16"
+ ],
+ "extra": {
+  "comments": 220,
+  "hn": "https://news.ycombinator.com/item?id=50104299"
+ }
+}

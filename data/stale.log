@@ -1,0 +1,61 @@
+!!!!! STALE 2026-10-15T21:07:56-06:00: last successful refresh was 100 min ago (2026-10-15T19:27:55-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-16T05:55:01-06:00: last successful refresh was 505 min ago (2026-10-15T21:29:18-06:00). Catching up now. !!!!!
+!!!!! RUN FAILED 2026-10-16T12:07:00-06:00 exit=0 !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T12:36:17-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T12:36:17-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T12:50:01-06:00: last successful refresh was 100 min ago (2026-10-16T11:09:17-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-16T14:35:01-06:00: last successful refresh was 103 min ago (2026-10-16T12:51:32-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T14:36:21-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T14:36:21-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T14:40:01-06:00: last successful refresh was 108 min ago (2026-10-16T12:51:32-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-16T15:35:26-06:00: last successful refresh was 163 min ago (2026-10-16T12:51:32-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T16:36:16-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T16:36:16-06:00 exit=0 !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T17:41:18-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T17:41:18-06:00 exit=0 !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T17:46:14-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T17:46:14-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T18:15:54-06:00: last successful refresh was 94 min ago (2026-10-16T16:41:36-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T18:17:24-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T18:17:24-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T18:20:01-06:00: last successful refresh was 98 min ago (2026-10-16T16:41:36-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T18:21:15-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T18:21:15-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T18:25:01-06:00: last successful refresh was 103 min ago (2026-10-16T16:41:36-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T18:26:32-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T18:26:32-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T18:30:01-06:00: last successful refresh was 108 min ago (2026-10-16T16:41:36-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T18:31:19-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T18:31:19-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T18:35:01-06:00: last successful refresh was 113 min ago (2026-10-16T16:41:36-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T18:36:13-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T18:36:13-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T18:40:01-06:00: last successful refresh was 118 min ago (2026-10-16T16:41:36-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T20:11:20-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T20:11:20-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T20:15:01-06:00: last successful refresh was 93 min ago (2026-10-16T18:41:22-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T20:16:14-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T20:16:14-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T20:20:01-06:00: last successful refresh was 98 min ago (2026-10-16T18:41:22-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T20:21:26-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T20:21:26-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T20:35:01-06:00: last successful refresh was 113 min ago (2026-10-16T18:41:22-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T20:36:15-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T20:36:15-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T20:45:48-06:00: last successful refresh was 124 min ago (2026-10-16T18:41:22-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T20:47:01-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T20:47:01-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T20:50:01-06:00: last successful refresh was 128 min ago (2026-10-16T18:41:22-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-16T20:51:13-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-16T20:51:13-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-16T20:55:01-06:00: last successful refresh was 133 min ago (2026-10-16T18:41:22-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-17T06:42:19-06:00: last successful refresh was 585 min ago (2026-10-16T20:56:21-06:00). Catching up now. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-17T06:43:27-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! RUN FAILED 2026-10-17T06:43:27-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-17T06:45:55-06:00: last successful refresh was 589 min ago (2026-10-16T20:56:21-06:00). Catching up now. !!!!!
+!!!!! RUN FAILED 2026-10-17T06:47:01-06:00 exit=0 !!!!!
+!!!!! STALE 2026-10-17T06:47:16-06:00: last successful refresh was 590 min ago (2026-10-16T20:56:21-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-17T16:55:38-06:00: last successful refresh was 151 min ago (2026-10-17T14:24:20-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-17T20:06:23-06:00: last successful refresh was 92 min ago (2026-10-17T18:33:44-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-18T02:09:55-06:00: last successful refresh was 243 min ago (2026-10-17T22:06:14-06:00). Catching up now. !!!!!
+!!!!! STALE 2026-10-18T06:43:48-06:00: last successful refresh was 270 min ago (2026-10-18T02:13:11-06:00). Catching up now. !!!!!

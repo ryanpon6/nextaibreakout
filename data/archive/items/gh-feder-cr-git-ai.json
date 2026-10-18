@@ -1,0 +1,138 @@
+{
+ "id": "gh:feder-cr/git-ai",
+ "slug": "gh-feder-cr-git-ai",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.0,
+   "metric": 679,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.9,
+   "metric": 723,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.9,
+   "metric": 723,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.9,
+   "metric": 726,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.9,
+   "metric": 1028,
+   "t": "2026-10-16T11:55:01.939711+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 1031,
+   "t": "2026-10-16T13:08:32.004159+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 1033,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.6,
+   "metric": 1044,
+   "t": "2026-10-16T18:50:01.541764+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 95.0,
+   "metric": 1055,
+   "t": "2026-10-16T22:35:01.258098+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 95.0,
+   "metric": 1055,
+   "t": "2026-10-16T22:40:01.224918+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.1,
+   "metric": 1064,
+   "t": "2026-10-17T02:15:01.162639+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.1,
+   "metric": 1064,
+   "t": "2026-10-17T02:20:01.510779+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.7,
+   "metric": 1064,
+   "t": "2026-10-17T02:35:01.356358+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.4,
+   "metric": 1066,
+   "t": "2026-10-17T02:55:01.951277+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.3,
+   "metric": 1114,
+   "t": "2026-10-17T16:07:05.584551+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.7,
+   "metric": 1256,
+   "t": "2026-10-18T13:45:58.611226+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "feder-cr/git-ai",
+ "url": "https://github.com/feder-cr/git-ai",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Git designed for AI agents.",
+ "what": "Git designed for AI agents.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-15T13:12:02Z",
+ "last_seen": "2026-10-18T13:45:58.611226+00:00",
+ "last_why": "+1.9K stars/day pace right now (1.3K total).",
+ "extra": {
+  "forks": 154,
+  "lang": "Go",
+  "topics": [
+   "ai-agents",
+   "coding-agents",
+   "git",
+   "golang",
+   "scion",
+   "version-control"
+  ],
+  "repo_id": 1420751050
+ },
+ "days": [
+  "2026-10-15",
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-18"
+ ],
+ "aliases": [
+  "gh:feder-cr/open_scion"
+ ]
+}

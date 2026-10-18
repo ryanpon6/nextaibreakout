@@ -1,0 +1,67 @@
+{
+ "id": "gh:Graphicle-AI/graphicle",
+ "slug": "gh-graphicle-ai-graphicle",
+ "first_seen": "2026-10-16T18:05:01.095508+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 95.6,
+   "metric": 186,
+   "t": "2026-10-16T18:05:01.095508+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.6,
+   "metric": 192,
+   "t": "2026-10-16T20:35:01.886580+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 95.6,
+   "metric": 192,
+   "t": "2026-10-16T20:40:01.109613+00:00"
+  }
+ ],
+ "peak_score": 95.6,
+ "best_rank": 6,
+ "name": "Graphicle-AI/graphicle",
+ "url": "https://github.com/Graphicle-AI/graphicle",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+ "what": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-14T12:25:36Z",
+ "last_seen": "2026-10-16T20:40:01.109613+00:00",
+ "last_why": "+65 stars/day pace right now (192 total).",
+ "extra": {
+  "forks": 9,
+  "lang": "Rust",
+  "topics": [
+   "agent-memory",
+   "ai-agents",
+   "claude-code",
+   "code-analysis",
+   "code-graph",
+   "code-intelligence",
+   "code-search",
+   "codex",
+   "coding-agents",
+   "context-engineering",
+   "cursor",
+   "developer-tools",
+   "graphrag",
+   "knowledge-graph",
+   "local-first",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol",
+   "rust",
+   "tree-sitter"
+  ]
+ },
+ "days": [
+  "2026-10-16"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "pypi:openai",
+ "slug": "pypi-openai",
+ "first_seen": "2026-10-15T21:08:25.792112+00:00",
+ "appearances": [
+  {
+   "rank": 10,
+   "score": 81.1,
+   "metric": 13913518,
+   "t": "2026-10-15T21:08:25.792112+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 77.8,
+   "metric": 13859068,
+   "t": "2026-10-16T03:05:22.658292+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 77.8,
+   "metric": 13859068,
+   "t": "2026-10-16T03:07:01.766756+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 80.1,
+   "metric": 13859068,
+   "t": "2026-10-16T03:27:57.286903+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 80.4,
+   "metric": 13859068,
+   "t": "2026-10-16T11:55:01.939711+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 80.3,
+   "metric": 13859068,
+   "t": "2026-10-16T14:30:52.240104+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 82.3,
+   "metric": 13859068,
+   "t": "2026-10-16T15:35:01.463894+00:00"
+  }
+ ],
+ "peak_score": 82.3,
+ "best_rank": 9,
+ "name": "openai",
+ "url": "https://pypi.org/project/openai",
+ "source": "pypi",
+ "kind": "tool",
+ "desc": "Python package",
+ "what": "Python package",
+ "tag": "dev tools",
+ "metric_name": "downloads/day",
+ "created": null,
+ "last_seen": "2026-10-16T15:35:01.463894+00:00",
+ "last_why": "13.9M downloads yesterday, 1.21\u00d7 its 7-day average.",
+ "days": [
+  "2026-10-15",
+  "2026-10-16"
+ ],
+ "extra": {
+  "week": 79896380,
+  "month": 295856631
+ }
+}

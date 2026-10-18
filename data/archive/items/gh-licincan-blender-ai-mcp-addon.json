@@ -1,0 +1,284 @@
+{
+ "id": "gh:LiCinCan/blender-ai-mcp-addon",
+ "slug": "gh-licincan-blender-ai-mcp-addon",
+ "first_seen": "2026-10-16T18:50:01.541764+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.3,
+   "metric": 162,
+   "t": "2026-10-16T18:50:01.541764+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 184,
+   "t": "2026-10-16T20:35:01.886580+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 184,
+   "t": "2026-10-16T20:40:01.109613+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 212,
+   "t": "2026-10-16T22:35:01.258098+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 213,
+   "t": "2026-10-16T22:40:01.224918+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 232,
+   "t": "2026-10-16T23:40:01.929973+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 98.3,
+   "metric": 234,
+   "t": "2026-10-16T23:45:01.686524+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.6,
+   "metric": 246,
+   "t": "2026-10-17T00:15:54.358780+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.6,
+   "metric": 246,
+   "t": "2026-10-17T00:20:01.391916+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.0,
+   "metric": 246,
+   "t": "2026-10-17T00:25:01.567878+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.6,
+   "metric": 248,
+   "t": "2026-10-17T00:30:01.349458+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 250,
+   "t": "2026-10-17T00:35:01.181344+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 252,
+   "t": "2026-10-17T00:40:01.760080+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 283,
+   "t": "2026-10-17T02:10:01.937742+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 285,
+   "t": "2026-10-17T02:15:01.162639+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 285,
+   "t": "2026-10-17T02:20:01.510779+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 291,
+   "t": "2026-10-17T02:35:01.356358+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 295,
+   "t": "2026-10-17T02:45:48.244050+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 296,
+   "t": "2026-10-17T02:50:01.617268+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 298,
+   "t": "2026-10-17T02:55:01.951277+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.5,
+   "metric": 420,
+   "t": "2026-10-17T12:42:19.519112+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.8,
+   "metric": 420,
+   "t": "2026-10-17T12:45:55.504650+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.8,
+   "metric": 420,
+   "t": "2026-10-17T12:47:17.021272+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.8,
+   "metric": 438,
+   "t": "2026-10-17T13:55:42.763161+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.3,
+   "metric": 469,
+   "t": "2026-10-17T14:55:00.866467+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.5,
+   "metric": 509,
+   "t": "2026-10-17T16:07:05.584551+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.5,
+   "metric": 530,
+   "t": "2026-10-17T17:05:00.456633+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.8,
+   "metric": 545,
+   "t": "2026-10-17T19:05:00.188345+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.8,
+   "metric": 563,
+   "t": "2026-10-17T20:23:05.813826+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.6,
+   "metric": 602,
+   "t": "2026-10-17T22:55:38.521191+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.8,
+   "metric": 619,
+   "t": "2026-10-18T00:15:00.200029+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.1,
+   "metric": 627,
+   "t": "2026-10-18T02:06:23.378780+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.1,
+   "metric": 634,
+   "t": "2026-10-18T03:06:28.246232+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.1,
+   "metric": 641,
+   "t": "2026-10-18T04:05:00.242937+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.0,
+   "metric": 682,
+   "t": "2026-10-18T08:09:55.667736+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 96.0,
+   "metric": 682,
+   "t": "2026-10-18T08:11:57.022141+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 727,
+   "t": "2026-10-18T12:43:48.479714+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.5,
+   "metric": 732,
+   "t": "2026-10-18T13:45:58.611226+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "LiCinCan/blender-ai-mcp-addon",
+ "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+ "source": "github",
+ "kind": "tool",
+ "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+ "what": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini,\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-15T22:30:47Z",
+ "last_seen": "2026-10-18T13:45:58.611226+00:00",
+ "last_why": "+116 stars/day pace right now (732 total).",
+ "extra": {
+  "forks": 334,
+  "lang": "Python",
+  "topics": [
+   "ai-assistant",
+   "blender",
+   "blender-addon",
+   "blender-ai",
+   "blender-automation",
+   "blender-extension",
+   "blender-mcp",
+   "blender-plugin",
+   "blender-python",
+   "blender-scripting",
+   "bpy",
+   "chatgpt",
+   "gpt",
+   "llm",
+   "mcp",
+   "mcp-for-blender",
+   "mcp-server",
+   "model-context-protocol",
+   "opencode",
+   "python"
+  ],
+  "repo_id": 1421389432
+ },
+ "days": [
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-18"
+ ],
+ "aliases": [
+  "gh:anujasid/mcp-for-blender-pro",
+  "gh:anujasid/blender-ai-mcp-addon"
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "gh:heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+ "slug": "gh-heqiangdiao-wq-ai-cross-border-ecommerce-agent-toolkit",
+ "first_seen": "2026-10-17T00:15:54.358780+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 298,
+   "t": "2026-10-17T00:15:54.358780+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.3,
+   "metric": 298,
+   "t": "2026-10-17T00:20:01.391916+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 298,
+   "t": "2026-10-17T00:25:01.567878+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 298,
+   "t": "2026-10-17T00:30:01.349458+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 298,
+   "t": "2026-10-17T00:35:01.181344+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.6,
+   "metric": 298,
+   "t": "2026-10-17T00:40:01.760080+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 6,
+ "name": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+ "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+ "source": "github",
+ "kind": "tool",
+ "desc": "AI \u8de8\u5883\u7535\u5546\u8fd0\u8425\u667a\u80fd\u4f53\u5de5\u5177\u7bb1 \u00b7 \u628a\u8fd0\u8425 SOP \u62c6\u6210 7 \u4e2a\u53ef\u590d\u7528\u7684 AI Agent \u5de5\u4f5c\u6d41\uff0c\u542b Prompt\u3001\u6a21\u677f\u4e0e\u771f\u5b9e\u6848\u4f8b",
+ "what": "AI \u8de8\u5883\u7535\u5546\u8fd0\u8425\u667a\u80fd\u4f53\u5de5\u5177\u7bb1 \u00b7 \u628a\u8fd0\u8425 SOP \u62c6\u6210 7 \u4e2a\u53ef\u590d\u7528\u7684 AI Agent \u5de5\u4f5c\u6d41\uff0c\u542b Prompt\u3001\u6a21\u677f\u4e0e\u771f\u5b9e\u6848\u4f8b",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-13T10:13:21Z",
+ "last_seen": "2026-10-17T00:40:01.760080+00:00",
+ "last_why": "298 stars since launch 4 days ago \u2248 83 stars/day since launch.",
+ "extra": {
+  "forks": 368,
+  "lang": "Python",
+  "topics": [
+   "ai-agents",
+   "cross-border-ecommerce",
+   "ecommerce",
+   "llm",
+   "mercado-livre",
+   "prompt-engineering",
+   "shopee",
+   "sop",
+   "workflow-automation"
+  ]
+ },
+ "days": [
+  "2026-10-17"
+ ]
+}
