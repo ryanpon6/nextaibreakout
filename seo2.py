@@ -7,7 +7,7 @@ from common import DATA, ROOT, SNAP, canon, aliases
 e = B.e; SITE = B.SITE; BRAND = B.BRAND
 ARC = os.path.join(DATA, "archive")
 TITLE = "Trending AI Repos, Models & Releases Today, Ranked Hourly | NextAiBreakout"
-H1 = B.e(B.H1_TEXT)
+H1 = B.H1_HTML
 FONT_LINKS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
               f'<link rel="stylesheet" href="/fonts/fonts.css?v={B.VER}">')
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot",

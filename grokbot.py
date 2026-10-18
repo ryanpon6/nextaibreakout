@@ -88,7 +88,7 @@ def apply(DIST):
     def rcard(d, t, lis, u):
         return f'<li class="c"><div class="meta mono">{fd(d)} · <b>Changelog</b></div><a href="{e(u)}" rel="noopener" target="_blank">{e(t)}</a>' + ("<ul class=\"n\">" + "".join(f"<li>{e(x)}</li>" for x in lis) + "</ul>" if lis else "") + "</li>"
     main = f"""<main class="wrap gb"><nav class="crumbs mono" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/labs/xai/">SpaceXSI</a> / <span aria-current="page">Grok Bot updates</span></nav>
-<h1>Grok Bot updates, features &amp; changelog</h1>
+<h1><span class="accent">Grok Bot</span> updates, features &amp; changelog</h1>
 <p class="lede">New Grok Bot features and releases from SpaceXSI, newest first. Each item links to its official source: the <a href="https://x.ai/changelog/bot">Grok Bot changelog</a>, <a href="https://x.ai/news">x.ai/news</a> or the official @bot account on X. Figures are the publishing company's own claims (SpaceXSI on x.ai, SpaceXAI on @bot). More SpaceXSI (xAI) news: <a href="/labs/xai/">xAI on Frontier Labs</a>.</p>
 <h2>Top Grok Bot updates</h2><ol>{"".join(card(*c) for c in cur)}</ol>
 <h2>Latest changelog releases</h2><ol>{"".join(rcard(*r) for r in rel)}</ol>

@@ -10,6 +10,7 @@ SITE = "https://nextaibreakout.com"; BRAND = "NextAiBreakout"; TAG = "Tracking t
 DESC = "AI repos, models and packages ranked hourly by velocity, not hype. Tracked across GitHub, Hugging Face, npm, PyPI and Hacker News."
 X_URL = "https://x.com/ryanpon"; X_HANDLE = "@ryanpon"
 H1_TEXT = "Trending AI, caught the hour it breaks out."
+H1_HTML = 'Trending <span class="accent">AI</span>, caught the hour it breaks out.'
 e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">'
@@ -135,7 +136,7 @@ def main():
         f'<button data-f="tag" data-v="{g}">#{g}</button>' for g in ("agents", "models", "dev tools", "safety"))
     page = head(f"{BRAND}: what's breaking out in AI right now", DESC, "/") + f"""<main>
 <section class="hero" id="top"><div class="hcopy"><p class="live"><span class="dot" aria-hidden="true"></span>Live. Last run {stamp}, {d['items_scanned']} items checked across {len(d['sources'])} sources</p>
-<h1>{e(H1_TEXT)}</h1><p class="lede">{e(DESC)}</p>
+<h1>{H1_HTML}</h1><p class="lede">{e(DESC)}</p>
 <!--kit-hero--><div class="btns"><a class="btn pri" href="#top10">See today's top 10</a><a class="btn" href="#subscribe">Get the daily email</a></div><!--/kit-hero--></div>
 {chart(top)}</section>
 <section id="top10" class="board"><div class="sh"><h2>Breaking out right now</h2><p class="dim">Each score compares an item's growth this hour with its own baseline, from 0 to 99. Refreshed every hour.</p></div>
@@ -221,7 +222,7 @@ def labs_pages(t):
     j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "Frontier Labs", "url": SITE + path, "description": desc,
          "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": l["name"], "url": f"{SITE}/labs/{l['slug']}/"} for k, l in enumerate(cfg)]}}, crumbs([])]}
     page = head(title, desc, path, "/", ld(j)) + f"""<main><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Frontier Labs</span></nav>
-<section class="labs-hero"><h1>Latest releases from the frontier AI labs</h1>
+<section class="labs-hero"><h1>Latest releases from the <span class="accent">frontier AI labs</span></h1>
 <p class="stamp"><span class="dot"></span>Updated {upd}</p><p class="dim">{e(desc)}</p></section>
 <div class="lab-strip lab-grid">{"".join(lab_card(l, d["labs"].get(l["slug"], {}), "/") for l in cfg)}</div></main>""" + foot(t.year, "/") + "</body></html>"
     open(os.path.join(DIST, "labs", "index.html"), "w").write(page)
