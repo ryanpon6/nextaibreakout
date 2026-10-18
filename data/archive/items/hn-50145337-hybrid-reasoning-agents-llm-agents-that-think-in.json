@@ -1,0 +1,33 @@
+{
+ "id": "hn:50145337",
+ "slug": "hn-50145337-hybrid-reasoning-agents-llm-agents-that-think-in",
+ "first_seen": "2026-10-18T21:56:07.890677+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 50,
+   "t": "2026-10-18T21:56:07.890677+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+ "url": "https://arxiv.org/abs/2610.18861",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-18T20:48:14Z",
+ "last_seen": "2026-10-18T21:56:07.890677+00:00",
+ "last_why": "50 points in 1h on Hacker News (21 comments).",
+ "extra": {
+  "comments": 21,
+  "hn": "https://news.ycombinator.com/item?id=50145337"
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}
