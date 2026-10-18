@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:lodestones/MOSS-Image-SFT-8-steps-dmd",
+ "slug": "hf-lodestones-moss-image-sft-8-steps-dmd",
+ "first_seen": "2026-10-18T20:44:11.403718+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 143,
+   "t": "2026-10-18T20:44:11.403718+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+ "url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-16T10:28:56.000Z",
+ "last_seen": "2026-10-18T20:44:11.403718+00:00",
+ "last_why": "Trending score 141 on Hugging Face; 143 likes, 30.8K downloads.",
+ "extra": {
+  "downloads": 30751,
+  "trending": 141,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}
