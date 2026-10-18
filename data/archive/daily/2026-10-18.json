@@ -13,7 +13,8 @@
   "2026-10-18T17:34:34.590562+00:00",
   "2026-10-18T18:50:14.038516+00:00",
   "2026-10-18T18:55:37.917827+00:00",
-  "2026-10-18T18:59:26.276013+00:00"
+  "2026-10-18T18:59:26.276013+00:00",
+  "2026-10-18T19:10:15.535953+00:00"
  ],
  "items": {
   "hn-50129045-deepseek-v4-1-flash-1017": {
@@ -48,20 +49,20 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10233,
-    "trending": 1191,
+    "trending": 1194,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+390 likes/day pace right now (1.3K total).",
-   "metric_at_peak": 1281,
+   "why_at_peak": "+391 likes/day pace right now (1.3K total).",
+   "metric_at_peak": 1284,
    "metric_name": "likes"
   },
   "gh-reason-machines-reason-network": {
@@ -74,8 +75,8 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
@@ -292,8 +293,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 96.0,
    "best_rank": 5,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -314,8 +315,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 93.0,
    "best_rank": 8,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -433,22 +434,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-18T04:05:00.242937+00:00",
-   "peak_score": 90.3,
-   "best_rank": 10,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-18T13:45:58.611226+00:00",
+   "peak_score": 93.7,
+   "best_rank": 8,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 338036,
-    "trending": 591,
+    "trending": 617,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+295 likes/day pace right now (677 total).",
-   "metric_at_peak": 677,
+   "why_at_peak": "+241 likes/day pace right now (782 total).",
+   "metric_at_peak": 782,
    "metric_name": "likes"
   },
   "hn-50138531-deepseek-search-and-fetch-0-75-per-1000-success": {
@@ -461,12 +462,12 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 224,
+    "comments": 225,
     "hn": "https://news.ycombinator.com/item?id=50138531"
    },
    "why_at_peak": "+914 points/day pace right now (346 total).",
@@ -635,14 +636,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-18T12:43:48.479714+00:00",
-   "peak_score": 93.7,
-   "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "peak_score": 94.5,
+   "best_rank": 7,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
    "tag": "agents",
    "extra": {
-    "forks": 630,
+    "forks": 633,
     "lang": "Rust",
     "topics": [
      "3d-modeling",
@@ -657,8 +658,8 @@
     ],
     "repo_id": 1409246014
    },
-   "why_at_peak": "+1.6K stars/day pace right now (5.3K total).",
-   "metric_at_peak": 5315,
+   "why_at_peak": "+1.7K stars/day pace right now (5.3K total).",
+   "metric_at_peak": 5329,
    "metric_name": "stars"
   },
   "hf-nvidia-nvidia-nemotron-3-5-super-vl-120b-a12b-nvfp4": {
@@ -728,8 +729,8 @@
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
@@ -748,18 +749,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
-   "peak_score": 96.7,
-   "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-18T18:59:26.276013+00:00",
+   "peak_score": 97.5,
+   "best_rank": 3,
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
    "what": "",
    "tag": "safety",
    "extra": {
-    "comments": 147,
+    "comments": 149,
     "hn": "https://news.ycombinator.com/item?id=50141429"
    },
-   "why_at_peak": "+255 points/day pace right now (133 total).",
-   "metric_at_peak": 133,
+   "why_at_peak": "+241 points/day pace right now (134 total).",
+   "metric_at_peak": 134,
    "metric_name": "points"
   },
   "hf-reflection-beam-1-0-501b-a23b": {
@@ -831,6 +832,51 @@
    },
    "why_at_peak": "1.2K stars since launch 10 days ago \u2248 125 stars/day since launch.",
    "metric_at_peak": 1244,
+   "metric_name": "stars"
+  },
+  "gh-morluto-awesome-reverse-engineering": {
+   "id": "gh:morluto/awesome-reverse-engineering",
+   "slug": "gh-morluto-awesome-reverse-engineering",
+   "name": "morluto/awesome-reverse-engineering",
+   "url": "https://github.com/morluto/awesome-reverse-engineering",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-18T19:10:15.535953+00:00",
+   "peak_score": 93.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-18T19:10:15.535953+00:00",
+   "what": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+   "tag": "safety",
+   "extra": {
+    "forks": 182,
+    "lang": null,
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "awesome",
+     "awesome-list",
+     "binary-analysis",
+     "ctf",
+     "cybersecurity",
+     "debugging",
+     "decompiler",
+     "disassembler",
+     "dynamic-analysis",
+     "firmware",
+     "frida",
+     "ghidra",
+     "malware-analysis",
+     "mcp",
+     "reverse-engineering",
+     "security",
+     "security-tools",
+     "static-analysis"
+    ],
+    "repo_id": 1412022658
+   },
+   "why_at_peak": "+196 stars/day pace right now (808 total).",
+   "metric_at_peak": 808,
    "metric_name": "stars"
   }
  }

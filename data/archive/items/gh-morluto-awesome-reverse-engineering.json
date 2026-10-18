@@ -1,0 +1,56 @@
+{
+ "id": "gh:morluto/awesome-reverse-engineering",
+ "slug": "gh-morluto-awesome-reverse-engineering",
+ "first_seen": "2026-10-18T19:10:15.535953+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 93.0,
+   "metric": 808,
+   "t": "2026-10-18T19:10:15.535953+00:00"
+  }
+ ],
+ "peak_score": 93.0,
+ "best_rank": 9,
+ "name": "morluto/awesome-reverse-engineering",
+ "url": "https://github.com/morluto/awesome-reverse-engineering",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+ "what": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-09T14:58:20Z",
+ "last_seen": "2026-10-18T19:10:15.535953+00:00",
+ "last_why": "+196 stars/day pace right now (808 total).",
+ "extra": {
+  "forks": 182,
+  "lang": null,
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "awesome",
+   "awesome-list",
+   "binary-analysis",
+   "ctf",
+   "cybersecurity",
+   "debugging",
+   "decompiler",
+   "disassembler",
+   "dynamic-analysis",
+   "firmware",
+   "frida",
+   "ghidra",
+   "malware-analysis",
+   "mcp",
+   "reverse-engineering",
+   "security",
+   "security-tools",
+   "static-analysis"
+  ],
+  "repo_id": 1412022658
+ },
+ "days": [
+  "2026-10-18"
+ ]
+}
