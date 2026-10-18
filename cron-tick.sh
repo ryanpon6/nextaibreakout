@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 export GROKBOT=1  # /grok-bot/ live, approved by Ryan 2026-10-16
+export KIT=1  # Kit signup form + /welcome/ live, approved by Ryan 2026-10-17 22:33 MT
 # Cron entry point, runs every 5 min. Catch-up: runs the full refresh only if the last
 # successful run is >= 55 min old (so a run missed while the box was paused fires on the next tick).
 # SEO2 is passed through unchanged (unset = production). With SEO2=1, run.sh exits 3 and skips the deploy if selfcheck fails.

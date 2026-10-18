@@ -145,6 +145,8 @@ def main():
         import seo2; seo2.apply(DIST, d, t)
     if os.getenv("GROKBOT") == "1":  # Grok Bot page: off by default so the cron deploy does not publish it
         import grokbot; grokbot.apply(DIST)
+    if os.getenv("KIT") == "1":  # Kit email signup: off by default so production/cron builds do not include it (preview only)
+        import kit; kit.apply(DIST)
     print("built", DIST)
 
 # ---------------- Frontier Labs ----------------

@@ -12,6 +12,8 @@
 !/common.py
 !/fetch.py
 !/grokbot.py
+!/kit.py
+!/kit/
 !/labs.py
 !/migrate_archive.py
 !/score.py
