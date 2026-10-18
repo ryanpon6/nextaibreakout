@@ -8,10 +8,16 @@
    "score": 96.0,
    "metric": 118,
    "t": "2026-10-18T17:34:34.590562+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 133,
+   "t": "2026-10-18T18:50:14.038516+00:00"
   }
  ],
- "peak_score": 96.0,
- "best_rank": 5,
+ "peak_score": 96.7,
+ "best_rank": 4,
  "name": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "safety",
  "metric_name": "points",
  "created": "2026-10-18T14:30:27Z",
- "last_seen": "2026-10-18T17:34:34.590562+00:00",
- "last_why": "118 points in 3h on Hacker News (134 comments).",
+ "last_seen": "2026-10-18T18:50:14.038516+00:00",
+ "last_why": "+285 points/day pace right now (133 total).",
  "extra": {
-  "comments": 134,
+  "comments": 146,
   "hn": "https://news.ycombinator.com/item?id=50141429"
  },
  "days": [

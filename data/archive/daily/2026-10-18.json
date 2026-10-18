@@ -10,7 +10,8 @@
   "2026-10-18T12:43:48.479714+00:00",
   "2026-10-18T13:45:58.611226+00:00",
   "2026-10-18T14:18:17.509614+00:00",
-  "2026-10-18T17:34:34.590562+00:00"
+  "2026-10-18T17:34:34.590562+00:00",
+  "2026-10-18T18:50:14.038516+00:00"
  ],
  "items": {
   "hn-50129045-deepseek-v4-1-flash-1017": {
@@ -45,13 +46,13 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10233,
-    "trending": 1171,
+    "trending": 1187,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -69,10 +70,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
-   "peak_score": 98.3,
-   "best_rank": 2,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
@@ -87,8 +88,8 @@
     ],
     "repo_id": 1422344223
    },
-   "why_at_peak": "+246 stars/day pace right now (252 total).",
-   "metric_at_peak": 252,
+   "why_at_peak": "+190 stars/day pace right now (391 total).",
+   "metric_at_peak": 391,
    "metric_name": "stars"
   },
   "hn-50127979-show-hn-llmspeed-feel-how-fast-a-local-llm-runs": {
@@ -289,8 +290,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 96.0,
    "best_rank": 5,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -311,8 +312,8 @@
    "first_seen": "2026-10-18T02:06:23.378780+00:00",
    "peak_score": 93.0,
    "best_rank": 8,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -458,12 +459,12 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-18T14:18:17.509614+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 169,
+    "comments": 221,
     "hn": "https://news.ycombinator.com/item?id=50138531"
    },
    "why_at_peak": "+914 points/day pace right now (346 total).",
@@ -480,13 +481,13 @@
    "first_seen": "2026-10-18T08:09:55.667736+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 354126,
-    "trending": 176,
+    "trending": 179,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -563,8 +564,8 @@
    "first_seen": "2026-10-18T00:15:00.200029+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini,\u2026",
    "tag": "agents",
    "extra": {
@@ -594,8 +595,8 @@
     ],
     "repo_id": 1421389432
    },
-   "why_at_peak": "+286 stars/day pace right now (775 total).",
-   "metric_at_peak": 775,
+   "why_at_peak": "+209 stars/day pace right now (786 total).",
+   "metric_at_peak": 786,
    "metric_name": "stars"
   },
   "hf-liquidai-d1-3b": {
@@ -725,12 +726,12 @@
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 88,
+    "comments": 113,
     "hn": "https://news.ycombinator.com/item?id=50141657"
    },
    "why_at_peak": "108 points in 3h on Hacker News (88 comments).",
@@ -745,18 +746,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
-   "peak_score": 96.0,
-   "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "peak_score": 96.7,
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "",
    "tag": "safety",
    "extra": {
-    "comments": 134,
+    "comments": 146,
     "hn": "https://news.ycombinator.com/item?id=50141429"
    },
-   "why_at_peak": "118 points in 3h on Hacker News (134 comments).",
-   "metric_at_peak": 118,
+   "why_at_peak": "+285 points/day pace right now (133 total).",
+   "metric_at_peak": 133,
    "metric_name": "points"
   },
   "hf-reflection-beam-1-0-501b-a23b": {
@@ -795,12 +796,12 @@
    "first_seen": "2026-10-18T17:34:34.590562+00:00",
    "peak_score": 93.0,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-18T17:34:34.590562+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-18T18:50:14.038516+00:00",
    "what": "ARTEX \u00b7 AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) \u00b7 AI \u81ea\u4e3b\u6e17\u900f\u6d4b\u8bd5\u7cfb\u7edf \u00b7 \u767e\u5ea6 agent+ \u653b\u9632\u6311\u6218\u8d5b\u51a0\u519b",
    "tag": "safety",
    "extra": {
-    "forks": 127,
+    "forks": 164,
     "lang": "Go",
     "topics": [
      "ai-agent",
@@ -826,8 +827,8 @@
     ],
     "repo_id": 1410926671
    },
-   "why_at_peak": "1.2K stars since launch 10 days ago \u2248 126 stars/day since launch.",
-   "metric_at_peak": 1243,
+   "why_at_peak": "1.2K stars since launch 10 days ago \u2248 125 stars/day since launch.",
+   "metric_at_peak": 1244,
    "metric_name": "stars"
   }
  }

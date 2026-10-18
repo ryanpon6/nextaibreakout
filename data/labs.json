@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T17:35:16.836499+00:00",
+ "generated": "2026-10-18T18:50:57.355025+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-18T17:35:16.836499+00:00"
+   "fetched": "2026-10-18T18:50:57.355025+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -257,7 +257,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-18T17:35:16.836499+00:00"
+   "fetched": "2026-10-18T18:50:57.355025+00:00"
   },
   "openai": {
    "items": [
@@ -407,10 +407,20 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-18T17:35:16.836499+00:00"
+   "fetched": "2026-10-18T18:50:57.355025+00:00"
   },
   "anthropic": {
    "items": [
+    {
+     "title": "Investing in the public benefit",
+     "url": "https://www.anthropic.com/news/public-benefit-fund",
+     "date": "2026-10-18T12:00:00+00:00",
+     "day": "2026-10-18",
+     "summary": "",
+     "source": "Anthropic News",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Claude Code v2.1.302",
      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
@@ -500,16 +510,6 @@
      "source": "Anthropic News",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-     "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23T12:00:00+00:00",
-     "day": "2026-09-23",
-     "summary": "",
-     "source": "Anthropic News",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -530,7 +530,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-18T17:35:16.836499+00:00"
+   "fetched": "2026-10-18T18:50:57.355025+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -671,7 +671,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-18T17:35:16.836499+00:00"
+   "fetched": "2026-10-18T18:50:57.355025+00:00"
   },
   "meta": {
    "items": [
@@ -786,7 +786,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-18T17:35:16.836499+00:00"
+   "fetched": "2026-10-18T18:50:57.355025+00:00"
   }
  }
 }
