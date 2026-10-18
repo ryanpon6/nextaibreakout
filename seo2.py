@@ -6,7 +6,7 @@ import build as B
 from common import DATA, ROOT, SNAP, canon, aliases
 e = B.e; SITE = B.SITE; BRAND = B.BRAND
 ARC = os.path.join(DATA, "archive")
-TITLE = "Trending AI Repos, Models & Releases Today, Ranked Hourly | NextAiBreakout"
+TITLE = "Trending AI Repos & Models Today | NextAiBreakout"
 H1 = B.H1_HTML
 FONT_LINKS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
               f'<link rel="stylesheet" href="/fonts/fonts.css?v={B.VER}">')
@@ -26,6 +26,8 @@ FOOT_LINKS = ('<nav class="footlinks" aria-label="Site"><a href="/">Today</a><a 
               '<a href="/github/">GitHub</a><a href="/huggingface/">Hugging Face</a><a href="/npm/">npm</a><a href="/pypi/">PyPI</a><a href="/agents/">Agents</a><a href="/models/">Models</a>'
               '<a href="/labs/">Frontier Labs</a><a href="/about">About</a><a href="/feed.xml">RSS</a></nav>')
 BLABEL = "Breakouts"
+CAT_TITLE = {"github": "Trending AI GitHub Repos Today", "huggingface": "Trending Hugging Face Models Today", "npm": "Trending AI npm Packages Today",
+             "pypi": "Trending AI Python Packages Today", "agents": "Trending AI Agent Projects Today", "models": "New & Trending AI Models Today"}
 def gain(series, t0=None, t1=None):
     """Real gain between the first and last stored snapshot in [t0, t1]: (delta, hours) or None."""
     pts = [(t, m) for t, m in series if (t0 is None or t >= t0) and (t1 is None or t <= t1)]
@@ -203,7 +205,7 @@ def apply(DIST, d, t):
     h = h.replace('<p class="empty dim" hidden>', arch + '<p class="empty dim" hidden>', 1)
     j = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebSite", "@id": SITE + "/#website", "name": BRAND, "url": SITE + "/", "description": B.DESC, "publisher": {"@id": SITE + "/#org"}},
-        {"@type": "Organization", "@id": SITE + "/#org", "name": BRAND, "url": SITE + "/", "logo": SITE + "/favicon.svg"},
+        {"@type": "Organization", "@id": SITE + "/#org", "name": BRAND, "url": SITE + "/", "logo": SITE + "/favicon.svg", "sameAs": [B.X_URL]},
         {"@type": "ItemList", "name": "Top 10 breaking out in AI right now", "numberOfItems": len(d["top"]), "itemListOrder": "https://schema.org/ItemListOrderDescending",
          "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": i["name"],
                               "url": SITE + ipath(slug_of[i["id"]], i["source"]) if slug_of[i["id"]] in items else i["url"]} for k, i in enumerate(d["top"])]}]}
@@ -231,8 +233,9 @@ def apply(DIST, d, t):
         hist = [m for _, m in S]
         rows = "".join(f"<tr><td class='dim'>{fmt_t(a['t'])}</td><td>#{a['rank']}</td><td>{a['score']:.0f}</td><td>{B.e(str(a['metric']))}</td></tr>" for a in reversed(I["appearances"][-48:]))
         dlinks = ", ".join(f'<a href="/daily/{x}/">{x}</a>' for x in reversed(I.get("days", [])))
-        title = f"{I['name'][:70]}: breakout history and stats | {BRAND}"
-        desc = f"{I['name'][:80]} ({badge(I)}) reached #{I['best_rank']} on NextAiBreakout's hourly AI breakout ranking. Real hourly {I['metric_name']} history and top-10 appearances."
+        kind = {"github": "trending AI repo", "npm": "trending AI package", "pypi": "trending AI package", "hackernews": "trending AI story"}.get(I["source"], "trending AI Space" if badge(I) == "HF Space" else "trending AI model")
+        title = B.seo_title(f"{I['name']}: {kind}") if len(I['name']) <= 40 else B.seo_title(I['name'])
+        desc = B.fit(f"{I['name'][:80]} ({badge(I)}) reached #{I['best_rank']} on NextAiBreakout's hourly AI ranking. Real {I['metric_name']} history and top-10 runs.", 155)
         enough = len(hist) >= 3 and max(hist) != min(hist)
         chart = (f'<div class="item-spark">{B.spark(hist, 720, 120, B.GOLD, True)}</div>' if enough else
                  f'<div class="item-spark wait"><p>The history chart appears once this item has 3 hourly snapshots. {plural(len(hist), "snapshot")} recorded so far.</p></div>')
@@ -255,7 +258,7 @@ def apply(DIST, d, t):
         nav = (f'<a href="/daily/{ds[k-1]}/">← {ds[k-1]}</a>' if k else "") + (f' <a href="/daily/{ds[k+1]}/">{ds[k+1]} →</a>' if k + 1 < len(ds) else "")
         lis = "".join(f"""<li><span class="rk">{n}</span><div><span class="sb s-{x['source']}">{badge(x)}</span> <a class="title" href="{ipath(x)}">{e(x['name'])}</a>
 <p class="what">{e(desc_of(x))}</p><p class="meta dim">Peak score {x['peak_score']:.0f} · best #{x['best_rank']} · {min(x['runs_in_top10'], len(D['runs']))} of {plural(len(D['runs']), 'hourly run')} in top 10 · {e(measure(dict(x, metric=(SER.get(x['id']) or [(0, x.get('metric_at_peak') or 0)])[-1][1], created=items.get(x['slug'], {}).get('created'))))}</p></div></li>""" for n, x in enumerate(its, 1))
-        title = f"Trending AI repos & models on {nice}: daily breakout archive | {BRAND}"
+        title = B.seo_title(f"Trending AI repos & models, {dt.date.fromisoformat(day).strftime('%b %-d, %Y')}")
         desc = f"The AI repos, models and stories that hit NextAiBreakout's hourly top 10 on {nice} (UTC), with peak scores and real metrics."
         j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": f"AI breakouts on {nice}", "url": SITE + path, "datePublished": day,
              "mainEntity": {"@type": "ItemList", "numberOfItems": len(its), "itemListElement": [{"@type": "ListItem", "position": n, "name": x["name"], "url": SITE + ipath(x)} for n, x in enumerate(its, 1)]}},
@@ -267,7 +270,7 @@ def apply(DIST, d, t):
         page = page.replace("<main>", "<main>" + vcrumbs(("Home", "/"), ("Daily archive", "/daily/"), (day, path)), 1)
         wr(os.path.join(DIST, "daily", day, "index.html"), page)
     idx = "".join(f'<li><a href="/daily/{x}/">{dt.date.fromisoformat(x).strftime("%B %-d, %Y")}</a> <span class="dim">{len(days[x]["items"])} items, {len(days[x]["runs"])} runs</span></li>' for x in reversed(ds))
-    page = B.head(f"Daily AI breakout archive: trending AI repos and models by day | {BRAND}", "Day-by-day archive of the AI repos, models and stories that reached NextAiBreakout's hourly top 10. Recorded live since Oct 15, 2026.", "/daily/", "/",
+    page = B.head(B.seo_title("Daily archive of trending AI repos & models"), "Day-by-day archive of the AI repos, models and stories that reached NextAiBreakout's hourly top 10. Recorded live since Oct 15, 2026.", "/daily/", "/",
                   ld({"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "Daily AI breakout archive", "url": SITE + "/daily/"}, crumbs(("Home", "/"), ("Archive", "/daily/"))]})) + f"""<main><section class="labs-hero"><h1>Daily AI breakout archive</h1>
 <p class="dim">One page per day, recorded live from the hourly ranking since {ds[0] if ds else 'today'}. No backfilled days.</p></section><ul class="dayidx">{idx or '<li class="dim">No days recorded yet.</li>'}</ul></main>""" + B.foot(t.year, "/") + "</body></html>"
     wr(os.path.join(DIST, "daily", "index.html"), page.replace("<main>", "<main>" + vcrumbs(("Home", "/"), ("Daily archive", "/daily/")), 1))
@@ -308,8 +311,8 @@ def extra_pages(DIST, d, t, items, days, slug_of, ser):
         its = [x for x in allx if (x["source"] == key if kind == "source" else x.get("tag") == key)][:30]
         rule = (f"Every {label} item in this hour's scored set, ordered by breakout score." if kind == "source" else
                 f"Items tagged <b>#{key}</b> by a keyword rule on each item's own name, description and topics ({'agent, MCP, browser-use, autonomous, skill' if key=='agents' else 'Hugging Face model, or words like model, weights, LLM, NNb'}). Heuristic, not hand-curated.")
-        path = f"/{key}/"; title = f"{h1} today, ranked hourly by velocity | {BRAND}"
-        desc = f"{h1} right now, ranked every hour by growth rate on NextAiBreakout. Real metrics from public APIs; updated {stamp}."
+        path = f"/{key}/"; title = B.seo_title(CAT_TITLE[key])
+        desc = B.fit(f"{h1} right now, ranked every hour by growth rate. Real metrics from public APIs, updated {stamp}.", 155)
         j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": h1, "url": SITE + path,
              "mainEntity": {"@type": "ItemList", "numberOfItems": len(its), "itemListElement": [{"@type": "ListItem", "position": n, "name": x["name"],
              "url": SITE + ipath(slug_of.get(x["id"]) or __import__("archive").slug(x), x["source"]) if (__import__("archive").slug(x) in items) else x["url"]} for n, x in enumerate(its, 1)]}},
@@ -335,7 +338,7 @@ def extra_pages(DIST, d, t, items, days, slug_of, ser):
     span = f"{last[0]} to {last[-1]}" if last else "no days yet"
     j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": BLABEL, "url": SITE + "/breakouts/",
          "mainEntity": {"@type": "ItemList", "numberOfItems": len(its), "itemListElement": [{"@type": "ListItem", "position": n, "name": x["name"], "url": SITE + ipath(x)} for n, x in enumerate(its, 1)]}}, crumbs(("Home", "/"), (BLABEL, "/breakouts/"))]}
-    page = B.head(f"{BLABEL}: AI repos and models that stayed in the top 10 | {BRAND}", f"The AI repos, models and stories that held NextAiBreakout's hourly top 10 longest over the last 7 recorded days ({span}).", "/breakouts/", "/", ld(j)) + f"""<main>{vcrumbs(("Home", "/"), (BLABEL, "/breakouts/"))}
+    page = B.head(B.seo_title("Top AI breakouts: most hours in the top 10"), f"The AI repos, models and stories that held NextAiBreakout's hourly top 10 longest over the last 7 recorded days ({span}).", "/breakouts/", "/", ld(j)) + f"""<main>{vcrumbs(("Home", "/"), (BLABEL, "/breakouts/"))}
 <section class="labs-hero"><h1>{e(BLABEL)}</h1><p class="stamp"><span class="dot"></span>{span} · {plural(nruns, 'hourly run')} recorded</p>
 <p class="dim">Ranked by how many hourly runs each item spent in the top 10, then by peak score; everything in the current top 10 is always listed. Built only from recorded runs{' (recording started Oct 15, 2026, so this list is partial)' if len(last) < 7 else ''}.</p></section><ol class="daylist">{lis}</ol></main>""" + B.foot(t.year, "/") + "</body></html>"
     wr(os.path.join(DIST, "breakouts", "index.html"), page)

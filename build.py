@@ -30,6 +30,15 @@ THEME_JS = ("<script>(function(){var d=document.documentElement;try{var t=localS
             "var c=d.getAttribute('data-theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),n=c==='dark'?'light':'dark';"
             "d.setAttribute('data-theme',n);try{localStorage.setItem('nab-theme',n)}catch(_){}})})();</script>")
 
+def fit(s, n):
+    """Trim to n characters on a word boundary (titles/descriptions that Google would otherwise cut off)."""
+    s = ' '.join(s.split())
+    return s if len(s) <= n else s[:n - 1].rsplit(' ', 1)[0].rstrip(' ,:;-') + '…'
+def seo_title(core, n=60):
+    """'core | NextAiBreakout' when it fits in n characters, else just the core (trimmed)."""
+    t = f'{core} | {BRAND}'
+    return t if len(t) <= n else fit(core, n)
+
 def fmt(n):
     n = float(n); return f"{n/1e6:.1f}M" if abs(n) >= 1e6 else f"{n/1e3:.1f}K" if abs(n) >= 1e3 else f"{n:.0f}"
 
@@ -63,7 +72,7 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{SITE}/og-default.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:creator" content="{X_HANDLE}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#EDEFF4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#05070D" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{THEME_JS}</head><body>
 <header class="top"><a class="brand" href="{root}index.html" aria-label="{BRAND} home">{WORD}</a>
@@ -150,7 +159,7 @@ def main():
 {foot(t.year)}
 <script>const st={{src:'all',tag:'all'}};document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{{b.parentNode.querySelectorAll('button').forEach(x=>{{x.classList.remove('on');x.setAttribute('aria-pressed','false')}});b.classList.add('on');b.setAttribute('aria-pressed','true');st[b.dataset.f]=b.dataset.v;let n=0;document.querySelectorAll('tbody tr').forEach(r=>{{const ok=(st.src=='all'||r.dataset.src==st.src)&&(st.tag=='all'||r.dataset.tag==st.tag);r.hidden=!ok;n+=ok}});document.querySelector('.empty').hidden=n>0}})</script></body></html>"""
     open(os.path.join(DIST, "index.html"), "w").write(page)
-    about = head(f"About | {BRAND}", "How NextAiBreakout ranks AI launches by growth rate.", "/about.html") + f"""<main class="prose">
+    about = head(seo_title("How we rank trending AI repos & models"), "How NextAiBreakout finds trending AI repos, models and packages every hour: the sources, the 0–99 breakout score, and how to sponsor.", "/about.html") + f"""<main class="prose">
 <h1>{TAG}</h1><p>{BRAND} checks public sources every hour and ranks what is <strong>gaining momentum fastest</strong>, not what is already biggest.</p>
 <h2>How the breakout score works</h2><ul><li><b>GitHub:</b> new AI repos (AI keywords required, 50+ stars), stars gained per hour once a repo has 3+ hourly snapshots; before that, shown as stars/day since launch (lifetime stars ÷ age). Repos older than ~60 days are down-ranked unless they show real recent velocity.</li>
 <li><b>Hugging Face:</b> trending score and like growth for models and Spaces.</li><li><b>npm / PyPI:</b> yesterday's downloads vs. the 7-day average.</li>
@@ -217,7 +226,7 @@ def labs_pages(t):
     crumbs = lambda extra: {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
         {"@type": "ListItem", "position": 2, "name": "Frontier Labs", "item": SITE + "/labs/"}] + extra}
     # index
-    path = "/labs/"; title = f"Frontier AI Labs: latest releases from xAI, OpenAI, Anthropic, DeepMind, Meta and Tesla AI | {BRAND}"
+    path = "/labs/"; title = "Latest AI lab releases: OpenAI, Anthropic, xAI, DeepMind"
     desc = "Latest official releases from xAI (Grok), Tesla AI, OpenAI, Anthropic, Google DeepMind and Meta, with dates and source links. Refreshed hourly."
     j = {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "Frontier Labs", "url": SITE + path, "description": desc,
          "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": l["name"], "url": f"{SITE}/labs/{l['slug']}/"} for k, l in enumerate(cfg)]}}, crumbs([])]}
@@ -234,7 +243,7 @@ def labs_pages(t):
              "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [{"@type": "ListItem", "position": k + 1, "name": i["title"], "url": i["url"]} for k, i in enumerate(items)]}},
              crumbs([{"@type": "ListItem", "position": 3, "name": l["name"], "item": SITE + path}])]}
         srcs = "".join(f"""<li><a href="{e(s['url'])}" rel="noopener" target="_blank">{e(s['name'])}</a> <span class="dim">· {e(s['status'])}{' · live' if s.get('ok') else (' · not polled' if s['status'] == 'disabled' else ' · fetch failed this run')}</span></li>""" for s in L.get("sources", []))
-        page = head(l["title"], l["description"], path, "/", ld(j)) + f"""<main><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/labs/">Frontier Labs</a> / <span aria-current="page">{e(l['name'])}</span></nav>
+        page = head(l["title"], fit(l["description"], 155), path, "/", ld(j)) + f"""<main><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/labs/">Frontier Labs</a> / <span aria-current="page">{e(l['name'])}</span></nav>
 <section class="labs-hero"><h1>{e(l['title'].split(' | ')[0])}</h1><p class="stamp"><span class="dot"></span>Updated {upd}</p><p class="dim">{e(l['description'])}</p></section>
 <section class="lab-panel">{lab_list(items, 10)}</section><section class="lab-sources"><h2>Sources</h2><ul>{srcs}</ul>
 <p class="dim">Only official, free sources. Nothing is added by hand or invented; if a source isn't connected yet, this page says so.</p></section></main>""" + foot(t.year, "/") + "</body></html>"

@@ -5,7 +5,7 @@
    "slug": "xai",
    "name": "xAI",
    "blurb": "Grok models, the Grok app and the xAI API.",
-   "title": "xAI & Grok latest releases: Grok models, API and news | NextAiBreakout",
+   "title": "xAI & Grok news: latest releases | NextAiBreakout",
    "description": "Latest xAI releases and Grok model news, with dates and links to official xAI sources. Refreshed hourly.",
    "sources": [
     {
@@ -46,7 +46,7 @@
    "slug": "tesla-ai",
    "name": "Tesla AI",
    "blurb": "FSD, Optimus and Tesla AI chips only.",
-   "title": "Tesla AI releases: FSD, Optimus and AI chips | NextAiBreakout",
+   "title": "Tesla AI news: FSD, Optimus & AI chips | NextAiBreakout",
    "description": "Latest Tesla AI news covering FSD, Optimus and Tesla AI chips (AI5, Dojo), with dates and source links. Tesla has no official feed; third-party items are labelled unofficial. Refreshed hourly.",
    "sources": [
     {
@@ -93,7 +93,7 @@
    "slug": "openai",
    "name": "OpenAI",
    "blurb": "GPT models, ChatGPT and the OpenAI API.",
-   "title": "OpenAI latest releases: GPT models, ChatGPT and API news | NextAiBreakout",
+   "title": "OpenAI news: latest GPT & ChatGPT releases | NextAiBreakout",
    "description": "Latest OpenAI releases and announcements with dates and links to official OpenAI sources. Refreshed hourly.",
    "sources": [
     {
@@ -132,7 +132,7 @@
    "slug": "anthropic",
    "name": "Anthropic",
    "blurb": "Claude models and Anthropic research.",
-   "title": "Anthropic latest releases: Claude models and research | NextAiBreakout",
+   "title": "Anthropic news: latest Claude releases | NextAiBreakout",
    "description": "Latest Anthropic and Claude releases with dates and links to official Anthropic sources. Refreshed hourly.",
    "sources": [
     {
@@ -166,7 +166,7 @@
    "slug": "google-deepmind",
    "name": "Google DeepMind",
    "blurb": "Gemini models and DeepMind research.",
-   "title": "Google DeepMind latest releases: Gemini models and research | NextAiBreakout",
+   "title": "DeepMind news: latest Gemini releases | NextAiBreakout",
    "description": "Latest Google DeepMind and Gemini releases with dates and links to official Google sources. Refreshed hourly.",
    "sources": [
     {
@@ -217,7 +217,7 @@
    "slug": "meta",
    "name": "Meta",
    "blurb": "Llama and Muse models and Meta AI research.",
-   "title": "Meta AI latest releases: Muse, Llama models and research | NextAiBreakout",
+   "title": "Meta AI news: latest Llama & Muse releases | NextAiBreakout",
    "description": "Latest Meta AI releases (Muse, Llama, SAM, DINO) with dates and links to official Meta sources. Refreshed hourly.",
    "sources": [
     {
