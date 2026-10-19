@@ -1,0 +1,54 @@
+{
+ "id": "gh:EL4CTEO/blender-skills",
+ "slug": "gh-el4cteo-blender-skills",
+ "first_seen": "2026-10-19T00:32:47.164971+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.2,
+   "metric": 203,
+   "t": "2026-10-19T00:32:47.164971+00:00"
+  }
+ ],
+ "peak_score": 95.2,
+ "best_rank": 5,
+ "name": "EL4CTEO/blender-skills",
+ "url": "https://github.com/EL4CTEO/blender-skills",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+ "what": "Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking,\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-14T19:08:14Z",
+ "last_seen": "2026-10-19T00:32:47.164971+00:00",
+ "last_why": "203 stars since launch 4 days ago \u2248 48 stars/day since launch.",
+ "extra": {
+  "forks": 21,
+  "lang": "Python",
+  "topics": [
+   "3d",
+   "agent-skills",
+   "ai-agents",
+   "blender",
+   "blender-python",
+   "bpy",
+   "claude-code",
+   "claude-skills",
+   "codex",
+   "game-assets",
+   "gemini-cli",
+   "godot",
+   "mcp",
+   "pbr",
+   "rigging",
+   "roblox",
+   "unity",
+   "unreal-engine"
+  ],
+  "repo_id": 1419708427
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

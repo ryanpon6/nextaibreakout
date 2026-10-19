@@ -122,6 +122,12 @@
    "score": 96.0,
    "metric": 2182,
    "t": "2026-10-18T23:13:13.420811+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.4,
+   "metric": 2297,
+   "t": "2026-10-19T00:32:47.164971+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -135,8 +141,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-15T13:12:02Z",
- "last_seen": "2026-10-18T23:13:13.420811+00:00",
- "last_why": "+5.9K stars/day pace right now (2.2K total).",
+ "last_seen": "2026-10-19T00:32:47.164971+00:00",
+ "last_why": "+2.1K stars/day pace right now (2.3K total).",
  "extra": {
   "forks": 257,
   "lang": "Go",
@@ -154,7 +160,8 @@
   "2026-10-15",
   "2026-10-16",
   "2026-10-17",
-  "2026-10-18"
+  "2026-10-18",
+  "2026-10-19"
  ],
  "aliases": [
   "gh:feder-cr/open_scion"

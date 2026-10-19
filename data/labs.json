@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T23:13:58.953213+00:00",
+ "generated": "2026-10-19T00:33:28.407861+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-18T23:13:58.953213+00:00"
+   "fetched": "2026-10-19T00:33:28.407861+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -257,7 +257,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-18T23:13:58.953213+00:00"
+   "fetched": "2026-10-19T00:33:28.407861+00:00"
   },
   "openai": {
    "items": [
@@ -407,7 +407,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-18T23:13:58.953213+00:00"
+   "fetched": "2026-10-19T00:33:28.407861+00:00"
   },
   "anthropic": {
    "items": [
@@ -530,7 +530,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-18T23:13:58.953213+00:00"
+   "fetched": "2026-10-19T00:33:28.407861+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -650,9 +650,9 @@
      "name": "Google DeepMind Blog RSS",
      "url": "https://deepmind.google/blog/rss.xml",
      "status": "provisional",
-     "ok": true,
-     "count": 10,
-     "raw": 100
+     "ok": false,
+     "error": "ValueError: feed returned 0 items",
+     "stale_kept": 10
     },
     {
      "name": "Google AI Blog RSS",
@@ -671,7 +671,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-18T23:13:58.953213+00:00"
+   "fetched": "2026-10-19T00:33:28.407861+00:00"
   },
   "meta": {
    "items": [
@@ -786,7 +786,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-18T23:13:58.953213+00:00"
+   "fetched": "2026-10-19T00:33:28.407861+00:00"
   }
  }
 }
