@@ -1,7 +1,8 @@
 {
  "day": "2026-10-19",
  "runs": [
-  "2026-10-19T00:32:47.164971+00:00"
+  "2026-10-19T00:32:47.164971+00:00",
+  "2026-10-19T05:23:27.214336+00:00"
  ],
  "items": {
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -12,22 +13,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
-   "peak_score": 98.2,
+   "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T00:32:47.164971+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10233,
-    "trending": 1237,
+    "trending": 1306,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+199 likes/day pace right now (1.3K total).",
-   "metric_at_peak": 1334,
+   "why_at_peak": "+386 likes/day pace right now (1.4K total).",
+   "metric_at_peak": 1412,
    "metric_name": "likes"
   },
   "hn-50145337-hybrid-reasoning-agents-llm-agents-that-think-in": {
@@ -40,12 +41,12 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T00:32:47.164971+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 107,
+    "comments": 160,
     "hn": "https://news.ycombinator.com/item?id=50145337"
    },
    "why_at_peak": "+796 points/day pace right now (171 total).",
@@ -62,12 +63,12 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 96.7,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T00:32:47.164971+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
-    "forks": 30,
+    "forks": 34,
     "lang": "Rust",
     "topics": [
      "coding-agents",
@@ -78,8 +79,8 @@
     ],
     "repo_id": 1422344223
    },
-   "why_at_peak": "+145 stars/day pace right now (414 total).",
-   "metric_at_peak": 414,
+   "why_at_peak": "+129 stars/day pace right now (440 total).",
+   "metric_at_peak": 440,
    "metric_name": "stars"
   },
   "pypi-sglang": {
@@ -114,8 +115,8 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 95.2,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T00:32:47.164971+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
    "what": "Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking,\u2026",
    "tag": "agents",
    "extra": {
@@ -186,10 +187,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
-   "peak_score": 92.9,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T00:32:47.164971+00:00",
+   "peak_score": 94.3,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -264,23 +265,134 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
-   "peak_score": 87.8,
-   "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T00:32:47.164971+00:00",
+   "peak_score": 95.9,
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 354126,
-    "trending": 189,
+    "trending": 199,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+36 likes/day pace right now (192 total).",
-   "metric_at_peak": 192,
+   "why_at_peak": "+50 likes/day pace right now (202 total).",
+   "metric_at_peak": 202,
    "metric_name": "likes"
+  },
+  "hn-50148452-deepseek-v4-1-flash-1017-scores-45-in-artificial-a": {
+   "id": "hn:50148452",
+   "slug": "hn-50148452-deepseek-v4-1-flash-1017-scores-45-in-artificial-a",
+   "name": "DeepSeek v4.1 Flash 1017 scores 45 in Artificial Analysis",
+   "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T05:23:27.214336+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 8,
+    "hn": "https://news.ycombinator.com/item?id=50148452"
+   },
+   "why_at_peak": "40 points in 1h on Hacker News (8 comments).",
+   "metric_at_peak": 40,
+   "metric_name": "points"
+  },
+  "gh-folkbench-folkbench": {
+   "id": "gh:Folkbench/folkbench",
+   "slug": "gh-folkbench-folkbench",
+   "name": "Folkbench/folkbench",
+   "url": "https://github.com/Folkbench/folkbench",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-19T05:23:27.214336+00:00",
+   "peak_score": 93.6,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
+   "what": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 9,
+    "lang": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude",
+     "claude-code",
+     "codex",
+     "folkbench",
+     "llm",
+     "model-evaluation",
+     "openai-api",
+     "reliability",
+     "tauri"
+    ],
+    "repo_id": 1401469171
+   },
+   "why_at_peak": "+1.0K stars/day pace right now (1.9K total).",
+   "metric_at_peak": 1896,
+   "metric_name": "stars"
+  },
+  "hf-openmoss-team-moss-image-sft": {
+   "id": "hfmodel:OpenMOSS-Team/MOSS-Image-SFT",
+   "slug": "hf-openmoss-team-moss-image-sft",
+   "name": "OpenMOSS-Team/MOSS-Image-SFT",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-19T05:23:27.214336+00:00",
+   "peak_score": 89.1,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
+   "what": "text-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2087,
+    "trending": 344,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+94 likes/day pace right now (359 total).",
+   "metric_at_peak": 359,
+   "metric_name": "likes"
+  },
+  "hn-50145715-show-hn-whatsapp-mcp-running-free-on-cloudflare": {
+   "id": "hn:50145715",
+   "slug": "hn-50145715-show-hn-whatsapp-mcp-running-free-on-cloudflare",
+   "name": "Show HN: WhatsApp MCP running free on Cloudflare",
+   "url": "https://github.com/finereli/whatsapp-mcp",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T05:23:27.214336+00:00",
+   "peak_score": 86.8,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T05:23:27.214336+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 39,
+    "hn": "https://news.ycombinator.com/item?id=50145715",
+    "repo_created": "2026-10-18T21:01:54Z",
+    "repo": "finereli/whatsapp-mcp"
+   },
+   "why_at_peak": "+203 points/day pace right now (71 total).",
+   "metric_at_peak": 71,
+   "metric_name": "points"
   }
  }
 }
