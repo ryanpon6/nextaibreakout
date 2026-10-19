@@ -1,0 +1,33 @@
+{
+ "id": "hn:50153630",
+ "slug": "hn-50153630-cern-and-mistral-sign-a-statement-of-intent-to-est",
+ "first_seen": "2026-10-19T19:28:42.845675+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.5,
+   "metric": 234,
+   "t": "2026-10-19T19:28:42.845675+00:00"
+  }
+ ],
+ "peak_score": 97.5,
+ "best_rank": 3,
+ "name": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+ "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T15:28:24Z",
+ "last_seen": "2026-10-19T19:28:42.845675+00:00",
+ "last_why": "234 points in 4h on Hacker News (44 comments).",
+ "extra": {
+  "comments": 44,
+  "hn": "https://news.ycombinator.com/item?id=50153630"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

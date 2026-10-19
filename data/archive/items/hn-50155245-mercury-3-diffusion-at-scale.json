@@ -1,0 +1,33 @@
+{
+ "id": "hn:50155245",
+ "slug": "hn-50155245-mercury-3-diffusion-at-scale",
+ "first_seen": "2026-10-19T19:28:42.845675+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 135,
+   "t": "2026-10-19T19:28:42.845675+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Mercury 3: Diffusion at scale",
+ "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T17:27:11Z",
+ "last_seen": "2026-10-19T19:28:42.845675+00:00",
+ "last_why": "135 points in 2h on Hacker News (58 comments).",
+ "extra": {
+  "comments": 58,
+  "hn": "https://news.ycombinator.com/item?id=50155245"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50152877",
+ "slug": "hn-50152877-a-hacker-broke-into-john-deere-and-sharkninja-with",
+ "first_seen": "2026-10-19T19:28:42.845675+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 95.2,
+   "metric": 59,
+   "t": "2026-10-19T19:28:42.845675+00:00"
+  }
+ ],
+ "peak_score": 95.2,
+ "best_rank": 6,
+ "name": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+ "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-19T14:23:17Z",
+ "last_seen": "2026-10-19T19:28:42.845675+00:00",
+ "last_why": "59 points in 5h on Hacker News (3 comments).",
+ "extra": {
+  "comments": 3,
+  "hn": "https://news.ycombinator.com/item?id=50152877"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

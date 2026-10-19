@@ -1,0 +1,48 @@
+{
+ "id": "gh:sitor-ai/frametell",
+ "slug": "gh-sitor-ai-frametell",
+ "first_seen": "2026-10-19T19:28:42.845675+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 93.0,
+   "metric": 285,
+   "t": "2026-10-19T19:28:42.845675+00:00"
+  }
+ ],
+ "peak_score": 93.0,
+ "best_rank": 8,
+ "name": "sitor-ai/frametell",
+ "url": "https://github.com/sitor-ai/frametell",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Frametell: turn your ideas and material into vivid explainer videos with an AI director agent. Local-first, any model.",
+ "what": "Frametell: turn your ideas and material into vivid explainer videos with an AI director agent. Local-first, any model.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-10T10:02:14Z",
+ "last_seen": "2026-10-19T19:28:42.845675+00:00",
+ "last_why": "285 stars since launch 9 days ago \u2248 30 stars/day since launch.",
+ "extra": {
+  "forks": 56,
+  "lang": "TypeScript",
+  "topics": [
+   "ai-agent",
+   "ai-video",
+   "edtech",
+   "education",
+   "electron",
+   "explainer-video",
+   "llm",
+   "local-first",
+   "storyboard",
+   "text-to-video",
+   "tts",
+   "video-generation"
+  ],
+  "repo_id": 1413034949
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

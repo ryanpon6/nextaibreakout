@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+ "slug": "hf-nvidia-nvidia-nemotron-labs-dory1-0-4b-bf16",
+ "first_seen": "2026-10-19T19:28:42.845675+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 96.0,
+   "metric": 137,
+   "t": "2026-10-19T19:28:42.845675+00:00"
+  }
+ ],
+ "peak_score": 96.0,
+ "best_rank": 5,
+ "name": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+ "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-16T18:25:29.000Z",
+ "last_seen": "2026-10-19T19:28:42.845675+00:00",
+ "last_why": "Trending score 136 on Hugging Face; 137 likes, 1.8K downloads.",
+ "extra": {
+  "downloads": 1779,
+  "trending": 136,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "gh:kanaworksai-hue/audio-studio-mcp",
+ "slug": "gh-kanaworksai-hue-audio-studio-mcp",
+ "first_seen": "2026-10-19T19:28:42.845675+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 249,
+   "t": "2026-10-19T19:28:42.845675+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "kanaworksai-hue/audio-studio-mcp",
+ "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+ "what": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch).\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-18T11:13:56Z",
+ "last_seen": "2026-10-19T19:28:42.845675+00:00",
+ "last_why": "249 stars since launch 1 days ago \u2248 185 stars/day since launch.",
+ "extra": {
+  "forks": 12,
+  "lang": "Python",
+  "topics": [
+   "apple-silicon",
+   "audio-generation",
+   "claude-code",
+   "cuda",
+   "game-audio",
+   "mcp",
+   "mcp-server",
+   "mlx",
+   "music-generation",
+   "pytorch",
+   "sound-effects",
+   "stable-audio",
+   "windows"
+  ],
+  "repo_id": 1424285974
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}
