@@ -8,10 +8,16 @@
    "score": 94.4,
    "metric": 148,
    "t": "2026-10-19T13:32:21.763801+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.3,
+   "metric": 150,
+   "t": "2026-10-19T22:59:39.315614+00:00"
   }
  ],
- "peak_score": 94.4,
- "best_rank": 6,
+ "peak_score": 95.3,
+ "best_rank": 5,
  "name": "black-forest-labs/flux-3-image-klein-base",
  "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-base",
  "source": "huggingface",
@@ -21,11 +27,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-13T10:19:46.000Z",
- "last_seen": "2026-10-19T13:32:21.763801+00:00",
- "last_why": "Trending score 132 on Hugging Face; 148 likes, 56.8K downloads.",
+ "last_seen": "2026-10-19T22:59:39.315614+00:00",
+ "last_why": "Trending score 134 on Hugging Face; 150 likes, 56.8K downloads.",
  "extra": {
   "downloads": 56807,
-  "trending": 132,
+  "trending": 134,
   "hf_type": "model",
   "title": null,
   "summary": null,

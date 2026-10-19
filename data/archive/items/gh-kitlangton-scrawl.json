@@ -1,0 +1,45 @@
+{
+ "id": "gh:kitlangton/scrawl",
+ "slug": "gh-kitlangton-scrawl",
+ "first_seen": "2026-10-19T22:59:39.315614+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.5,
+   "metric": 453,
+   "t": "2026-10-19T22:59:39.315614+00:00"
+  }
+ ],
+ "peak_score": 94.5,
+ "best_rank": 6,
+ "name": "kitlangton/scrawl",
+ "url": "https://github.com/kitlangton/scrawl",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Show an agent a problem: mark up, record, send",
+ "what": "Show an agent a problem: mark up, record, send",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-14T23:21:44Z",
+ "last_seen": "2026-10-19T22:59:39.315614+00:00",
+ "last_why": "453 stars since launch 5 days ago \u2248 91 stars/day since launch.",
+ "extra": {
+  "forks": 36,
+  "lang": "Rust",
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "coding-agents",
+   "developer-tools",
+   "gpui",
+   "macos",
+   "opencode",
+   "rust",
+   "screen-recording"
+  ],
+  "repo_id": 1419948432
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

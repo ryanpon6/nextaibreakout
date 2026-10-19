@@ -6,7 +6,8 @@
   "2026-10-19T07:47:07.086385+00:00",
   "2026-10-19T11:18:33.833270+00:00",
   "2026-10-19T13:32:21.763801+00:00",
-  "2026-10-19T19:28:42.845675+00:00"
+  "2026-10-19T19:28:42.845675+00:00",
+  "2026-10-19T22:59:39.315614+00:00"
  ],
  "items": {
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -19,13 +20,13 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-19T19:28:42.845675+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 17924,
-    "trending": 1502,
+    "trending": 1527,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -613,13 +614,13 @@
    "first_seen": "2026-10-19T11:18:33.833270+00:00",
    "peak_score": 96.6,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "time-series-forecasting model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2601,
-    "trending": 140,
+    "trending": 185,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -738,22 +739,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-19T13:32:21.763801+00:00",
-   "peak_score": 94.4,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T13:32:21.763801+00:00",
+   "peak_score": 95.3,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 56807,
-    "trending": 132,
+    "trending": 134,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 132 on Hugging Face; 148 likes, 56.8K downloads.",
-   "metric_at_peak": 148,
+   "why_at_peak": "Trending score 134 on Hugging Face; 150 likes, 56.8K downloads.",
+   "metric_at_peak": 150,
    "metric_name": "likes"
   },
   "npm--anthropic-ai-sdk": {
@@ -766,8 +767,8 @@
    "first_seen": "2026-10-19T13:32:21.763801+00:00",
    "peak_score": 86.9,
    "best_rank": 9,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-19T19:28:42.845675+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -796,12 +797,12 @@
    "first_seen": "2026-10-19T19:28:42.845675+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T19:28:42.845675+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 58,
+    "comments": 80,
     "hn": "https://news.ycombinator.com/item?id=50155245"
    },
    "why_at_peak": "135 points in 2h on Hacker News (58 comments).",
@@ -818,12 +819,12 @@
    "first_seen": "2026-10-19T19:28:42.845675+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T19:28:42.845675+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 12,
+    "forks": 13,
     "lang": "Python",
     "topics": [
      "apple-silicon",
@@ -842,8 +843,8 @@
     ],
     "repo_id": 1424285974
    },
-   "why_at_peak": "249 stars since launch 1 days ago \u2248 185 stars/day since launch.",
-   "metric_at_peak": 249,
+   "why_at_peak": "253 stars since launch 1 days ago \u2248 170 stars/day since launch.",
+   "metric_at_peak": 253,
    "metric_name": "stars"
   },
   "hn-50153630-cern-and-mistral-sign-a-statement-of-intent-to-est": {
@@ -924,10 +925,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-19T19:28:42.845675+00:00",
-   "peak_score": 93.0,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T19:28:42.845675+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
    "what": "Frametell: turn your ideas and material into vivid explainer videos with an AI director agent. Local-first, any model.",
    "tag": "agents",
    "extra": {
@@ -949,8 +950,8 @@
     ],
     "repo_id": 1413034949
    },
-   "why_at_peak": "285 stars since launch 9 days ago \u2248 30 stars/day since launch.",
-   "metric_at_peak": 285,
+   "why_at_peak": "291 stars since launch 10 days ago \u2248 31 stars/day since launch.",
+   "metric_at_peak": 291,
    "metric_name": "stars"
   },
   "hf-black-forest-labs-flux-3-image-klein-comfy": {
@@ -978,6 +979,84 @@
    "why_at_peak": "+218 likes/day pace right now (934 total).",
    "metric_at_peak": 934,
    "metric_name": "likes"
+  },
+  "hn-50156189-the-us-orders-every-civilian-agency-to-rip-out-dee": {
+   "id": "hn:50156189",
+   "slug": "hn-50156189-the-us-orders-every-civilian-agency-to-rip-out-dee",
+   "name": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
+   "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T22:59:39.315614+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 21,
+    "hn": "https://news.ycombinator.com/item?id=50156189"
+   },
+   "why_at_peak": "54 points in 4h on Hacker News (21 comments).",
+   "metric_at_peak": 54,
+   "metric_name": "points"
+  },
+  "gh-kitlangton-scrawl": {
+   "id": "gh:kitlangton/scrawl",
+   "slug": "gh-kitlangton-scrawl",
+   "name": "kitlangton/scrawl",
+   "url": "https://github.com/kitlangton/scrawl",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-19T22:59:39.315614+00:00",
+   "peak_score": 94.5,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
+   "what": "Show an agent a problem: mark up, record, send",
+   "tag": "agents",
+   "extra": {
+    "forks": 36,
+    "lang": "Rust",
+    "topics": [
+     "ai-agents",
+     "claude-code",
+     "coding-agents",
+     "developer-tools",
+     "gpui",
+     "macos",
+     "opencode",
+     "rust",
+     "screen-recording"
+    ],
+    "repo_id": 1419948432
+   },
+   "why_at_peak": "453 stars since launch 5 days ago \u2248 91 stars/day since launch.",
+   "metric_at_peak": 453,
+   "metric_name": "stars"
+  },
+  "hn-50150434-timestral-mistral-s-time-series-foundation-models": {
+   "id": "hn:50150434",
+   "slug": "hn-50150434-timestral-mistral-s-time-series-foundation-models",
+   "name": "Timestral: Mistral's time-series foundation models",
+   "url": "https://mistral.ai/news/timestral/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T22:59:39.315614+00:00",
+   "peak_score": 92.3,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T22:59:39.315614+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 97,
+    "hn": "https://news.ycombinator.com/item?id=50150434"
+   },
+   "why_at_peak": "+512 points/day pace right now (520 total).",
+   "metric_at_peak": 520,
+   "metric_name": "points"
   }
  }
 }

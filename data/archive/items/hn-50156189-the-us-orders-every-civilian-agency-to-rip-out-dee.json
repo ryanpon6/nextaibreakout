@@ -1,0 +1,33 @@
+{
+ "id": "hn:50156189",
+ "slug": "hn-50156189-the-us-orders-every-civilian-agency-to-rip-out-dee",
+ "first_seen": "2026-10-19T22:59:39.315614+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 54,
+   "t": "2026-10-19T22:59:39.315614+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
+ "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T18:41:10Z",
+ "last_seen": "2026-10-19T22:59:39.315614+00:00",
+ "last_why": "54 points in 4h on Hacker News (21 comments).",
+ "extra": {
+  "comments": 21,
+  "hn": "https://news.ycombinator.com/item?id=50156189"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}
