@@ -1,0 +1,33 @@
+{
+ "id": "hn:50148452",
+ "slug": "hn-50148452-deepseek-v4-1-flash-1017-max",
+ "first_seen": "2026-10-19T07:47:07.086385+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 113,
+   "t": "2026-10-19T07:47:07.086385+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "DeepSeek V4.1 Flash 1017 (Max)",
+ "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T04:41:46Z",
+ "last_seen": "2026-10-19T07:47:07.086385+00:00",
+ "last_why": "+732 points/day pace right now (113 total).",
+ "extra": {
+  "comments": 37,
+  "hn": "https://news.ycombinator.com/item?id=50148452"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

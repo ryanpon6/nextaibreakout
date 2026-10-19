@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Cloudflare/clef",
+ "slug": "hf-cloudflare-clef",
+ "first_seen": "2026-10-19T07:47:07.086385+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 2218,
+   "t": "2026-10-19T07:47:07.086385+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "Cloudflare/clef",
+ "url": "https://huggingface.co/Cloudflare/clef",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-30T21:15:35.000Z",
+ "last_seen": "2026-10-19T07:47:07.086385+00:00",
+ "last_why": "Trending score 135 on Hugging Face; 2.2K likes, 21.1K downloads.",
+ "extra": {
+  "downloads": 21094,
+  "trending": 135,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

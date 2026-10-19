@@ -86,6 +86,12 @@
    "score": 95.2,
    "metric": 5618,
    "t": "2026-10-18T23:13:13.420811+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 92.8,
+   "metric": 6139,
+   "t": "2026-10-19T07:47:07.086385+00:00"
   }
  ],
  "peak_score": 95.6,
@@ -99,10 +105,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-07T18:57:48Z",
- "last_seen": "2026-10-18T23:13:13.420811+00:00",
- "last_why": "+1.7K stars/day pace right now (5.6K total).",
+ "last_seen": "2026-10-19T07:47:07.086385+00:00",
+ "last_why": "+1.7K stars/day pace right now (6.1K total).",
  "extra": {
-  "forks": 660,
+  "forks": 708,
   "lang": "Rust",
   "topics": [
    "3d-modeling",
@@ -120,7 +126,8 @@
  "days": [
   "2026-10-16",
   "2026-10-17",
-  "2026-10-18"
+  "2026-10-18",
+  "2026-10-19"
  ],
  "aliases": [
   "gh:bherbruck/solidcraft"
