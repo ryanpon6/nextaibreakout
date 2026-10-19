@@ -1,0 +1,35 @@
+{
+ "id": "hn:50151390",
+ "slug": "hn-50151390-harness-engineering-101-the-llm-is-the-brain-the",
+ "first_seen": "2026-10-19T13:32:21.763801+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 59,
+   "t": "2026-10-19T13:32:21.763801+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+ "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T12:07:41Z",
+ "last_seen": "2026-10-19T13:32:21.763801+00:00",
+ "last_why": "59 points in 1h on Hacker News (27 comments).",
+ "extra": {
+  "comments": 27,
+  "hn": "https://news.ycombinator.com/item?id=50151390",
+  "repo_created": "2026-09-06T22:22:17Z",
+  "repo": "IsuruMaduranga/harness-engineering-101"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

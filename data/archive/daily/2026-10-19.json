@@ -4,7 +4,8 @@
   "2026-10-19T00:32:47.164971+00:00",
   "2026-10-19T05:23:27.214336+00:00",
   "2026-10-19T07:47:07.086385+00:00",
-  "2026-10-19T11:18:33.833270+00:00"
+  "2026-10-19T11:18:33.833270+00:00",
+  "2026-10-19T13:32:21.763801+00:00"
  ],
  "items": {
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -17,13 +18,13 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 17924,
-    "trending": 1408,
+    "trending": 1441,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -65,12 +66,12 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 96.7,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-19T05:23:27.214336+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
-    "forks": 34,
+    "forks": 38,
     "lang": "Rust",
     "topics": [
      "coding-agents",
@@ -269,13 +270,13 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 95.9,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-19T05:23:27.214336+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 354126,
-    "trending": 199,
+    "downloads": 673110,
+    "trending": 212,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -499,12 +500,12 @@
    "first_seen": "2026-10-19T07:47:07.086385+00:00",
    "peak_score": 95.1,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
    "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "tag": "agents",
    "extra": {
-    "forks": 61,
+    "forks": 66,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -529,12 +530,12 @@
    "first_seen": "2026-10-19T07:47:07.086385+00:00",
    "peak_score": 94.3,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
    "what": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
    "tag": "agents",
    "extra": {
-    "forks": 729,
+    "forks": 738,
     "lang": "Rust",
     "topics": [
      "3d-modeling",
@@ -659,6 +660,130 @@
    "why_at_peak": "255 stars since launch 10 days ago \u2248 26 stars/day since launch.",
    "metric_at_peak": 255,
    "metric_name": "stars"
+  },
+  "hn-50150750-documents-police-officer-gave-her-flock-login-to": {
+   "id": "hn:50150750",
+   "slug": "hn-50150750-documents-police-officer-gave-her-flock-login-to",
+   "name": "Documents: Police officer gave her Flock login to her ICE agent husband",
+   "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T13:32:21.763801+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 157,
+    "hn": "https://news.ycombinator.com/item?id=50150750"
+   },
+   "why_at_peak": "321 points in 3h on Hacker News (157 comments).",
+   "metric_at_peak": 321,
+   "metric_name": "points"
+  },
+  "hn-50151390-harness-engineering-101-the-llm-is-the-brain-the": {
+   "id": "hn:50151390",
+   "slug": "hn-50151390-harness-engineering-101-the-llm-is-the-brain-the",
+   "name": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+   "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T13:32:21.763801+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 27,
+    "hn": "https://news.ycombinator.com/item?id=50151390",
+    "repo_created": "2026-09-06T22:22:17Z",
+    "repo": "IsuruMaduranga/harness-engineering-101"
+   },
+   "why_at_peak": "59 points in 1h on Hacker News (27 comments).",
+   "metric_at_peak": 59,
+   "metric_name": "points"
+  },
+  "hn-50150434-timestral-mistral-release-time-series-foundation": {
+   "id": "hn:50150434",
+   "slug": "hn-50150434-timestral-mistral-release-time-series-foundation",
+   "name": "Timestral: Mistral release time-series foundation models",
+   "url": "https://mistral.ai/news/timestral/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T13:32:21.763801+00:00",
+   "peak_score": 96.7,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 31,
+    "hn": "https://news.ycombinator.com/item?id=50150434"
+   },
+   "why_at_peak": "173 points in 4h on Hacker News (31 comments).",
+   "metric_at_peak": 173,
+   "metric_name": "points"
+  },
+  "hf-black-forest-labs-flux-3-image-klein-base": {
+   "id": "hfmodel:black-forest-labs/flux-3-image-klein-base",
+   "slug": "hf-black-forest-labs-flux-3-image-klein-base",
+   "name": "black-forest-labs/flux-3-image-klein-base",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-base",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-19T13:32:21.763801+00:00",
+   "peak_score": 94.4,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
+   "what": "image-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 56807,
+    "trending": 132,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 132 on Hugging Face; 148 likes, 56.8K downloads.",
+   "metric_at_peak": 148,
+   "metric_name": "likes"
+  },
+  "npm--anthropic-ai-sdk": {
+   "id": "npm:@anthropic-ai/sdk",
+   "slug": "npm--anthropic-ai-sdk",
+   "name": "@anthropic-ai/sdk",
+   "url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
+   "source": "npm",
+   "kind": "tool",
+   "first_seen": "2026-10-19T13:32:21.763801+00:00",
+   "peak_score": 86.9,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T13:32:21.763801+00:00",
+   "what": "npm package",
+   "tag": "dev tools",
+   "extra": {
+    "week": 28258993,
+    "days": [
+     8355414,
+     0,
+     0,
+     0,
+     8943196,
+     5484270,
+     5476113
+    ]
+   },
+   "why_at_peak": "5.5M downloads yesterday, 1.36\u00d7 its 7-day average.",
+   "metric_at_peak": 5476113,
+   "metric_name": "downloads/day"
   }
  }
 }

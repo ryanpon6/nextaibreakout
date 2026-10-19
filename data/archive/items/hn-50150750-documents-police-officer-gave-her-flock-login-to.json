@@ -1,0 +1,33 @@
+{
+ "id": "hn:50150750",
+ "slug": "hn-50150750-documents-police-officer-gave-her-flock-login-to",
+ "first_seen": "2026-10-19T13:32:21.763801+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 321,
+   "t": "2026-10-19T13:32:21.763801+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Documents: Police officer gave her Flock login to her ICE agent husband",
+ "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-19T10:45:14Z",
+ "last_seen": "2026-10-19T13:32:21.763801+00:00",
+ "last_why": "321 points in 3h on Hacker News (157 comments).",
+ "extra": {
+  "comments": 157,
+  "hn": "https://news.ycombinator.com/item?id=50150750"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

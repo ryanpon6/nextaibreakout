@@ -98,6 +98,12 @@
    "score": 94.3,
    "metric": 6409,
    "t": "2026-10-19T11:18:33.833270+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.9,
+   "metric": 6565,
+   "t": "2026-10-19T13:32:21.763801+00:00"
   }
  ],
  "peak_score": 95.6,
@@ -111,10 +117,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-07T18:57:48Z",
- "last_seen": "2026-10-19T11:18:33.833270+00:00",
- "last_why": "+1.8K stars/day pace right now (6.4K total).",
+ "last_seen": "2026-10-19T13:32:21.763801+00:00",
+ "last_why": "+1.7K stars/day pace right now (6.6K total).",
  "extra": {
-  "forks": 729,
+  "forks": 738,
   "lang": "Rust",
   "topics": [
    "3d-modeling",

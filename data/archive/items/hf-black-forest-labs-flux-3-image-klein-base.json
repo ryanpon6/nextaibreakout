@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:black-forest-labs/flux-3-image-klein-base",
+ "slug": "hf-black-forest-labs-flux-3-image-klein-base",
+ "first_seen": "2026-10-19T13:32:21.763801+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.4,
+   "metric": 148,
+   "t": "2026-10-19T13:32:21.763801+00:00"
+  }
+ ],
+ "peak_score": 94.4,
+ "best_rank": 6,
+ "name": "black-forest-labs/flux-3-image-klein-base",
+ "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-base",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-image",
+ "what": "image-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-13T10:19:46.000Z",
+ "last_seen": "2026-10-19T13:32:21.763801+00:00",
+ "last_why": "Trending score 132 on Hugging Face; 148 likes, 56.8K downloads.",
+ "extra": {
+  "downloads": 56807,
+  "trending": 132,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50150434",
+ "slug": "hn-50150434-timestral-mistral-release-time-series-foundation",
+ "first_seen": "2026-10-19T13:32:21.763801+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 173,
+   "t": "2026-10-19T13:32:21.763801+00:00"
+  }
+ ],
+ "peak_score": 96.7,
+ "best_rank": 4,
+ "name": "Timestral: Mistral release time-series foundation models",
+ "url": "https://mistral.ai/news/timestral/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T09:59:32Z",
+ "last_seen": "2026-10-19T13:32:21.763801+00:00",
+ "last_why": "173 points in 4h on Hacker News (31 comments).",
+ "extra": {
+  "comments": 31,
+  "hn": "https://news.ycombinator.com/item?id=50150434"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}
