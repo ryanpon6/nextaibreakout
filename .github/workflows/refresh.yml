@@ -1,12 +1,11 @@
 # NextAiBreakout hourly refresh on GitHub Actions (replaces box cron / tick-loop).
-# Two schedule slots per hour at off-peak minutes; ci/gate.py makes the second a no-op when the first succeeded,
-# so a dropped or late slot costs at most ~30 min of freshness. Cron times are UTC.
+# Four schedule slots per hour (GitHub drops scheduled runs); ci/gate.py makes later slots a no-op while the site is fresh,
+# so a dropped or late slot costs at most ~15 min of freshness. Cron times are UTC.
 name: hourly-refresh
 on:
   # LIVE since 2026-10-18 (switchover approved by Ryan); box tick-loop stopped, run.sh/cron-tick.sh kept for manual fallback.
   schedule:
-    - cron: "17 * * * *"
-    - cron: "47 * * * *"
+    - cron: "2,17,32,47 * * * *"
   workflow_dispatch:
     inputs:
       force: { description: "Refresh even if the live site is fresh", type: boolean, default: false }

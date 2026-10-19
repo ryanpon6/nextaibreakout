@@ -94,6 +94,15 @@ for nm, got in (("homepage rows", rows), ("homepage ItemList", il), ("feed", fl)
 import email.utils as eu, datetime as _dt
 lb = re.search(r"<lastBuildDate>([^<]+)</lastBuildDate>", feed)
 if feed and (not lb or lb.group(1) != eu.format_datetime(_dt.datetime.fromisoformat(sc["generated"]))): F("stale", f"build stale vs scored file ({SCF}): feed lastBuildDate {lb.group(1) if lb else None} != scored generated {sc['generated']}")
+# blog: every published post is built, has Article JSON-LD and a sitemap entry
+import blog as _blog
+_sm = open(os.path.join(D, "sitemap.xml")).read() if os.path.exists(os.path.join(D, "sitemap.xml")) else ""
+for _p in _blog.posts():
+    _f = os.path.join(D, "blog", _p["slug"], "index.html")
+    if not os.path.isfile(_f): F("blog", f"post {_p['slug']} not built"); continue
+    if '"@type": "Article"' not in open(_f, encoding="utf-8").read(): F("blog", f"post {_p['slug']} has no Article JSON-LD")
+    if f"<loc>{SITE}/blog/{_p['slug']}/</loc>" not in _sm: F("blog", f"post {_p['slug']} not in sitemap.xml")
+if _blog.posts() and not os.path.isfile(os.path.join(D, "blog", "index.html")): F("blog", "/blog/ index not built")
 print(f"selfcheck ({SCF}): {len(files)} files, {len(fails)} failures")
 for x in fails[:60]: print("  FAIL", x)
 sys.exit(1 if fails else 0)

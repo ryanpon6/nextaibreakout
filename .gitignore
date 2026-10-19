@@ -8,6 +8,7 @@
 !/ci/
 !/README.md
 !/archive.py
+!/blog.py
 !/build.py
 !/common.py
 !/fetch.py
@@ -30,6 +31,9 @@
 !/static/
 !/fonts/
 !/images/
+!/blog/
+/blog/*
+!/blog/posts/
 # belt and braces inside allowed dirs
 .wrangler/
 node_modules/

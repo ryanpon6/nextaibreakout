@@ -192,6 +192,7 @@ def main():
         import grokbot; grokbot.apply(DIST)
     if os.getenv("KIT") == "1":  # Kit email signup: off by default so production/cron builds do not include it (preview only)
         import kit; kit.apply(DIST)
+    import blog; blog.apply(DIST, t)  # blog: always on (posts only render with status: published)
     print("built", DIST)
 
 # ---------------- Frontier Labs ----------------
