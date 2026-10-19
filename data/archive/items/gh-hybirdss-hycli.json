@@ -1,0 +1,44 @@
+{
+ "id": "gh:Hybirdss/Hycli",
+ "slug": "gh-hybirdss-hycli",
+ "first_seen": "2026-10-19T11:18:33.833270+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 92.8,
+   "metric": 255,
+   "t": "2026-10-19T11:18:33.833270+00:00"
+  }
+ ],
+ "peak_score": 92.8,
+ "best_rank": 9,
+ "name": "Hybirdss/Hycli",
+ "url": "https://github.com/Hybirdss/Hycli",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
+ "what": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-09T16:57:27Z",
+ "last_seen": "2026-10-19T11:18:33.833270+00:00",
+ "last_why": "255 stars since launch 10 days ago \u2248 26 stars/day since launch.",
+ "extra": {
+  "forks": 57,
+  "lang": "Rust",
+  "topics": [
+   "ai-agents",
+   "automation",
+   "cli",
+   "developer-tools",
+   "local-first",
+   "mcp",
+   "rust",
+   "websites"
+  ],
+  "repo_id": 1412178580
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}

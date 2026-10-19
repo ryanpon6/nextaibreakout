@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-19T00:32:47.164971+00:00",
   "2026-10-19T05:23:27.214336+00:00",
-  "2026-10-19T07:47:07.086385+00:00"
+  "2026-10-19T07:47:07.086385+00:00",
+  "2026-10-19T11:18:33.833270+00:00"
  ],
  "items": {
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -16,13 +17,13 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 10233,
-    "trending": 1359,
+    "downloads": 17924,
+    "trending": 1408,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -42,12 +43,12 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 172,
+    "comments": 201,
     "hn": "https://news.ycombinator.com/item?id=50145337"
    },
    "why_at_peak": "+796 points/day pace right now (171 total).",
@@ -190,8 +191,8 @@
    "first_seen": "2026-10-19T00:32:47.164971+00:00",
    "peak_score": 94.3,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -405,12 +406,12 @@
    "first_seen": "2026-10-19T07:47:07.086385+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 37,
+    "comments": 56,
     "hn": "https://news.ycombinator.com/item?id=50148452"
    },
    "why_at_peak": "+732 points/day pace right now (113 total).",
@@ -496,14 +497,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-19T07:47:07.086385+00:00",
-   "peak_score": 94.3,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "peak_score": 95.1,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "tag": "agents",
    "extra": {
-    "forks": 56,
+    "forks": 61,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -514,8 +515,8 @@
     ],
     "repo_id": 1420305104
    },
-   "why_at_peak": "+682 stars/day pace right now (994 total).",
-   "metric_at_peak": 994,
+   "why_at_peak": "+947 stars/day pace right now (1.1K total).",
+   "metric_at_peak": 1133,
    "metric_name": "stars"
   },
   "gh-tangency-labs-solidcraft": {
@@ -526,14 +527,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-19T07:47:07.086385+00:00",
-   "peak_score": 92.8,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "peak_score": 94.3,
+   "best_rank": 7,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
    "tag": "agents",
    "extra": {
-    "forks": 708,
+    "forks": 729,
     "lang": "Rust",
     "topics": [
      "3d-modeling",
@@ -548,8 +549,8 @@
     ],
     "repo_id": 1409246014
    },
-   "why_at_peak": "+1.7K stars/day pace right now (6.1K total).",
-   "metric_at_peak": 6139,
+   "why_at_peak": "+1.8K stars/day pace right now (6.4K total).",
+   "metric_at_peak": 6409,
    "metric_name": "stars"
   },
   "hf-openmoss-team-moss-image-base": {
@@ -562,21 +563,102 @@
    "first_seen": "2026-10-19T07:47:07.086385+00:00",
    "peak_score": 89.8,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-19T07:47:07.086385+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
    "what": "text-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 1791,
-    "trending": 306,
+    "downloads": 2774,
+    "trending": 324,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+120 likes/day pace right now (318 total).",
-   "metric_at_peak": 318,
+   "why_at_peak": "+129 likes/day pace right now (337 total).",
+   "metric_at_peak": 337,
    "metric_name": "likes"
+  },
+  "hn-50148855-tmux-and-claude-code-sessions-send-keys-and-the": {
+   "id": "hn:50148855",
+   "slug": "hn-50148855-tmux-and-claude-code-sessions-send-keys-and-the",
+   "name": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+   "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-19T11:18:33.833270+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 24,
+    "hn": "https://news.ycombinator.com/item?id=50148855"
+   },
+   "why_at_peak": "47 points in 5h on Hacker News (24 comments).",
+   "metric_at_peak": 47,
+   "metric_name": "points"
+  },
+  "hf-mistralai-timestral-209m": {
+   "id": "hfmodel:mistralai/Timestral-209M",
+   "slug": "hf-mistralai-timestral-209m",
+   "name": "mistralai/Timestral-209M",
+   "url": "https://huggingface.co/mistralai/Timestral-209M",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-19T11:18:33.833270+00:00",
+   "peak_score": 96.6,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "what": "time-series-forecasting model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2601,
+    "trending": 140,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 140 on Hugging Face; 147 likes, 2.6K downloads.",
+   "metric_at_peak": 147,
+   "metric_name": "likes"
+  },
+  "gh-hybirdss-hycli": {
+   "id": "gh:Hybirdss/Hycli",
+   "slug": "gh-hybirdss-hycli",
+   "name": "Hybirdss/Hycli",
+   "url": "https://github.com/Hybirdss/Hycli",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-19T11:18:33.833270+00:00",
+   "peak_score": 92.8,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-19T11:18:33.833270+00:00",
+   "what": "Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard and 20 languages.",
+   "tag": "agents",
+   "extra": {
+    "forks": 57,
+    "lang": "Rust",
+    "topics": [
+     "ai-agents",
+     "automation",
+     "cli",
+     "developer-tools",
+     "local-first",
+     "mcp",
+     "rust",
+     "websites"
+    ],
+    "repo_id": 1412178580
+   },
+   "why_at_peak": "255 stars since launch 10 days ago \u2248 26 stars/day since launch.",
+   "metric_at_peak": 255,
+   "metric_name": "stars"
   }
  }
 }

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50148855",
+ "slug": "hn-50148855-tmux-and-claude-code-sessions-send-keys-and-the",
+ "first_seen": "2026-10-19T11:18:33.833270+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 47,
+   "t": "2026-10-19T11:18:33.833270+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+ "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T05:55:31Z",
+ "last_seen": "2026-10-19T11:18:33.833270+00:00",
+ "last_why": "47 points in 5h on Hacker News (24 comments).",
+ "extra": {
+  "comments": 24,
+  "hn": "https://news.ycombinator.com/item?id=50148855"
+ },
+ "days": [
+  "2026-10-19"
+ ]
+}
