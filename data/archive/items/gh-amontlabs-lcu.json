@@ -1,0 +1,48 @@
+{
+ "id": "gh:amontlabs/lcu",
+ "slug": "gh-amontlabs-lcu",
+ "first_seen": "2026-10-20T01:40:02.262829+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 92.3,
+   "metric": 1502,
+   "t": "2026-10-20T01:40:02.262829+00:00"
+  }
+ ],
+ "peak_score": 92.3,
+ "best_rank": 8,
+ "name": "amontlabs/lcu",
+ "url": "https://github.com/amontlabs/lcu",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Codex computer use, decoupled from the app, for usage inside any harness.",
+ "what": "Codex computer use, decoupled from the app, for usage inside any harness.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-22T15:08:18Z",
+ "last_seen": "2026-10-20T01:40:02.262829+00:00",
+ "last_why": "+512 stars/day pace right now (1.5K total).",
+ "extra": {
+  "forks": 82,
+  "lang": "JavaScript",
+  "topics": [
+   "accessibility",
+   "agent-skills",
+   "browser-automation",
+   "claude-code",
+   "codex-cli",
+   "computer-use",
+   "desktop-automation",
+   "linux",
+   "macos",
+   "mcp",
+   "pi-agent",
+   "x11"
+  ],
+  "repo_id": 1381783784
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

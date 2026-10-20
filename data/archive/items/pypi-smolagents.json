@@ -8,10 +8,16 @@
    "score": 94.5,
    "metric": 20316,
    "t": "2026-10-20T01:35:31.365860+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.0,
+   "metric": 20316,
+   "t": "2026-10-20T01:40:02.262829+00:00"
   }
  ],
- "peak_score": 94.5,
- "best_rank": 6,
+ "peak_score": 96.0,
+ "best_rank": 4,
  "name": "smolagents",
  "url": "https://pypi.org/project/smolagents",
  "source": "pypi",
@@ -21,7 +27,7 @@
  "tag": "dev tools",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_seen": "2026-10-20T01:40:02.262829+00:00",
  "last_why": "20.3K downloads yesterday, 1.26\u00d7 its 7-day average.",
  "extra": {
   "week": 112792,

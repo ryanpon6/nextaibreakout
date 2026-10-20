@@ -8,6 +8,12 @@
    "score": 99.0,
    "metric": 44,
    "t": "2026-10-20T01:35:31.365860+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 44,
+   "t": "2026-10-20T01:40:02.262829+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -21,7 +27,7 @@
  "tag": "agents",
  "metric_name": "points",
  "created": "2026-10-19T14:52:04Z",
- "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_seen": "2026-10-20T01:40:02.262829+00:00",
  "last_why": "44 points in 11h on Hacker News (3 comments).",
  "extra": {
   "comments": 3,

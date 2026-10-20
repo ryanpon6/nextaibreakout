@@ -8,10 +8,16 @@
    "score": 92.3,
    "metric": 283,
    "t": "2026-10-20T01:35:31.365860+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.3,
+   "metric": 283,
+   "t": "2026-10-20T01:40:02.262829+00:00"
   }
  ],
- "peak_score": 92.3,
- "best_rank": 8,
+ "peak_score": 95.3,
+ "best_rank": 5,
  "name": "VecSzn/PolyStrata",
  "url": "https://github.com/VecSzn/PolyStrata",
  "source": "github",
@@ -21,7 +27,7 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-06T21:09:40Z",
- "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_seen": "2026-10-20T01:40:02.262829+00:00",
  "last_why": "283 stars since launch 13 days ago \u2248 21 stars/day since launch.",
  "extra": {
   "forks": 50,
