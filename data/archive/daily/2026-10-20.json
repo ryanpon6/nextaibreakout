@@ -2,7 +2,8 @@
  "day": "2026-10-20",
  "runs": [
   "2026-10-20T01:35:31.365860+00:00",
-  "2026-10-20T01:40:02.262829+00:00"
+  "2026-10-20T01:40:02.262829+00:00",
+  "2026-10-20T06:36:28.753553+00:00"
  ],
  "items": {
   "hn-50153225-agentic-monitoring": {
@@ -15,12 +16,12 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 3,
+    "comments": 11,
     "hn": "https://news.ycombinator.com/item?id=50153225"
    },
    "why_at_peak": "44 points in 11h on Hacker News (3 comments).",
@@ -37,13 +38,13 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 17924,
-    "trending": 1545,
+    "trending": 1586,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -63,12 +64,12 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
    "what": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 15,
+    "forks": 16,
     "lang": "Python",
     "topics": [
      "apple-silicon",
@@ -100,17 +101,17 @@
    "kind": "news",
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 96.7,
-   "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "best_rank": 3,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 19,
+    "comments": 131,
     "hn": "https://news.ycombinator.com/item?id=50154244"
    },
-   "why_at_peak": "+83 points/day pace right now (40 total).",
-   "metric_at_peak": 40,
+   "why_at_peak": "+505 points/day pace right now (144 total).",
+   "metric_at_peak": 144,
    "metric_name": "points"
   },
   "hn-50153630-cern-and-mistral-sign-a-statement-of-intent-to-est": {
@@ -145,8 +146,8 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 96.0,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -293,14 +294,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-20T01:40:02.262829+00:00",
-   "peak_score": 92.3,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "peak_score": 94.5,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
    "what": "Codex computer use, decoupled from the app, for usage inside any harness.",
    "tag": "agents",
    "extra": {
-    "forks": 82,
+    "forks": 91,
     "lang": "JavaScript",
     "topics": [
      "accessibility",
@@ -318,9 +319,113 @@
     ],
     "repo_id": 1381783784
    },
-   "why_at_peak": "+512 stars/day pace right now (1.5K total).",
-   "metric_at_peak": 1502,
+   "why_at_peak": "+714 stars/day pace right now (1.6K total).",
+   "metric_at_peak": 1649,
    "metric_name": "stars"
+  },
+  "hf-dealignai-deepseek-v4-1-flash-1017-uncensored-fp8": {
+   "id": "hfmodel:dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+   "slug": "hf-dealignai-deepseek-v4-1-flash-1017-uncensored-fp8",
+   "name": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+   "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-20T06:36:28.753553+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1813,
+    "trending": 143,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 143 on Hugging Face; 153 likes, 1.8K downloads.",
+   "metric_at_peak": 153,
+   "metric_name": "likes"
+  },
+  "hn-50159341-whatsapp-s-help-pages-hid-llm-instructions-dont-r": {
+   "id": "hn:50159341",
+   "slug": "hn-50159341-whatsapp-s-help-pages-hid-llm-instructions-dont-r",
+   "name": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-20T06:36:28.753553+00:00",
+   "peak_score": 97.5,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 55,
+    "hn": "https://news.ycombinator.com/item?id=50159341"
+   },
+   "why_at_peak": "+1.2K points/day pace right now (262 total).",
+   "metric_at_peak": 262,
+   "metric_name": "points"
+  },
+  "gh-leonxlnx-earshot": {
+   "id": "gh:Leonxlnx/earshot",
+   "slug": "gh-leonxlnx-earshot",
+   "name": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-20T06:36:28.753553+00:00",
+   "peak_score": 93.0,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
+   "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "tag": "agents",
+   "extra": {
+    "forks": 95,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "audio",
+     "claude-code",
+     "mcp",
+     "sound-design"
+    ],
+    "repo_id": 1420305104
+   },
+   "why_at_peak": "+510 stars/day pace right now (1.6K total).",
+   "metric_at_peak": 1648,
+   "metric_name": "stars"
+  },
+  "hf-openmoss-team-moss-image-sft": {
+   "id": "hfmodel:OpenMOSS-Team/MOSS-Image-SFT",
+   "slug": "hf-openmoss-team-moss-image-sft",
+   "name": "OpenMOSS-Team/MOSS-Image-SFT",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-20T06:36:28.753553+00:00",
+   "peak_score": 86.4,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T06:36:28.753553+00:00",
+   "what": "text-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 3336,
+    "trending": 405,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+92 likes/day pace right now (424 total).",
+   "metric_at_peak": 424,
+   "metric_name": "likes"
   }
  }
 }

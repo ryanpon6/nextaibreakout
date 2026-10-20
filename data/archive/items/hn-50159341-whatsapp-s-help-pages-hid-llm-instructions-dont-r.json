@@ -1,0 +1,33 @@
+{
+ "id": "hn:50159341",
+ "slug": "hn-50159341-whatsapp-s-help-pages-hid-llm-instructions-dont-r",
+ "first_seen": "2026-10-20T06:36:28.753553+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.5,
+   "metric": 262,
+   "t": "2026-10-20T06:36:28.753553+00:00"
+  }
+ ],
+ "peak_score": 97.5,
+ "best_rank": 2,
+ "name": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+ "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T23:22:18Z",
+ "last_seen": "2026-10-20T06:36:28.753553+00:00",
+ "last_why": "+1.2K points/day pace right now (262 total).",
+ "extra": {
+  "comments": 55,
+  "hn": "https://news.ycombinator.com/item?id=50159341"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

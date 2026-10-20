@@ -14,12 +14,18 @@
    "score": 94.5,
    "metric": 40,
    "t": "2026-10-20T01:40:02.262829+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.7,
+   "metric": 144,
+   "t": "2026-10-20T06:36:28.753553+00:00"
   }
  ],
  "peak_score": 96.7,
- "best_rank": 4,
+ "best_rank": 3,
  "name": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
- "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+ "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
  "source": "hackernews",
  "kind": "news",
  "desc": "",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-19T16:16:46Z",
- "last_seen": "2026-10-20T01:40:02.262829+00:00",
- "last_why": "+81 points/day pace right now (40 total).",
+ "last_seen": "2026-10-20T06:36:28.753553+00:00",
+ "last_why": "+505 points/day pace right now (144 total).",
  "extra": {
-  "comments": 19,
+  "comments": 131,
   "hn": "https://news.ycombinator.com/item?id=50154244"
  },
  "days": [

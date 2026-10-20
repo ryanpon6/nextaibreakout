@@ -26,6 +26,12 @@
    "score": 97.5,
    "metric": 267,
    "t": "2026-10-20T01:40:02.262829+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 93.7,
+   "metric": 281,
+   "t": "2026-10-20T06:36:28.753553+00:00"
   }
  ],
  "peak_score": 98.2,
@@ -39,10 +45,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-18T11:13:56Z",
- "last_seen": "2026-10-20T01:40:02.262829+00:00",
- "last_why": "+126 stars/day pace right now (267 total).",
+ "last_seen": "2026-10-20T06:36:28.753553+00:00",
+ "last_why": "+68 stars/day pace right now (281 total).",
  "extra": {
-  "forks": 15,
+  "forks": 16,
   "lang": "Python",
   "topics": [
    "apple-silicon",

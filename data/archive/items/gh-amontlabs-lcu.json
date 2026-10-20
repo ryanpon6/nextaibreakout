@@ -8,10 +8,16 @@
    "score": 92.3,
    "metric": 1502,
    "t": "2026-10-20T01:40:02.262829+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.5,
+   "metric": 1649,
+   "t": "2026-10-20T06:36:28.753553+00:00"
   }
  ],
- "peak_score": 92.3,
- "best_rank": 8,
+ "peak_score": 94.5,
+ "best_rank": 5,
  "name": "amontlabs/lcu",
  "url": "https://github.com/amontlabs/lcu",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-22T15:08:18Z",
- "last_seen": "2026-10-20T01:40:02.262829+00:00",
- "last_why": "+512 stars/day pace right now (1.5K total).",
+ "last_seen": "2026-10-20T06:36:28.753553+00:00",
+ "last_why": "+714 stars/day pace right now (1.6K total).",
  "extra": {
-  "forks": 82,
+  "forks": 91,
   "lang": "JavaScript",
   "topics": [
    "accessibility",
