@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:lodestones/Kromoss",
+ "slug": "hf-lodestones-kromoss",
+ "first_seen": "2026-10-20T12:11:49.559007+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 140,
+   "t": "2026-10-20T12:11:49.559007+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "lodestones/Kromoss",
+ "url": "https://huggingface.co/lodestones/Kromoss",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-image",
+ "what": "text-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-19T01:34:35.000Z",
+ "last_seen": "2026-10-20T12:11:49.559007+00:00",
+ "last_why": "Trending score 139 on Hugging Face; 140 likes, 5.4K downloads.",
+ "extra": {
+  "downloads": 5365,
+  "trending": 139,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

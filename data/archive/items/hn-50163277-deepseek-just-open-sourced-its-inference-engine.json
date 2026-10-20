@@ -1,0 +1,35 @@
+{
+ "id": "hn:50163277",
+ "slug": "hn-50163277-deepseek-just-open-sourced-its-inference-engine",
+ "first_seen": "2026-10-20T12:11:49.559007+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 627,
+   "t": "2026-10-20T12:11:49.559007+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "DeepSeek just open-sourced its inference engine",
+ "url": "https://github.com/deepseek-ai/DeepInfer",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-20T09:08:54Z",
+ "last_seen": "2026-10-20T12:11:49.559007+00:00",
+ "last_why": "627 points in 3h on Hacker News (219 comments).",
+ "extra": {
+  "comments": 219,
+  "hn": "https://news.ycombinator.com/item?id=50163277",
+  "repo_created": "2026-10-16T07:47:23Z",
+  "repo": "deepseek-ai/DeepInfer"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

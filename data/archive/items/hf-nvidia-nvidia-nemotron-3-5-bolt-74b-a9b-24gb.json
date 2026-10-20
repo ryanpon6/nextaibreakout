@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+ "slug": "hf-nvidia-nvidia-nemotron-3-5-bolt-74b-a9b-24gb",
+ "first_seen": "2026-10-20T12:11:49.559007+00:00",
+ "appearances": [
+  {
+   "rank": 10,
+   "score": 90.8,
+   "metric": 132,
+   "t": "2026-10-20T12:11:49.559007+00:00"
+  }
+ ],
+ "peak_score": 90.8,
+ "best_rank": 10,
+ "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+ "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-07T17:50:42.000Z",
+ "last_seen": "2026-10-20T12:11:49.559007+00:00",
+ "last_why": "Trending score 130 on Hugging Face; 132 likes, 6.8K downloads.",
+ "extra": {
+  "downloads": 6820,
+  "trending": 130,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

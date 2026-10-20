@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:inclusionAI/Ling-3.1-flash",
+ "slug": "hf-inclusionai-ling-3-1-flash",
+ "first_seen": "2026-10-20T12:11:49.559007+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.5,
+   "metric": 134,
+   "t": "2026-10-20T12:11:49.559007+00:00"
+  }
+ ],
+ "peak_score": 94.5,
+ "best_rank": 5,
+ "name": "inclusionAI/Ling-3.1-flash",
+ "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-13T11:16:41.000Z",
+ "last_seen": "2026-10-20T12:11:49.559007+00:00",
+ "last_why": "Trending score 134 on Hugging Face; 134 likes, 2.9K downloads.",
+ "extra": {
+  "downloads": 2905,
+  "trending": 134,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}
