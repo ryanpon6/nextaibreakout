@@ -1,0 +1,33 @@
+{
+ "id": "hn:50153225",
+ "slug": "hn-50153225-agentic-monitoring",
+ "first_seen": "2026-10-20T01:35:31.365860+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 44,
+   "t": "2026-10-20T01:35:31.365860+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Agentic Monitoring",
+ "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-19T14:52:04Z",
+ "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_why": "44 points in 11h on Hacker News (3 comments).",
+ "extra": {
+  "comments": 3,
+  "hn": "https://news.ycombinator.com/item?id=50153225"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

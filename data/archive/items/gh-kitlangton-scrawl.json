@@ -8,6 +8,12 @@
    "score": 94.5,
    "metric": 453,
    "t": "2026-10-19T22:59:39.315614+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.8,
+   "metric": 474,
+   "t": "2026-10-20T01:35:31.365860+00:00"
   }
  ],
  "peak_score": 94.5,
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T23:21:44Z",
- "last_seen": "2026-10-19T22:59:39.315614+00:00",
- "last_why": "453 stars since launch 5 days ago \u2248 91 stars/day since launch.",
+ "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_why": "474 stars since launch 5 days ago \u2248 93 stars/day since launch.",
  "extra": {
-  "forks": 36,
+  "forks": 39,
   "lang": "Rust",
   "topics": [
    "ai-agents",
@@ -40,6 +46,7 @@
   "repo_id": 1419948432
  },
  "days": [
-  "2026-10-19"
+  "2026-10-19",
+  "2026-10-20"
  ]
 }

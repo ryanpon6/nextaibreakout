@@ -1,0 +1,33 @@
+{
+ "id": "pypi:smolagents",
+ "slug": "pypi-smolagents",
+ "first_seen": "2026-10-20T01:35:31.365860+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.5,
+   "metric": 20316,
+   "t": "2026-10-20T01:35:31.365860+00:00"
+  }
+ ],
+ "peak_score": 94.5,
+ "best_rank": 6,
+ "name": "smolagents",
+ "url": "https://pypi.org/project/smolagents",
+ "source": "pypi",
+ "kind": "tool",
+ "desc": "Python package",
+ "what": "Python package",
+ "tag": "dev tools",
+ "metric_name": "downloads/day",
+ "created": null,
+ "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_why": "20.3K downloads yesterday, 1.26\u00d7 its 7-day average.",
+ "extra": {
+  "week": 112792,
+  "month": 425605
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

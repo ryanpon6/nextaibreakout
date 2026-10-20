@@ -1,0 +1,33 @@
+{
+ "id": "hn:50154244",
+ "slug": "hn-50154244-deepseek-banned-from-u-s-federal-civilian-agencie",
+ "first_seen": "2026-10-20T01:35:31.365860+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 40,
+   "t": "2026-10-20T01:35:31.365860+00:00"
+  }
+ ],
+ "peak_score": 96.7,
+ "best_rank": 4,
+ "name": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+ "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-19T16:16:46Z",
+ "last_seen": "2026-10-20T01:35:31.365860+00:00",
+ "last_why": "+83 points/day pace right now (40 total).",
+ "extra": {
+  "comments": 19,
+  "hn": "https://news.ycombinator.com/item?id=50154244"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}
