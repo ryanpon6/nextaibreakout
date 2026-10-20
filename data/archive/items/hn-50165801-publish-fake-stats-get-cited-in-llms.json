@@ -1,0 +1,33 @@
+{
+ "id": "hn:50165801",
+ "slug": "hn-50165801-publish-fake-stats-get-cited-in-llms",
+ "first_seen": "2026-10-20T16:59:18.841566+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 176,
+   "t": "2026-10-20T16:59:18.841566+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 1,
+ "name": "Publish fake stats, get cited in LLMs",
+ "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-20T13:06:22Z",
+ "last_seen": "2026-10-20T16:59:18.841566+00:00",
+ "last_why": "176 points in 4h on Hacker News (100 comments).",
+ "extra": {
+  "comments": 100,
+  "hn": "https://news.ycombinator.com/item?id=50165801"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

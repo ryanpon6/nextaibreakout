@@ -1,0 +1,47 @@
+{
+ "id": "gh:zhuyansen/new-term-radar",
+ "slug": "gh-zhuyansen-new-term-radar",
+ "first_seen": "2026-10-20T16:59:18.841566+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 90.9,
+   "metric": 1362,
+   "t": "2026-10-20T16:59:18.841566+00:00"
+  }
+ ],
+ "peak_score": 90.9,
+ "best_rank": 9,
+ "name": "zhuyansen/new-term-radar",
+ "url": "https://github.com/zhuyansen/new-term-radar",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+ "what": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-12T07:11:01Z",
+ "last_seen": "2026-10-20T16:59:18.841566+00:00",
+ "last_why": "+566 stars/day pace right now (1.4K total).",
+ "extra": {
+  "forks": 454,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "ai",
+   "aisa",
+   "claude-code",
+   "claude-skills",
+   "google-trends",
+   "keyword-research",
+   "mcp",
+   "mcp-server",
+   "seo",
+   "trends"
+  ],
+  "repo_id": 1415214046
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}
