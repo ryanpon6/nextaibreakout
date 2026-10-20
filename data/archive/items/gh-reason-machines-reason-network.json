@@ -128,6 +128,12 @@
    "score": 95.1,
    "metric": 472,
    "t": "2026-10-19T13:32:21.763801+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 93.8,
+   "metric": 627,
+   "t": "2026-10-20T20:17:39.652926+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -141,10 +147,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-16T15:34:34Z",
- "last_seen": "2026-10-19T13:32:21.763801+00:00",
- "last_why": "+118 stars/day pace right now (472 total).",
+ "last_seen": "2026-10-20T20:17:39.652926+00:00",
+ "last_why": "+428 stars/day pace right now (627 total).",
  "extra": {
-  "forks": 38,
+  "forks": 50,
   "lang": "Rust",
   "topics": [
    "coding-agents",
@@ -158,6 +164,7 @@
  "days": [
   "2026-10-17",
   "2026-10-18",
-  "2026-10-19"
+  "2026-10-19",
+  "2026-10-20"
  ]
 }

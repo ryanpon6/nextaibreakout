@@ -5,7 +5,8 @@
   "2026-10-20T01:40:02.262829+00:00",
   "2026-10-20T06:36:28.753553+00:00",
   "2026-10-20T12:11:49.559007+00:00",
-  "2026-10-20T16:59:18.841566+00:00"
+  "2026-10-20T16:59:18.841566+00:00",
+  "2026-10-20T20:17:39.652926+00:00"
  ],
  "items": {
   "hn-50153225-agentic-monitoring": {
@@ -40,13 +41,13 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-20T06:36:28.753553+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 17924,
-    "trending": 1586,
+    "downloads": 27737,
+    "trending": 1723,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -66,12 +67,12 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-20T16:59:18.841566+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 21,
+    "forks": 23,
     "lang": "Python",
     "topics": [
      "apple-silicon",
@@ -147,9 +148,9 @@
    "kind": "tool",
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 96.0,
-   "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-20T16:59:18.841566+00:00",
+   "best_rank": 2,
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -335,13 +336,13 @@
    "first_seen": "2026-10-20T06:36:28.753553+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T16:59:18.841566+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2803,
-    "trending": 165,
+    "trending": 169,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -462,14 +463,14 @@
    "kind": "model",
    "first_seen": "2026-10-20T12:11:49.559007+00:00",
    "peak_score": 98.2,
-   "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T16:59:18.841566+00:00",
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "text-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5365,
-    "trending": 153,
+    "trending": 162,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -615,12 +616,12 @@
    "first_seen": "2026-10-20T16:59:18.841566+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-20T16:59:18.841566+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 100,
+    "comments": 159,
     "hn": "https://news.ycombinator.com/item?id=50165801"
    },
    "why_at_peak": "176 points in 4h on Hacker News (100 comments).",
@@ -661,10 +662,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-20T16:59:18.841566+00:00",
-   "peak_score": 91.6,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-20T16:59:18.841566+00:00",
+   "peak_score": 94.6,
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
    "what": "\u7ed9\u4f60\u7684 AI \u4e00\u526f\u8eab\u4f53\uff0c\u548c\u4e00\u70b9\u4eba\u5473 \u2014\u2014 \u4f1a\u8bb0\u4e8b\u3001\u4f1a\u770b\u573a\u5408\u7684 QQ \u966a\u804a + \u80fd\u63a7\u5236\u5b89\u5353\u624b\u673a\u7684 MCP",
    "tag": "agents",
    "extra": {
@@ -688,8 +689,8 @@
     ],
     "repo_id": 1409863087
    },
-   "why_at_peak": "251 stars since launch 12 days ago \u2248 20 stars/day since launch.",
-   "metric_at_peak": 251,
+   "why_at_peak": "255 stars since launch 13 days ago \u2248 20 stars/day since launch.",
+   "metric_at_peak": 255,
    "metric_name": "stars"
   },
   "gh-zhuyansen-new-term-radar": {
@@ -727,6 +728,82 @@
    "why_at_peak": "+566 stars/day pace right now (1.4K total).",
    "metric_at_peak": 1362,
    "metric_name": "stars"
+  },
+  "hn-50168190-steam-users-beg-for-no-ai-filter-as-vibecoders-f": {
+   "id": "hn:50168190",
+   "slug": "hn-50168190-steam-users-beg-for-no-ai-filter-as-vibecoders-f",
+   "name": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+   "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-20T20:17:39.652926+00:00",
+   "peak_score": 95.3,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 159,
+    "hn": "https://news.ycombinator.com/item?id=50168190"
+   },
+   "why_at_peak": "+908 points/day pace right now (146 total).",
+   "metric_at_peak": 146,
+   "metric_name": "points"
+  },
+  "gh-reason-machines-reason-network": {
+   "id": "gh:reason-machines/reason-network",
+   "slug": "gh-reason-machines-reason-network",
+   "name": "reason-machines/reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-20T20:17:39.652926+00:00",
+   "peak_score": 93.8,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+   "tag": "agents",
+   "extra": {
+    "forks": 50,
+    "lang": "Rust",
+    "topics": [
+     "coding-agents",
+     "iroh",
+     "mcp",
+     "peer-to-peer",
+     "reason"
+    ],
+    "repo_id": 1422344223
+   },
+   "why_at_peak": "+428 stars/day pace right now (627 total).",
+   "metric_at_peak": 627,
+   "metric_name": "stars"
+  },
+  "hn-50163277-deepinfer-high-performance-inference-framework-fo": {
+   "id": "hn:50163277",
+   "slug": "hn-50163277-deepinfer-high-performance-inference-framework-fo",
+   "name": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-20T20:17:39.652926+00:00",
+   "peak_score": 89.5,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 774,
+    "hn": "https://news.ycombinator.com/item?id=50163277",
+    "repo_created": "2026-10-16T07:47:23Z",
+    "repo": "deepseek-ai/DeepInfer"
+   },
+   "why_at_peak": "+1.6K points/day pace right now (2.0K total).",
+   "metric_at_peak": 1979,
+   "metric_name": "points"
   }
  }
 }

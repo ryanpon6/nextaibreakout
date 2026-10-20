@@ -8,10 +8,16 @@
    "score": 91.6,
    "metric": 251,
    "t": "2026-10-20T16:59:18.841566+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.6,
+   "metric": 255,
+   "t": "2026-10-20T20:17:39.652926+00:00"
   }
  ],
- "peak_score": 91.6,
- "best_rank": 8,
+ "peak_score": 94.6,
+ "best_rank": 4,
  "name": "pinganbbOvO/ai-companion-kit",
  "url": "https://github.com/pinganbbOvO/ai-companion-kit",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-08T06:41:17Z",
- "last_seen": "2026-10-20T16:59:18.841566+00:00",
- "last_why": "251 stars since launch 12 days ago \u2248 20 stars/day since launch.",
+ "last_seen": "2026-10-20T20:17:39.652926+00:00",
+ "last_why": "255 stars since launch 13 days ago \u2248 20 stars/day since launch.",
  "extra": {
   "forks": 13,
   "lang": "JavaScript",

@@ -14,10 +14,16 @@
    "score": 95.3,
    "metric": 154,
    "t": "2026-10-20T16:59:18.841566+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 96.8,
+   "metric": 163,
+   "t": "2026-10-20T20:17:39.652926+00:00"
   }
  ],
  "peak_score": 98.2,
- "best_rank": 2,
+ "best_rank": 1,
  "name": "lodestones/Kromoss",
  "url": "https://huggingface.co/lodestones/Kromoss",
  "source": "huggingface",
@@ -27,11 +33,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-19T01:34:35.000Z",
- "last_seen": "2026-10-20T16:59:18.841566+00:00",
- "last_why": "+70 likes/day pace right now (154 total).",
+ "last_seen": "2026-10-20T20:17:39.652926+00:00",
+ "last_why": "+65 likes/day pace right now (163 total).",
  "extra": {
   "downloads": 5365,
-  "trending": 153,
+  "trending": 162,
   "hf_type": "model",
   "title": null,
   "summary": null,
