@@ -1,0 +1,33 @@
+{
+ "id": "hn:50171771",
+ "slug": "hn-50171771-on-ai-writing",
+ "first_seen": "2026-10-20T23:16:17.866448+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 76,
+   "t": "2026-10-20T23:16:17.866448+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "On AI writing",
+ "url": "https://www.bolkunov.com/p/on-ai-writing",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-20T19:55:11Z",
+ "last_seen": "2026-10-20T23:16:17.866448+00:00",
+ "last_why": "76 points in 3h on Hacker News (51 comments).",
+ "extra": {
+  "comments": 51,
+  "hn": "https://news.ycombinator.com/item?id=50171771"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

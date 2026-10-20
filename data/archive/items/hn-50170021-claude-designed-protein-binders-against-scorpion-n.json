@@ -1,0 +1,33 @@
+{
+ "id": "hn:50170021",
+ "slug": "hn-50170021-claude-designed-protein-binders-against-scorpion-n",
+ "first_seen": "2026-10-20T23:16:17.866448+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.0,
+   "metric": 82,
+   "t": "2026-10-20T23:16:17.866448+00:00"
+  }
+ ],
+ "peak_score": 96.0,
+ "best_rank": 3,
+ "name": "Claude designed protein binders against scorpion neurotoxins",
+ "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-20T17:48:29Z",
+ "last_seen": "2026-10-20T23:16:17.866448+00:00",
+ "last_why": "+459 points/day pace right now (82 total).",
+ "extra": {
+  "comments": 47,
+  "hn": "https://news.ycombinator.com/item?id=50170021"
+ },
+ "days": [
+  "2026-10-20"
+ ]
+}

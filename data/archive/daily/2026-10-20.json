@@ -6,7 +6,8 @@
   "2026-10-20T06:36:28.753553+00:00",
   "2026-10-20T12:11:49.559007+00:00",
   "2026-10-20T16:59:18.841566+00:00",
-  "2026-10-20T20:17:39.652926+00:00"
+  "2026-10-20T20:17:39.652926+00:00",
+  "2026-10-20T23:16:17.866448+00:00"
  ],
  "items": {
   "hn-50153225-agentic-monitoring": {
@@ -67,8 +68,8 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
    "what": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch).\u2026",
    "tag": "agents",
    "extra": {
@@ -149,8 +150,8 @@
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
    "peak_score": 96.0,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -267,10 +268,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-20T01:35:31.365860+00:00",
-   "peak_score": 84.5,
-   "best_rank": 10,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "peak_score": 85.4,
+   "best_rank": 9,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -464,13 +465,13 @@
    "first_seen": "2026-10-20T12:11:49.559007+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
    "what": "text-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5365,
-    "trending": 162,
+    "trending": 167,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -759,14 +760,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-20T20:17:39.652926+00:00",
-   "peak_score": 93.8,
+   "peak_score": 94.6,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
    "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
    "tag": "agents",
    "extra": {
-    "forks": 50,
+    "forks": 52,
     "lang": "Rust",
     "topics": [
      "coding-agents",
@@ -777,8 +778,8 @@
     ],
     "repo_id": 1422344223
    },
-   "why_at_peak": "+428 stars/day pace right now (627 total).",
-   "metric_at_peak": 627,
+   "why_at_peak": "+379 stars/day pace right now (674 total).",
+   "metric_at_peak": 674,
    "metric_name": "stars"
   },
   "hn-50163277-deepinfer-high-performance-inference-framework-fo": {
@@ -791,19 +792,128 @@
    "first_seen": "2026-10-20T20:17:39.652926+00:00",
    "peak_score": 89.5,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-20T20:17:39.652926+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 774,
+    "comments": 814,
     "hn": "https://news.ycombinator.com/item?id=50163277",
     "repo_created": "2026-10-16T07:47:23Z",
     "repo": "deepseek-ai/DeepInfer"
    },
-   "why_at_peak": "+1.6K points/day pace right now (2.0K total).",
-   "metric_at_peak": 1979,
+   "why_at_peak": "+806 points/day pace right now (2.1K total).",
+   "metric_at_peak": 2079,
    "metric_name": "points"
+  },
+  "hn-50171771-on-ai-writing": {
+   "id": "hn:50171771",
+   "slug": "hn-50171771-on-ai-writing",
+   "name": "On AI writing",
+   "url": "https://www.bolkunov.com/p/on-ai-writing",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-20T23:16:17.866448+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 51,
+    "hn": "https://news.ycombinator.com/item?id=50171771"
+   },
+   "why_at_peak": "76 points in 3h on Hacker News (51 comments).",
+   "metric_at_peak": 76,
+   "metric_name": "points"
+  },
+  "hn-50170021-claude-designed-protein-binders-against-scorpion-n": {
+   "id": "hn:50170021",
+   "slug": "hn-50170021-claude-designed-protein-binders-against-scorpion-n",
+   "name": "Claude designed protein binders against scorpion neurotoxins",
+   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-20T23:16:17.866448+00:00",
+   "peak_score": 96.0,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 47,
+    "hn": "https://news.ycombinator.com/item?id=50170021"
+   },
+   "why_at_peak": "+459 points/day pace right now (82 total).",
+   "metric_at_peak": 82,
+   "metric_name": "points"
+  },
+  "gh-mw00-project-maya": {
+   "id": "gh:mw00/project-maya",
+   "slug": "gh-mw00-project-maya",
+   "name": "mw00/project-maya",
+   "url": "https://github.com/mw00/project-maya",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-20T23:16:17.866448+00:00",
+   "peak_score": 93.1,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
+   "what": "Project Maya - run GLM-5.3-Flash (321B MoE) and DeepSeek-V4.1-Flash-1017 (748B MoE) privately on your own GPU(s), from one card to 16,\u2026",
+   "tag": "models",
+   "extra": {
+    "forks": 158,
+    "lang": "C++",
+    "topics": [
+     "cuda",
+     "deepseek",
+     "deepseek-v4",
+     "glm",
+     "glm-5",
+     "llm",
+     "llm-inference",
+     "local-llm",
+     "mixture-of-experts",
+     "moe",
+     "openai-api",
+     "quantization",
+     "rocm",
+     "self-hosted"
+    ],
+    "repo_id": 1407997858
+   },
+   "why_at_peak": "+218 stars/day pace right now (1.3K total).",
+   "metric_at_peak": 1266,
+   "metric_name": "stars"
+  },
+  "hf-comfy-org-moss-image": {
+   "id": "hfmodel:Comfy-Org/MOSS-Image",
+   "slug": "hf-comfy-org-moss-image",
+   "name": "Comfy-Org/MOSS-Image",
+   "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-20T23:16:17.866448+00:00",
+   "peak_score": 84.7,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-20T23:16:17.866448+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 924574,
+    "trending": 281,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+56 likes/day pace right now (292 total).",
+   "metric_at_peak": 292,
+   "metric_name": "likes"
   }
  }
 }
