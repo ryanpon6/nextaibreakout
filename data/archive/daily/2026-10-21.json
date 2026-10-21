@@ -1,7 +1,8 @@
 {
  "day": "2026-10-21",
  "runs": [
-  "2026-10-21T01:36:52.973724+00:00"
+  "2026-10-21T01:36:52.973724+00:00",
+  "2026-10-21T06:34:32.577638+00:00"
  ],
  "items": {
   "hf-lodestones-kromoss": {
@@ -14,13 +15,13 @@
    "first_seen": "2026-10-21T01:36:52.973724+00:00",
    "peak_score": 97.4,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T01:36:52.973724+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
    "what": "text-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5365,
-    "trending": 173,
+    "trending": 180,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -60,14 +61,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-21T01:36:52.973724+00:00",
-   "peak_score": 95.7,
+   "peak_score": 95.8,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T01:36:52.973724+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
    "what": "\u628a OpenCode \u7684\u514d\u8d39\u6a21\u578b\u6446\u6e21\u7ed9 WorkBuddy \u2014\u2014 \u9694\u79bb\u8fd0\u884c\u65f6\u3001\u5e76\u53d1\u68c0\u6d4b\u3001\u5224\u5b9a\u7f13\u5b58\u3001\u4e00\u952e\u5bfc\u5165\u3001\u672c\u673a OpenAI \u517c\u5bb9\u8f6c\u53d1\u53e3",
    "tag": "dev tools",
    "extra": {
-    "forks": 55,
+    "forks": 57,
     "lang": "JavaScript",
     "topics": [
      "electron",
@@ -82,8 +83,8 @@
     ],
     "repo_id": 1412981259
    },
-   "why_at_peak": "281 stars since launch 11 days ago \u2248 26 stars/day since launch.",
-   "metric_at_peak": 281,
+   "why_at_peak": "289 stars since launch 11 days ago \u2248 27 stars/day since launch.",
+   "metric_at_peak": 289,
    "metric_name": "stars"
   },
   "hn-50170021-claude-designed-protein-binders-against-scorpion-n": {
@@ -96,12 +97,12 @@
    "first_seen": "2026-10-21T01:36:52.973724+00:00",
    "peak_score": 94.9,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T01:36:52.973724+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 63,
+    "comments": 67,
     "hn": "https://news.ycombinator.com/item?id=50170021"
    },
    "why_at_peak": "+102 points/day pace right now (92 total).",
@@ -138,14 +139,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-21T01:36:52.973724+00:00",
-   "peak_score": 93.4,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T01:36:52.973724+00:00",
+   "peak_score": 95.0,
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
    "what": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 196,
+    "forks": 211,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -169,8 +170,8 @@
     ],
     "repo_id": 1382865521
    },
-   "why_at_peak": "+574 stars/day pace right now (1.8K total).",
-   "metric_at_peak": 1750,
+   "why_at_peak": "+721 stars/day pace right now (1.9K total).",
+   "metric_at_peak": 1899,
    "metric_name": "stars"
   },
   "gh-akun-python-autumn-recruitment": {
@@ -241,21 +242,21 @@
    "kind": "model",
    "first_seen": "2026-10-21T01:36:52.973724+00:00",
    "peak_score": 88.7,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T01:36:52.973724+00:00",
+   "best_rank": 7,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
    "what": "image-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3111,
-    "trending": 244,
+    "trending": 253,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+72 likes/day pace right now (294 total).",
-   "metric_at_peak": 294,
+   "why_at_peak": "+77 likes/day pace right now (310 total).",
+   "metric_at_peak": 310,
    "metric_name": "likes"
   },
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -283,6 +284,146 @@
    "why_at_peak": "+195 likes/day pace right now (2.0K total).",
    "metric_at_peak": 1965,
    "metric_name": "likes"
+  },
+  "hn-50169506-benchmarking-bot-detection-systems-against-modern": {
+   "id": "hn:50169506",
+   "slug": "hn-50169506-benchmarking-bot-detection-systems-against-modern",
+   "name": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+   "url": "https://research.poh.org/bot-benchmarking-2026/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-21T06:34:32.577638+00:00",
+   "peak_score": 97.4,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 4,
+    "hn": "https://news.ycombinator.com/item?id=50169506"
+   },
+   "why_at_peak": "+77 points/day pace right now (41 total).",
+   "metric_at_peak": 41,
+   "metric_name": "points"
+  },
+  "hf-hauhaucs-qwen3-8-27b-uncensored-hauhaucs-aggressive-mtp-gguf": {
+   "id": "hfmodel:HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "slug": "hf-hauhaucs-qwen3-8-27b-uncensored-hauhaucs-aggressive-mtp-gguf",
+   "name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-21T06:34:32.577638+00:00",
+   "peak_score": 96.6,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2359355,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 2.0K likes, 2.4M downloads.",
+   "metric_at_peak": 1970,
+   "metric_name": "likes"
+  },
+  "gh-kanaworksai-hue-audio-studio-mcp": {
+   "id": "gh:kanaworksai-hue/audio-studio-mcp",
+   "slug": "gh-kanaworksai-hue-audio-studio-mcp",
+   "name": "kanaworksai-hue/audio-studio-mcp",
+   "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-21T06:34:32.577638+00:00",
+   "peak_score": 94.2,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
+   "what": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch).\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 25,
+    "lang": "Python",
+    "topics": [
+     "apple-silicon",
+     "audio-generation",
+     "claude-code",
+     "cuda",
+     "game-audio",
+     "mcp",
+     "mcp-server",
+     "mlx",
+     "music-generation",
+     "pytorch",
+     "sound-effects",
+     "stable-audio",
+     "windows"
+    ],
+    "repo_id": 1424285974
+   },
+   "why_at_peak": "+87 stars/day pace right now (373 total).",
+   "metric_at_peak": 373,
+   "metric_name": "stars"
+  },
+  "npm--anthropic-ai-sdk": {
+   "id": "npm:@anthropic-ai/sdk",
+   "slug": "npm--anthropic-ai-sdk",
+   "name": "@anthropic-ai/sdk",
+   "url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
+   "source": "npm",
+   "kind": "tool",
+   "first_seen": "2026-10-21T06:34:32.577638+00:00",
+   "peak_score": 86.4,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
+   "what": "npm package",
+   "tag": "dev tools",
+   "extra": {
+    "week": 28258993,
+    "days": [
+     8355414,
+     0,
+     0,
+     0,
+     8943196,
+     5484270,
+     5476113
+    ]
+   },
+   "why_at_peak": "5.5M downloads yesterday, 1.36\u00d7 its 7-day average.",
+   "metric_at_peak": 5476113,
+   "metric_name": "downloads/day"
+  },
+  "hn-50163277-deepinfer-high-performance-inference-framework-fo": {
+   "id": "hn:50163277",
+   "slug": "hn-50163277-deepinfer-high-performance-inference-framework-fo",
+   "name": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-21T06:34:32.577638+00:00",
+   "peak_score": 80.5,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T06:34:32.577638+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 850,
+    "hn": "https://news.ycombinator.com/item?id=50163277",
+    "repo_created": "2026-10-16T07:47:23Z",
+    "repo": "deepseek-ai/DeepInfer"
+   },
+   "why_at_peak": "+339 points/day pace right now (2.2K total).",
+   "metric_at_peak": 2206,
+   "metric_name": "points"
   }
  }
 }

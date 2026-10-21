@@ -8,9 +8,15 @@
    "score": 95.7,
    "metric": 281,
    "t": "2026-10-21T01:36:52.973724+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 95.8,
+   "metric": 289,
+   "t": "2026-10-21T06:34:32.577638+00:00"
   }
  ],
- "peak_score": 95.7,
+ "peak_score": 95.8,
  "best_rank": 3,
  "name": "HRuiCcc/RuiC-oc-ferry",
  "url": "https://github.com/HRuiCcc/RuiC-oc-ferry",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-10T08:59:18Z",
- "last_seen": "2026-10-21T01:36:52.973724+00:00",
- "last_why": "281 stars since launch 11 days ago \u2248 26 stars/day since launch.",
+ "last_seen": "2026-10-21T06:34:32.577638+00:00",
+ "last_why": "289 stars since launch 11 days ago \u2248 27 stars/day since launch.",
  "extra": {
-  "forks": 55,
+  "forks": 57,
   "lang": "JavaScript",
   "topics": [
    "electron",
