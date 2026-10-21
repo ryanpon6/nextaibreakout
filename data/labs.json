@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T17:29:33.533887+00:00",
+ "generated": "2026-10-21T20:48:22.969278+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,15 +129,15 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-21T17:29:33.533887+00:00"
+   "fetched": "2026-10-21T20:48:22.969278+00:00"
   },
   "tesla-ai": {
    "items": [
     {
-     "title": "Tesla Q3 Earnings Call: How to Listen & What to Expect",
+     "title": "Tesla Q3 Earnings Call: How to Listen [TODAY]",
      "url": "https://www.notateslaapp.com/news/4855/tesla-q3-earnings-call-how-to-listen-what-to-expect",
-     "date": "2026-10-20T17:12:00+00:00",
-     "day": "2026-10-20",
+     "date": "2026-10-21T20:26:00+00:00",
+     "day": "2026-10-21",
      "summary": "See when Tesla\u2019s Q3 2026 earnings call starts, how to vote on shareholder questions, and the top questions so far about Cybercab, FSD, and Optimus Read More",
      "categories": [],
      "source": "via notateslaapp, unofficial",
@@ -220,17 +220,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Tesla Patent Reveals Flexible Sensors That Let Optimus Feel Objects",
-     "url": "https://www.notateslaapp.com/news/4790/tesla-patent-reveals-flexible-sensors-that-let-optimus-feel-objects",
-     "date": "2026-10-08T14:48:00+00:00",
-     "day": "2026-10-08",
-     "summary": "Tesla's patent application details flexible robotic touch sensors, how they detect pressure, and two approaches to manufacturing curved sensor arrays. Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -239,7 +228,7 @@
      "url": "https://www.notateslaapp.com/rss",
      "status": "provisional",
      "ok": true,
-     "count": 9,
+     "count": 8,
      "raw": 50
     },
     {
@@ -257,7 +246,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-21T17:29:33.533887+00:00"
+   "fetched": "2026-10-21T20:48:22.969278+00:00"
   },
   "openai": {
    "items": [
@@ -396,7 +385,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1308
+     "raw": 1310
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -407,7 +396,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-21T17:29:33.533887+00:00"
+   "fetched": "2026-10-21T20:48:22.969278+00:00"
   },
   "anthropic": {
    "items": [
@@ -530,7 +519,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-21T17:29:33.533887+00:00"
+   "fetched": "2026-10-21T20:48:22.969278+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -671,7 +660,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-21T17:29:33.533887+00:00"
+   "fetched": "2026-10-21T20:48:22.969278+00:00"
   },
   "meta": {
    "items": [
@@ -782,7 +771,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-21T17:29:33.533887+00:00"
+   "fetched": "2026-10-21T20:48:22.969278+00:00"
   }
  }
 }

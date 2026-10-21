@@ -1,0 +1,49 @@
+{
+ "id": "gh:FengZhenfei/carrel",
+ "slug": "gh-fengzhenfei-carrel",
+ "first_seen": "2026-10-21T20:47:41.091382+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.3,
+   "metric": 373,
+   "t": "2026-10-21T20:47:41.091382+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 5,
+ "name": "FengZhenfei/carrel",
+ "url": "https://github.com/FengZhenfei/carrel",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Ontology-Augmented Generation for AI agents.",
+ "what": "Ontology-Augmented Generation for AI agents.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-28T11:13:02Z",
+ "last_seen": "2026-10-21T20:47:41.091382+00:00",
+ "last_why": "373 stars since launch 23 days ago \u2248 16 stars/day since launch.",
+ "extra": {
+  "forks": 3,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "dgx-spark",
+   "document-parsing",
+   "icloud-sync",
+   "knowledge-graph",
+   "mineru",
+   "neo4j",
+   "ontology",
+   "opensearch",
+   "qdrant",
+   "rag",
+   "retrieval-augmented-generation"
+  ],
+  "repo_id": 1392498172
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

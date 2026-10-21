@@ -1,0 +1,49 @@
+{
+ "id": "gh:zgcagi/Harness-RSI",
+ "slug": "gh-zgcagi-harness-rsi",
+ "first_seen": "2026-10-21T20:47:41.091382+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 93.5,
+   "metric": 302,
+   "t": "2026-10-21T20:47:41.091382+00:00"
+  }
+ ],
+ "peak_score": 93.5,
+ "best_rank": 6,
+ "name": "zgcagi/Harness-RSI",
+ "url": "https://github.com/zgcagi/Harness-RSI",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Harness self-evolution: update targets, theory, evaluation, and reported evidence. Bilingual reading list and project website.",
+ "what": "Harness self-evolution: update targets, theory, evaluation, and reported evidence. Bilingual reading list and project website.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-01T13:08:18Z",
+ "last_seen": "2026-10-21T20:47:41.091382+00:00",
+ "last_why": "302 stars since launch 20 days ago \u2248 15 stars/day since launch.",
+ "extra": {
+  "forks": 3,
+  "lang": "TeX",
+  "topics": [
+   "agent-evaluation",
+   "agent-harness",
+   "agent-memory",
+   "agent-skills",
+   "awesome",
+   "awesome-list",
+   "llm",
+   "llm-agents",
+   "paper-list",
+   "prompt-optimization",
+   "recursive-self-improvement",
+   "self-evolving-agents",
+   "survey"
+  ],
+  "repo_id": 1400009846
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

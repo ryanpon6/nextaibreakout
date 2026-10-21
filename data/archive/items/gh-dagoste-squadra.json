@@ -1,0 +1,56 @@
+{
+ "id": "gh:dagoSte/squadra",
+ "slug": "gh-dagoste-squadra",
+ "first_seen": "2026-10-21T20:47:41.091382+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 91.3,
+   "metric": 281,
+   "t": "2026-10-21T20:47:41.091382+00:00"
+  }
+ ],
+ "peak_score": 91.3,
+ "best_rank": 8,
+ "name": "dagoSte/squadra",
+ "url": "https://github.com/dagoSte/squadra",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and independent review. Built-in skills recall lessons, simplify code and forecast work. Track progress, decisions and evidence in a bilingual local dashboard, with MCP plugins. Browse skills and verified security audits.",
+ "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-09-28T04:44:21Z",
+ "last_seen": "2026-10-21T20:47:41.091382+00:00",
+ "last_why": "281 stars since launch 24 days ago \u2248 12 stars/day since launch.",
+ "extra": {
+  "forks": 3,
+  "lang": "Python",
+  "topics": [
+   "agent-orchestration",
+   "agent-skills",
+   "agentic-coding",
+   "ai-agents",
+   "ai-coding",
+   "claude",
+   "claude-code",
+   "claude-skills",
+   "code-review",
+   "codex",
+   "cursor",
+   "developer-tools",
+   "llm",
+   "mcp",
+   "model-context-protocol",
+   "multi-agent",
+   "multi-agent-systems",
+   "python",
+   "token-usage",
+   "vibe-coding"
+  ],
+  "repo_id": 1391814933
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}
