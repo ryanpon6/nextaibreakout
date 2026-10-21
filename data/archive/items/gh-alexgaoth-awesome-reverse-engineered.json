@@ -1,0 +1,54 @@
+{
+ "id": "gh:alexgaoth/awesome-reverse-engineered",
+ "slug": "gh-alexgaoth-awesome-reverse-engineered",
+ "first_seen": "2026-10-21T12:25:01.190532+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 357,
+   "t": "2026-10-21T12:25:01.190532+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "alexgaoth/awesome-reverse-engineered",
+ "url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Don't reverse engineer it twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill, refreshed nightly.",
+ "what": "Don't reverse engineer it twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-11T17:30:10Z",
+ "last_seen": "2026-10-21T12:25:01.190532+00:00",
+ "last_why": "357 stars since launch 10 days ago \u2248 36 stars/day since launch.",
+ "extra": {
+  "forks": 76,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "awesome",
+   "awesome-list",
+   "claude-code",
+   "decompilation",
+   "file-formats",
+   "game-decompilation",
+   "hacktoberfest",
+   "home-assistant",
+   "interoperability",
+   "iot",
+   "local-control",
+   "open-source",
+   "protocol",
+   "reverse-engineered",
+   "reverse-engineering",
+   "unofficial-api"
+  ],
+  "repo_id": 1414599291
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

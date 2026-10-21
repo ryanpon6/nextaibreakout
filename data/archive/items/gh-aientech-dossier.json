@@ -1,0 +1,49 @@
+{
+ "id": "gh:AienTech/dossier",
+ "slug": "gh-aientech-dossier",
+ "first_seen": "2026-10-21T12:25:01.190532+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 303,
+   "t": "2026-10-21T12:25:01.190532+00:00"
+  }
+ ],
+ "peak_score": 95.7,
+ "best_rank": 5,
+ "name": "AienTech/dossier",
+ "url": "https://github.com/AienTech/dossier",
+ "source": "github",
+ "kind": "tool",
+ "desc": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+ "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-03T21:26:15Z",
+ "last_seen": "2026-10-21T12:25:01.190532+00:00",
+ "last_why": "303 stars since launch 18 days ago \u2248 17 stars/day since launch.",
+ "extra": {
+  "forks": 60,
+  "lang": "TypeScript",
+  "topics": [
+   "caprover",
+   "cover-letter",
+   "docker",
+   "job-application-tracker",
+   "job-search",
+   "llm",
+   "local-llm",
+   "nextjs",
+   "ollama",
+   "postgresql",
+   "resume",
+   "self-hosted",
+   "typescript"
+  ],
+  "repo_id": 1403649056
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

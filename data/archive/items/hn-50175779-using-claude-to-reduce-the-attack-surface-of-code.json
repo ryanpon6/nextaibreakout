@@ -1,0 +1,33 @@
+{
+ "id": "hn:50175779",
+ "slug": "hn-50175779-using-claude-to-reduce-the-attack-surface-of-code",
+ "first_seen": "2026-10-21T12:25:01.190532+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 74,
+   "t": "2026-10-21T12:25:01.190532+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Using Claude to reduce the attack surface of code",
+ "url": "https://www.anthropic.com/research/attack-surface-reduction",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-21T03:36:43Z",
+ "last_seen": "2026-10-21T12:25:01.190532+00:00",
+ "last_why": "74 points in 9h on Hacker News (30 comments).",
+ "extra": {
+  "comments": 30,
+  "hn": "https://news.ycombinator.com/item?id=50175779"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}
