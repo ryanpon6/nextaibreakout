@@ -1,0 +1,45 @@
+{
+ "id": "gh:HRuiCcc/RuiC-oc-ferry",
+ "slug": "gh-hruiccc-ruic-oc-ferry",
+ "first_seen": "2026-10-21T01:36:52.973724+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 95.7,
+   "metric": 281,
+   "t": "2026-10-21T01:36:52.973724+00:00"
+  }
+ ],
+ "peak_score": 95.7,
+ "best_rank": 3,
+ "name": "HRuiCcc/RuiC-oc-ferry",
+ "url": "https://github.com/HRuiCcc/RuiC-oc-ferry",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u628a OpenCode \u7684\u514d\u8d39\u6a21\u578b\u6446\u6e21\u7ed9 WorkBuddy \u2014\u2014 \u9694\u79bb\u8fd0\u884c\u65f6\u3001\u5e76\u53d1\u68c0\u6d4b\u3001\u5224\u5b9a\u7f13\u5b58\u3001\u4e00\u952e\u5bfc\u5165\u3001\u672c\u673a OpenAI \u517c\u5bb9\u8f6c\u53d1\u53e3",
+ "what": "\u628a OpenCode \u7684\u514d\u8d39\u6a21\u578b\u6446\u6e21\u7ed9 WorkBuddy \u2014\u2014 \u9694\u79bb\u8fd0\u884c\u65f6\u3001\u5e76\u53d1\u68c0\u6d4b\u3001\u5224\u5b9a\u7f13\u5b58\u3001\u4e00\u952e\u5bfc\u5165\u3001\u672c\u673a OpenAI \u517c\u5bb9\u8f6c\u53d1\u53e3",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-10T08:59:18Z",
+ "last_seen": "2026-10-21T01:36:52.973724+00:00",
+ "last_why": "281 stars since launch 11 days ago \u2248 26 stars/day since launch.",
+ "extra": {
+  "forks": 55,
+  "lang": "JavaScript",
+  "topics": [
+   "electron",
+   "free-models",
+   "llm",
+   "macos",
+   "openai-compatible",
+   "opencode",
+   "tray-app",
+   "windows",
+   "workbuddy"
+  ],
+  "repo_id": 1412981259
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

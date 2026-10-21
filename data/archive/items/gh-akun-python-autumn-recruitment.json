@@ -1,0 +1,48 @@
+{
+ "id": "gh:Akun-python/autumn-recruitment",
+ "slug": "gh-akun-python-autumn-recruitment",
+ "first_seen": "2026-10-21T01:36:52.973724+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.6,
+   "metric": 275,
+   "t": "2026-10-21T01:36:52.973724+00:00"
+  }
+ ],
+ "peak_score": 92.6,
+ "best_rank": 7,
+ "name": "Akun-python/autumn-recruitment",
+ "url": "https://github.com/Akun-python/autumn-recruitment",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Autumn-Recruit Algo Notes(\u79cb\u62db\u7b97\u6cd5\u5b66\u4e60\u4ed3\u5e93)\uff0c\u9762\u5411\u5927\u6a21\u578b\u65f6\u4ee3\u7684\u7b97\u6cd5\u3001\u5de5\u7a0b\u4e0eAI\u5b66\u4e60\u5171\u5efa\u4ed3\u5e93\u3002\u4ece\u6570\u5b66\u57fa\u7840\u3001\u6570\u636e\u7ed3\u6784\uff0c\u5230\u673a\u5668\u5b66\u4e60\u3001\u6df1\u5ea6\u5b66\u4e60\u3001LLM\u3001Agent\u3001AI-Infra\u3001\u8bed\u97f3\u4e0e\u6570\u636e\u79d1\u5b66\uff0c\u901a\u8fc7\u300c\u7406\u89e3\u2192\u63a8\u5bfc\u2192\u624b\u5199 \u2192 \u8fd0\u884c \u2192 \u9a8c\u8bc1 \u2192 \u590d\u76d8\u6784\u5efa\u53ef\u6301\u7eed\u8fed\u4ee3\u7684\u77e5\u8bc6\u4f53\u7cfb\u3002",
+ "what": "Autumn-Recruit Algo Notes(\u79cb\u62db\u7b97\u6cd5\u5b66\u4e60\u4ed3\u5e93)\uff0c\u9762\u5411\u5927\u6a21\u578b\u65f6\u4ee3\u7684\u7b97\u6cd5\u3001\u5de5\u7a0b\u4e0eAI\u5b66\u4e60\u5171\u5efa\u4ed3\u5e93\u3002\u4ece\u6570\u5b66\u57fa\u7840\u3001\u6570\u636e\u7ed3\u6784\uff0c\u5230\u673a\u5668\u5b66\u4e60\u3001\u6df1\u5ea6\u5b66\u4e60\u3001LLM\u3001Agent\u3001AI-Infra\u3001\u8bed\u97f3\u4e0e\u6570\u636e\u79d1\u5b66\uff0c\u901a\u8fc7\u300c\u7406\u89e3\u2192\u63a8\u5bfc\u2192\u624b\u5199 \u2192 \u8fd0\u884c \u2192 \u9a8c\u8bc1 \u2192\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-29T08:00:33Z",
+ "last_seen": "2026-10-21T01:36:52.973724+00:00",
+ "last_why": "275 stars since launch 22 days ago \u2248 13 stars/day since launch.",
+ "extra": {
+  "forks": 31,
+  "lang": "Jupyter Notebook",
+  "topics": [
+   "ai-agent",
+   "ai-agents",
+   "ai-infrastructure",
+   "algorithms",
+   "algorithms-and-data-structures",
+   "autumn-recruit",
+   "autumn-recruiting",
+   "deep-learning",
+   "deep-learning-algorithms",
+   "interview-preparation",
+   "llm",
+   "llm-agents"
+  ],
+  "repo_id": 1394675848
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

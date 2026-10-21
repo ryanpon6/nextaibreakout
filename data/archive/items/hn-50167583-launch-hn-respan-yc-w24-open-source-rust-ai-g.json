@@ -1,0 +1,33 @@
+{
+ "id": "hn:50167583",
+ "slug": "hn-50167583-launch-hn-respan-yc-w24-open-source-rust-ai-g",
+ "first_seen": "2026-10-21T01:36:52.973724+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.1,
+   "metric": 45,
+   "t": "2026-10-21T01:36:52.973724+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 5,
+ "name": "Launch HN: Respan (YC W24) \u2013 Open-source Rust AI gateway built around plugins",
+ "url": "https://news.ycombinator.com/item?id=50167583",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-20T15:09:29Z",
+ "last_seen": "2026-10-21T01:36:52.973724+00:00",
+ "last_why": "+82 points/day pace right now (45 total).",
+ "extra": {
+  "comments": 18,
+  "hn": "https://news.ycombinator.com/item?id=50167583"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

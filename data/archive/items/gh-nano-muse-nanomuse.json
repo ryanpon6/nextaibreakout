@@ -1,0 +1,54 @@
+{
+ "id": "gh:nano-muse/nanoMuse",
+ "slug": "gh-nano-muse-nanomuse",
+ "first_seen": "2026-10-21T01:36:52.973724+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 93.4,
+   "metric": 1750,
+   "t": "2026-10-21T01:36:52.973724+00:00"
+  }
+ ],
+ "peak_score": 93.4,
+ "best_rank": 6,
+ "name": "nano-muse/nanoMuse",
+ "url": "https://github.com/nano-muse/nanoMuse",
+ "source": "github",
+ "kind": "tool",
+ "desc": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+ "what": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-23T06:13:06Z",
+ "last_seen": "2026-10-21T01:36:52.973724+00:00",
+ "last_why": "+574 stars/day pace right now (1.8K total).",
+ "extra": {
+  "forks": 196,
+  "lang": "Swift",
+  "topics": [
+   "agent-skills",
+   "ai-agent",
+   "android",
+   "computer-use",
+   "cross-device",
+   "desktop-app",
+   "gui-agent",
+   "ios",
+   "linux",
+   "llm",
+   "mcp",
+   "meta-muse",
+   "mobile-agent",
+   "muse",
+   "nanomuse",
+   "openminis",
+   "openmuse",
+   "personal-agent"
+  ],
+  "repo_id": 1382865521
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}
