@@ -14,6 +14,12 @@
    "score": 94.2,
    "metric": 420,
    "t": "2026-10-21T17:28:47.329066+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.5,
+   "metric": 479,
+   "t": "2026-10-21T23:50:43.782186+00:00"
   }
  ],
  "peak_score": 97.4,
@@ -22,15 +28,15 @@
  "url": "https://github.com/alexgaoth/awesome-reverse-engineered",
  "source": "github",
  "kind": "tool",
- "desc": "Don't reverse engineer it twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill, refreshed nightly.",
- "what": "Don't reverse engineer it twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
+ "desc": "don't reverse engineer smth twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill, refreshed nightly.",
+ "what": "don't reverse engineer smth twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-11T17:30:10Z",
- "last_seen": "2026-10-21T17:28:47.329066+00:00",
- "last_why": "420 stars since launch 10 days ago \u2248 42 stars/day since launch.",
+ "last_seen": "2026-10-21T23:50:43.782186+00:00",
+ "last_why": "+212 stars/day pace right now (479 total).",
  "extra": {
-  "forks": 86,
+  "forks": 95,
   "lang": "Python",
   "topics": [
    "agent-skills",

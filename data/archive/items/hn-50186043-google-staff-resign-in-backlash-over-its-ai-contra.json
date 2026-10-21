@@ -1,0 +1,33 @@
+{
+ "id": "hn:50186043",
+ "slug": "hn-50186043-google-staff-resign-in-backlash-over-its-ai-contra",
+ "first_seen": "2026-10-21T23:50:43.782186+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.6,
+   "metric": 101,
+   "t": "2026-10-21T23:50:43.782186+00:00"
+  }
+ ],
+ "peak_score": 96.6,
+ "best_rank": 4,
+ "name": "Google staff resign in backlash over its AI contracts with military",
+ "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-21T19:14:21Z",
+ "last_seen": "2026-10-21T23:50:43.782186+00:00",
+ "last_why": "+488 points/day pace right now (101 total).",
+ "extra": {
+  "comments": 19,
+  "hn": "https://news.ycombinator.com/item?id=50186043"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

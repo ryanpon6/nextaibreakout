@@ -1,0 +1,56 @@
+{
+ "id": "gh:Louis-CFM/coucou",
+ "slug": "gh-louis-cfm-coucou",
+ "first_seen": "2026-10-21T23:50:43.782186+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.3,
+   "metric": 5891,
+   "t": "2026-10-21T23:50:43.782186+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 6,
+ "name": "Louis-CFM/coucou",
+ "url": "https://github.com/Louis-CFM/coucou",
+ "source": "github",
+ "kind": "tool",
+ "desc": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+ "what": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI,\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-27T21:54:12Z",
+ "last_seen": "2026-10-21T23:50:43.782186+00:00",
+ "last_why": "+739 stars/day pace right now (5.9K total).",
+ "extra": {
+  "forks": 981,
+  "lang": "Swift",
+  "topics": [
+   "ai-agents",
+   "anthropic",
+   "antigravity",
+   "claude",
+   "claude-code",
+   "codex",
+   "cursor",
+   "dynamic-island",
+   "gemini-cli",
+   "ios",
+   "iphon",
+   "linux",
+   "macos",
+   "macos-app",
+   "menubar-app",
+   "notch",
+   "open-source",
+   "swift",
+   "swiftui",
+   "windows"
+  ],
+  "repo_id": 1391438314
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

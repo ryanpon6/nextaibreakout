@@ -8,9 +8,15 @@
    "score": 91.3,
    "metric": 281,
    "t": "2026-10-21T20:47:41.091382+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.8,
+   "metric": 297,
+   "t": "2026-10-21T23:50:43.782186+00:00"
   }
  ],
- "peak_score": 91.3,
+ "peak_score": 92.8,
  "best_rank": 8,
  "name": "dagoSte/squadra",
  "url": "https://github.com/dagoSte/squadra",
@@ -21,10 +27,10 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-09-28T04:44:21Z",
- "last_seen": "2026-10-21T20:47:41.091382+00:00",
- "last_why": "281 stars since launch 24 days ago \u2248 12 stars/day since launch.",
+ "last_seen": "2026-10-21T23:50:43.782186+00:00",
+ "last_why": "+126 stars/day pace right now (297 total).",
  "extra": {
-  "forks": 3,
+  "forks": 4,
   "lang": "Python",
   "topics": [
    "agent-orchestration",

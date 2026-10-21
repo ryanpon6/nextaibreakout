@@ -1,0 +1,33 @@
+{
+ "id": "hn:50186455",
+ "slug": "hn-50186455-claude-duet",
+ "first_seen": "2026-10-21T23:50:43.782186+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 51,
+   "t": "2026-10-21T23:50:43.782186+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Claude Duet",
+ "url": "https://claude.com/resources/articles/claude-duet",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-21T19:40:18Z",
+ "last_seen": "2026-10-21T23:50:43.782186+00:00",
+ "last_why": "51 points in 4h on Hacker News (6 comments).",
+ "extra": {
+  "comments": 6,
+  "hn": "https://news.ycombinator.com/item?id=50186455"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}
