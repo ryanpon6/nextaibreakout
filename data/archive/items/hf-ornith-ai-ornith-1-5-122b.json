@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:ornith-ai/Ornith-1.5-122B",
+ "slug": "hf-ornith-ai-ornith-1-5-122b",
+ "first_seen": "2026-10-21T17:28:47.329066+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.4,
+   "metric": 124,
+   "t": "2026-10-21T17:28:47.329066+00:00"
+  }
+ ],
+ "peak_score": 93.4,
+ "best_rank": 7,
+ "name": "ornith-ai/Ornith-1.5-122B",
+ "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-16T07:14:27.000Z",
+ "last_seen": "2026-10-21T17:28:47.329066+00:00",
+ "last_why": "Trending score 121 on Hugging Face; 124 likes, 742 downloads.",
+ "extra": {
+  "downloads": 742,
+  "trending": 121,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

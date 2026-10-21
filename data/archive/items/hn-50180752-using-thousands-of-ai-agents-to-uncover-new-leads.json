@@ -1,0 +1,33 @@
+{
+ "id": "hn:50180752",
+ "slug": "hn-50180752-using-thousands-of-ai-agents-to-uncover-new-leads",
+ "first_seen": "2026-10-21T17:28:47.329066+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.8,
+   "metric": 64,
+   "t": "2026-10-21T17:28:47.329066+00:00"
+  }
+ ],
+ "peak_score": 95.8,
+ "best_rank": 4,
+ "name": "Using thousands of AI agents to uncover new leads in biological data",
+ "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-21T13:37:00Z",
+ "last_seen": "2026-10-21T17:28:47.329066+00:00",
+ "last_why": "64 points in 4h on Hacker News (19 comments).",
+ "extra": {
+  "comments": 19,
+  "hn": "https://news.ycombinator.com/item?id=50180752"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

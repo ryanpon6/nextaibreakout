@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-21T01:36:52.973724+00:00",
   "2026-10-21T06:34:32.577638+00:00",
-  "2026-10-21T12:25:01.190532+00:00"
+  "2026-10-21T12:25:01.190532+00:00",
+  "2026-10-21T17:28:47.329066+00:00"
  ],
  "items": {
   "hf-lodestones-kromoss": {
@@ -382,8 +383,8 @@
    "first_seen": "2026-10-21T06:34:32.577638+00:00",
    "peak_score": 87.8,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-21T12:25:01.190532+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -484,12 +485,12 @@
    "first_seen": "2026-10-21T12:25:01.190532+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T12:25:01.190532+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
    "what": "Don't reverse engineer it twice. 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 76,
+    "forks": 86,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -527,12 +528,12 @@
    "first_seen": "2026-10-21T12:25:01.190532+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T12:25:01.190532+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 60,
+    "forks": 69,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -565,12 +566,12 @@
    "first_seen": "2026-10-21T12:25:01.190532+00:00",
    "peak_score": 94.9,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-21T12:25:01.190532+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
    "what": "\u5728 dsh \u91cc\u88c5\u4e0a\u8fd9\u4e2a\u63d2\u4ef6\u5373\u53ef\uff0c\u65e0\u9700\u767b\u5f55\u3001\u6ce8\u518c\u6216\u586b API Key\uff0c\u5c31\u80fd\u4f7f\u7528\u5305\u62ec DeepSeek V4.1 Flash\u3001Kimi K3 \u5728\u5185\u7684\u524d\u6cbf\u6a21\u578b\u2014\u2014\u5b8c\u5168\u514d\u8d39\uff0c\u4e0d\u9650\u91cf\u3002 All you do is install this plugin in dsh: no login,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 765,
+    "forks": 867,
     "lang": "JavaScript",
     "topics": [
      "ai-agents",
@@ -589,6 +590,150 @@
    "why_at_peak": "+4.5K stars/day pace right now (32.7K total).",
    "metric_at_peak": 32683,
    "metric_name": "stars"
+  },
+  "hf-xhtoken-spark-x2-6-4b": {
+   "id": "hfmodel:XHToken/Spark-X2.6-4B",
+   "slug": "hf-xhtoken-spark-x2-6-4b",
+   "name": "XHToken/Spark-X2.6-4B",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-21T17:28:47.329066+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 85,
+    "trending": 121,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 121 on Hugging Face; 128 likes, 85 downloads.",
+   "metric_at_peak": 128,
+   "metric_name": "likes"
+  },
+  "hn-50180836-php2shell-ai-uncovers-critical-rce-in-php": {
+   "id": "hn:50180836",
+   "slug": "hn-50180836-php2shell-ai-uncovers-critical-rce-in-php",
+   "name": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-21T17:28:47.329066+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 141,
+    "hn": "https://news.ycombinator.com/item?id=50180836"
+   },
+   "why_at_peak": "383 points in 4h on Hacker News (141 comments).",
+   "metric_at_peak": 383,
+   "metric_name": "points"
+  },
+  "hn-50181175-patch-the-planet-global-response-coordination-as": {
+   "id": "hn:50181175",
+   "slug": "hn-50181175-patch-the-planet-global-response-coordination-as",
+   "name": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-21T17:28:47.329066+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 80,
+    "hn": "https://news.ycombinator.com/item?id=50181175"
+   },
+   "why_at_peak": "152 points in 3h on Hacker News (80 comments).",
+   "metric_at_peak": 152,
+   "metric_name": "points"
+  },
+  "hn-50180752-using-thousands-of-ai-agents-to-uncover-new-leads": {
+   "id": "hn:50180752",
+   "slug": "hn-50180752-using-thousands-of-ai-agents-to-uncover-new-leads",
+   "name": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-21T17:28:47.329066+00:00",
+   "peak_score": 95.8,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 19,
+    "hn": "https://news.ycombinator.com/item?id=50180752"
+   },
+   "why_at_peak": "64 points in 4h on Hacker News (19 comments).",
+   "metric_at_peak": 64,
+   "metric_name": "points"
+  },
+  "hf-internscience-sage-a1-5": {
+   "id": "hfmodel:InternScience/Sage-A1.5",
+   "slug": "hf-internscience-sage-a1-5",
+   "name": "InternScience/Sage-A1.5",
+   "url": "https://huggingface.co/InternScience/Sage-A1.5",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-21T17:28:47.329066+00:00",
+   "peak_score": 95.0,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 58,
+    "trending": 122,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 122 on Hugging Face; 123 likes, 58 downloads.",
+   "metric_at_peak": 123,
+   "metric_name": "likes"
+  },
+  "hf-ornith-ai-ornith-1-5-122b": {
+   "id": "hfmodel:ornith-ai/Ornith-1.5-122B",
+   "slug": "hf-ornith-ai-ornith-1-5-122b",
+   "name": "ornith-ai/Ornith-1.5-122B",
+   "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-21T17:28:47.329066+00:00",
+   "peak_score": 93.4,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-21T17:28:47.329066+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 742,
+    "trending": 121,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 121 on Hugging Face; 124 likes, 742 downloads.",
+   "metric_at_peak": 124,
+   "metric_name": "likes"
   }
  }
 }

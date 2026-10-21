@@ -1,0 +1,33 @@
+{
+ "id": "hn:50180836",
+ "slug": "hn-50180836-php2shell-ai-uncovers-critical-rce-in-php",
+ "first_seen": "2026-10-21T17:28:47.329066+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 383,
+   "t": "2026-10-21T17:28:47.329066+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "PHP2Shell: AI uncovers critical RCE in PHP",
+ "url": "https://www.wiz.io/blog/php2shell-php-rce",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-21T13:43:19Z",
+ "last_seen": "2026-10-21T17:28:47.329066+00:00",
+ "last_why": "383 points in 4h on Hacker News (141 comments).",
+ "extra": {
+  "comments": 141,
+  "hn": "https://news.ycombinator.com/item?id=50180836"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}

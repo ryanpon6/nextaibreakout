@@ -1,0 +1,33 @@
+{
+ "id": "hn:50181175",
+ "slug": "hn-50181175-patch-the-planet-global-response-coordination-as",
+ "first_seen": "2026-10-21T17:28:47.329066+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 152,
+   "t": "2026-10-21T17:28:47.329066+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+ "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-21T14:03:43Z",
+ "last_seen": "2026-10-21T17:28:47.329066+00:00",
+ "last_why": "152 points in 3h on Hacker News (80 comments).",
+ "extra": {
+  "comments": 80,
+  "hn": "https://news.ycombinator.com/item?id=50181175"
+ },
+ "days": [
+  "2026-10-21"
+ ]
+}
