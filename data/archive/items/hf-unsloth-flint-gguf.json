@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:unsloth/flint-GGUF",
+ "slug": "hf-unsloth-flint-gguf",
+ "first_seen": "2026-10-22T18:05:38.206173+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 140,
+   "t": "2026-10-22T18:05:38.206173+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "unsloth/flint-GGUF",
+ "url": "https://huggingface.co/unsloth/flint-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-20T03:26:14.000Z",
+ "last_seen": "2026-10-22T18:05:38.206173+00:00",
+ "last_why": "Trending score 139 on Hugging Face; 140 likes, 7.4K downloads.",
+ "extra": {
+  "downloads": 7401,
+  "trending": 139,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

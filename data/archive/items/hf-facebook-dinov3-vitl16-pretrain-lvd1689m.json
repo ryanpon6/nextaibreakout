@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:facebook/dinov3-vitl16-pretrain-lvd1689m",
+ "slug": "hf-facebook-dinov3-vitl16-pretrain-lvd1689m",
+ "first_seen": "2026-10-22T18:05:38.206173+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.3,
+   "metric": 1487,
+   "t": "2026-10-22T18:05:38.206173+00:00"
+  }
+ ],
+ "peak_score": 93.3,
+ "best_rank": 7,
+ "name": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+ "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-feature-extraction",
+ "what": "image-feature-extraction model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2025-08-06T06:19:51.000Z",
+ "last_seen": "2026-10-22T18:05:38.206173+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 1.5K likes, 738.0K downloads.",
+ "extra": {
+  "downloads": 738000,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

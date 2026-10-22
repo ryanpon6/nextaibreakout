@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-22T02:40:51.474926+00:00",
   "2026-10-22T07:57:40.595177+00:00",
-  "2026-10-22T13:21:39.957298+00:00"
+  "2026-10-22T13:21:39.957298+00:00",
+  "2026-10-22T18:05:38.206173+00:00"
  ],
  "items": {
   "hf-xhtoken-spark-x2-6-4b": {
@@ -42,13 +43,13 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 420,
-    "trending": 394,
+    "trending": 470,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -68,12 +69,12 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 413,
+    "comments": 485,
     "hn": "https://news.ycombinator.com/item?id=50186037"
    },
    "why_at_peak": "+339 points/day pace right now (322 total).",
@@ -274,8 +275,8 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 89.4,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -377,14 +378,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-22T07:57:40.595177+00:00",
-   "peak_score": 93.2,
+   "peak_score": 94.1,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
    "what": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
    "tag": "dev tools",
    "extra": {
-    "forks": 11,
+    "forks": 14,
     "lang": "Rust",
     "topics": [
      "ai",
@@ -404,8 +405,8 @@
     ],
     "repo_id": 1401469171
    },
-   "why_at_peak": "+841 stars/day pace right now (2.5K total).",
-   "metric_at_peak": 2464,
+   "why_at_peak": "+1.1K stars/day pace right now (2.7K total).",
+   "metric_at_peak": 2694,
    "metric_name": "stars"
   },
   "npm--anthropic-ai-sdk": {
@@ -500,12 +501,12 @@
    "first_seen": "2026-10-22T13:21:39.957298+00:00",
    "peak_score": 94.1,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 15,
+    "forks": 16,
     "lang": "JavaScript",
     "topics": [
      "agentic-automation",
@@ -586,6 +587,147 @@
    "why_at_peak": "+93 likes/day pace right now (236 total).",
    "metric_at_peak": 236,
    "metric_name": "likes"
+  },
+  "hn-50197313-every-ai-model-has-the-same-controversial-take-o": {
+   "id": "hn:50197313",
+   "slug": "hn-50197313-every-ai-model-has-the-same-controversial-take-o",
+   "name": "Every AI model has the same \"controversial\" take on humans",
+   "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-22T18:05:38.206173+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 64,
+    "hn": "https://news.ycombinator.com/item?id=50197313"
+   },
+   "why_at_peak": "41 points in 2h on Hacker News (64 comments).",
+   "metric_at_peak": 41,
+   "metric_name": "points"
+  },
+  "hf-unsloth-flint-gguf": {
+   "id": "hfmodel:unsloth/flint-GGUF",
+   "slug": "hf-unsloth-flint-gguf",
+   "name": "unsloth/flint-GGUF",
+   "url": "https://huggingface.co/unsloth/flint-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-22T18:05:38.206173+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 7401,
+    "trending": 139,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 139 on Hugging Face; 140 likes, 7.4K downloads.",
+   "metric_at_peak": 140,
+   "metric_name": "likes"
+  },
+  "hn-50190357-claude-now-works-with-google-docs-sheets-and-sli": {
+   "id": "hn:50190357",
+   "slug": "hn-50190357-claude-now-works-with-google-docs-sheets-and-sli",
+   "name": "Claude Now Works with Google Docs, Sheets, and Slides",
+   "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-22T18:05:38.206173+00:00",
+   "peak_score": 94.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 9,
+    "hn": "https://news.ycombinator.com/item?id=50190357"
+   },
+   "why_at_peak": "+86 points/day pace right now (74 total).",
+   "metric_at_peak": 74,
+   "metric_name": "points"
+  },
+  "hf-facebook-dinov3-vitl16-pretrain-lvd1689m": {
+   "id": "hfmodel:facebook/dinov3-vitl16-pretrain-lvd1689m",
+   "slug": "hf-facebook-dinov3-vitl16-pretrain-lvd1689m",
+   "name": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+   "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-22T18:05:38.206173+00:00",
+   "peak_score": 93.3,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
+   "what": "image-feature-extraction model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 738000,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 1.5K likes, 738.0K downloads.",
+   "metric_at_peak": 1487,
+   "metric_name": "likes"
+  },
+  "gh-souravberaakaspeed-xiryn": {
+   "id": "gh:SouravBeraAkaSpeed/xiryn",
+   "slug": "gh-souravberaakaspeed-xiryn",
+   "name": "SouravBeraAkaSpeed/xiryn",
+   "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-22T18:05:38.206173+00:00",
+   "peak_score": 91.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T18:05:38.206173+00:00",
+   "what": "Xiryn \u2014 the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 42,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "ai-sdk",
+     "anthropic",
+     "byok",
+     "computer-use",
+     "docker",
+     "firecrawl",
+     "llm",
+     "local-first",
+     "multi-agent",
+     "nextjs",
+     "ollama",
+     "open-source",
+     "openai",
+     "personal-agent",
+     "privacy",
+     "self-hosted",
+     "sqlite",
+     "telegram-bot",
+     "typescript"
+    ],
+    "repo_id": 1414354754
+   },
+   "why_at_peak": "287 stars since launch 11 days ago \u2248 26 stars/day since launch.",
+   "metric_at_peak": 287,
+   "metric_name": "stars"
   }
  }
 }

@@ -1,8 +1,18 @@
 {
- "generated": "2026-10-22T13:22:30.406948+00:00",
+ "generated": "2026-10-22T18:06:24.694982+00:00",
  "labs": {
   "xai": {
    "items": [
+    {
+     "title": "Introducing the SpaceX Super Intelligence Partner Network",
+     "url": "https://x.ai/news/partnernetworkannouncement",
+     "date": "2026-10-22T12:00:00+00:00",
+     "day": "2026-10-22",
+     "summary": "",
+     "source": "xAI News",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Using Grok Bot to detect and respond to incidents",
      "url": "https://x.ai/news/incident-sweep",
@@ -92,16 +102,6 @@
      "source": "xAI News",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Biosecurity at the frontier",
-     "url": "https://x.ai/news/biosafety-at-the-frontier",
-     "date": "2026-09-01T12:00:00+00:00",
-     "day": "2026-09-01",
-     "summary": "",
-     "source": "xAI News",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -111,7 +111,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 88
+     "raw": 89
     },
     {
      "name": "GitHub: xai-org/xai-sdk-python releases",
@@ -129,10 +129,43 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-22T13:22:30.406948+00:00"
+   "fetched": "2026-10-22T18:06:24.694982+00:00"
   },
   "tesla-ai": {
    "items": [
+    {
+     "title": "Tesla Q3 2026 Earnings Call Recap: Everything You Need to Know",
+     "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know",
+     "date": "2026-10-22T17:20:00+00:00",
+     "day": "2026-10-22",
+     "summary": "Everything Tesla shared on its Q3 2026 earnings call, from Cybercab and Robotaxi timelines to Optimus production, Terafab, and nearly sold-out Megapacks Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla Officially Begins Optimus Robot Production; Demo Coming Soon",
+     "url": "https://www.notateslaapp.com/news/4866/tesla-officially-begins-optimus-robot-production",
+     "date": "2026-10-22T14:38:00+00:00",
+     "day": "2026-10-22",
+     "summary": "Optimus production has started in Fremont, with an AI5-powered upgrade planned for April and external customer deliveries expected around the end of 2027 Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
+    {
+     "title": "Tesla FSD V14.3.12 Down Under Release Notes (Update 2026.38.5.5)",
+     "url": "https://www.notateslaapp.com/software-updates/version/2026.38.5.5/release-notes",
+     "date": "2026-10-21T23:29:00+00:00",
+     "day": "2026-10-21",
+     "summary": "We take a look at the release notes and what's new in Tesla update 2026.38.5.5. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
     {
      "title": "Tesla FSD Hits Record Subs, Purchased With 75% of New Orders",
      "url": "https://www.notateslaapp.com/news/4862/tesla-fsd-hits-record-subs-purchased-with-75-of-new-orders",
@@ -145,7 +178,7 @@
      "prio": 0
     },
     {
-     "title": "Tesla Q3 Earnings Call: How to Listen [TODAY]",
+     "title": "Tesla Q3 Earnings Call: Listen to Replay",
      "url": "https://www.notateslaapp.com/news/4855/tesla-q3-earnings-call-how-to-listen-what-to-expect",
      "date": "2026-10-21T20:26:00+00:00",
      "day": "2026-10-21",
@@ -209,28 +242,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Tesla FSD v14.3.12 With Halloween Mode Release Notes (Update 2026.38.5)",
-     "url": "https://www.notateslaapp.com/software-updates/version/2026.38.5/release-notes",
-     "date": "2026-10-10T22:28:56+00:00",
-     "day": "2026-10-10",
-     "summary": "We take a look at the release notes and what's new in Tesla update 2026.38.5. Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
-    },
-    {
-     "title": "Tesla Renames FSD to \u2018Tesla Assisted Driving\u2019 in Europe",
-     "url": "https://www.notateslaapp.com/news/4794/tesla-renames-fsd-to-tesla-assisted-driving-in-europe",
-     "date": "2026-10-08T20:41:00+00:00",
-     "day": "2026-10-08",
-     "summary": "Tesla now calls FSD (Supervised) \u2018Tesla Assisted Driving\u2019 in Europe, meeting one of Germany\u2019s conditions for backing EU-wide approval in an upcoming vote Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -239,7 +250,7 @@
      "url": "https://www.notateslaapp.com/rss",
      "status": "provisional",
      "ok": true,
-     "count": 9,
+     "count": 10,
      "raw": 50
     },
     {
@@ -257,10 +268,23 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-22T13:22:30.406948+00:00"
+   "fetched": "2026-10-22T18:06:24.694982+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "What FDE means at OpenAI",
+     "url": "https://openai.com/index/forward-deployed-engineering-means",
+     "date": "2026-10-22T06:00:00+00:00",
+     "day": "2026-10-22",
+     "summary": "What forward deployed engineering means at OpenAI",
+     "categories": [
+      "Engineering"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
@@ -377,19 +401,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Building advertising for the way people use AI",
-     "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-     "date": "2026-10-05T10:00:00+00:00",
-     "day": "2026-10-05",
-     "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-     "categories": [
-      "Product"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -399,7 +410,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1312
+     "raw": 1314
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -410,7 +421,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T13:22:30.406948+00:00"
+   "fetched": "2026-10-22T18:06:24.694982+00:00"
   },
   "anthropic": {
    "items": [
@@ -533,10 +544,21 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T13:22:30.406948+00:00"
+   "fetched": "2026-10-22T18:06:24.694982+00:00"
   },
   "google-deepmind": {
    "items": [
+    {
+     "title": "Beyond tree cover: mapping the world\u2019s forest types",
+     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+     "date": "2026-10-22T14:30:24+00:00",
+     "day": "2026-10-22",
+     "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
@@ -635,17 +657,6 @@
      "source": "Google DeepMind Blog RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Advancing Private AI Compute with secure, server-side memory",
-     "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-     "date": "2026-09-23T16:00:57+00:00",
-     "day": "2026-09-23",
-     "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-     "categories": [],
-     "source": "Google DeepMind Blog RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -674,7 +685,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T13:22:30.406948+00:00"
+   "fetched": "2026-10-22T18:06:24.694982+00:00"
   },
   "meta": {
    "items": [
@@ -785,7 +796,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-22T13:22:30.406948+00:00"
+   "fetched": "2026-10-22T18:06:24.694982+00:00"
   }
  }
 }

@@ -1,0 +1,56 @@
+{
+ "id": "gh:SouravBeraAkaSpeed/xiryn",
+ "slug": "gh-souravberaakaspeed-xiryn",
+ "first_seen": "2026-10-22T18:05:38.206173+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 91.7,
+   "metric": 287,
+   "t": "2026-10-22T18:05:38.206173+00:00"
+  }
+ ],
+ "peak_score": 91.7,
+ "best_rank": 9,
+ "name": "SouravBeraAkaSpeed/xiryn",
+ "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Xiryn \u2014 the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted vault, and control from Telegram.",
+ "what": "Xiryn \u2014 the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-11T13:12:31Z",
+ "last_seen": "2026-10-22T18:05:38.206173+00:00",
+ "last_why": "287 stars since launch 11 days ago \u2248 26 stars/day since launch.",
+ "extra": {
+  "forks": 42,
+  "lang": "TypeScript",
+  "topics": [
+   "ai-agents",
+   "ai-sdk",
+   "anthropic",
+   "byok",
+   "computer-use",
+   "docker",
+   "firecrawl",
+   "llm",
+   "local-first",
+   "multi-agent",
+   "nextjs",
+   "ollama",
+   "open-source",
+   "openai",
+   "personal-agent",
+   "privacy",
+   "self-hosted",
+   "sqlite",
+   "telegram-bot",
+   "typescript"
+  ],
+  "repo_id": 1414354754
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

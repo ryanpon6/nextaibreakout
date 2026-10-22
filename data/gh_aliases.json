@@ -4,5 +4,6 @@
  "gh:bherbruck/solidcraft": "gh:tangency-labs/solidcraft",
  "gh:feder-cr/open_scion": "gh:feder-cr/git-ai",
  "gh:isabekastsuc/AnyFlow": "gh:keegan0521/AnyFlow",
- "gh:rnckp/awesome-apertus": "gh:rnckp/awesome-swiss-ai"
+ "gh:rnckp/awesome-apertus": "gh:rnckp/awesome-swiss-ai",
+ "gh:rnckp/awesome-swiss-ai": "gh:rnckp/awesome-ai-switzerland"
 }
