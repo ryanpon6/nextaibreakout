@@ -26,10 +26,16 @@
    "score": 93.9,
    "metric": 235,
    "t": "2026-10-17T17:05:00.456633+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 276,
+   "t": "2026-10-22T02:40:51.474926+00:00"
   }
  ],
- "peak_score": 94.0,
- "best_rank": 7,
+ "peak_score": 95.7,
+ "best_rank": 5,
  "name": "jddevtime/open-lakehouse-compute-fabric",
  "url": "https://github.com/jddevtime/open-lakehouse-compute-fabric",
  "source": "github",
@@ -39,10 +45,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-12T04:23:06Z",
- "last_seen": "2026-10-17T17:05:00.456633+00:00",
- "last_why": "+796 stars/day pace right now (235 total).",
+ "last_seen": "2026-10-22T02:40:51.474926+00:00",
+ "last_why": "276 stars since launch 10 days ago \u2248 28 stars/day since launch.",
  "extra": {
-  "forks": 235,
+  "forks": 275,
   "lang": "Python",
   "topics": [
    "apache-iceberg",
@@ -58,6 +64,7 @@
   "repo_id": 1415050252
  },
  "days": [
-  "2026-10-17"
+  "2026-10-17",
+  "2026-10-22"
  ]
 }
