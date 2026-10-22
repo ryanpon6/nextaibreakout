@@ -38,10 +38,16 @@
    "score": 93.4,
    "metric": 34197,
    "t": "2026-10-22T02:40:51.474926+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.0,
+   "metric": 35097,
+   "t": "2026-10-22T07:57:40.595177+00:00"
   }
  ],
  "peak_score": 94.9,
- "best_rank": 6,
+ "best_rank": 5,
  "name": "Ebony-Vinyl/dsh-our-free-model",
  "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
  "source": "github",
@@ -51,10 +57,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-24T16:17:19Z",
- "last_seen": "2026-10-22T02:40:51.474926+00:00",
- "last_why": "+3.5K stars/day pace right now (34.2K total).",
+ "last_seen": "2026-10-22T07:57:40.595177+00:00",
+ "last_why": "+4.1K stars/day pace right now (35.1K total).",
  "extra": {
-  "forks": 929,
+  "forks": 984,
   "lang": "JavaScript",
   "topics": [
    "ai-agents",

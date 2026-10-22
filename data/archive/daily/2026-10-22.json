@@ -1,7 +1,8 @@
 {
  "day": "2026-10-22",
  "runs": [
-  "2026-10-22T02:40:51.474926+00:00"
+  "2026-10-22T02:40:51.474926+00:00",
+  "2026-10-22T07:57:40.595177+00:00"
  ],
  "items": {
   "hf-xhtoken-spark-x2-6-4b": {
@@ -14,13 +15,13 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T02:40:51.474926+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 85,
-    "trending": 170,
+    "trending": 189,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -40,20 +41,20 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T02:40:51.474926+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 265,
+    "trending": 334,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+305 likes/day pace right now (267 total).",
-   "metric_at_peak": 267,
+   "why_at_peak": "+318 likes/day pace right now (337 total).",
+   "metric_at_peak": 337,
    "metric_name": "likes"
   },
   "hn-50186037-claude-duet": {
@@ -209,14 +210,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
-   "peak_score": 93.4,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T02:40:51.474926+00:00",
+   "peak_score": 94.0,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
    "what": "\u5728 dsh \u91cc\u88c5\u4e0a\u8fd9\u4e2a\u63d2\u4ef6\u5373\u53ef\uff0c\u65e0\u9700\u767b\u5f55\u3001\u6ce8\u518c\u6216\u586b API Key\uff0c\u5c31\u80fd\u4f7f\u7528\u5305\u62ec DeepSeek V4.1 Flash\u3001Kimi K3 \u5728\u5185\u7684\u524d\u6cbf\u6a21\u578b\u2014\u2014\u5b8c\u5168\u514d\u8d39\uff0c\u4e0d\u9650\u91cf\u3002 All you do is install this plugin in dsh: no login,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 929,
+    "forks": 984,
     "lang": "JavaScript",
     "topics": [
      "ai-agents",
@@ -232,8 +233,8 @@
     ],
     "repo_id": 1385896447
    },
-   "why_at_peak": "+3.5K stars/day pace right now (34.2K total).",
-   "metric_at_peak": 34197,
+   "why_at_peak": "+4.1K stars/day pace right now (35.1K total).",
+   "metric_at_peak": 35097,
    "metric_name": "stars"
   },
   "hf-internscience-sage-a1-5": {
@@ -270,10 +271,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
-   "peak_score": 88.7,
-   "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T02:40:51.474926+00:00",
+   "peak_score": 89.2,
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -282,6 +283,188 @@
    },
    "why_at_peak": "11.9M downloads yesterday, 1.28\u00d7 its 7-day average.",
    "metric_at_peak": 11921444,
+   "metric_name": "downloads/day"
+  },
+  "hf-comfy-org-fibo-2-0": {
+   "id": "hfmodel:Comfy-Org/Fibo-2.0",
+   "slug": "hf-comfy-org-fibo-2-0",
+   "name": "Comfy-Org/Fibo-2.0",
+   "url": "https://huggingface.co/Comfy-Org/Fibo-2.0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 12913,
+    "trending": 129,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 129 on Hugging Face; 129 likes, 12.9K downloads.",
+   "metric_at_peak": 129,
+   "metric_name": "likes"
+  },
+  "gh-memtensor-memt-1-0": {
+   "id": "gh:MemTensor/MemT-1.0",
+   "slug": "gh-memtensor-memt-1-0",
+   "name": "MemTensor/MemT-1.0",
+   "url": "https://github.com/MemTensor/MemT-1.0",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 95.7,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "what": "Official repository for MemT-1.0",
+   "tag": "agents",
+   "extra": {
+    "forks": 12,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "deepseek",
+     "llm",
+     "long-context",
+     "long-term-memory",
+     "memory",
+     "memory-augmented-models",
+     "native-memory",
+     "qwen",
+     "sglang"
+    ],
+    "repo_id": 1425063397
+   },
+   "why_at_peak": "302 stars since launch 3 days ago \u2248 95 stars/day since launch.",
+   "metric_at_peak": 302,
+   "metric_name": "stars"
+  },
+  "hn-50176082-using-llm-for-confidence-scoring-is-a-bad-idea": {
+   "id": "hn:50176082",
+   "slug": "hn-50176082-using-llm-for-confidence-scoring-is-a-bad-idea",
+   "name": "Using LLM for confidence scoring is a bad idea",
+   "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 94.8,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 43,
+    "hn": "https://news.ycombinator.com/item?id=50176082"
+   },
+   "why_at_peak": "68 points in 27h on Hacker News (43 comments).",
+   "metric_at_peak": 68,
+   "metric_name": "points"
+  },
+  "gh-folkbench-folkbench": {
+   "id": "gh:Folkbench/folkbench",
+   "slug": "gh-folkbench-folkbench",
+   "name": "Folkbench/folkbench",
+   "url": "https://github.com/Folkbench/folkbench",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 93.2,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "what": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 11,
+    "lang": "Rust",
+    "topics": [
+     "ai",
+     "api-relay",
+     "api-relay-pricing",
+     "benchmark",
+     "benchmarks",
+     "claude",
+     "claude-code",
+     "codex",
+     "folkbench",
+     "llm",
+     "model-evaluation",
+     "openai-api",
+     "reliability",
+     "tauri"
+    ],
+    "repo_id": 1401469171
+   },
+   "why_at_peak": "+841 stars/day pace right now (2.5K total).",
+   "metric_at_peak": 2464,
+   "metric_name": "stars"
+  },
+  "npm--anthropic-ai-sdk": {
+   "id": "npm:@anthropic-ai/sdk",
+   "slug": "npm--anthropic-ai-sdk",
+   "name": "@anthropic-ai/sdk",
+   "url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
+   "source": "npm",
+   "kind": "tool",
+   "first_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 85.2,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "what": "npm package",
+   "tag": "dev tools",
+   "extra": {
+    "week": 28258993,
+    "days": [
+     8355414,
+     0,
+     0,
+     0,
+     8943196,
+     5484270,
+     5476113
+    ]
+   },
+   "why_at_peak": "5.5M downloads yesterday, 1.36\u00d7 its 7-day average.",
+   "metric_at_peak": 5476113,
+   "metric_name": "downloads/day"
+  },
+  "npm--modelcontextprotocol-sdk": {
+   "id": "npm:@modelcontextprotocol/sdk",
+   "slug": "npm--modelcontextprotocol-sdk",
+   "name": "@modelcontextprotocol/sdk",
+   "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+   "source": "npm",
+   "kind": "tool",
+   "first_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 77.7,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "what": "npm package",
+   "tag": "dev tools",
+   "extra": {
+    "week": 39432481,
+    "days": [
+     11910199,
+     0,
+     0,
+     0,
+     13111453,
+     7269449,
+     7141380
+    ]
+   },
+   "why_at_peak": "7.1M downloads yesterday, 1.27\u00d7 its 7-day average.",
+   "metric_at_peak": 7141380,
    "metric_name": "downloads/day"
   }
  }

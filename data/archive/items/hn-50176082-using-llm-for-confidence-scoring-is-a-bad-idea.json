@@ -1,0 +1,33 @@
+{
+ "id": "hn:50176082",
+ "slug": "hn-50176082-using-llm-for-confidence-scoring-is-a-bad-idea",
+ "first_seen": "2026-10-22T07:57:40.595177+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 94.8,
+   "metric": 68,
+   "t": "2026-10-22T07:57:40.595177+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 4,
+ "name": "Using LLM for confidence scoring is a bad idea",
+ "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-21T04:27:51Z",
+ "last_seen": "2026-10-22T07:57:40.595177+00:00",
+ "last_why": "68 points in 27h on Hacker News (43 comments).",
+ "extra": {
+  "comments": 43,
+  "hn": "https://news.ycombinator.com/item?id=50176082"
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

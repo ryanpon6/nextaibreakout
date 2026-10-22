@@ -20,10 +20,16 @@
    "score": 93.0,
    "metric": 2144,
    "t": "2026-10-20T12:11:49.559007+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 93.2,
+   "metric": 2464,
+   "t": "2026-10-22T07:57:40.595177+00:00"
   }
  ],
  "peak_score": 93.9,
- "best_rank": 7,
+ "best_rank": 6,
  "name": "Folkbench/folkbench",
  "url": "https://github.com/Folkbench/folkbench",
  "source": "github",
@@ -33,10 +39,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-02T09:50:45Z",
- "last_seen": "2026-10-20T12:11:49.559007+00:00",
- "last_why": "+640 stars/day pace right now (2.1K total).",
+ "last_seen": "2026-10-22T07:57:40.595177+00:00",
+ "last_why": "+841 stars/day pace right now (2.5K total).",
  "extra": {
-  "forks": 9,
+  "forks": 11,
   "lang": "Rust",
   "topics": [
    "ai",
@@ -59,6 +65,7 @@
  "days": [
   "2026-10-18",
   "2026-10-19",
-  "2026-10-20"
+  "2026-10-20",
+  "2026-10-22"
  ]
 }

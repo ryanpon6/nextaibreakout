@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Comfy-Org/Fibo-2.0",
+ "slug": "hf-comfy-org-fibo-2-0",
+ "first_seen": "2026-10-22T07:57:40.595177+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 129,
+   "t": "2026-10-22T07:57:40.595177+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Comfy-Org/Fibo-2.0",
+ "url": "https://huggingface.co/Comfy-Org/Fibo-2.0",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-20T18:53:36.000Z",
+ "last_seen": "2026-10-22T07:57:40.595177+00:00",
+ "last_why": "Trending score 129 on Hugging Face; 129 likes, 12.9K downloads.",
+ "extra": {
+  "downloads": 12913,
+  "trending": 129,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

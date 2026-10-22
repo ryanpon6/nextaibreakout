@@ -1,0 +1,46 @@
+{
+ "id": "gh:MemTensor/MemT-1.0",
+ "slug": "gh-memtensor-memt-1-0",
+ "first_seen": "2026-10-22T07:57:40.595177+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 95.7,
+   "metric": 302,
+   "t": "2026-10-22T07:57:40.595177+00:00"
+  }
+ ],
+ "peak_score": 95.7,
+ "best_rank": 3,
+ "name": "MemTensor/MemT-1.0",
+ "url": "https://github.com/MemTensor/MemT-1.0",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Official repository for MemT-1.0",
+ "what": "Official repository for MemT-1.0",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-19T03:29:30Z",
+ "last_seen": "2026-10-22T07:57:40.595177+00:00",
+ "last_why": "302 stars since launch 3 days ago \u2248 95 stars/day since launch.",
+ "extra": {
+  "forks": 12,
+  "lang": "Python",
+  "topics": [
+   "ai-agents",
+   "deepseek",
+   "llm",
+   "long-context",
+   "long-term-memory",
+   "memory",
+   "memory-augmented-models",
+   "native-memory",
+   "qwen",
+   "sglang"
+  ],
+  "repo_id": 1425063397
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}
