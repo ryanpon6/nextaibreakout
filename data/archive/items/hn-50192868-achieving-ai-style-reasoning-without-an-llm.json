@@ -1,0 +1,33 @@
+{
+ "id": "hn:50192868",
+ "slug": "hn-50192868-achieving-ai-style-reasoning-without-an-llm",
+ "first_seen": "2026-10-22T13:21:39.957298+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 44,
+   "t": "2026-10-22T13:21:39.957298+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Achieving AI-style reasoning without an LLM",
+ "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-22T08:46:58Z",
+ "last_seen": "2026-10-22T13:21:39.957298+00:00",
+ "last_why": "44 points in 5h on Hacker News (26 comments).",
+ "extra": {
+  "comments": 26,
+  "hn": "https://news.ycombinator.com/item?id=50192868"
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

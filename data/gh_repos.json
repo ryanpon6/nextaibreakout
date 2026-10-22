@@ -244,7 +244,11 @@
   "1410128708": "Spydonny/s6e8-lookup-transformer",
   "1425063397": "MemTensor/MemT-1.0",
   "1389734435": "BlueRingsLabs/no-shortcuts",
-  "1423030346": "reidjohnson/nn-field-guide"
+  "1423030346": "reidjohnson/nn-field-guide",
+  "1401760850": "hamzafer/claude-code-mods",
+  "1412089897": "osfv/talus",
+  "1401334165": "ADITYA-KUMAR-2358/salt-and-story",
+  "1419772313": "ctoldigital/axuse"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -253,6 +257,7 @@
   "Akun-python/autumn-recruitment": 1792655876.129082,
   "jddevtime/open-lakehouse-compute-fabric": 1792615676.1905878,
   "amontlabs/lcu": 1792636866.5933018,
-  "zgcagi/Harness-RSI": 1792655876.129082
+  "zgcagi/Harness-RSI": 1792655876.129082,
+  "LiCinCan/blender-ai-mcp-addon": 1792675317.9175246
  }
 }

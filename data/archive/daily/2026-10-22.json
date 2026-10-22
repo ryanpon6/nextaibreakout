@@ -2,7 +2,8 @@
  "day": "2026-10-22",
  "runs": [
   "2026-10-22T02:40:51.474926+00:00",
-  "2026-10-22T07:57:40.595177+00:00"
+  "2026-10-22T07:57:40.595177+00:00",
+  "2026-10-22T13:21:39.957298+00:00"
  ],
  "items": {
   "hf-xhtoken-spark-x2-6-4b": {
@@ -41,20 +42,20 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 0,
-    "trending": 334,
+    "downloads": 420,
+    "trending": 394,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+318 likes/day pace right now (337 total).",
-   "metric_at_peak": 337,
+   "why_at_peak": "+280 likes/day pace right now (400 total).",
+   "metric_at_peak": 400,
    "metric_name": "likes"
   },
   "hn-50186037-claude-duet": {
@@ -67,12 +68,12 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T02:40:51.474926+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 280,
+    "comments": 413,
     "hn": "https://news.ycombinator.com/item?id=50186037"
    },
    "why_at_peak": "+339 points/day pace right now (322 total).",
@@ -247,13 +248,13 @@
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
    "peak_score": 89.4,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T02:40:51.474926+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 58,
-    "trending": 161,
+    "downloads": 396,
+    "trending": 194,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -271,10 +272,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-22T02:40:51.474926+00:00",
-   "peak_score": 89.2,
-   "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "peak_score": 89.4,
+   "best_rank": 7,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -321,12 +322,12 @@
    "first_seen": "2026-10-22T07:57:40.595177+00:00",
    "peak_score": 95.7,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
    "what": "Official repository for MemT-1.0",
    "tag": "agents",
    "extra": {
-    "forks": 12,
+    "forks": 15,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -342,8 +343,8 @@
     ],
     "repo_id": 1425063397
    },
-   "why_at_peak": "302 stars since launch 3 days ago \u2248 95 stars/day since launch.",
-   "metric_at_peak": 302,
+   "why_at_peak": "318 stars since launch 3 days ago \u2248 93 stars/day since launch.",
+   "metric_at_peak": 318,
    "metric_name": "stars"
   },
   "hn-50176082-using-llm-for-confidence-scoring-is-a-bad-idea": {
@@ -356,12 +357,12 @@
    "first_seen": "2026-10-22T07:57:40.595177+00:00",
    "peak_score": 94.8,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-22T07:57:40.595177+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 43,
+    "comments": 70,
     "hn": "https://news.ycombinator.com/item?id=50176082"
    },
    "why_at_peak": "68 points in 27h on Hacker News (43 comments).",
@@ -466,6 +467,125 @@
    "why_at_peak": "7.1M downloads yesterday, 1.27\u00d7 its 7-day average.",
    "metric_at_peak": 7141380,
    "metric_name": "downloads/day"
+  },
+  "hn-50192868-achieving-ai-style-reasoning-without-an-llm": {
+   "id": "hn:50192868",
+   "slug": "hn-50192868-achieving-ai-style-reasoning-without-an-llm",
+   "name": "Achieving AI-style reasoning without an LLM",
+   "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-22T13:21:39.957298+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 26,
+    "hn": "https://news.ycombinator.com/item?id=50192868"
+   },
+   "why_at_peak": "44 points in 5h on Hacker News (26 comments).",
+   "metric_at_peak": 44,
+   "metric_name": "points"
+  },
+  "gh-ctoldigital-axuse": {
+   "id": "gh:ctoldigital/axuse",
+   "slug": "gh-ctoldigital-axuse",
+   "name": "ctoldigital/axuse",
+   "url": "https://github.com/ctoldigital/axuse",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-22T13:21:39.957298+00:00",
+   "peak_score": 94.1,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 15,
+    "lang": "JavaScript",
+    "topics": [
+     "agentic-automation",
+     "ai-agents",
+     "browser-automation",
+     "browser-use",
+     "cdp",
+     "chrome-devtools-protocol",
+     "computer-use",
+     "cua",
+     "mcp",
+     "model-context-protocol",
+     "rpa",
+     "web-automation"
+    ],
+    "repo_id": 1419772313
+   },
+   "why_at_peak": "260 stars since launch 8 days ago \u2248 34 stars/day since launch.",
+   "metric_at_peak": 260,
+   "metric_name": "stars"
+  },
+  "gh-hamzafer-claude-code-mods": {
+   "id": "gh:hamzafer/claude-code-mods",
+   "slug": "gh-hamzafer-claude-code-mods",
+   "name": "hamzafer/claude-code-mods",
+   "url": "https://github.com/hamzafer/claude-code-mods",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-22T13:21:39.957298+00:00",
+   "peak_score": 93.3,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "what": "Claude Code mods: plugins built on hooks that add live lines above the prompt, guards, panes and games. Context bar, usage meter, Codex\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 34,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "claude",
+     "claude-code",
+     "claude-code-mod",
+     "claude-code-mods",
+     "claude-code-plugins",
+     "developer-tools",
+     "terminal"
+    ],
+    "repo_id": 1401760850
+   },
+   "why_at_peak": "341 stars since launch 20 days ago \u2248 17 stars/day since launch.",
+   "metric_at_peak": 341,
+   "metric_name": "stars"
+  },
+  "hf-dealignai-deepseek-v4-1-flash-1017-uncensored-fp8": {
+   "id": "hfmodel:dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+   "slug": "hf-dealignai-deepseek-v4-1-flash-1017-uncensored-fp8",
+   "name": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+   "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-22T13:21:39.957298+00:00",
+   "peak_score": 87.8,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-22T13:21:39.957298+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 3808,
+    "trending": 210,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+93 likes/day pace right now (236 total).",
+   "metric_at_peak": 236,
+   "metric_name": "likes"
   }
  }
 }
