@@ -8,10 +8,16 @@
    "score": 91.7,
    "metric": 287,
    "t": "2026-10-22T18:05:38.206173+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.2,
+   "metric": 287,
+   "t": "2026-10-22T21:32:13.587352+00:00"
   }
  ],
- "peak_score": 91.7,
- "best_rank": 9,
+ "peak_score": 94.2,
+ "best_rank": 6,
  "name": "SouravBeraAkaSpeed/xiryn",
  "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-11T13:12:31Z",
- "last_seen": "2026-10-22T18:05:38.206173+00:00",
- "last_why": "287 stars since launch 11 days ago \u2248 26 stars/day since launch.",
+ "last_seen": "2026-10-22T21:32:13.587352+00:00",
+ "last_why": "287 stars since launch 11 days ago \u2248 25 stars/day since launch.",
  "extra": {
   "forks": 42,
   "lang": "TypeScript",

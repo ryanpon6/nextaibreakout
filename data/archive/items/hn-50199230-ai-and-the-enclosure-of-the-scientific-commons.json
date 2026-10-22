@@ -1,0 +1,33 @@
+{
+ "id": "hn:50199230",
+ "slug": "hn-50199230-ai-and-the-enclosure-of-the-scientific-commons",
+ "first_seen": "2026-10-22T21:32:13.587352+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.6,
+   "metric": 65,
+   "t": "2026-10-22T21:32:13.587352+00:00"
+  }
+ ],
+ "peak_score": 96.6,
+ "best_rank": 4,
+ "name": "AI and the Enclosure of the Scientific Commons",
+ "url": "https://arxiv.org/abs/2610.27251",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-22T18:28:16Z",
+ "last_seen": "2026-10-22T21:32:13.587352+00:00",
+ "last_why": "65 points in 3h on Hacker News (29 comments).",
+ "extra": {
+  "comments": 29,
+  "hn": "https://news.ycombinator.com/item?id=50199230"
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

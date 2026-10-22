@@ -1,0 +1,33 @@
+{
+ "id": "hn:50199232",
+ "slug": "hn-50199232-award-winning-ai-literature",
+ "first_seen": "2026-10-22T21:32:13.587352+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.8,
+   "metric": 44,
+   "t": "2026-10-22T21:32:13.587352+00:00"
+  }
+ ],
+ "peak_score": 95.8,
+ "best_rank": 5,
+ "name": "Award-Winning AI Literature",
+ "url": "https://jamesyu.org/award-winning-ai-literature/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-22T18:28:26Z",
+ "last_seen": "2026-10-22T21:32:13.587352+00:00",
+ "last_why": "44 points in 3h on Hacker News (45 comments).",
+ "extra": {
+  "comments": 45,
+  "hn": "https://news.ycombinator.com/item?id=50199232"
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

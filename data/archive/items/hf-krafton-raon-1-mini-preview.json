@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:KRAFTON/Raon-1-mini-preview",
+ "slug": "hf-krafton-raon-1-mini-preview",
+ "first_seen": "2026-10-22T21:32:13.587352+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 130,
+   "t": "2026-10-22T21:32:13.587352+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "KRAFTON/Raon-1-mini-preview",
+ "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-21T00:14:48.000Z",
+ "last_seen": "2026-10-22T21:32:13.587352+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 130 likes, 249 downloads.",
+ "extra": {
+  "downloads": 249,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-22"
+ ]
+}

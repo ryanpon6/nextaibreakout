@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T18:06:24.694982+00:00",
+ "generated": "2026-10-22T21:32:57.071141+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,10 +129,21 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-22T18:06:24.694982+00:00"
+   "fetched": "2026-10-22T21:32:57.071141+00:00"
   },
   "tesla-ai": {
    "items": [
+    {
+     "title": "Tesla Is Building Its Own AI-Based Maps, Will Begin Rolling Out In the Next Few Months With FSD v15",
+     "url": "https://www.notateslaapp.com/news/4868/tesla-is-building-its-own-ai-maps-starting-with-fsd-v15",
+     "date": "2026-10-22T19:54:00+00:00",
+     "day": "2026-10-22",
+     "summary": "Tesla is developing AI-based maps and navigation using fleet data and driver preferences, with initial features planned for FSD v15. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
     {
      "title": "Tesla Q3 2026 Earnings Call Recap: Everything You Need to Know",
      "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know",
@@ -231,17 +242,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Tesla Rolls Out FSD V14 Lite to Legacy Model S/X for First Time",
-     "url": "https://www.notateslaapp.com/news/4827/tesla-rolls-out-fsd-v14-lite-to-legacy-model-sx-for-first-time",
-     "date": "2026-10-14T21:44:00+00:00",
-     "day": "2026-10-14",
-     "summary": "FSD v14.3 Lite is rolling out to legacy Intel Model S and X with update 2026.38.5.1, but without Arrival Options, reversing, or starting FSD from Park. Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -268,10 +268,23 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-22T18:06:24.694982+00:00"
+   "fetched": "2026-10-22T21:32:57.071141+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "Build more responsive apps with the Decisions API",
+     "url": "https://openai.com/index/decisions-api",
+     "date": "2026-10-22T19:00:00+00:00",
+     "day": "2026-10-22",
+     "summary": "Fast, focused, low-cost decisions for any application.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "What FDE means at OpenAI",
      "url": "https://openai.com/index/forward-deployed-engineering-means",
@@ -388,19 +401,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Advancing computer use with Ironclad",
-     "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-     "date": "2026-10-06T10:00:00+00:00",
-     "day": "2026-10-06",
-     "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-     "categories": [
-      "Publication"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -410,7 +410,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1314
+     "raw": 1315
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -421,7 +421,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T18:06:24.694982+00:00"
+   "fetched": "2026-10-22T21:32:57.071141+00:00"
   },
   "anthropic": {
    "items": [
@@ -544,7 +544,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T18:06:24.694982+00:00"
+   "fetched": "2026-10-22T21:32:57.071141+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -685,7 +685,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T18:06:24.694982+00:00"
+   "fetched": "2026-10-22T21:32:57.071141+00:00"
   },
   "meta": {
    "items": [
@@ -796,7 +796,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-22T18:06:24.694982+00:00"
+   "fetched": "2026-10-22T21:32:57.071141+00:00"
   }
  }
 }

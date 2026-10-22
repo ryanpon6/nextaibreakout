@@ -26,9 +26,15 @@
    "score": 88.6,
    "metric": 11921444,
    "t": "2026-10-22T18:05:38.206173+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 90.2,
+   "metric": 11921444,
+   "t": "2026-10-22T21:32:13.587352+00:00"
   }
  ],
- "peak_score": 89.4,
+ "peak_score": 90.2,
  "best_rank": 7,
  "name": "mcp",
  "url": "https://pypi.org/project/mcp",
@@ -39,7 +45,7 @@
  "tag": "agents",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-10-22T18:05:38.206173+00:00",
+ "last_seen": "2026-10-22T21:32:13.587352+00:00",
  "last_why": "11.9M downloads yesterday, 1.28\u00d7 its 7-day average.",
  "extra": {
   "week": 65372845,
