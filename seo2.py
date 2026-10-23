@@ -142,6 +142,35 @@ def item_schema(I, path):
     if I.get("created"): o["dateCreated" if kind != "Article" else "datePublished"] = I["created"]
     return {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": f"{I['name']}: breakout history", "url": SITE + path, "mainEntity": {k: v for k, v in o.items() if v}},
             crumbs(("Home", "/"), ("Archive", "/daily/"), (B.LABEL[I["source"]], f"/{I['source']}/" if I["source"] in {c[0] for c in CATS} else "/daily/"), (I["name"][:60], path))]}
+def base_title(I):
+    kind = {"github": "trending AI repo", "npm": "trending AI package", "pypi": "trending AI package", "hackernews": "trending AI story"}.get(I["source"], "trending AI Space" if badge(I) == "HF Space" else "trending AI model")
+    if I["source"] == "github":  # exact owner/repo first; never trim it
+        return next(x for x in (f"{I['name']}: trending GitHub AI repo | {B.BRAND}", f"{I['name']}: trending GitHub AI repo", f"{I['name']}: trending AI repo", I['name']) if len(x) <= 60 or x == I['name'])
+    return B.seo_title(f"{I['name']}: {kind}") if len(I['name']) <= 40 else B.seo_title(I['name'])
+def _mt_day(iso):
+    t = dt.datetime.fromisoformat(iso).astimezone(dt.timezone.utc)
+    try:
+        from zoneinfo import ZoneInfo; t = t.astimezone(ZoneInfo("America/Edmonton"))
+    except Exception: t = t - dt.timedelta(hours=6)
+    return t.strftime("%b %-d")
+def item_titles(items):
+    """Unique <title> per item page. Earliest-seen item keeps its title; later collisions get ' (HN 123)'-style
+    or MT-date disambiguators (<= 60 chars, the name is never trimmed). Same-URL duplicates canonicalize to the original."""
+    titles, canon, first, byurl = {}, {}, {}, {}
+    for s, I in sorted(items.items(), key=lambda kv: (kv[1].get("first_seen") or "", kv[0])):
+        t = base_title(I); k = t.casefold()
+        u = (I.get("url") or "").rstrip("/")
+        if (k, u) in byurl and u: canon[s] = ipath(items[byurl[(k, u)]])
+        else: byurl[(k, u)] = s
+        if k not in first: first[k] = s; titles[s] = t; continue
+        core = t[:-len(f" | {B.BRAND}")] if t.endswith(f" | {B.BRAND}") else t
+        rid = str(I.get("id", "")).split(":")[-1]
+        tags = ([f"{ {'hackernews': 'HN', 'huggingface': 'HF'}.get(I['source']) or B.LABEL.get(I['source'], I['source'])} {rid}"] if rid else []) + ([_mt_day(I["first_seen"])] if I.get("first_seen") else []) + [s]
+        used = {v.casefold() for v in titles.values()}
+        cands = [f"{c} ({g}){sfx}" for g in tags for c, sfx in ((core, f" | {B.BRAND}"), (core, ""), (I["name"], ""))]
+        titles[s] = next((c for c in cands if len(c) <= 60 and c.casefold() not in used), f"{I['name']} ({s})")
+        first.setdefault(titles[s].casefold(), s)
+    return titles, canon
 def apply(DIST, d, t):
     shutil.copytree(os.path.join(ROOT, "fonts"), os.path.join(DIST, "fonts"), dirs_exist_ok=True)
     shutil.copy(os.path.join(ROOT, "seo2.css"), DIST)
@@ -227,6 +256,7 @@ def apply(DIST, d, t):
     for f in ("404.html",): wr(os.path.join(DIST, f), open(os.path.join(DIST, f)).read())
     for p in glob.glob(os.path.join(DIST, "labs", "**", "index.html"), recursive=True): wr(p, open(p).read())
     # ---- per-item pages
+    titles, canon = item_titles(items)
     for s, I in items.items():
         path = ipath(I); S = ser.get(I["id"], [])
         cur = POOL.get(I["id"], {}); Iv = {**I, **{k: cur[k] for k in ("metric", "extra") if k in cur}}
@@ -234,11 +264,7 @@ def apply(DIST, d, t):
         hist = [m for _, m in S]
         rows = "".join(f"<tr><td class='dim'>{fmt_t(a['t'])}</td><td>#{a['rank']}</td><td>{a['score']:.0f}</td><td>{B.e(str(a['metric']))}</td></tr>" for a in reversed(I["appearances"][-48:]))
         dlinks = ", ".join(f'<a href="/daily/{x}/">{x}</a>' for x in reversed(I.get("days", [])))
-        kind = {"github": "trending AI repo", "npm": "trending AI package", "pypi": "trending AI package", "hackernews": "trending AI story"}.get(I["source"], "trending AI Space" if badge(I) == "HF Space" else "trending AI model")
-        if I["source"] == "github":  # exact owner/repo first; never trim it
-            title = next(x for x in (f"{I['name']}: trending GitHub AI repo | {B.BRAND}", f"{I['name']}: trending GitHub AI repo", f"{I['name']}: trending AI repo", I['name']) if len(x) <= 60 or x == I['name'])
-        else:
-            title = B.seo_title(f"{I['name']}: {kind}") if len(I['name']) <= 40 else B.seo_title(I['name'])
+        title = titles[s]
         desc = B.fit(f"{I['name'][:80]} ({badge(I)}) reached #{I['best_rank']} on NextAiBreakout's hourly AI ranking. Real {I['metric_name']} history and top-10 runs.", 155)
         enough = len(hist) >= 3 and max(hist) != min(hist)
         chart = (f'<div class="item-spark">{B.spark(hist, 720, 120, B.GOLD, True)}</div>' if enough else
@@ -253,6 +279,7 @@ def apply(DIST, d, t):
 <section><h2>Top-10 appearances</h2><div class="tbl"><table class="apps"><thead><tr><th>Run</th><th>Rank</th><th>Score</th><th>{e(I['metric_name'])}</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="dim">Days in the archive: {dlinks}</p></section></main>""" + B.foot(t.year, "/") + "</body></html>"
         page = page.replace("<main>", "<main>" + vcrumbs(("Home", "/"), (B.LABEL[I["source"]], f"/{I['source']}/" if I["source"] in {c[0] for c in CATS} else "/daily/"), (I["name"][:60], path)), 1)
+        if s in canon: page = page.replace(f'<link rel="canonical" href="{SITE}{path}">', f'<link rel="canonical" href="{SITE}{canon[s]}">', 1)
         wr(os.path.join(DIST, path.strip("/"), "index.html"), page)
     # ---- daily pages
     ds = sorted(days)
