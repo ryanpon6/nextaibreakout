@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:MiniMaxAI/MiniMax-M3.1-Flash",
+ "slug": "hf-minimaxai-minimax-m3-1-flash",
+ "first_seen": "2026-10-23T09:35:41.543750+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.7,
+   "metric": 158,
+   "t": "2026-10-23T09:35:41.543750+00:00"
+  }
+ ],
+ "peak_score": 95.7,
+ "best_rank": 4,
+ "name": "MiniMaxAI/MiniMax-M3.1-Flash",
+ "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-17T06:37:50.000Z",
+ "last_seen": "2026-10-23T09:35:41.543750+00:00",
+ "last_why": "Trending score 154 on Hugging Face; 158 likes, 357 downloads.",
+ "extra": {
+  "downloads": 357,
+  "trending": 154,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

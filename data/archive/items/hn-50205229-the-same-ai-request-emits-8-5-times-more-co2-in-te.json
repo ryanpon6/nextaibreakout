@@ -1,0 +1,33 @@
+{
+ "id": "hn:50205229",
+ "slug": "hn-50205229-the-same-ai-request-emits-8-5-times-more-co2-in-te",
+ "first_seen": "2026-10-23T09:35:41.543750+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 115,
+   "t": "2026-10-23T09:35:41.543750+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+ "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-23T06:41:11Z",
+ "last_seen": "2026-10-23T09:35:41.543750+00:00",
+ "last_why": "115 points in 3h on Hacker News (118 comments).",
+ "extra": {
+  "comments": 118,
+  "hn": "https://news.ycombinator.com/item?id=50205229"
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

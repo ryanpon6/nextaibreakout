@@ -1,0 +1,55 @@
+{
+ "id": "gh:Entelligence-AI/agentplay",
+ "slug": "gh-entelligence-ai-agentplay",
+ "first_seen": "2026-10-23T09:35:41.543750+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.0,
+   "metric": 293,
+   "t": "2026-10-23T09:35:41.543750+00:00"
+  }
+ ],
+ "peak_score": 94.0,
+ "best_rank": 6,
+ "name": "Entelligence-AI/agentplay",
+ "url": "https://github.com/Entelligence-AI/agentplay",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Replay your coding agent sessions as a map and a timeline",
+ "what": "Replay your coding agent sessions as a map and a timeline",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-14T09:06:49Z",
+ "last_seen": "2026-10-23T09:35:41.543750+00:00",
+ "last_why": "293 stars since launch 9 days ago \u2248 32 stars/day since launch.",
+ "extra": {
+  "forks": 22,
+  "lang": "Python",
+  "topics": [
+   "agent-observability",
+   "ai-agents",
+   "claude",
+   "claude-code",
+   "codex",
+   "coding-agents",
+   "cursor",
+   "developer-tools",
+   "devtools",
+   "github-copilot",
+   "kiro",
+   "llm",
+   "observability",
+   "opencode",
+   "privacy",
+   "python",
+   "session-replay",
+   "typescript",
+   "visualization"
+  ],
+  "repo_id": 1418643214
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

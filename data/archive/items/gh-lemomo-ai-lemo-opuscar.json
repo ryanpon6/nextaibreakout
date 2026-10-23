@@ -8,6 +8,12 @@
    "score": 95.9,
    "metric": 3353,
    "t": "2026-10-19T07:47:07.086385+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 90.8,
+   "metric": 5893,
+   "t": "2026-10-23T09:35:41.543750+00:00"
   }
  ],
  "peak_score": 95.9,
@@ -16,15 +22,15 @@
  "url": "https://github.com/lemomo-ai/lemo-opuscar",
  "source": "github",
  "kind": "tool",
- "desc": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. \u00b7 Opus5.5 x 51 \u79cd\u5f71\u7247\u98ce\u683c\uff1a\u98ce\u683c\u63d0\u793a\u8bcd + \u7eaf\u4ee3\u7801\u6837\u7247 + \u5bfc\u6f14\u4e0e\u6280\u672f\u6307\u5357\uff08\u65b0\u589e\u300c\u5b9e\u8bc1\u5f71\u50cf\u300d\uff09",
- "what": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude\u2026",
+ "desc": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. \u00b7 \u4e00\u5957\u7528\u4ee3\u7801\u505a\u7247\u7684\u98ce\u683c\u5de5\u5177\u7bb1\uff1a59 \u79cd\u73b0\u6210\u98ce\u683c\uff0c\u4e5f\u80fd\u505a\u51fa\u4f60\u81ea\u5df1\u7684",
+ "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-26T10:10:41Z",
- "last_seen": "2026-10-19T07:47:07.086385+00:00",
- "last_why": "+1.9K stars/day pace right now (3.4K total).",
+ "last_seen": "2026-10-23T09:35:41.543750+00:00",
+ "last_why": "+795 stars/day pace right now (5.9K total).",
  "extra": {
-  "forks": 370,
+  "forks": 665,
   "lang": "JavaScript",
   "topics": [
    "agent-skills",
@@ -51,6 +57,7 @@
   "repo_id": 1389011744
  },
  "days": [
-  "2026-10-19"
+  "2026-10-19",
+  "2026-10-23"
  ]
 }
