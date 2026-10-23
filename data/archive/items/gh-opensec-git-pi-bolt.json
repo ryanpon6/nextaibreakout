@@ -1,0 +1,55 @@
+{
+ "id": "gh:opensec-git/Pi-Bolt",
+ "slug": "gh-opensec-git-pi-bolt",
+ "first_seen": "2026-10-23T17:46:10.824646+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.8,
+   "metric": 422,
+   "t": "2026-10-23T17:46:10.824646+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 6,
+ "name": "opensec-git/Pi-Bolt",
+ "url": "https://github.com/opensec-git/Pi-Bolt",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u26a1 Pi, the coding agent, compiled ahead of time to one native executable. 10\u00d7 faster to start, 7\u00d7 less CPU and 4.5\u00d7 less memory than Pi on Node. Linux, macOS, Windows, ARM64 and Android (Termux).",
+ "what": "Pi, the coding agent, compiled ahead of time to one native executable. 10\u00d7 faster to start, 7\u00d7 less CPU and 4.5\u00d7 less memory than Pi on\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-02T18:35:24Z",
+ "last_seen": "2026-10-23T17:46:10.824646+00:00",
+ "last_why": "+193 stars/day pace right now (422 total).",
+ "extra": {
+  "forks": 21,
+  "lang": "TypeScript",
+  "topics": [
+   "ahead-of-time",
+   "ai-agent",
+   "ai-coding-assistant",
+   "android",
+   "arm64",
+   "bun",
+   "cli",
+   "coding-agent",
+   "developer-tools",
+   "linux",
+   "llm",
+   "macos",
+   "performance",
+   "pi",
+   "pi-coding-agent",
+   "terminal",
+   "termux",
+   "typescript",
+   "windows"
+  ],
+  "repo_id": 1402211512
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

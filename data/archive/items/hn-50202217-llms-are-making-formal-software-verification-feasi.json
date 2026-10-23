@@ -32,9 +32,15 @@
    "score": 89.9,
    "metric": 394,
    "t": "2026-10-23T15:40:20.483191+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 423,
+   "t": "2026-10-23T17:46:10.824646+00:00"
   }
  ],
- "peak_score": 97.4,
+ "peak_score": 98.2,
  "best_rank": 2,
  "name": "LLMs are making formal software verification feasible at a much larger scale",
  "url": "https://www.anthropic.com/research/formal-verification",
@@ -45,10 +51,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-22T22:54:43Z",
- "last_seen": "2026-10-23T15:40:20.483191+00:00",
- "last_why": "+182 points/day pace right now (394 total).",
+ "last_seen": "2026-10-23T17:46:10.824646+00:00",
+ "last_why": "+347 points/day pace right now (423 total).",
  "extra": {
-  "comments": 241,
+  "comments": 260,
   "hn": "https://news.ycombinator.com/item?id=50202217"
  },
  "days": [
