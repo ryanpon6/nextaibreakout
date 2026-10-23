@@ -20,10 +20,16 @@
    "score": 94.0,
    "metric": 322,
    "t": "2026-10-23T19:01:09.281449+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 94.1,
+   "metric": 332,
+   "t": "2026-10-23T21:31:07.732294+00:00"
   }
  ],
  "peak_score": 94.1,
- "best_rank": 5,
+ "best_rank": 3,
  "name": "ctoldigital/axuse",
  "url": "https://github.com/ctoldigital/axuse",
  "source": "github",
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T19:55:37Z",
- "last_seen": "2026-10-23T19:01:09.281449+00:00",
- "last_why": "+96 stars/day pace right now (322 total).",
+ "last_seen": "2026-10-23T21:31:07.732294+00:00",
+ "last_why": "+96 stars/day pace right now (332 total).",
  "extra": {
-  "forks": 16,
+  "forks": 17,
   "lang": "JavaScript",
   "topics": [
    "agentic-automation",

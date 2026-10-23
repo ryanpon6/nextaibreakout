@@ -104,10 +104,16 @@
    "score": 86.9,
    "metric": 5476113,
    "t": "2026-10-23T20:16:07.876917+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 89.3,
+   "metric": 5476113,
+   "t": "2026-10-23T21:31:07.732294+00:00"
   }
  ],
- "peak_score": 87.8,
- "best_rank": 8,
+ "peak_score": 89.3,
+ "best_rank": 6,
  "name": "@anthropic-ai/sdk",
  "url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
  "source": "npm",
@@ -117,7 +123,7 @@
  "tag": "dev tools",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-10-23T20:16:07.876917+00:00",
+ "last_seen": "2026-10-23T21:31:07.732294+00:00",
  "last_why": "5.5M downloads yesterday, 1.36\u00d7 its 7-day average.",
  "extra": {
   "week": 28258993,
