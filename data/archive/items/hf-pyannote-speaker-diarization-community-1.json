@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:pyannote/speaker-diarization-community-1",
+ "slug": "hf-pyannote-speaker-diarization-community-1",
+ "first_seen": "2026-10-23T00:05:47.368438+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 94.2,
+   "metric": 3272,
+   "t": "2026-10-23T00:05:47.368438+00:00"
+  }
+ ],
+ "peak_score": 94.2,
+ "best_rank": 4,
+ "name": "pyannote/speaker-diarization-community-1",
+ "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "automatic-speech-recognition",
+ "what": "automatic-speech-recognition model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2025-04-15T21:31:35.000Z",
+ "last_seen": "2026-10-23T00:05:47.368438+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 3.3K likes, 5.1M downloads.",
+ "extra": {
+  "downloads": 5063972,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

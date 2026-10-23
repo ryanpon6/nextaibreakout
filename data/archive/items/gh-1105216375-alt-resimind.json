@@ -1,0 +1,56 @@
+{
+ "id": "gh:1105216375-alt/resimind",
+ "slug": "gh-1105216375-alt-resimind",
+ "first_seen": "2026-10-23T00:05:47.368438+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 93.4,
+   "metric": 237,
+   "t": "2026-10-23T00:05:47.368438+00:00"
+  }
+ ],
+ "peak_score": 93.4,
+ "best_rank": 5,
+ "name": "1105216375-alt/resimind",
+ "url": "https://github.com/1105216375-alt/resimind",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Neuro-symbolic agents with verified memory. MCP math tools, an algebra repair Skill, and an open challenge. Verify solutions, learn checked rules, and reuse.",
+ "what": "Neuro-symbolic agents with verified memory. MCP math tools, an algebra repair Skill, and an open challenge. Verify solutions, learn checked\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-08T02:15:17Z",
+ "last_seen": "2026-10-23T00:05:47.368438+00:00",
+ "last_why": "237 stars since launch 15 days ago \u2248 16 stars/day since launch.",
+ "extra": {
+  "forks": 0,
+  "lang": "Python",
+  "topics": [
+   "agent-memory",
+   "agent-skills",
+   "ai-agents",
+   "customer-support",
+   "knowledge-growth",
+   "knowledge-reuse",
+   "lean4",
+   "llm-agents",
+   "mathematics",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol",
+   "neuro-symbolic",
+   "planning",
+   "reasoning",
+   "residual-reasoning",
+   "self-correction",
+   "structural-engineering",
+   "symbolic-reasoning",
+   "verification"
+  ],
+  "repo_id": 1409598263
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

@@ -8,10 +8,16 @@
    "score": 92.6,
    "metric": 275,
    "t": "2026-10-21T01:36:52.973724+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 92.6,
+   "metric": 282,
+   "t": "2026-10-23T00:05:47.368438+00:00"
   }
  ],
  "peak_score": 92.6,
- "best_rank": 7,
+ "best_rank": 6,
  "name": "Akun-python/autumn-recruitment",
  "url": "https://github.com/Akun-python/autumn-recruitment",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-29T08:00:33Z",
- "last_seen": "2026-10-21T01:36:52.973724+00:00",
- "last_why": "275 stars since launch 22 days ago \u2248 13 stars/day since launch.",
+ "last_seen": "2026-10-23T00:05:47.368438+00:00",
+ "last_why": "282 stars since launch 24 days ago \u2248 12 stars/day since launch.",
  "extra": {
   "forks": 31,
   "lang": "Jupyter Notebook",
@@ -43,6 +49,7 @@
   "repo_id": 1394675848
  },
  "days": [
-  "2026-10-21"
+  "2026-10-21",
+  "2026-10-23"
  ]
 }

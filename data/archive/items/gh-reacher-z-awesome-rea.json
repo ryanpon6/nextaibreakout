@@ -1,0 +1,53 @@
+{
+ "id": "gh:reacher-z/Awesome-REA",
+ "slug": "gh-reacher-z-awesome-rea",
+ "first_seen": "2026-10-23T00:05:47.368438+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 95.8,
+   "metric": 200,
+   "t": "2026-10-23T00:05:47.368438+00:00"
+  }
+ ],
+ "peak_score": 95.8,
+ "best_rank": 2,
+ "name": "reacher-z/Awesome-REA",
+ "url": "https://github.com/reacher-z/Awesome-REA",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and communication protocols.",
+ "what": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-16T00:42:04Z",
+ "last_seen": "2026-10-23T00:05:47.368438+00:00",
+ "last_why": "200 stars since launch 7 days ago \u2248 29 stars/day since launch.",
+ "extra": {
+  "forks": 123,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "android-reverse-engineering",
+   "awesome-list",
+   "binary-analysis",
+   "decompilation",
+   "firmware-analysis",
+   "game-reversing",
+   "ghidra",
+   "ios-reverse-engineering",
+   "javascript-deobfuscation",
+   "mcp",
+   "protocol-analysis",
+   "rea",
+   "research-papers",
+   "reverse-engineering",
+   "web-reverse-engineering"
+  ],
+  "repo_id": 1421473933
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

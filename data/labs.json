@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T21:32:57.071141+00:00",
+ "generated": "2026-10-23T00:06:34.268280+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-22T21:32:57.071141+00:00"
+   "fetched": "2026-10-23T00:06:34.268280+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-22T21:32:57.071141+00:00"
+   "fetched": "2026-10-23T00:06:34.268280+00:00"
   },
   "openai": {
    "items": [
@@ -280,19 +280,6 @@
      "summary": "Fast, focused, low-cost decisions for any application.",
      "categories": [
       "Product"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
-    },
-    {
-     "title": "What FDE means at OpenAI",
-     "url": "https://openai.com/index/forward-deployed-engineering-means",
-     "date": "2026-10-22T06:00:00+00:00",
-     "day": "2026-10-22",
-     "summary": "What forward deployed engineering means at OpenAI",
-     "categories": [
-      "Engineering"
      ],
      "source": "OpenAI News RSS",
      "unofficial": false,
@@ -401,6 +388,19 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
+    },
+    {
+     "title": "Advancing computer use with Ironclad",
+     "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+     "date": "2026-10-06T10:00:00+00:00",
+     "day": "2026-10-06",
+     "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+     "categories": [
+      "Publication"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
     }
    ],
    "sources": [
@@ -410,7 +410,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1315
+     "raw": 1314
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -421,14 +421,14 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T21:32:57.071141+00:00"
+   "fetched": "2026-10-23T00:06:34.268280+00:00"
   },
   "anthropic": {
    "items": [
     {
-     "title": "Claude Code v2.1.308",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-     "date": "2026-10-22T04:34:55+00:00",
+     "title": "Claude Code v2.1.309",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+     "date": "2026-10-22T22:18:57+00:00",
      "day": "2026-10-22",
      "summary": "",
      "source": "GitHub: anthropics/claude-code releases",
@@ -544,7 +544,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T21:32:57.071141+00:00"
+   "fetched": "2026-10-23T00:06:34.268280+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -685,7 +685,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-22T21:32:57.071141+00:00"
+   "fetched": "2026-10-23T00:06:34.268280+00:00"
   },
   "meta": {
    "items": [
@@ -796,7 +796,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-22T21:32:57.071141+00:00"
+   "fetched": "2026-10-23T00:06:34.268280+00:00"
   }
  }
 }

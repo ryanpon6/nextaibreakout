@@ -44,10 +44,16 @@
    "score": 98.2,
    "metric": 511,
    "t": "2026-10-22T21:32:13.587352+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 533,
+   "t": "2026-10-23T00:05:47.368438+00:00"
   }
  ],
  "peak_score": 98.2,
- "best_rank": 2,
+ "best_rank": 1,
  "name": "RecursiveSI/flint",
  "url": "https://huggingface.co/RecursiveSI/flint",
  "source": "huggingface",
@@ -57,11 +63,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-21T14:20:58.000Z",
- "last_seen": "2026-10-22T21:32:13.587352+00:00",
- "last_why": "+244 likes/day pace right now (511 total).",
+ "last_seen": "2026-10-23T00:05:47.368438+00:00",
+ "last_why": "+206 likes/day pace right now (533 total).",
  "extra": {
   "downloads": 420,
-  "trending": 503,
+  "trending": 525,
   "hf_type": "model",
   "title": null,
   "summary": null,
@@ -69,6 +75,7 @@
  },
  "days": [
   "2026-10-21",
-  "2026-10-22"
+  "2026-10-22",
+  "2026-10-23"
  ]
 }
