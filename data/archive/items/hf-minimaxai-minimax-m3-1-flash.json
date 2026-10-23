@@ -20,9 +20,15 @@
    "score": 95.6,
    "metric": 214,
    "t": "2026-10-23T15:35:36.089109+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.5,
+   "metric": 214,
+   "t": "2026-10-23T15:40:20.483191+00:00"
   }
  ],
- "peak_score": 95.7,
+ "peak_score": 96.5,
  "best_rank": 4,
  "name": "MiniMaxAI/MiniMax-M3.1-Flash",
  "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
@@ -33,8 +39,8 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-17T06:37:50.000Z",
- "last_seen": "2026-10-23T15:35:36.089109+00:00",
- "last_why": "+123 likes/day pace right now (214 total).",
+ "last_seen": "2026-10-23T15:40:20.483191+00:00",
+ "last_why": "+116 likes/day pace right now (214 total).",
  "extra": {
   "downloads": 1096,
   "trending": 208,

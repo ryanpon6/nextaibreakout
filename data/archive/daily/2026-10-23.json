@@ -5,7 +5,8 @@
   "2026-10-23T04:44:12.791128+00:00",
   "2026-10-23T09:35:41.543750+00:00",
   "2026-10-23T14:13:25.556714+00:00",
-  "2026-10-23T15:35:36.089109+00:00"
+  "2026-10-23T15:35:36.089109+00:00",
+  "2026-10-23T15:40:20.483191+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -18,20 +19,20 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1904,
-    "trending": 624,
+    "trending": 625,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+228 likes/day pace right now (637 total).",
-   "metric_at_peak": 637,
+   "why_at_peak": "+249 likes/day pace right now (639 total).",
+   "metric_at_peak": 639,
    "metric_name": "likes"
   },
   "gh-reacher-z-awesome-rea": {
@@ -86,12 +87,12 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 537,
+    "comments": 539,
     "hn": "https://news.ycombinator.com/item?id=50197313"
    },
    "why_at_peak": "+544 points/day pace right now (524 total).",
@@ -264,8 +265,8 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 91.5,
    "best_rank": 9,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -316,8 +317,8 @@
    "first_seen": "2026-10-23T04:44:12.791128+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
@@ -504,10 +505,10 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-23T09:35:41.543750+00:00",
-   "peak_score": 95.7,
+   "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
@@ -518,8 +519,8 @@
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+254 likes/day pace right now (207 total).",
-   "metric_at_peak": 207,
+   "why_at_peak": "+116 likes/day pace right now (214 total).",
+   "metric_at_peak": 214,
    "metric_name": "likes"
   },
   "gh-entelligence-ai-agentplay": {
@@ -600,10 +601,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-23T09:35:41.543750+00:00",
-   "peak_score": 94.0,
-   "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "peak_score": 95.6,
+   "best_rank": 5,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
@@ -633,8 +634,8 @@
     ],
     "repo_id": 1389011744
    },
-   "why_at_peak": "+631 stars/day pace right now (6.0K total).",
-   "metric_at_peak": 6031,
+   "why_at_peak": "+646 stars/day pace right now (6.0K total).",
+   "metric_at_peak": 6034,
    "metric_name": "stars"
   },
   "hn-50207405-swedish-government-offices-to-ban-chatgpt-and-clau": {
@@ -647,16 +648,16 @@
    "first_seen": "2026-10-23T14:13:25.556714+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 94,
+    "comments": 98,
     "hn": "https://news.ycombinator.com/item?id=50207405"
    },
-   "why_at_peak": "+1.6K points/day pace right now (279 total).",
-   "metric_at_peak": 279,
+   "why_at_peak": "+1.6K points/day pace right now (284 total).",
+   "metric_at_peak": 284,
    "metric_name": "points"
   },
   "hf-linoyts-ltx2-19b-distilled-faceswap-v3": {
@@ -770,20 +771,20 @@
    "first_seen": "2026-10-23T15:35:36.089109+00:00",
    "peak_score": 94.8,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 534837,
-    "trending": 667,
+    "trending": 666,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+263 likes/day pace right now (1.4K total).",
-   "metric_at_peak": 1371,
+   "why_at_peak": "+265 likes/day pace right now (1.4K total).",
+   "metric_at_peak": 1372,
    "metric_name": "likes"
   },
   "gh-ebony-vinyl-dsh-our-free-model": {
@@ -796,8 +797,8 @@
    "first_seen": "2026-10-23T15:35:36.089109+00:00",
    "peak_score": 93.2,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-23T15:35:36.089109+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
    "what": "\u5728 dsh \u91cc\u88c5\u4e0a\u8fd9\u4e2a\u63d2\u4ef6\u5373\u53ef\uff0c\u65e0\u9700\u767b\u5f55\u3001\u6ce8\u518c\u6216\u586b API Key\uff0c\u5c31\u80fd\u4f7f\u7528\u5305\u62ec DeepSeek V4.1 Flash\u3001Kimi K3 \u5728\u5185\u7684\u524d\u6cbf\u6a21\u578b\u2014\u2014\u5b8c\u5168\u514d\u8d39\uff0c\u4e0d\u9650\u91cf\u3002 All you do is install this plugin in dsh: no login,\u2026",
    "tag": "agents",
    "extra": {
@@ -817,8 +818,46 @@
     ],
     "repo_id": 1385896447
    },
-   "why_at_peak": "+3.2K stars/day pace right now (38.8K total).",
-   "metric_at_peak": 38770,
+   "why_at_peak": "+3.1K stars/day pace right now (38.8K total).",
+   "metric_at_peak": 38777,
+   "metric_name": "stars"
+  },
+  "gh-zgcagi-harness-rsi": {
+   "id": "gh:zgcagi/Harness-RSI",
+   "slug": "gh-zgcagi-harness-rsi",
+   "name": "zgcagi/Harness-RSI",
+   "url": "https://github.com/zgcagi/Harness-RSI",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-23T15:40:20.483191+00:00",
+   "peak_score": 94.0,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T15:40:20.483191+00:00",
+   "what": "Harness self-evolution: update targets, theory, evaluation, and reported evidence. Bilingual reading list and project website.",
+   "tag": "agents",
+   "extra": {
+    "forks": 6,
+    "lang": "TeX",
+    "topics": [
+     "agent-evaluation",
+     "agent-harness",
+     "agent-memory",
+     "agent-skills",
+     "awesome",
+     "awesome-list",
+     "llm",
+     "llm-agents",
+     "paper-list",
+     "prompt-optimization",
+     "recursive-self-improvement",
+     "self-evolving-agents",
+     "survey"
+    ],
+    "repo_id": 1400009846
+   },
+   "why_at_peak": "+116 stars/day pace right now (394 total).",
+   "metric_at_peak": 394,
    "metric_name": "stars"
   }
  }
