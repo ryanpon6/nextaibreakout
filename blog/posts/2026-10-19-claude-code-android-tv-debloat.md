@@ -4,7 +4,7 @@ description: "People are using Claude Code to disable bloat and home-screen ad r
 date: 2026-10-19
 status: published
 slug: claude-code-android-tv-debloat
-seo_title: "Claude Code Android TV Debloat: cleanyourtv Explained"
+seo_title: "cleanyourtv: Debloat Android TV With Claude Code"
 seo_description: "How people use Claude Code and the cleanyourtv repo to debloat Android and Google smart TVs over ADB: what it does, what it doesn't, and how to do it safely."
 keywords: "Claude Code, Android TV, Google TV, debloat, smart TV, ADB, cleanyourtv"
 ---

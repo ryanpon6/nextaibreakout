@@ -266,3 +266,6 @@ main{padding:0 18px 32px}.top{padding:16px 18px 12px;gap:10px}.brand{gap:9px}.br
 .stats b{font-size:26px}
 .gbhome,.gbx{padding:0 18px}
 footer{padding:24px 18px 36px;margin-top:56px}}
+
+/* H1s (repo names carry <wbr> after "/"): wrap at word/slash breaks; break inside a word only if one segment still overflows */
+main h1{overflow-wrap:break-word;hyphens:manual}

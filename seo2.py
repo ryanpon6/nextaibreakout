@@ -1,6 +1,7 @@
 """SEO2 layer (enabled only with SEO2=1): keyword titles, JSON-LD, /about fixes, robots/llms, self-hosted fonts,
 contrast/heading fixes, daily archive pages and permanent per-item pages. Uses only real recorded data."""
 import datetime as dt, glob, json, os, re, shutil
+from zoneinfo import ZoneInfo
 from urllib.parse import quote
 import build as B
 from common import DATA, ROOT, SNAP, canon, aliases
@@ -234,13 +235,16 @@ def apply(DIST, d, t):
         rows = "".join(f"<tr><td class='dim'>{fmt_t(a['t'])}</td><td>#{a['rank']}</td><td>{a['score']:.0f}</td><td>{B.e(str(a['metric']))}</td></tr>" for a in reversed(I["appearances"][-48:]))
         dlinks = ", ".join(f'<a href="/daily/{x}/">{x}</a>' for x in reversed(I.get("days", [])))
         kind = {"github": "trending AI repo", "npm": "trending AI package", "pypi": "trending AI package", "hackernews": "trending AI story"}.get(I["source"], "trending AI Space" if badge(I) == "HF Space" else "trending AI model")
-        title = B.seo_title(f"{I['name']}: {kind}") if len(I['name']) <= 40 else B.seo_title(I['name'])
+        if I["source"] == "github":  # exact owner/repo first; never trim it
+            title = next(x for x in (f"{I['name']}: trending GitHub AI repo | {B.BRAND}", f"{I['name']}: trending GitHub AI repo", f"{I['name']}: trending AI repo", I['name']) if len(x) <= 60 or x == I['name'])
+        else:
+            title = B.seo_title(f"{I['name']}: {kind}") if len(I['name']) <= 40 else B.seo_title(I['name'])
         desc = B.fit(f"{I['name'][:80]} ({badge(I)}) reached #{I['best_rank']} on NextAiBreakout's hourly AI ranking. Real {I['metric_name']} history and top-10 runs.", 155)
         enough = len(hist) >= 3 and max(hist) != min(hist)
         chart = (f'<div class="item-spark">{B.spark(hist, 720, 120, B.GOLD, True)}</div>' if enough else
                  f'<div class="item-spark wait"><p>The history chart appears once this item has 3 hourly snapshots. {plural(len(hist), "snapshot")} recorded so far.</p></div>')
         page = B.head(title, desc, path, "/", ld(item_schema(Iv, path))) + f"""<main><section class="labs-hero">
-<h1>{e(I['name'])}</h1><p class="dim">{e(desc_of(I))}</p>
+<h1>{e(I['name']).replace("/", "/<wbr>")}</h1><p class="dim">{e(desc_of(I))}</p>
 <div class="btns"><a class="btn pri" href="{e(I['url'])}" rel="nofollow noopener" target="_blank">Open on {B.LABEL[I['source']]}</a><a class="btn share" href="https://x.com/intent/tweet?text={quote(I['name'][:120] + ' is breaking out on NextAiBreakout')}&amp;url={quote(SITE + path)}&amp;via={B.X_HANDLE[1:]}" rel="noopener" target="_blank">Share on X</a></div></section>
 <section class="stats"><div><span>Best rank</span><b>#{I['best_rank']}</b></div><div><span>Peak score</span><b>{I['peak_score']:.0f}</b></div>
 <div><span>Hours in top 10</span><b>{len(I['appearances'])}</b></div><div><span>First seen</span><b class="fs">{fmt_t(I['first_seen'])[:12]}</b></div></section>
@@ -278,9 +282,21 @@ def apply(DIST, d, t):
     # ---- sitemap, robots, llms
     urls = [("/", "hourly"), ("/about", "monthly"), ("/daily/", "daily")] + [(f"/daily/{x}/", "daily" if x == latest else "monthly") for x in ds] + [(ipath(items[s]), "daily") for s in sorted(items)] + [("/breakouts/", "daily")] + [(f"/{c[0]}/", "hourly") for c in CATS]
     if B.LABS: urls += [(p, "hourly") for p in ["/labs/"] + [f"/labs/{l['slug']}/" for l in B._labs()[0]]]
-    day = t.strftime("%Y-%m-%d")
+    # lastmod = the page's real content date, never the build date; pages without one get no <lastmod>
+    _mt = lambda ts: dt.datetime.fromisoformat(ts.replace("Z", "+00:00")).astimezone(ZoneInfo("America/Edmonton")).strftime("%Y-%m-%d") if len(ts) > 10 else ts[:10]  # MT calendar day
+    gen = _mt(d["generated"])
+    mod = {"/": gen, "/daily/": gen, "/breakouts/": gen, **{f"/{c[0]}/": gen for c in CATS}}
+    for x in ds: mod[f"/daily/{x}/"] = _mt(days[x]["runs"][-1] if days[x].get("runs") else x)
+    for s_ in items: mod[ipath(items[s_])] = _mt(items[s_].get("last_seen") or items[s_].get("first_seen") or "") or None
+    if B.LABS:
+        _cfg, _ld = B._labs(); _all = []
+        for l in _cfg:
+            ds_ = [it["day"] for it in _ld.get("labs", {}).get(l["slug"], {}).get("items", []) if it.get("day")]
+            if ds_: mod[f"/labs/{l['slug']}/"] = max(ds_); _all.append(max(ds_))
+        if _all: mod["/labs/"] = max(_all)
+    lm = lambda p: f"<lastmod>{mod[p]}</lastmod>" if mod.get(p) else ""
     open(os.path.join(DIST, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        + "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{day}</lastmod><changefreq>{c}</changefreq></url>" for p, c in urls) + "</urlset>\n")
+        + "".join(f"<url><loc>{SITE}{p}</loc>{lm(p)}<changefreq>{c}</changefreq></url>" for p, c in urls) + "</urlset>\n")
     open(os.path.join(DIST, "robots.txt"), "w").write("# Search engines and AI assistants are welcome to crawl, cite and link to NextAiBreakout.\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_BOTS) + "User-agent: *\nAllow: /\n\n" + f"Sitemap: {SITE}/sitemap.xml\n")
     lp = os.path.join(DIST, "llms.txt"); L = open(lp).read().replace(f"{SITE}/about.html", f"{SITE}/about")
