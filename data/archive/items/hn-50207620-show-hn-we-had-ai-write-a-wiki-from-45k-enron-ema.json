@@ -8,10 +8,16 @@
    "score": 96.5,
    "metric": 47,
    "t": "2026-10-23T17:46:10.824646+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 53,
+   "t": "2026-10-23T20:16:07.876917+00:00"
   }
  ],
- "peak_score": 96.5,
- "best_rank": 4,
+ "peak_score": 97.3,
+ "best_rank": 3,
  "name": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
  "url": "https://www.thisandthat.chat/enron/",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-23T12:02:53Z",
- "last_seen": "2026-10-23T17:46:10.824646+00:00",
- "last_why": "+328 points/day pace right now (47 total).",
+ "last_seen": "2026-10-23T20:16:07.876917+00:00",
+ "last_why": "+96 points/day pace right now (53 total).",
  "extra": {
-  "comments": 46,
+  "comments": 51,
   "hn": "https://news.ycombinator.com/item?id=50207620"
  },
  "days": [
