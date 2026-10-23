@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T15:41:00.566888+00:00",
+ "generated": "2026-10-23T16:32:15.863738+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,10 +129,21 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-23T15:41:00.566888+00:00"
+   "fetched": "2026-10-23T16:32:15.863738+00:00"
   },
   "tesla-ai": {
    "items": [
+    {
+     "title": "Tesla Cancels Cybertruck in Australia and New Zealand",
+     "url": "https://www.notateslaapp.com/news/4883/tesla-cancels-cybertruck-in-australia-and-new-zealand",
+     "date": "2026-10-23T16:26:00+00:00",
+     "day": "2026-10-23",
+     "summary": "Cybertruck won\u2019t come to Australia or New Zealand after seven years of reservations, but holders get a refund and one free year of FSD on another purchase Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
     {
      "title": "Tesla to Launch Unsupervised FSD, Let Owners Join Robotaxi Network in Q2 2027",
      "url": "https://www.notateslaapp.com/news/4879/tesla-to-launch-unsupervised-fsd-let-owners-join-robotaxi-network-in-q2-2027",
@@ -231,17 +242,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Why the New Tesla Roadster Won\u2019t Get Full FSD",
-     "url": "https://www.notateslaapp.com/news/4842/why-the-new-tesla-roadster-wont-get-full-fsd",
-     "date": "2026-10-17T15:00:00+00:00",
-     "day": "2026-10-17",
-     "summary": "The new Tesla Roadster has the cameras for FSD, but its design and expected low sales mean owners will only get a limited version of the software Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -268,10 +268,23 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-23T15:41:00.566888+00:00"
+   "fetched": "2026-10-23T16:32:15.863738+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+     "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+     "date": "2026-10-23T17:00:00+00:00",
+     "day": "2026-10-23",
+     "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12\u00d7 faster reads for ChatGPT.",
+     "categories": [
+      "Engineering"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Codex CLI 0.164.0",
      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
@@ -385,19 +398,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Sharing AI progress in mathematics",
-     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-     "date": "2026-10-06T12:00:00+00:00",
-     "day": "2026-10-06",
-     "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-     "categories": [
-      "Research"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -407,7 +407,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1316
+     "raw": 1317
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T15:41:00.566888+00:00"
+   "fetched": "2026-10-23T16:32:15.863738+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T15:41:00.566888+00:00"
+   "fetched": "2026-10-23T16:32:15.863738+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -661,9 +661,9 @@
      "name": "Google DeepMind Blog RSS",
      "url": "https://deepmind.google/blog/rss.xml",
      "status": "provisional",
-     "ok": false,
-     "error": "ValueError: feed returned 0 items",
-     "stale_kept": 10
+     "ok": true,
+     "count": 10,
+     "raw": 100
     },
     {
      "name": "Google AI Blog RSS",
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T15:41:00.566888+00:00"
+   "fetched": "2026-10-23T16:32:15.863738+00:00"
   },
   "meta": {
    "items": [
@@ -793,7 +793,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-23T15:41:00.566888+00:00"
+   "fetched": "2026-10-23T16:32:15.863738+00:00"
   }
  }
 }
