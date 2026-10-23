@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+ "slug": "hf-unsloth-deepseek-v4-1-flash-1017-gguf",
+ "first_seen": "2026-10-23T04:44:12.791128+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.7,
+   "metric": 128,
+   "t": "2026-10-23T04:44:12.791128+00:00"
+  }
+ ],
+ "peak_score": 95.7,
+ "best_rank": 4,
+ "name": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+ "url": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-17T20:36:06.000Z",
+ "last_seen": "2026-10-23T04:44:12.791128+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 128 likes, 24.7K downloads.",
+ "extra": {
+  "downloads": 24733,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

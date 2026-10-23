@@ -8,6 +8,12 @@
    "score": 94.2,
    "metric": 509,
    "t": "2026-10-16T18:35:01.986511+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.5,
+   "metric": 1334,
+   "t": "2026-10-23T04:44:12.791128+00:00"
   }
  ],
  "peak_score": 94.2,
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-29T11:53:37Z",
- "last_seen": "2026-10-16T18:35:01.986511+00:00",
- "last_why": "+121 stars/day pace right now (509 total).",
+ "last_seen": "2026-10-23T04:44:12.791128+00:00",
+ "last_why": "+605 stars/day pace right now (1.3K total).",
  "extra": {
-  "forks": 49,
+  "forks": 115,
   "lang": "Python",
   "topics": [
    "agents",
@@ -39,9 +45,11 @@
    "open-weights",
    "reasoning",
    "vllm"
-  ]
+  ],
+  "repo_id": 1395116154
  },
  "days": [
-  "2026-10-16"
+  "2026-10-16",
+  "2026-10-23"
  ]
 }

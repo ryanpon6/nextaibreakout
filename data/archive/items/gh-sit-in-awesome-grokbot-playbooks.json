@@ -1,0 +1,46 @@
+{
+ "id": "gh:sit-in/awesome-grokbot-playbooks",
+ "slug": "gh-sit-in-awesome-grokbot-playbooks",
+ "first_seen": "2026-10-23T04:44:12.791128+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.9,
+   "metric": 352,
+   "t": "2026-10-23T04:44:12.791128+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 5,
+ "name": "sit-in/awesome-grokbot-playbooks",
+ "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u4e2d\u6587 Grok Bot \u73a9\u6cd5\u4e0e\u53ef\u6284\u914d\u65b9\u6e05\u5355\uff1a\u4f5c\u6218\u5ba4\u3001\u96f7\u8fbe Routine\u3001\u989d\u5ea6\u4f53\u68c0\u2026 \u7531 Grok Bot + Claude \u534f\u4f5c\u7ef4\u62a4 | Chinese-first Grok Bot playbooks",
+ "what": "\u4e2d\u6587 Grok Bot \u73a9\u6cd5\u4e0e\u53ef\u6284\u914d\u65b9\u6e05\u5355\uff1a\u4f5c\u6218\u5ba4\u3001\u96f7\u8fbe Routine\u3001\u989d\u5ea6\u4f53\u68c0\u2026 \u7531 Grok Bot + Claude \u534f\u4f5c\u7ef4\u62a4 | Chinese-first Grok Bot playbooks",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-17T15:47:00Z",
+ "last_seen": "2026-10-23T04:44:12.791128+00:00",
+ "last_why": "352 stars since launch 6 days ago \u2248 64 stars/day since launch.",
+ "extra": {
+  "forks": 39,
+  "lang": "HTML",
+  "topics": [
+   "ai-agents",
+   "awesome",
+   "awesome-list",
+   "chinese",
+   "grok",
+   "grok-bot",
+   "multi-agent",
+   "playbooks",
+   "prompts",
+   "xai"
+  ],
+  "repo_id": 1423486389
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

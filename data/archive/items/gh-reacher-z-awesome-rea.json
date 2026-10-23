@@ -8,6 +8,12 @@
    "score": 95.8,
    "metric": 200,
    "t": "2026-10-23T00:05:47.368438+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.3,
+   "metric": 213,
+   "t": "2026-10-23T04:44:12.791128+00:00"
   }
  ],
  "peak_score": 95.8,
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-16T00:42:04Z",
- "last_seen": "2026-10-23T00:05:47.368438+00:00",
- "last_why": "200 stars since launch 7 days ago \u2248 29 stars/day since launch.",
+ "last_seen": "2026-10-23T04:44:12.791128+00:00",
+ "last_why": "213 stars since launch 7 days ago \u2248 30 stars/day since launch.",
  "extra": {
   "forks": 123,
   "lang": "Python",

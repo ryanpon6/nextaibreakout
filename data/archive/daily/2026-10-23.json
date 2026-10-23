@@ -1,7 +1,8 @@
 {
  "day": "2026-10-23",
  "runs": [
-  "2026-10-23T00:05:47.368438+00:00"
+  "2026-10-23T00:05:47.368438+00:00",
+  "2026-10-23T04:44:12.791128+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -14,20 +15,20 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-23T00:05:47.368438+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 420,
-    "trending": 525,
+    "trending": 554,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+206 likes/day pace right now (533 total).",
-   "metric_at_peak": 533,
+   "why_at_peak": "+166 likes/day pace right now (565 total).",
+   "metric_at_peak": 565,
    "metric_name": "likes"
   },
   "gh-reacher-z-awesome-rea": {
@@ -40,8 +41,8 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 95.8,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-23T00:05:47.368438+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
    "what": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and\u2026",
    "tag": "agents",
    "extra": {
@@ -80,18 +81,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
-   "peak_score": 95.0,
+   "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-23T00:05:47.368438+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 247,
+    "comments": 344,
     "hn": "https://news.ycombinator.com/item?id=50197313"
    },
-   "why_at_peak": "+1.1K points/day pace right now (204 total).",
-   "metric_at_peak": 204,
+   "why_at_peak": "+476 points/day pace right now (296 total).",
+   "metric_at_peak": 296,
    "metric_name": "points"
   },
   "hf-pyannote-speaker-diarization-community-1": {
@@ -260,8 +261,8 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 89.6,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-23T00:05:47.368438+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -301,6 +302,174 @@
    "why_at_peak": "5.5M downloads yesterday, 1.36\u00d7 its 7-day average.",
    "metric_at_peak": 5476113,
    "metric_name": "downloads/day"
+  },
+  "hn-50202217-llms-are-making-formal-software-verification-feasi": {
+   "id": "hn:50202217",
+   "slug": "hn-50202217-llms-are-making-formal-software-verification-feasi",
+   "name": "LLMs are making formal software verification feasible at a much larger scale",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-23T04:44:12.791128+00:00",
+   "peak_score": 97.4,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 117,
+    "hn": "https://news.ycombinator.com/item?id=50202217"
+   },
+   "why_at_peak": "+983 points/day pace right now (209 total).",
+   "metric_at_peak": 209,
+   "metric_name": "points"
+  },
+  "hf-unsloth-deepseek-v4-1-flash-1017-gguf": {
+   "id": "hfmodel:unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "slug": "hf-unsloth-deepseek-v4-1-flash-1017-gguf",
+   "name": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "url": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-23T04:44:12.791128+00:00",
+   "peak_score": 95.7,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 24733,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 128 likes, 24.7K downloads.",
+   "metric_at_peak": 128,
+   "metric_name": "likes"
+  },
+  "gh-sit-in-awesome-grokbot-playbooks": {
+   "id": "gh:sit-in/awesome-grokbot-playbooks",
+   "slug": "gh-sit-in-awesome-grokbot-playbooks",
+   "name": "sit-in/awesome-grokbot-playbooks",
+   "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-23T04:44:12.791128+00:00",
+   "peak_score": 94.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
+   "what": "\u4e2d\u6587 Grok Bot \u73a9\u6cd5\u4e0e\u53ef\u6284\u914d\u65b9\u6e05\u5355\uff1a\u4f5c\u6218\u5ba4\u3001\u96f7\u8fbe Routine\u3001\u989d\u5ea6\u4f53\u68c0\u2026 \u7531 Grok Bot + Claude \u534f\u4f5c\u7ef4\u62a4 | Chinese-first Grok Bot playbooks",
+   "tag": "agents",
+   "extra": {
+    "forks": 39,
+    "lang": "HTML",
+    "topics": [
+     "ai-agents",
+     "awesome",
+     "awesome-list",
+     "chinese",
+     "grok",
+     "grok-bot",
+     "multi-agent",
+     "playbooks",
+     "prompts",
+     "xai"
+    ],
+    "repo_id": 1423486389
+   },
+   "why_at_peak": "352 stars since launch 6 days ago \u2248 64 stars/day since launch.",
+   "metric_at_peak": 352,
+   "metric_name": "stars"
+  },
+  "hn-50200843-most-americans-say-ai-is-bad-for-society-oppose-m": {
+   "id": "hn:50200843",
+   "slug": "hn-50200843-most-americans-say-ai-is-bad-for-society-oppose-m",
+   "name": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+   "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-23T04:44:12.791128+00:00",
+   "peak_score": 94.1,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 45,
+    "hn": "https://news.ycombinator.com/item?id=50200843"
+   },
+   "why_at_peak": "+166 points/day pace right now (69 total).",
+   "metric_at_peak": 69,
+   "metric_name": "points"
+  },
+  "gh-startluxlabs-startlux-decision": {
+   "id": "gh:StartLuxLabs/StartLux-Decision",
+   "slug": "gh-startluxlabs-startlux-decision",
+   "name": "StartLuxLabs/StartLux-Decision",
+   "url": "https://github.com/StartLuxLabs/StartLux-Decision",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-23T04:44:12.791128+00:00",
+   "peak_score": 92.5,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
+   "what": "Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 115,
+    "lang": "Python",
+    "topics": [
+     "agents",
+     "calibration",
+     "classification",
+     "decision-making",
+     "gguf",
+     "inference",
+     "llama-cpp",
+     "llm",
+     "mlx",
+     "open-weights",
+     "reasoning",
+     "vllm"
+    ],
+    "repo_id": 1395116154
+   },
+   "why_at_peak": "+605 stars/day pace right now (1.3K total).",
+   "metric_at_peak": 1334,
+   "metric_name": "stars"
+  },
+  "hf-xhtoken-spark-x2-6-4b": {
+   "id": "hfmodel:XHToken/Spark-X2.6-4B",
+   "slug": "hf-xhtoken-spark-x2-6-4b",
+   "name": "XHToken/Spark-X2.6-4B",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-23T04:44:12.791128+00:00",
+   "peak_score": 91.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T04:44:12.791128+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 482,
+    "trending": 249,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+103 likes/day pace right now (267 total).",
+   "metric_at_peak": 267,
+   "metric_name": "likes"
   }
  }
 }

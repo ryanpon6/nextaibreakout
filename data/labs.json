@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T00:06:34.268280+00:00",
+ "generated": "2026-10-23T04:44:54.688139+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-23T00:06:34.268280+00:00"
+   "fetched": "2026-10-23T04:44:54.688139+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,10 +268,20 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-23T00:06:34.268280+00:00"
+   "fetched": "2026-10-23T04:44:54.688139+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "Codex CLI v0.164.0",
+     "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+     "date": "2026-10-23T03:15:13+00:00",
+     "day": "2026-10-23",
+     "summary": "",
+     "source": "GitHub: openai/codex releases",
+     "unofficial": false,
+     "prio": 1
+    },
     {
      "title": "Build more responsive apps with the Decisions API",
      "url": "https://openai.com/index/decisions-api",
@@ -388,19 +398,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Advancing computer use with Ironclad",
-     "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-     "date": "2026-10-06T10:00:00+00:00",
-     "day": "2026-10-06",
-     "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-     "categories": [
-      "Publication"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -410,18 +407,18 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1314
+     "raw": 1315
     },
     {
      "name": "GitHub: openai/codex releases",
      "url": "https://github.com/openai/codex/releases.atom",
      "status": "provisional",
      "ok": true,
-     "count": 0,
+     "count": 1,
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T00:06:34.268280+00:00"
+   "fetched": "2026-10-23T04:44:54.688139+00:00"
   },
   "anthropic": {
    "items": [
@@ -544,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T00:06:34.268280+00:00"
+   "fetched": "2026-10-23T04:44:54.688139+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -685,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T00:06:34.268280+00:00"
+   "fetched": "2026-10-23T04:44:54.688139+00:00"
   },
   "meta": {
    "items": [
@@ -796,7 +793,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-23T00:06:34.268280+00:00"
+   "fetched": "2026-10-23T04:44:54.688139+00:00"
   }
  }
 }

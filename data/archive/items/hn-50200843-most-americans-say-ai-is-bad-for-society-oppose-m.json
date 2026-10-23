@@ -1,0 +1,33 @@
+{
+ "id": "hn:50200843",
+ "slug": "hn-50200843-most-americans-say-ai-is-bad-for-society-oppose-m",
+ "first_seen": "2026-10-23T04:44:12.791128+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.1,
+   "metric": 69,
+   "t": "2026-10-23T04:44:12.791128+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 6,
+ "name": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+ "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-22T20:51:23Z",
+ "last_seen": "2026-10-23T04:44:12.791128+00:00",
+ "last_why": "+166 points/day pace right now (69 total).",
+ "extra": {
+  "comments": 45,
+  "hn": "https://news.ycombinator.com/item?id=50200843"
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}
