@@ -11,7 +11,8 @@
   "2026-10-23T17:46:10.824646+00:00",
   "2026-10-23T19:01:09.281449+00:00",
   "2026-10-23T20:16:07.876917+00:00",
-  "2026-10-23T21:31:07.732294+00:00"
+  "2026-10-23T21:31:07.732294+00:00",
+  "2026-10-23T22:46:06.393563+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -24,13 +25,13 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-23T21:31:07.732294+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1904,
-    "trending": 653,
+    "trending": 656,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -50,12 +51,12 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 95.8,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-23T21:31:07.732294+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 128,
+    "forks": 129,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -92,12 +93,12 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-23T21:31:07.732294+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 588,
+    "comments": 591,
     "hn": "https://news.ycombinator.com/item?id=50197313"
    },
    "why_at_peak": "+366 points/day pace right now (600 total).",
@@ -222,13 +223,13 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 91.9,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-23T16:31:27.597165+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 33277,
-    "trending": 175,
+    "trending": 186,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -270,8 +271,8 @@
    "first_seen": "2026-10-23T00:05:47.368438+00:00",
    "peak_score": 92.5,
    "best_rank": 5,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-23T21:31:07.732294+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -512,13 +513,13 @@
    "first_seen": "2026-10-23T09:35:41.543750+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-23T21:31:07.732294+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1096,
-    "trending": 240,
+    "trending": 245,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -653,12 +654,12 @@
    "first_seen": "2026-10-23T14:13:25.556714+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-23T19:01:09.281449+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 113,
+    "comments": 114,
     "hn": "https://news.ycombinator.com/item?id=50207405"
    },
    "why_at_peak": "+1.6K points/day pace right now (284 total).",
@@ -981,8 +982,8 @@
    "first_seen": "2026-10-23T17:46:10.824646+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-23T20:16:07.876917+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "Pi, the coding agent, compiled ahead of time to one native executable. 10\u00d7 faster to start, 7\u00d7 less CPU and 4.5\u00d7 less memory than Pi on\u2026",
    "tag": "agents",
    "extra": {
@@ -1011,8 +1012,8 @@
     ],
     "repo_id": 1402211512
    },
-   "why_at_peak": "+211 stars/day pace right now (433 total).",
-   "metric_at_peak": 433,
+   "why_at_peak": "+173 stars/day pace right now (451 total).",
+   "metric_at_peak": 451,
    "metric_name": "stars"
   },
   "gh-leonxlnx-earshot": {
@@ -1081,8 +1082,8 @@
    "first_seen": "2026-10-23T19:01:09.281449+00:00",
    "peak_score": 94.1,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-23T21:31:07.732294+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
@@ -1189,6 +1190,28 @@
    "why_at_peak": "7.1M downloads yesterday, 1.27\u00d7 its 7-day average.",
    "metric_at_peak": 7141380,
    "metric_name": "downloads/day"
+  },
+  "hn-50214416-openai-securing-our-frontier-model-training-envir": {
+   "id": "hn:50214416",
+   "slug": "hn-50214416-openai-securing-our-frontier-model-training-envir",
+   "name": "OpenAI: Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-23T22:46:06.393563+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-23T22:46:06.393563+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 48,
+    "hn": "https://news.ycombinator.com/item?id=50214416"
+   },
+   "why_at_peak": "+595 points/day pace right now (47 total).",
+   "metric_at_peak": 47,
+   "metric_name": "points"
   }
  }
 }

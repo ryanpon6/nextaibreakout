@@ -1,0 +1,33 @@
+{
+ "id": "hn:50214416",
+ "slug": "hn-50214416-openai-securing-our-frontier-model-training-envir",
+ "first_seen": "2026-10-23T22:46:06.393563+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 47,
+   "t": "2026-10-23T22:46:06.393563+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "OpenAI: Securing our frontier model training environment",
+ "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-23T19:50:56Z",
+ "last_seen": "2026-10-23T22:46:06.393563+00:00",
+ "last_why": "+595 points/day pace right now (47 total).",
+ "extra": {
+  "comments": 48,
+  "hn": "https://news.ycombinator.com/item?id=50214416"
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}
