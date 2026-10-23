@@ -1,0 +1,47 @@
+{
+ "id": "gh:DozenTwelve/Papermorph",
+ "slug": "gh-dozentwelve-papermorph",
+ "first_seen": "2026-10-23T14:13:25.556714+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.0,
+   "metric": 842,
+   "t": "2026-10-23T14:13:25.556714+00:00"
+  }
+ ],
+ "peak_score": 94.0,
+ "best_rank": 7,
+ "name": "DozenTwelve/Papermorph",
+ "url": "https://github.com/DozenTwelve/Papermorph",
+ "source": "github",
+ "kind": "tool",
+ "desc": "An AI skill that turns books into animated, narrated, interactive web experiences",
+ "what": "An AI skill that turns books into animated, narrated, interactive web experiences",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-03T01:38:22Z",
+ "last_seen": "2026-10-23T14:13:25.556714+00:00",
+ "last_why": "842 stars since launch 21 days ago \u2248 41 stars/day since launch.",
+ "extra": {
+  "forks": 119,
+  "lang": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "ai-education",
+   "animation",
+   "claude",
+   "claude-code",
+   "claude-skills",
+   "edtech",
+   "education",
+   "interactive-textbook",
+   "scorm",
+   "text-to-video"
+  ],
+  "repo_id": 1402525166
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

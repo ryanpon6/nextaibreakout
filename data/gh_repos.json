@@ -257,7 +257,8 @@
   "1423486389": "sit-in/awesome-grokbot-playbooks",
   "1426942815": "niuniu-869/humanitys-last-math-book",
   "1418643214": "Entelligence-AI/agentplay",
-  "1392605506": "Han-DongHeun/nvmon"
+  "1392605506": "Han-DongHeun/nvmon",
+  "1402525166": "DozenTwelve/Papermorph"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -267,7 +268,8 @@
   "jddevtime/open-lakehouse-compute-fabric": 1792615676.1905878,
   "amontlabs/lcu": 1792730667.960989,
   "zgcagi/Harness-RSI": 1792655876.129082,
-  "LiCinCan/blender-ai-mcp-addon": 1792675317.9175246,
-  "nano-muse/nanoMuse": 1792713962.9569545
+  "LiCinCan/blender-ai-mcp-addon": 1792764824.0909247,
+  "nano-muse/nanoMuse": 1792713962.9569545,
+  "sit-in/awesome-grokbot-playbooks": 1792764824.0909247
  }
 }

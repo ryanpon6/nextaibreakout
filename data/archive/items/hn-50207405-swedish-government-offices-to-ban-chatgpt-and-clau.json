@@ -1,0 +1,33 @@
+{
+ "id": "hn:50207405",
+ "slug": "hn-50207405-swedish-government-offices-to-ban-chatgpt-and-clau",
+ "first_seen": "2026-10-23T14:13:25.556714+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 186,
+   "t": "2026-10-23T14:13:25.556714+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Swedish government offices to ban ChatGPT and Claude",
+ "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-23T11:39:54Z",
+ "last_seen": "2026-10-23T14:13:25.556714+00:00",
+ "last_why": "186 points in 3h on Hacker News (78 comments).",
+ "extra": {
+  "comments": 78,
+  "hn": "https://news.ycombinator.com/item?id=50207405"
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}

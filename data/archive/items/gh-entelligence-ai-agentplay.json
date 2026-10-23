@@ -8,6 +8,12 @@
    "score": 94.0,
    "metric": 293,
    "t": "2026-10-23T09:35:41.543750+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.2,
+   "metric": 293,
+   "t": "2026-10-23T14:13:25.556714+00:00"
   }
  ],
  "peak_score": 94.0,
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T09:06:49Z",
- "last_seen": "2026-10-23T09:35:41.543750+00:00",
+ "last_seen": "2026-10-23T14:13:25.556714+00:00",
  "last_why": "293 stars since launch 9 days ago \u2248 32 stars/day since launch.",
  "extra": {
-  "forks": 22,
+  "forks": 23,
   "lang": "Python",
   "topics": [
    "agent-observability",

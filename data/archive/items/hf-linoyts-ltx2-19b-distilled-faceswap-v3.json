@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:linoyts/ltx2-19b-distilled-faceswap-v3",
+ "slug": "hf-linoyts-ltx2-19b-distilled-faceswap-v3",
+ "first_seen": "2026-10-23T14:13:25.556714+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.5,
+   "metric": 136,
+   "t": "2026-10-23T14:13:25.556714+00:00"
+  }
+ ],
+ "peak_score": 96.5,
+ "best_rank": 4,
+ "name": "linoyts/ltx2-19b-distilled-faceswap-v3",
+ "url": "https://huggingface.co/linoyts/ltx2-19b-distilled-faceswap-v3",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-03-03T10:10:42.000Z",
+ "last_seen": "2026-10-23T14:13:25.556714+00:00",
+ "last_why": "Trending score 135 on Hugging Face; 136 likes, 63 downloads.",
+ "extra": {
+  "downloads": 63,
+  "trending": 135,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-23"
+ ]
+}
