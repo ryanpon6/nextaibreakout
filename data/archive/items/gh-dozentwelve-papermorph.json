@@ -8,10 +8,16 @@
    "score": 94.0,
    "metric": 842,
    "t": "2026-10-23T14:13:25.556714+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.5,
+   "metric": 843,
+   "t": "2026-10-23T15:35:36.089109+00:00"
   }
  ],
- "peak_score": 94.0,
- "best_rank": 7,
+ "peak_score": 96.5,
+ "best_rank": 4,
  "name": "DozenTwelve/Papermorph",
  "url": "https://github.com/DozenTwelve/Papermorph",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-03T01:38:22Z",
- "last_seen": "2026-10-23T14:13:25.556714+00:00",
- "last_why": "842 stars since launch 21 days ago \u2248 41 stars/day since launch.",
+ "last_seen": "2026-10-23T15:35:36.089109+00:00",
+ "last_why": "843 stars since launch 21 days ago \u2248 41 stars/day since launch.",
  "extra": {
-  "forks": 119,
+  "forks": 120,
   "lang": "JavaScript",
   "topics": [
    "ai-agents",

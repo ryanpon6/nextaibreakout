@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T14:14:14.807800+00:00",
+ "generated": "2026-10-23T15:36:27.283191+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,10 +129,21 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-23T14:14:14.807800+00:00"
+   "fetched": "2026-10-23T15:36:27.283191+00:00"
   },
   "tesla-ai": {
    "items": [
+    {
+     "title": "Tesla to Launch Unsupervised FSD, Let Owners Join Robotaxi Network in Q2 2027",
+     "url": "https://www.notateslaapp.com/news/4879/tesla-to-launch-unsupervised-fsd-let-owners-join-robotaxi-network-in-q2-2027",
+     "date": "2026-10-23T15:31:00+00:00",
+     "day": "2026-10-23",
+     "summary": "Unsupervised FSD could reach the first customer Teslas around Q2 2027, letting owners add their cars to the Robotaxi network within Tesla\u2019s geofences. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
     {
      "title": "Tesla App Update 4.62: iPad Support, FSD Referral Rewards, X Money Support and More",
      "url": "https://www.notateslaapp.com/tesla-app-updates/version/4.62.0/release-notes",
@@ -231,17 +242,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Watch Tesla FSD Clear a Path for an Ambulance at a Red Light [VIDEO]",
-     "url": "https://www.notateslaapp.com/news/4841/watch-tesla-fsd-clear-a-path-for-an-ambulance-at-a-red-light-video",
-     "date": "2026-10-16T22:14:00+00:00",
-     "day": "2026-10-16",
-     "summary": "Tesla FSD cleared a path for an ambulance from a full stop at a red light, turning across three lanes and automatically updating navigation to take a new route Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-23T14:14:14.807800+00:00"
+   "fetched": "2026-10-23T15:36:27.283191+00:00"
   },
   "openai": {
    "items": [
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T14:14:14.807800+00:00"
+   "fetched": "2026-10-23T15:36:27.283191+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T14:14:14.807800+00:00"
+   "fetched": "2026-10-23T15:36:27.283191+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -661,9 +661,9 @@
      "name": "Google DeepMind Blog RSS",
      "url": "https://deepmind.google/blog/rss.xml",
      "status": "provisional",
-     "ok": false,
-     "error": "ValueError: feed returned 0 items",
-     "stale_kept": 10
+     "ok": true,
+     "count": 10,
+     "raw": 100
     },
     {
      "name": "Google AI Blog RSS",
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T14:14:14.807800+00:00"
+   "fetched": "2026-10-23T15:36:27.283191+00:00"
   },
   "meta": {
    "items": [
@@ -793,7 +793,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-23T14:14:14.807800+00:00"
+   "fetched": "2026-10-23T15:36:27.283191+00:00"
   }
  }
 }
