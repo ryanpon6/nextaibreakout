@@ -8,10 +8,16 @@
    "score": 94.9,
    "metric": 289,
    "t": "2026-10-24T00:00:24.095764+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 292,
+   "t": "2026-10-24T09:31:06.261054+00:00"
   }
  ],
- "peak_score": 94.9,
- "best_rank": 5,
+ "peak_score": 95.5,
+ "best_rank": 4,
  "name": "init-co-jp/diff-tour",
  "url": "https://github.com/init-co-jp/diff-tour",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-10T09:19:05Z",
- "last_seen": "2026-10-24T00:00:24.095764+00:00",
- "last_why": "289 stars since launch 14 days ago \u2248 21 stars/day since launch.",
+ "last_seen": "2026-10-24T09:31:06.261054+00:00",
+ "last_why": "292 stars since launch 14 days ago \u2248 21 stars/day since launch.",
  "extra": {
-  "forks": 21,
+  "forks": 22,
   "lang": "Go",
   "topics": [
    "cli",

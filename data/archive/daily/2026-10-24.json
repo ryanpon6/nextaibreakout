@@ -8,7 +8,8 @@
   "2026-10-24T04:46:07.769161+00:00",
   "2026-10-24T06:01:07.891502+00:00",
   "2026-10-24T07:16:08.873468+00:00",
-  "2026-10-24T08:24:22.243431+00:00"
+  "2026-10-24T08:24:22.243431+00:00",
+  "2026-10-24T09:31:06.261054+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -124,14 +125,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
-   "peak_score": 94.9,
-   "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T00:00:24.095764+00:00",
+   "peak_score": 95.5,
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour.",
    "tag": "dev tools",
    "extra": {
-    "forks": 21,
+    "forks": 22,
     "lang": "Go",
     "topics": [
      "cli",
@@ -145,8 +146,8 @@
     ],
     "repo_id": 1412998022
    },
-   "why_at_peak": "289 stars since launch 14 days ago \u2248 21 stars/day since launch.",
-   "metric_at_peak": 289,
+   "why_at_peak": "292 stars since launch 14 days ago \u2248 21 stars/day since launch.",
+   "metric_at_peak": 292,
    "metric_name": "stars"
   },
   "hf-minimaxai-minimax-m3-1-flash": {
@@ -159,13 +160,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1096,
-    "trending": 267,
+    "trending": 272,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -480,8 +481,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
@@ -595,8 +596,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "Pi, the coding agent, compiled ahead of time to one native executable. 10\u00d7 faster to start, 7\u00d7 less CPU and 4.5\u00d7 less memory than Pi on\u2026",
    "tag": "agents",
    "extra": {
@@ -639,13 +640,13 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 92.2,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 57715,
-    "trending": 2197,
+    "trending": 1992,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -665,8 +666,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 69.5,
    "best_rank": 10,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -866,12 +867,12 @@
    "first_seen": "2026-10-24T04:46:07.769161+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T04:46:07.769161+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 118,
+    "comments": 119,
     "hn": "https://news.ycombinator.com/item?id=50207405"
    },
    "why_at_peak": "+21 points/day pace right now (316 total).",
@@ -1121,16 +1122,16 @@
    "first_seen": "2026-10-24T08:24:22.243431+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 10,
+    "comments": 19,
     "hn": "https://news.ycombinator.com/item?id=50218633"
    },
-   "why_at_peak": "66 points in 3h on Hacker News (10 comments).",
-   "metric_at_peak": 66,
+   "why_at_peak": "+1.0K points/day pace right now (114 total).",
+   "metric_at_peak": 114,
    "metric_name": "points"
   },
   "gh-folkbench-folkbench": {
@@ -1142,13 +1143,13 @@
    "kind": "tool",
    "first_seen": "2026-10-24T08:24:22.243431+00:00",
    "peak_score": 96.4,
-   "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
    "what": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
    "tag": "dev tools",
    "extra": {
-    "forks": 14,
+    "forks": 16,
     "lang": "Rust",
     "topics": [
      "ai",
@@ -1168,9 +1169,35 @@
     ],
     "repo_id": 1401469171
    },
-   "why_at_peak": "+1.4K stars/day pace right now (3.1K total).",
-   "metric_at_peak": 3096,
+   "why_at_peak": "+1.3K stars/day pace right now (3.2K total).",
+   "metric_at_peak": 3155,
    "metric_name": "stars"
+  },
+  "hf-fastvideo-fasth3-omni-comfy": {
+   "id": "hfmodel:FastVideo/FastH3-Omni-Comfy",
+   "slug": "hf-fastvideo-fasth3-omni-comfy",
+   "name": "FastVideo/FastH3-Omni-Comfy",
+   "url": "https://huggingface.co/FastVideo/FastH3-Omni-Comfy",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-24T09:31:06.261054+00:00",
+   "peak_score": 97.3,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T09:31:06.261054+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 94338,
+    "trending": 121,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 121 on Hugging Face; 122 likes, 94.3K downloads.",
+   "metric_at_peak": 122,
+   "metric_name": "likes"
   }
  }
 }

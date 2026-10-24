@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:FastVideo/FastH3-Omni-Comfy",
+ "slug": "hf-fastvideo-fasth3-omni-comfy",
+ "first_seen": "2026-10-24T09:31:06.261054+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.3,
+   "metric": 122,
+   "t": "2026-10-24T09:31:06.261054+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 2,
+ "name": "FastVideo/FastH3-Omni-Comfy",
+ "url": "https://huggingface.co/FastVideo/FastH3-Omni-Comfy",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-20T04:58:26.000Z",
+ "last_seen": "2026-10-24T09:31:06.261054+00:00",
+ "last_why": "Trending score 121 on Hugging Face; 122 likes, 94.3K downloads.",
+ "extra": {
+  "downloads": 94338,
+  "trending": 121,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
