@@ -8,10 +8,16 @@
    "score": 93.3,
    "metric": 1487,
    "t": "2026-10-22T18:05:38.206173+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.4,
+   "metric": 1528,
+   "t": "2026-10-24T10:46:08.579805+00:00"
   }
  ],
- "peak_score": 93.3,
- "best_rank": 7,
+ "peak_score": 96.4,
+ "best_rank": 3,
  "name": "facebook/dinov3-vitl16-pretrain-lvd1689m",
  "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
  "source": "huggingface",
@@ -21,17 +27,18 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2025-08-06T06:19:51.000Z",
- "last_seen": "2026-10-22T18:05:38.206173+00:00",
- "last_why": "Trending score 123 on Hugging Face; 1.5K likes, 738.0K downloads.",
+ "last_seen": "2026-10-24T10:46:08.579805+00:00",
+ "last_why": "Trending score 119 on Hugging Face; 1.5K likes, 743.7K downloads.",
  "extra": {
-  "downloads": 738000,
-  "trending": 123,
+  "downloads": 743733,
+  "trending": 119,
   "hf_type": "model",
   "title": null,
   "summary": null,
   "sdk": null
  },
  "days": [
-  "2026-10-22"
+  "2026-10-22",
+  "2026-10-24"
  ]
 }

@@ -50,6 +50,12 @@
    "score": 96.4,
    "metric": 3155,
    "t": "2026-10-24T09:31:06.261054+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.6,
+   "metric": 3213,
+   "t": "2026-10-24T10:46:08.579805+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -63,10 +69,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-02T09:50:45Z",
- "last_seen": "2026-10-24T09:31:06.261054+00:00",
- "last_why": "+1.3K stars/day pace right now (3.2K total).",
+ "last_seen": "2026-10-24T10:46:08.579805+00:00",
+ "last_why": "+1.1K stars/day pace right now (3.2K total).",
  "extra": {
-  "forks": 16,
+  "forks": 17,
   "lang": "Rust",
   "topics": [
    "ai",
