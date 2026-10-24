@@ -20,10 +20,16 @@
    "score": 92.0,
    "metric": 1434,
    "t": "2026-10-17T02:50:01.617268+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.7,
+   "metric": 2191,
+   "t": "2026-10-24T03:35:55.405258+00:00"
   }
  ],
- "peak_score": 92.0,
- "best_rank": 9,
+ "peak_score": 95.7,
+ "best_rank": 4,
  "name": "deeplethe/solid-glass",
  "url": "https://github.com/deeplethe/solid-glass",
  "source": "github",
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-12T09:19:02Z",
- "last_seen": "2026-10-17T02:50:01.617268+00:00",
- "last_why": "+676 stars/day pace right now (1.4K total).",
+ "last_seen": "2026-10-24T03:35:55.405258+00:00",
+ "last_why": "+1.4K stars/day pace right now (2.2K total).",
  "extra": {
-  "forks": 21,
+  "forks": 35,
   "lang": "TypeScript",
   "topics": [
    "agent-ui",
@@ -50,9 +56,11 @@
    "shadcn-ui",
    "tailwindcss",
    "theme"
-  ]
+  ],
+  "repo_id": 1415358670
  },
  "days": [
-  "2026-10-17"
+  "2026-10-17",
+  "2026-10-24"
  ]
 }

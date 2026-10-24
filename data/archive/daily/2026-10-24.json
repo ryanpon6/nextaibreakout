@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-24T00:00:24.095764+00:00",
   "2026-10-24T01:16:08.848507+00:00",
-  "2026-10-24T02:31:04.284934+00:00"
+  "2026-10-24T02:31:04.284934+00:00",
+  "2026-10-24T03:35:55.405258+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -16,13 +17,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T01:16:08.848507+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1904,
-    "trending": 669,
+    "trending": 670,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -344,12 +345,12 @@
    "first_seen": "2026-10-24T01:16:08.848507+00:00",
    "peak_score": 94.9,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T01:16:08.848507+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 284,
+    "comments": 287,
     "hn": "https://news.ycombinator.com/item?id=50202217"
    },
    "why_at_peak": "+57 points/day pace right now (440 total).",
@@ -475,12 +476,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T02:31:04.284934+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 6,
+    "comments": 8,
     "hn": "https://news.ycombinator.com/item?id=50214373"
    },
    "why_at_peak": "+288 points/day pace right now (43 total).",
@@ -497,12 +498,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T02:31:04.284934+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
    "what": "\u539f\u4f5c\u304b\u3089\u811a\u672c\u30fb\u753b\u50cf\u751f\u6210\u30fb\u7d44\u7248\u30fbPDF\u51fa\u529b\u307e\u3067\u9032\u3081\u308b\u3001Codex\u5411\u3051\u6f2b\u753b\u5236\u4f5c\u30c4\u30fc\u30eb",
    "tag": "agents",
    "extra": {
-    "forks": 12,
+    "forks": 13,
     "lang": "JavaScript",
     "topics": [
      "ai-agents",
@@ -542,12 +543,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T02:31:04.284934+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 36,
+    "comments": 37,
     "hn": "https://news.ycombinator.com/item?id=50214185"
    },
    "why_at_peak": "+58 points/day pace right now (42 total).",
@@ -660,8 +661,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 67.8,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T02:31:04.284934+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -679,6 +680,132 @@
    "why_at_peak": "14.6M downloads yesterday, 2.42\u00d7 its 7-day average.",
    "metric_at_peak": 14551742,
    "metric_name": "downloads/day"
+  },
+  "hf-huggingfacebio-carbon-x": {
+   "id": "hfmodel:HuggingFaceBio/Carbon-X",
+   "slug": "hf-huggingfacebio-carbon-x",
+   "name": "HuggingFaceBio/Carbon-X",
+   "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-24T03:35:55.405258+00:00",
+   "peak_score": 98.2,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 193,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 127 likes, 193 downloads.",
+   "metric_at_peak": 127,
+   "metric_name": "likes"
+  },
+  "gh-deeplethe-solid-glass": {
+   "id": "gh:deeplethe/solid-glass",
+   "slug": "gh-deeplethe-solid-glass",
+   "name": "deeplethe/solid-glass",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-24T03:35:55.405258+00:00",
+   "peak_score": 95.7,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "what": "A design system for AI applications. Material, physical, tactile, technical.",
+   "tag": "agents",
+   "extra": {
+    "forks": 35,
+    "lang": "TypeScript",
+    "topics": [
+     "agent-ui",
+     "ai",
+     "ai-agents",
+     "chat-ui",
+     "design-system",
+     "llm",
+     "react",
+     "shadcn",
+     "shadcn-ui",
+     "tailwindcss",
+     "theme"
+    ],
+    "repo_id": 1415358670
+   },
+   "why_at_peak": "+1.4K stars/day pace right now (2.2K total).",
+   "metric_at_peak": 2191,
+   "metric_name": "stars"
+  },
+  "gh-marclou-mailcheap": {
+   "id": "gh:marclou/mailcheap",
+   "slug": "gh-marclou-mailcheap",
+   "name": "marclou/mailcheap",
+   "url": "https://github.com/marclou/mailcheap",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-24T03:35:55.405258+00:00",
+   "peak_score": 92.4,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "what": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 344,
+    "lang": "JavaScript",
+    "topics": [
+     "ai-agents",
+     "amazon-ses",
+     "beehiiv-alternative",
+     "email",
+     "email-marketing",
+     "mailchimp-alternative",
+     "mcp",
+     "mcp-server",
+     "mongodb",
+     "newsletter",
+     "nextjs",
+     "self-hosted",
+     "substack-alternative"
+    ],
+    "repo_id": 1413187188
+   },
+   "why_at_peak": "+155 stars/day pace right now (1.3K total).",
+   "metric_at_peak": 1343,
+   "metric_name": "stars"
+  },
+  "hf-black-forest-labs-flux-3-image-klein-comfy": {
+   "id": "hfmodel:black-forest-labs/flux-3-image-klein-comfy",
+   "slug": "hf-black-forest-labs-flux-3-image-klein-comfy",
+   "name": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-24T03:35:55.405258+00:00",
+   "peak_score": 90.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "what": "image-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 534837,
+    "trending": 628,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+111 likes/day pace right now (1.4K total).",
+   "metric_at_peak": 1414,
+   "metric_name": "likes"
   }
  }
 }

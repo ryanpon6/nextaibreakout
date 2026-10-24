@@ -1,0 +1,49 @@
+{
+ "id": "gh:marclou/mailcheap",
+ "slug": "gh-marclou-mailcheap",
+ "first_seen": "2026-10-24T03:35:55.405258+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 92.4,
+   "metric": 1343,
+   "t": "2026-10-24T03:35:55.405258+00:00"
+  }
+ ],
+ "peak_score": 92.4,
+ "best_rank": 8,
+ "name": "marclou/mailcheap",
+ "url": "https://github.com/marclou/mailcheap",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
+ "what": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-10T12:55:36Z",
+ "last_seen": "2026-10-24T03:35:55.405258+00:00",
+ "last_why": "+155 stars/day pace right now (1.3K total).",
+ "extra": {
+  "forks": 344,
+  "lang": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "amazon-ses",
+   "beehiiv-alternative",
+   "email",
+   "email-marketing",
+   "mailchimp-alternative",
+   "mcp",
+   "mcp-server",
+   "mongodb",
+   "newsletter",
+   "nextjs",
+   "self-hosted",
+   "substack-alternative"
+  ],
+  "repo_id": 1413187188
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

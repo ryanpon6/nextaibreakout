@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:HuggingFaceBio/Carbon-X",
+ "slug": "hf-huggingfacebio-carbon-x",
+ "first_seen": "2026-10-24T03:35:55.405258+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 127,
+   "t": "2026-10-24T03:35:55.405258+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 1,
+ "name": "HuggingFaceBio/Carbon-X",
+ "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-21T10:21:04.000Z",
+ "last_seen": "2026-10-24T03:35:55.405258+00:00",
+ "last_why": "Trending score 124 on Hugging Face; 127 likes, 193 downloads.",
+ "extra": {
+  "downloads": 193,
+  "trending": 124,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
