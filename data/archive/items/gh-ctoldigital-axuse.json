@@ -56,6 +56,12 @@
    "score": 94.7,
    "metric": 433,
    "t": "2026-10-24T19:31:10.012530+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.8,
+   "metric": 448,
+   "t": "2026-10-24T20:46:05.670097+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -69,8 +75,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T19:55:37Z",
- "last_seen": "2026-10-24T19:31:10.012530+00:00",
- "last_why": "+230 stars/day pace right now (433 total).",
+ "last_seen": "2026-10-24T20:46:05.670097+00:00",
+ "last_why": "+288 stars/day pace right now (448 total).",
  "extra": {
   "forks": 21,
   "lang": "JavaScript",

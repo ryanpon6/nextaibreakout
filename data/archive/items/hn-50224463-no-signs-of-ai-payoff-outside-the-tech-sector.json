@@ -1,0 +1,33 @@
+{
+ "id": "hn:50224463",
+ "slug": "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector",
+ "first_seen": "2026-10-24T20:46:05.670097+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 160,
+   "t": "2026-10-24T20:46:05.670097+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "No Signs of AI Payoff Outside the Tech Sector",
+ "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-24T19:47:19Z",
+ "last_seen": "2026-10-24T20:46:05.670097+00:00",
+ "last_why": "160 points in 1h on Hacker News (112 comments).",
+ "extra": {
+  "comments": 112,
+  "hn": "https://news.ycombinator.com/item?id=50224463"
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

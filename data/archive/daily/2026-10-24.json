@@ -17,7 +17,8 @@
   "2026-10-24T15:46:08.005592+00:00",
   "2026-10-24T17:01:07.844335+00:00",
   "2026-10-24T18:16:07.173161+00:00",
-  "2026-10-24T19:31:10.012530+00:00"
+  "2026-10-24T19:31:10.012530+00:00",
+  "2026-10-24T20:46:05.670097+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -30,13 +31,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-24T18:16:07.173161+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4795,
-    "trending": 727,
+    "trending": 734,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -315,8 +316,8 @@
    "first_seen": "2026-10-24T01:16:08.848507+00:00",
    "peak_score": 96.5,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T12:01:05.381886+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "AI \u7f16\u7a0b\u798f\u5229\u5bfc\u822a\uff1a\u6c47\u603b Claude Code\u3001Codex\u3001Cursor \u4e2d\u8f6c\u7ad9\u4e0e\u516c\u76ca\u7ad9\uff0c\u6574\u7406\u514d\u8d39\u989d\u5ea6\u3001\u6ce8\u518c\u798f\u5229\u3001\u7b7e\u5230\u6d3b\u52a8\u548c\u8bc4\u6d4b\u8bb0\u5f55\uff0c\u63d0\u4f9b\u53ef\u89c6\u5316\u770b\u677f\u4e0e Python \u6570\u636e\u91c7\u96c6\u5de5\u5177\u3002",
    "tag": "dev tools",
    "extra": {
@@ -674,8 +675,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 72.5,
    "best_rank": 10,
-   "runs_in_top10": 15,
-   "last_seen": "2026-10-24T19:31:10.012530+00:00",
+   "runs_in_top10": 16,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -1243,8 +1244,8 @@
    "first_seen": "2026-10-24T10:46:08.579805+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T19:31:10.012530+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
@@ -1325,13 +1326,13 @@
    "first_seen": "2026-10-24T12:01:05.381886+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-24T19:31:10.012530+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 178,
+    "trending": 179,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1351,12 +1352,12 @@
    "first_seen": "2026-10-24T13:16:09.069644+00:00",
    "peak_score": 97.3,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-24T18:16:07.173161+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 42,
+    "comments": 47,
     "hn": "https://news.ycombinator.com/item?id=50220204"
    },
    "why_at_peak": "+154 points/day pace right now (79 total).",
@@ -1488,12 +1489,12 @@
    "first_seen": "2026-10-24T18:16:07.173161+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T19:31:10.012530+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 11,
+    "comments": 18,
     "hn": "https://news.ycombinator.com/item?id=50222525"
    },
    "why_at_peak": "+345 points/day pace right now (61 total).",
@@ -1508,14 +1509,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-24T19:31:10.012530+00:00",
-   "peak_score": 95.6,
-   "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T19:31:10.012530+00:00",
+   "peak_score": 96.5,
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
    "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
    "tag": "dev tools",
    "extra": {
-    "forks": 15,
+    "forks": 16,
     "lang": null,
     "topics": [
      "ai",
@@ -1531,9 +1532,57 @@
     ],
     "repo_id": 1394679834
    },
-   "why_at_peak": "299 stars since launch 25 days ago \u2248 12 stars/day since launch.",
-   "metric_at_peak": 299,
+   "why_at_peak": "307 stars since launch 26 days ago \u2248 12 stars/day since launch.",
+   "metric_at_peak": 307,
    "metric_name": "stars"
+  },
+  "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
+   "id": "hn:50224463",
+   "slug": "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector",
+   "name": "No Signs of AI Payoff Outside the Tech Sector",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-24T20:46:05.670097+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 112,
+    "hn": "https://news.ycombinator.com/item?id=50224463"
+   },
+   "why_at_peak": "160 points in 1h on Hacker News (112 comments).",
+   "metric_at_peak": 160,
+   "metric_name": "points"
+  },
+  "hf-mistralai-timestral-209m": {
+   "id": "hfmodel:mistralai/Timestral-209M",
+   "slug": "hf-mistralai-timestral-209m",
+   "name": "mistralai/Timestral-209M",
+   "url": "https://huggingface.co/mistralai/Timestral-209M",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-24T20:46:05.670097+00:00",
+   "peak_score": 86.6,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T20:46:05.670097+00:00",
+   "what": "time-series-forecasting model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 8731,
+    "trending": 240,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+58 likes/day pace right now (337 total).",
+   "metric_at_peak": 337,
+   "metric_name": "likes"
   }
  }
 }

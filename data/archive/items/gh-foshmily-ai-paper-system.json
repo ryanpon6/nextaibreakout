@@ -8,10 +8,16 @@
    "score": 95.6,
    "metric": 299,
    "t": "2026-10-24T19:31:10.012530+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.5,
+   "metric": 307,
+   "t": "2026-10-24T20:46:05.670097+00:00"
   }
  ],
- "peak_score": 95.6,
- "best_rank": 4,
+ "peak_score": 96.5,
+ "best_rank": 3,
  "name": "FoShmily/ai-paper-system",
  "url": "https://github.com/FoShmily/ai-paper-system",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-09-29T08:02:45Z",
- "last_seen": "2026-10-24T19:31:10.012530+00:00",
- "last_why": "299 stars since launch 25 days ago \u2248 12 stars/day since launch.",
+ "last_seen": "2026-10-24T20:46:05.670097+00:00",
+ "last_why": "307 stars since launch 26 days ago \u2248 12 stars/day since launch.",
  "extra": {
-  "forks": 15,
+  "forks": 16,
   "lang": null,
   "topics": [
    "ai",
