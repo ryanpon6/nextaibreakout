@@ -44,6 +44,12 @@
    "score": 93.8,
    "metric": 438,
    "t": "2026-10-24T13:16:09.069644+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.7,
+   "metric": 452,
+   "t": "2026-10-24T17:01:07.844335+00:00"
   }
  ],
  "peak_score": 96.5,
@@ -57,8 +63,8 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-09-28T04:44:21Z",
- "last_seen": "2026-10-24T13:16:09.069644+00:00",
- "last_why": "+365 stars/day pace right now (438 total).",
+ "last_seen": "2026-10-24T17:01:07.844335+00:00",
+ "last_why": "+250 stars/day pace right now (452 total).",
  "extra": {
   "forks": 17,
   "lang": "Python",

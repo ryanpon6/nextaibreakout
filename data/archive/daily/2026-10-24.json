@@ -14,7 +14,8 @@
   "2026-10-24T12:01:05.381886+00:00",
   "2026-10-24T13:16:09.069644+00:00",
   "2026-10-24T14:31:07.554752+00:00",
-  "2026-10-24T15:46:08.005592+00:00"
+  "2026-10-24T15:46:08.005592+00:00",
+  "2026-10-24T17:01:07.844335+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -165,13 +166,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T09:31:06.261054+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 1096,
-    "trending": 272,
+    "downloads": 5789,
+    "trending": 285,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -486,12 +487,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 32,
+    "comments": 38,
     "hn": "https://news.ycombinator.com/item?id=50214373"
    },
    "why_at_peak": "+134 points/day pace right now (72 total).",
@@ -553,12 +554,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-24T13:16:09.069644+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 51,
+    "comments": 56,
     "hn": "https://news.ycombinator.com/item?id=50214185"
    },
    "why_at_peak": "+96 points/day pace right now (52 total).",
@@ -671,8 +672,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 72.5,
    "best_rank": 10,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -827,8 +828,8 @@
    "first_seen": "2026-10-24T04:46:07.769161+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T13:16:09.069644+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
    "tag": "safety",
    "extra": {
@@ -1038,14 +1039,14 @@
    "kind": "model",
    "first_seen": "2026-10-24T06:01:07.891502+00:00",
    "peak_score": 92.3,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T06:01:07.891502+00:00",
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 4141,
-    "trending": 267,
+    "downloads": 5583,
+    "trending": 285,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1238,10 +1239,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-24T10:46:08.579805+00:00",
-   "peak_score": 93.9,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T10:46:08.579805+00:00",
+   "peak_score": 96.4,
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
@@ -1263,8 +1264,8 @@
     ],
     "repo_id": 1419772313
    },
-   "why_at_peak": "+115 stars/day pace right now (365 total).",
-   "metric_at_peak": 365,
+   "why_at_peak": "+346 stars/day pace right now (397 total).",
+   "metric_at_peak": 397,
    "metric_name": "stars"
   },
   "gh-lemomo-ai-lemo-opuscar": {
@@ -1322,13 +1323,13 @@
    "first_seen": "2026-10-24T12:01:05.381886+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 158,
+    "trending": 168,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1347,17 +1348,17 @@
    "kind": "news",
    "first_seen": "2026-10-24T13:16:09.069644+00:00",
    "peak_score": 97.3,
-   "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "best_rank": 2,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 27,
+    "comments": 36,
     "hn": "https://news.ycombinator.com/item?id=50220204"
    },
-   "why_at_peak": "+288 points/day pace right now (71 total).",
-   "metric_at_peak": 71,
+   "why_at_peak": "+154 points/day pace right now (79 total).",
+   "metric_at_peak": 79,
    "metric_name": "points"
   },
   "hf-unsloth-flint-gguf": {
@@ -1395,13 +1396,13 @@
    "kind": "tool",
    "first_seen": "2026-10-24T15:46:08.005592+00:00",
    "peak_score": 95.5,
-   "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T17:01:07.844335+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
-    "forks": 45,
+    "forks": 46,
     "lang": "Python",
     "topics": [
      "arxiv",
@@ -1415,8 +1416,8 @@
     ],
     "repo_id": 1404880073
    },
-   "why_at_peak": "+173 stars/day pace right now (504 total).",
-   "metric_at_peak": 504,
+   "why_at_peak": "+307 stars/day pace right now (520 total).",
+   "metric_at_peak": 520,
    "metric_name": "stars"
   },
   "gh-leonxlnx-earshot": {

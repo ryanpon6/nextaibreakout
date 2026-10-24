@@ -38,9 +38,15 @@
    "score": 93.9,
    "metric": 365,
    "t": "2026-10-24T10:46:08.579805+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.4,
+   "metric": 397,
+   "t": "2026-10-24T17:01:07.844335+00:00"
   }
  ],
- "peak_score": 94.1,
+ "peak_score": 96.4,
  "best_rank": 3,
  "name": "ctoldigital/axuse",
  "url": "https://github.com/ctoldigital/axuse",
@@ -51,8 +57,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T19:55:37Z",
- "last_seen": "2026-10-24T10:46:08.579805+00:00",
- "last_why": "+115 stars/day pace right now (365 total).",
+ "last_seen": "2026-10-24T17:01:07.844335+00:00",
+ "last_why": "+346 stars/day pace right now (397 total).",
  "extra": {
   "forks": 21,
   "lang": "JavaScript",
