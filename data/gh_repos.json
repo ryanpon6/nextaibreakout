@@ -259,7 +259,11 @@
   "1418643214": "Entelligence-AI/agentplay",
   "1392605506": "Han-DongHeun/nvmon",
   "1402525166": "DozenTwelve/Papermorph",
-  "1429785504": "leofmarciano/groot"
+  "1429785504": "leofmarciano/groot",
+  "1412998022": "init-co-jp/diff-tour",
+  "1394685786": "Anil-matcha/awesome-uncensored-ai-models",
+  "1412032836": "backtrue/thinkwithblack-skill",
+  "1387755954": "keptinventory/kept"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -271,6 +275,7 @@
   "zgcagi/Harness-RSI": 1792655876.129082,
   "LiCinCan/blender-ai-mcp-addon": 1792764824.0909247,
   "nano-muse/nanoMuse": 1792713962.9569545,
-  "sit-in/awesome-grokbot-playbooks": 1792764824.0909247
+  "sit-in/awesome-grokbot-playbooks": 1792764824.0909247,
+  "Ebony-Vinyl/dsh-our-free-model": 1792800039.9881175
  }
 }

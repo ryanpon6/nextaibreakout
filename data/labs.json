@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T22:46:48.748764+00:00",
+ "generated": "2026-10-24T00:02:12.879096+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-23T22:46:48.748764+00:00"
+   "fetched": "2026-10-24T00:02:12.879096+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-23T22:46:48.748764+00:00"
+   "fetched": "2026-10-24T00:02:12.879096+00:00"
   },
   "openai": {
    "items": [
@@ -418,15 +418,15 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T22:46:48.748764+00:00"
+   "fetched": "2026-10-24T00:02:12.879096+00:00"
   },
   "anthropic": {
    "items": [
     {
-     "title": "Claude Code v2.1.309",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-     "date": "2026-10-22T22:18:57+00:00",
-     "day": "2026-10-22",
+     "title": "Claude Code v2.1.310",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+     "date": "2026-10-23T23:39:00+00:00",
+     "day": "2026-10-23",
      "summary": "",
      "source": "GitHub: anthropics/claude-code releases",
      "unofficial": false,
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T22:46:48.748764+00:00"
+   "fetched": "2026-10-24T00:02:12.879096+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-23T22:46:48.748764+00:00"
+   "fetched": "2026-10-24T00:02:12.879096+00:00"
   },
   "meta": {
    "items": [
@@ -793,7 +793,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-23T22:46:48.748764+00:00"
+   "fetched": "2026-10-24T00:02:12.879096+00:00"
   }
  }
 }

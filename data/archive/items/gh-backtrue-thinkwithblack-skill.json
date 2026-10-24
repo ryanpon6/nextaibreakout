@@ -1,0 +1,54 @@
+{
+ "id": "gh:backtrue/thinkwithblack-skill",
+ "slug": "gh-backtrue-thinkwithblack-skill",
+ "first_seen": "2026-10-24T00:00:24.095764+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.2,
+   "metric": 237,
+   "t": "2026-10-24T00:00:24.095764+00:00"
+  }
+ ],
+ "peak_score": 93.2,
+ "best_rank": 7,
+ "name": "backtrue/thinkwithblack-skill",
+ "url": "https://github.com/backtrue/thinkwithblack-skill",
+ "source": "github",
+ "kind": "tool",
+ "desc": "365 free AI marketing skills (zh-TW/en) for ChatGPT, Claude, Gemini, Claude Code & Cursor \u2014 copywriting, ads budget, margin, CRM, email. 365 \u500b\u514d\u8cbb AI \u884c\u92b7 Skills",
+ "what": "365 free AI marketing skills (zh-TW/en) for ChatGPT, Claude, Gemini, Claude Code & Cursor \u2014 copywriting, ads budget, margin, CRM, email.\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-09T15:05:31Z",
+ "last_seen": "2026-10-24T00:00:24.095764+00:00",
+ "last_why": "237 stars since launch 14 days ago \u2248 16 stars/day since launch.",
+ "extra": {
+  "forks": 22,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-marketing",
+   "chatgpt",
+   "claude",
+   "claude-code",
+   "claude-skills",
+   "copywriting",
+   "cursor",
+   "digital-marketing",
+   "ecommerce",
+   "email-marketing",
+   "gemini",
+   "marketing",
+   "mcp",
+   "prompt-engineering",
+   "prompts",
+   "taiwan",
+   "traditional-chinese"
+  ],
+  "repo_id": 1412032836
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

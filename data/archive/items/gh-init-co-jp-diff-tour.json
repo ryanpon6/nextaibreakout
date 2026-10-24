@@ -1,0 +1,44 @@
+{
+ "id": "gh:init-co-jp/diff-tour",
+ "slug": "gh-init-co-jp-diff-tour",
+ "first_seen": "2026-10-24T00:00:24.095764+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.9,
+   "metric": 289,
+   "t": "2026-10-24T00:00:24.095764+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 5,
+ "name": "init-co-jp/diff-tour",
+ "url": "https://github.com/init-co-jp/diff-tour",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour.",
+ "what": "Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour.",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-10T09:19:05Z",
+ "last_seen": "2026-10-24T00:00:24.095764+00:00",
+ "last_why": "289 stars since launch 14 days ago \u2248 21 stars/day since launch.",
+ "extra": {
+  "forks": 21,
+  "lang": "Go",
+  "topics": [
+   "cli",
+   "code-review",
+   "git",
+   "go",
+   "learning",
+   "llm",
+   "onboarding",
+   "tui"
+  ],
+  "repo_id": 1412998022
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
