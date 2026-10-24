@@ -1,0 +1,56 @@
+{
+ "id": "gh:stockedge/manga-generator",
+ "slug": "gh-stockedge-manga-generator",
+ "first_seen": "2026-10-24T02:31:04.284934+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 67,
+   "t": "2026-10-24T02:31:04.284934+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "stockedge/manga-generator",
+ "url": "https://github.com/stockedge/manga-generator",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u539f\u4f5c\u304b\u3089\u811a\u672c\u30fb\u753b\u50cf\u751f\u6210\u30fb\u7d44\u7248\u30fbPDF\u51fa\u529b\u307e\u3067\u9032\u3081\u308b\u3001Codex\u5411\u3051\u6f2b\u753b\u5236\u4f5c\u30c4\u30fc\u30eb",
+ "what": "\u539f\u4f5c\u304b\u3089\u811a\u672c\u30fb\u753b\u50cf\u751f\u6210\u30fb\u7d44\u7248\u30fbPDF\u51fa\u529b\u307e\u3067\u9032\u3081\u308b\u3001Codex\u5411\u3051\u6f2b\u753b\u5236\u4f5c\u30c4\u30fc\u30eb",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-22T02:58:45Z",
+ "last_seen": "2026-10-24T02:31:04.284934+00:00",
+ "last_why": "67 stars since launch 2 days ago \u2248 34 stars/day since launch.",
+ "extra": {
+  "forks": 12,
+  "lang": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "ai-comic",
+   "ai-comics",
+   "ai-manga",
+   "character-consistency",
+   "claude-code",
+   "codex",
+   "comfyui",
+   "comic-creation",
+   "comic-generation",
+   "comic-generator",
+   "comics",
+   "generative-ai",
+   "image-generation",
+   "manga",
+   "manga-generator",
+   "novel-to-comic",
+   "pdf-generation",
+   "storyboard",
+   "text-to-comic"
+  ],
+  "repo_id": 1429172085
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

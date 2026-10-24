@@ -1,0 +1,33 @@
+{
+ "id": "hn:50214373",
+ "slug": "hn-50214373-show-hn-corgi-a-helpful-agent-terminal-multip",
+ "first_seen": "2026-10-24T02:31:04.284934+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 43,
+   "t": "2026-10-24T02:31:04.284934+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+ "url": "https://corgi.computer/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-23T19:46:38Z",
+ "last_seen": "2026-10-24T02:31:04.284934+00:00",
+ "last_why": "+288 points/day pace right now (43 total).",
+ "extra": {
+  "comments": 6,
+  "hn": "https://news.ycombinator.com/item?id=50214373"
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

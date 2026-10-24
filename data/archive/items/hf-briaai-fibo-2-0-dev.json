@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:briaai/Fibo-2.0-dev",
+ "slug": "hf-briaai-fibo-2-0-dev",
+ "first_seen": "2026-10-24T02:31:04.284934+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 129,
+   "t": "2026-10-24T02:31:04.284934+00:00"
+  }
+ ],
+ "peak_score": 95.7,
+ "best_rank": 5,
+ "name": "briaai/Fibo-2.0-dev",
+ "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-image",
+ "what": "text-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-18T13:44:10.000Z",
+ "last_seen": "2026-10-24T02:31:04.284934+00:00",
+ "last_why": "Trending score 128 on Hugging Face; 129 likes, 753 downloads.",
+ "extra": {
+  "downloads": 753,
+  "trending": 128,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
