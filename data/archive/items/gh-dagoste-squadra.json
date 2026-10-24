@@ -26,6 +26,12 @@
    "score": 96.5,
    "metric": 384,
    "t": "2026-10-23T20:16:07.876917+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.7,
+   "metric": 404,
+   "t": "2026-10-24T04:46:07.769161+00:00"
   }
  ],
  "peak_score": 96.5,
@@ -39,10 +45,10 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-09-28T04:44:21Z",
- "last_seen": "2026-10-23T20:16:07.876917+00:00",
- "last_why": "+211 stars/day pace right now (384 total).",
+ "last_seen": "2026-10-24T04:46:07.769161+00:00",
+ "last_why": "+226 stars/day pace right now (404 total).",
  "extra": {
-  "forks": 14,
+  "forks": 16,
   "lang": "Python",
   "topics": [
    "agent-orchestration",
@@ -70,6 +76,7 @@
  },
  "days": [
   "2026-10-21",
-  "2026-10-23"
+  "2026-10-23",
+  "2026-10-24"
  ]
 }

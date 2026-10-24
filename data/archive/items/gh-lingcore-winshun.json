@@ -1,0 +1,54 @@
+{
+ "id": "gh:LingCore/WinShun",
+ "slug": "gh-lingcore-winshun",
+ "first_seen": "2026-10-24T04:46:07.769161+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.2,
+   "metric": 527,
+   "t": "2026-10-24T04:46:07.769161+00:00"
+  }
+ ],
+ "peak_score": 93.2,
+ "best_rank": 7,
+ "name": "LingCore/WinShun",
+ "url": "https://github.com/LingCore/WinShun",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Win\u987a\uff1a\u514d\u8d39\u5f00\u6e90\u7684 Windows \u5feb\u901f\u641c\u7d22\u542f\u52a8\u5668\u3002\u53cc\u51fb Ctrl\uff0c\u62fc\u97f3\u79d2\u641c\u6587\u4ef6\u3001\u5168\u6587\u641c\u7d22 Word/Excel/PDF\u3001\u526a\u8d34\u677f\u5386\u53f2\uff08\u4ee3\u66ff Win+V\uff09\u3001\u5bf9\u8bdd\u6846\u641c\u7d22\u3001\u4efb\u52a1\u680f\u641c\u7d22\u3001\u63d2\u4ef6\u3001AI \u52a9\u624b MCP\u3002Free Windows search launcher: pinyin file search, full-text search, clipboard history, MCP server. Everything/Listary alternative.",
+ "what": "Win\u987a\uff1a\u514d\u8d39\u5f00\u6e90\u7684 Windows \u5feb\u901f\u641c\u7d22\u542f\u52a8\u5668\u3002\u53cc\u51fb Ctrl\uff0c\u62fc\u97f3\u79d2\u641c\u6587\u4ef6\u3001\u5168\u6587\u641c\u7d22 Word/Excel/PDF\u3001\u526a\u8d34\u677f\u5386\u53f2\uff08\u4ee3\u66ff Win+V\uff09\u3001\u5bf9\u8bdd\u6846\u641c\u7d22\u3001\u4efb\u52a1\u680f\u641c\u7d22\u3001\u63d2\u4ef6\u3001AI \u52a9\u624b MCP\u3002Free Windows search launcher: pinyin\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-08T03:18:00Z",
+ "last_seen": "2026-10-24T04:46:07.769161+00:00",
+ "last_why": "+123 stars/day pace right now (527 total).",
+ "extra": {
+  "forks": 38,
+  "lang": "C++",
+  "topics": [
+   "chinese",
+   "clipboard-history",
+   "clipboard-manager",
+   "cpp",
+   "everything",
+   "file-search",
+   "full-text-search",
+   "launcher",
+   "listary",
+   "mcp",
+   "mcp-server",
+   "ntfs",
+   "ocr",
+   "pinyin",
+   "productivity",
+   "qt6",
+   "search",
+   "windows"
+  ],
+  "repo_id": 1409660690
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
