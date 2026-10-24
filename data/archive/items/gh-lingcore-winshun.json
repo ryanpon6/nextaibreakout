@@ -8,9 +8,15 @@
    "score": 93.2,
    "metric": 527,
    "t": "2026-10-24T04:46:07.769161+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.8,
+   "metric": 536,
+   "t": "2026-10-24T07:16:08.873468+00:00"
   }
  ],
- "peak_score": 93.2,
+ "peak_score": 93.8,
  "best_rank": 7,
  "name": "LingCore/WinShun",
  "url": "https://github.com/LingCore/WinShun",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-08T03:18:00Z",
- "last_seen": "2026-10-24T04:46:07.769161+00:00",
- "last_why": "+123 stars/day pace right now (527 total).",
+ "last_seen": "2026-10-24T07:16:08.873468+00:00",
+ "last_why": "+134 stars/day pace right now (536 total).",
  "extra": {
   "forks": 38,
   "lang": "C++",

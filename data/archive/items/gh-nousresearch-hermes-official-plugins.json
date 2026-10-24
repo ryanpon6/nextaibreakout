@@ -1,0 +1,47 @@
+{
+ "id": "gh:NousResearch/hermes-official-plugins",
+ "slug": "gh-nousresearch-hermes-official-plugins",
+ "first_seen": "2026-10-24T07:16:08.873468+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 428,
+   "t": "2026-10-24T07:16:08.873468+00:00"
+  }
+ ],
+ "peak_score": 94.7,
+ "best_rank": 6,
+ "name": "NousResearch/hermes-official-plugins",
+ "url": "https://github.com/NousResearch/hermes-official-plugins",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u2624 The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+ "what": "The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-10T20:51:25Z",
+ "last_seen": "2026-10-24T07:16:08.873468+00:00",
+ "last_why": "+134 stars/day pace right now (428 total).",
+ "extra": {
+  "forks": 72,
+  "lang": "Python",
+  "topics": [
+   "agent-plugins",
+   "ai-agents",
+   "claude",
+   "hermes",
+   "hermes-agent",
+   "home-assistant",
+   "llm",
+   "model-provider",
+   "nous-research",
+   "plugins",
+   "spotify"
+  ],
+  "repo_id": 1413653643
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

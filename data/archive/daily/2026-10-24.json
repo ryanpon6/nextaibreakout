@@ -6,7 +6,8 @@
   "2026-10-24T02:31:04.284934+00:00",
   "2026-10-24T03:35:55.405258+00:00",
   "2026-10-24T04:46:07.769161+00:00",
-  "2026-10-24T06:01:07.891502+00:00"
+  "2026-10-24T06:01:07.891502+00:00",
+  "2026-10-24T07:16:08.873468+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -19,13 +20,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T04:46:07.769161+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1904,
-    "trending": 674,
+    "trending": 683,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -345,18 +346,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-24T01:16:08.848507+00:00",
-   "peak_score": 94.9,
+   "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 287,
+    "comments": 288,
     "hn": "https://news.ycombinator.com/item?id=50202217"
    },
-   "why_at_peak": "+57 points/day pace right now (440 total).",
-   "metric_at_peak": 440,
+   "why_at_peak": "+19 points/day pace right now (446 total).",
+   "metric_at_peak": 446,
    "metric_name": "points"
   },
   "gh-keptinventory-kept": {
@@ -478,16 +479,16 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T06:01:07.891502+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 15,
+    "comments": 18,
     "hn": "https://news.ycombinator.com/item?id=50214373"
    },
-   "why_at_peak": "+154 points/day pace right now (65 total).",
-   "metric_at_peak": 65,
+   "why_at_peak": "+134 points/day pace right now (72 total).",
+   "metric_at_peak": 72,
    "metric_name": "points"
   },
   "gh-stockedge-manga-generator": {
@@ -500,8 +501,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "\u539f\u4f5c\u304b\u3089\u811a\u672c\u30fb\u753b\u50cf\u751f\u6210\u30fb\u7d44\u7248\u30fbPDF\u51fa\u529b\u307e\u3067\u9032\u3081\u308b\u3001Codex\u5411\u3051\u6f2b\u753b\u5236\u4f5c\u30c4\u30fc\u30eb",
    "tag": "agents",
    "extra": {
@@ -545,8 +546,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T06:01:07.891502+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
@@ -661,10 +662,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
-   "peak_score": 69.1,
+   "peak_score": 69.5,
    "best_rank": 10,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T06:01:07.891502+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -791,22 +792,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-24T03:35:55.405258+00:00",
-   "peak_score": 90.0,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T03:35:55.405258+00:00",
+   "peak_score": 92.1,
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 534837,
-    "trending": 628,
+    "trending": 620,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+111 likes/day pace right now (1.4K total).",
-   "metric_at_peak": 1414,
+   "why_at_peak": "+173 likes/day pace right now (1.4K total).",
+   "metric_at_peak": 1431,
    "metric_name": "likes"
   },
   "gh-dagoste-squadra": {
@@ -884,10 +885,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-24T04:46:07.769161+00:00",
-   "peak_score": 93.2,
+   "peak_score": 93.8,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T04:46:07.769161+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "Win\u987a\uff1a\u514d\u8d39\u5f00\u6e90\u7684 Windows \u5feb\u901f\u641c\u7d22\u542f\u52a8\u5668\u3002\u53cc\u51fb Ctrl\uff0c\u62fc\u97f3\u79d2\u641c\u6587\u4ef6\u3001\u5168\u6587\u641c\u7d22 Word/Excel/PDF\u3001\u526a\u8d34\u677f\u5386\u53f2\uff08\u4ee3\u66ff Win+V\uff09\u3001\u5bf9\u8bdd\u6846\u641c\u7d22\u3001\u4efb\u52a1\u680f\u641c\u7d22\u3001\u63d2\u4ef6\u3001AI \u52a9\u624b MCP\u3002Free Windows search launcher: pinyin\u2026",
    "tag": "agents",
    "extra": {
@@ -915,8 +916,8 @@
     ],
     "repo_id": 1409660690
    },
-   "why_at_peak": "+123 stars/day pace right now (527 total).",
-   "metric_at_peak": 527,
+   "why_at_peak": "+134 stars/day pace right now (536 total).",
+   "metric_at_peak": 536,
    "metric_name": "stars"
   },
   "hf-lightricks-ltx-2-5": {
@@ -1055,23 +1056,59 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-24T06:01:07.891502+00:00",
-   "peak_score": 86.6,
+   "peak_score": 87.1,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T06:01:07.891502+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 924,
-    "trending": 252,
+    "trending": 255,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+58 likes/day pace right now (257 total).",
-   "metric_at_peak": 257,
+   "why_at_peak": "+58 likes/day pace right now (260 total).",
+   "metric_at_peak": 260,
    "metric_name": "likes"
+  },
+  "gh-nousresearch-hermes-official-plugins": {
+   "id": "gh:NousResearch/hermes-official-plugins",
+   "slug": "gh-nousresearch-hermes-official-plugins",
+   "name": "NousResearch/hermes-official-plugins",
+   "url": "https://github.com/NousResearch/hermes-official-plugins",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-24T07:16:08.873468+00:00",
+   "peak_score": 94.7,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T07:16:08.873468+00:00",
+   "what": "The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 72,
+    "lang": "Python",
+    "topics": [
+     "agent-plugins",
+     "ai-agents",
+     "claude",
+     "hermes",
+     "hermes-agent",
+     "home-assistant",
+     "llm",
+     "model-provider",
+     "nous-research",
+     "plugins",
+     "spotify"
+    ],
+    "repo_id": 1413653643
+   },
+   "why_at_peak": "+134 stars/day pace right now (428 total).",
+   "metric_at_peak": 428,
+   "metric_name": "stars"
   }
  }
 }
