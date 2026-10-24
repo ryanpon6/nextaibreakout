@@ -8,6 +8,12 @@
    "score": 99.0,
    "metric": 160,
    "t": "2026-10-24T20:46:05.670097+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 330,
+   "t": "2026-10-24T22:01:13.806159+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-24T19:47:19Z",
- "last_seen": "2026-10-24T20:46:05.670097+00:00",
- "last_why": "160 points in 1h on Hacker News (112 comments).",
+ "last_seen": "2026-10-24T22:01:13.806159+00:00",
+ "last_why": "+3.3K points/day pace right now (330 total).",
  "extra": {
-  "comments": 112,
+  "comments": 296,
   "hn": "https://news.ycombinator.com/item?id=50224463"
  },
  "days": [
