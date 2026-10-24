@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+ "slug": "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf",
+ "first_seen": "2026-10-24T12:01:05.381886+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.1,
+   "metric": 129,
+   "t": "2026-10-24T12:01:05.381886+00:00"
+  }
+ ],
+ "peak_score": 98.1,
+ "best_rank": 1,
+ "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+ "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-23T09:43:05.000Z",
+ "last_seen": "2026-10-24T12:01:05.381886+00:00",
+ "last_why": "Trending score 127 on Hugging Face; 129 likes, 32.5K downloads.",
+ "extra": {
+  "downloads": 32479,
+  "trending": 127,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
