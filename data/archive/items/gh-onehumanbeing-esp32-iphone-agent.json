@@ -1,0 +1,45 @@
+{
+ "id": "gh:onehumanbeing/esp32-iphone-agent",
+ "slug": "gh-onehumanbeing-esp32-iphone-agent",
+ "first_seen": "2026-10-24T06:01:07.891502+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.8,
+   "metric": 3669,
+   "t": "2026-10-24T06:01:07.891502+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 6,
+ "name": "onehumanbeing/esp32-iphone-agent",
+ "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+ "what": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer\u2026",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-11T19:10:25Z",
+ "last_seen": "2026-10-24T06:01:07.891502+00:00",
+ "last_why": "+269 stars/day pace right now (3.7K total).",
+ "extra": {
+  "forks": 482,
+  "lang": "C",
+  "topics": [
+   "ai-agent",
+   "airplay",
+   "automation",
+   "computer-use",
+   "esp32",
+   "esp32-s3",
+   "iphone",
+   "llm",
+   "usb-hid"
+  ],
+  "repo_id": 1414685342
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

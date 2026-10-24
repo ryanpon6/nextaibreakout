@@ -26,9 +26,15 @@
    "score": 94.1,
    "metric": 264,
    "t": "2026-10-23T22:46:06.393563+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 284,
+   "t": "2026-10-24T06:01:07.891502+00:00"
   }
  ],
- "peak_score": 95.8,
+ "peak_score": 97.3,
  "best_rank": 2,
  "name": "reacher-z/Awesome-REA",
  "url": "https://github.com/reacher-z/Awesome-REA",
@@ -39,10 +45,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-16T00:42:04Z",
- "last_seen": "2026-10-23T22:46:06.393563+00:00",
- "last_why": "+77 stars/day pace right now (264 total).",
+ "last_seen": "2026-10-24T06:01:07.891502+00:00",
+ "last_why": "+154 stars/day pace right now (284 total).",
  "extra": {
-  "forks": 129,
+  "forks": 130,
   "lang": "Python",
   "topics": [
    "agent-skills",
@@ -66,6 +72,7 @@
   "repo_id": 1421473933
  },
  "days": [
-  "2026-10-23"
+  "2026-10-23",
+  "2026-10-24"
  ]
 }

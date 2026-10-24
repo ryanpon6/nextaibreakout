@@ -266,7 +266,10 @@
   "1387755954": "keptinventory/kept",
   "1420753687": "liuda30201/AI-Coding",
   "1429172085": "stockedge/manga-generator",
-  "1426944631": "Sociaro-Research/open-media-gateway"
+  "1426944631": "Sociaro-Research/open-media-gateway",
+  "1431523549": "aigamedevs/awesome-ai-tools-for-game-dev",
+  "1414114267": "Sam-Hui-dot/mcd-budget-meal",
+  "1429736272": "FrontiersMindAI/decisionformer"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -280,6 +283,7 @@
   "nano-muse/nanoMuse": 1792804585.3773954,
   "sit-in/awesome-grokbot-playbooks": 1792764824.0909247,
   "Ebony-Vinyl/dsh-our-free-model": 1792800039.9881175,
-  "init-co-jp/diff-tour": 1792804585.3773954
+  "init-co-jp/diff-tour": 1792804585.3773954,
+  "keptinventory/kept": 1792821682.8824039
  }
 }

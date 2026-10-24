@@ -20,10 +20,16 @@
    "score": 96.5,
    "metric": 47,
    "t": "2026-10-24T04:46:07.769161+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.1,
+   "metric": 52,
+   "t": "2026-10-24T06:01:07.891502+00:00"
   }
  ],
- "peak_score": 97.3,
- "best_rank": 3,
+ "peak_score": 98.1,
+ "best_rank": 2,
  "name": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
  "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
  "source": "hackernews",
@@ -33,10 +39,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-23T19:31:36Z",
- "last_seen": "2026-10-24T04:46:07.769161+00:00",
- "last_why": "+62 points/day pace right now (47 total).",
+ "last_seen": "2026-10-24T06:01:07.891502+00:00",
+ "last_why": "+96 points/day pace right now (52 total).",
  "extra": {
-  "comments": 40,
+  "comments": 41,
   "hn": "https://news.ycombinator.com/item?id=50214185"
  },
  "days": [
