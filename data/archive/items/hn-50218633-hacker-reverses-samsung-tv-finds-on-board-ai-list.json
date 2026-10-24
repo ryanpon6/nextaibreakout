@@ -1,0 +1,33 @@
+{
+ "id": "hn:50218633",
+ "slug": "hn-50218633-hacker-reverses-samsung-tv-finds-on-board-ai-list",
+ "first_seen": "2026-10-24T08:24:22.243431+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 66,
+   "t": "2026-10-24T08:24:22.243431+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+ "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-24T05:49:57Z",
+ "last_seen": "2026-10-24T08:24:22.243431+00:00",
+ "last_why": "66 points in 3h on Hacker News (10 comments).",
+ "extra": {
+  "comments": 10,
+  "hn": "https://news.ycombinator.com/item?id=50218633"
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
