@@ -1,0 +1,46 @@
+{
+ "id": "gh:keptinventory/kept",
+ "slug": "gh-keptinventory-kept",
+ "first_seen": "2026-10-24T01:16:08.848507+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.1,
+   "metric": 221,
+   "t": "2026-10-24T01:16:08.848507+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 5,
+ "name": "keptinventory/kept",
+ "url": "https://github.com/keptinventory/kept",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Self-hosted, open-source inventory of everything you own and where it is. AI assistant and MCP server built in.",
+ "what": "Self-hosted, open-source inventory of everything you own and where it is. AI assistant and MCP server built in.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-25T15:16:39Z",
+ "last_seen": "2026-10-24T01:16:08.848507+00:00",
+ "last_why": "221 stars since launch 28 days ago \u2248 8 stars/day since launch.",
+ "extra": {
+  "forks": 11,
+  "lang": "TypeScript",
+  "topics": [
+   "3d",
+   "home-inventory",
+   "homelab",
+   "inventory",
+   "inventory-management",
+   "mcp",
+   "react",
+   "self-hosted",
+   "selfhosted",
+   "typescript"
+  ],
+  "repo_id": 1387755954
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}
