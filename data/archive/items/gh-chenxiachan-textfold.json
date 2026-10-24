@@ -1,0 +1,44 @@
+{
+ "id": "gh:chenxiachan/textfold",
+ "slug": "gh-chenxiachan-textfold",
+ "first_seen": "2026-10-24T15:46:08.005592+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 504,
+   "t": "2026-10-24T15:46:08.005592+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 5,
+ "name": "chenxiachan/textfold",
+ "url": "https://github.com/chenxiachan/textfold",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
+ "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-04T22:19:52Z",
+ "last_seen": "2026-10-24T15:46:08.005592+00:00",
+ "last_why": "+173 stars/day pace right now (504 total).",
+ "extra": {
+  "forks": 45,
+  "lang": "Python",
+  "topics": [
+   "arxiv",
+   "llm",
+   "local-first",
+   "open-source",
+   "paper-reader",
+   "research-papers",
+   "semantic-zoom",
+   "translation"
+  ],
+  "repo_id": 1404880073
+ },
+ "days": [
+  "2026-10-24"
+ ]
+}

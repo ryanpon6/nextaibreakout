@@ -13,7 +13,8 @@
   "2026-10-24T10:46:08.579805+00:00",
   "2026-10-24T12:01:05.381886+00:00",
   "2026-10-24T13:16:09.069644+00:00",
-  "2026-10-24T14:31:07.554752+00:00"
+  "2026-10-24T14:31:07.554752+00:00",
+  "2026-10-24T15:46:08.005592+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -485,12 +486,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 29,
+    "comments": 32,
     "hn": "https://news.ycombinator.com/item?id=50214373"
    },
    "why_at_peak": "+134 points/day pace right now (72 total).",
@@ -644,13 +645,13 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 92.2,
    "best_rank": 8,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T13:16:09.069644+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 73215,
-    "trending": 1755,
+    "trending": 1625,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -668,10 +669,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
-   "peak_score": 69.8,
+   "peak_score": 72.5,
    "best_rank": 10,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -1126,12 +1127,12 @@
    "first_seen": "2026-10-24T08:24:22.243431+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 100,
+    "comments": 130,
     "hn": "https://news.ycombinator.com/item?id=50218633"
    },
    "why_at_peak": "+1.0K points/day pace right now (114 total).",
@@ -1274,14 +1275,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-24T10:46:08.579805+00:00",
-   "peak_score": 93.8,
+   "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 725,
+    "forks": 728,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -1307,8 +1308,8 @@
     ],
     "repo_id": 1389011744
    },
-   "why_at_peak": "+941 stars/day pace right now (6.4K total).",
-   "metric_at_peak": 6448,
+   "why_at_peak": "+614 stars/day pace right now (6.5K total).",
+   "metric_at_peak": 6480,
    "metric_name": "stars"
   },
   "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf": {
@@ -1321,20 +1322,20 @@
    "first_seen": "2026-10-24T12:01:05.381886+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 149,
+    "trending": 158,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+288 likes/day pace right now (153 total).",
-   "metric_at_peak": 153,
+   "why_at_peak": "+173 likes/day pace right now (162 total).",
+   "metric_at_peak": 162,
    "metric_name": "likes"
   },
   "hn-50220204-ai-assisted-paper-on-z-library-cites-a-torrentfrea": {
@@ -1347,16 +1348,16 @@
    "first_seen": "2026-10-24T13:16:09.069644+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 15,
+    "comments": 27,
     "hn": "https://news.ycombinator.com/item?id=50220204"
    },
-   "why_at_peak": "+211 points/day pace right now (56 total).",
-   "metric_at_peak": 56,
+   "why_at_peak": "+288 points/day pace right now (71 total).",
+   "metric_at_peak": 71,
    "metric_name": "points"
   },
   "hf-unsloth-flint-gguf": {
@@ -1383,6 +1384,95 @@
    },
    "why_at_peak": "+96 likes/day pace right now (208 total).",
    "metric_at_peak": 208,
+   "metric_name": "likes"
+  },
+  "gh-chenxiachan-textfold": {
+   "id": "gh:chenxiachan/textfold",
+   "slug": "gh-chenxiachan-textfold",
+   "name": "chenxiachan/textfold",
+   "url": "https://github.com/chenxiachan/textfold",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-24T15:46:08.005592+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 45,
+    "lang": "Python",
+    "topics": [
+     "arxiv",
+     "llm",
+     "local-first",
+     "open-source",
+     "paper-reader",
+     "research-papers",
+     "semantic-zoom",
+     "translation"
+    ],
+    "repo_id": 1404880073
+   },
+   "why_at_peak": "+173 stars/day pace right now (504 total).",
+   "metric_at_peak": 504,
+   "metric_name": "stars"
+  },
+  "gh-leonxlnx-earshot": {
+   "id": "gh:Leonxlnx/earshot",
+   "slug": "gh-leonxlnx-earshot",
+   "name": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-24T15:46:08.005592+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "tag": "agents",
+   "extra": {
+    "forks": 159,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "audio",
+     "claude-code",
+     "mcp",
+     "sound-design"
+    ],
+    "repo_id": 1420305104
+   },
+   "why_at_peak": "+307 stars/day pace right now (2.6K total).",
+   "metric_at_peak": 2573,
+   "metric_name": "stars"
+  },
+  "hf-comfy-org-moss-image": {
+   "id": "hfmodel:Comfy-Org/MOSS-Image",
+   "slug": "hf-comfy-org-moss-image",
+   "name": "Comfy-Org/MOSS-Image",
+   "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-24T15:46:08.005592+00:00",
+   "peak_score": 89.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T15:46:08.005592+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1944278,
+    "trending": 278,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+58 likes/day pace right now (418 total).",
+   "metric_at_peak": 418,
    "metric_name": "likes"
   }
  }
