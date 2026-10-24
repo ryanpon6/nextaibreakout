@@ -8,9 +8,15 @@
    "score": 94.1,
    "metric": 221,
    "t": "2026-10-24T01:16:08.848507+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 241,
+   "t": "2026-10-24T13:16:09.069644+00:00"
   }
  ],
- "peak_score": 94.1,
+ "peak_score": 94.7,
  "best_rank": 5,
  "name": "keptinventory/kept",
  "url": "https://github.com/keptinventory/kept",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-25T15:16:39Z",
- "last_seen": "2026-10-24T01:16:08.848507+00:00",
- "last_why": "221 stars since launch 28 days ago \u2248 8 stars/day since launch.",
+ "last_seen": "2026-10-24T13:16:09.069644+00:00",
+ "last_why": "241 stars since launch 29 days ago \u2248 8 stars/day since launch.",
  "extra": {
   "forks": 11,
   "lang": "TypeScript",

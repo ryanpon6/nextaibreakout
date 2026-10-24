@@ -8,9 +8,15 @@
    "score": 98.1,
    "metric": 129,
    "t": "2026-10-24T12:01:05.381886+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 138,
+   "t": "2026-10-24T13:16:09.069644+00:00"
   }
  ],
- "peak_score": 98.1,
+ "peak_score": 99.0,
  "best_rank": 1,
  "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
  "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
@@ -21,11 +27,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-23T09:43:05.000Z",
- "last_seen": "2026-10-24T12:01:05.381886+00:00",
- "last_why": "Trending score 127 on Hugging Face; 129 likes, 32.5K downloads.",
+ "last_seen": "2026-10-24T13:16:09.069644+00:00",
+ "last_why": "+173 likes/day pace right now (138 total).",
  "extra": {
   "downloads": 32479,
-  "trending": 127,
+  "trending": 134,
   "hf_type": "model",
   "title": null,
   "summary": null,

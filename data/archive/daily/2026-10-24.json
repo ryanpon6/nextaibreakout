@@ -11,7 +11,8 @@
   "2026-10-24T08:24:22.243431+00:00",
   "2026-10-24T09:31:06.261054+00:00",
   "2026-10-24T10:46:08.579805+00:00",
-  "2026-10-24T12:01:05.381886+00:00"
+  "2026-10-24T12:01:05.381886+00:00",
+  "2026-10-24T13:16:09.069644+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -24,13 +25,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-24T12:01:05.381886+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4795,
-    "trending": 702,
+    "trending": 710,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -372,10 +373,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-24T01:16:08.848507+00:00",
-   "peak_score": 94.1,
+   "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T01:16:08.848507+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "Self-hosted, open-source inventory of everything you own and where it is. AI assistant and MCP server built in.",
    "tag": "agents",
    "extra": {
@@ -395,8 +396,8 @@
     ],
     "repo_id": 1387755954
    },
-   "why_at_peak": "221 stars since launch 28 days ago \u2248 8 stars/day since launch.",
-   "metric_at_peak": 221,
+   "why_at_peak": "241 stars since launch 29 days ago \u2248 8 stars/day since launch.",
+   "metric_at_peak": 241,
    "metric_name": "stars"
   },
   "hf-xhtoken-spark-x2-6-4b": {
@@ -550,12 +551,12 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 44,
+    "comments": 51,
     "hn": "https://news.ycombinator.com/item?id=50214185"
    },
    "why_at_peak": "+96 points/day pace right now (52 total).",
@@ -642,13 +643,13 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 92.2,
    "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T09:31:06.261054+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 57715,
-    "trending": 1992,
+    "downloads": 73215,
+    "trending": 1755,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -668,8 +669,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 69.8,
    "best_rank": 10,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-24T12:01:05.381886+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -824,8 +825,8 @@
    "first_seen": "2026-10-24T04:46:07.769161+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T08:24:22.243431+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
    "tag": "safety",
    "extra": {
@@ -1124,12 +1125,12 @@
    "first_seen": "2026-10-24T08:24:22.243431+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T12:01:05.381886+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 60,
+    "comments": 82,
     "hn": "https://news.ycombinator.com/item?id=50218633"
    },
    "why_at_peak": "+1.0K points/day pace right now (114 total).",
@@ -1146,12 +1147,12 @@
    "first_seen": "2026-10-24T08:24:22.243431+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T12:01:05.381886+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "AI API \u4e2d\u8f6c\u7ad9\u8bc4\u6d4b\u6392\u884c\u4e0e\u5207\u6362\u5de5\u5177\uff1a\u5b9e\u6d4b\u53ef\u7528\u7387\u3001\u5ef6\u8fdf\u4e0e\u4ef7\u683c \u00b7 Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
    "tag": "dev tools",
    "extra": {
-    "forks": 17,
+    "forks": 18,
     "lang": "Rust",
     "topics": [
      "ai",
@@ -1317,23 +1318,45 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-24T12:01:05.381886+00:00",
-   "peak_score": 98.1,
+   "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-24T12:01:05.381886+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 127,
+    "trending": 134,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 127 on Hugging Face; 129 likes, 32.5K downloads.",
-   "metric_at_peak": 129,
+   "why_at_peak": "+173 likes/day pace right now (138 total).",
+   "metric_at_peak": 138,
    "metric_name": "likes"
+  },
+  "hn-50220204-ai-assisted-paper-on-z-library-cites-a-torrentfrea": {
+   "id": "hn:50220204",
+   "slug": "hn-50220204-ai-assisted-paper-on-z-library-cites-a-torrentfrea",
+   "name": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+   "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-24T13:16:09.069644+00:00",
+   "peak_score": 97.3,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-24T13:16:09.069644+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 7,
+    "hn": "https://news.ycombinator.com/item?id=50220204"
+   },
+   "why_at_peak": "+480 points/day pace right now (45 total).",
+   "metric_at_peak": 45,
+   "metric_name": "points"
   }
  }
 }
