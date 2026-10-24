@@ -14,11 +14,17 @@
    "score": 99.0,
    "metric": 330,
    "t": "2026-10-24T22:01:13.806159+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 415,
+   "t": "2026-10-24T23:16:11.622425+00:00"
   }
  ],
  "peak_score": 99.0,
  "best_rank": 1,
- "name": "No Signs of AI Payoff Outside the Tech Sector",
+ "name": "No signs of AI payoff outside the tech sector",
  "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
  "source": "hackernews",
  "kind": "news",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-24T19:47:19Z",
- "last_seen": "2026-10-24T22:01:13.806159+00:00",
- "last_why": "+3.3K points/day pace right now (330 total).",
+ "last_seen": "2026-10-24T23:16:11.622425+00:00",
+ "last_why": "+1.6K points/day pace right now (415 total).",
  "extra": {
-  "comments": 296,
+  "comments": 393,
   "hn": "https://news.ycombinator.com/item?id=50224463"
  },
  "days": [

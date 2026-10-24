@@ -19,7 +19,8 @@
   "2026-10-24T18:16:07.173161+00:00",
   "2026-10-24T19:31:10.012530+00:00",
   "2026-10-24T20:46:05.670097+00:00",
-  "2026-10-24T22:01:13.806159+00:00"
+  "2026-10-24T22:01:13.806159+00:00",
+  "2026-10-24T23:16:11.622425+00:00"
  ],
  "items": {
   "hf-recursivesi-flint": {
@@ -32,13 +33,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-24T22:01:13.806159+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4795,
-    "trending": 740,
+    "trending": 744,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -170,13 +171,13 @@
    "first_seen": "2026-10-24T00:00:24.095764+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-24T19:31:10.012530+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5789,
-    "trending": 293,
+    "trending": 297,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -676,8 +677,8 @@
    "first_seen": "2026-10-24T02:31:04.284934+00:00",
    "peak_score": 73.1,
    "best_rank": 10,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-24T22:01:13.806159+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -968,8 +969,8 @@
    "first_seen": "2026-10-24T06:01:07.891502+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T14:31:07.554752+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and\u2026",
    "tag": "agents",
    "extra": {
@@ -1245,12 +1246,12 @@
    "first_seen": "2026-10-24T10:46:08.579805+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-24T22:01:13.806159+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 22,
+    "forks": 23,
     "lang": "JavaScript",
     "topics": [
      "agentic-automation",
@@ -1268,8 +1269,8 @@
     ],
     "repo_id": 1419772313
    },
-   "why_at_peak": "+249 stars/day pace right now (461 total).",
-   "metric_at_peak": 461,
+   "why_at_peak": "+250 stars/day pace right now (474 total).",
+   "metric_at_peak": 474,
    "metric_name": "stars"
   },
   "gh-lemomo-ai-lemo-opuscar": {
@@ -1327,13 +1328,13 @@
    "first_seen": "2026-10-24T12:01:05.381886+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-24T22:01:13.806159+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 185,
+    "trending": 187,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1353,12 +1354,12 @@
    "first_seen": "2026-10-24T13:16:09.069644+00:00",
    "peak_score": 97.3,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-24T20:46:05.670097+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 47,
+    "comments": 49,
     "hn": "https://news.ycombinator.com/item?id=50220204"
    },
    "why_at_peak": "+154 points/day pace right now (79 total).",
@@ -1401,8 +1402,8 @@
    "first_seen": "2026-10-24T15:46:08.005592+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-24T18:16:07.173161+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
@@ -1490,12 +1491,12 @@
    "first_seen": "2026-10-24T18:16:07.173161+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-24T22:01:13.806159+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 22,
+    "comments": 26,
     "hn": "https://news.ycombinator.com/item?id=50222525"
    },
    "why_at_peak": "+345 points/day pace right now (61 total).",
@@ -1547,12 +1548,12 @@
    "first_seen": "2026-10-24T20:46:05.670097+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-24T22:01:13.806159+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-24T23:16:11.622425+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 296,
+    "comments": 393,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+3.3K points/day pace right now (330 total).",

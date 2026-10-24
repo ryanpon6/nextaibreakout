@@ -68,6 +68,12 @@
    "score": 96.5,
    "metric": 461,
    "t": "2026-10-24T22:01:13.806159+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.5,
+   "metric": 474,
+   "t": "2026-10-24T23:16:11.622425+00:00"
   }
  ],
  "peak_score": 96.5,
@@ -81,10 +87,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T19:55:37Z",
- "last_seen": "2026-10-24T22:01:13.806159+00:00",
- "last_why": "+249 stars/day pace right now (461 total).",
+ "last_seen": "2026-10-24T23:16:11.622425+00:00",
+ "last_why": "+250 stars/day pace right now (474 total).",
  "extra": {
-  "forks": 22,
+  "forks": 23,
   "lang": "JavaScript",
   "topics": [
    "agentic-automation",
