@@ -18,7 +18,8 @@
   "2026-10-25T17:31:10.354947+00:00",
   "2026-10-25T18:31:01.944741+00:00",
   "2026-10-25T19:46:07.023512+00:00",
-  "2026-10-25T21:01:05.542115+00:00"
+  "2026-10-25T21:01:05.542115+00:00",
+  "2026-10-25T22:16:09.236212+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -57,13 +58,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 261,
+    "trending": 266,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -83,12 +84,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 605,
+    "comments": 644,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -261,8 +262,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 18,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -501,12 +502,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 821,
+    "forks": 823,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -1198,13 +1199,13 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 318,
+    "trending": 337,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1224,12 +1225,12 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 31,
+    "forks": 34,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -1306,16 +1307,16 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 145,
+    "comments": 170,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
-   "why_at_peak": "+2.0K points/day pace right now (210 total).",
-   "metric_at_peak": 210,
+   "why_at_peak": "+787 points/day pace right now (330 total).",
+   "metric_at_peak": 330,
    "metric_name": "points"
   },
   "hn-50233304-ai-use-leads-uc-berkeley-math-professor-to-see-no": {
@@ -1328,16 +1329,16 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 227,
+    "comments": 249,
     "hn": "https://news.ycombinator.com/item?id=50233304"
    },
-   "why_at_peak": "+768 points/day pace right now (144 total).",
-   "metric_at_peak": 144,
+   "why_at_peak": "+384 points/day pace right now (164 total).",
+   "metric_at_peak": 164,
    "metric_name": "points"
   },
   "hf-inclusionai-ming-3-0-tts-0-5b": {
@@ -1350,20 +1351,20 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
    "what": "text-to-speech model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3172,
-    "trending": 126,
+    "trending": 131,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 126 on Hugging Face; 127 likes, 3.2K downloads.",
-   "metric_at_peak": 127,
+   "why_at_peak": "Trending score 131 on Hugging Face; 132 likes, 3.2K downloads.",
+   "metric_at_peak": 132,
    "metric_name": "likes"
   },
   "gh-opensec-git-pi-bolt": {
@@ -1457,6 +1458,49 @@
    "why_at_peak": "+192 points/day pace right now (40 total).",
    "metric_at_peak": 40,
    "metric_name": "points"
+  },
+  "gh-liuda30201-ai-coding": {
+   "id": "gh:liuda30201/AI-Coding",
+   "slug": "gh-liuda30201-ai-coding",
+   "name": "liuda30201/AI-Coding",
+   "url": "https://github.com/liuda30201/AI-Coding",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T22:16:09.236212+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T22:16:09.236212+00:00",
+   "what": "AI \u7f16\u7a0b\u798f\u5229\u5bfc\u822a\uff1a\u6c47\u603b Claude Code\u3001Codex\u3001Cursor \u4e2d\u8f6c\u7ad9\u4e0e\u516c\u76ca\u7ad9\uff0c\u6574\u7406\u514d\u8d39\u989d\u5ea6\u3001\u6ce8\u518c\u798f\u5229\u3001\u7b7e\u5230\u6d3b\u52a8\u548c\u8bc4\u6d4b\u8bb0\u5f55\uff0c\u63d0\u4f9b\u53ef\u89c6\u5316\u770b\u677f\u4e0e Python \u6570\u636e\u91c7\u96c6\u5de5\u5177\u3002",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 29,
+    "lang": "HTML",
+    "topics": [
+     "ai-coding",
+     "api-relay",
+     "claude-code",
+     "codex",
+     "cursor",
+     "dashboard",
+     "deepseek",
+     "deepseek-harness",
+     "free-credits",
+     "free-tier",
+     "gpt",
+     "gpt-6",
+     "gpt-6-1-sol",
+     "gpt-6-astra",
+     "llm",
+     "python",
+     "resource-directory",
+     "web-scraping"
+    ],
+    "repo_id": 1420753687
+   },
+   "why_at_peak": "+96 stars/day pace right now (370 total).",
+   "metric_at_peak": 370,
+   "metric_name": "stars"
   }
  }
 }
