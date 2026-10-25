@@ -8,6 +8,12 @@
    "score": 96.4,
    "metric": 245,
    "t": "2026-10-25T05:01:07.429950+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 250,
+   "t": "2026-10-25T06:16:07.105169+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -21,8 +27,8 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-10-17T21:43:39Z",
- "last_seen": "2026-10-25T05:01:07.429950+00:00",
- "last_why": "245 stars since launch 7 days ago \u2248 34 stars/day since launch.",
+ "last_seen": "2026-10-25T06:16:07.105169+00:00",
+ "last_why": "250 stars since launch 7 days ago \u2248 34 stars/day since launch.",
  "extra": {
   "forks": 7,
   "lang": "Rust",

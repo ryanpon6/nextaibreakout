@@ -1,0 +1,49 @@
+{
+ "id": "gh:ZipengWu365/TOMC",
+ "slug": "gh-zipengwu365-tomc",
+ "first_seen": "2026-10-25T06:16:07.105169+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.6,
+   "metric": 244,
+   "t": "2026-10-25T06:16:07.105169+00:00"
+  }
+ ],
+ "peak_score": 95.6,
+ "best_rank": 5,
+ "name": "ZipengWu365/TOMC",
+ "url": "https://github.com/ZipengWu365/TOMC",
+ "source": "github",
+ "kind": "tool",
+ "desc": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
+ "what": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-06T09:16:26Z",
+ "last_seen": "2026-10-25T06:16:07.105169+00:00",
+ "last_why": "244 stars since launch 19 days ago \u2248 13 stars/day since launch.",
+ "extra": {
+  "forks": 19,
+  "lang": "Python",
+  "topics": [
+   "agent-memory",
+   "claude-code",
+   "codex",
+   "context-compression",
+   "llm",
+   "long-context",
+   "mcp",
+   "memory-compilation",
+   "python",
+   "research-software",
+   "task-oriented-memory-compilation",
+   "token-optimization",
+   "tomc-memory"
+  ],
+  "repo_id": 1407020968
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

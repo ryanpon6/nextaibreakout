@@ -5,7 +5,8 @@
   "2026-10-25T01:25:14.196243+00:00",
   "2026-10-25T02:31:10.838152+00:00",
   "2026-10-25T03:46:10.785984+00:00",
-  "2026-10-25T05:01:07.429950+00:00"
+  "2026-10-25T05:01:07.429950+00:00",
+  "2026-10-25T06:16:07.105169+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -18,13 +19,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3,
-    "trending": 142,
+    "trending": 148,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -44,20 +45,20 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 216,
+    "trending": 221,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+192 likes/day pace right now (224 total).",
-   "metric_at_peak": 224,
+   "why_at_peak": "+96 likes/day pace right now (229 total).",
+   "metric_at_peak": 229,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -70,12 +71,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 532,
+    "comments": 539,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -248,8 +249,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -671,18 +672,18 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 14,
+    "comments": 33,
     "hn": "https://news.ycombinator.com/item?id=50228167",
     "repo_created": "2026-08-26T20:56:52Z",
     "repo": "slee-persis/GVS5H"
    },
-   "why_at_peak": "57 points in 1h on Hacker News (14 comments).",
-   "metric_at_peak": 57,
+   "why_at_peak": "+1.1K points/day pace right now (112 total).",
+   "metric_at_peak": 112,
    "metric_name": "points"
   },
   "hn-50227356-cerebras-deploys-trillion-parameter-ai-models": {
@@ -695,16 +696,16 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 18,
+    "comments": 28,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
-   "why_at_peak": "+596 points/day pace right now (56 total).",
-   "metric_at_peak": 56,
+   "why_at_peak": "+499 points/day pace right now (82 total).",
+   "metric_at_peak": 82,
    "metric_name": "points"
   },
   "gh-eliasbiondo-antirion": {
@@ -717,8 +718,8 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T05:01:07.429950+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
    "what": "The fastest open-source AI gateway \u2014 one Rust binary with a built-in console to route, secure, budget and observe every LLM call across\u2026",
    "tag": "safety",
    "extra": {
@@ -746,8 +747,8 @@
     ],
     "repo_id": 1423770820
    },
-   "why_at_peak": "245 stars since launch 7 days ago \u2248 34 stars/day since launch.",
-   "metric_at_peak": 245,
+   "why_at_peak": "250 stars since launch 7 days ago \u2248 34 stars/day since launch.",
+   "metric_at_peak": 250,
    "metric_name": "stars"
   },
   "gh-reacher-z-awesome-rea": {
@@ -816,6 +817,115 @@
    },
    "why_at_peak": "+96 likes/day pace right now (150 total).",
    "metric_at_peak": 150,
+   "metric_name": "likes"
+  },
+  "gh-zipengwu365-tomc": {
+   "id": "gh:ZipengWu365/TOMC",
+   "slug": "gh-zipengwu365-tomc",
+   "name": "ZipengWu365/TOMC",
+   "url": "https://github.com/ZipengWu365/TOMC",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T06:16:07.105169+00:00",
+   "peak_score": 95.6,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "what": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
+   "tag": "agents",
+   "extra": {
+    "forks": 19,
+    "lang": "Python",
+    "topics": [
+     "agent-memory",
+     "claude-code",
+     "codex",
+     "context-compression",
+     "llm",
+     "long-context",
+     "mcp",
+     "memory-compilation",
+     "python",
+     "research-software",
+     "task-oriented-memory-compilation",
+     "token-optimization",
+     "tomc-memory"
+    ],
+    "repo_id": 1407020968
+   },
+   "why_at_peak": "244 stars since launch 19 days ago \u2248 13 stars/day since launch.",
+   "metric_at_peak": 244,
+   "metric_name": "stars"
+  },
+  "gh-dagoste-squadra": {
+   "id": "gh:dagoSte/squadra",
+   "slug": "gh-dagoste-squadra",
+   "name": "dagoSte/squadra",
+   "url": "https://github.com/dagoSte/squadra",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T06:16:07.105169+00:00",
+   "peak_score": 93.1,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
+   "tag": "safety",
+   "extra": {
+    "forks": 17,
+    "lang": "Python",
+    "topics": [
+     "agent-orchestration",
+     "agent-skills",
+     "agentic-coding",
+     "ai-agents",
+     "ai-coding",
+     "claude",
+     "claude-code",
+     "claude-skills",
+     "code-review",
+     "codex",
+     "cursor",
+     "developer-tools",
+     "llm",
+     "mcp",
+     "model-context-protocol",
+     "multi-agent",
+     "multi-agent-systems",
+     "python",
+     "token-usage",
+     "vibe-coding"
+    ],
+    "repo_id": 1391814933
+   },
+   "why_at_peak": "+288 stars/day pace right now (473 total).",
+   "metric_at_peak": 473,
+   "metric_name": "stars"
+  },
+  "hf-black-forest-labs-flux-3-image-klein-comfy": {
+   "id": "hfmodel:black-forest-labs/flux-3-image-klein-comfy",
+   "slug": "hf-black-forest-labs-flux-3-image-klein-comfy",
+   "name": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T06:16:07.105169+00:00",
+   "peak_score": 88.9,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "what": "image-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 590742,
+    "trending": 542,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+154 likes/day pace right now (1.5K total).",
+   "metric_at_peak": 1521,
    "metric_name": "likes"
   }
  }
