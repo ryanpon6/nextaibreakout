@@ -1,0 +1,43 @@
+{
+ "id": "gh:OrgoAI/bops",
+ "slug": "gh-orgoai-bops",
+ "first_seen": "2026-10-25T00:31:08.839396+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.0,
+   "metric": 335,
+   "t": "2026-10-25T00:31:08.839396+00:00"
+  }
+ ],
+ "peak_score": 94.0,
+ "best_rank": 5,
+ "name": "OrgoAI/bops",
+ "url": "https://github.com/OrgoAI/bops",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Bops: a team of AI bots that run your business ops, each with its own computer, email and phone number. bops.bot",
+ "what": "Bops: a team of AI bots that run your business ops, each with its own computer, email and phone number. bops.bot",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-06T14:45:00Z",
+ "last_seen": "2026-10-25T00:31:08.839396+00:00",
+ "last_why": "335 stars since launch 18 days ago \u2248 18 stars/day since launch.",
+ "extra": {
+  "forks": 86,
+  "lang": "TypeScript",
+  "topics": [
+   "ai-agents",
+   "business-automation",
+   "computer-use",
+   "electron",
+   "mac-app",
+   "nextjs",
+   "open-source"
+  ],
+  "repo_id": 1407464278
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "pypi:dspy",
+ "slug": "pypi-dspy",
+ "first_seen": "2026-10-25T00:31:08.839396+00:00",
+ "appearances": [
+  {
+   "rank": 10,
+   "score": 60.9,
+   "metric": 226915,
+   "t": "2026-10-25T00:31:08.839396+00:00"
+  }
+ ],
+ "peak_score": 60.9,
+ "best_rank": 10,
+ "name": "dspy",
+ "url": "https://pypi.org/project/dspy",
+ "source": "pypi",
+ "kind": "tool",
+ "desc": "Python package",
+ "what": "Python package",
+ "tag": "dev tools",
+ "metric_name": "downloads/day",
+ "created": null,
+ "last_seen": "2026-10-25T00:31:08.839396+00:00",
+ "last_why": "226.9K downloads yesterday, 1.27\u00d7 its 7-day average.",
+ "extra": {
+  "week": 1254893,
+  "month": 5312050
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

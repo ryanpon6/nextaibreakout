@@ -14,6 +14,12 @@
    "score": 95.5,
    "metric": 292,
    "t": "2026-10-24T09:31:06.261054+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.8,
+   "metric": 297,
+   "t": "2026-10-25T00:31:08.839396+00:00"
   }
  ],
  "peak_score": 95.5,
@@ -27,8 +33,8 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-10T09:19:05Z",
- "last_seen": "2026-10-24T09:31:06.261054+00:00",
- "last_why": "292 stars since launch 14 days ago \u2248 21 stars/day since launch.",
+ "last_seen": "2026-10-25T00:31:08.839396+00:00",
+ "last_why": "297 stars since launch 15 days ago \u2248 20 stars/day since launch.",
  "extra": {
   "forks": 22,
   "lang": "Go",
@@ -45,6 +51,7 @@
   "repo_id": 1412998022
  },
  "days": [
-  "2026-10-24"
+  "2026-10-24",
+  "2026-10-25"
  ]
 }

@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+ "slug": "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf",
+ "first_seen": "2026-10-25T00:31:08.839396+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 136,
+   "t": "2026-10-25T00:31:08.839396+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+ "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-22T04:06:52.000Z",
+ "last_seen": "2026-10-25T00:31:08.839396+00:00",
+ "last_why": "Trending score 126 on Hugging Face; 136 likes, 3 downloads.",
+ "extra": {
+  "downloads": 3,
+  "trending": 126,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}
