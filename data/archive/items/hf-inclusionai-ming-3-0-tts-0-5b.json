@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:inclusionAI/Ming-3.0-tts-0.5B",
+ "slug": "hf-inclusionai-ming-3-0-tts-0-5b",
+ "first_seen": "2026-10-25T18:31:01.944741+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 127,
+   "t": "2026-10-25T18:31:01.944741+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 5,
+ "name": "inclusionAI/Ming-3.0-tts-0.5B",
+ "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-speech",
+ "what": "text-to-speech model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-22T12:46:58.000Z",
+ "last_seen": "2026-10-25T18:31:01.944741+00:00",
+ "last_why": "Trending score 126 on Hugging Face; 127 likes, 3.2K downloads.",
+ "extra": {
+  "downloads": 3172,
+  "trending": 126,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

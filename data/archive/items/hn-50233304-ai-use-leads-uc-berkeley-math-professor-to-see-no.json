@@ -1,0 +1,33 @@
+{
+ "id": "hn:50233304",
+ "slug": "hn-50233304-ai-use-leads-uc-berkeley-math-professor-to-see-no",
+ "first_seen": "2026-10-25T18:31:01.944741+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 58,
+   "t": "2026-10-25T18:31:01.944741+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+ "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T16:28:26Z",
+ "last_seen": "2026-10-25T18:31:01.944741+00:00",
+ "last_why": "+553 points/day pace right now (58 total).",
+ "extra": {
+  "comments": 85,
+  "hn": "https://news.ycombinator.com/item?id=50233304"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

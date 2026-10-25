@@ -1,0 +1,33 @@
+{
+ "id": "hn:50233779",
+ "slug": "hn-50233779-a-10-year-old-cnn-outperforms-frontier-llms-for-sk",
+ "first_seen": "2026-10-25T18:31:01.944741+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 104,
+   "t": "2026-10-25T18:31:01.944741+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+ "url": "https://lynchlab.net/llm-skin-cancer",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T17:15:38Z",
+ "last_seen": "2026-10-25T18:31:01.944741+00:00",
+ "last_why": "104 points in 1h on Hacker News (56 comments).",
+ "extra": {
+  "comments": 56,
+  "hn": "https://news.ycombinator.com/item?id=50233779"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}
