@@ -1,0 +1,49 @@
+{
+ "id": "gh:xop01/ai_goodpractice",
+ "slug": "gh-xop01-ai-goodpractice",
+ "first_seen": "2026-10-25T02:31:10.838152+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 93.9,
+   "metric": 619,
+   "t": "2026-10-25T02:31:10.838152+00:00"
+  }
+ ],
+ "peak_score": 93.9,
+ "best_rank": 6,
+ "name": "xop01/ai_goodpractice",
+ "url": "https://github.com/xop01/ai_goodpractice",
+ "source": "github",
+ "kind": "tool",
+ "desc": "full guide to help you integrate AI in your workflow, for both beginners and experienced users",
+ "what": "full guide to help you integrate AI in your workflow, for both beginners and experienced users",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-02T11:01:25Z",
+ "last_seen": "2026-10-25T02:31:10.838152+00:00",
+ "last_why": "+87 stars/day pace right now (619 total).",
+ "extra": {
+  "forks": 0,
+  "lang": null,
+  "topics": [
+   "ai",
+   "ai-agent",
+   "ai-agents",
+   "ai-coding",
+   "ai-model",
+   "ai-safety",
+   "ai-tools",
+   "guide",
+   "guidebook",
+   "guideline",
+   "guidelines",
+   "guides",
+   "usage"
+  ],
+  "repo_id": 1401538687
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

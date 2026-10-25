@@ -26,9 +26,15 @@
    "score": 94.0,
    "metric": 543,
    "t": "2026-10-24T23:16:11.622425+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.6,
+   "metric": 561,
+   "t": "2026-10-25T02:31:10.838152+00:00"
   }
  ],
- "peak_score": 95.5,
+ "peak_score": 95.6,
  "best_rank": 4,
  "name": "chenxiachan/textfold",
  "url": "https://github.com/chenxiachan/textfold",
@@ -39,8 +45,8 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-04T22:19:52Z",
- "last_seen": "2026-10-24T23:16:11.622425+00:00",
- "last_why": "+115 stars/day pace right now (543 total).",
+ "last_seen": "2026-10-25T02:31:10.838152+00:00",
+ "last_why": "+197 stars/day pace right now (561 total).",
  "extra": {
   "forks": 46,
   "lang": "Python",
@@ -57,6 +63,7 @@
   "repo_id": 1404880073
  },
  "days": [
-  "2026-10-24"
+  "2026-10-24",
+  "2026-10-25"
  ]
 }
