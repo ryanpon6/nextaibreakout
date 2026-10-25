@@ -1,0 +1,33 @@
+{
+ "id": "hn:50231722",
+ "slug": "hn-50231722-r-open-source-bans-all-solo-projects-and-projects",
+ "first_seen": "2026-10-25T16:16:06.512772+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 64,
+   "t": "2026-10-25T16:16:06.512772+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "R/open source bans all solo projects and projects using LLMs",
+ "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T14:05:03Z",
+ "last_seen": "2026-10-25T16:16:06.512772+00:00",
+ "last_why": "+481 points/day pace right now (64 total).",
+ "extra": {
+  "comments": 83,
+  "hn": "https://news.ycombinator.com/item?id=50231722"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

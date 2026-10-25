@@ -8,9 +8,15 @@
    "score": 95.5,
    "metric": 284,
    "t": "2026-10-25T15:01:13.306858+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 302,
+   "t": "2026-10-25T16:16:06.512772+00:00"
   }
  ],
- "peak_score": 95.5,
+ "peak_score": 96.4,
  "best_rank": 4,
  "name": "miuuyy/Octopus-SI-OS",
  "url": "https://github.com/miuuyy/Octopus-SI-OS",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-09T08:28:38Z",
- "last_seen": "2026-10-25T15:01:13.306858+00:00",
- "last_why": "284 stars since launch 16 days ago \u2248 17 stars/day since launch.",
+ "last_seen": "2026-10-25T16:16:06.512772+00:00",
+ "last_why": "302 stars since launch 16 days ago \u2248 18 stars/day since launch.",
  "extra": {
-  "forks": 25,
+  "forks": 27,
   "lang": "Rust",
   "topics": [
    "agent-framework",

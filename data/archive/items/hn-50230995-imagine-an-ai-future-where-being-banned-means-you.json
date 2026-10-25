@@ -1,0 +1,33 @@
+{
+ "id": "hn:50230995",
+ "slug": "hn-50230995-imagine-an-ai-future-where-being-banned-means-you",
+ "first_seen": "2026-10-25T16:16:06.512772+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 63,
+   "t": "2026-10-25T16:16:06.512772+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Imagine an AI future where being banned means you are now economically useless",
+ "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T12:47:20Z",
+ "last_seen": "2026-10-25T16:16:06.512772+00:00",
+ "last_why": "63 points in 3h on Hacker News (47 comments).",
+ "extra": {
+  "comments": 47,
+  "hn": "https://news.ycombinator.com/item?id=50230995"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

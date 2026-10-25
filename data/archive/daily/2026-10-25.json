@@ -13,7 +13,8 @@
   "2026-10-25T11:16:08.904316+00:00",
   "2026-10-25T12:31:11.461305+00:00",
   "2026-10-25T13:46:05.576193+00:00",
-  "2026-10-25T15:01:13.306858+00:00"
+  "2026-10-25T15:01:13.306858+00:00",
+  "2026-10-25T16:16:06.512772+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -26,13 +27,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7293,
-    "trending": 176,
+    "trending": 177,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -52,13 +53,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 247,
+    "trending": 253,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -256,8 +257,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -463,8 +464,8 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
@@ -494,14 +495,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
-   "peak_score": 94.7,
+   "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 800,
+    "forks": 804,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -527,8 +528,8 @@
     ],
     "repo_id": 1389011744
    },
-   "why_at_peak": "+998 stars/day pace right now (6.8K total).",
-   "metric_at_peak": 6846,
+   "why_at_peak": "+1.6K stars/day pace right now (7.2K total).",
+   "metric_at_peak": 7175,
    "metric_name": "stars"
   },
   "gh-xop01-ai-goodpractice": {
@@ -703,12 +704,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 84,
+    "comments": 94,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
    "why_at_peak": "+422 points/day pace right now (187 total).",
@@ -1193,20 +1194,20 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 158,
+    "trending": 205,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 158 on Hugging Face; 158 likes, 0 downloads.",
-   "metric_at_peak": 158,
+   "why_at_peak": "+904 likes/day pace right now (205 total).",
+   "metric_at_peak": 205,
    "metric_name": "likes"
   },
   "gh-miuuyy-octopus-si-os": {
@@ -1217,14 +1218,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
-   "peak_score": 95.5,
+   "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 25,
+    "forks": 27,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -1243,9 +1244,53 @@
     ],
     "repo_id": 1411523628
    },
-   "why_at_peak": "284 stars since launch 16 days ago \u2248 17 stars/day since launch.",
-   "metric_at_peak": 284,
+   "why_at_peak": "302 stars since launch 16 days ago \u2248 18 stars/day since launch.",
+   "metric_at_peak": 302,
    "metric_name": "stars"
+  },
+  "hn-50230995-imagine-an-ai-future-where-being-banned-means-you": {
+   "id": "hn:50230995",
+   "slug": "hn-50230995-imagine-an-ai-future-where-being-banned-means-you",
+   "name": "Imagine an AI future where being banned means you are now economically useless",
+   "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-25T16:16:06.512772+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 47,
+    "hn": "https://news.ycombinator.com/item?id=50230995"
+   },
+   "why_at_peak": "63 points in 3h on Hacker News (47 comments).",
+   "metric_at_peak": 63,
+   "metric_name": "points"
+  },
+  "hn-50231722-r-open-source-bans-all-solo-projects-and-projects": {
+   "id": "hn:50231722",
+   "slug": "hn-50231722-r-open-source-bans-all-solo-projects-and-projects",
+   "name": "R/open source bans all solo projects and projects using LLMs",
+   "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-25T16:16:06.512772+00:00",
+   "peak_score": 97.3,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T16:16:06.512772+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 83,
+    "hn": "https://news.ycombinator.com/item?id=50231722"
+   },
+   "why_at_peak": "+481 points/day pace right now (64 total).",
+   "metric_at_peak": 64,
+   "metric_name": "points"
   }
  }
 }
