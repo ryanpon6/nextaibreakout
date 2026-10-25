@@ -80,6 +80,12 @@
    "score": 92.1,
    "metric": 664,
    "t": "2026-10-25T16:16:06.512772+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.0,
+   "metric": 675,
+   "t": "2026-10-25T19:46:07.023512+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -93,8 +99,8 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-04T22:19:52Z",
- "last_seen": "2026-10-25T16:16:06.512772+00:00",
- "last_why": "+96 stars/day pace right now (664 total).",
+ "last_seen": "2026-10-25T19:46:07.023512+00:00",
+ "last_why": "+115 stars/day pace right now (675 total).",
  "extra": {
   "forks": 55,
   "lang": "Python",

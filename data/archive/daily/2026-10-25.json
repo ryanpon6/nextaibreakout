@@ -16,7 +16,8 @@
   "2026-10-25T15:01:13.306858+00:00",
   "2026-10-25T16:16:06.512772+00:00",
   "2026-10-25T17:31:10.354947+00:00",
-  "2026-10-25T18:31:01.944741+00:00"
+  "2026-10-25T18:31:01.944741+00:00",
+  "2026-10-25T19:46:07.023512+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -259,8 +260,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -438,22 +439,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-25T01:25:14.196243+00:00",
-   "peak_score": 89.7,
+   "peak_score": 90.5,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 5789,
-    "trending": 307,
+    "downloads": 7355,
+    "trending": 332,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+53 likes/day pace right now (317 total).",
-   "metric_at_peak": 317,
+   "why_at_peak": "+96 likes/day pace right now (343 total).",
+   "metric_at_peak": 343,
    "metric_name": "likes"
   },
   "gh-chenxiachan-textfold": {
@@ -466,8 +467,8 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T16:16:06.512772+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
@@ -499,12 +500,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 818,
+    "forks": 819,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -1196,13 +1197,13 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 264,
+    "trending": 288,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1222,12 +1223,12 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 28,
+    "forks": 30,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -1304,16 +1305,16 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 56,
+    "comments": 107,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
-   "why_at_peak": "104 points in 1h on Hacker News (56 comments).",
-   "metric_at_peak": 104,
+   "why_at_peak": "+2.0K points/day pace right now (210 total).",
+   "metric_at_peak": 210,
    "metric_name": "points"
   },
   "hn-50233304-ai-use-leads-uc-berkeley-math-professor-to-see-no": {
@@ -1326,16 +1327,16 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T18:31:01.944741+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 85,
+    "comments": 162,
     "hn": "https://news.ycombinator.com/item?id=50233304"
    },
-   "why_at_peak": "+553 points/day pace right now (58 total).",
-   "metric_at_peak": 58,
+   "why_at_peak": "+882 points/day pace right now (104 total).",
+   "metric_at_peak": 104,
    "metric_name": "points"
   },
   "hf-inclusionai-ming-3-0-tts-0-5b": {
@@ -1407,6 +1408,54 @@
    "why_at_peak": "+168 stars/day pace right now (573 total).",
    "metric_at_peak": 573,
    "metric_name": "stars"
+  },
+  "hf-unsloth-qwen3-8-27b-gguf": {
+   "id": "hfmodel:unsloth/Qwen3.8-27B-GGUF",
+   "slug": "hf-unsloth-qwen3-8-27b-gguf",
+   "name": "unsloth/Qwen3.8-27B-GGUF",
+   "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T19:46:07.023512+00:00",
+   "peak_score": 96.4,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 5857773,
+    "trending": 127,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 127 on Hugging Face; 5.3K likes, 5.9M downloads.",
+   "metric_at_peak": 5333,
+   "metric_name": "likes"
+  },
+  "hn-50233347-a-mathematician-reads-the-ai-future": {
+   "id": "hn:50233347",
+   "slug": "hn-50233347-a-mathematician-reads-the-ai-future",
+   "name": "A Mathematician Reads the AI Future",
+   "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-25T19:46:07.023512+00:00",
+   "peak_score": 94.7,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T19:46:07.023512+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 43,
+    "hn": "https://news.ycombinator.com/item?id=50233347"
+   },
+   "why_at_peak": "+192 points/day pace right now (40 total).",
+   "metric_at_peak": 40,
+   "metric_name": "points"
   }
  }
 }
