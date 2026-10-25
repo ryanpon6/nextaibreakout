@@ -1,7 +1,8 @@
 {
  "day": "2026-10-25",
  "runs": [
-  "2026-10-25T00:31:08.839396+00:00"
+  "2026-10-25T00:31:08.839396+00:00",
+  "2026-10-25T01:25:14.196243+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -14,13 +15,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T00:31:08.839396+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3,
-    "trending": 126,
+    "trending": 128,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -38,22 +39,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
-   "peak_score": 97.3,
+   "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T00:31:08.839396+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 198,
+    "trending": 202,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+211 likes/day pace right now (206 total).",
-   "metric_at_peak": 206,
+   "why_at_peak": "+106 likes/day pace right now (210 total).",
+   "metric_at_peak": 210,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -64,18 +65,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
-   "peak_score": 96.5,
-   "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T00:31:08.839396+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 438,
+    "comments": 466,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
-   "why_at_peak": "+749 points/day pace right now (454 total).",
-   "metric_at_peak": 454,
+   "why_at_peak": "+479 points/day pace right now (472 total).",
+   "metric_at_peak": 472,
    "metric_name": "points"
   },
   "gh-init-co-jp-diff-tour": {
@@ -220,18 +221,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
-   "peak_score": 82.8,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T00:31:08.839396+00:00",
+   "peak_score": 97.3,
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 29,
+    "comments": 31,
     "hn": "https://news.ycombinator.com/item?id=50222525"
    },
-   "why_at_peak": "+77 points/day pace right now (86 total).",
-   "metric_at_peak": 86,
+   "why_at_peak": "+133 points/day pace right now (91 total).",
+   "metric_at_peak": 91,
    "metric_name": "points"
   },
   "npm--modelcontextprotocol-sdk": {
@@ -242,10 +243,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
-   "peak_score": 67.5,
+   "peak_score": 68.4,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T00:31:08.839396+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -285,6 +286,161 @@
    "why_at_peak": "226.9K downloads yesterday, 1.27\u00d7 its 7-day average.",
    "metric_at_peak": 226915,
    "metric_name": "downloads/day"
+  },
+  "hn-50214185-new-ai-is-more-than-twice-as-good-at-diagnosing-di": {
+   "id": "hn:50214185",
+   "slug": "hn-50214185-new-ai-is-more-than-twice-as-good-at-diagnosing-di",
+   "name": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+   "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-25T01:25:14.196243+00:00",
+   "peak_score": 95.6,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 58,
+    "hn": "https://news.ycombinator.com/item?id=50214185"
+   },
+   "why_at_peak": "+27 points/day pace right now (66 total).",
+   "metric_at_peak": 66,
+   "metric_name": "points"
+  },
+  "gh-mikamikasuki-forest": {
+   "id": "gh:mikamikasuki/forest",
+   "slug": "gh-mikamikasuki-forest",
+   "name": "mikamikasuki/forest",
+   "url": "https://github.com/mikamikasuki/forest",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T01:25:14.196243+00:00",
+   "peak_score": 94.7,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "what": "FOREST is a research agent for long-horizon science, where evidence gets lost, errors compound, and goals drift. It explores ideas, reads\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 41,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "ai-scientist",
+     "automated-research",
+     "autoresearch",
+     "llm-agents",
+     "research"
+    ],
+    "repo_id": 1394997986
+   },
+   "why_at_peak": "341 stars since launch 26 days ago \u2248 13 stars/day since launch.",
+   "metric_at_peak": 341,
+   "metric_name": "stars"
+  },
+  "gh-ctoldigital-axuse": {
+   "id": "gh:ctoldigital/axuse",
+   "slug": "gh-ctoldigital-axuse",
+   "name": "ctoldigital/axuse",
+   "url": "https://github.com/ctoldigital/axuse",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T01:25:14.196243+00:00",
+   "peak_score": 93.9,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 23,
+    "lang": "JavaScript",
+    "topics": [
+     "agentic-automation",
+     "ai-agents",
+     "browser-automation",
+     "browser-use",
+     "cdp",
+     "chrome-devtools-protocol",
+     "computer-use",
+     "cua",
+     "mcp",
+     "model-context-protocol",
+     "rpa",
+     "web-automation"
+    ],
+    "repo_id": 1419772313
+   },
+   "why_at_peak": "+133 stars/day pace right now (483 total).",
+   "metric_at_peak": 483,
+   "metric_name": "stars"
+  },
+  "gh-mw00-project-maya": {
+   "id": "gh:mw00/project-maya",
+   "slug": "gh-mw00-project-maya",
+   "name": "mw00/project-maya",
+   "url": "https://github.com/mw00/project-maya",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T01:25:14.196243+00:00",
+   "peak_score": 93.0,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "what": "Project Maya - run GLM-5.3-Flash (321B MoE) and DeepSeek-V4.1-Flash-1017 (748B MoE) privately on your own GPU(s), from one card to 16,\u2026",
+   "tag": "models",
+   "extra": {
+    "forks": 231,
+    "lang": "C++",
+    "topics": [
+     "cuda",
+     "deepseek",
+     "deepseek-v4",
+     "glm",
+     "glm-5",
+     "llm",
+     "llm-inference",
+     "local-llm",
+     "mixture-of-experts",
+     "moe",
+     "openai-api",
+     "quantization",
+     "rocm",
+     "self-hosted"
+    ],
+    "repo_id": 1407997858
+   },
+   "why_at_peak": "+186 stars/day pace right now (1.8K total).",
+   "metric_at_peak": 1781,
+   "metric_name": "stars"
+  },
+  "hf-minimaxai-minimax-m3-1-flash": {
+   "id": "hfmodel:MiniMaxAI/MiniMax-M3.1-Flash",
+   "slug": "hf-minimaxai-minimax-m3-1-flash",
+   "name": "MiniMaxAI/MiniMax-M3.1-Flash",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T01:25:14.196243+00:00",
+   "peak_score": 89.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 5789,
+    "trending": 307,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+53 likes/day pace right now (317 total).",
+   "metric_at_peak": 317,
+   "metric_name": "likes"
   }
  }
 }

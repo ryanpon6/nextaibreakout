@@ -1,0 +1,42 @@
+{
+ "id": "gh:mikamikasuki/forest",
+ "slug": "gh-mikamikasuki-forest",
+ "first_seen": "2026-10-25T01:25:14.196243+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 341,
+   "t": "2026-10-25T01:25:14.196243+00:00"
+  }
+ ],
+ "peak_score": 94.7,
+ "best_rank": 6,
+ "name": "mikamikasuki/forest",
+ "url": "https://github.com/mikamikasuki/forest",
+ "source": "github",
+ "kind": "tool",
+ "desc": "FOREST is a research agent for long-horizon science, where evidence gets lost, errors compound, and goals drift. It explores ideas, reads literature, forms hypotheses, runs real experiments, analyzes results, revises paths, and builds a full paper\u2014all in an editable graph you can inspect, branch, redirect, with claims and figures linked to evidence",
+ "what": "FOREST is a research agent for long-horizon science, where evidence gets lost, errors compound, and goals drift. It explores ideas, reads\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-29T11:06:54Z",
+ "last_seen": "2026-10-25T01:25:14.196243+00:00",
+ "last_why": "341 stars since launch 26 days ago \u2248 13 stars/day since launch.",
+ "extra": {
+  "forks": 41,
+  "lang": "Python",
+  "topics": [
+   "ai-agents",
+   "ai-scientist",
+   "automated-research",
+   "autoresearch",
+   "llm-agents",
+   "research"
+  ],
+  "repo_id": 1394997986
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}
