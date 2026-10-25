@@ -1,0 +1,33 @@
+{
+ "id": "hn:50229827",
+ "slug": "hn-50229827-nikon-photography-contest-winner-loses-title-after",
+ "first_seen": "2026-10-25T13:46:05.576193+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 46,
+   "t": "2026-10-25T13:46:05.576193+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Nikon photography contest winner loses title after scientists spot signs of AI",
+ "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T09:51:17Z",
+ "last_seen": "2026-10-25T13:46:05.576193+00:00",
+ "last_why": "+404 points/day pace right now (46 total).",
+ "extra": {
+  "comments": 9,
+  "hn": "https://news.ycombinator.com/item?id=50229827"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

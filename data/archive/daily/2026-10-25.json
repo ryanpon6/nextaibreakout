@@ -11,7 +11,8 @@
   "2026-10-25T08:46:11.394456+00:00",
   "2026-10-25T10:01:07.246124+00:00",
   "2026-10-25T11:16:08.904316+00:00",
-  "2026-10-25T12:31:11.461305+00:00"
+  "2026-10-25T12:31:11.461305+00:00",
+  "2026-10-25T13:46:05.576193+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -24,13 +25,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7293,
-    "trending": 168,
+    "trending": 170,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -50,20 +51,20 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 243,
+    "trending": 247,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+115 likes/day pace right now (253 total).",
-   "metric_at_peak": 253,
+   "why_at_peak": "+96 likes/day pace right now (258 total).",
+   "metric_at_peak": 258,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -76,12 +77,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 596,
+    "comments": 605,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -254,8 +255,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -357,14 +358,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-25T01:25:14.196243+00:00",
-   "peak_score": 93.9,
+   "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T03:46:10.785984+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 24,
+    "forks": 26,
     "lang": "JavaScript",
     "topics": [
      "agentic-automation",
@@ -382,8 +383,8 @@
     ],
     "repo_id": 1419772313
    },
-   "why_at_peak": "+133 stars/day pace right now (483 total).",
-   "metric_at_peak": 483,
+   "why_at_peak": "+231 stars/day pace right now (505 total).",
+   "metric_at_peak": 505,
    "metric_name": "stars"
   },
   "gh-mw00-project-maya": {
@@ -459,14 +460,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
-   "peak_score": 95.6,
+   "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
-    "forks": 52,
+    "forks": 53,
     "lang": "Python",
     "topics": [
      "arxiv",
@@ -480,8 +481,8 @@
     ],
     "repo_id": 1404880073
    },
-   "why_at_peak": "+269 stars/day pace right now (575 total).",
-   "metric_at_peak": 575,
+   "why_at_peak": "+269 stars/day pace right now (651 total).",
+   "metric_at_peak": 651,
    "metric_name": "stars"
   },
   "gh-lemomo-ai-lemo-opuscar": {
@@ -494,12 +495,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 788,
+    "forks": 793,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -701,12 +702,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 67,
+    "comments": 71,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
    "why_at_peak": "+422 points/day pace right now (187 total).",
@@ -917,13 +918,13 @@
    "first_seen": "2026-10-25T06:16:07.105169+00:00",
    "peak_score": 94.7,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 660874,
-    "trending": 538,
+    "trending": 529,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1157,6 +1158,28 @@
    },
    "why_at_peak": "+58 points/day pace right now (48 total).",
    "metric_at_peak": 48,
+   "metric_name": "points"
+  },
+  "hn-50229827-nikon-photography-contest-winner-loses-title-after": {
+   "id": "hn:50229827",
+   "slug": "hn-50229827-nikon-photography-contest-winner-loses-title-after",
+   "name": "Nikon photography contest winner loses title after scientists spot signs of AI",
+   "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-25T13:46:05.576193+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 9,
+    "hn": "https://news.ycombinator.com/item?id=50229827"
+   },
+   "why_at_peak": "+404 points/day pace right now (46 total).",
+   "metric_at_peak": 46,
    "metric_name": "points"
   }
  }
