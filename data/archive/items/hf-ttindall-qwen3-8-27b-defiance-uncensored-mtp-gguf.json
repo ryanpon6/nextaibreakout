@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+ "slug": "hf-ttindall-qwen3-8-27b-defiance-uncensored-mtp-gguf",
+ "first_seen": "2026-10-25T11:16:08.904316+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 154,
+   "t": "2026-10-25T11:16:08.904316+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+ "url": "https://huggingface.co/ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-17T05:46:24.000Z",
+ "last_seen": "2026-10-25T11:16:08.904316+00:00",
+ "last_why": "Trending score 125 on Hugging Face; 154 likes, 34.9K downloads.",
+ "extra": {
+  "downloads": 34862,
+  "trending": 125,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

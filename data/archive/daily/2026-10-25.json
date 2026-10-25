@@ -9,7 +9,8 @@
   "2026-10-25T06:16:07.105169+00:00",
   "2026-10-25T07:31:08.945174+00:00",
   "2026-10-25T08:46:11.394456+00:00",
-  "2026-10-25T10:01:07.246124+00:00"
+  "2026-10-25T10:01:07.246124+00:00",
+  "2026-10-25T11:16:08.904316+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -22,13 +23,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 3,
-    "trending": 157,
+    "downloads": 7293,
+    "trending": 164,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -48,13 +49,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 235,
+    "trending": 237,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -74,12 +75,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 578,
+    "comments": 592,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -228,18 +229,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
-   "peak_score": 97.3,
-   "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T03:46:10.785984+00:00",
+   "peak_score": 98.1,
+   "best_rank": 2,
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 34,
+    "comments": 42,
     "hn": "https://news.ycombinator.com/item?id=50222525"
    },
-   "why_at_peak": "+133 points/day pace right now (91 total).",
-   "metric_at_peak": 91,
+   "why_at_peak": "+77 points/day pace right now (110 total).",
+   "metric_at_peak": 110,
    "metric_name": "points"
   },
   "npm--modelcontextprotocol-sdk": {
@@ -252,8 +253,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -492,12 +493,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 773,
+    "forks": 781,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -699,16 +700,16 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 57,
+    "comments": 63,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
-   "why_at_peak": "+480 points/day pace right now (165 total).",
-   "metric_at_peak": 165,
+   "why_at_peak": "+422 points/day pace right now (187 total).",
+   "metric_at_peak": 187,
    "metric_name": "points"
   },
   "gh-eliasbiondo-antirion": {
@@ -1020,6 +1021,93 @@
    },
    "why_at_peak": "+135 stars/day pace right now (456 total).",
    "metric_at_peak": 456,
+   "metric_name": "stars"
+  },
+  "hf-ttindall-qwen3-8-27b-defiance-uncensored-mtp-gguf": {
+   "id": "hfmodel:ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+   "slug": "hf-ttindall-qwen3-8-27b-defiance-uncensored-mtp-gguf",
+   "name": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+   "url": "https://huggingface.co/ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T11:16:08.904316+00:00",
+   "peak_score": 97.3,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 34862,
+    "trending": 125,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 125 on Hugging Face; 154 likes, 34.9K downloads.",
+   "metric_at_peak": 154,
+   "metric_name": "likes"
+  },
+  "gh-takamatsu-hikaru-ai-research-guide": {
+   "id": "gh:Takamatsu-Hikaru/AI-Research-Guide",
+   "slug": "gh-takamatsu-hikaru-ai-research-guide",
+   "name": "Takamatsu-Hikaru/AI-Research-Guide",
+   "url": "https://github.com/Takamatsu-Hikaru/AI-Research-Guide",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T11:16:08.904316+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "what": "AI \u79d1\u7814\u5165\u95e8\u6307\u5357\uff1a\u5927\u5b66\u9009\u62e9\u3001\u79d1\u7814 60 \u95ee\u3001\u5165\u95e8\u9879\u76ee\u3001\u5b66\u4e60\u8def\u7ebf\u4e0e\u8bba\u6587\u5361\u7247\u3002A bilingual guide to getting started in AI research.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 10,
+    "lang": "JavaScript",
+    "topics": [
+     "ai",
+     "chinese",
+     "education",
+     "getting-started",
+     "machine-learning",
+     "research"
+    ],
+    "repo_id": 1405070384
+   },
+   "why_at_peak": "+154 stars/day pace right now (161 total).",
+   "metric_at_peak": 161,
+   "metric_name": "stars"
+  },
+  "gh-leonxlnx-earshot": {
+   "id": "gh:Leonxlnx/earshot",
+   "slug": "gh-leonxlnx-earshot",
+   "name": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T11:16:08.904316+00:00",
+   "peak_score": 91.3,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "tag": "agents",
+   "extra": {
+    "forks": 166,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "audio",
+     "claude-code",
+     "mcp",
+     "sound-design"
+    ],
+    "repo_id": 1420305104
+   },
+   "why_at_peak": "+403 stars/day pace right now (2.7K total).",
+   "metric_at_peak": 2710,
    "metric_name": "stars"
   }
  }
