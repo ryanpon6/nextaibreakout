@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-25T00:31:08.839396+00:00",
   "2026-10-25T01:25:14.196243+00:00",
-  "2026-10-25T02:31:10.838152+00:00"
+  "2026-10-25T02:31:10.838152+00:00",
+  "2026-10-25T03:46:10.785984+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -41,21 +42,21 @@
    "kind": "model",
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
-   "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 202,
+    "trending": 206,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+106 likes/day pace right now (210 total).",
-   "metric_at_peak": 210,
+   "why_at_peak": "+58 likes/day pace right now (214 total).",
+   "metric_at_peak": 214,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -68,12 +69,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 492,
+    "comments": 521,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -224,12 +225,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 33,
+    "comments": 34,
     "hn": "https://news.ycombinator.com/item?id=50222525"
    },
    "why_at_peak": "+133 points/day pace right now (91 total).",
@@ -246,8 +247,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 68.4,
    "best_rank": 9,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -350,13 +351,13 @@
    "kind": "tool",
    "first_seen": "2026-10-25T01:25:14.196243+00:00",
    "peak_score": 93.9,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T01:25:14.196243+00:00",
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "Accessibility-first browser & computer use for AI agents \u2014 one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity).\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 23,
+    "forks": 24,
     "lang": "JavaScript",
     "topics": [
      "agentic-automation",
@@ -452,13 +453,13 @@
    "kind": "tool",
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 95.6,
-   "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
-    "forks": 46,
+    "forks": 47,
     "lang": "Python",
     "topics": [
      "arxiv",
@@ -472,8 +473,8 @@
     ],
     "repo_id": 1404880073
    },
-   "why_at_peak": "+197 stars/day pace right now (561 total).",
-   "metric_at_peak": 561,
+   "why_at_peak": "+269 stars/day pace right now (575 total).",
+   "metric_at_peak": 575,
    "metric_name": "stars"
   },
   "gh-lemomo-ai-lemo-opuscar": {
@@ -486,12 +487,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 745,
+    "forks": 750,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -593,22 +594,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
-   "peak_score": 90.5,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "peak_score": 91.4,
+   "best_rank": 7,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 73215,
-    "trending": 1416,
+    "trending": 1396,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+175 likes/day pace right now (2.8K total).",
-   "metric_at_peak": 2796,
+   "why_at_peak": "+230 likes/day pace right now (2.8K total).",
+   "metric_at_peak": 2808,
    "metric_name": "likes"
   },
   "hn-50214373-show-hn-corgi-a-helpful-agent-terminal-multip": {
@@ -621,8 +622,8 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 71.2,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T02:31:10.838152+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
@@ -632,6 +633,32 @@
    "why_at_peak": "+22 points/day pace right now (126 total).",
    "metric_at_peak": 126,
    "metric_name": "points"
+  },
+  "hf-krafton-raon-1-mini-preview": {
+   "id": "hfmodel:KRAFTON/Raon-1-mini-preview",
+   "slug": "hf-krafton-raon-1-mini-preview",
+   "name": "KRAFTON/Raon-1-mini-preview",
+   "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T03:46:10.785984+00:00",
+   "peak_score": 88.1,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T03:46:10.785984+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 917,
+    "trending": 164,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+38 likes/day pace right now (174 total).",
+   "metric_at_peak": 174,
+   "metric_name": "likes"
   }
  }
 }
