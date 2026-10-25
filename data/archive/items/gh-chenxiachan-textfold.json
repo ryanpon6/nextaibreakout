@@ -56,6 +56,12 @@
    "score": 95.5,
    "metric": 623,
    "t": "2026-10-25T10:01:07.246124+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.0,
+   "metric": 637,
+   "t": "2026-10-25T12:31:11.461305+00:00"
   }
  ],
  "peak_score": 95.6,
@@ -69,10 +75,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-04T22:19:52Z",
- "last_seen": "2026-10-25T10:01:07.246124+00:00",
- "last_why": "+231 stars/day pace right now (623 total).",
+ "last_seen": "2026-10-25T12:31:11.461305+00:00",
+ "last_why": "+211 stars/day pace right now (637 total).",
  "extra": {
-  "forks": 50,
+  "forks": 52,
   "lang": "Python",
   "topics": [
    "arxiv",

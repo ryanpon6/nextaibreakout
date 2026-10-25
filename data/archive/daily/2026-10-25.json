@@ -10,7 +10,8 @@
   "2026-10-25T07:31:08.945174+00:00",
   "2026-10-25T08:46:11.394456+00:00",
   "2026-10-25T10:01:07.246124+00:00",
-  "2026-10-25T11:16:08.904316+00:00"
+  "2026-10-25T11:16:08.904316+00:00",
+  "2026-10-25T12:31:11.461305+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -23,13 +24,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7293,
-    "trending": 164,
+    "trending": 168,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -49,20 +50,20 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 237,
+    "trending": 243,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+135 likes/day pace right now (244 total).",
-   "metric_at_peak": 244,
+   "why_at_peak": "+115 likes/day pace right now (253 total).",
+   "metric_at_peak": 253,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -75,12 +76,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 592,
+    "comments": 596,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -253,8 +254,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -460,12 +461,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 95.6,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
-    "forks": 50,
+    "forks": 52,
     "lang": "Python",
     "topics": [
      "arxiv",
@@ -493,12 +494,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 781,
+    "forks": 788,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -700,12 +701,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 63,
+    "comments": 67,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
    "why_at_peak": "+422 points/day pace right now (187 total).",
@@ -870,9 +871,9 @@
    "kind": "tool",
    "first_seen": "2026-10-25T06:16:07.105169+00:00",
    "peak_score": 95.6,
-   "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T07:31:08.945174+00:00",
+   "best_rank": 4,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
    "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
    "tag": "safety",
    "extra": {
@@ -1109,6 +1110,54 @@
    "why_at_peak": "+403 stars/day pace right now (2.7K total).",
    "metric_at_peak": 2710,
    "metric_name": "stars"
+  },
+  "hf-minimaxai-minimax-h3": {
+   "id": "hfmodel:MiniMaxAI/MiniMax-H3",
+   "slug": "hf-minimaxai-minimax-h3",
+   "name": "MiniMaxAI/MiniMax-H3",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T12:31:11.461305+00:00",
+   "peak_score": 96.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "what": "image-text-to-video model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 5173270,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 6.4K likes, 5.2M downloads.",
+   "metric_at_peak": 6352,
+   "metric_name": "likes"
+  },
+  "hn-50222283-oai-math-revised-a-community-hub-for-revising-ope": {
+   "id": "hn:50222283",
+   "slug": "hn-50222283-oai-math-revised-a-community-hub-for-revising-ope",
+   "name": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+   "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-25T12:31:11.461305+00:00",
+   "peak_score": 86.3,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T12:31:11.461305+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 36,
+    "hn": "https://news.ycombinator.com/item?id=50222283"
+   },
+   "why_at_peak": "+58 points/day pace right now (48 total).",
+   "metric_at_peak": 48,
+   "metric_name": "points"
   }
  }
 }
