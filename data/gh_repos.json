@@ -276,7 +276,8 @@
   "1394997986": "mikamikasuki/forest",
   "1428839043": "recranvvi5c/Machine-learning-pipeline",
   "1423770820": "eliasbiondo/antirion",
-  "1407020968": "ZipengWu365/TOMC"
+  "1407020968": "ZipengWu365/TOMC",
+  "1411523628": "miuuyy/Octopus-SI-OS"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -286,7 +287,7 @@
   "jddevtime/open-lakehouse-compute-fabric": 1792615676.1905878,
   "amontlabs/lcu": 1792904483.5981617,
   "zgcagi/Harness-RSI": 1792655876.129082,
-  "LiCinCan/blender-ai-mcp-addon": 1792852284.0025508,
+  "LiCinCan/blender-ai-mcp-addon": 1792940489.941602,
   "nano-muse/nanoMuse": 1792891530.0155823,
   "sit-in/awesome-grokbot-playbooks": 1792764824.0909247,
   "Ebony-Vinyl/dsh-our-free-model": 1792888285.434506,
@@ -294,6 +295,7 @@
   "keptinventory/kept": 1792908982.5146232,
   "backtrue/thinkwithblack-skill": 1792935980.6472507,
   "OrgoAI/bops": 1792904483.5981617,
-  "ZipengWu365/TOMC": 1792926985.360594
+  "ZipengWu365/TOMC": 1792926985.360594,
+  "eliasbiondo/antirion": 1792940489.941602
  }
 }

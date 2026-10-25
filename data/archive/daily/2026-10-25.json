@@ -12,7 +12,8 @@
   "2026-10-25T10:01:07.246124+00:00",
   "2026-10-25T11:16:08.904316+00:00",
   "2026-10-25T12:31:11.461305+00:00",
-  "2026-10-25T13:46:05.576193+00:00"
+  "2026-10-25T13:46:05.576193+00:00",
+  "2026-10-25T15:01:13.306858+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -25,13 +26,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7293,
-    "trending": 170,
+    "trending": 176,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -233,12 +234,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 42,
+    "comments": 45,
     "hn": "https://news.ycombinator.com/item?id=50222525"
    },
    "why_at_peak": "+77 points/day pace right now (110 total).",
@@ -255,8 +256,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -462,12 +463,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
-    "forks": 53,
+    "forks": 55,
     "lang": "Python",
     "topics": [
      "arxiv",
@@ -495,12 +496,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 793,
+    "forks": 800,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -702,12 +703,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 71,
+    "comments": 84,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
    "why_at_peak": "+422 points/day pace right now (187 total).",
@@ -1035,13 +1036,13 @@
    "first_seen": "2026-10-25T11:16:08.904316+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T11:16:08.904316+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 34862,
-    "trending": 125,
+    "trending": 132,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1170,17 +1171,81 @@
    "first_seen": "2026-10-25T13:46:05.576193+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T13:46:05.576193+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 9,
+    "comments": 13,
     "hn": "https://news.ycombinator.com/item?id=50229827"
    },
    "why_at_peak": "+404 points/day pace right now (46 total).",
    "metric_at_peak": 46,
    "metric_name": "points"
+  },
+  "hf-nanbeige-nanbeige4-3-33b": {
+   "id": "hfmodel:Nanbeige/Nanbeige4.3-33B",
+   "slug": "hf-nanbeige-nanbeige4-3-33b",
+   "name": "Nanbeige/Nanbeige4.3-33B",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T15:01:13.306858+00:00",
+   "peak_score": 98.1,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 0,
+    "trending": 158,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 158 on Hugging Face; 158 likes, 0 downloads.",
+   "metric_at_peak": 158,
+   "metric_name": "likes"
+  },
+  "gh-miuuyy-octopus-si-os": {
+   "id": "gh:miuuyy/Octopus-SI-OS",
+   "slug": "gh-miuuyy-octopus-si-os",
+   "name": "miuuyy/Octopus-SI-OS",
+   "url": "https://github.com/miuuyy/Octopus-SI-OS",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T15:01:13.306858+00:00",
+   "peak_score": 95.5,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T15:01:13.306858+00:00",
+   "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 25,
+    "lang": "Rust",
+    "topics": [
+     "agent-framework",
+     "agentic-os",
+     "ai-agents",
+     "chatgpt",
+     "codex",
+     "computer-use",
+     "llm",
+     "macos",
+     "mcp",
+     "operating-system",
+     "research-preview",
+     "rust",
+     "self-modifying"
+    ],
+    "repo_id": 1411523628
+   },
+   "why_at_peak": "284 stars since launch 16 days ago \u2248 17 stars/day since launch.",
+   "metric_at_peak": 284,
+   "metric_name": "stars"
   }
  }
 }

@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Nanbeige/Nanbeige4.3-33B",
+ "slug": "hf-nanbeige-nanbeige4-3-33b",
+ "first_seen": "2026-10-25T15:01:13.306858+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.1,
+   "metric": 158,
+   "t": "2026-10-25T15:01:13.306858+00:00"
+  }
+ ],
+ "peak_score": 98.1,
+ "best_rank": 1,
+ "name": "Nanbeige/Nanbeige4.3-33B",
+ "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-24T02:49:18.000Z",
+ "last_seen": "2026-10-25T15:01:13.306858+00:00",
+ "last_why": "Trending score 158 on Hugging Face; 158 likes, 0 downloads.",
+ "extra": {
+  "downloads": 0,
+  "trending": 158,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

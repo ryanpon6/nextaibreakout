@@ -1,0 +1,49 @@
+{
+ "id": "gh:miuuyy/Octopus-SI-OS",
+ "slug": "gh-miuuyy-octopus-si-os",
+ "first_seen": "2026-10-25T15:01:13.306858+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 284,
+   "t": "2026-10-25T15:01:13.306858+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 4,
+ "name": "miuuyy/Octopus-SI-OS",
+ "url": "https://github.com/miuuyy/Octopus-SI-OS",
+ "source": "github",
+ "kind": "tool",
+ "desc": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.",
+ "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-09T08:28:38Z",
+ "last_seen": "2026-10-25T15:01:13.306858+00:00",
+ "last_why": "284 stars since launch 16 days ago \u2248 17 stars/day since launch.",
+ "extra": {
+  "forks": 25,
+  "lang": "Rust",
+  "topics": [
+   "agent-framework",
+   "agentic-os",
+   "ai-agents",
+   "chatgpt",
+   "codex",
+   "computer-use",
+   "llm",
+   "macos",
+   "mcp",
+   "operating-system",
+   "research-preview",
+   "rust",
+   "self-modifying"
+  ],
+  "repo_id": 1411523628
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}
