@@ -8,7 +8,8 @@
   "2026-10-25T05:01:07.429950+00:00",
   "2026-10-25T06:16:07.105169+00:00",
   "2026-10-25T07:31:08.945174+00:00",
-  "2026-10-25T08:46:11.394456+00:00"
+  "2026-10-25T08:46:11.394456+00:00",
+  "2026-10-25T10:01:07.246124+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -47,20 +48,20 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 32479,
-    "trending": 229,
+    "downloads": 412392,
+    "trending": 235,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+96 likes/day pace right now (234 total).",
-   "metric_at_peak": 234,
+   "why_at_peak": "+135 likes/day pace right now (244 total).",
+   "metric_at_peak": 244,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -73,12 +74,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 572,
+    "comments": 578,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -251,8 +252,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -458,12 +459,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 95.6,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
    "tag": "dev tools",
    "extra": {
-    "forks": 49,
+    "forks": 50,
     "lang": "Python",
     "topics": [
      "arxiv",
@@ -491,12 +492,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 770,
+    "forks": 773,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -674,12 +675,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 53,
+    "comments": 57,
     "hn": "https://news.ycombinator.com/item?id=50228167",
     "repo_created": "2026-08-26T20:56:52Z",
     "repo": "slee-persis/GVS5H"
@@ -698,16 +699,16 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T08:46:11.394456+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 48,
+    "comments": 57,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
-   "why_at_peak": "+557 points/day pace right now (111 total).",
-   "metric_at_peak": 111,
+   "why_at_peak": "+480 points/day pace right now (165 total).",
+   "metric_at_peak": 165,
    "metric_name": "points"
   },
   "gh-eliasbiondo-antirion": {
@@ -912,22 +913,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-25T06:16:07.105169+00:00",
-   "peak_score": 88.9,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "peak_score": 94.7,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 590742,
-    "trending": 542,
+    "downloads": 660874,
+    "trending": 538,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+154 likes/day pace right now (1.5K total).",
-   "metric_at_peak": 1521,
+   "why_at_peak": "+211 likes/day pace right now (1.5K total).",
+   "metric_at_peak": 1540,
    "metric_name": "likes"
   },
   "hf-xhtoken-spark-x2-6-4b-gguf": {
@@ -955,6 +956,71 @@
    "why_at_peak": "Trending score 123 on Hugging Face; 128 likes, 18.6K downloads.",
    "metric_at_peak": 128,
    "metric_name": "likes"
+  },
+  "hf-facebook-dinov3-vitl16-pretrain-lvd1689m": {
+   "id": "hfmodel:facebook/dinov3-vitl16-pretrain-lvd1689m",
+   "slug": "hf-facebook-dinov3-vitl16-pretrain-lvd1689m",
+   "name": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+   "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T10:01:07.246124+00:00",
+   "peak_score": 96.4,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "what": "image-feature-extraction model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 743510,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 1.6K likes, 743.5K downloads.",
+   "metric_at_peak": 1553,
+   "metric_name": "likes"
+  },
+  "gh-pinganbbovo-ai-companion-kit": {
+   "id": "gh:pinganbbOvO/ai-companion-kit",
+   "slug": "gh-pinganbbovo-ai-companion-kit",
+   "name": "pinganbbOvO/ai-companion-kit",
+   "url": "https://github.com/pinganbbOvO/ai-companion-kit",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T10:01:07.246124+00:00",
+   "peak_score": 93.0,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T10:01:07.246124+00:00",
+   "what": "\u7ed9\u4f60\u7684 AI \u4e00\u526f\u8eab\u4f53\uff0c\u548c\u4e00\u70b9\u4eba\u5473 \u2014\u2014 \u4f1a\u8bb0\u4e8b\u3001\u4f1a\u770b\u573a\u5408\u7684 QQ \u966a\u804a + \u80fd\u63a7\u5236\u5b89\u5353\u624b\u673a\u7684 MCP",
+   "tag": "agents",
+   "extra": {
+    "forks": 35,
+    "lang": "JavaScript",
+    "topics": [
+     "adb",
+     "agent",
+     "ai-companion",
+     "android",
+     "chatbot",
+     "deepseek",
+     "human-like",
+     "llm",
+     "mcp",
+     "memory",
+     "model-context-protocol",
+     "onebot",
+     "persona",
+     "qq"
+    ],
+    "repo_id": 1409863087
+   },
+   "why_at_peak": "+135 stars/day pace right now (456 total).",
+   "metric_at_peak": 456,
+   "metric_name": "stars"
   }
  }
 }

@@ -14,6 +14,12 @@
    "score": 94.6,
    "metric": 255,
    "t": "2026-10-20T20:17:39.652926+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 93.0,
+   "metric": 456,
+   "t": "2026-10-25T10:01:07.246124+00:00"
   }
  ],
  "peak_score": 94.6,
@@ -27,10 +33,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-08T06:41:17Z",
- "last_seen": "2026-10-20T20:17:39.652926+00:00",
- "last_why": "255 stars since launch 13 days ago \u2248 20 stars/day since launch.",
+ "last_seen": "2026-10-25T10:01:07.246124+00:00",
+ "last_why": "+135 stars/day pace right now (456 total).",
  "extra": {
-  "forks": 13,
+  "forks": 35,
   "lang": "JavaScript",
   "topics": [
    "adb",
@@ -51,6 +57,7 @@
   "repo_id": 1409863087
  },
  "days": [
-  "2026-10-20"
+  "2026-10-20",
+  "2026-10-25"
  ]
 }
