@@ -8,6 +8,12 @@
    "score": 95.6,
    "metric": 244,
    "t": "2026-10-25T06:16:07.105169+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.7,
+   "metric": 245,
+   "t": "2026-10-25T07:31:08.945174+00:00"
   }
  ],
  "peak_score": 95.6,
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-06T09:16:26Z",
- "last_seen": "2026-10-25T06:16:07.105169+00:00",
- "last_why": "244 stars since launch 19 days ago \u2248 13 stars/day since launch.",
+ "last_seen": "2026-10-25T07:31:08.945174+00:00",
+ "last_why": "245 stars since launch 19 days ago \u2248 13 stars/day since launch.",
  "extra": {
-  "forks": 19,
+  "forks": 20,
   "lang": "Python",
   "topics": [
    "agent-memory",

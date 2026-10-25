@@ -14,10 +14,16 @@
    "score": 97.3,
    "metric": 82,
    "t": "2026-10-25T06:16:07.105169+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 111,
+   "t": "2026-10-25T07:31:08.945174+00:00"
   }
  ],
- "peak_score": 97.3,
- "best_rank": 3,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "Cerebras Deploys Trillion-Parameter AI Models",
  "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
  "source": "hackernews",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-25T01:33:49Z",
- "last_seen": "2026-10-25T06:16:07.105169+00:00",
- "last_why": "+499 points/day pace right now (82 total).",
+ "last_seen": "2026-10-25T07:31:08.945174+00:00",
+ "last_why": "+557 points/day pace right now (111 total).",
  "extra": {
-  "comments": 28,
+  "comments": 40,
   "hn": "https://news.ycombinator.com/item?id=50227356"
  },
  "days": [

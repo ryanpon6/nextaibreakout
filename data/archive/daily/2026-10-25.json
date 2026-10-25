@@ -6,7 +6,8 @@
   "2026-10-25T02:31:10.838152+00:00",
   "2026-10-25T03:46:10.785984+00:00",
   "2026-10-25T05:01:07.429950+00:00",
-  "2026-10-25T06:16:07.105169+00:00"
+  "2026-10-25T06:16:07.105169+00:00",
+  "2026-10-25T07:31:08.945174+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -19,13 +20,13 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3,
-    "trending": 148,
+    "trending": 152,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -45,20 +46,20 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 32479,
-    "trending": 221,
+    "trending": 226,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+96 likes/day pace right now (229 total).",
-   "metric_at_peak": 229,
+   "why_at_peak": "+96 likes/day pace right now (234 total).",
+   "metric_at_peak": 234,
    "metric_name": "likes"
   },
   "hn-50224463-no-signs-of-ai-payoff-outside-the-tech-sector": {
@@ -71,12 +72,12 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 539,
+    "comments": 556,
     "hn": "https://news.ycombinator.com/item?id=50224463"
    },
    "why_at_peak": "+479 points/day pace right now (472 total).",
@@ -249,8 +250,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -489,12 +490,12 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T03:46:10.785984+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 750,
+    "forks": 763,
     "lang": "JavaScript",
     "topics": [
      "agent-skills",
@@ -598,13 +599,13 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 91.4,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T03:46:10.785984+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 73215,
-    "trending": 1396,
+    "trending": 1336,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -672,12 +673,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 33,
+    "comments": 48,
     "hn": "https://news.ycombinator.com/item?id=50228167",
     "repo_created": "2026-08-26T20:56:52Z",
     "repo": "slee-persis/GVS5H"
@@ -694,18 +695,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
-   "peak_score": 97.3,
-   "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 28,
+    "comments": 40,
     "hn": "https://news.ycombinator.com/item?id=50227356"
    },
-   "why_at_peak": "+499 points/day pace right now (82 total).",
-   "metric_at_peak": 82,
+   "why_at_peak": "+557 points/day pace right now (111 total).",
+   "metric_at_peak": 111,
    "metric_name": "points"
   },
   "gh-eliasbiondo-antirion": {
@@ -829,12 +830,12 @@
    "first_seen": "2026-10-25T06:16:07.105169+00:00",
    "peak_score": 95.6,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy and other MCP clients.",
    "tag": "agents",
    "extra": {
-    "forks": 19,
+    "forks": 20,
     "lang": "Python",
     "topics": [
      "agent-memory",
@@ -865,14 +866,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-25T06:16:07.105169+00:00",
-   "peak_score": 93.1,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-25T06:16:07.105169+00:00",
+   "peak_score": 95.6,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-25T07:31:08.945174+00:00",
    "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 17,
+    "forks": 18,
     "lang": "Python",
     "topics": [
      "agent-orchestration",
@@ -898,8 +899,8 @@
     ],
     "repo_id": 1391814933
    },
-   "why_at_peak": "+288 stars/day pace right now (473 total).",
-   "metric_at_peak": 473,
+   "why_at_peak": "+365 stars/day pace right now (492 total).",
+   "metric_at_peak": 492,
    "metric_name": "stars"
   },
   "hf-black-forest-labs-flux-3-image-klein-comfy": {
