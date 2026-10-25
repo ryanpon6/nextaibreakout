@@ -1,0 +1,33 @@
+{
+ "id": "hn:50227356",
+ "slug": "hn-50227356-cerebras-deploys-trillion-parameter-ai-models",
+ "first_seen": "2026-10-25T05:01:07.429950+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 56,
+   "t": "2026-10-25T05:01:07.429950+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "Cerebras Deploys Trillion-Parameter AI Models",
+ "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T01:33:49Z",
+ "last_seen": "2026-10-25T05:01:07.429950+00:00",
+ "last_why": "+596 points/day pace right now (56 total).",
+ "extra": {
+  "comments": 18,
+  "hn": "https://news.ycombinator.com/item?id=50227356"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

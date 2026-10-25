@@ -1,0 +1,54 @@
+{
+ "id": "gh:eliasbiondo/antirion",
+ "slug": "gh-eliasbiondo-antirion",
+ "first_seen": "2026-10-25T05:01:07.429950+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 245,
+   "t": "2026-10-25T05:01:07.429950+00:00"
+  }
+ ],
+ "peak_score": 96.4,
+ "best_rank": 4,
+ "name": "eliasbiondo/antirion",
+ "url": "https://github.com/eliasbiondo/antirion",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u26a1 The fastest open-source AI gateway \u2014 one Rust binary with a built-in console to route, secure, budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.",
+ "what": "The fastest open-source AI gateway \u2014 one Rust binary with a built-in console to route, secure, budget and observe every LLM call across\u2026",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-17T21:43:39Z",
+ "last_seen": "2026-10-25T05:01:07.429950+00:00",
+ "last_why": "245 stars since launch 7 days ago \u2248 34 stars/day since launch.",
+ "extra": {
+  "forks": 7,
+  "lang": "Rust",
+  "topics": [
+   "a2a",
+   "ai-gateway",
+   "anthropic",
+   "api-gateway",
+   "bifrost-alternative",
+   "guardrails",
+   "litellm-alternative",
+   "llm",
+   "llm-gateway",
+   "llm-proxy",
+   "mcp",
+   "mcp-gateway",
+   "observability",
+   "openai",
+   "openai-proxy",
+   "rate-limiting",
+   "rust",
+   "self-hosted"
+  ],
+  "repo_id": 1423770820
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}

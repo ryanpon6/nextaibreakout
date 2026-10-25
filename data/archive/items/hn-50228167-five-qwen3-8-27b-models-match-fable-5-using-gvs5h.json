@@ -1,0 +1,35 @@
+{
+ "id": "hn:50228167",
+ "slug": "hn-50228167-five-qwen3-8-27b-models-match-fable-5-using-gvs5h",
+ "first_seen": "2026-10-25T05:01:07.429950+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 57,
+   "t": "2026-10-25T05:01:07.429950+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+ "url": "https://github.com/slee-persis/GVS5H",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T03:56:01Z",
+ "last_seen": "2026-10-25T05:01:07.429950+00:00",
+ "last_why": "57 points in 1h on Hacker News (14 comments).",
+ "extra": {
+  "comments": 14,
+  "hn": "https://news.ycombinator.com/item?id=50228167",
+  "repo_created": "2026-08-26T20:56:52Z",
+  "repo": "slee-persis/GVS5H"
+ },
+ "days": [
+  "2026-10-25"
+ ]
+}
