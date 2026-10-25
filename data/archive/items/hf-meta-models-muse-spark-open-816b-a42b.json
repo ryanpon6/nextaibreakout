@@ -50,10 +50,16 @@
    "score": 90.3,
    "metric": 421,
    "t": "2026-10-16T18:50:01.541764+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 700,
+   "t": "2026-10-25T23:14:02.273410+00:00"
   }
  ],
- "peak_score": 94.8,
- "best_rank": 6,
+ "peak_score": 96.4,
+ "best_rank": 4,
  "name": "meta-models/Muse-Spark-Open-816B-A42B",
  "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
  "source": "huggingface",
@@ -63,17 +69,18 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-09-15T19:23:19.000Z",
- "last_seen": "2026-10-16T18:50:01.541764+00:00",
- "last_why": "+160 likes/day pace right now (421 total).",
+ "last_seen": "2026-10-25T23:14:02.273410+00:00",
+ "last_why": "Trending score 129 on Hugging Face; 700 likes, 7.0K downloads.",
  "extra": {
-  "downloads": 815,
-  "trending": 399,
+  "downloads": 7025,
+  "trending": 129,
   "hf_type": "model",
   "title": null,
   "summary": null,
   "sdk": null
  },
  "days": [
-  "2026-10-16"
+  "2026-10-16",
+  "2026-10-25"
  ]
 }

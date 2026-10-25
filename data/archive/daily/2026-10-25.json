@@ -19,7 +19,8 @@
   "2026-10-25T18:31:01.944741+00:00",
   "2026-10-25T19:46:07.023512+00:00",
   "2026-10-25T21:01:05.542115+00:00",
-  "2026-10-25T22:16:09.236212+00:00"
+  "2026-10-25T22:16:09.236212+00:00",
+  "2026-10-25T23:14:02.273410+00:00"
  ],
  "items": {
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -262,8 +263,8 @@
    "first_seen": "2026-10-25T00:31:08.839396+00:00",
    "peak_score": 71.9,
    "best_rank": 9,
-   "runs_in_top10": 19,
-   "last_seen": "2026-10-25T22:16:09.236212+00:00",
+   "runs_in_top10": 20,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -611,13 +612,13 @@
    "first_seen": "2026-10-25T02:31:10.838152+00:00",
    "peak_score": 91.4,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-25T07:31:08.945174+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 73215,
-    "trending": 1336,
+    "downloads": 85275,
+    "trending": 1222,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -774,12 +775,12 @@
    "first_seen": "2026-10-25T05:01:07.429950+00:00",
    "peak_score": 94.7,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 141,
+    "forks": 143,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1177,12 +1178,12 @@
    "first_seen": "2026-10-25T13:46:05.576193+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T21:01:05.542115+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 60,
+    "comments": 68,
     "hn": "https://news.ycombinator.com/item?id=50229827"
    },
    "why_at_peak": "+404 points/day pace right now (46 total).",
@@ -1199,20 +1200,20 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T22:16:09.236212+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 337,
+    "trending": 349,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+576 likes/day pace right now (318 total).",
-   "metric_at_peak": 318,
+   "why_at_peak": "+299 likes/day pace right now (349 total).",
+   "metric_at_peak": 349,
    "metric_name": "likes"
   },
   "gh-miuuyy-octopus-si-os": {
@@ -1225,12 +1226,12 @@
    "first_seen": "2026-10-25T15:01:13.306858+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-25T22:16:09.236212+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 34,
+    "forks": 35,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -1307,12 +1308,12 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T22:16:09.236212+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 170,
+    "comments": 180,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
    "why_at_peak": "+787 points/day pace right now (330 total).",
@@ -1329,12 +1330,12 @@
    "first_seen": "2026-10-25T18:31:01.944741+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-25T22:16:09.236212+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 249,
+    "comments": 260,
     "hn": "https://news.ycombinator.com/item?id=50233304"
    },
    "why_at_peak": "+384 points/day pace right now (164 total).",
@@ -1500,6 +1501,67 @@
    },
    "why_at_peak": "+96 stars/day pace right now (370 total).",
    "metric_at_peak": 370,
+   "metric_name": "stars"
+  },
+  "hf-meta-models-muse-spark-open-816b-a42b": {
+   "id": "hfmodel:meta-models/Muse-Spark-Open-816B-A42B",
+   "slug": "hf-meta-models-muse-spark-open-816b-a42b",
+   "name": "meta-models/Muse-Spark-Open-816B-A42B",
+   "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-25T23:14:02.273410+00:00",
+   "peak_score": 96.4,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 7025,
+    "trending": 129,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 129 on Hugging Face; 700 likes, 7.0K downloads.",
+   "metric_at_peak": 700,
+   "metric_name": "likes"
+  },
+  "gh-foshmily-ai-paper-system": {
+   "id": "gh:FoShmily/ai-paper-system",
+   "slug": "gh-foshmily-ai-paper-system",
+   "name": "FoShmily/ai-paper-system",
+   "url": "https://github.com/FoShmily/ai-paper-system",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-25T23:14:02.273410+00:00",
+   "peak_score": 94.6,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-25T23:14:02.273410+00:00",
+   "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 19,
+    "lang": null,
+    "topics": [
+     "ai",
+     "ai-humanizer",
+     "ai-ppt",
+     "aigc",
+     "deepseek",
+     "llm",
+     "paper-generator",
+     "rewriter",
+     "saas",
+     "thesis"
+    ],
+    "repo_id": 1394679834
+   },
+   "why_at_peak": "+174 stars/day pace right now (345 total).",
+   "metric_at_peak": 345,
    "metric_name": "stars"
   }
  }
