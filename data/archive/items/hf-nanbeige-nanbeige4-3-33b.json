@@ -14,9 +14,15 @@
    "score": 98.1,
    "metric": 205,
    "t": "2026-10-25T16:16:06.512772+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 244,
+   "t": "2026-10-25T17:31:10.354947+00:00"
   }
  ],
- "peak_score": 98.1,
+ "peak_score": 99.0,
  "best_rank": 1,
  "name": "Nanbeige/Nanbeige4.3-33B",
  "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
@@ -27,11 +33,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-24T02:49:18.000Z",
- "last_seen": "2026-10-25T16:16:06.512772+00:00",
- "last_why": "+904 likes/day pace right now (205 total).",
+ "last_seen": "2026-10-25T17:31:10.354947+00:00",
+ "last_why": "+748 likes/day pace right now (244 total).",
  "extra": {
   "downloads": 0,
-  "trending": 205,
+  "trending": 244,
   "hf_type": "model",
   "title": null,
   "summary": null,
