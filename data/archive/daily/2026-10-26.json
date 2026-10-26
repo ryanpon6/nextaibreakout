@@ -13,7 +13,8 @@
   "2026-10-26T10:01:11.234538+00:00",
   "2026-10-26T11:16:05.035052+00:00",
   "2026-10-26T12:31:05.805384+00:00",
-  "2026-10-26T13:03:45.832440+00:00"
+  "2026-10-26T13:03:45.832440+00:00",
+  "2026-10-26T14:16:09.850342+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -26,20 +27,20 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-26T13:03:45.832440+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 523,
+    "trending": 532,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+250 likes/day pace right now (400 total).",
-   "metric_at_peak": 400,
+   "why_at_peak": "+179 likes/day pace right now (534 total).",
+   "metric_at_peak": 534,
    "metric_name": "likes"
   },
   "hn-50233779-a-10-year-old-cnn-outperforms-frontier-llms-for-sk": {
@@ -52,12 +53,12 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 250,
+    "comments": 259,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
    "why_at_peak": "+595 points/day pace right now (477 total).",
@@ -528,13 +529,13 @@
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T13:03:45.832440+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 527,
+    "trending": 529,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -644,12 +645,12 @@
    "first_seen": "2026-10-26T04:46:07.964162+00:00",
    "peak_score": 96.1,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 23,
+    "forks": 26,
     "lang": "Python",
     "topics": [
      "agent-orchestration",
@@ -730,18 +731,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-26T04:46:07.964162+00:00",
-   "peak_score": 87.9,
-   "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 28,
+    "comments": 41,
     "hn": "https://news.ycombinator.com/item?id=50236828"
    },
-   "why_at_peak": "+96 points/day pace right now (43 total).",
-   "metric_at_peak": 43,
+   "why_at_peak": "+99 points/day pace right now (65 total).",
+   "metric_at_peak": 65,
    "metric_name": "points"
   },
   "hn-50238739-paperpilot-zero-cloud-pure-rust-pdf-engine-with": {
@@ -754,12 +755,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-26T13:03:45.832440+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 66,
+    "comments": 70,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -1002,12 +1003,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T13:03:45.832440+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 47,
+    "forks": 51,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1176,14 +1177,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
-   "peak_score": 95.5,
-   "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T13:03:45.832440+00:00",
+   "peak_score": 97.2,
+   "best_rank": 3,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
-    "forks": 3,
+    "forks": 4,
     "lang": "TypeScript",
     "topics": [
      "gamedev",
@@ -1195,8 +1196,8 @@
     ],
     "repo_id": 1432826819
    },
-   "why_at_peak": "+80 stars/day pace right now (53 total).",
-   "metric_at_peak": 53,
+   "why_at_peak": "+139 stars/day pace right now (60 total).",
+   "metric_at_peak": 60,
    "metric_name": "stars"
   },
   "hf-memtensor-memt-1-0-nano": {
@@ -1223,6 +1224,32 @@
    },
    "why_at_peak": "Trending score 129 on Hugging Face; 138 likes, 30.3K downloads.",
    "metric_at_peak": 138,
+   "metric_name": "likes"
+  },
+  "hf-mistralai-timestral-209m": {
+   "id": "hfmodel:mistralai/Timestral-209M",
+   "slug": "hf-mistralai-timestral-209m",
+   "name": "mistralai/Timestral-209M",
+   "url": "https://huggingface.co/mistralai/Timestral-209M",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T14:16:09.850342+00:00",
+   "peak_score": 92.9,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T14:16:09.850342+00:00",
+   "what": "time-series-forecasting model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 10971,
+    "trending": 217,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+99 likes/day pace right now (388 total).",
+   "metric_at_peak": 388,
    "metric_name": "likes"
   }
  }
