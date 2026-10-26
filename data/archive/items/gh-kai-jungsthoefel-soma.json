@@ -1,0 +1,56 @@
+{
+ "id": "gh:Kai-Jungsthoefel/SOMA",
+ "slug": "gh-kai-jungsthoefel-soma",
+ "first_seen": "2026-10-26T18:01:29.393436+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 93.8,
+   "metric": 378,
+   "t": "2026-10-26T18:01:29.393436+00:00"
+  }
+ ],
+ "peak_score": 93.8,
+ "best_rank": 5,
+ "name": "Kai-Jungsthoefel/SOMA",
+ "url": "https://github.com/Kai-Jungsthoefel/SOMA",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice",
+ "what": "Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-10T18:01:10Z",
+ "last_seen": "2026-10-26T18:01:29.393436+00:00",
+ "last_why": "378 stars since launch 16 days ago \u2248 24 stars/day since launch.",
+ "extra": {
+  "forks": 34,
+  "lang": "TypeScript",
+  "topics": [
+   "3d-modeling",
+   "3d-printing",
+   "3d-printing-tools",
+   "agent",
+   "agentic-ai",
+   "ai-cad",
+   "cad",
+   "cadquery",
+   "claude-code",
+   "codex",
+   "electron",
+   "fem",
+   "llm",
+   "macd",
+   "maker",
+   "opencode",
+   "parametric-design",
+   "python",
+   "step",
+   "text-to-cad"
+  ],
+  "repo_id": 1413505972
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

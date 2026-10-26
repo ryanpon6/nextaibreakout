@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T16:46:59.869745+00:00",
+ "generated": "2026-10-26T18:02:19.427802+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -117,9 +117,9 @@
      "name": "GitHub: xai-org/xai-sdk-python releases",
      "url": "https://github.com/xai-org/xai-sdk-python/releases.atom",
      "status": "provisional",
-     "ok": true,
-     "count": 1,
-     "raw": 10
+     "ok": false,
+     "error": "HTTPError: HTTP Error 504: Gateway Time-out",
+     "stale_kept": 1
     },
     {
      "name": "xAI Status (incidents)",
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-26T16:46:59.869745+00:00"
+   "fetched": "2026-10-26T18:02:19.427802+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,10 +268,23 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-26T16:46:59.869745+00:00"
+   "fetched": "2026-10-26T18:02:19.427802+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "ChatGPT\u2019s expanding world of work",
+     "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+     "date": "2026-10-26T10:00:00+00:00",
+     "day": "2026-10-26",
+     "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+     "categories": [
+      "Research"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
@@ -385,19 +398,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone",
-     "date": "2026-10-07T00:00:00+00:00",
-     "day": "2026-10-07",
-     "summary": "GPT\u20116 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-     "categories": [
-      "Product"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -407,18 +407,18 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1319
+     "raw": 1320
     },
     {
      "name": "GitHub: openai/codex releases",
      "url": "https://github.com/openai/codex/releases.atom",
      "status": "provisional",
-     "ok": true,
-     "count": 1,
-     "raw": 10
+     "ok": false,
+     "error": "HTTPError: HTTP Error 504: Gateway Time-out",
+     "stale_kept": 1
     }
    ],
-   "fetched": "2026-10-26T16:46:59.869745+00:00"
+   "fetched": "2026-10-26T18:02:19.427802+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-26T16:46:59.869745+00:00"
+   "fetched": "2026-10-26T18:02:19.427802+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-26T16:46:59.869745+00:00"
+   "fetched": "2026-10-26T18:02:19.427802+00:00"
   },
   "meta": {
    "items": [
@@ -798,7 +798,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-26T16:46:59.869745+00:00"
+   "fetched": "2026-10-26T18:02:19.427802+00:00"
   }
  }
 }

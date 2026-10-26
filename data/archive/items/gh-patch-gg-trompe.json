@@ -32,6 +32,12 @@
    "score": 97.2,
    "metric": 74,
    "t": "2026-10-26T16:46:14.229807+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 81,
+   "t": "2026-10-26T18:01:29.393436+00:00"
   }
  ],
  "peak_score": 97.2,
@@ -45,8 +51,8 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-25T04:27:06Z",
- "last_seen": "2026-10-26T16:46:14.229807+00:00",
- "last_why": "+153 stars/day pace right now (74 total).",
+ "last_seen": "2026-10-26T18:01:29.393436+00:00",
+ "last_why": "+134 stars/day pace right now (81 total).",
  "extra": {
   "forks": 5,
   "lang": "TypeScript",
