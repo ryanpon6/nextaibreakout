@@ -8,11 +8,17 @@
    "score": 94.7,
    "metric": 40,
    "t": "2026-10-25T19:46:07.023512+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 51,
+   "t": "2026-10-26T01:08:56.993521+00:00"
   }
  ],
- "peak_score": 94.7,
- "best_rank": 6,
- "name": "A Mathematician Reads the AI Future",
+ "peak_score": 95.5,
+ "best_rank": 4,
+ "name": "A mathematician reads the AI future",
  "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
  "source": "hackernews",
  "kind": "news",
@@ -21,13 +27,14 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-25T16:31:21Z",
- "last_seen": "2026-10-25T19:46:07.023512+00:00",
- "last_why": "+192 points/day pace right now (40 total).",
+ "last_seen": "2026-10-26T01:08:56.993521+00:00",
+ "last_why": "+191 points/day pace right now (51 total).",
  "extra": {
-  "comments": 43,
+  "comments": 73,
   "hn": "https://news.ycombinator.com/item?id=50233347"
  },
  "days": [
-  "2026-10-25"
+  "2026-10-25",
+  "2026-10-26"
  ]
 }

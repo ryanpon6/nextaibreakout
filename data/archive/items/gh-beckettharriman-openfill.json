@@ -1,0 +1,55 @@
+{
+ "id": "gh:beckettharriman/openfill",
+ "slug": "gh-beckettharriman-openfill",
+ "first_seen": "2026-10-26T01:08:56.993521+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.9,
+   "metric": 51,
+   "t": "2026-10-26T01:08:56.993521+00:00"
+  }
+ ],
+ "peak_score": 92.9,
+ "best_rank": 7,
+ "name": "beckettharriman/openfill",
+ "url": "https://github.com/beckettharriman/openfill",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
+ "what": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-14T20:51:20Z",
+ "last_seen": "2026-10-26T01:08:56.993521+00:00",
+ "last_why": "+109 stars/day pace right now (51 total).",
+ "extra": {
+  "forks": 4,
+  "lang": "Python",
+  "topics": [
+   "comfyui",
+   "flux",
+   "generative-ai",
+   "generative-fill",
+   "gimp",
+   "gimp-3",
+   "gimp-plugin",
+   "gimp3",
+   "image-editing",
+   "inpainting",
+   "lama",
+   "local-ai",
+   "object-removal",
+   "outpainting",
+   "photo-editing",
+   "photoshop-alternative",
+   "python",
+   "sdxl",
+   "stable-diffusion"
+  ],
+  "repo_id": 1419838541
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

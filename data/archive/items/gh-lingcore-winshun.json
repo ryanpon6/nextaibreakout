@@ -14,10 +14,16 @@
    "score": 93.8,
    "metric": 536,
    "t": "2026-10-24T07:16:08.873468+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 93.8,
+   "metric": 560,
+   "t": "2026-10-26T01:08:56.993521+00:00"
   }
  ],
  "peak_score": 93.8,
- "best_rank": 7,
+ "best_rank": 6,
  "name": "LingCore/WinShun",
  "url": "https://github.com/LingCore/WinShun",
  "source": "github",
@@ -27,10 +33,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-08T03:18:00Z",
- "last_seen": "2026-10-24T07:16:08.873468+00:00",
- "last_why": "+134 stars/day pace right now (536 total).",
+ "last_seen": "2026-10-26T01:08:56.993521+00:00",
+ "last_why": "+136 stars/day pace right now (560 total).",
  "extra": {
-  "forks": 38,
+  "forks": 42,
   "lang": "C++",
   "topics": [
    "chinese",
@@ -55,6 +61,7 @@
   "repo_id": 1409660690
  },
  "days": [
-  "2026-10-24"
+  "2026-10-24",
+  "2026-10-26"
  ]
 }
