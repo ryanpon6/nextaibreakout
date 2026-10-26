@@ -1,0 +1,33 @@
+{
+ "id": "hn:50234699",
+ "slug": "hn-50234699-ai-didn-t-cause-the-tech-jobs-bust-but-it-explain",
+ "first_seen": "2026-10-26T11:16:05.035052+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 92.1,
+   "metric": 55,
+   "t": "2026-10-26T11:16:05.035052+00:00"
+  }
+ ],
+ "peak_score": 92.1,
+ "best_rank": 8,
+ "name": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
+ "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T18:42:23Z",
+ "last_seen": "2026-10-26T11:16:05.035052+00:00",
+ "last_why": "+77 points/day pace right now (55 total).",
+ "extra": {
+  "comments": 23,
+  "hn": "https://news.ycombinator.com/item?id=50234699"
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

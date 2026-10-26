@@ -10,7 +10,8 @@
   "2026-10-26T07:16:05.010753+00:00",
   "2026-10-26T08:31:10.505857+00:00",
   "2026-10-26T08:46:07.674411+00:00",
-  "2026-10-26T10:01:11.234538+00:00"
+  "2026-10-26T10:01:11.234538+00:00",
+  "2026-10-26T11:16:05.035052+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -23,13 +24,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 486,
+    "trending": 508,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -274,8 +275,8 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 73.7,
    "best_rank": 7,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -523,22 +524,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
-   "peak_score": 94.6,
+   "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 3488,
-    "trending": 470,
+    "downloads": 4726,
+    "trending": 507,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+493 likes/day pace right now (518 total).",
-   "metric_at_peak": 518,
+   "why_at_peak": "+750 likes/day pace right now (584 total).",
+   "metric_at_peak": 584,
    "metric_name": "likes"
   },
   "hn-50229827-nikon-photography-contest-winner-loses-title-after": {
@@ -751,12 +752,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 30,
+    "comments": 45,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -775,8 +776,8 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "Ontology-Augmented Generation for AI agents.",
    "tag": "agents",
    "extra": {
@@ -918,16 +919,16 @@
    "first_seen": "2026-10-26T08:31:10.505857+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 23,
+    "comments": 25,
     "hn": "https://news.ycombinator.com/item?id=50238620"
    },
-   "why_at_peak": "+249 points/day pace right now (59 total).",
-   "metric_at_peak": 59,
+   "why_at_peak": "+135 points/day pace right now (66 total).",
+   "metric_at_peak": 66,
    "metric_name": "points"
   },
   "gh-chenxiachan-textfold": {
@@ -999,12 +1000,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 42,
+    "forks": 44,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1018,8 +1019,8 @@
     ],
     "repo_id": 1432649361
    },
-   "why_at_peak": "257 stars since launch 1 days ago \u2248 174 stars/day since launch.",
-   "metric_at_peak": 257,
+   "why_at_peak": "275 stars since launch 2 days ago \u2248 180 stars/day since launch.",
+   "metric_at_peak": 275,
    "metric_name": "stars"
   },
   "hf-warmbloodaban-minimax-h3-singularity": {
@@ -1072,6 +1073,97 @@
    },
    "why_at_peak": "+211 likes/day pace right now (3.1K total).",
    "metric_at_peak": 3066,
+   "metric_name": "likes"
+  },
+  "gh-alexgaoth-awesome-reverse-engineered": {
+   "id": "gh:alexgaoth/awesome-reverse-engineered",
+   "slug": "gh-alexgaoth-awesome-reverse-engineered",
+   "name": "alexgaoth/awesome-reverse-engineered",
+   "url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-26T11:16:05.035052+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "what": "Don't reverse engineer it twice. 16,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 132,
+    "lang": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "awesome",
+     "awesome-list",
+     "claude-code",
+     "decompilation",
+     "file-formats",
+     "game-decompilation",
+     "hacktoberfest",
+     "home-assistant",
+     "interoperability",
+     "iot",
+     "local-control",
+     "open-source",
+     "protocol",
+     "reverse-engineered",
+     "reverse-engineering",
+     "unofficial-api"
+    ],
+    "repo_id": 1414599291
+   },
+   "why_at_peak": "+365 stars/day pace right now (736 total).",
+   "metric_at_peak": 736,
+   "metric_name": "stars"
+  },
+  "hn-50234699-ai-didn-t-cause-the-tech-jobs-bust-but-it-explain": {
+   "id": "hn:50234699",
+   "slug": "hn-50234699-ai-didn-t-cause-the-tech-jobs-bust-but-it-explain",
+   "name": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
+   "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T11:16:05.035052+00:00",
+   "peak_score": 92.1,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 23,
+    "hn": "https://news.ycombinator.com/item?id=50234699"
+   },
+   "why_at_peak": "+77 points/day pace right now (55 total).",
+   "metric_at_peak": 55,
+   "metric_name": "points"
+  },
+  "hf-xhtoken-spark-x2-6-4b-gguf": {
+   "id": "hfmodel:XHToken/Spark-X2.6-4B-GGUF",
+   "slug": "hf-xhtoken-spark-x2-6-4b-gguf",
+   "name": "XHToken/Spark-X2.6-4B-GGUF",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T11:16:05.035052+00:00",
+   "peak_score": 91.2,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 69669,
+    "trending": 141,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+96 likes/day pace right now (148 total).",
+   "metric_at_peak": 148,
    "metric_name": "likes"
   }
  }
