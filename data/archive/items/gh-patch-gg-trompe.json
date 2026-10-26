@@ -1,0 +1,42 @@
+{
+ "id": "gh:Patch-gg/trompe",
+ "slug": "gh-patch-gg-trompe",
+ "first_seen": "2026-10-26T12:31:05.805384+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 51,
+   "t": "2026-10-26T12:31:05.805384+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 5,
+ "name": "Patch-gg/trompe",
+ "url": "https://github.com/Patch-gg/trompe",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+ "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+ "tag": "models",
+ "metric_name": "stars",
+ "created": "2026-10-25T04:27:06Z",
+ "last_seen": "2026-10-26T12:31:05.805384+00:00",
+ "last_why": "+77 stars/day pace right now (51 total).",
+ "extra": {
+  "forks": 3,
+  "lang": "TypeScript",
+  "topics": [
+   "gamedev",
+   "generative-ai",
+   "procedural",
+   "texturing",
+   "threejs",
+   "webgl"
+  ],
+  "repo_id": 1432826819
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

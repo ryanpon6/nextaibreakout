@@ -11,7 +11,8 @@
   "2026-10-26T08:31:10.505857+00:00",
   "2026-10-26T08:46:07.674411+00:00",
   "2026-10-26T10:01:11.234538+00:00",
-  "2026-10-26T11:16:05.035052+00:00"
+  "2026-10-26T11:16:05.035052+00:00",
+  "2026-10-26T12:31:05.805384+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -24,13 +25,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 508,
+    "trending": 521,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -50,12 +51,12 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 237,
+    "comments": 250,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
    "why_at_peak": "+595 points/day pace right now (477 total).",
@@ -275,8 +276,8 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 73.7,
    "best_rank": 7,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -526,13 +527,13 @@
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 507,
+    "trending": 518,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -752,12 +753,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 45,
+    "comments": 58,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -776,8 +777,8 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "Ontology-Augmented Generation for AI agents.",
    "tag": "agents",
    "extra": {
@@ -897,12 +898,12 @@
    "first_seen": "2026-10-26T08:31:10.505857+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 21,
+    "comments": 31,
     "hn": "https://news.ycombinator.com/item?id=50227041"
    },
    "why_at_peak": "+192 points/day pace right now (42 total).",
@@ -1000,12 +1001,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 44,
+    "forks": 46,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1019,8 +1020,8 @@
     ],
     "repo_id": 1432649361
    },
-   "why_at_peak": "275 stars since launch 2 days ago \u2248 180 stars/day since launch.",
-   "metric_at_peak": 275,
+   "why_at_peak": "+346 stars/day pace right now (293 total).",
+   "metric_at_peak": 293,
    "metric_name": "stars"
   },
   "hf-warmbloodaban-minimax-h3-singularity": {
@@ -1164,6 +1165,63 @@
    },
    "why_at_peak": "+96 likes/day pace right now (148 total).",
    "metric_at_peak": 148,
+   "metric_name": "likes"
+  },
+  "gh-patch-gg-trompe": {
+   "id": "gh:Patch-gg/trompe",
+   "slug": "gh-patch-gg-trompe",
+   "name": "Patch-gg/trompe",
+   "url": "https://github.com/Patch-gg/trompe",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-26T12:31:05.805384+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+   "tag": "models",
+   "extra": {
+    "forks": 3,
+    "lang": "TypeScript",
+    "topics": [
+     "gamedev",
+     "generative-ai",
+     "procedural",
+     "texturing",
+     "threejs",
+     "webgl"
+    ],
+    "repo_id": 1432826819
+   },
+   "why_at_peak": "+77 stars/day pace right now (51 total).",
+   "metric_at_peak": 51,
+   "metric_name": "stars"
+  },
+  "hf-memtensor-memt-1-0-nano": {
+   "id": "hfmodel:MemTensor/MemT-1.0-Nano",
+   "slug": "hf-memtensor-memt-1-0-nano",
+   "name": "MemTensor/MemT-1.0-Nano",
+   "url": "https://huggingface.co/MemTensor/MemT-1.0-Nano",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T12:31:05.805384+00:00",
+   "peak_score": 92.9,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 30338,
+    "trending": 129,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 129 on Hugging Face; 138 likes, 30.3K downloads.",
+   "metric_at_peak": 138,
    "metric_name": "likes"
   }
  }
