@@ -1,0 +1,33 @@
+{
+ "id": "hn:50227041",
+ "slug": "hn-50227041-show-hn-adrs-for-ai-deliberation-records-for-hu",
+ "first_seen": "2026-10-26T08:31:10.505857+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.5,
+   "metric": 42,
+   "t": "2026-10-26T08:31:10.505857+00:00"
+  }
+ ],
+ "peak_score": 97.5,
+ "best_rank": 2,
+ "name": "Show HN: ADRs for AI \u2013 Deliberation records for human\u2013AI work, versioned in Git",
+ "url": "https://adrs.systems",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-25T00:43:47Z",
+ "last_seen": "2026-10-26T08:31:10.505857+00:00",
+ "last_why": "+192 points/day pace right now (42 total).",
+ "extra": {
+  "comments": 20,
+  "hn": "https://news.ycombinator.com/item?id=50227041"
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

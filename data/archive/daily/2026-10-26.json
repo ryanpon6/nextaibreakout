@@ -7,7 +7,8 @@
   "2026-10-26T03:31:10.258703+00:00",
   "2026-10-26T04:46:07.964162+00:00",
   "2026-10-26T06:01:07.980702+00:00",
-  "2026-10-26T07:16:05.010753+00:00"
+  "2026-10-26T07:16:05.010753+00:00",
+  "2026-10-26T08:31:10.505857+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -270,9 +271,9 @@
    "kind": "tool",
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 73.7,
-   "best_rank": 9,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "best_rank": 7,
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -345,12 +346,12 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 46,
+    "forks": 49,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -636,10 +637,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-26T04:46:07.964162+00:00",
-   "peak_score": 94.6,
+   "peak_score": 96.1,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T04:46:07.964162+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
    "what": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and\u2026",
    "tag": "safety",
    "extra": {
@@ -669,8 +670,8 @@
     ],
     "repo_id": 1391814933
    },
-   "why_at_peak": "+480 stars/day pace right now (579 total).",
-   "metric_at_peak": 579,
+   "why_at_peak": "+211 stars/day pace right now (592 total).",
+   "metric_at_peak": 592,
    "metric_name": "stars"
   },
   "gh-liuda30201-ai-coding": {
@@ -746,20 +747,20 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
-   "peak_score": 97.3,
-   "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 21,
+    "comments": 28,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
    },
-   "why_at_peak": "+480 points/day pace right now (79 total).",
-   "metric_at_peak": 79,
+   "why_at_peak": "+710 points/day pace right now (116 total).",
+   "metric_at_peak": 116,
    "metric_name": "points"
   },
   "gh-fengzhenfei-carrel": {
@@ -882,6 +883,83 @@
    "why_at_peak": "+134 likes/day pace right now (874 total).",
    "metric_at_peak": 874,
    "metric_name": "likes"
+  },
+  "hn-50227041-show-hn-adrs-for-ai-deliberation-records-for-hu": {
+   "id": "hn:50227041",
+   "slug": "hn-50227041-show-hn-adrs-for-ai-deliberation-records-for-hu",
+   "name": "Show HN: ADRs for AI \u2013 Deliberation records for human\u2013AI work, versioned in Git",
+   "url": "https://adrs.systems",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T08:31:10.505857+00:00",
+   "peak_score": 97.5,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 20,
+    "hn": "https://news.ycombinator.com/item?id=50227041"
+   },
+   "why_at_peak": "+192 points/day pace right now (42 total).",
+   "metric_at_peak": 42,
+   "metric_name": "points"
+  },
+  "hn-50238620-microsoft-decision-1-9b-qwen-model-launch-explain": {
+   "id": "hn:50238620",
+   "slug": "hn-50238620-microsoft-decision-1-9b-qwen-model-launch-explain",
+   "name": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+   "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T08:31:10.505857+00:00",
+   "peak_score": 94.7,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 18,
+    "hn": "https://news.ycombinator.com/item?id=50238620"
+   },
+   "why_at_peak": "+173 points/day pace right now (43 total).",
+   "metric_at_peak": 43,
+   "metric_name": "points"
+  },
+  "gh-chenxiachan-textfold": {
+   "id": "gh:chenxiachan/textfold",
+   "slug": "gh-chenxiachan-textfold",
+   "name": "chenxiachan/textfold",
+   "url": "https://github.com/chenxiachan/textfold",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-26T08:31:10.505857+00:00",
+   "peak_score": 93.3,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T08:31:10.505857+00:00",
+   "what": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 57,
+    "lang": "Python",
+    "topics": [
+     "arxiv",
+     "llm",
+     "local-first",
+     "open-source",
+     "paper-reader",
+     "research-papers",
+     "semantic-zoom",
+     "translation"
+    ],
+    "repo_id": 1404880073
+   },
+   "why_at_peak": "+173 stars/day pace right now (707 total).",
+   "metric_at_peak": 707,
+   "metric_name": "stars"
   }
  }
 }

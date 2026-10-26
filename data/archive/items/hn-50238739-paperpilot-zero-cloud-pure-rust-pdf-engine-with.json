@@ -14,10 +14,16 @@
    "score": 97.3,
    "metric": 79,
    "t": "2026-10-26T07:16:05.010753+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 116,
+   "t": "2026-10-26T08:31:10.505857+00:00"
   }
  ],
- "peak_score": 97.3,
- "best_rank": 2,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
  "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
  "source": "hackernews",
@@ -27,10 +33,10 @@
  "tag": "agents",
  "metric_name": "points",
  "created": "2026-10-26T03:29:05Z",
- "last_seen": "2026-10-26T07:16:05.010753+00:00",
- "last_why": "+480 points/day pace right now (79 total).",
+ "last_seen": "2026-10-26T08:31:10.505857+00:00",
+ "last_why": "+710 points/day pace right now (116 total).",
  "extra": {
-  "comments": 21,
+  "comments": 28,
   "hn": "https://news.ycombinator.com/item?id=50238739",
   "repo_created": "2026-09-28T08:04:29Z",
   "repo": "KrushnaVardhanReddy/PaperPilot"
