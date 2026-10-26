@@ -1,0 +1,35 @@
+{
+ "id": "hn:50238739",
+ "slug": "hn-50238739-paperpilot-zero-cloud-pure-rust-pdf-engine-with",
+ "first_seen": "2026-10-26T06:01:07.980702+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.2,
+   "metric": 54,
+   "t": "2026-10-26T06:01:07.980702+00:00"
+  }
+ ],
+ "peak_score": 97.2,
+ "best_rank": 2,
+ "name": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+ "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-26T03:29:05Z",
+ "last_seen": "2026-10-26T06:01:07.980702+00:00",
+ "last_why": "+557 points/day pace right now (54 total).",
+ "extra": {
+  "comments": 9,
+  "hn": "https://news.ycombinator.com/item?id=50238739",
+  "repo_created": "2026-09-28T08:04:29Z",
+  "repo": "KrushnaVardhanReddy/PaperPilot"
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

@@ -8,10 +8,16 @@
    "score": 94.3,
    "metric": 373,
    "t": "2026-10-21T20:47:41.091382+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.4,
+   "metric": 501,
+   "t": "2026-10-26T06:01:07.980702+00:00"
   }
  ],
- "peak_score": 94.3,
- "best_rank": 5,
+ "peak_score": 96.4,
+ "best_rank": 3,
  "name": "FengZhenfei/carrel",
  "url": "https://github.com/FengZhenfei/carrel",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-09-28T11:13:02Z",
- "last_seen": "2026-10-21T20:47:41.091382+00:00",
- "last_why": "373 stars since launch 23 days ago \u2248 16 stars/day since launch.",
+ "last_seen": "2026-10-26T06:01:07.980702+00:00",
+ "last_why": "+730 stars/day pace right now (501 total).",
  "extra": {
   "forks": 3,
   "lang": "Python",
@@ -44,6 +50,7 @@
   "repo_id": 1392498172
  },
  "days": [
-  "2026-10-21"
+  "2026-10-21",
+  "2026-10-26"
  ]
 }
