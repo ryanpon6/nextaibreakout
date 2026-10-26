@@ -67,8 +67,8 @@ def measure(x):
     """The one shared momentum figure used on every page and in the feed."""
     m = x.get("metric") or 0; unit = x.get("metric_name") or ""; ex = x.get("extra") or {}
     if x["source"] in ("npm", "pypi"):
-        wk = ex.get("week")
-        return f"{B_fmt(m)} downloads/day" + (f", {m / (wk / 7):.2f}× 7-day avg" if wk else "")
+        wk = ex.get("week"); from score import window_ok
+        return f"{B_fmt(m)} downloads/day" + (f", {m / (wk / 7):.2f}× 7-day avg" if wk and window_ok(x) else "")
     S = SER.get(x["id"], [])
     if S:
         end = dt.datetime.fromisoformat(S[-1][0]); w = [p for p in S if dt.datetime.fromisoformat(p[0]) >= end - dt.timedelta(hours=24)]

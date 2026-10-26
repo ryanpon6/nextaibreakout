@@ -36,6 +36,15 @@ def write_scored(res):
 MODEL_WORDS = re.compile(r"\b(models?|weights|llms?|checkpoints?|\d+(\.\d+)?b|fine-?tuned?|vlm|text-generation|image-text-to-text|text-to-image|text-to-speech)\b", re.I)
 def weak_space(i):
     return i["source"] == "huggingface" and i["extra"].get("hf_type") == "space" and (i.get("desc") or "").strip().lower() in ("", "static", "gradio", "streamlit", "docker")
+def window_ok(it):
+    """True only if every day of the npm/PyPI 7-day window is present and non-zero."""
+    ex = it.get("extra") or {}
+    if it.get("source") == "npm":
+        d = ex.get("days")
+        return isinstance(d, list) and len(d) >= 7 and all(isinstance(v, (int, float)) and v > 0 for v in d[-7:])
+    if it.get("source") == "pypi":  # pypistats gives totals only: require a non-zero day and week
+        return bool(ex.get("week")) and bool(it.get("metric"))
+    return False
 def score():
     cur, prev, now = load()
     AL = aliases()  # GitHub renames: older snapshots carry the old ID; key history by the canonical one
@@ -55,9 +64,14 @@ def score():
         m, p, why = it["metric"] or 0, pv.get(it["id"]), ""
         if it["source"] in ("npm", "pypi"):
             avg = (it["extra"]["week"] or 1) / 7
-            vel, rel = m - avg, m / max(avg, 1)
-            why = f"{fmt(m)} downloads yesterday, {rel:.2f}× its 7-day average."
-            if rel < 1.15: continue  # only show packages that are actually accelerating
+            vel = m - avg
+            if window_ok(it):
+                rel = m / max(avg, 1)
+                why = f"{fmt(m)} downloads yesterday, {rel:.2f}× its 7-day average."
+                if rel < 1.15: continue  # only show packages that are actually accelerating
+            else:  # a zero or missing day in the window makes the 7-day ratio meaningless: never compute or show it
+                rel = None
+                why = f"{fmt(m)} downloads yesterday."
         elif p and hrs and not (it["source"] == "github" and nsnap.get(it["id"], 0) < 3):
             vel = (m - (p["metric"] or 0)) / hrs; rel = vel / max(p["metric"] or 1, 30)
             why = f"+{fmt(max(vel*24,0))} {it['metric_name']}/day pace right now ({fmt(m)} total)."
@@ -82,7 +96,7 @@ def score():
     for src in {i["source"] for i in out}:
         g = [i for i in out if i["source"] == src]
         for key in ("vel", "rel"):
-            for r, i in enumerate(sorted(g, key=lambda x: x[key])): i[key + "_p"] = (r + 1) / len(g)
+            for r, i in enumerate(sorted(g, key=lambda x: (x[key] is not None, x[key] or 0))): i[key + "_p"] = 0.0 if i[key] is None else (r + 1) / len(g)
         for i in g:
             fresh = 1.15 if i.get("created") and (now - ts(i["created"])).days < 3 else 1.0
             i["raw"] = (0.65 * i["vel_p"] + 0.35 * i["rel_p"]) * fresh * (0.3 if i["stale"] else 1.0) * (0.5 if SEO2 and weak_space(i) else 1.0); i["score"] = round(100 * min(1, i["raw"]), 1)
@@ -127,7 +141,7 @@ def score():
         elif i["source"] == "hackernews": i["momentum_sub"] = f"{(now - ts(i['created'])).total_seconds()/3600:.0f}h · {i['extra'].get('comments') or 0} comments"
         elif i["source"] == "huggingface":
             i["momentum_sub"] = ("Space" + (f" · {i['desc']}" if i.get("desc") and i["desc"] not in ("static",) else "")) if SEO2 and i["extra"].get("hf_type") == "space" else f"{fmt(i['extra'].get('downloads') or 0)} downloads"
-        else: i["momentum_sub"] = f"{i['rel']:.2f}× 7-day avg"
+        else: i["momentum_sub"] = f"{i['rel']:.2f}× 7-day avg" if i.get("rel") is not None else ""
     res = {"items_scanned": len(cur["items"]), "sources": sorted({x["source"] for x in cur["items"]}), "generated": now.isoformat(), "has_prev": bool(prev), "errors": cur["errors"], "top": top,
            "frontier": frontier, "models": [i for i in out if i["kind"] == "model"][:25],
            "tools": [i for i in out if i["kind"] == "tool"][:25], "news": [i for i in out if i["kind"] == "news"][:25]}
