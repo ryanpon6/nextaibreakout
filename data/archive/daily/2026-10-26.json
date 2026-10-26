@@ -12,7 +12,8 @@
   "2026-10-26T08:46:07.674411+00:00",
   "2026-10-26T10:01:11.234538+00:00",
   "2026-10-26T11:16:05.035052+00:00",
-  "2026-10-26T12:31:05.805384+00:00"
+  "2026-10-26T12:31:05.805384+00:00",
+  "2026-10-26T13:03:45.832440+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -25,13 +26,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 521,
+    "trending": 523,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -328,12 +329,12 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 74,
+    "comments": 89,
     "hn": "https://news.ycombinator.com/item?id=50233347"
    },
    "why_at_peak": "+191 points/day pace right now (51 total).",
@@ -527,13 +528,13 @@
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 518,
+    "trending": 527,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -753,12 +754,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 58,
+    "comments": 66,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -777,8 +778,8 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "Ontology-Augmented Generation for AI agents.",
    "tag": "agents",
    "extra": {
@@ -1001,12 +1002,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 46,
+    "forks": 47,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1129,12 +1130,12 @@
    "first_seen": "2026-10-26T11:16:05.035052+00:00",
    "peak_score": 92.1,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T11:16:05.035052+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 23,
+    "comments": 26,
     "hn": "https://news.ycombinator.com/item?id=50234699"
    },
    "why_at_peak": "+77 points/day pace right now (55 total).",
@@ -1176,9 +1177,9 @@
    "kind": "tool",
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 95.5,
-   "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -1194,8 +1195,8 @@
     ],
     "repo_id": 1432826819
    },
-   "why_at_peak": "+77 stars/day pace right now (51 total).",
-   "metric_at_peak": 51,
+   "why_at_peak": "+80 stars/day pace right now (53 total).",
+   "metric_at_peak": 53,
    "metric_name": "stars"
   },
   "hf-memtensor-memt-1-0-nano": {
@@ -1206,10 +1207,10 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
-   "peak_score": 92.9,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T12:31:05.805384+00:00",
+   "peak_score": 94.6,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T13:03:45.832440+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {

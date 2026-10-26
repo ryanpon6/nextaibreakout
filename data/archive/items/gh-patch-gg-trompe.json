@@ -8,10 +8,16 @@
    "score": 95.5,
    "metric": 51,
    "t": "2026-10-26T12:31:05.805384+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 53,
+   "t": "2026-10-26T13:03:45.832440+00:00"
   }
  ],
  "peak_score": 95.5,
- "best_rank": 5,
+ "best_rank": 4,
  "name": "Patch-gg/trompe",
  "url": "https://github.com/Patch-gg/trompe",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-25T04:27:06Z",
- "last_seen": "2026-10-26T12:31:05.805384+00:00",
- "last_why": "+77 stars/day pace right now (51 total).",
+ "last_seen": "2026-10-26T13:03:45.832440+00:00",
+ "last_why": "+80 stars/day pace right now (53 total).",
  "extra": {
   "forks": 3,
   "lang": "TypeScript",
