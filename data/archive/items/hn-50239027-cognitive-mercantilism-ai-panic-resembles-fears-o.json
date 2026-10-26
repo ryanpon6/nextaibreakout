@@ -1,0 +1,33 @@
+{
+ "id": "hn:50239027",
+ "slug": "hn-50239027-cognitive-mercantilism-ai-panic-resembles-fears-o",
+ "first_seen": "2026-10-26T07:16:05.010753+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 53,
+   "t": "2026-10-26T07:16:05.010753+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+ "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-26T04:11:40Z",
+ "last_seen": "2026-10-26T07:16:05.010753+00:00",
+ "last_why": "53 points in 3h on Hacker News (37 comments).",
+ "extra": {
+  "comments": 37,
+  "hn": "https://news.ycombinator.com/item?id=50239027"
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

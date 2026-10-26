@@ -6,7 +6,8 @@
   "2026-10-26T02:16:10.209265+00:00",
   "2026-10-26T03:31:10.258703+00:00",
   "2026-10-26T04:46:07.964162+00:00",
-  "2026-10-26T06:01:07.980702+00:00"
+  "2026-10-26T06:01:07.980702+00:00",
+  "2026-10-26T07:16:05.010753+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -19,13 +20,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 432,
+    "trending": 452,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -45,12 +46,12 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 227,
+    "comments": 230,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
    "why_at_peak": "+595 points/day pace right now (477 total).",
@@ -67,20 +68,20 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 281,
+    "trending": 286,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+96 likes/day pace right now (289 total).",
-   "metric_at_peak": 289,
+   "why_at_peak": "+115 likes/day pace right now (300 total).",
+   "metric_at_peak": 300,
    "metric_name": "likes"
   },
   "gh-jddevtime-open-lakehouse-compute-fabric": {
@@ -270,8 +271,8 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 73.7,
    "best_rank": 9,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -344,8 +345,8 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T04:46:07.964162+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
@@ -745,20 +746,20 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
-   "peak_score": 97.2,
+   "peak_score": 97.3,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 9,
+    "comments": 21,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
    },
-   "why_at_peak": "+557 points/day pace right now (54 total).",
-   "metric_at_peak": 54,
+   "why_at_peak": "+480 points/day pace right now (79 total).",
+   "metric_at_peak": 79,
    "metric_name": "points"
   },
   "gh-fengzhenfei-carrel": {
@@ -771,8 +772,8 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "Ontology-Augmented Generation for AI agents.",
    "tag": "agents",
    "extra": {
@@ -807,10 +808,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
-   "peak_score": 92.9,
+   "peak_score": 93.8,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T06:01:07.980702+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
    "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
    "tag": "dev tools",
    "extra": {
@@ -830,9 +831,57 @@
     ],
     "repo_id": 1394679834
    },
-   "why_at_peak": "+192 stars/day pace right now (364 total).",
-   "metric_at_peak": 364,
+   "why_at_peak": "+211 stars/day pace right now (375 total).",
+   "metric_at_peak": 375,
    "metric_name": "stars"
+  },
+  "hn-50239027-cognitive-mercantilism-ai-panic-resembles-fears-o": {
+   "id": "hn:50239027",
+   "slug": "hn-50239027-cognitive-mercantilism-ai-panic-resembles-fears-o",
+   "name": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+   "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T07:16:05.010753+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 37,
+    "hn": "https://news.ycombinator.com/item?id=50239027"
+   },
+   "why_at_peak": "53 points in 3h on Hacker News (37 comments).",
+   "metric_at_peak": 53,
+   "metric_name": "points"
+  },
+  "hf-recursivesi-flint": {
+   "id": "hfmodel:RecursiveSI/flint",
+   "slug": "hf-recursivesi-flint",
+   "name": "RecursiveSI/flint",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T07:16:05.010753+00:00",
+   "peak_score": 87.1,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 6444,
+    "trending": 841,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+134 likes/day pace right now (874 total).",
+   "metric_at_peak": 874,
+   "metric_name": "likes"
   }
  }
 }
