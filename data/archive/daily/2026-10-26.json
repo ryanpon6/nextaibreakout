@@ -17,7 +17,8 @@
   "2026-10-26T14:16:09.850342+00:00",
   "2026-10-26T15:31:08.991653+00:00",
   "2026-10-26T16:46:14.229807+00:00",
-  "2026-10-26T18:01:29.393436+00:00"
+  "2026-10-26T18:01:29.393436+00:00",
+  "2026-10-26T18:57:51.104002+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -30,13 +31,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 557,
+    "trending": 567,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -876,14 +877,14 @@
    "kind": "model",
    "first_seen": "2026-10-26T07:16:05.010753+00:00",
    "peak_score": 87.1,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 6444,
-    "trending": 841,
+    "downloads": 8470,
+    "trending": 869,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1006,12 +1007,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 53,
+    "forks": 54,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1065,13 +1066,13 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 90.4,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 95889,
-    "trending": 1070,
+    "trending": 1066,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1182,8 +1183,8 @@
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -1199,8 +1200,8 @@
     ],
     "repo_id": 1432826819
    },
-   "why_at_peak": "+153 stars/day pace right now (74 total).",
-   "metric_at_peak": 74,
+   "why_at_peak": "+179 stars/day pace right now (88 total).",
+   "metric_at_peak": 88,
    "metric_name": "stars"
   },
   "hf-memtensor-memt-1-0-nano": {
@@ -1265,12 +1266,12 @@
    "first_seen": "2026-10-26T15:31:08.991653+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 105,
+    "comments": 130,
     "hn": "https://news.ycombinator.com/item?id=50242843"
    },
    "why_at_peak": "+825 points/day pace right now (98 total).",
@@ -1313,12 +1314,12 @@
    "first_seen": "2026-10-26T18:01:29.393436+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 12,
+    "comments": 42,
     "hn": "https://news.ycombinator.com/item?id=50246658"
    },
    "why_at_peak": "54 points in 1h on Hacker News (12 comments).",
@@ -1333,10 +1334,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-26T18:01:29.393436+00:00",
-   "peak_score": 93.8,
+   "peak_score": 94.6,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T18:01:29.393436+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
    "what": "Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice",
    "tag": "agents",
    "extra": {
@@ -1369,6 +1370,28 @@
    "why_at_peak": "378 stars since launch 16 days ago \u2248 24 stars/day since launch.",
    "metric_at_peak": 378,
    "metric_name": "stars"
+  },
+  "hn-50248124-gpt-6-1-terra": {
+   "id": "hn:50248124",
+   "slug": "hn-50248124-gpt-6-1-terra",
+   "name": "GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T18:57:51.104002+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 66,
+    "hn": "https://news.ycombinator.com/item?id=50248124"
+   },
+   "why_at_peak": "141 points in 1h on Hacker News (66 comments).",
+   "metric_at_peak": 141,
+   "metric_name": "points"
   }
  }
 }
