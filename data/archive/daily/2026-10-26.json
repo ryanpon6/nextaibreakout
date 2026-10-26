@@ -9,7 +9,8 @@
   "2026-10-26T06:01:07.980702+00:00",
   "2026-10-26T07:16:05.010753+00:00",
   "2026-10-26T08:31:10.505857+00:00",
-  "2026-10-26T08:46:07.674411+00:00"
+  "2026-10-26T08:46:07.674411+00:00",
+  "2026-10-26T10:01:11.234538+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -22,13 +23,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 0,
-    "trending": 470,
+    "downloads": 2787,
+    "trending": 486,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -48,12 +49,12 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 230,
+    "comments": 237,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
    "why_at_peak": "+595 points/day pace right now (477 total).",
@@ -273,8 +274,8 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 73.7,
    "best_rank": 7,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -347,12 +348,12 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T08:31:10.505857+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 49,
+    "forks": 52,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -750,12 +751,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 29,
+    "comments": 30,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -812,8 +813,8 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 93.8,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T07:16:05.010753+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
    "tag": "dev tools",
    "extra": {
@@ -833,8 +834,8 @@
     ],
     "repo_id": 1394679834
    },
-   "why_at_peak": "+211 stars/day pace right now (375 total).",
-   "metric_at_peak": 375,
+   "why_at_peak": "+403 stars/day pace right now (396 total).",
+   "metric_at_peak": 396,
    "metric_name": "stars"
   },
   "hn-50239027-cognitive-mercantilism-ai-panic-resembles-fears-o": {
@@ -917,16 +918,16 @@
    "first_seen": "2026-10-26T08:31:10.505857+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 19,
+    "comments": 23,
     "hn": "https://news.ycombinator.com/item?id=50238620"
    },
-   "why_at_peak": "+192 points/day pace right now (46 total).",
-   "metric_at_peak": 46,
+   "why_at_peak": "+249 points/day pace right now (59 total).",
+   "metric_at_peak": 59,
    "metric_name": "points"
   },
   "gh-chenxiachan-textfold": {
@@ -986,6 +987,91 @@
    },
    "why_at_peak": "+176 likes/day pace right now (1.6K total).",
    "metric_at_peak": 1632,
+   "metric_name": "likes"
+  },
+  "gh-hevnsnt-cvengine": {
+   "id": "gh:hevnsnt/CVEngine",
+   "slug": "gh-hevnsnt-cvengine",
+   "name": "hevnsnt/CVEngine",
+   "url": "https://github.com/hevnsnt/CVEngine",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-26T10:01:11.234538+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 42,
+    "lang": "Python",
+    "topics": [
+     "ai",
+     "attack-surface-management",
+     "bbot",
+     "cybersecurity",
+     "mcp",
+     "nmap",
+     "nuclei",
+     "vulnerability-scanner"
+    ],
+    "repo_id": 1432649361
+   },
+   "why_at_peak": "257 stars since launch 1 days ago \u2248 174 stars/day since launch.",
+   "metric_at_peak": 257,
+   "metric_name": "stars"
+  },
+  "hf-warmbloodaban-minimax-h3-singularity": {
+   "id": "hfmodel:WarmBloodAban/Minimax-h3_Singularity",
+   "slug": "hf-warmbloodaban-minimax-h3-singularity",
+   "name": "WarmBloodAban/Minimax-h3_Singularity",
+   "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T10:01:11.234538+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "what": "image-to-video model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 783234,
+    "trending": 126,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 126 on Hugging Face; 915 likes, 783.2K downloads.",
+   "metric_at_peak": 915,
+   "metric_name": "likes"
+  },
+  "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
+   "id": "hfmodel:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "slug": "hf-deepseek-ai-deepseek-v4-1-flash-1017",
+   "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T10:01:11.234538+00:00",
+   "peak_score": 86.2,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 95889,
+    "trending": 1114,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+211 likes/day pace right now (3.1K total).",
+   "metric_at_peak": 3066,
    "metric_name": "likes"
   }
  }

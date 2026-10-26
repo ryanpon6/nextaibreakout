@@ -1,0 +1,44 @@
+{
+ "id": "gh:hevnsnt/CVEngine",
+ "slug": "gh-hevnsnt-cvengine",
+ "first_seen": "2026-10-26T10:01:11.234538+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 257,
+   "t": "2026-10-26T10:01:11.234538+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "hevnsnt/CVEngine",
+ "url": "https://github.com/hevnsnt/CVEngine",
+ "source": "github",
+ "kind": "tool",
+ "desc": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+ "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-24T22:34:43Z",
+ "last_seen": "2026-10-26T10:01:11.234538+00:00",
+ "last_why": "257 stars since launch 1 days ago \u2248 174 stars/day since launch.",
+ "extra": {
+  "forks": 42,
+  "lang": "Python",
+  "topics": [
+   "ai",
+   "attack-surface-management",
+   "bbot",
+   "cybersecurity",
+   "mcp",
+   "nmap",
+   "nuclei",
+   "vulnerability-scanner"
+  ],
+  "repo_id": 1432649361
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

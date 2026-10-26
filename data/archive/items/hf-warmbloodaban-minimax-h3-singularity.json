@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:WarmBloodAban/Minimax-h3_Singularity",
+ "slug": "hf-warmbloodaban-minimax-h3-singularity",
+ "first_seen": "2026-10-26T10:01:11.234538+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 915,
+   "t": "2026-10-26T10:01:11.234538+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 5,
+ "name": "WarmBloodAban/Minimax-h3_Singularity",
+ "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-video",
+ "what": "image-to-video model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-05T18:51:01.000Z",
+ "last_seen": "2026-10-26T10:01:11.234538+00:00",
+ "last_why": "Trending score 126 on Hugging Face; 915 likes, 783.2K downloads.",
+ "extra": {
+  "downloads": 783234,
+  "trending": 126,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}
