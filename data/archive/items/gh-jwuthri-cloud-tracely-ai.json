@@ -8,10 +8,16 @@
    "score": 92.5,
    "metric": 929,
    "t": "2026-10-18T00:15:00.200029+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 93.0,
+   "metric": 1190,
+   "t": "2026-10-26T20:01:08.761879+00:00"
   }
  ],
- "peak_score": 92.5,
- "best_rank": 9,
+ "peak_score": 93.0,
+ "best_rank": 5,
  "name": "jwuthri-cloud/Tracely-ai",
  "url": "https://github.com/jwuthri-cloud/Tracely-ai",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-11T15:38:03Z",
- "last_seen": "2026-10-18T00:15:00.200029+00:00",
- "last_why": "929 stars since launch 6 days ago \u2248 146 stars/day since launch.",
+ "last_seen": "2026-10-26T20:01:08.761879+00:00",
+ "last_why": "+137 stars/day pace right now (1.2K total).",
  "extra": {
-  "forks": 139,
+  "forks": 141,
   "lang": "Python",
   "topics": [
    "agent-evaluation",
@@ -46,6 +52,7 @@
   "repo_id": 1414493071
  },
  "days": [
-  "2026-10-18"
+  "2026-10-18",
+  "2026-10-26"
  ]
 }

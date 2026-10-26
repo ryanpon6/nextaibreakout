@@ -18,7 +18,8 @@
   "2026-10-26T15:31:08.991653+00:00",
   "2026-10-26T16:46:14.229807+00:00",
   "2026-10-26T18:01:29.393436+00:00",
-  "2026-10-26T18:57:51.104002+00:00"
+  "2026-10-26T18:57:51.104002+00:00",
+  "2026-10-26T20:01:08.761879+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -31,13 +32,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 567,
+    "trending": 573,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -979,22 +980,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-26T08:46:07.674411+00:00",
-   "peak_score": 86.3,
-   "best_rank": 9,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T16:46:14.229807+00:00",
+   "peak_score": 86.5,
+   "best_rank": 7,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 700652,
-    "trending": 463,
+    "trending": 450,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+176 likes/day pace right now (1.6K total).",
-   "metric_at_peak": 1632,
+   "why_at_peak": "+137 likes/day pace right now (1.7K total).",
+   "metric_at_peak": 1683,
    "metric_name": "likes"
   },
   "gh-hevnsnt-cvengine": {
@@ -1007,12 +1008,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 54,
+    "forks": 55,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1026,8 +1027,8 @@
     ],
     "repo_id": 1432649361
    },
-   "why_at_peak": "+346 stars/day pace right now (293 total).",
-   "metric_at_peak": 293,
+   "why_at_peak": "+159 stars/day pace right now (363 total).",
+   "metric_at_peak": 363,
    "metric_name": "stars"
   },
   "hf-warmbloodaban-minimax-h3-singularity": {
@@ -1183,8 +1184,8 @@
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -1266,12 +1267,12 @@
    "first_seen": "2026-10-26T15:31:08.991653+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 130,
+    "comments": 151,
     "hn": "https://news.ycombinator.com/item?id=50242843"
    },
    "why_at_peak": "+825 points/day pace right now (98 total).",
@@ -1314,12 +1315,12 @@
    "first_seen": "2026-10-26T18:01:29.393436+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 42,
+    "comments": 60,
     "hn": "https://news.ycombinator.com/item?id=50246658"
    },
    "why_at_peak": "54 points in 1h on Hacker News (12 comments).",
@@ -1381,17 +1382,83 @@
    "first_seen": "2026-10-26T18:57:51.104002+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 66,
+    "comments": 142,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
    "why_at_peak": "141 points in 1h on Hacker News (66 comments).",
    "metric_at_peak": 141,
    "metric_name": "points"
+  },
+  "gh-jwuthri-cloud-tracely-ai": {
+   "id": "gh:jwuthri-cloud/Tracely-ai",
+   "slug": "gh-jwuthri-cloud-tracely-ai",
+   "name": "jwuthri-cloud/Tracely-ai",
+   "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-26T20:01:08.761879+00:00",
+   "peak_score": 93.0,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "what": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 141,
+    "lang": "Python",
+    "topics": [
+     "agent-evaluation",
+     "ai-agents",
+     "ai-testing",
+     "ci-cd",
+     "clickhouse",
+     "developer-tools",
+     "llm-evaluation",
+     "llm-observability",
+     "llmops",
+     "mcp",
+     "observability",
+     "python",
+     "regression-testing",
+     "self-hosted",
+     "tracing"
+    ],
+    "repo_id": 1414493071
+   },
+   "why_at_peak": "+137 stars/day pace right now (1.2K total).",
+   "metric_at_peak": 1190,
+   "metric_name": "stars"
+  },
+  "hf-linoyts-ltx2-19b-distilled-faceswap-v3": {
+   "id": "hfmodel:linoyts/ltx2-19b-distilled-faceswap-v3",
+   "slug": "hf-linoyts-ltx2-19b-distilled-faceswap-v3",
+   "name": "linoyts/ltx2-19b-distilled-faceswap-v3",
+   "url": "https://huggingface.co/linoyts/ltx2-19b-distilled-faceswap-v3",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T20:01:08.761879+00:00",
+   "peak_score": 85.6,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 99,
+    "trending": 141,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+46 likes/day pace right now (142 total).",
+   "metric_at_peak": 142,
+   "metric_name": "likes"
   }
  }
 }
