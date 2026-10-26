@@ -14,7 +14,8 @@
   "2026-10-26T11:16:05.035052+00:00",
   "2026-10-26T12:31:05.805384+00:00",
   "2026-10-26T13:03:45.832440+00:00",
-  "2026-10-26T14:16:09.850342+00:00"
+  "2026-10-26T14:16:09.850342+00:00",
+  "2026-10-26T15:31:08.991653+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -27,13 +28,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-26T14:16:09.850342+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 532,
+    "trending": 540,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -352,12 +353,12 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 52,
+    "forks": 57,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -619,13 +620,13 @@
    "first_seen": "2026-10-26T04:46:07.964162+00:00",
    "peak_score": 95.5,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T04:46:07.964162+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 17599,
-    "trending": 130,
+    "downloads": 35608,
+    "trending": 146,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -755,12 +756,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-26T14:16:09.850342+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 70,
+    "comments": 73,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -1003,12 +1004,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-26T14:16:09.850342+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 51,
+    "forks": 52,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1036,8 +1037,8 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
@@ -1129,18 +1130,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-26T11:16:05.035052+00:00",
-   "peak_score": 92.1,
-   "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T13:03:45.832440+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 26,
+    "comments": 31,
     "hn": "https://news.ycombinator.com/item?id=50234699"
    },
-   "why_at_peak": "+77 points/day pace right now (55 total).",
-   "metric_at_peak": 55,
+   "why_at_peak": "+115 points/day pace right now (71 total).",
+   "metric_at_peak": 71,
    "metric_name": "points"
   },
   "hf-xhtoken-spark-x2-6-4b-gguf": {
@@ -1179,12 +1180,12 @@
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T14:16:09.850342+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
-    "forks": 4,
+    "forks": 5,
     "lang": "TypeScript",
     "topics": [
      "gamedev",
@@ -1196,8 +1197,8 @@
     ],
     "repo_id": 1432826819
    },
-   "why_at_peak": "+139 stars/day pace right now (60 total).",
-   "metric_at_peak": 60,
+   "why_at_peak": "+115 stars/day pace right now (66 total).",
+   "metric_at_peak": 66,
    "metric_name": "stars"
   },
   "hf-memtensor-memt-1-0-nano": {
@@ -1251,6 +1252,28 @@
    "why_at_peak": "+99 likes/day pace right now (388 total).",
    "metric_at_peak": 388,
    "metric_name": "likes"
+  },
+  "hn-50242843-brown-student-maps-the-hidden-global-labor-powerin": {
+   "id": "hn:50242843",
+   "slug": "hn-50242843-brown-student-maps-the-hidden-global-labor-powerin",
+   "name": "Brown student maps the hidden global labor powering AI",
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T15:31:08.991653+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 42,
+    "hn": "https://news.ycombinator.com/item?id=50242843"
+   },
+   "why_at_peak": "55 points in 3h on Hacker News (42 comments).",
+   "metric_at_peak": 55,
+   "metric_name": "points"
   }
  }
 }

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50242843",
+ "slug": "hn-50242843-brown-student-maps-the-hidden-global-labor-powerin",
+ "first_seen": "2026-10-26T15:31:08.991653+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 55,
+   "t": "2026-10-26T15:31:08.991653+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Brown student maps the hidden global labor powering AI",
+ "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-26T12:58:27Z",
+ "last_seen": "2026-10-26T15:31:08.991653+00:00",
+ "last_why": "55 points in 3h on Hacker News (42 comments).",
+ "extra": {
+  "comments": 42,
+  "hn": "https://news.ycombinator.com/item?id=50242843"
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}

@@ -14,10 +14,16 @@
    "score": 86.3,
    "metric": 61,
    "t": "2026-10-26T13:03:45.832440+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.8,
+   "metric": 71,
+   "t": "2026-10-26T15:31:08.991653+00:00"
   }
  ],
- "peak_score": 92.1,
- "best_rank": 8,
+ "peak_score": 93.8,
+ "best_rank": 7,
  "name": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
  "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
  "source": "hackernews",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-25T18:42:23Z",
- "last_seen": "2026-10-26T13:03:45.832440+00:00",
- "last_why": "+80 points/day pace right now (61 total).",
+ "last_seen": "2026-10-26T15:31:08.991653+00:00",
+ "last_why": "+115 points/day pace right now (71 total).",
  "extra": {
-  "comments": 26,
+  "comments": 31,
   "hn": "https://news.ycombinator.com/item?id=50234699"
  },
  "days": [
