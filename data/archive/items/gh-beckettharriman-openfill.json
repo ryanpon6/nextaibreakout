@@ -8,6 +8,12 @@
    "score": 92.9,
    "metric": 51,
    "t": "2026-10-26T01:08:56.993521+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 92.9,
+   "metric": 83,
+   "t": "2026-10-26T08:46:07.674411+00:00"
   }
  ],
  "peak_score": 92.9,
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-14T20:51:20Z",
- "last_seen": "2026-10-26T01:08:56.993521+00:00",
- "last_why": "+109 stars/day pace right now (51 total).",
+ "last_seen": "2026-10-26T08:46:07.674411+00:00",
+ "last_why": "+128 stars/day pace right now (83 total).",
  "extra": {
-  "forks": 4,
+  "forks": 7,
   "lang": "Python",
   "topics": [
    "comfyui",
