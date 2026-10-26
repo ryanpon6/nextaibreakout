@@ -15,7 +15,8 @@
   "2026-10-26T12:31:05.805384+00:00",
   "2026-10-26T13:03:45.832440+00:00",
   "2026-10-26T14:16:09.850342+00:00",
-  "2026-10-26T15:31:08.991653+00:00"
+  "2026-10-26T15:31:08.991653+00:00",
+  "2026-10-26T16:46:14.229807+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -28,13 +29,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 540,
+    "trending": 552,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -756,12 +757,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 73,
+    "comments": 76,
     "hn": "https://news.ycombinator.com/item?id=50238739",
     "repo_created": "2026-09-28T08:04:29Z",
     "repo": "KrushnaVardhanReddy/PaperPilot"
@@ -816,14 +817,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
-   "peak_score": 93.8,
+   "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T10:01:11.234538+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
    "tag": "dev tools",
    "extra": {
-    "forks": 26,
+    "forks": 30,
     "lang": null,
     "topics": [
      "ai",
@@ -839,8 +840,8 @@
     ],
     "repo_id": 1394679834
    },
-   "why_at_peak": "+403 stars/day pace right now (396 total).",
-   "metric_at_peak": 396,
+   "why_at_peak": "+192 stars/day pace right now (416 total).",
+   "metric_at_peak": 416,
    "metric_name": "stars"
   },
   "hn-50239027-cognitive-mercantilism-ai-panic-resembles-fears-o": {
@@ -978,13 +979,13 @@
    "first_seen": "2026-10-26T08:46:07.674411+00:00",
    "peak_score": 86.3,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T08:46:07.674411+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 660874,
-    "trending": 496,
+    "downloads": 700652,
+    "trending": 463,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1004,12 +1005,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 52,
+    "forks": 53,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1132,12 +1133,12 @@
    "first_seen": "2026-10-26T11:16:05.035052+00:00",
    "peak_score": 93.8,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 31,
+    "comments": 35,
     "hn": "https://news.ycombinator.com/item?id=50234699"
    },
    "why_at_peak": "+115 points/day pace right now (71 total).",
@@ -1180,8 +1181,8 @@
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -1197,8 +1198,8 @@
     ],
     "repo_id": 1432826819
    },
-   "why_at_peak": "+115 stars/day pace right now (66 total).",
-   "metric_at_peak": 66,
+   "why_at_peak": "+153 stars/day pace right now (74 total).",
+   "metric_at_peak": 74,
    "metric_name": "stars"
   },
   "hf-memtensor-memt-1-0-nano": {
@@ -1263,17 +1264,43 @@
    "first_seen": "2026-10-26T15:31:08.991653+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 42,
+    "comments": 81,
     "hn": "https://news.ycombinator.com/item?id=50242843"
    },
-   "why_at_peak": "55 points in 3h on Hacker News (42 comments).",
-   "metric_at_peak": 55,
+   "why_at_peak": "+825 points/day pace right now (98 total).",
+   "metric_at_peak": 98,
    "metric_name": "points"
+  },
+  "hf-minimaxai-minimax-m3-1-flash": {
+   "id": "hfmodel:MiniMaxAI/MiniMax-M3.1-Flash",
+   "slug": "hf-minimaxai-minimax-m3-1-flash",
+   "name": "MiniMaxAI/MiniMax-M3.1-Flash",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T16:46:14.229807+00:00",
+   "peak_score": 90.4,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T16:46:14.229807+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 8782,
+    "trending": 365,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+77 likes/day pace right now (378 total).",
+   "metric_at_peak": 378,
+   "metric_name": "likes"
   }
  }
 }

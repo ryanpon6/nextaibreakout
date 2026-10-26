@@ -134,6 +134,12 @@
    "score": 96.4,
    "metric": 542,
    "t": "2026-10-26T15:31:08.991653+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 556,
+   "t": "2026-10-26T16:46:14.229807+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -147,11 +153,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-24T02:49:18.000Z",
- "last_seen": "2026-10-26T15:31:08.991653+00:00",
- "last_why": "+154 likes/day pace right now (542 total).",
+ "last_seen": "2026-10-26T16:46:14.229807+00:00",
+ "last_why": "+268 likes/day pace right now (556 total).",
  "extra": {
   "downloads": 2787,
-  "trending": 540,
+  "trending": 552,
   "hf_type": "model",
   "title": null,
   "summary": null,
