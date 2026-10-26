@@ -68,6 +68,12 @@
    "score": 95.5,
    "metric": 429,
    "t": "2026-10-26T03:31:10.258703+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 92.9,
+   "metric": 437,
+   "t": "2026-10-26T04:46:07.964162+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -81,10 +87,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-09T08:28:38Z",
- "last_seen": "2026-10-26T03:31:10.258703+00:00",
- "last_why": "+384 stars/day pace right now (429 total).",
+ "last_seen": "2026-10-26T04:46:07.964162+00:00",
+ "last_why": "+154 stars/day pace right now (437 total).",
  "extra": {
-  "forks": 42,
+  "forks": 46,
   "lang": "Rust",
   "topics": [
    "agent-framework",

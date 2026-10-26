@@ -32,6 +32,12 @@
    "score": 93.8,
    "metric": 370,
    "t": "2026-10-25T22:16:09.236212+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 93.8,
+   "metric": 388,
+   "t": "2026-10-26T04:46:07.964162+00:00"
   }
  ],
  "peak_score": 96.5,
@@ -45,10 +51,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-15T13:13:58Z",
- "last_seen": "2026-10-25T22:16:09.236212+00:00",
- "last_why": "+96 stars/day pace right now (370 total).",
+ "last_seen": "2026-10-26T04:46:07.964162+00:00",
+ "last_why": "+231 stars/day pace right now (388 total).",
  "extra": {
-  "forks": 29,
+  "forks": 33,
   "lang": "HTML",
   "topics": [
    "ai-coding",
@@ -74,6 +80,7 @@
  },
  "days": [
   "2026-10-24",
-  "2026-10-25"
+  "2026-10-25",
+  "2026-10-26"
  ]
 }
