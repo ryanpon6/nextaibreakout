@@ -20,7 +20,8 @@
   "2026-10-26T18:01:29.393436+00:00",
   "2026-10-26T18:57:51.104002+00:00",
   "2026-10-26T20:01:08.761879+00:00",
-  "2026-10-26T21:16:09.902748+00:00"
+  "2026-10-26T21:16:09.902748+00:00",
+  "2026-10-26T22:31:13.116621+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -33,13 +34,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 19,
-   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "runs_in_top10": 20,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 579,
+    "trending": 584,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -823,12 +824,12 @@
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 94.6,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
    "tag": "dev tools",
    "extra": {
-    "forks": 31,
+    "forks": 32,
     "lang": null,
     "topics": [
      "ai",
@@ -878,22 +879,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-26T07:16:05.010753+00:00",
-   "peak_score": 87.1,
+   "peak_score": 89.8,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T18:57:51.104002+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8470,
-    "trending": 869,
+    "trending": 878,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+134 likes/day pace right now (874 total).",
-   "metric_at_peak": 874,
+   "why_at_peak": "+134 likes/day pace right now (918 total).",
+   "metric_at_peak": 918,
    "metric_name": "likes"
   },
   "hn-50227041-show-hn-adrs-for-ai-deliberation-records-for-hu": {
@@ -1009,8 +1010,8 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
@@ -1185,8 +1186,8 @@
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -1316,12 +1317,12 @@
    "first_seen": "2026-10-26T18:01:29.393436+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 76,
+    "comments": 92,
     "hn": "https://news.ycombinator.com/item?id=50246658"
    },
    "why_at_peak": "54 points in 1h on Hacker News (12 comments).",
@@ -1383,12 +1384,12 @@
    "first_seen": "2026-10-26T18:57:51.104002+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 218,
+    "comments": 270,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
    "why_at_peak": "141 points in 1h on Hacker News (66 comments).",
@@ -1482,6 +1483,56 @@
    "why_at_peak": "+134 points/day pace right now (51 total).",
    "metric_at_peak": 51,
    "metric_name": "points"
+  },
+  "hn-50246238-show-hn-hob-open-source-on-device-alternative": {
+   "id": "hn:50246238",
+   "slug": "hn-50246238-show-hn-hob-open-source-on-device-alternative",
+   "name": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+   "url": "https://github.com/FrigadeHQ/hob",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T22:31:13.116621+00:00",
+   "peak_score": 97.3,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 17,
+    "hn": "https://news.ycombinator.com/item?id=50246238",
+    "repo_created": "2026-10-14T22:11:20Z",
+    "repo": "FrigadeHQ/hob"
+   },
+   "why_at_peak": "+748 points/day pace right now (71 total).",
+   "metric_at_peak": 71,
+   "metric_name": "points"
+  },
+  "hf-inclusionai-ming-3-0-tts-0-5b": {
+   "id": "hfmodel:inclusionAI/Ming-3.0-tts-0.5B",
+   "slug": "hf-inclusionai-ming-3-0-tts-0-5b",
+   "name": "inclusionAI/Ming-3.0-tts-0.5B",
+   "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-26T22:31:13.116621+00:00",
+   "peak_score": 89.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T22:31:13.116621+00:00",
+   "what": "text-to-speech model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 4598,
+    "trending": 131,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+58 likes/day pace right now (146 total).",
+   "metric_at_peak": 146,
+   "metric_name": "likes"
   }
  }
 }

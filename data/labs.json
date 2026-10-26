@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:16:58.656539+00:00",
+ "generated": "2026-10-26T22:31:56.459345+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,10 +129,21 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-26T21:16:58.656539+00:00"
+   "fetched": "2026-10-26T22:31:56.459345+00:00"
   },
   "tesla-ai": {
    "items": [
+    {
+     "title": "Latvia Becomes 10th EU Country to Approve Tesla FSD",
+     "url": "https://www.notateslaapp.com/news/4902/latvia-becomes-10th-eu-country-to-approve-tesla-fsd",
+     "date": "2026-10-26T21:42:00+00:00",
+     "day": "2026-10-26",
+     "summary": "Tesla Europe says FSD is approved in Latvia with a rollout coming soon, making it the 10th EU country and 18th market worldwide to approve it. Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
     {
      "title": "Intel to Make Mystery Chip for Tesla: AI6 or Something New?",
      "url": "https://www.notateslaapp.com/news/4887/intel-to-make-mystery-chip-for-tesla-ai6-or-something-new",
@@ -231,17 +242,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Tesla FSD Hits Record Subs, Purchased With 75% of New Orders",
-     "url": "https://www.notateslaapp.com/news/4862/tesla-fsd-hits-record-subs-purchased-with-75-of-new-orders",
-     "date": "2026-10-21T21:30:00+00:00",
-     "day": "2026-10-21",
-     "summary": "Tesla\u2019s Q3 2026 report shows FSD is bundled with 75% of new North American deliveries and active subscriptions have hit 1.74 million, up 67% year over year and Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-26T21:16:58.656539+00:00"
+   "fetched": "2026-10-26T22:31:56.459345+00:00"
   },
   "openai": {
    "items": [
@@ -278,6 +278,19 @@
      "date": "2026-10-26T10:00:00+00:00",
      "day": "2026-10-26",
      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+     "categories": [
+      "Research"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
+    {
+     "title": "Working with academic communities to build scientific understanding",
+     "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+     "date": "2026-10-26T00:00:00+00:00",
+     "day": "2026-10-26",
+     "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics\u2014and how researchers can verify and build on them.",
      "categories": [
       "Research"
      ],
@@ -385,19 +398,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Bringing GPT-Rosalind to academic research labs",
-     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-     "date": "2026-10-15T19:00:00+00:00",
-     "day": "2026-10-15",
-     "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-     "categories": [
-      "Research"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -407,7 +407,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1322
+     "raw": 1324
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -418,15 +418,15 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-26T21:16:58.656539+00:00"
+   "fetched": "2026-10-26T22:31:56.459345+00:00"
   },
   "anthropic": {
    "items": [
     {
-     "title": "Claude Code v2.1.310",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-     "date": "2026-10-23T23:39:00+00:00",
-     "day": "2026-10-23",
+     "title": "Claude Code v2.1.311",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+     "date": "2026-10-26T21:51:23+00:00",
+     "day": "2026-10-26",
      "summary": "",
      "source": "GitHub: anthropics/claude-code releases",
      "unofficial": false,
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-26T21:16:58.656539+00:00"
+   "fetched": "2026-10-26T22:31:56.459345+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -661,9 +661,9 @@
      "name": "Google DeepMind Blog RSS",
      "url": "https://deepmind.google/blog/rss.xml",
      "status": "provisional",
-     "ok": false,
-     "error": "ValueError: feed returned 0 items",
-     "stale_kept": 10
+     "ok": true,
+     "count": 10,
+     "raw": 100
     },
     {
      "name": "Google AI Blog RSS",
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-26T21:16:58.656539+00:00"
+   "fetched": "2026-10-26T22:31:56.459345+00:00"
   },
   "meta": {
    "items": [
@@ -798,7 +798,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-26T21:16:58.656539+00:00"
+   "fetched": "2026-10-26T22:31:56.459345+00:00"
   }
  }
 }
