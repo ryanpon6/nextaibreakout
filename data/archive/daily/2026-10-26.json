@@ -19,7 +19,8 @@
   "2026-10-26T16:46:14.229807+00:00",
   "2026-10-26T18:01:29.393436+00:00",
   "2026-10-26T18:57:51.104002+00:00",
-  "2026-10-26T20:01:08.761879+00:00"
+  "2026-10-26T20:01:08.761879+00:00",
+  "2026-10-26T21:16:09.902748+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -32,13 +33,13 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 18,
-   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2787,
-    "trending": 573,
+    "trending": 579,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -534,13 +535,13 @@
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
    "peak_score": 95.5,
    "best_rank": 4,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-26T14:16:09.850342+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 529,
+    "trending": 547,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -624,13 +625,13 @@
    "first_seen": "2026-10-26T04:46:07.964162+00:00",
    "peak_score": 95.5,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T15:31:08.991653+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 35608,
-    "trending": 146,
+    "trending": 151,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -821,13 +822,13 @@
    "kind": "tool",
    "first_seen": "2026-10-26T06:01:07.980702+00:00",
    "peak_score": 94.6,
-   "best_rank": 6,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-26T16:46:14.229807+00:00",
+   "best_rank": 4,
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
    "tag": "dev tools",
    "extra": {
-    "forks": 30,
+    "forks": 31,
     "lang": null,
     "topics": [
      "ai",
@@ -1008,12 +1009,12 @@
    "first_seen": "2026-10-26T10:01:11.234538+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 55,
+    "forks": 56,
     "lang": "Python",
     "topics": [
      "ai",
@@ -1184,8 +1185,8 @@
    "first_seen": "2026-10-26T12:31:05.805384+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -1315,12 +1316,12 @@
    "first_seen": "2026-10-26T18:01:29.393436+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 60,
+    "comments": 76,
     "hn": "https://news.ycombinator.com/item?id=50246658"
    },
    "why_at_peak": "54 points in 1h on Hacker News (12 comments).",
@@ -1382,12 +1383,12 @@
    "first_seen": "2026-10-26T18:57:51.104002+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T20:01:08.761879+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 142,
+    "comments": 218,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
    "why_at_peak": "141 points in 1h on Hacker News (66 comments).",
@@ -1459,6 +1460,28 @@
    "why_at_peak": "+46 likes/day pace right now (142 total).",
    "metric_at_peak": 142,
    "metric_name": "likes"
+  },
+  "hn-50247453-the-git-forge-for-agent-human-collaboration": {
+   "id": "hn:50247453",
+   "slug": "hn-50247453-the-git-forge-for-agent-human-collaboration",
+   "name": "The Git Forge for Agent-Human Collaboration",
+   "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-26T21:16:09.902748+00:00",
+   "peak_score": 81.1,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T21:16:09.902748+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 33,
+    "hn": "https://news.ycombinator.com/item?id=50247453"
+   },
+   "why_at_peak": "+134 points/day pace right now (51 total).",
+   "metric_at_peak": 51,
+   "metric_name": "points"
   }
  }
 }

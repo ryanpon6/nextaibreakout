@@ -1,0 +1,33 @@
+{
+ "id": "hn:50247453",
+ "slug": "hn-50247453-the-git-forge-for-agent-human-collaboration",
+ "first_seen": "2026-10-26T21:16:09.902748+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 81.1,
+   "metric": 51,
+   "t": "2026-10-26T21:16:09.902748+00:00"
+  }
+ ],
+ "peak_score": 81.1,
+ "best_rank": 9,
+ "name": "The Git Forge for Agent-Human Collaboration",
+ "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-26T17:23:11Z",
+ "last_seen": "2026-10-26T21:16:09.902748+00:00",
+ "last_why": "+134 points/day pace right now (51 total).",
+ "extra": {
+  "comments": 33,
+  "hn": "https://news.ycombinator.com/item?id=50247453"
+ },
+ "days": [
+  "2026-10-26"
+ ]
+}
