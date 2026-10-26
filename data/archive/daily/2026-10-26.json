@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-26T00:16:07.853784+00:00",
   "2026-10-26T01:08:56.993521+00:00",
-  "2026-10-26T02:16:10.209265+00:00"
+  "2026-10-26T02:16:10.209265+00:00",
+  "2026-10-26T03:31:10.258703+00:00"
  ],
  "items": {
   "hf-nanbeige-nanbeige4-3-33b": {
@@ -16,20 +17,20 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 387,
+    "trending": 400,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+236 likes/day pace right now (387 total).",
-   "metric_at_peak": 387,
+   "why_at_peak": "+250 likes/day pace right now (400 total).",
+   "metric_at_peak": 400,
    "metric_name": "likes"
   },
   "hn-50233779-a-10-year-old-cnn-outperforms-frontier-llms-for-sk": {
@@ -42,16 +43,16 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 211,
+    "comments": 216,
     "hn": "https://news.ycombinator.com/item?id=50233779"
    },
-   "why_at_peak": "+621 points/day pace right now (446 total).",
-   "metric_at_peak": 446,
+   "why_at_peak": "+595 points/day pace right now (477 total).",
+   "metric_at_peak": 477,
    "metric_name": "points"
   },
   "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf": {
@@ -64,20 +65,20 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 412392,
-    "trending": 272,
+    "trending": 276,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+64 likes/day pace right now (284 total).",
-   "metric_at_peak": 284,
+   "why_at_peak": "+96 likes/day pace right now (289 total).",
+   "metric_at_peak": 289,
    "metric_name": "likes"
   },
   "gh-jddevtime-open-lakehouse-compute-fabric": {
@@ -267,8 +268,8 @@
    "first_seen": "2026-10-26T00:16:07.853784+00:00",
    "peak_score": 70.7,
    "best_rank": 9,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -297,12 +298,12 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T01:08:56.993521+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 281,
+    "comments": 299,
     "hn": "https://news.ycombinator.com/item?id=50233304"
    },
    "why_at_peak": "+409 points/day pace right now (199 total).",
@@ -339,14 +340,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
-   "peak_score": 94.6,
-   "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "peak_score": 95.5,
+   "best_rank": 4,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 41,
+    "forks": 42,
     "lang": "Rust",
     "topics": [
      "agent-framework",
@@ -365,8 +366,8 @@
     ],
     "repo_id": 1411523628
    },
-   "why_at_peak": "+327 stars/day pace right now (402 total).",
-   "metric_at_peak": 402,
+   "why_at_peak": "+384 stars/day pace right now (429 total).",
+   "metric_at_peak": 429,
    "metric_name": "stars"
   },
   "gh-lingcore-winshun": {
@@ -379,8 +380,8 @@
    "first_seen": "2026-10-26T01:08:56.993521+00:00",
    "peak_score": 93.8,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "Win\u987a\uff1a\u514d\u8d39\u5f00\u6e90\u7684 Windows \u5feb\u901f\u641c\u7d22\u542f\u52a8\u5668\u3002\u53cc\u51fb Ctrl\uff0c\u62fc\u97f3\u79d2\u641c\u6587\u4ef6\u3001\u5168\u6587\u641c\u7d22 Word/Excel/PDF\u3001\u526a\u8d34\u677f\u5386\u53f2\uff08\u4ee3\u66ff Win+V\uff09\u3001\u5bf9\u8bdd\u6846\u641c\u7d22\u3001\u4efb\u52a1\u680f\u641c\u7d22\u3001\u63d2\u4ef6\u3001AI \u52a9\u624b MCP\u3002Free Windows search launcher: pinyin\u2026",
    "tag": "agents",
    "extra": {
@@ -408,8 +409,8 @@
     ],
     "repo_id": 1409660690
    },
-   "why_at_peak": "+278 stars/day pace right now (573 total).",
-   "metric_at_peak": 573,
+   "why_at_peak": "+326 stars/day pace right now (590 total).",
+   "metric_at_peak": 590,
    "metric_name": "stars"
   },
   "gh-beckettharriman-openfill": {
@@ -518,13 +519,13 @@
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
    "peak_score": 94.6,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3488,
-    "trending": 461,
+    "trending": 465,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -542,19 +543,61 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-26T02:16:10.209265+00:00",
-   "peak_score": 65.7,
-   "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-26T02:16:10.209265+00:00",
+   "peak_score": 84.6,
+   "best_rank": 9,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 74,
+    "comments": 75,
     "hn": "https://news.ycombinator.com/item?id=50229827"
    },
-   "why_at_peak": "+43 points/day pace right now (133 total).",
-   "metric_at_peak": 133,
+   "why_at_peak": "+58 points/day pace right now (136 total).",
+   "metric_at_peak": 136,
    "metric_name": "points"
+  },
+  "gh-reacher-z-awesome-rea": {
+   "id": "gh:reacher-z/Awesome-REA",
+   "slug": "gh-reacher-z-awesome-rea",
+   "name": "reacher-z/Awesome-REA",
+   "url": "https://github.com/reacher-z/Awesome-REA",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-26T03:31:10.258703+00:00",
+   "peak_score": 91.2,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-26T03:31:10.258703+00:00",
+   "what": "Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websites, games, apps, binaries, firmware and\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 144,
+    "lang": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "android-reverse-engineering",
+     "awesome-list",
+     "binary-analysis",
+     "decompilation",
+     "firmware-analysis",
+     "game-reversing",
+     "ghidra",
+     "ios-reverse-engineering",
+     "javascript-deobfuscation",
+     "mcp",
+     "protocol-analysis",
+     "rea",
+     "research-papers",
+     "reverse-engineering",
+     "web-reverse-engineering"
+    ],
+    "repo_id": 1421473933
+   },
+   "why_at_peak": "+134 stars/day pace right now (403 total).",
+   "metric_at_peak": 403,
+   "metric_name": "stars"
   }
  }
 }
