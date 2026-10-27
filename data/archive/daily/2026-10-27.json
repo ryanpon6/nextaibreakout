@@ -8,7 +8,8 @@
   "2026-10-27T06:01:05.472553+00:00",
   "2026-10-27T07:07:22.882570+00:00",
   "2026-10-27T08:16:10.985217+00:00",
-  "2026-10-27T09:31:09.982785+00:00"
+  "2026-10-27T09:31:09.982785+00:00",
+  "2026-10-27T10:46:07.600341+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -21,8 +22,8 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -133,12 +134,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 356,
+    "comments": 377,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
    "why_at_peak": "+307 points/day pace right now (551 total).",
@@ -397,22 +398,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
-   "peak_score": 89.2,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "peak_score": 94.0,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 700652,
-    "trending": 441,
+    "downloads": 750694,
+    "trending": 420,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+154 likes/day pace right now (1.7K total).",
-   "metric_at_peak": 1706,
+   "why_at_peak": "+1.1K likes/day pace right now (1.8K total).",
+   "metric_at_peak": 1782,
    "metric_name": "likes"
   },
   "pypi-sglang": {
@@ -425,8 +426,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -616,12 +617,12 @@
    "first_seen": "2026-10-27T07:07:22.882570+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 76,
+    "comments": 81,
     "hn": "https://news.ycombinator.com/item?id=50254836"
    },
    "why_at_peak": "+739 points/day pace right now (61 total).",
@@ -638,12 +639,12 @@
    "first_seen": "2026-10-27T07:07:22.882570+00:00",
    "peak_score": 92.3,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "AI \u8de8\u5883\u7535\u5546\u8fd0\u8425\u667a\u80fd\u4f53\u5de5\u5177\u7bb1 \u00b7 \u628a\u8fd0\u8425 SOP \u62c6\u6210 7 \u4e2a\u53ef\u590d\u7528\u7684 AI Agent \u5de5\u4f5c\u6d41\uff0c\u542b Prompt\u3001\u6a21\u677f\u4e0e\u771f\u5b9e\u6848\u4f8b",
    "tag": "agents",
    "extra": {
-    "forks": 739,
+    "forks": 749,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -698,12 +699,12 @@
    "first_seen": "2026-10-27T08:16:10.985217+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 89,
+    "comments": 115,
     "hn": "https://news.ycombinator.com/item?id=50255298"
    },
    "why_at_peak": "49 points in 2h on Hacker News (35 comments).",
@@ -888,6 +889,101 @@
    "why_at_peak": "+77 likes/day pace right now (174 total).",
    "metric_at_peak": 174,
    "metric_name": "likes"
+  },
+  "hf-ccore-qwen3-5-4b-3d-coder": {
+   "id": "hfmodel:ccore/Qwen3.5-4B-3D-Coder",
+   "slug": "hf-ccore-qwen3-5-4b-3d-coder",
+   "name": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T10:46:07.600341+00:00",
+   "peak_score": 98.2,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 3544,
+    "trending": 128,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 128 on Hugging Face; 131 likes, 3.5K downloads.",
+   "metric_at_peak": 131,
+   "metric_name": "likes"
+  },
+  "hf-baidu-unlimited-ocr-2": {
+   "id": "hfmodel:baidu/Unlimited-OCR-2",
+   "slug": "hf-baidu-unlimited-ocr-2",
+   "name": "baidu/Unlimited-OCR-2",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T10:46:07.600341+00:00",
+   "peak_score": 97.3,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 513,
+    "trending": 127,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 127 on Hugging Face; 134 likes, 513 downloads.",
+   "metric_at_peak": 134,
+   "metric_name": "likes"
+  },
+  "gh-eliasbiondo-antirion": {
+   "id": "gh:eliasbiondo/antirion",
+   "slug": "gh-eliasbiondo-antirion",
+   "name": "eliasbiondo/antirion",
+   "url": "https://github.com/eliasbiondo/antirion",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T10:46:07.600341+00:00",
+   "peak_score": 93.2,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T10:46:07.600341+00:00",
+   "what": "The fastest open-source AI gateway \u2014 one Rust binary with a built-in console to route, secure, budget and observe every LLM call across\u2026",
+   "tag": "safety",
+   "extra": {
+    "forks": 7,
+    "lang": "Rust",
+    "topics": [
+     "a2a",
+     "ai-gateway",
+     "anthropic",
+     "api-gateway",
+     "bifrost-alternative",
+     "guardrails",
+     "litellm-alternative",
+     "llm",
+     "llm-gateway",
+     "llm-proxy",
+     "mcp",
+     "mcp-gateway",
+     "observability",
+     "openai",
+     "openai-proxy",
+     "rate-limiting",
+     "rust",
+     "self-hosted"
+    ],
+    "repo_id": 1423770820
+   },
+   "why_at_peak": "+96 stars/day pace right now (348 total).",
+   "metric_at_peak": 348,
+   "metric_name": "stars"
   }
  }
 }

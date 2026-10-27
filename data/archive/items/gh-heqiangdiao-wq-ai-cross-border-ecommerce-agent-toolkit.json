@@ -44,6 +44,12 @@
    "score": 92.3,
    "metric": 717,
    "t": "2026-10-27T07:07:22.882570+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 91.6,
+   "metric": 731,
+   "t": "2026-10-27T10:46:07.600341+00:00"
   }
  ],
  "peak_score": 94.9,
@@ -57,10 +63,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-13T10:13:21Z",
- "last_seen": "2026-10-27T07:07:22.882570+00:00",
- "last_why": "+109 stars/day pace right now (717 total).",
+ "last_seen": "2026-10-27T10:46:07.600341+00:00",
+ "last_why": "+96 stars/day pace right now (731 total).",
  "extra": {
-  "forks": 739,
+  "forks": 749,
   "lang": "Python",
   "topics": [
    "ai-agents",

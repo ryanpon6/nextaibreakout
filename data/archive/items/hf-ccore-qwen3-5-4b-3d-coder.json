@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:ccore/Qwen3.5-4B-3D-Coder",
+ "slug": "hf-ccore-qwen3-5-4b-3d-coder",
+ "first_seen": "2026-10-27T10:46:07.600341+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 131,
+   "t": "2026-10-27T10:46:07.600341+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 1,
+ "name": "ccore/Qwen3.5-4B-3D-Coder",
+ "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-25T05:43:34.000Z",
+ "last_seen": "2026-10-27T10:46:07.600341+00:00",
+ "last_why": "Trending score 128 on Hugging Face; 131 likes, 3.5K downloads.",
+ "extra": {
+  "downloads": 3544,
+  "trending": 128,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}

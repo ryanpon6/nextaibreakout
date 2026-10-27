@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:baidu/Unlimited-OCR-2",
+ "slug": "hf-baidu-unlimited-ocr-2",
+ "first_seen": "2026-10-27T10:46:07.600341+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.3,
+   "metric": 134,
+   "t": "2026-10-27T10:46:07.600341+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 2,
+ "name": "baidu/Unlimited-OCR-2",
+ "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-26T03:57:46.000Z",
+ "last_seen": "2026-10-27T10:46:07.600341+00:00",
+ "last_why": "Trending score 127 on Hugging Face; 134 likes, 513 downloads.",
+ "extra": {
+  "downloads": 513,
+  "trending": 127,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}
