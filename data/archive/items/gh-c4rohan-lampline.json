@@ -1,0 +1,50 @@
+{
+ "id": "gh:C4rohan/Lampline",
+ "slug": "gh-c4rohan-lampline",
+ "first_seen": "2026-10-27T02:16:11.642644+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.0,
+   "metric": 327,
+   "t": "2026-10-27T02:16:11.642644+00:00"
+  }
+ ],
+ "peak_score": 94.0,
+ "best_rank": 6,
+ "name": "C4rohan/Lampline",
+ "url": "https://github.com/C4rohan/Lampline",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+ "what": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-19T06:50:54Z",
+ "last_seen": "2026-10-27T02:16:11.642644+00:00",
+ "last_why": "327 stars since launch 8 days ago \u2248 42 stars/day since launch.",
+ "extra": {
+  "forks": 44,
+  "lang": "Python",
+  "topics": [
+   "agents-as-code",
+   "contact-center",
+   "conversational-ai",
+   "cx-agent-studio",
+   "dialogflow-cx",
+   "ivr",
+   "llm",
+   "pipecat",
+   "self-hosted",
+   "sip",
+   "speech-to-text",
+   "text-to-speech",
+   "voice-agents",
+   "voice-ai"
+  ],
+  "repo_id": 1425227613
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}
