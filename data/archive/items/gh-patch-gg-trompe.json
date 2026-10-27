@@ -68,12 +68,18 @@
    "score": 93.9,
    "metric": 96,
    "t": "2026-10-26T23:46:06.622543+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 98.1,
+   "metric": 104,
+   "t": "2026-10-27T01:01:09.611065+00:00"
   }
  ],
- "peak_score": 97.2,
- "best_rank": 3,
- "name": "Patch-gg/trompe",
- "url": "https://github.com/Patch-gg/trompe",
+ "peak_score": 98.1,
+ "best_rank": 1,
+ "name": "patch-gg/trompe",
+ "url": "https://github.com/patch-gg/trompe",
  "source": "github",
  "kind": "tool",
  "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
@@ -81,8 +87,8 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-25T04:27:06Z",
- "last_seen": "2026-10-26T23:46:06.622543+00:00",
- "last_why": "+19 stars/day pace right now (96 total).",
+ "last_seen": "2026-10-27T01:01:09.611065+00:00",
+ "last_why": "104 stars since launch 2 days ago \u2248 56 stars/day since launch.",
  "extra": {
   "forks": 5,
   "lang": "TypeScript",
@@ -97,6 +103,7 @@
   "repo_id": 1432826819
  },
  "days": [
-  "2026-10-26"
+  "2026-10-26",
+  "2026-10-27"
  ]
 }

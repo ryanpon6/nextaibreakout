@@ -1,0 +1,250 @@
+{
+ "day": "2026-10-27",
+ "runs": [
+  "2026-10-27T01:01:09.611065+00:00"
+ ],
+ "items": {
+  "gh-patch-gg-trompe": {
+   "id": "gh:patch-gg/trompe",
+   "slug": "gh-patch-gg-trompe",
+   "name": "patch-gg/trompe",
+   "url": "https://github.com/patch-gg/trompe",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 98.1,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+   "tag": "models",
+   "extra": {
+    "forks": 5,
+    "lang": "TypeScript",
+    "topics": [
+     "gamedev",
+     "generative-ai",
+     "procedural",
+     "texturing",
+     "threejs",
+     "webgl"
+    ],
+    "repo_id": 1432826819
+   },
+   "why_at_peak": "104 stars since launch 2 days ago \u2248 56 stars/day since launch.",
+   "metric_at_peak": 104,
+   "metric_name": "stars"
+  },
+  "hn-50252159-cross-request-kv-cache-exposure-in-the-glm-5-3-wor": {
+   "id": "hn:50252159",
+   "slug": "hn-50252159-cross-request-kv-cache-exposure-in-the-glm-5-3-wor",
+   "name": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 97.3,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 9,
+    "hn": "https://news.ycombinator.com/item?id=50252159"
+   },
+   "why_at_peak": "+480 points/day pace right now (54 total).",
+   "metric_at_peak": 54,
+   "metric_name": "points"
+  },
+  "gh-hevnsnt-cvengine": {
+   "id": "gh:hevnsnt/CVEngine",
+   "slug": "gh-hevnsnt-cvengine",
+   "name": "hevnsnt/CVEngine",
+   "url": "https://github.com/hevnsnt/CVEngine",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 96.5,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 57,
+    "lang": "Python",
+    "topics": [
+     "ai",
+     "attack-surface-management",
+     "bbot",
+     "cybersecurity",
+     "mcp",
+     "nmap",
+     "nuclei",
+     "vulnerability-scanner"
+    ],
+    "repo_id": 1432649361
+   },
+   "why_at_peak": "+115 stars/day pace right now (384 total).",
+   "metric_at_peak": 384,
+   "metric_name": "stars"
+  },
+  "hf-nanbeige-nanbeige4-3-33b": {
+   "id": "hfmodel:Nanbeige/Nanbeige4.3-33B",
+   "slug": "hf-nanbeige-nanbeige4-3-33b",
+   "name": "Nanbeige/Nanbeige4.3-33B",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 95.6,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2787,
+    "trending": 594,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+115 likes/day pace right now (600 total).",
+   "metric_at_peak": 600,
+   "metric_name": "likes"
+  },
+  "hn-50248124-gpt-6-1-terra": {
+   "id": "hn:50248124",
+   "slug": "hn-50248124-gpt-6-1-terra",
+   "name": "GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 94.8,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 309,
+    "hn": "https://news.ycombinator.com/item?id=50248124"
+   },
+   "why_at_peak": "+403 points/day pace right now (487 total).",
+   "metric_at_peak": 487,
+   "metric_name": "points"
+  },
+  "hn-50246238-show-hn-hob-open-source-on-device-alternative": {
+   "id": "hn:50246238",
+   "slug": "hn-50246238-show-hn-hob-open-source-on-device-alternative",
+   "name": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+   "url": "https://github.com/FrigadeHQ/hob",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 93.9,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 25,
+    "hn": "https://news.ycombinator.com/item?id=50246238",
+    "repo_created": "2026-10-14T22:11:20Z",
+    "repo": "FrigadeHQ/hob"
+   },
+   "why_at_peak": "+345 points/day pace right now (107 total).",
+   "metric_at_peak": 107,
+   "metric_name": "points"
+  },
+  "gh-orgoai-bops": {
+   "id": "gh:OrgoAI/bops",
+   "slug": "gh-orgoai-bops",
+   "name": "OrgoAI/bops",
+   "url": "https://github.com/OrgoAI/bops",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 92.3,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "Bops: a team of AI bots that run your business ops, each with its own computer, email and phone number. bops.bot",
+   "tag": "agents",
+   "extra": {
+    "forks": 87,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "business-automation",
+     "computer-use",
+     "electron",
+     "mac-app",
+     "nextjs",
+     "open-source"
+    ],
+    "repo_id": 1407464278
+   },
+   "why_at_peak": "340 stars since launch 20 days ago \u2248 17 stars/day since launch.",
+   "metric_at_peak": 340,
+   "metric_name": "stars"
+  },
+  "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf": {
+   "id": "hfmodel:ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "slug": "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-gguf",
+   "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 87.4,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 891147,
+    "trending": 325,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+77 likes/day pace right now (343 total).",
+   "metric_at_peak": 343,
+   "metric_name": "likes"
+  },
+  "hf-recursivesi-flint": {
+   "id": "hfmodel:RecursiveSI/flint",
+   "slug": "hf-recursivesi-flint",
+   "name": "RecursiveSI/flint",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 84.3,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 8470,
+    "trending": 884,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+96 likes/day pace right now (924 total).",
+   "metric_at_peak": 924,
+   "metric_name": "likes"
+  }
+ }
+}

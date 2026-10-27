@@ -80,6 +80,12 @@
    "score": 98.1,
    "metric": 378,
    "t": "2026-10-26T23:46:06.622543+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.5,
+   "metric": 384,
+   "t": "2026-10-27T01:01:09.611065+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -93,8 +99,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-24T22:34:43Z",
- "last_seen": "2026-10-26T23:46:06.622543+00:00",
- "last_why": "+115 stars/day pace right now (378 total).",
+ "last_seen": "2026-10-27T01:01:09.611065+00:00",
+ "last_why": "+115 stars/day pace right now (384 total).",
  "extra": {
   "forks": 57,
   "lang": "Python",
@@ -111,6 +117,7 @@
   "repo_id": 1432649361
  },
  "days": [
-  "2026-10-26"
+  "2026-10-26",
+  "2026-10-27"
  ]
 }
