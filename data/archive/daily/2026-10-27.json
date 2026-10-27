@@ -13,7 +13,8 @@
   "2026-10-27T12:01:07.277286+00:00",
   "2026-10-27T13:10:46.050090+00:00",
   "2026-10-27T14:16:08.954886+00:00",
-  "2026-10-27T15:31:10.062590+00:00"
+  "2026-10-27T15:31:10.062590+00:00",
+  "2026-10-27T16:46:14.579138+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -430,8 +431,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -725,13 +726,13 @@
    "first_seen": "2026-10-27T08:16:10.985217+00:00",
    "peak_score": 95.6,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 2691987,
-    "trending": 124,
+    "downloads": 2786304,
+    "trending": 123,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -904,13 +905,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3544,
-    "trending": 136,
+    "trending": 140,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -930,13 +931,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 178,
+    "trending": 185,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -999,12 +1000,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 372,
+    "comments": 500,
     "hn": "https://news.ycombinator.com/item?id=50257325"
    },
    "why_at_peak": "+3.9K points/day pace right now (265 total).",
@@ -1021,12 +1022,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 10,
+    "forks": 11,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1054,12 +1055,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 86,
+    "comments": 117,
     "hn": "https://news.ycombinator.com/item?id=50257326"
    },
    "why_at_peak": "+1.2K points/day pace right now (135 total).",
@@ -1244,8 +1245,8 @@
    "first_seen": "2026-10-27T15:31:10.062590+00:00",
    "peak_score": 93.2,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
    "what": "Connect your company's data, let an agent draft an ontology over it, and load it into HelixDB as one graph you can explore and ask\u2026",
    "tag": "agents",
    "extra": {
@@ -1292,6 +1293,66 @@
    "why_at_peak": "+77 likes/day pace right now (498 total).",
    "metric_at_peak": 498,
    "metric_name": "likes"
+  },
+  "hn-50260814-anthropic-trained-claude-on-illegally-obtained-sta": {
+   "id": "hn:50260814",
+   "slug": "hn-50260814-anthropic-trained-claude-on-illegally-obtained-sta",
+   "name": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T16:46:14.579138+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 25,
+    "hn": "https://news.ycombinator.com/item?id=50260814"
+   },
+   "why_at_peak": "55 points in 1h on Hacker News (25 comments).",
+   "metric_at_peak": 55,
+   "metric_name": "points"
+  },
+  "gh-aientech-dossier": {
+   "id": "gh:AienTech/dossier",
+   "slug": "gh-aientech-dossier",
+   "name": "AienTech/dossier",
+   "url": "https://github.com/AienTech/dossier",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T16:46:14.579138+00:00",
+   "peak_score": 92.5,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T16:46:14.579138+00:00",
+   "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 154,
+    "lang": "TypeScript",
+    "topics": [
+     "caprover",
+     "cover-letter",
+     "docker",
+     "job-application-tracker",
+     "job-search",
+     "llm",
+     "local-llm",
+     "nextjs",
+     "ollama",
+     "postgresql",
+     "resume",
+     "self-hosted",
+     "typescript"
+    ],
+    "repo_id": 1403649056
+   },
+   "why_at_peak": "+3.5K stars/day pace right now (760 total).",
+   "metric_at_peak": 760,
+   "metric_name": "stars"
   }
  }
 }
