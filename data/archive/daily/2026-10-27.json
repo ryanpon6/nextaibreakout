@@ -17,7 +17,8 @@
   "2026-10-27T16:46:14.579138+00:00",
   "2026-10-27T18:01:10.858745+00:00",
   "2026-10-27T19:16:09.768697+00:00",
-  "2026-10-27T20:31:07.718024+00:00"
+  "2026-10-27T20:31:07.718024+00:00",
+  "2026-10-27T21:46:08.637431+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -116,13 +117,13 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 2787,
-    "trending": 594,
+    "downloads": 4785,
+    "trending": 655,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -434,8 +435,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -934,13 +935,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 209,
+    "trending": 212,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1025,12 +1026,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 14,
+    "forks": 15,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1044,8 +1045,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+269 stars/day pace right now (161 total).",
-   "metric_at_peak": 161,
+   "why_at_peak": "+134 stars/day pace right now (168 total).",
+   "metric_at_peak": 168,
    "metric_name": "stars"
   },
   "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content": {
@@ -1307,12 +1308,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 158,
+    "comments": 192,
     "hn": "https://news.ycombinator.com/item?id=50260814"
    },
    "why_at_peak": "55 points in 1h on Hacker News (25 comments).",
@@ -1327,14 +1328,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
-   "peak_score": 93.4,
+   "peak_score": 93.5,
    "best_rank": 7,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 240,
+    "forks": 258,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -1353,8 +1354,8 @@
     ],
     "repo_id": 1403649056
    },
-   "why_at_peak": "+4.4K stars/day pace right now (988 total).",
-   "metric_at_peak": 988,
+   "why_at_peak": "+1.7K stars/day pace right now (1.4K total).",
+   "metric_at_peak": 1385,
    "metric_name": "stars"
   },
   "hn-50261819-police-are-using-ai-to-pull-over-drivers-for-susp": {
@@ -1387,18 +1388,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-27T19:16:09.768697+00:00",
-   "peak_score": 94.2,
-   "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "peak_score": 97.4,
+   "best_rank": 2,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 46,
+    "comments": 76,
     "hn": "https://news.ycombinator.com/item?id=50261589"
    },
-   "why_at_peak": "+1.2K points/day pace right now (106 total).",
-   "metric_at_peak": 106,
+   "why_at_peak": "+1.0K points/day pace right now (159 total).",
+   "metric_at_peak": 159,
    "metric_name": "points"
   },
   "hf-liconstudio-minimax-h3-vbvr": {
@@ -1426,6 +1427,97 @@
    "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 4.7K downloads.",
    "metric_at_peak": 125,
    "metric_name": "likes"
+  },
+  "hn-50264853-survival-llm-ai-assistant-and-emergency-library-t": {
+   "id": "hn:50264853",
+   "slug": "hn-50264853-survival-llm-ai-assistant-and-emergency-library-t",
+   "name": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+   "url": "https://www.brangus.io/survival-llm",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T21:46:08.637431+00:00",
+   "peak_score": 95.8,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 52,
+    "hn": "https://news.ycombinator.com/item?id=50264853"
+   },
+   "why_at_peak": "+883 points/day pace right now (76 total).",
+   "metric_at_peak": 76,
+   "metric_name": "points"
+  },
+  "hf-liquidai-lfm3-1-7b": {
+   "id": "hfmodel:LiquidAI/LFM3-1.7B",
+   "slug": "hf-liquidai-lfm3-1-7b",
+   "name": "LiquidAI/LFM3-1.7B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T21:46:08.637431+00:00",
+   "peak_score": 94.3,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 6311,
+    "trending": 126,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 126 on Hugging Face; 126 likes, 6.3K downloads.",
+   "metric_at_peak": 126,
+   "metric_name": "likes"
+  },
+  "gh-pullboard-dev-pullboard": {
+   "id": "gh:pullboard-dev/pullboard",
+   "slug": "gh-pullboard-dev-pullboard",
+   "name": "pullboard-dev/pullboard",
+   "url": "https://github.com/pullboard-dev/pullboard",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T21:46:08.637431+00:00",
+   "peak_score": 92.7,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "what": "Autonomous development for real products. Governed agents build from specs you approve, follow the rules you set, and nothing merges until\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 25,
+    "lang": "JavaScript",
+    "topics": [
+     "agent-orchestration",
+     "agentic-coding",
+     "ai-agents",
+     "ai-governance",
+     "autonomous-agents",
+     "claude-code",
+     "cli",
+     "code-review",
+     "codex",
+     "coding-agents",
+     "developer-tools",
+     "git-hooks",
+     "llm",
+     "local-first",
+     "multi-agent",
+     "spec-driven-development",
+     "verification",
+     "vibe-coding"
+    ],
+    "repo_id": 1408228998
+   },
+   "why_at_peak": "330 stars since launch 21 days ago \u2248 16 stars/day since launch.",
+   "metric_at_peak": 330,
+   "metric_name": "stars"
   }
  }
 }

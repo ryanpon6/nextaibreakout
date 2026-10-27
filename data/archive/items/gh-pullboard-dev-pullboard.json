@@ -1,0 +1,54 @@
+{
+ "id": "gh:pullboard-dev/pullboard",
+ "slug": "gh-pullboard-dev-pullboard",
+ "first_seen": "2026-10-27T21:46:08.637431+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 92.7,
+   "metric": 330,
+   "t": "2026-10-27T21:46:08.637431+00:00"
+  }
+ ],
+ "peak_score": 92.7,
+ "best_rank": 8,
+ "name": "pullboard-dev/pullboard",
+ "url": "https://github.com/pullboard-dev/pullboard",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Autonomous development for real products. Governed agents build from specs you approve, follow the rules you set, and nothing merges until another agent proves it. Your decisions, judgement and taste are the bar that work must clear. Declare your vision and let agents build it.",
+ "what": "Autonomous development for real products. Governed agents build from specs you approve, follow the rules you set, and nothing merges until\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-07T04:14:39Z",
+ "last_seen": "2026-10-27T21:46:08.637431+00:00",
+ "last_why": "330 stars since launch 21 days ago \u2248 16 stars/day since launch.",
+ "extra": {
+  "forks": 25,
+  "lang": "JavaScript",
+  "topics": [
+   "agent-orchestration",
+   "agentic-coding",
+   "ai-agents",
+   "ai-governance",
+   "autonomous-agents",
+   "claude-code",
+   "cli",
+   "code-review",
+   "codex",
+   "coding-agents",
+   "developer-tools",
+   "git-hooks",
+   "llm",
+   "local-first",
+   "multi-agent",
+   "spec-driven-development",
+   "verification",
+   "vibe-coding"
+  ],
+  "repo_id": 1408228998
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}

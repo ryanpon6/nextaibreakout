@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:LiquidAI/LFM3-1.7B",
+ "slug": "hf-liquidai-lfm3-1-7b",
+ "first_seen": "2026-10-27T21:46:08.637431+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.3,
+   "metric": 126,
+   "t": "2026-10-27T21:46:08.637431+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 6,
+ "name": "LiquidAI/LFM3-1.7B",
+ "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-23T21:35:42.000Z",
+ "last_seen": "2026-10-27T21:46:08.637431+00:00",
+ "last_why": "Trending score 126 on Hugging Face; 126 likes, 6.3K downloads.",
+ "extra": {
+  "downloads": 6311,
+  "trending": 126,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}
