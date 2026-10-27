@@ -19,7 +19,8 @@
   "2026-10-27T19:16:09.768697+00:00",
   "2026-10-27T20:31:07.718024+00:00",
   "2026-10-27T21:46:08.637431+00:00",
-  "2026-10-27T22:37:22.684492+00:00"
+  "2026-10-27T22:37:22.684492+00:00",
+  "2026-10-27T23:46:11.803600+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -436,8 +437,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 18,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -910,13 +911,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3544,
-    "trending": 158,
+    "trending": 162,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -936,13 +937,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 215,
+    "trending": 217,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1025,14 +1026,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
-   "peak_score": 98.2,
+   "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 16,
+    "forks": 17,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1046,8 +1047,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+112 stars/day pace right now (172 total).",
-   "metric_at_peak": 172,
+   "why_at_peak": "+146 stars/day pace right now (179 total).",
+   "metric_at_peak": 179,
    "metric_name": "stars"
   },
   "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content": {
@@ -1331,12 +1332,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 93.5,
    "best_rank": 7,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 268,
+    "forks": 274,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -1355,8 +1356,8 @@
     ],
     "repo_id": 1403649056
    },
-   "why_at_peak": "+1.7K stars/day pace right now (1.4K total).",
-   "metric_at_peak": 1385,
+   "why_at_peak": "+774 stars/day pace right now (1.5K total).",
+   "metric_at_peak": 1469,
    "metric_name": "stars"
   },
   "hn-50261819-police-are-using-ai-to-pull-over-drivers-for-susp": {
@@ -1389,18 +1390,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-27T19:16:09.768697+00:00",
-   "peak_score": 97.4,
+   "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 76,
+    "comments": 120,
     "hn": "https://news.ycombinator.com/item?id=50261589"
    },
-   "why_at_peak": "+1.0K points/day pace right now (159 total).",
-   "metric_at_peak": 159,
+   "why_at_peak": "+774 points/day pace right now (215 total).",
+   "metric_at_peak": 215,
    "metric_name": "points"
   },
   "hf-liconstudio-minimax-h3-vbvr": {
@@ -1439,12 +1440,12 @@
    "first_seen": "2026-10-27T21:46:08.637431+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 65,
+    "comments": 88,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
    "why_at_peak": "+956 points/day pace right now (110 total).",
@@ -1461,13 +1462,13 @@
    "first_seen": "2026-10-27T21:46:08.637431+00:00",
    "peak_score": 94.3,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 6311,
-    "trending": 126,
+    "trending": 155,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1487,12 +1488,12 @@
    "first_seen": "2026-10-27T21:46:08.637431+00:00",
    "peak_score": 92.7,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "Autonomous development for real products. Governed agents build from specs you approve, follow the rules you set, and nothing merges until\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 25,
+    "forks": 28,
     "lang": "JavaScript",
     "topics": [
      "agent-orchestration",
@@ -1530,12 +1531,12 @@
    "first_seen": "2026-10-27T22:37:22.684492+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T23:46:11.803600+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 44,
+    "comments": 72,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+618 points/day pace right now (59 total).",

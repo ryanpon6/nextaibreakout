@@ -20,9 +20,15 @@
    "score": 97.4,
    "metric": 159,
    "t": "2026-10-27T21:46:08.637431+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 215,
+   "t": "2026-10-27T23:46:11.803600+00:00"
   }
  ],
- "peak_score": 97.4,
+ "peak_score": 98.2,
  "best_rank": 2,
  "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
  "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
@@ -33,10 +39,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-27T16:25:30Z",
- "last_seen": "2026-10-27T21:46:08.637431+00:00",
- "last_why": "+1.0K points/day pace right now (159 total).",
+ "last_seen": "2026-10-27T23:46:11.803600+00:00",
+ "last_why": "+774 points/day pace right now (215 total).",
  "extra": {
-  "comments": 76,
+  "comments": 120,
   "hn": "https://news.ycombinator.com/item?id=50261589"
  },
  "days": [
