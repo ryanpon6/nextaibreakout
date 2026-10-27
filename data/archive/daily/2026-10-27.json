@@ -12,7 +12,8 @@
   "2026-10-27T10:46:07.600341+00:00",
   "2026-10-27T12:01:07.277286+00:00",
   "2026-10-27T13:10:46.050090+00:00",
-  "2026-10-27T14:16:08.954886+00:00"
+  "2026-10-27T14:16:08.954886+00:00",
+  "2026-10-27T15:31:10.062590+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -25,12 +26,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-27T13:10:46.050090+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
-    "forks": 8,
+    "forks": 9,
     "lang": "TypeScript",
     "topics": [
      "gamedev",
@@ -429,8 +430,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -785,13 +786,13 @@
    "first_seen": "2026-10-27T09:31:09.982785+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 1244380,
-    "trending": 123,
+    "downloads": 1249937,
+    "trending": 126,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -929,13 +930,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 171,
+    "trending": 178,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -998,12 +999,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 233,
+    "comments": 372,
     "hn": "https://news.ycombinator.com/item?id=50257325"
    },
    "why_at_peak": "+3.9K points/day pace right now (265 total).",
@@ -1018,14 +1019,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
-   "peak_score": 98.1,
+   "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 9,
+    "forks": 10,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1039,8 +1040,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "57 stars since launch 1 days ago \u2248 265 stars/day since launch.",
-   "metric_at_peak": 57,
+   "why_at_peak": "+422 stars/day pace right now (105 total).",
+   "metric_at_peak": 105,
    "metric_name": "stars"
   },
   "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content": {
@@ -1053,12 +1054,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 64,
+    "comments": 86,
     "hn": "https://news.ycombinator.com/item?id=50257326"
    },
    "why_at_peak": "+1.2K points/day pace right now (135 total).",
@@ -1210,6 +1211,87 @@
    "why_at_peak": "2.0K stars since launch 21 days ago \u2248 99 stars/day since launch.",
    "metric_at_peak": 2035,
    "metric_name": "stars"
+  },
+  "hn-50259406-giving-chat-feedback-gives-anthropic-your-data": {
+   "id": "hn:50259406",
+   "slug": "hn-50259406-giving-chat-feedback-gives-anthropic-your-data",
+   "name": "Giving chat feedback gives Anthropic your data",
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T15:31:10.062590+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 43,
+    "hn": "https://news.ycombinator.com/item?id=50259406"
+   },
+   "why_at_peak": "83 points in 2h on Hacker News (43 comments).",
+   "metric_at_peak": 83,
+   "metric_name": "points"
+  },
+  "gh-helixdb-helix-foundry": {
+   "id": "gh:HelixDB/helix-foundry",
+   "slug": "gh-helixdb-helix-foundry",
+   "name": "HelixDB/helix-foundry",
+   "url": "https://github.com/HelixDB/helix-foundry",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T15:31:10.062590+00:00",
+   "peak_score": 93.2,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "what": "Connect your company's data, let an agent draft an ontology over it, and load it into HelixDB as one graph you can explore and ask\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 257,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agents",
+     "data-integration",
+     "golang",
+     "graph-database",
+     "helixdb",
+     "knowledge-graph",
+     "nextjs",
+     "ontology"
+    ],
+    "repo_id": 1408277479
+   },
+   "why_at_peak": "1.7K stars since launch 20 days ago \u2248 82 stars/day since launch.",
+   "metric_at_peak": 1678,
+   "metric_name": "stars"
+  },
+  "hf-comfy-org-moss-image": {
+   "id": "hfmodel:Comfy-Org/MOSS-Image",
+   "slug": "hf-comfy-org-moss-image",
+   "name": "Comfy-Org/MOSS-Image",
+   "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T15:31:10.062590+00:00",
+   "peak_score": 82.9,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2760550,
+    "trending": 198,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+77 likes/day pace right now (498 total).",
+   "metric_at_peak": 498,
+   "metric_name": "likes"
   }
  }
 }

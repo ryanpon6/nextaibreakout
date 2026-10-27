@@ -8,6 +8,12 @@
    "score": 96.5,
    "metric": 2410,
    "t": "2026-10-27T09:31:09.982785+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.4,
+   "metric": 2416,
+   "t": "2026-10-27T15:31:10.062590+00:00"
   }
  ],
  "peak_score": 96.5,
@@ -21,11 +27,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-08-28T18:38:03.000Z",
- "last_seen": "2026-10-27T09:31:09.982785+00:00",
- "last_why": "Trending score 123 on Hugging Face; 2.4K likes, 1.2M downloads.",
+ "last_seen": "2026-10-27T15:31:10.062590+00:00",
+ "last_why": "Trending score 126 on Hugging Face; 2.4K likes, 1.2M downloads.",
  "extra": {
-  "downloads": 1244380,
-  "trending": 123,
+  "downloads": 1249937,
+  "trending": 126,
   "hf_type": "model",
   "title": null,
   "summary": null,

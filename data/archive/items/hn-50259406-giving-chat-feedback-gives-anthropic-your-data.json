@@ -1,0 +1,33 @@
+{
+ "id": "hn:50259406",
+ "slug": "hn-50259406-giving-chat-feedback-gives-anthropic-your-data",
+ "first_seen": "2026-10-27T15:31:10.062590+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 83,
+   "t": "2026-10-27T15:31:10.062590+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Giving chat feedback gives Anthropic your data",
+ "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-27T13:56:15Z",
+ "last_seen": "2026-10-27T15:31:10.062590+00:00",
+ "last_why": "83 points in 2h on Hacker News (43 comments).",
+ "extra": {
+  "comments": 43,
+  "hn": "https://news.ycombinator.com/item?id=50259406"
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}
