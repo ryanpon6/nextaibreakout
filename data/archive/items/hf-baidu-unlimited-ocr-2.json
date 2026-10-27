@@ -38,9 +38,15 @@
    "score": 97.4,
    "metric": 192,
    "t": "2026-10-27T16:46:14.579138+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 204,
+   "t": "2026-10-27T18:01:10.858745+00:00"
   }
  ],
- "peak_score": 98.1,
+ "peak_score": 98.2,
  "best_rank": 1,
  "name": "baidu/Unlimited-OCR-2",
  "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
@@ -51,11 +57,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-26T03:57:46.000Z",
- "last_seen": "2026-10-27T16:46:14.579138+00:00",
- "last_why": "+134 likes/day pace right now (192 total).",
+ "last_seen": "2026-10-27T18:01:10.858745+00:00",
+ "last_why": "+231 likes/day pace right now (204 total).",
  "extra": {
   "downloads": 513,
-  "trending": 185,
+  "trending": 196,
   "hf_type": "model",
   "title": null,
   "summary": null,

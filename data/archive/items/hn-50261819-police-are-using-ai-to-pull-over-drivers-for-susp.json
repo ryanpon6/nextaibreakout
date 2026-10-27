@@ -1,0 +1,33 @@
+{
+ "id": "hn:50261819",
+ "slug": "hn-50261819-police-are-using-ai-to-pull-over-drivers-for-susp",
+ "first_seen": "2026-10-27T18:01:10.858745+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 109,
+   "t": "2026-10-27T18:01:10.858745+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+ "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-27T16:40:15Z",
+ "last_seen": "2026-10-27T18:01:10.858745+00:00",
+ "last_why": "109 points in 1h on Hacker News (43 comments).",
+ "extra": {
+  "comments": 43,
+  "hn": "https://news.ycombinator.com/item?id=50261819"
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}

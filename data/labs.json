@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:47:00.654839+00:00",
+ "generated": "2026-10-27T18:02:05.016134+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,10 +129,21 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-27T16:47:00.654839+00:00"
+   "fetched": "2026-10-27T18:02:05.016134+00:00"
   },
   "tesla-ai": {
    "items": [
+    {
+     "title": "Tesla App to Add X Money Support for Payments",
+     "url": "https://www.notateslaapp.com/news/4907/tesla-app-to-add-x-money-support-for-payments",
+     "date": "2026-10-27T17:56:00+00:00",
+     "day": "2026-10-27",
+     "summary": "Tesla app version 4.62.0 includes code for X Money support, letting owners pay for Supercharging, FSD, and Tesla Shop items through X\u2019s payment platform Read More",
+     "categories": [],
+     "source": "via notateslaapp, unofficial",
+     "unofficial": true,
+     "prio": 0
+    },
     {
      "title": "Tesla\u2019s Optimus Robot Will Soon Plug In Robotaxis to Charge",
      "url": "https://www.notateslaapp.com/news/4904/teslas-optimus-robot-will-soon-plug-in-robotaxis-to-charge",
@@ -231,17 +242,6 @@
      "source": "via notateslaapp, unofficial",
      "unofficial": true,
      "prio": 0
-    },
-    {
-     "title": "Tesla Officially Begins Optimus Robot Production; Demo Coming Soon",
-     "url": "https://www.notateslaapp.com/news/4866/tesla-officially-begins-optimus-robot-production",
-     "date": "2026-10-22T14:38:00+00:00",
-     "day": "2026-10-22",
-     "summary": "Optimus production has started in Fremont, with an AI5-powered upgrade planned for April and external customer deliveries expected around the end of 2027 Read More",
-     "categories": [],
-     "source": "via notateslaapp, unofficial",
-     "unofficial": true,
-     "prio": 0
     }
    ],
    "sources": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-27T16:47:00.654839+00:00"
+   "fetched": "2026-10-27T18:02:05.016134+00:00"
   },
   "openai": {
    "items": [
@@ -407,7 +407,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1326
+     "raw": 1327
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-27T16:47:00.654839+00:00"
+   "fetched": "2026-10-27T18:02:05.016134+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-27T16:47:00.654839+00:00"
+   "fetched": "2026-10-27T18:02:05.016134+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-27T16:47:00.654839+00:00"
+   "fetched": "2026-10-27T18:02:05.016134+00:00"
   },
   "meta": {
    "items": [
@@ -798,7 +798,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-27T16:47:00.654839+00:00"
+   "fetched": "2026-10-27T18:02:05.016134+00:00"
   }
  }
 }
