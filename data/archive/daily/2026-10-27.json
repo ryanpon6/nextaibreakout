@@ -18,7 +18,8 @@
   "2026-10-27T18:01:10.858745+00:00",
   "2026-10-27T19:16:09.768697+00:00",
   "2026-10-27T20:31:07.718024+00:00",
-  "2026-10-27T21:46:08.637431+00:00"
+  "2026-10-27T21:46:08.637431+00:00",
+  "2026-10-27T22:37:22.684492+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -31,8 +32,8 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-27T15:31:10.062590+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -435,8 +436,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -505,13 +506,13 @@
    "first_seen": "2026-10-27T03:31:08.815024+00:00",
    "peak_score": 92.4,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T03:31:08.815024+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 5900822,
-    "trending": 123,
+    "downloads": 6009562,
+    "trending": 125,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -909,13 +910,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-27T20:31:07.718024+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3544,
-    "trending": 154,
+    "trending": 158,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -935,13 +936,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 212,
+    "trending": 215,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1026,12 +1027,12 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 15,
+    "forks": 16,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1045,8 +1046,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+134 stars/day pace right now (168 total).",
-   "metric_at_peak": 168,
+   "why_at_peak": "+112 stars/day pace right now (172 total).",
+   "metric_at_peak": 172,
    "metric_name": "stars"
   },
   "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content": {
@@ -1308,12 +1309,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 192,
+    "comments": 221,
     "hn": "https://news.ycombinator.com/item?id=50260814"
    },
    "why_at_peak": "55 points in 1h on Hacker News (25 comments).",
@@ -1330,12 +1331,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 93.5,
    "best_rank": 7,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 258,
+    "forks": 268,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -1436,18 +1437,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-27T21:46:08.637431+00:00",
-   "peak_score": 95.8,
-   "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T21:46:08.637431+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 52,
+    "comments": 65,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
-   "why_at_peak": "+883 points/day pace right now (76 total).",
-   "metric_at_peak": 76,
+   "why_at_peak": "+956 points/day pace right now (110 total).",
+   "metric_at_peak": 110,
    "metric_name": "points"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -1518,6 +1519,28 @@
    "why_at_peak": "330 stars since launch 21 days ago \u2248 16 stars/day since launch.",
    "metric_at_peak": 330,
    "metric_name": "stars"
+  },
+  "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
+   "id": "hn:50265609",
+   "slug": "hn-50265609-early-progress-on-accelerating-drug-development-wi",
+   "name": "Early progress on accelerating drug development with Claude",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T22:37:22.684492+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T22:37:22.684492+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 44,
+    "hn": "https://news.ycombinator.com/item?id=50265609"
+   },
+   "why_at_peak": "+618 points/day pace right now (59 total).",
+   "metric_at_peak": 59,
+   "metric_name": "points"
   }
  }
 }

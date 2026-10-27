@@ -8,10 +8,16 @@
    "score": 95.8,
    "metric": 76,
    "t": "2026-10-27T21:46:08.637431+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 110,
+   "t": "2026-10-27T22:37:22.684492+00:00"
   }
  ],
- "peak_score": 95.8,
- "best_rank": 4,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "Survival LLM: AI assistant and emergency library that runs on your own computer",
  "url": "https://www.brangus.io/survival-llm",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-27T19:55:06Z",
- "last_seen": "2026-10-27T21:46:08.637431+00:00",
- "last_why": "+883 points/day pace right now (76 total).",
+ "last_seen": "2026-10-27T22:37:22.684492+00:00",
+ "last_why": "+956 points/day pace right now (110 total).",
  "extra": {
-  "comments": 52,
+  "comments": 65,
   "hn": "https://news.ycombinator.com/item?id=50264853"
  },
  "days": [
