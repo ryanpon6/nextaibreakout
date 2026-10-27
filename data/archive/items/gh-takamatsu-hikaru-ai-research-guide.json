@@ -8,6 +8,12 @@
    "score": 95.5,
    "metric": 161,
    "t": "2026-10-25T11:16:08.904316+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.0,
+   "metric": 188,
+   "t": "2026-10-27T09:31:09.982785+00:00"
   }
  ],
  "peak_score": 95.5,
@@ -21,8 +27,8 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-05T03:32:47Z",
- "last_seen": "2026-10-25T11:16:08.904316+00:00",
- "last_why": "+154 stars/day pace right now (161 total).",
+ "last_seen": "2026-10-27T09:31:09.982785+00:00",
+ "last_why": "188 stars since launch 22 days ago \u2248 8 stars/day since launch.",
  "extra": {
   "forks": 10,
   "lang": "JavaScript",
@@ -37,6 +43,7 @@
   "repo_id": 1405070384
  },
  "days": [
-  "2026-10-25"
+  "2026-10-25",
+  "2026-10-27"
  ]
 }

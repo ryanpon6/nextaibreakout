@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+ "slug": "hf-ista-daslab-qwen3-8-27b-gsq-rco-gguf",
+ "first_seen": "2026-10-27T09:31:09.982785+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.5,
+   "metric": 2410,
+   "t": "2026-10-27T09:31:09.982785+00:00"
+  }
+ ],
+ "peak_score": 96.5,
+ "best_rank": 3,
+ "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+ "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-08-28T18:38:03.000Z",
+ "last_seen": "2026-10-27T09:31:09.982785+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 2.4K likes, 1.2M downloads.",
+ "extra": {
+  "downloads": 1244380,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}

@@ -110,6 +110,12 @@
    "score": 98.1,
    "metric": 134,
    "t": "2026-10-27T08:16:10.985217+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.3,
+   "metric": 139,
+   "t": "2026-10-27T09:31:09.982785+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -123,10 +129,10 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-25T04:27:06Z",
- "last_seen": "2026-10-27T08:16:10.985217+00:00",
- "last_why": "+147 stars/day pace right now (134 total).",
+ "last_seen": "2026-10-27T09:31:09.982785+00:00",
+ "last_why": "+96 stars/day pace right now (139 total).",
  "extra": {
-  "forks": 7,
+  "forks": 8,
   "lang": "TypeScript",
   "topics": [
    "gamedev",

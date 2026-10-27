@@ -7,7 +7,8 @@
   "2026-10-27T04:46:11.690569+00:00",
   "2026-10-27T06:01:05.472553+00:00",
   "2026-10-27T07:07:22.882570+00:00",
-  "2026-10-27T08:16:10.985217+00:00"
+  "2026-10-27T08:16:10.985217+00:00",
+  "2026-10-27T09:31:09.982785+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -20,12 +21,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
-    "forks": 7,
+    "forks": 8,
     "lang": "TypeScript",
     "topics": [
      "gamedev",
@@ -51,12 +52,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 41,
+    "comments": 43,
     "hn": "https://news.ycombinator.com/item?id=50252159"
    },
    "why_at_peak": "+154 points/day pace right now (100 total).",
@@ -262,13 +263,13 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 594,
+    "trending": 597,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -424,8 +425,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -615,12 +616,12 @@
    "first_seen": "2026-10-27T07:07:22.882570+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 75,
+    "comments": 76,
     "hn": "https://news.ycombinator.com/item?id=50254836"
    },
    "why_at_peak": "+739 points/day pace right now (61 total).",
@@ -697,12 +698,12 @@
    "first_seen": "2026-10-27T08:16:10.985217+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 35,
+    "comments": 89,
     "hn": "https://news.ycombinator.com/item?id=50255298"
    },
    "why_at_peak": "49 points in 2h on Hacker News (35 comments).",
@@ -769,6 +770,124 @@
    "why_at_peak": "+147 stars/day pace right now (490 total).",
    "metric_at_peak": 490,
    "metric_name": "stars"
+  },
+  "hf-ista-daslab-qwen3-8-27b-gsq-rco-gguf": {
+   "id": "hfmodel:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "slug": "hf-ista-daslab-qwen3-8-27b-gsq-rco-gguf",
+   "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T09:31:09.982785+00:00",
+   "peak_score": 96.5,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1244380,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 2.4K likes, 1.2M downloads.",
+   "metric_at_peak": 2410,
+   "metric_name": "likes"
+  },
+  "gh-thelastoxygen-mafdet": {
+   "id": "gh:TheLastOxygen/mafdet",
+   "slug": "gh-thelastoxygen-mafdet",
+   "name": "TheLastOxygen/mafdet",
+   "url": "https://github.com/TheLastOxygen/mafdet",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T09:31:09.982785+00:00",
+   "peak_score": 94.8,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "what": "You type. It already knows. Local LLMs that read and think while you type.",
+   "tag": "models",
+   "extra": {
+    "forks": 3,
+    "lang": "Python",
+    "topics": [
+     "deep-learning",
+     "framework",
+     "large-language-models",
+     "llm-inference",
+     "llm-tools",
+     "local-ai",
+     "local-development",
+     "machine-learning",
+     "research-project",
+     "research-tool"
+    ],
+    "repo_id": 1428105252
+   },
+   "why_at_peak": "61 stars since launch 6 days ago \u2248 10 stars/day since launch.",
+   "metric_at_peak": 61,
+   "metric_name": "stars"
+  },
+  "gh-takamatsu-hikaru-ai-research-guide": {
+   "id": "gh:Takamatsu-Hikaru/AI-Research-Guide",
+   "slug": "gh-takamatsu-hikaru-ai-research-guide",
+   "name": "Takamatsu-Hikaru/AI-Research-Guide",
+   "url": "https://github.com/Takamatsu-Hikaru/AI-Research-Guide",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T09:31:09.982785+00:00",
+   "peak_score": 94.0,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "what": "AI \u79d1\u7814\u5165\u95e8\u6307\u5357\uff1a\u5927\u5b66\u9009\u62e9\u3001\u79d1\u7814 60 \u95ee\u3001\u5165\u95e8\u9879\u76ee\u3001\u5b66\u4e60\u8def\u7ebf\u4e0e\u8bba\u6587\u5361\u7247\u3002A bilingual guide to getting started in AI research.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 10,
+    "lang": "JavaScript",
+    "topics": [
+     "ai",
+     "chinese",
+     "education",
+     "getting-started",
+     "machine-learning",
+     "research"
+    ],
+    "repo_id": 1405070384
+   },
+   "why_at_peak": "188 stars since launch 22 days ago \u2248 8 stars/day since launch.",
+   "metric_at_peak": 188,
+   "metric_name": "stars"
+  },
+  "hf-briaai-fibo-2-0-dev": {
+   "id": "hfmodel:briaai/Fibo-2.0-dev",
+   "slug": "hf-briaai-fibo-2-0-dev",
+   "name": "briaai/Fibo-2.0-dev",
+   "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T09:31:09.982785+00:00",
+   "peak_score": 86.8,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T09:31:09.982785+00:00",
+   "what": "text-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1267,
+    "trending": 169,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+77 likes/day pace right now (174 total).",
+   "metric_at_peak": 174,
+   "metric_name": "likes"
   }
  }
 }

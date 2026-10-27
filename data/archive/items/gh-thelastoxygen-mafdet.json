@@ -1,0 +1,46 @@
+{
+ "id": "gh:TheLastOxygen/mafdet",
+ "slug": "gh-thelastoxygen-mafdet",
+ "first_seen": "2026-10-27T09:31:09.982785+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.8,
+   "metric": 61,
+   "t": "2026-10-27T09:31:09.982785+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 5,
+ "name": "TheLastOxygen/mafdet",
+ "url": "https://github.com/TheLastOxygen/mafdet",
+ "source": "github",
+ "kind": "tool",
+ "desc": "You type. It already knows. Local LLMs that read and think while you type.",
+ "what": "You type. It already knows. Local LLMs that read and think while you type.",
+ "tag": "models",
+ "metric_name": "stars",
+ "created": "2026-10-21T08:37:56Z",
+ "last_seen": "2026-10-27T09:31:09.982785+00:00",
+ "last_why": "61 stars since launch 6 days ago \u2248 10 stars/day since launch.",
+ "extra": {
+  "forks": 3,
+  "lang": "Python",
+  "topics": [
+   "deep-learning",
+   "framework",
+   "large-language-models",
+   "llm-inference",
+   "llm-tools",
+   "local-ai",
+   "local-development",
+   "machine-learning",
+   "research-project",
+   "research-tool"
+  ],
+  "repo_id": 1428105252
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}
