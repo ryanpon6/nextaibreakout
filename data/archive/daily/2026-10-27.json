@@ -16,7 +16,8 @@
   "2026-10-27T15:31:10.062590+00:00",
   "2026-10-27T16:46:14.579138+00:00",
   "2026-10-27T18:01:10.858745+00:00",
-  "2026-10-27T19:16:09.768697+00:00"
+  "2026-10-27T19:16:09.768697+00:00",
+  "2026-10-27T20:31:07.718024+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -82,8 +83,8 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
@@ -407,13 +408,13 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T14:16:08.954886+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "image-to-image model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 750694,
-    "trending": 418,
+    "trending": 413,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -433,8 +434,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 15,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 16,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -907,13 +908,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3544,
-    "trending": 151,
+    "trending": 154,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -933,13 +934,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 204,
+    "trending": 209,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1024,8 +1025,8 @@
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -1043,8 +1044,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+173 stars/day pace right now (147 total).",
-   "metric_at_peak": 147,
+   "why_at_peak": "+269 stars/day pace right now (161 total).",
+   "metric_at_peak": 161,
    "metric_name": "stars"
   },
   "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content": {
@@ -1306,12 +1307,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 119,
+    "comments": 158,
     "hn": "https://news.ycombinator.com/item?id=50260814"
    },
    "why_at_peak": "55 points in 1h on Hacker News (25 comments).",
@@ -1328,12 +1329,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 217,
+    "forks": 240,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -1366,12 +1367,12 @@
    "first_seen": "2026-10-27T18:01:10.858745+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 150,
+    "comments": 198,
     "hn": "https://news.ycombinator.com/item?id=50261819"
    },
    "why_at_peak": "109 points in 1h on Hacker News (43 comments).",
@@ -1387,17 +1388,17 @@
    "kind": "news",
    "first_seen": "2026-10-27T19:16:09.768697+00:00",
    "peak_score": 94.2,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T20:31:07.718024+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 16,
+    "comments": 46,
     "hn": "https://news.ycombinator.com/item?id=50261589"
    },
-   "why_at_peak": "+499 points/day pace right now (43 total).",
-   "metric_at_peak": 43,
+   "why_at_peak": "+1.2K points/day pace right now (106 total).",
+   "metric_at_peak": 106,
    "metric_name": "points"
   },
   "hf-liconstudio-minimax-h3-vbvr": {

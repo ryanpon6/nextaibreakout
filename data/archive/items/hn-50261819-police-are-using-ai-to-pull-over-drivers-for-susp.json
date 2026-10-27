@@ -14,11 +14,17 @@
    "score": 95.8,
    "metric": 226,
    "t": "2026-10-27T19:16:09.768697+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 91.9,
+   "metric": 265,
+   "t": "2026-10-27T20:31:07.718024+00:00"
   }
  ],
  "peak_score": 99.0,
  "best_rank": 1,
- "name": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+ "name": "Police are using AI to pull over drivers for 'suspicious' behavior",
  "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
  "source": "hackernews",
  "kind": "news",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-27T16:40:15Z",
- "last_seen": "2026-10-27T19:16:09.768697+00:00",
- "last_why": "+2.2K points/day pace right now (226 total).",
+ "last_seen": "2026-10-27T20:31:07.718024+00:00",
+ "last_why": "+749 points/day pace right now (265 total).",
  "extra": {
-  "comments": 150,
+  "comments": 198,
   "hn": "https://news.ycombinator.com/item?id=50261819"
  },
  "days": [
