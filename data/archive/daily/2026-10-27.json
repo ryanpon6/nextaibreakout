@@ -5,7 +5,8 @@
   "2026-10-27T02:16:11.642644+00:00",
   "2026-10-27T03:31:08.815024+00:00",
   "2026-10-27T04:46:11.690569+00:00",
-  "2026-10-27T06:01:05.472553+00:00"
+  "2026-10-27T06:01:05.472553+00:00",
+  "2026-10-27T07:07:22.882570+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -18,12 +19,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
-    "forks": 6,
+    "forks": 7,
     "lang": "TypeScript",
     "topics": [
      "gamedev",
@@ -49,12 +50,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 37,
+    "comments": 39,
     "hn": "https://news.ycombinator.com/item?id=50252159"
    },
    "why_at_peak": "+154 points/day pace right now (100 total).",
@@ -130,12 +131,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 353,
+    "comments": 356,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
    "why_at_peak": "+307 points/day pace right now (551 total).",
@@ -260,13 +261,13 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 581,
+    "trending": 589,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -420,10 +421,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
-   "peak_score": 79.2,
+   "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -516,14 +517,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-27T03:31:08.815024+00:00",
-   "peak_score": 93.2,
-   "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "peak_score": 94.8,
+   "best_rank": 5,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "Don't reverse engineer it twice. 16,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 144,
+    "forks": 146,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -547,8 +548,8 @@
     ],
     "repo_id": 1414599291
    },
-   "why_at_peak": "+115 stars/day pace right now (799 total).",
-   "metric_at_peak": 799,
+   "why_at_peak": "+152 stars/day pace right now (812 total).",
+   "metric_at_peak": 812,
    "metric_name": "stars"
   },
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -559,22 +560,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-27T04:46:11.690569+00:00",
-   "peak_score": 87.6,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "peak_score": 90.6,
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 95889,
-    "trending": 1033,
+    "trending": 1026,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+173 likes/day pace right now (3.2K total).",
-   "metric_at_peak": 3214,
+   "why_at_peak": "+348 likes/day pace right now (3.2K total).",
+   "metric_at_peak": 3242,
    "metric_name": "likes"
   },
   "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
@@ -601,6 +602,88 @@
    },
    "why_at_peak": "+58 likes/day pace right now (242 total).",
    "metric_at_peak": 242,
+   "metric_name": "likes"
+  },
+  "hn-50254836-there-are-now-5-inference-providers-for-abliterate": {
+   "id": "hn:50254836",
+   "slug": "hn-50254836-there-are-now-5-inference-providers-for-abliterate",
+   "name": "There are now 5 inference providers for abliterated DeepSeek",
+   "url": "https://allmodels.io/llm/abliterated",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T07:07:22.882570+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 66,
+    "hn": "https://news.ycombinator.com/item?id=50254836"
+   },
+   "why_at_peak": "+739 points/day pace right now (61 total).",
+   "metric_at_peak": 61,
+   "metric_name": "points"
+  },
+  "gh-heqiangdiao-wq-ai-cross-border-ecommerce-agent-toolkit": {
+   "id": "gh:heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "slug": "gh-heqiangdiao-wq-ai-cross-border-ecommerce-agent-toolkit",
+   "name": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T07:07:22.882570+00:00",
+   "peak_score": 92.3,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "what": "AI \u8de8\u5883\u7535\u5546\u8fd0\u8425\u667a\u80fd\u4f53\u5de5\u5177\u7bb1 \u00b7 \u628a\u8fd0\u8425 SOP \u62c6\u6210 7 \u4e2a\u53ef\u590d\u7528\u7684 AI Agent \u5de5\u4f5c\u6d41\uff0c\u542b Prompt\u3001\u6a21\u677f\u4e0e\u771f\u5b9e\u6848\u4f8b",
+   "tag": "agents",
+   "extra": {
+    "forks": 739,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "cross-border-ecommerce",
+     "ecommerce",
+     "llm",
+     "mercado-livre",
+     "prompt-engineering",
+     "shopee",
+     "sop",
+     "workflow-automation"
+    ],
+    "repo_id": 1416828644
+   },
+   "why_at_peak": "+109 stars/day pace right now (717 total).",
+   "metric_at_peak": 717,
+   "metric_name": "stars"
+  },
+  "hf-black-forest-labs-flux-3-image-klein": {
+   "id": "hfmodel:black-forest-labs/flux-3-image-klein",
+   "slug": "hf-black-forest-labs-flux-3-image-klein",
+   "name": "black-forest-labs/flux-3-image-klein",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T07:07:22.882570+00:00",
+   "peak_score": 82.6,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "what": "image-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 119172,
+    "trending": 140,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+87 likes/day pace right now (726 total).",
+   "metric_at_peak": 726,
    "metric_name": "likes"
   }
  }
