@@ -6,7 +6,8 @@
   "2026-10-27T03:31:08.815024+00:00",
   "2026-10-27T04:46:11.690569+00:00",
   "2026-10-27T06:01:05.472553+00:00",
-  "2026-10-27T07:07:22.882570+00:00"
+  "2026-10-27T07:07:22.882570+00:00",
+  "2026-10-27T08:16:10.985217+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -19,8 +20,8 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -50,12 +51,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 39,
+    "comments": 41,
     "hn": "https://news.ycombinator.com/item?id=50252159"
    },
    "why_at_peak": "+154 points/day pace right now (100 total).",
@@ -72,12 +73,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 59,
+    "forks": 61,
     "lang": "Python",
     "topics": [
      "ai",
@@ -261,13 +262,13 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 589,
+    "trending": 594,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -423,8 +424,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -562,13 +563,13 @@
    "first_seen": "2026-10-27T04:46:11.690569+00:00",
    "peak_score": 90.6,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 95889,
-    "trending": 1026,
+    "trending": 1025,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -614,12 +615,12 @@
    "first_seen": "2026-10-27T07:07:22.882570+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T07:07:22.882570+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 66,
+    "comments": 75,
     "hn": "https://news.ycombinator.com/item?id=50254836"
    },
    "why_at_peak": "+739 points/day pace right now (61 total).",
@@ -685,6 +686,89 @@
    "why_at_peak": "+87 likes/day pace right now (726 total).",
    "metric_at_peak": 726,
    "metric_name": "likes"
+  },
+  "hn-50255298-the-mythical-man-month-in-the-age-of-ai": {
+   "id": "hn:50255298",
+   "slug": "hn-50255298-the-mythical-man-month-in-the-age-of-ai",
+   "name": "The Mythical Man-Month in the Age of AI",
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T08:16:10.985217+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 35,
+    "hn": "https://news.ycombinator.com/item?id=50255298"
+   },
+   "why_at_peak": "49 points in 2h on Hacker News (35 comments).",
+   "metric_at_peak": 49,
+   "metric_name": "points"
+  },
+  "hf-sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf": {
+   "id": "hfmodel:SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "slug": "hf-sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf",
+   "name": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T08:16:10.985217+00:00",
+   "peak_score": 95.6,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2691987,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 463 likes, 2.7M downloads.",
+   "metric_at_peak": 463,
+   "metric_name": "likes"
+  },
+  "gh-foshmily-ai-paper-system": {
+   "id": "gh:FoShmily/ai-paper-system",
+   "slug": "gh-foshmily-ai-paper-system",
+   "name": "FoShmily/ai-paper-system",
+   "url": "https://github.com/FoShmily/ai-paper-system",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T08:16:10.985217+00:00",
+   "peak_score": 93.1,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T08:16:10.985217+00:00",
+   "what": "AI\u8bba\u6587\u7cfb\u7edf \u00b7 AI\u8bba\u6587\u751f\u6210\u3001AI\u8bba\u6587\u5199\u4f5c\uff0c\u4e00\u952e\u8bba\u6587\u751f\u6210\uff0c\u964dAIGC\u3001\u964d\u91cd\u3001\u7b54\u8fa9PPT \u00b7 OEM\u767d\u6807\u62db\u5546\u52a0\u76df",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 32,
+    "lang": null,
+    "topics": [
+     "ai",
+     "ai-humanizer",
+     "ai-ppt",
+     "aigc",
+     "deepseek",
+     "llm",
+     "paper-generator",
+     "rewriter",
+     "saas",
+     "thesis"
+    ],
+    "repo_id": 1394679834
+   },
+   "why_at_peak": "+147 stars/day pace right now (490 total).",
+   "metric_at_peak": 490,
+   "metric_name": "stars"
   }
  }
 }
