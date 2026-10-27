@@ -1,0 +1,33 @@
+{
+ "id": "hn:50257326",
+ "slug": "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content",
+ "first_seen": "2026-10-27T13:10:46.050090+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.2,
+   "metric": 79,
+   "t": "2026-10-27T13:10:46.050090+00:00"
+  }
+ ],
+ "peak_score": 96.2,
+ "best_rank": 4,
+ "name": "Wikipedia's Cleanup of AI-Generated Content",
+ "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-27T11:08:15Z",
+ "last_seen": "2026-10-27T13:10:46.050090+00:00",
+ "last_why": "+1.2K points/day pace right now (79 total).",
+ "extra": {
+  "comments": 35,
+  "hn": "https://news.ycombinator.com/item?id=50257326"
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "gh:patch-gg/anymove",
+ "slug": "gh-patch-gg-anymove",
+ "first_seen": "2026-10-27T13:10:46.050090+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.1,
+   "metric": 57,
+   "t": "2026-10-27T13:10:46.050090+00:00"
+  }
+ ],
+ "peak_score": 98.1,
+ "best_rank": 2,
+ "name": "patch-gg/anymove",
+ "url": "https://github.com/patch-gg/anymove",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+ "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-27T08:00:42Z",
+ "last_seen": "2026-10-27T13:10:46.050090+00:00",
+ "last_why": "57 stars since launch 1 days ago \u2248 265 stars/day since launch.",
+ "extra": {
+  "forks": 6,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "animation",
+   "blender",
+   "claude-code-plugin",
+   "dinov2",
+   "gamedev",
+   "generative-ai",
+   "motion-capture"
+  ],
+  "repo_id": 1435425970
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}
