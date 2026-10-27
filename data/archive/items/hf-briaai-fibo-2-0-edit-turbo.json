@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:briaai/Fibo-2.0-edit-turbo",
+ "slug": "hf-briaai-fibo-2-0-edit-turbo",
+ "first_seen": "2026-10-27T03:31:08.815024+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.1,
+   "metric": 127,
+   "t": "2026-10-27T03:31:08.815024+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 5,
+ "name": "briaai/Fibo-2.0-edit-turbo",
+ "url": "https://huggingface.co/briaai/Fibo-2.0-edit-turbo",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-image",
+ "what": "image-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-19T13:11:51.000Z",
+ "last_seen": "2026-10-27T03:31:08.815024+00:00",
+ "last_why": "Trending score 126 on Hugging Face; 127 likes, 1.1K downloads.",
+ "extra": {
+  "downloads": 1083,
+  "trending": 126,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-27"
+ ]
+}

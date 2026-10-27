@@ -2,7 +2,8 @@
  "day": "2026-10-27",
  "runs": [
   "2026-10-27T01:01:09.611065+00:00",
-  "2026-10-27T02:16:11.642644+00:00"
+  "2026-10-27T02:16:11.642644+00:00",
+  "2026-10-27T03:31:08.815024+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -15,12 +16,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
-    "forks": 5,
+    "forks": 6,
     "lang": "TypeScript",
     "topics": [
      "gamedev",
@@ -46,12 +47,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 21,
+    "comments": 28,
     "hn": "https://news.ycombinator.com/item?id=50252159"
    },
    "why_at_peak": "+480 points/day pace right now (79 total).",
@@ -126,17 +127,17 @@
    "kind": "news",
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 96.5,
-   "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "best_rank": 2,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 326,
+    "comments": 336,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
-   "why_at_peak": "+384 points/day pace right now (507 total).",
-   "metric_at_peak": 507,
+   "why_at_peak": "+538 points/day pace right now (535 total).",
+   "metric_at_peak": 535,
    "metric_name": "points"
   },
   "hn-50246238-show-hn-hob-open-source-on-device-alternative": {
@@ -257,13 +258,13 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 560,
+    "trending": 566,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -283,8 +284,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
    "what": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call\u2026",
    "tag": "agents",
    "extra": {
@@ -419,8 +420,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 79.2,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T02:16:11.642644+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -430,6 +431,123 @@
    "why_at_peak": "77.9K downloads yesterday, 1.37\u00d7 its 7-day average.",
    "metric_at_peak": 77878,
    "metric_name": "downloads/day"
+  },
+  "hn-50246658-concerning-behavior-from-a-popular-open-weight-ai": {
+   "id": "hn:50246658",
+   "slug": "hn-50246658-concerning-behavior-from-a-popular-open-weight-ai",
+   "name": "Concerning behavior from a popular open-weight AI model",
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T03:31:08.815024+00:00",
+   "peak_score": 94.9,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 113,
+    "hn": "https://news.ycombinator.com/item?id=50246658"
+   },
+   "why_at_peak": "+307 points/day pace right now (273 total).",
+   "metric_at_peak": 273,
+   "metric_name": "points"
+  },
+  "hf-briaai-fibo-2-0-edit-turbo": {
+   "id": "hfmodel:briaai/Fibo-2.0-edit-turbo",
+   "slug": "hf-briaai-fibo-2-0-edit-turbo",
+   "name": "briaai/Fibo-2.0-edit-turbo",
+   "url": "https://huggingface.co/briaai/Fibo-2.0-edit-turbo",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T03:31:08.815024+00:00",
+   "peak_score": 94.1,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
+   "what": "image-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1083,
+    "trending": 126,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 126 on Hugging Face; 127 likes, 1.1K downloads.",
+   "metric_at_peak": 127,
+   "metric_name": "likes"
+  },
+  "hf-unsloth-qwen3-8-27b-gguf": {
+   "id": "hfmodel:unsloth/Qwen3.8-27B-GGUF",
+   "slug": "hf-unsloth-qwen3-8-27b-gguf",
+   "name": "unsloth/Qwen3.8-27B-GGUF",
+   "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T03:31:08.815024+00:00",
+   "peak_score": 92.4,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 5900822,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 5.4K likes, 5.9M downloads.",
+   "metric_at_peak": 5360,
+   "metric_name": "likes"
+  },
+  "gh-alexgaoth-awesome-reverse-engineered": {
+   "id": "gh:alexgaoth/awesome-reverse-engineered",
+   "slug": "gh-alexgaoth-awesome-reverse-engineered",
+   "name": "alexgaoth/awesome-reverse-engineered",
+   "url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-27T03:31:08.815024+00:00",
+   "peak_score": 91.6,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T03:31:08.815024+00:00",
+   "what": "Don't reverse engineer it twice. 16,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 142,
+    "lang": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "awesome",
+     "awesome-list",
+     "claude-code",
+     "decompilation",
+     "file-formats",
+     "game-decompilation",
+     "hacktoberfest",
+     "home-assistant",
+     "interoperability",
+     "iot",
+     "local-control",
+     "open-source",
+     "protocol",
+     "reverse-engineered",
+     "reverse-engineering",
+     "unofficial-api"
+    ],
+    "repo_id": 1414599291
+   },
+   "why_at_peak": "+192 stars/day pace right now (793 total).",
+   "metric_at_peak": 793,
+   "metric_name": "stars"
   }
  }
 }
