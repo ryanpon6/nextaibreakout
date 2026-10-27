@@ -4,7 +4,8 @@
   "2026-10-27T01:01:09.611065+00:00",
   "2026-10-27T02:16:11.642644+00:00",
   "2026-10-27T03:31:08.815024+00:00",
-  "2026-10-27T04:46:11.690569+00:00"
+  "2026-10-27T04:46:11.690569+00:00",
+  "2026-10-27T06:01:05.472553+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -17,8 +18,8 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
    "tag": "models",
    "extra": {
@@ -48,12 +49,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 32,
+    "comments": 37,
     "hn": "https://news.ycombinator.com/item?id=50252159"
    },
    "why_at_peak": "+154 points/day pace right now (100 total).",
@@ -70,12 +71,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 57,
+    "forks": 59,
     "lang": "Python",
     "topics": [
      "ai",
@@ -129,12 +130,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 344,
+    "comments": 353,
     "hn": "https://news.ycombinator.com/item?id=50248124"
    },
    "why_at_peak": "+307 points/day pace right now (551 total).",
@@ -151,8 +152,8 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
@@ -205,22 +206,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
-   "peak_score": 87.4,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T01:01:09.611065+00:00",
+   "peak_score": 93.2,
+   "best_rank": 7,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 891147,
-    "trending": 325,
+    "trending": 337,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+77 likes/day pace right now (343 total).",
-   "metric_at_peak": 343,
+   "why_at_peak": "+154 likes/day pace right now (355 total).",
+   "metric_at_peak": 355,
    "metric_name": "likes"
   },
   "hf-recursivesi-flint": {
@@ -259,13 +260,13 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4726,
-    "trending": 578,
+    "trending": 581,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -285,8 +286,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call\u2026",
    "tag": "agents",
    "extra": {
@@ -421,8 +422,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 79.2,
    "best_rank": 10,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-27T04:46:11.690569+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -574,6 +575,32 @@
    },
    "why_at_peak": "+173 likes/day pace right now (3.2K total).",
    "metric_at_peak": 3214,
+   "metric_name": "likes"
+  },
+  "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
+   "id": "hfmodel:orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+   "slug": "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf",
+   "name": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+   "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T06:01:05.472553+00:00",
+   "peak_score": 86.8,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T06:01:05.472553+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 9022,
+    "trending": 206,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+58 likes/day pace right now (242 total).",
+   "metric_at_peak": 242,
    "metric_name": "likes"
   }
  }
