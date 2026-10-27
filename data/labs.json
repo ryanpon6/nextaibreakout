@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T18:02:05.016134+00:00",
+ "generated": "2026-10-27T19:16:54.495648+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-27T18:02:05.016134+00:00"
+   "fetched": "2026-10-27T19:16:54.495648+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,10 +268,20 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-27T18:02:05.016134+00:00"
+   "fetched": "2026-10-27T19:16:54.495648+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "Codex CLI v0.165.0",
+     "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+     "date": "2026-10-27T18:19:20+00:00",
+     "day": "2026-10-27",
+     "summary": "",
+     "source": "GitHub: openai/codex releases",
+     "unofficial": false,
+     "prio": 1
+    },
     {
      "title": "Working with academic communities to build scientific understanding",
      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -323,16 +333,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Codex CLI 0.164.0",
-     "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
-     "date": "2026-10-23T04:50:58+00:00",
-     "day": "2026-10-23",
-     "summary": "",
-     "source": "GitHub: openai/codex releases",
-     "unofficial": false,
-     "prio": 1
     },
     {
      "title": "Build more responsive apps with the Decisions API",
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-27T18:02:05.016134+00:00"
+   "fetched": "2026-10-27T19:16:54.495648+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-27T18:02:05.016134+00:00"
+   "fetched": "2026-10-27T19:16:54.495648+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -661,9 +661,9 @@
      "name": "Google DeepMind Blog RSS",
      "url": "https://deepmind.google/blog/rss.xml",
      "status": "provisional",
-     "ok": true,
-     "count": 10,
-     "raw": 100
+     "ok": false,
+     "error": "ValueError: feed returned 0 items",
+     "stale_kept": 10
     },
     {
      "name": "Google AI Blog RSS",
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-27T18:02:05.016134+00:00"
+   "fetched": "2026-10-27T19:16:54.495648+00:00"
   },
   "meta": {
    "items": [
@@ -798,7 +798,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-27T18:02:05.016134+00:00"
+   "fetched": "2026-10-27T19:16:54.495648+00:00"
   }
  }
 }

@@ -15,7 +15,8 @@
   "2026-10-27T14:16:08.954886+00:00",
   "2026-10-27T15:31:10.062590+00:00",
   "2026-10-27T16:46:14.579138+00:00",
-  "2026-10-27T18:01:10.858745+00:00"
+  "2026-10-27T18:01:10.858745+00:00",
+  "2026-10-27T19:16:09.768697+00:00"
  ],
  "items": {
   "gh-patch-gg-trompe": {
@@ -81,12 +82,12 @@
    "first_seen": "2026-10-27T01:01:09.611065+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-27T12:01:07.277286+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 61,
+    "forks": 65,
     "lang": "Python",
     "topics": [
      "ai",
@@ -432,8 +433,8 @@
    "first_seen": "2026-10-27T02:16:11.642644+00:00",
    "peak_score": 81.1,
    "best_rank": 10,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -906,13 +907,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3544,
-    "trending": 143,
+    "trending": 151,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -932,13 +933,13 @@
    "first_seen": "2026-10-27T10:46:07.600341+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 196,
+    "trending": 204,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1022,13 +1023,13 @@
    "kind": "tool",
    "first_seen": "2026-10-27T13:10:46.050090+00:00",
    "peak_score": 98.2,
-   "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "best_rank": 1,
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 11,
+    "forks": 14,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -1042,8 +1043,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+422 stars/day pace right now (105 total).",
-   "metric_at_peak": 105,
+   "why_at_peak": "+173 stars/day pace right now (147 total).",
+   "metric_at_peak": 147,
    "metric_name": "stars"
   },
   "hn-50257326-wikipedia-s-cleanup-of-ai-generated-content": {
@@ -1305,12 +1306,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 66,
+    "comments": 119,
     "hn": "https://news.ycombinator.com/item?id=50260814"
    },
    "why_at_peak": "55 points in 1h on Hacker News (25 comments).",
@@ -1327,12 +1328,12 @@
    "first_seen": "2026-10-27T16:46:14.579138+00:00",
    "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 185,
+    "forks": 217,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -1365,17 +1366,65 @@
    "first_seen": "2026-10-27T18:01:10.858745+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-27T18:01:10.858745+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 43,
+    "comments": 150,
     "hn": "https://news.ycombinator.com/item?id=50261819"
    },
    "why_at_peak": "109 points in 1h on Hacker News (43 comments).",
    "metric_at_peak": 109,
    "metric_name": "points"
+  },
+  "hn-50261589-amazon-is-gutting-its-ai-division-after-sustained": {
+   "id": "hn:50261589",
+   "slug": "hn-50261589-amazon-is-gutting-its-ai-division-after-sustained",
+   "name": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-27T19:16:09.768697+00:00",
+   "peak_score": 94.2,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 16,
+    "hn": "https://news.ycombinator.com/item?id=50261589"
+   },
+   "why_at_peak": "+499 points/day pace right now (43 total).",
+   "metric_at_peak": 43,
+   "metric_name": "points"
+  },
+  "hf-liconstudio-minimax-h3-vbvr": {
+   "id": "hfmodel:LiconStudio/Minimax-H3-VBVR",
+   "slug": "hf-liconstudio-minimax-h3-vbvr",
+   "name": "LiconStudio/Minimax-H3-VBVR",
+   "url": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-27T19:16:09.768697+00:00",
+   "peak_score": 91.8,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-27T19:16:09.768697+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 4701,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 4.7K downloads.",
+   "metric_at_peak": 125,
+   "metric_name": "likes"
   }
  }
 }
