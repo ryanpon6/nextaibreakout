@@ -62,6 +62,8 @@ def desc_of(x):
         dom = urlparse(x.get("url") or "").netloc.removeprefix("www.")
         c = ((POOL.get(x["id"]) or x).get("extra") or {}).get("comments")
         w = "Hacker News story" + (f" from {dom}" if dom and dom != "news.ycombinator.com" else "") + (f", {c} comments" if c else "")
+    if not w:  # never emit an empty description (e.g. an HF model whose card has no pipeline tag and has left the live pool)
+        w = f"{B.LABEL.get(x['source'], x['source'])} {x.get('kind') or 'item'} (no description on its card)"
     return w
 def measure(x):
     """The one shared momentum figure used on every page and in the feed."""
