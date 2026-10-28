@@ -1,0 +1,56 @@
+{
+ "id": "gh:KnifeLemon/Droidline",
+ "slug": "gh-knifelemon-droidline",
+ "first_seen": "2026-10-28T03:46:08.609726+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 89.7,
+   "metric": 373,
+   "t": "2026-10-28T03:46:08.609726+00:00"
+  }
+ ],
+ "peak_score": 89.7,
+ "best_rank": 9,
+ "name": "KnifeLemon/Droidline",
+ "url": "https://github.com/KnifeLemon/Droidline",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Android automation from code. Test your apps on real phones, script the tasks you repeat, run a shelf of phones, or let an AI agent use one, from Python, Node.js, the CLI, HTTP or Appium clients. No ADB, no USB cable, no root.",
+ "what": "Android automation from code. Test your apps on real phones, script the tasks you repeat, run a shelf of phones, or let an AI agent use\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-07T04:54:21Z",
+ "last_seen": "2026-10-28T03:46:08.609726+00:00",
+ "last_why": "+115 stars/day pace right now (373 total).",
+ "extra": {
+  "forks": 28,
+  "lang": "Go",
+  "topics": [
+   "accessibility-service",
+   "adb-alternative",
+   "ai-agents",
+   "android",
+   "android-automation",
+   "android-testing",
+   "appium",
+   "device-farm",
+   "mcp",
+   "mcp-server",
+   "mobile-automation",
+   "no-root",
+   "nodejs",
+   "phone-farm",
+   "python",
+   "rpa",
+   "test-automation",
+   "ui-automation",
+   "uiautomator",
+   "webdriver"
+  ],
+  "repo_id": 1408262325
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}
