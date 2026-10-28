@@ -345,7 +345,9 @@
   "1426022297": "yandex-research/tabular-dl-more-data",
   "1415696300": "pranataa-labs/FOMC-Gold-Tail-Volatility-NLP",
   "1402332211": "uzayyaydiin/SpecLess",
-  "1408228998": "pullboard-dev/pullboard"
+  "1408228998": "pullboard-dev/pullboard",
+  "1426256817": "kukemc/bili-cli",
+  "1419901875": "FrigadeHQ/hob"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -382,6 +384,8 @@
   "StartLuxLabs/StartLux-Decision": 1793106663.086226,
   "VecSzn/PolyStrata": 1793106663.086226,
   "chenxiachan/textfold": 1793106663.086226,
-  "TheLastOxygen/mafdet": 1793115089.6638021
+  "TheLastOxygen/mafdet": 1793115089.6638021,
+  "FengZhenfei/carrel": 1793149285.4444623,
+  "dagoSte/squadra": 1793149285.4444623
  }
 }

@@ -1,0 +1,56 @@
+{
+ "id": "gh:FrigadeHQ/hob",
+ "slug": "gh-frigadehq-hob",
+ "first_seen": "2026-10-28T01:01:09.062985+00:00",
+ "appearances": [
+  {
+   "rank": 10,
+   "score": 90.3,
+   "metric": 268,
+   "t": "2026-10-28T01:01:09.062985+00:00"
+  }
+ ],
+ "peak_score": 90.3,
+ "best_rank": 10,
+ "name": "FrigadeHQ/hob",
+ "url": "https://github.com/FrigadeHQ/hob",
+ "source": "github",
+ "kind": "tool",
+ "desc": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
+ "what": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-14T22:11:20Z",
+ "last_seen": "2026-10-28T01:01:09.062985+00:00",
+ "last_why": "268 stars since launch 13 days ago \u2248 20 stars/day since launch.",
+ "extra": {
+  "forks": 17,
+  "lang": "TypeScript",
+  "topics": [
+   "ai-agent",
+   "ai-assistant",
+   "chatgpt-alternative",
+   "claude-alternative",
+   "desktop-app",
+   "electron",
+   "gemma",
+   "gpt-oss",
+   "linux",
+   "llama-cpp",
+   "llm",
+   "local-ai",
+   "local-llm",
+   "macos",
+   "mcp",
+   "offline-ai",
+   "open-source",
+   "privacy",
+   "private-ai",
+   "windows"
+  ],
+  "repo_id": 1419901875
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}

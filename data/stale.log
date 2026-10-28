@@ -60,3 +60,4 @@
 !!!!! STALE 2026-10-18T02:09:55-06:00: last successful refresh was 243 min ago (2026-10-17T22:06:14-06:00). Catching up now. !!!!!
 !!!!! STALE 2026-10-18T06:43:48-06:00: last successful refresh was 270 min ago (2026-10-18T02:13:11-06:00). Catching up now. !!!!!
 !!!!! SELFCHECK FAILED 2026-10-26T02:32:35-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
+!!!!! SELFCHECK FAILED 2026-10-27T19:04:31-06:00: SEO2 build in dist/ does not match scored-seo2.json or has content errors. DEPLOY SKIPPED. !!!!!
