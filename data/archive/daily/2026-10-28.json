@@ -17,7 +17,8 @@
   "2026-10-28T14:46:14.059816+00:00",
   "2026-10-28T16:01:18.116961+00:00",
   "2026-10-28T17:16:10.167710+00:00",
-  "2026-10-28T18:31:10.371029+00:00"
+  "2026-10-28T18:31:10.371029+00:00",
+  "2026-10-28T19:33:51.587120+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -100,12 +101,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 32,
+    "forks": 33,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -177,20 +178,20 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 290,
+    "trending": 300,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+211 likes/day pace right now (238 total).",
-   "metric_at_peak": 238,
+   "why_at_peak": "+230 likes/day pace right now (305 total).",
+   "metric_at_peak": 305,
    "metric_name": "likes"
   },
   "gh-kukemc-bili-cli": {
@@ -430,12 +431,12 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 554,
+    "forks": 558,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -468,8 +469,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 66.3,
    "best_rank": 10,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -535,12 +536,12 @@
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 74,
+    "forks": 85,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -813,13 +814,13 @@
    "first_seen": "2026-10-28T13:31:10.179916+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 791,
-    "trending": 149,
+    "trending": 150,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -839,12 +840,12 @@
    "first_seen": "2026-10-28T14:46:14.059816+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 349,
+    "comments": 376,
     "hn": "https://news.ycombinator.com/item?id=50273396"
    },
    "why_at_peak": "+1.8K points/day pace right now (183 total).",
@@ -909,16 +910,16 @@
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 309,
+    "comments": 430,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
-   "why_at_peak": "+5.7K points/day pace right now (364 total).",
-   "metric_at_peak": 364,
+   "why_at_peak": "+3.0K points/day pace right now (494 total).",
+   "metric_at_peak": 494,
    "metric_name": "points"
   },
   "hn-50275626-dayjob-tax-evaluating-ai-agents-on-50-professio": {
@@ -931,12 +932,12 @@
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 51,
+    "comments": 64,
     "hn": "https://news.ycombinator.com/item?id=50275626"
    },
    "why_at_peak": "+749 points/day pace right now (87 total).",
@@ -953,13 +954,13 @@
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T17:16:10.167710+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T19:33:51.587120+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1596,
-    "trending": 119,
+    "trending": 125,
     "hf_type": "model",
     "title": null,
     "summary": null,
