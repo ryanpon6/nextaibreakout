@@ -6,7 +6,8 @@
   "2026-10-28T01:27:46.654390+00:00",
   "2026-10-28T02:31:07.462311+00:00",
   "2026-10-28T03:46:08.609726+00:00",
-  "2026-10-28T05:01:10.580876+00:00"
+  "2026-10-28T05:01:10.580876+00:00",
+  "2026-10-28T06:16:11.237491+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -19,12 +20,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 161,
+    "comments": 170,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -41,13 +42,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 252,
+    "trending": 260,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -89,12 +90,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 24,
+    "forks": 25,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -122,12 +123,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 120,
+    "comments": 122,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
    "why_at_peak": "+557 points/day pace right now (248 total).",
@@ -166,13 +167,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.2,
    "best_rank": 6,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 93,
-    "trending": 178,
+    "trending": 194,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -419,12 +420,12 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 93.5,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 310,
+    "forks": 330,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -455,10 +456,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
-   "peak_score": 61.1,
+   "peak_score": 63.5,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T02:31:07.462311+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -522,14 +523,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
-   "peak_score": 93.4,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "peak_score": 95.0,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 65,
+    "forks": 68,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -550,9 +551,57 @@
     ],
     "repo_id": 1431986839
    },
-   "why_at_peak": "356 stars since launch 4 days ago \u2248 93 stars/day since launch.",
-   "metric_at_peak": 356,
+   "why_at_peak": "369 stars since launch 4 days ago \u2248 95 stars/day since launch.",
+   "metric_at_peak": 369,
    "metric_name": "stars"
+  },
+  "hf-recursivesi-flint": {
+   "id": "hfmodel:RecursiveSI/flint",
+   "slug": "hf-recursivesi-flint",
+   "name": "RecursiveSI/flint",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T06:16:11.237491+00:00",
+   "peak_score": 94.2,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 10574,
+    "trending": 945,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+1.7K likes/day pace right now (1.1K total).",
+   "metric_at_peak": 1074,
+   "metric_name": "likes"
+  },
+  "hn-50261819-police-are-using-ai-to-pull-over-drivers-for-susp": {
+   "id": "hn:50261819",
+   "slug": "hn-50261819-police-are-using-ai-to-pull-over-drivers-for-susp",
+   "name": "Police are using AI to pull over drivers for 'suspicious' behavior",
+   "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-28T06:16:11.237491+00:00",
+   "peak_score": 91.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 281,
+    "hn": "https://news.ycombinator.com/item?id=50261819"
+   },
+   "why_at_peak": "+173 points/day pace right now (369 total).",
+   "metric_at_peak": 369,
+   "metric_name": "points"
   }
  }
 }
