@@ -68,10 +68,16 @@
    "score": 93.2,
    "metric": 291,
    "t": "2026-10-28T13:31:10.179916+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.9,
+   "metric": 303,
+   "t": "2026-10-28T14:46:14.059816+00:00"
   }
  ],
  "peak_score": 94.9,
- "best_rank": 6,
+ "best_rank": 5,
  "name": "LiquidAI/LFM3-1.7B",
  "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
  "source": "huggingface",
@@ -81,11 +87,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-23T21:35:42.000Z",
- "last_seen": "2026-10-28T13:31:10.179916+00:00",
- "last_why": "+230 likes/day pace right now (291 total).",
+ "last_seen": "2026-10-28T14:46:14.059816+00:00",
+ "last_why": "+230 likes/day pace right now (303 total).",
  "extra": {
   "downloads": 8892,
-  "trending": 290,
+  "trending": 302,
   "hf_type": "model",
   "title": null,
   "summary": null,

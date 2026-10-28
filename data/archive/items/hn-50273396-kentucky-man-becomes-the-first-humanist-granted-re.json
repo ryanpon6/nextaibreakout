@@ -1,0 +1,33 @@
+{
+ "id": "hn:50273396",
+ "slug": "hn-50273396-kentucky-man-becomes-the-first-humanist-granted-re",
+ "first_seen": "2026-10-28T14:46:14.059816+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 90,
+   "t": "2026-10-28T14:46:14.059816+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "Kentucky man becomes the first humanist granted religious exemption from AI",
+ "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-28T13:41:30Z",
+ "last_seen": "2026-10-28T14:46:14.059816+00:00",
+ "last_why": "90 points in 1h on Hacker News (98 comments).",
+ "extra": {
+  "comments": 98,
+  "hn": "https://news.ycombinator.com/item?id=50273396"
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}
