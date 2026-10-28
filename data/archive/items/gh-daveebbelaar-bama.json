@@ -1,0 +1,51 @@
+{
+ "id": "gh:daveebbelaar/bama",
+ "slug": "gh-daveebbelaar-bama",
+ "first_seen": "2026-10-28T05:01:10.580876+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 93.4,
+   "metric": 356,
+   "t": "2026-10-28T05:01:10.580876+00:00"
+  }
+ ],
+ "peak_score": 93.4,
+ "best_rank": 7,
+ "name": "daveebbelaar/bama",
+ "url": "https://github.com/daveebbelaar/bama",
+ "source": "github",
+ "kind": "tool",
+ "desc": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+ "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-24T08:44:36Z",
+ "last_seen": "2026-10-28T05:01:10.580876+00:00",
+ "last_why": "356 stars since launch 4 days ago \u2248 93 stars/day since launch.",
+ "extra": {
+  "forks": 65,
+  "lang": "Swift",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "app-clone",
+   "claude-code",
+   "claude-code-plugin",
+   "codex",
+   "computer-use",
+   "liquid-glass",
+   "macos",
+   "macos-app",
+   "native-apps",
+   "skills",
+   "swift",
+   "swiftdata",
+   "swiftui"
+  ],
+  "repo_id": 1431986839
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}
