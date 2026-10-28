@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:LiquidAI/LFM3-Omni-2B",
+ "slug": "hf-liquidai-lfm3-omni-2b",
+ "first_seen": "2026-10-28T16:01:18.116961+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.9,
+   "metric": 121,
+   "t": "2026-10-28T16:01:18.116961+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 5,
+ "name": "LiquidAI/LFM3-Omni-2B",
+ "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "any-to-any",
+ "what": "any-to-any model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-21T16:58:40.000Z",
+ "last_seen": "2026-10-28T16:01:18.116961+00:00",
+ "last_why": "Trending score 119 on Hugging Face; 121 likes, 714 downloads.",
+ "extra": {
+  "downloads": 714,
+  "trending": 119,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}

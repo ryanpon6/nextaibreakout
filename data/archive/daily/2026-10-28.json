@@ -14,7 +14,8 @@
   "2026-10-28T11:01:10.921307+00:00",
   "2026-10-28T12:16:07.805421+00:00",
   "2026-10-28T13:31:10.179916+00:00",
-  "2026-10-28T14:46:14.059816+00:00"
+  "2026-10-28T14:46:14.059816+00:00",
+  "2026-10-28T16:01:18.116961+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -97,12 +98,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 29,
+    "forks": 31,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -130,12 +131,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 166,
+    "comments": 171,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
    "why_at_peak": "+442 points/day pace right now (388 total).",
@@ -174,13 +175,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 254,
+    "trending": 266,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -238,13 +239,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8892,
-    "trending": 302,
+    "trending": 318,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -427,12 +428,12 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 505,
+    "forks": 524,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -465,8 +466,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 66.3,
    "best_rank": 10,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -739,12 +740,12 @@
    "first_seen": "2026-10-28T11:01:10.921307+00:00",
    "peak_score": 94.8,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "Universal toolkits for linting, viewing and managing i18n for any frameworks.",
    "tag": "agents",
    "extra": {
-    "forks": 4,
+    "forks": 5,
     "lang": "TypeScript",
     "topics": [
      "devframe",
@@ -834,19 +835,67 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-28T14:46:14.059816+00:00",
-   "peak_score": 98.2,
-   "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 98,
+    "comments": 199,
     "hn": "https://news.ycombinator.com/item?id=50273396"
    },
-   "why_at_peak": "90 points in 1h on Hacker News (98 comments).",
-   "metric_at_peak": 90,
+   "why_at_peak": "+1.8K points/day pace right now (183 total).",
+   "metric_at_peak": 183,
    "metric_name": "points"
+  },
+  "hn-50273192-valve-responds-to-developers-fearing-ai-slop-and-c": {
+   "id": "hn:50273192",
+   "slug": "hn-50273192-valve-responds-to-developers-fearing-ai-slop-and-c",
+   "name": "Valve Responds to Developers Fearing AI Slop and Clones",
+   "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-28T16:01:18.116961+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 50,
+    "hn": "https://news.ycombinator.com/item?id=50273192"
+   },
+   "why_at_peak": "+441 points/day pace right now (49 total).",
+   "metric_at_peak": 49,
+   "metric_name": "points"
+  },
+  "hf-liquidai-lfm3-omni-2b": {
+   "id": "hfmodel:LiquidAI/LFM3-Omni-2B",
+   "slug": "hf-liquidai-lfm3-omni-2b",
+   "name": "LiquidAI/LFM3-Omni-2B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T16:01:18.116961+00:00",
+   "peak_score": 94.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T16:01:18.116961+00:00",
+   "what": "any-to-any model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 714,
+    "trending": 119,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 119 on Hugging Face; 121 likes, 714 downloads.",
+   "metric_at_peak": 121,
+   "metric_name": "likes"
   }
  }
 }

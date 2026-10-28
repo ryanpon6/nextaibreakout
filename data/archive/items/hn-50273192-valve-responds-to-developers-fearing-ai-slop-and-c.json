@@ -1,0 +1,33 @@
+{
+ "id": "hn:50273192",
+ "slug": "hn-50273192-valve-responds-to-developers-fearing-ai-slop-and-c",
+ "first_seen": "2026-10-28T16:01:18.116961+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 49,
+   "t": "2026-10-28T16:01:18.116961+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "Valve Responds to Developers Fearing AI Slop and Clones",
+ "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-28T13:27:24Z",
+ "last_seen": "2026-10-28T16:01:18.116961+00:00",
+ "last_why": "+441 points/day pace right now (49 total).",
+ "extra": {
+  "comments": 50,
+  "hn": "https://news.ycombinator.com/item?id=50273192"
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}
