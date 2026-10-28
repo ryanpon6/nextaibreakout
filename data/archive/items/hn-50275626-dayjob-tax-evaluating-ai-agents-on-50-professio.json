@@ -20,10 +20,16 @@
    "score": 97.3,
    "metric": 114,
    "t": "2026-10-28T19:33:51.587120+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.4,
+   "metric": 139,
+   "t": "2026-10-28T20:46:59.150151+00:00"
   }
  ],
  "peak_score": 97.4,
- "best_rank": 3,
+ "best_rank": 2,
  "name": "Dayjob: Tax \u2013 evaluating AI agents on 50 professional tax assignments",
  "url": "https://surgehq.ai/blog/dayjob-tax",
  "source": "hackernews",
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "points",
  "created": "2026-10-28T15:46:30Z",
- "last_seen": "2026-10-28T19:33:51.587120+00:00",
- "last_why": "+620 points/day pace right now (114 total).",
+ "last_seen": "2026-10-28T20:46:59.150151+00:00",
+ "last_why": "+492 points/day pace right now (139 total).",
  "extra": {
-  "comments": 64,
+  "comments": 78,
   "hn": "https://news.ycombinator.com/item?id=50275626"
  },
  "days": [

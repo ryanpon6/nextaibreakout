@@ -18,7 +18,8 @@
   "2026-10-28T16:01:18.116961+00:00",
   "2026-10-28T17:16:10.167710+00:00",
   "2026-10-28T18:31:10.371029+00:00",
-  "2026-10-28T19:33:51.587120+00:00"
+  "2026-10-28T19:33:51.587120+00:00",
+  "2026-10-28T20:46:59.150151+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -101,8 +102,8 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 18,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -178,13 +179,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 300,
+    "trending": 312,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -536,8 +537,8 @@
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
@@ -814,13 +815,13 @@
    "first_seen": "2026-10-28T13:31:10.179916+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 791,
-    "trending": 150,
+    "trending": 153,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -840,12 +841,12 @@
    "first_seen": "2026-10-28T14:46:14.059816+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 376,
+    "comments": 413,
     "hn": "https://news.ycombinator.com/item?id=50273396"
    },
    "why_at_peak": "+1.8K points/day pace right now (183 total).",
@@ -910,12 +911,12 @@
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 430,
+    "comments": 497,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
    "why_at_peak": "+3.0K points/day pace right now (494 total).",
@@ -931,17 +932,17 @@
    "kind": "news",
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 97.4,
-   "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "best_rank": 2,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 64,
+    "comments": 78,
     "hn": "https://news.ycombinator.com/item?id=50275626"
    },
-   "why_at_peak": "+749 points/day pace right now (87 total).",
-   "metric_at_peak": 87,
+   "why_at_peak": "+492 points/day pace right now (139 total).",
+   "metric_at_peak": 139,
    "metric_name": "points"
   },
   "hf-liquidai-lfm3-vl-2b": {
@@ -969,6 +970,73 @@
    "why_at_peak": "Trending score 119 on Hugging Face; 120 likes, 1.6K downloads.",
    "metric_at_peak": 120,
    "metric_name": "likes"
+  },
+  "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
+   "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "slug": "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b",
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T20:46:59.150151+00:00",
+   "peak_score": 94.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "what": "automatic-speech-recognition model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 338,
+    "trending": 144,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 144 on Hugging Face; 144 likes, 338 downloads.",
+   "metric_at_peak": 144,
+   "metric_name": "likes"
+  },
+  "gh-0xs4n4tg-kinetograph": {
+   "id": "gh:0xS4N4TG/kinetograph",
+   "slug": "gh-0xs4n4tg-kinetograph",
+   "name": "0xS4N4TG/kinetograph",
+   "url": "https://github.com/0xS4N4TG/kinetograph",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T20:46:59.150151+00:00",
+   "peak_score": 94.1,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "what": "A blazingly fast programmatic video engine, made for agents.",
+   "tag": "agents",
+   "extra": {
+    "forks": 20,
+    "lang": "TypeScript",
+    "topics": [
+     "agents",
+     "ai-agents",
+     "ffmpeg",
+     "gpu",
+     "hyperframes",
+     "mcp",
+     "motion-graphics",
+     "programmatic-video",
+     "react",
+     "remotion",
+     "rust",
+     "skia",
+     "typescript",
+     "video",
+     "video-rendering",
+     "wgpu"
+    ],
+    "repo_id": 1430606320
+   },
+   "why_at_peak": "294 stars since launch 6 days ago \u2248 52 stars/day since launch.",
+   "metric_at_peak": 294,
+   "metric_name": "stars"
   }
  }
 }

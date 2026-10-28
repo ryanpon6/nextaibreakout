@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+ "slug": "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b",
+ "first_seen": "2026-10-28T20:46:59.150151+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.9,
+   "metric": 144,
+   "t": "2026-10-28T20:46:59.150151+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 5,
+ "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+ "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "automatic-speech-recognition",
+ "what": "automatic-speech-recognition model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-07T22:50:21.000Z",
+ "last_seen": "2026-10-28T20:46:59.150151+00:00",
+ "last_why": "Trending score 144 on Hugging Face; 144 likes, 338 downloads.",
+ "extra": {
+  "downloads": 338,
+  "trending": 144,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}

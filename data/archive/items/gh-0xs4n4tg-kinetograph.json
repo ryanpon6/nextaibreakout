@@ -1,0 +1,52 @@
+{
+ "id": "gh:0xS4N4TG/kinetograph",
+ "slug": "gh-0xs4n4tg-kinetograph",
+ "first_seen": "2026-10-28T20:46:59.150151+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.1,
+   "metric": 294,
+   "t": "2026-10-28T20:46:59.150151+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 6,
+ "name": "0xS4N4TG/kinetograph",
+ "url": "https://github.com/0xS4N4TG/kinetograph",
+ "source": "github",
+ "kind": "tool",
+ "desc": "A blazingly fast programmatic video engine, made for agents.",
+ "what": "A blazingly fast programmatic video engine, made for agents.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-23T05:15:41Z",
+ "last_seen": "2026-10-28T20:46:59.150151+00:00",
+ "last_why": "294 stars since launch 6 days ago \u2248 52 stars/day since launch.",
+ "extra": {
+  "forks": 20,
+  "lang": "TypeScript",
+  "topics": [
+   "agents",
+   "ai-agents",
+   "ffmpeg",
+   "gpu",
+   "hyperframes",
+   "mcp",
+   "motion-graphics",
+   "programmatic-video",
+   "react",
+   "remotion",
+   "rust",
+   "skia",
+   "typescript",
+   "video",
+   "video-rendering",
+   "wgpu"
+  ],
+  "repo_id": 1430606320
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}
