@@ -8,10 +8,16 @@
    "score": 94.1,
    "metric": 294,
    "t": "2026-10-28T20:46:59.150151+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 296,
+   "t": "2026-10-28T22:01:09.302286+00:00"
   }
  ],
- "peak_score": 94.1,
- "best_rank": 6,
+ "peak_score": 95.7,
+ "best_rank": 5,
  "name": "0xS4N4TG/kinetograph",
  "url": "https://github.com/0xS4N4TG/kinetograph",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-23T05:15:41Z",
- "last_seen": "2026-10-28T20:46:59.150151+00:00",
- "last_why": "294 stars since launch 6 days ago \u2248 52 stars/day since launch.",
+ "last_seen": "2026-10-28T22:01:09.302286+00:00",
+ "last_why": "296 stars since launch 6 days ago \u2248 52 stars/day since launch.",
  "extra": {
   "forks": 20,
   "lang": "TypeScript",

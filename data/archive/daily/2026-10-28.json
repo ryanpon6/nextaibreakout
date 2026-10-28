@@ -19,7 +19,8 @@
   "2026-10-28T17:16:10.167710+00:00",
   "2026-10-28T18:31:10.371029+00:00",
   "2026-10-28T19:33:51.587120+00:00",
-  "2026-10-28T20:46:59.150151+00:00"
+  "2026-10-28T20:46:59.150151+00:00",
+  "2026-10-28T22:01:09.302286+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -54,13 +55,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-28T14:46:14.059816+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8357,
-    "trending": 290,
+    "trending": 303,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -102,12 +103,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 19,
-   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "runs_in_top10": 20,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 33,
+    "forks": 34,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -179,13 +180,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 15,
-   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "runs_in_top10": 16,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 312,
+    "trending": 324,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -470,8 +471,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 66.3,
    "best_rank": 10,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-28T19:33:51.587120+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -537,12 +538,12 @@
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 85,
+    "forks": 86,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -911,12 +912,12 @@
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 497,
+    "comments": 552,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
    "why_at_peak": "+3.0K points/day pace right now (494 total).",
@@ -981,20 +982,20 @@
    "first_seen": "2026-10-28T20:46:59.150151+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 338,
-    "trending": 144,
+    "trending": 163,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 144 on Hugging Face; 144 likes, 338 downloads.",
-   "metric_at_peak": 144,
+   "why_at_peak": "+369 likes/day pace right now (163 total).",
+   "metric_at_peak": 163,
    "metric_name": "likes"
   },
   "gh-0xs4n4tg-kinetograph": {
@@ -1005,10 +1006,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-28T20:46:59.150151+00:00",
-   "peak_score": 94.1,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T20:46:59.150151+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
    "what": "A blazingly fast programmatic video engine, made for agents.",
    "tag": "agents",
    "extra": {
@@ -1034,9 +1035,53 @@
     ],
     "repo_id": 1430606320
    },
-   "why_at_peak": "294 stars since launch 6 days ago \u2248 52 stars/day since launch.",
-   "metric_at_peak": 294,
+   "why_at_peak": "296 stars since launch 6 days ago \u2248 52 stars/day since launch.",
+   "metric_at_peak": 296,
    "metric_name": "stars"
+  },
+  "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
+   "id": "hn:50280864",
+   "slug": "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl",
+   "name": "Leak Exposes 41,000 Homeland Security Workers\u2013Including Undercover ICE Agents",
+   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-28T22:01:09.302286+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "what": "",
+   "tag": "safety",
+   "extra": {
+    "comments": 29,
+    "hn": "https://news.ycombinator.com/item?id=50280864"
+   },
+   "why_at_peak": "100 points in 1h on Hacker News (29 comments).",
+   "metric_at_peak": 100,
+   "metric_name": "points"
+  },
+  "hn-50280178-google-ai-gets-cagey-when-asked-who-won-the-2020-e": {
+   "id": "hn:50280178",
+   "slug": "hn-50280178-google-ai-gets-cagey-when-asked-who-won-the-2020-e",
+   "name": "Google AI gets cagey when asked who won the 2020 elections",
+   "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-28T22:01:09.302286+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 36,
+    "hn": "https://news.ycombinator.com/item?id=50280178"
+   },
+   "why_at_peak": "66 points in 2h on Hacker News (36 comments).",
+   "metric_at_peak": 66,
+   "metric_name": "points"
   }
  }
 }
