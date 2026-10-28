@@ -7,7 +7,8 @@
   "2026-10-28T02:31:07.462311+00:00",
   "2026-10-28T03:46:08.609726+00:00",
   "2026-10-28T05:01:10.580876+00:00",
-  "2026-10-28T06:16:11.237491+00:00"
+  "2026-10-28T06:16:11.237491+00:00",
+  "2026-10-28T07:25:01.959216+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -20,12 +21,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 170,
+    "comments": 182,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -42,13 +43,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 260,
+    "trending": 267,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -68,12 +69,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T05:01:10.580876+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 222,
+    "comments": 234,
     "hn": "https://news.ycombinator.com/item?id=50261589"
    },
    "why_at_peak": "+596 points/day pace right now (246 total).",
@@ -90,8 +91,8 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -123,16 +124,16 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 122,
+    "comments": 125,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
-   "why_at_peak": "+557 points/day pace right now (248 total).",
-   "metric_at_peak": 248,
+   "why_at_peak": "+376 points/day pace right now (297 total).",
+   "metric_at_peak": 297,
    "metric_name": "points"
   },
   "pypi-sglang": {
@@ -165,22 +166,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
-   "peak_score": 94.2,
+   "peak_score": 94.9,
    "best_rank": 6,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 93,
-    "trending": 194,
+    "trending": 207,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 134 on Hugging Face; 137 likes, 93 downloads.",
-   "metric_at_peak": 137,
+   "why_at_peak": "+272 likes/day pace right now (210 total).",
+   "metric_at_peak": 210,
    "metric_name": "likes"
   },
   "gh-kukemc-bili-cli": {
@@ -231,13 +232,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 91.9,
    "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T01:27:46.654390+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 6311,
-    "trending": 180,
+    "trending": 232,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -418,14 +419,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
-   "peak_score": 93.5,
+   "peak_score": 94.1,
    "best_rank": 7,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 330,
+    "forks": 349,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -444,8 +445,8 @@
     ],
     "repo_id": 1403649056
    },
-   "why_at_peak": "+672 stars/day pace right now (1.6K total).",
-   "metric_at_peak": 1584,
+   "why_at_peak": "+1.9K stars/day pace right now (1.8K total).",
+   "metric_at_peak": 1790,
    "metric_name": "stars"
   },
   "pypi-pydantic-ai": {
@@ -458,8 +459,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 63.5,
    "best_rank": 10,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -525,12 +526,12 @@
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T07:25:01.959216+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 68,
+    "forks": 70,
     "lang": "Swift",
     "topics": [
      "agent-skills",
