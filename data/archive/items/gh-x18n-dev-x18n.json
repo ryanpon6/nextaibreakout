@@ -1,0 +1,43 @@
+{
+ "id": "gh:x18n-dev/x18n",
+ "slug": "gh-x18n-dev-x18n",
+ "first_seen": "2026-10-28T11:01:10.921307+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.8,
+   "metric": 293,
+   "t": "2026-10-28T11:01:10.921307+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 6,
+ "name": "x18n-dev/x18n",
+ "url": "https://github.com/x18n-dev/x18n",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Universal toolkits for linting, viewing and managing i18n for any frameworks.",
+ "what": "Universal toolkits for linting, viewing and managing i18n for any frameworks.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-15T00:48:13Z",
+ "last_seen": "2026-10-28T11:01:10.921307+00:00",
+ "last_why": "293 stars since launch 13 days ago \u2248 22 stars/day since launch.",
+ "extra": {
+  "forks": 3,
+  "lang": "TypeScript",
+  "topics": [
+   "devframe",
+   "i18n",
+   "i18n-tool",
+   "lsp",
+   "lsp-server",
+   "mcp",
+   "vscode-extension"
+  ],
+  "repo_id": 1420002671
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}

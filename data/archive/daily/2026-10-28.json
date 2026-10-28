@@ -10,7 +10,8 @@
   "2026-10-28T06:16:11.237491+00:00",
   "2026-10-28T07:25:01.959216+00:00",
   "2026-10-28T08:31:09.649800+00:00",
-  "2026-10-28T09:46:11.076956+00:00"
+  "2026-10-28T09:46:11.076956+00:00",
+  "2026-10-28T11:01:10.921307+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -23,12 +24,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 214,
+    "comments": 227,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -71,12 +72,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 234,
+    "comments": 252,
     "hn": "https://news.ycombinator.com/item?id=50261589"
    },
    "why_at_peak": "+596 points/day pace right now (246 total).",
@@ -93,8 +94,8 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -126,16 +127,16 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 140,
+    "comments": 143,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
-   "why_at_peak": "+588 points/day pace right now (324 total).",
-   "metric_at_peak": 324,
+   "why_at_peak": "+461 points/day pace right now (365 total).",
+   "metric_at_peak": 365,
    "metric_name": "points"
   },
   "pypi-sglang": {
@@ -234,13 +235,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.9,
    "best_rank": 6,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 6311,
-    "trending": 260,
+    "downloads": 8892,
+    "trending": 270,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -421,14 +422,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
-   "peak_score": 95.7,
-   "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "peak_score": 96.5,
+   "best_rank": 4,
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 405,
+    "forks": 430,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -447,8 +448,8 @@
     ],
     "repo_id": 1403649056
    },
-   "why_at_peak": "+2.5K stars/day pace right now (1.9K total).",
-   "metric_at_peak": 1903,
+   "why_at_peak": "+2.1K stars/day pace right now (2.1K total).",
+   "metric_at_peak": 2118,
    "metric_name": "stars"
   },
   "pypi-pydantic-ai": {
@@ -461,8 +462,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 63.5,
    "best_rank": 10,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -568,13 +569,13 @@
    "first_seen": "2026-10-28T06:16:11.237491+00:00",
    "peak_score": 94.2,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T06:16:11.237491+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 10574,
-    "trending": 945,
+    "downloads": 14047,
+    "trending": 965,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -698,6 +699,64 @@
    "why_at_peak": "+96 points/day pace right now (639 total).",
    "metric_at_peak": 639,
    "metric_name": "points"
+  },
+  "hf-jialinyyzz-humanizer": {
+   "id": "hfmodel:jialinyyzz/humanizer",
+   "slug": "hf-jialinyyzz-humanizer",
+   "name": "jialinyyzz/humanizer",
+   "url": "https://huggingface.co/jialinyyzz/humanizer",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T11:01:10.921307+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 195233,
+    "trending": 118,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 118 on Hugging Face; 2.2K likes, 195.2K downloads.",
+   "metric_at_peak": 2185,
+   "metric_name": "likes"
+  },
+  "gh-x18n-dev-x18n": {
+   "id": "gh:x18n-dev/x18n",
+   "slug": "gh-x18n-dev-x18n",
+   "name": "x18n-dev/x18n",
+   "url": "https://github.com/x18n-dev/x18n",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T11:01:10.921307+00:00",
+   "peak_score": 94.8,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T11:01:10.921307+00:00",
+   "what": "Universal toolkits for linting, viewing and managing i18n for any frameworks.",
+   "tag": "agents",
+   "extra": {
+    "forks": 3,
+    "lang": "TypeScript",
+    "topics": [
+     "devframe",
+     "i18n",
+     "i18n-tool",
+     "lsp",
+     "lsp-server",
+     "mcp",
+     "vscode-extension"
+    ],
+    "repo_id": 1420002671
+   },
+   "why_at_peak": "293 stars since launch 13 days ago \u2248 22 stars/day since launch.",
+   "metric_at_peak": 293,
+   "metric_name": "stars"
   }
  }
 }
