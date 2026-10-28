@@ -26,9 +26,15 @@
    "score": 94.0,
    "metric": 379,
    "t": "2026-10-27T06:01:05.472553+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 422,
+   "t": "2026-10-28T23:16:04.862033+00:00"
   }
  ],
- "peak_score": 94.8,
+ "peak_score": 95.7,
  "best_rank": 5,
  "name": "C4rohan/Lampline",
  "url": "https://github.com/C4rohan/Lampline",
@@ -39,10 +45,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-19T06:50:54Z",
- "last_seen": "2026-10-27T06:01:05.472553+00:00",
- "last_why": "+308 stars/day pace right now (379 total).",
+ "last_seen": "2026-10-28T23:16:04.862033+00:00",
+ "last_why": "+442 stars/day pace right now (422 total).",
  "extra": {
-  "forks": 44,
+  "forks": 57,
   "lang": "Python",
   "topics": [
    "agents-as-code",
@@ -63,6 +69,7 @@
   "repo_id": 1425227613
  },
  "days": [
-  "2026-10-27"
+  "2026-10-27",
+  "2026-10-28"
  ]
 }

@@ -20,7 +20,8 @@
   "2026-10-28T18:31:10.371029+00:00",
   "2026-10-28T19:33:51.587120+00:00",
   "2026-10-28T20:46:59.150151+00:00",
-  "2026-10-28T22:01:09.302286+00:00"
+  "2026-10-28T22:01:09.302286+00:00",
+  "2026-10-28T23:16:04.862033+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -103,8 +104,8 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 20,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 21,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -180,13 +181,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 324,
+    "trending": 336,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -244,13 +245,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-28T18:31:10.371029+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8892,
-    "trending": 347,
+    "trending": 377,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -471,8 +472,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 66.3,
    "best_rank": 10,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -538,12 +539,12 @@
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 86,
+    "forks": 88,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -912,12 +913,12 @@
    "first_seen": "2026-10-28T17:16:10.167710+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 552,
+    "comments": 603,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
    "why_at_peak": "+3.0K points/day pace right now (494 total).",
@@ -982,13 +983,13 @@
    "first_seen": "2026-10-28T20:46:59.150151+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 338,
-    "trending": 163,
+    "trending": 173,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1049,16 +1050,16 @@
    "first_seen": "2026-10-28T22:01:09.302286+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "",
    "tag": "safety",
    "extra": {
-    "comments": 29,
+    "comments": 94,
     "hn": "https://news.ycombinator.com/item?id=50280864"
    },
-   "why_at_peak": "100 points in 1h on Hacker News (29 comments).",
-   "metric_at_peak": 100,
+   "why_at_peak": "+2.5K points/day pace right now (228 total).",
+   "metric_at_peak": 228,
    "metric_name": "points"
   },
   "hn-50280178-google-ai-gets-cagey-when-asked-who-won-the-2020-e": {
@@ -1071,17 +1072,56 @@
    "first_seen": "2026-10-28T22:01:09.302286+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-28T22:01:09.302286+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 36,
+    "comments": 55,
     "hn": "https://news.ycombinator.com/item?id=50280178"
    },
    "why_at_peak": "66 points in 2h on Hacker News (36 comments).",
    "metric_at_peak": 66,
    "metric_name": "points"
+  },
+  "gh-c4rohan-lampline": {
+   "id": "gh:C4rohan/Lampline",
+   "slug": "gh-c4rohan-lampline",
+   "name": "C4rohan/Lampline",
+   "url": "https://github.com/C4rohan/Lampline",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T23:16:04.862033+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T23:16:04.862033+00:00",
+   "what": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 57,
+    "lang": "Python",
+    "topics": [
+     "agents-as-code",
+     "contact-center",
+     "conversational-ai",
+     "cx-agent-studio",
+     "dialogflow-cx",
+     "ivr",
+     "llm",
+     "pipecat",
+     "self-hosted",
+     "sip",
+     "speech-to-text",
+     "text-to-speech",
+     "voice-agents",
+     "voice-ai"
+    ],
+    "repo_id": 1425227613
+   },
+   "why_at_peak": "+442 stars/day pace right now (422 total).",
+   "metric_at_peak": 422,
+   "metric_name": "stars"
   }
  }
 }

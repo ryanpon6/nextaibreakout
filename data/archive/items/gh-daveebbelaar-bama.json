@@ -44,6 +44,12 @@
    "score": 94.1,
    "metric": 553,
    "t": "2026-10-28T22:01:09.302286+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 573,
+   "t": "2026-10-28T23:16:04.862033+00:00"
   }
  ],
  "peak_score": 95.0,
@@ -57,10 +63,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-24T08:44:36Z",
- "last_seen": "2026-10-28T22:01:09.302286+00:00",
- "last_why": "+311 stars/day pace right now (553 total).",
+ "last_seen": "2026-10-28T23:16:04.862033+00:00",
+ "last_why": "+384 stars/day pace right now (573 total).",
  "extra": {
-  "forks": 86,
+  "forks": 88,
   "lang": "Swift",
   "topics": [
    "agent-skills",
