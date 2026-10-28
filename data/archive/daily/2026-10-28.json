@@ -9,7 +9,8 @@
   "2026-10-28T05:01:10.580876+00:00",
   "2026-10-28T06:16:11.237491+00:00",
   "2026-10-28T07:25:01.959216+00:00",
-  "2026-10-28T08:31:09.649800+00:00"
+  "2026-10-28T08:31:09.649800+00:00",
+  "2026-10-28T09:46:11.076956+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -22,12 +23,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 193,
+    "comments": 214,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -44,13 +45,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 271,
+    "trending": 276,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -92,12 +93,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 26,
+    "forks": 27,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -111,8 +112,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+269 stars/day pace right now (222 total).",
-   "metric_at_peak": 222,
+   "why_at_peak": "+134 stars/day pace right now (265 total).",
+   "metric_at_peak": 265,
    "metric_name": "stars"
   },
   "hn-50264853-survival-llm-ai-assistant-and-emergency-library-t": {
@@ -125,12 +126,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 136,
+    "comments": 140,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
    "why_at_peak": "+588 points/day pace right now (324 total).",
@@ -233,13 +234,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.9,
    "best_rank": 6,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 6311,
-    "trending": 246,
+    "trending": 260,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -422,12 +423,12 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 380,
+    "forks": 405,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -460,8 +461,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 63.5,
    "best_rank": 10,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -527,12 +528,12 @@
    "first_seen": "2026-10-28T05:01:10.580876+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 70,
+    "forks": 74,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -649,6 +650,54 @@
    "why_at_peak": "+915 stars/day pace right now (1.0K total).",
    "metric_at_peak": 1015,
    "metric_name": "stars"
+  },
+  "hf-black-forest-labs-flux-3-image-klein": {
+   "id": "hfmodel:black-forest-labs/flux-3-image-klein",
+   "slug": "hf-black-forest-labs-flux-3-image-klein",
+   "name": "black-forest-labs/flux-3-image-klein",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T09:46:11.076956+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "what": "image-to-image model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 128481,
+    "trending": 120,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 120 on Hugging Face; 746 likes, 128.5K downloads.",
+   "metric_at_peak": 746,
+   "metric_name": "likes"
+  },
+  "hn-50257325-ai-promised-less-work-i-ve-never-worked-more": {
+   "id": "hn:50257325",
+   "slug": "hn-50257325-ai-promised-less-work-i-ve-never-worked-more",
+   "name": "AI promised less work. I've never worked more",
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-28T09:46:11.076956+00:00",
+   "peak_score": 90.8,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T09:46:11.076956+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 630,
+    "hn": "https://news.ycombinator.com/item?id=50257325"
+   },
+   "why_at_peak": "+96 points/day pace right now (639 total).",
+   "metric_at_peak": 639,
+   "metric_name": "points"
   }
  }
 }
