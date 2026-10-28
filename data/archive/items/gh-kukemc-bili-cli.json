@@ -8,10 +8,16 @@
    "score": 92.6,
    "metric": 273,
    "t": "2026-10-28T01:01:09.062985+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 92.6,
+   "metric": 274,
+   "t": "2026-10-28T01:16:07.723903+00:00"
   }
  ],
  "peak_score": 92.6,
- "best_rank": 8,
+ "best_rank": 7,
  "name": "kukemc/bili-cli",
  "url": "https://github.com/kukemc/bili-cli",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-19T22:44:50Z",
- "last_seen": "2026-10-28T01:01:09.062985+00:00",
- "last_why": "273 stars since launch 8 days ago \u2248 34 stars/day since launch.",
+ "last_seen": "2026-10-28T01:16:07.723903+00:00",
+ "last_why": "274 stars since launch 8 days ago \u2248 34 stars/day since launch.",
  "extra": {
   "forks": 17,
   "lang": "Python",

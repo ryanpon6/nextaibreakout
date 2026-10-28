@@ -8,10 +8,16 @@
    "score": 90.3,
    "metric": 268,
    "t": "2026-10-28T01:01:09.062985+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 91.1,
+   "metric": 270,
+   "t": "2026-10-28T01:16:07.723903+00:00"
   }
  ],
- "peak_score": 90.3,
- "best_rank": 10,
+ "peak_score": 91.1,
+ "best_rank": 9,
  "name": "FrigadeHQ/hob",
  "url": "https://github.com/FrigadeHQ/hob",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T22:11:20Z",
- "last_seen": "2026-10-28T01:01:09.062985+00:00",
- "last_why": "268 stars since launch 13 days ago \u2248 20 stars/day since launch.",
+ "last_seen": "2026-10-28T01:16:07.723903+00:00",
+ "last_why": "270 stars since launch 13 days ago \u2248 21 stars/day since launch.",
  "extra": {
   "forks": 17,
   "lang": "TypeScript",
