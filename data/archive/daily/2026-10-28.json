@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-28T01:01:09.062985+00:00",
   "2026-10-28T01:16:07.723903+00:00",
-  "2026-10-28T01:27:46.654390+00:00"
+  "2026-10-28T01:27:46.654390+00:00",
+  "2026-10-28T02:31:07.462311+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -16,12 +17,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T01:27:46.654390+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 104,
+    "comments": 125,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -38,13 +39,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T01:27:46.654390+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 235,
+    "trending": 239,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -64,12 +65,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T01:27:46.654390+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 173,
+    "comments": 195,
     "hn": "https://news.ycombinator.com/item?id=50261589"
    },
    "why_at_peak": "+596 points/day pace right now (246 total).",
@@ -84,14 +85,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
-   "peak_score": 96.6,
-   "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T01:27:46.654390+00:00",
+   "peak_score": 98.2,
+   "best_rank": 1,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 18,
+    "forks": 23,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -105,8 +106,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+255 stars/day pace right now (197 total).",
-   "metric_at_peak": 197,
+   "why_at_peak": "+250 stars/day pace right now (208 total).",
+   "metric_at_peak": 208,
    "metric_name": "stars"
   },
   "hn-50264853-survival-llm-ai-assistant-and-emergency-library-t": {
@@ -117,18 +118,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
-   "peak_score": 95.8,
-   "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T01:27:46.654390+00:00",
+   "peak_score": 97.4,
+   "best_rank": 2,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 98,
+    "comments": 105,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
-   "why_at_peak": "+576 points/day pace right now (175 total).",
-   "metric_at_peak": 175,
+   "why_at_peak": "+523 points/day pace right now (199 total).",
+   "metric_at_peak": 199,
    "metric_name": "points"
   },
   "pypi-sglang": {
@@ -309,6 +310,162 @@
    "why_at_peak": "+560 points/day pace right now (459 total).",
    "metric_at_peak": 459,
    "metric_name": "points"
+  },
+  "hf-ccore-qwen3-5-4b-3d-coder": {
+   "id": "hfmodel:ccore/Qwen3.5-4B-3D-Coder",
+   "slug": "hf-ccore-qwen3-5-4b-3d-coder",
+   "name": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T02:31:07.462311+00:00",
+   "peak_score": 95.1,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 3544,
+    "trending": 174,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+68 likes/day pace right now (178 total).",
+   "metric_at_peak": 178,
+   "metric_name": "likes"
+  },
+  "hf-liconstudio-minimax-h3-vbvr": {
+   "id": "hfmodel:LiconStudio/Minimax-H3-VBVR",
+   "slug": "hf-liconstudio-minimax-h3-vbvr",
+   "name": "LiconStudio/Minimax-H3-VBVR",
+   "url": "https://huggingface.co/LiconStudio/Minimax-H3-VBVR",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T02:31:07.462311+00:00",
+   "peak_score": 93.5,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 4701,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 4.7K downloads.",
+   "metric_at_peak": 125,
+   "metric_name": "likes"
+  },
+  "gh-entelligence-ai-agentplay": {
+   "id": "gh:Entelligence-AI/agentplay",
+   "slug": "gh-entelligence-ai-agentplay",
+   "name": "Entelligence-AI/agentplay",
+   "url": "https://github.com/Entelligence-AI/agentplay",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T02:31:07.462311+00:00",
+   "peak_score": 92.7,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
+   "what": "Replay your coding agent sessions as a map and a timeline",
+   "tag": "agents",
+   "extra": {
+    "forks": 30,
+    "lang": "Python",
+    "topics": [
+     "agent-observability",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "codex",
+     "coding-agents",
+     "cursor",
+     "developer-tools",
+     "devtools",
+     "github-copilot",
+     "kiro",
+     "llm",
+     "observability",
+     "opencode",
+     "privacy",
+     "python",
+     "session-replay",
+     "typescript",
+     "visualization"
+    ],
+    "repo_id": 1418643214
+   },
+   "why_at_peak": "325 stars since launch 14 days ago \u2248 24 stars/day since launch.",
+   "metric_at_peak": 325,
+   "metric_name": "stars"
+  },
+  "gh-aientech-dossier": {
+   "id": "gh:AienTech/dossier",
+   "slug": "gh-aientech-dossier",
+   "name": "AienTech/dossier",
+   "url": "https://github.com/AienTech/dossier",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T02:31:07.462311+00:00",
+   "peak_score": 92.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
+   "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 288,
+    "lang": "TypeScript",
+    "topics": [
+     "caprover",
+     "cover-letter",
+     "docker",
+     "job-application-tracker",
+     "job-search",
+     "llm",
+     "local-llm",
+     "nextjs",
+     "ollama",
+     "postgresql",
+     "resume",
+     "self-hosted",
+     "typescript"
+    ],
+    "repo_id": 1403649056
+   },
+   "why_at_peak": "+705 stars/day pace right now (1.5K total).",
+   "metric_at_peak": 1549,
+   "metric_name": "stars"
+  },
+  "pypi-pydantic-ai": {
+   "id": "pypi:pydantic-ai",
+   "slug": "pypi-pydantic-ai",
+   "name": "pydantic-ai",
+   "url": "https://pypi.org/project/pydantic-ai",
+   "source": "pypi",
+   "kind": "tool",
+   "first_seen": "2026-10-28T02:31:07.462311+00:00",
+   "peak_score": 61.1,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T02:31:07.462311+00:00",
+   "what": "Python package",
+   "tag": "dev tools",
+   "extra": {
+    "week": 1567393,
+    "month": 5383780
+   },
+   "why_at_peak": "293.1K downloads yesterday, 1.31\u00d7 its 7-day average.",
+   "metric_at_peak": 293088,
+   "metric_name": "downloads/day"
   }
  }
 }
