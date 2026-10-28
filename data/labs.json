@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T16:02:12.759499+00:00",
+ "generated": "2026-10-28T17:16:57.917740+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-28T16:02:12.759499+00:00"
+   "fetched": "2026-10-28T17:16:57.917740+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-28T16:02:12.759499+00:00"
+   "fetched": "2026-10-28T17:16:57.917740+00:00"
   },
   "openai": {
    "items": [
@@ -407,7 +407,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1332
+     "raw": 1333
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-28T16:02:12.759499+00:00"
+   "fetched": "2026-10-28T17:16:57.917740+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,10 +541,21 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-28T16:02:12.759499+00:00"
+   "fetched": "2026-10-28T17:16:57.917740+00:00"
   },
   "google-deepmind": {
    "items": [
+    {
+     "title": "Gemini 4 Carbon: Our next frontier model",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+     "date": "2026-10-28T17:00:58+00:00",
+     "day": "2026-10-28",
+     "summary": "",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Genie 4: A new generation of world simulation",
      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
@@ -643,17 +654,6 @@
      "source": "Google DeepMind Blog RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Introducing SynthID Bio",
-     "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-     "date": "2026-09-30T15:03:07+00:00",
-     "day": "2026-09-30",
-     "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-     "categories": [],
-     "source": "Google DeepMind Blog RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-28T16:02:12.759499+00:00"
+   "fetched": "2026-10-28T17:16:57.917740+00:00"
   },
   "meta": {
    "items": [
@@ -744,23 +744,6 @@
      "source": "Engineering at Meta: ML Applications RSS",
      "unofficial": false,
      "prio": 1
-    },
-    {
-     "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
-     "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
-     "date": "2026-10-12T17:08:05+00:00",
-     "day": "2026-10-12",
-     "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier",
-     "categories": [
-      "Meta",
-      "Recent News",
-      "Sidebar - Featured",
-      "Technology and Innovation",
-      "AI"
-     ],
-     "source": "Meta Newsroom RSS (AI category only)",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -769,7 +752,7 @@
      "url": "https://about.fb.com/news/feed/",
      "status": "provisional",
      "ok": true,
-     "count": 1,
+     "count": 0,
      "raw": 10
     },
     {
@@ -796,7 +779,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-28T16:02:12.759499+00:00"
+   "fetched": "2026-10-28T17:16:57.917740+00:00"
   }
  }
 }

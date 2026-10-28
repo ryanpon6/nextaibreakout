@@ -1,0 +1,33 @@
+{
+ "id": "hn:50276792",
+ "slug": "hn-50276792-gemini-4-carbon",
+ "first_seen": "2026-10-28T17:16:10.167710+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 66,
+   "t": "2026-10-28T17:16:10.167710+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Gemini 4 Carbon",
+ "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-28T17:01:23Z",
+ "last_seen": "2026-10-28T17:16:10.167710+00:00",
+ "last_why": "66 points in 1h on Hacker News (28 comments).",
+ "extra": {
+  "comments": 28,
+  "hn": "https://news.ycombinator.com/item?id=50276792"
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}
