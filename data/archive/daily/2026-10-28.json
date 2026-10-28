@@ -12,7 +12,8 @@
   "2026-10-28T08:31:09.649800+00:00",
   "2026-10-28T09:46:11.076956+00:00",
   "2026-10-28T11:01:10.921307+00:00",
-  "2026-10-28T12:16:07.805421+00:00"
+  "2026-10-28T12:16:07.805421+00:00",
+  "2026-10-28T13:31:10.179916+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -25,12 +26,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 243,
+    "comments": 254,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -47,13 +48,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8357,
-    "trending": 281,
+    "trending": 285,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -95,12 +96,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 27,
+    "forks": 28,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -128,12 +129,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 148,
+    "comments": 155,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
    "why_at_peak": "+442 points/day pace right now (388 total).",
@@ -236,13 +237,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.9,
    "best_rank": 6,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8892,
-    "trending": 278,
+    "trending": 290,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -307,12 +308,12 @@
    "first_seen": "2026-10-28T01:16:07.723903+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 277,
+    "comments": 279,
     "hn": "https://news.ycombinator.com/item?id=50260814"
    },
    "why_at_peak": "+560 points/day pace right now (459 total).",
@@ -425,12 +426,12 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 462,
+    "forks": 484,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -463,8 +464,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 63.5,
    "best_rank": 10,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T12:16:07.805421+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -758,6 +759,71 @@
    "why_at_peak": "293 stars since launch 13 days ago \u2248 22 stars/day since launch.",
    "metric_at_peak": 293,
    "metric_name": "stars"
+  },
+  "gh-channelcooperstart-capri-ai": {
+   "id": "gh:ChannelCooperStart/capri-ai",
+   "slug": "gh-channelcooperstart-capri-ai",
+   "name": "ChannelCooperStart/capri-ai",
+   "url": "https://github.com/ChannelCooperStart/capri-ai",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T13:31:10.179916+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
+   "what": "Capri \u2014 Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+   "tag": "agents",
+   "extra": {
+    "forks": 66,
+    "lang": null,
+    "topics": [
+     "ai-agent",
+     "ai-agents",
+     "ai-assistants",
+     "antigravity",
+     "autamation",
+     "claude",
+     "claude-ai",
+     "claude-code",
+     "codex",
+     "cyberpunks",
+     "edgerunners",
+     "edgerunners-2",
+     "llm",
+     "llm-agents"
+    ],
+    "repo_id": 1436323783
+   },
+   "why_at_peak": "378 stars since launch 1 days ago \u2248 585 stars/day since launch.",
+   "metric_at_peak": 378,
+   "metric_name": "stars"
+  },
+  "hf-openbmb-minicpm-ocr-1-0": {
+   "id": "hfmodel:openbmb/MiniCPM-OCR-1.0",
+   "slug": "hf-openbmb-minicpm-ocr-1-0",
+   "name": "openbmb/MiniCPM-OCR-1.0",
+   "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-28T13:31:10.179916+00:00",
+   "peak_score": 94.0,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T13:31:10.179916+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 791,
+    "trending": 131,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 131 on Hugging Face; 209 likes, 791 downloads.",
+   "metric_at_peak": 209,
+   "metric_name": "likes"
   }
  }
 }

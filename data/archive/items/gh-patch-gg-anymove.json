@@ -134,6 +134,12 @@
    "score": 98.2,
    "metric": 278,
    "t": "2026-10-28T12:16:07.805421+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.3,
+   "metric": 284,
+   "t": "2026-10-28T13:31:10.179916+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -147,10 +153,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-27T08:00:42Z",
- "last_seen": "2026-10-28T12:16:07.805421+00:00",
- "last_why": "+173 stars/day pace right now (278 total).",
+ "last_seen": "2026-10-28T13:31:10.179916+00:00",
+ "last_why": "+115 stars/day pace right now (284 total).",
  "extra": {
-  "forks": 27,
+  "forks": 28,
   "lang": "Python",
   "topics": [
    "agent-skills",
