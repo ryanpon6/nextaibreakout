@@ -1,0 +1,56 @@
+{
+ "id": "gh:openqodex/openqodex",
+ "slug": "gh-openqodex-openqodex",
+ "first_seen": "2026-10-28T08:31:09.649800+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.1,
+   "metric": 1015,
+   "t": "2026-10-28T08:31:09.649800+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 7,
+ "name": "openqodex/openqodex",
+ "url": "https://github.com/openqodex/openqodex",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before you push, in Claude Code, Codex, Cursor and Cline. No account or key of its own.",
+ "what": "Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before you push, in Claude Code,\u2026",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-02T06:19:06Z",
+ "last_seen": "2026-10-28T08:31:09.649800+00:00",
+ "last_why": "+915 stars/day pace right now (1.0K total).",
+ "extra": {
+  "forks": 71,
+  "lang": "TypeScript",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "ai-code-review",
+   "claude-code",
+   "claude-code-plugin",
+   "claude-skills",
+   "cline",
+   "code-quality",
+   "code-review",
+   "codex",
+   "coding-agents",
+   "cursor",
+   "github-actions",
+   "linter",
+   "pre-commit",
+   "sast",
+   "secret-scanning",
+   "security",
+   "security-tools",
+   "static-analysis"
+  ],
+  "repo_id": 1401219750
+ },
+ "days": [
+  "2026-10-28"
+ ]
+}

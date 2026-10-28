@@ -8,7 +8,8 @@
   "2026-10-28T03:46:08.609726+00:00",
   "2026-10-28T05:01:10.580876+00:00",
   "2026-10-28T06:16:11.237491+00:00",
-  "2026-10-28T07:25:01.959216+00:00"
+  "2026-10-28T07:25:01.959216+00:00",
+  "2026-10-28T08:31:09.649800+00:00"
  ],
  "items": {
   "hn-50265609-early-progress-on-accelerating-drug-development-wi": {
@@ -21,12 +22,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 182,
+    "comments": 193,
     "hn": "https://news.ycombinator.com/item?id=50265609"
    },
    "why_at_peak": "+596 points/day pace right now (112 total).",
@@ -43,13 +44,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 513,
-    "trending": 267,
+    "trending": 271,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -91,12 +92,12 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 25,
+    "forks": 26,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -124,16 +125,16 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 125,
+    "comments": 136,
     "hn": "https://news.ycombinator.com/item?id=50264853"
    },
-   "why_at_peak": "+376 points/day pace right now (297 total).",
-   "metric_at_peak": 297,
+   "why_at_peak": "+588 points/day pace right now (324 total).",
+   "metric_at_peak": 324,
    "metric_name": "points"
   },
   "pypi-sglang": {
@@ -168,13 +169,13 @@
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
    "peak_score": 94.9,
    "best_rank": 6,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 93,
-    "trending": 207,
+    "trending": 219,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -230,22 +231,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-28T01:01:09.062985+00:00",
-   "peak_score": 91.9,
-   "best_rank": 8,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "peak_score": 94.9,
+   "best_rank": 6,
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 6311,
-    "trending": 232,
+    "trending": 246,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+354 likes/day pace right now (180 total).",
-   "metric_at_peak": 180,
+   "why_at_peak": "+305 likes/day pace right now (247 total).",
+   "metric_at_peak": 247,
    "metric_name": "likes"
   },
   "gh-frigadehq-hob": {
@@ -303,12 +304,12 @@
    "first_seen": "2026-10-28T01:16:07.723903+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-28T03:46:08.609726+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 266,
+    "comments": 274,
     "hn": "https://news.ycombinator.com/item?id=50260814"
    },
    "why_at_peak": "+560 points/day pace right now (459 total).",
@@ -419,14 +420,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
-   "peak_score": 94.1,
-   "best_rank": 7,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 349,
+    "forks": 380,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -445,8 +446,8 @@
     ],
     "repo_id": 1403649056
    },
-   "why_at_peak": "+1.9K stars/day pace right now (1.8K total).",
-   "metric_at_peak": 1790,
+   "why_at_peak": "+2.5K stars/day pace right now (1.9K total).",
+   "metric_at_peak": 1903,
    "metric_name": "stars"
   },
   "pypi-pydantic-ai": {
@@ -459,8 +460,8 @@
    "first_seen": "2026-10-28T02:31:07.462311+00:00",
    "peak_score": 63.5,
    "best_rank": 10,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-28T07:25:01.959216+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -603,6 +604,51 @@
    "why_at_peak": "+173 points/day pace right now (369 total).",
    "metric_at_peak": 369,
    "metric_name": "points"
+  },
+  "gh-openqodex-openqodex": {
+   "id": "gh:openqodex/openqodex",
+   "slug": "gh-openqodex-openqodex",
+   "name": "openqodex/openqodex",
+   "url": "https://github.com/openqodex/openqodex",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-28T08:31:09.649800+00:00",
+   "peak_score": 94.1,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-28T08:31:09.649800+00:00",
+   "what": "Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before you push, in Claude Code,\u2026",
+   "tag": "safety",
+   "extra": {
+    "forks": 71,
+    "lang": "TypeScript",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-code-review",
+     "claude-code",
+     "claude-code-plugin",
+     "claude-skills",
+     "cline",
+     "code-quality",
+     "code-review",
+     "codex",
+     "coding-agents",
+     "cursor",
+     "github-actions",
+     "linter",
+     "pre-commit",
+     "sast",
+     "secret-scanning",
+     "security",
+     "security-tools",
+     "static-analysis"
+    ],
+    "repo_id": 1401219750
+   },
+   "why_at_peak": "+915 stars/day pace right now (1.0K total).",
+   "metric_at_peak": 1015,
+   "metric_name": "stars"
   }
  }
 }

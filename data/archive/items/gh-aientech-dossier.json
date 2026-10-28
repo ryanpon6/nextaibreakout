@@ -92,6 +92,12 @@
    "score": 94.1,
    "metric": 1790,
    "t": "2026-10-28T07:25:01.959216+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 1903,
+   "t": "2026-10-28T08:31:09.649800+00:00"
   }
  ],
  "peak_score": 95.7,
@@ -105,10 +111,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-03T21:26:15Z",
- "last_seen": "2026-10-28T07:25:01.959216+00:00",
- "last_why": "+1.9K stars/day pace right now (1.8K total).",
+ "last_seen": "2026-10-28T08:31:09.649800+00:00",
+ "last_why": "+2.5K stars/day pace right now (1.9K total).",
  "extra": {
-  "forks": 349,
+  "forks": 380,
   "lang": "TypeScript",
   "topics": [
    "caprover",
