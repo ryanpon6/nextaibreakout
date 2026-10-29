@@ -16,7 +16,8 @@
   "2026-10-29T15:16:07.405638+00:00",
   "2026-10-29T16:31:10.411022+00:00",
   "2026-10-29T17:46:09.482647+00:00",
-  "2026-10-29T19:01:11.001085+00:00"
+  "2026-10-29T19:01:11.001085+00:00",
+  "2026-10-29T20:16:07.524250+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -51,12 +52,12 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-29T16:31:10.411022+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 41,
+    "forks": 42,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -440,13 +441,13 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-29T19:01:11.001085+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4276,
-    "trending": 364,
+    "trending": 371,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -552,12 +553,12 @@
    "first_seen": "2026-10-29T04:01:08.472403+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-29T16:31:10.411022+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 109,
+    "forks": 113,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -854,12 +855,12 @@
    "first_seen": "2026-10-29T10:16:06.553992+00:00",
    "peak_score": 96.6,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T19:01:11.001085+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 101,
+    "forks": 108,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -1301,13 +1302,13 @@
    "first_seen": "2026-10-29T15:16:07.405638+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-29T19:01:11.001085+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 278,
-    "trending": 255,
+    "trending": 263,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1327,8 +1328,8 @@
    "first_seen": "2026-10-29T15:16:07.405638+00:00",
    "peak_score": 78.2,
    "best_rank": 10,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-29T19:01:11.001085+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -1357,12 +1358,12 @@
    "first_seen": "2026-10-29T16:31:10.411022+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T17:46:09.482647+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 40,
+    "comments": 54,
     "hn": "https://news.ycombinator.com/item?id=50290283"
    },
    "why_at_peak": "53 points in 1h on Hacker News (16 comments).",
@@ -1377,18 +1378,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-29T16:31:10.411022+00:00",
-   "peak_score": 96.6,
-   "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-29T19:01:11.001085+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 210,
+    "comments": 256,
     "hn": "https://news.ycombinator.com/item?id=50289418"
    },
-   "why_at_peak": "+2.0K points/day pace right now (786 total).",
-   "metric_at_peak": 786,
+   "why_at_peak": "+2.3K points/day pace right now (904 total).",
+   "metric_at_peak": 904,
    "metric_name": "points"
   },
   "hn-50290177-llm-voice": {
@@ -1401,16 +1402,16 @@
    "first_seen": "2026-10-29T17:46:09.482647+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T19:01:11.001085+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 85,
+    "comments": 127,
     "hn": "https://news.ycombinator.com/item?id=50290177"
    },
-   "why_at_peak": "68 points in 3h on Hacker News (29 comments).",
-   "metric_at_peak": 68,
+   "why_at_peak": "+1.3K points/day pace right now (223 total).",
+   "metric_at_peak": 223,
    "metric_name": "points"
   },
   "gh-helixdb-helix-foundry": {
@@ -1588,6 +1589,32 @@
    "why_at_peak": "+134 stars/day pace right now (614 total).",
    "metric_at_peak": 614,
    "metric_name": "stars"
+  },
+  "hf-hi3d-official-hi3dv1-0": {
+   "id": "hfmodel:hi3d-official/Hi3Dv1.0",
+   "slug": "hf-hi3d-official-hi3dv1-0",
+   "name": "hi3d-official/Hi3Dv1.0",
+   "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-29T20:16:07.524250+00:00",
+   "peak_score": 95.0,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T20:16:07.524250+00:00",
+   "what": "image-to-3d model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 0,
+    "trending": 121,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 121 on Hugging Face; 129 likes, 0 downloads.",
+   "metric_at_peak": 129,
+   "metric_name": "likes"
   }
  }
 }

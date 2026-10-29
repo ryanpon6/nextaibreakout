@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:hi3d-official/Hi3Dv1.0",
+ "slug": "hf-hi3d-official-hi3dv1-0",
+ "first_seen": "2026-10-29T20:16:07.524250+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.0,
+   "metric": 129,
+   "t": "2026-10-29T20:16:07.524250+00:00"
+  }
+ ],
+ "peak_score": 95.0,
+ "best_rank": 4,
+ "name": "hi3d-official/Hi3Dv1.0",
+ "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-3d",
+ "what": "image-to-3d model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-16T07:51:15.000Z",
+ "last_seen": "2026-10-29T20:16:07.524250+00:00",
+ "last_why": "Trending score 121 on Hugging Face; 129 likes, 0 downloads.",
+ "extra": {
+  "downloads": 0,
+  "trending": 121,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
