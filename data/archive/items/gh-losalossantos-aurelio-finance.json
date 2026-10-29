@@ -1,0 +1,50 @@
+{
+ "id": "gh:LosaLosSantos/aurelio-finance",
+ "slug": "gh-losalossantos-aurelio-finance",
+ "first_seen": "2026-10-29T14:01:08.967161+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.5,
+   "metric": 328,
+   "t": "2026-10-29T14:01:08.967161+00:00"
+  }
+ ],
+ "peak_score": 96.5,
+ "best_rank": 4,
+ "name": "LosaLosSantos/aurelio-finance",
+ "url": "https://github.com/LosaLosSantos/aurelio-finance",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+ "what": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-06T20:14:19Z",
+ "last_seen": "2026-10-29T14:01:08.967161+00:00",
+ "last_why": "328 stars since launch 23 days ago \u2248 14 stars/day since launch.",
+ "extra": {
+  "forks": 116,
+  "lang": "Python",
+  "topics": [
+   "ai",
+   "dividends",
+   "etf",
+   "finance",
+   "financial-planning",
+   "fintech",
+   "investing",
+   "llm",
+   "net-worth",
+   "personal-finance",
+   "portfolio-tracker",
+   "self-hosted",
+   "stocks",
+   "wealth-management"
+  ],
+  "repo_id": 1407873347
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

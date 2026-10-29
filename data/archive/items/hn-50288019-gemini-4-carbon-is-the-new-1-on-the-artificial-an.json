@@ -1,0 +1,33 @@
+{
+ "id": "hn:50288019",
+ "slug": "hn-50288019-gemini-4-carbon-is-the-new-1-on-the-artificial-an",
+ "first_seen": "2026-10-29T14:01:08.967161+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 116,
+   "t": "2026-10-29T14:01:08.967161+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+ "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T12:41:56Z",
+ "last_seen": "2026-10-29T14:01:08.967161+00:00",
+ "last_why": "116 points in 1h on Hacker News (75 comments).",
+ "extra": {
+  "comments": 75,
+  "hn": "https://news.ycombinator.com/item?id=50288019"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
