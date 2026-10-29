@@ -176,10 +176,16 @@
    "score": 94.2,
    "metric": 2923,
    "t": "2026-10-29T07:46:06.977794+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.6,
+   "metric": 2964,
+   "t": "2026-10-29T09:01:10.782944+00:00"
   }
  ],
- "peak_score": 96.5,
- "best_rank": 4,
+ "peak_score": 96.6,
+ "best_rank": 3,
  "name": "AienTech/dossier",
  "url": "https://github.com/AienTech/dossier",
  "source": "github",
@@ -189,10 +195,10 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-03T21:26:15Z",
- "last_seen": "2026-10-29T07:46:06.977794+00:00",
- "last_why": "+634 stars/day pace right now (2.9K total).",
+ "last_seen": "2026-10-29T09:01:10.782944+00:00",
+ "last_why": "+787 stars/day pace right now (3.0K total).",
  "extra": {
-  "forks": 610,
+  "forks": 620,
   "lang": "TypeScript",
   "topics": [
    "caprover",

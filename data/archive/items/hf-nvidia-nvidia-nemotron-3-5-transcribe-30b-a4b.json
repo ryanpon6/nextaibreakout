@@ -50,10 +50,16 @@
    "score": 95.8,
    "metric": 257,
    "t": "2026-10-29T07:46:06.977794+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 97.4,
+   "metric": 274,
+   "t": "2026-10-29T09:01:10.782944+00:00"
   }
  ],
- "peak_score": 95.8,
- "best_rank": 4,
+ "peak_score": 97.4,
+ "best_rank": 2,
  "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
  "source": "huggingface",
@@ -63,11 +69,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-07T22:50:21.000Z",
- "last_seen": "2026-10-29T07:46:06.977794+00:00",
- "last_why": "+288 likes/day pace right now (257 total).",
+ "last_seen": "2026-10-29T09:01:10.782944+00:00",
+ "last_why": "+326 likes/day pace right now (274 total).",
  "extra": {
   "downloads": 338,
-  "trending": 252,
+  "trending": 269,
   "hf_type": "model",
   "title": null,
   "summary": null,

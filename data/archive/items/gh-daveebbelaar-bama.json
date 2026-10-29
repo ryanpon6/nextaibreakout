@@ -68,10 +68,16 @@
    "score": 95.0,
    "metric": 652,
    "t": "2026-10-29T07:46:06.977794+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.7,
+   "metric": 666,
+   "t": "2026-10-29T09:01:10.782944+00:00"
   }
  ],
- "peak_score": 95.0,
- "best_rank": 5,
+ "peak_score": 95.7,
+ "best_rank": 4,
  "name": "daveebbelaar/bama",
  "url": "https://github.com/daveebbelaar/bama",
  "source": "github",
@@ -81,10 +87,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-24T08:44:36Z",
- "last_seen": "2026-10-29T07:46:06.977794+00:00",
- "last_why": "+384 stars/day pace right now (652 total).",
+ "last_seen": "2026-10-29T09:01:10.782944+00:00",
+ "last_why": "+269 stars/day pace right now (666 total).",
  "extra": {
-  "forks": 95,
+  "forks": 99,
   "lang": "Swift",
   "topics": [
    "agent-skills",

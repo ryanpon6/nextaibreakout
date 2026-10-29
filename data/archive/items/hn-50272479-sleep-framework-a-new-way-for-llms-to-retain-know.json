@@ -1,0 +1,33 @@
+{
+ "id": "hn:50272479",
+ "slug": "hn-50272479-sleep-framework-a-new-way-for-llms-to-retain-know",
+ "first_seen": "2026-10-29T09:01:10.782944+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 91.0,
+   "metric": 56,
+   "t": "2026-10-29T09:01:10.782944+00:00"
+  }
+ ],
+ "peak_score": 91.0,
+ "best_rank": 8,
+ "name": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+ "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-28T12:24:25Z",
+ "last_seen": "2026-10-29T09:01:10.782944+00:00",
+ "last_why": "+153 points/day pace right now (56 total).",
+ "extra": {
+  "comments": 3,
+  "hn": "https://news.ycombinator.com/item?id=50272479"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
