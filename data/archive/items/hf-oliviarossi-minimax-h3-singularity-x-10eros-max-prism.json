@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+ "slug": "hf-oliviarossi-minimax-h3-singularity-x-10eros-max-prism",
+ "first_seen": "2026-10-29T01:46:06.899591+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 95.1,
+   "metric": 121,
+   "t": "2026-10-29T01:46:06.899591+00:00"
+  }
+ ],
+ "peak_score": 95.1,
+ "best_rank": 3,
+ "name": "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+ "url": "https://huggingface.co/OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-24T11:16:40.000Z",
+ "last_seen": "2026-10-29T01:46:06.899591+00:00",
+ "last_why": "Trending score 117 on Hugging Face; 121 likes, 24.7K downloads.",
+ "extra": {
+  "downloads": 24719,
+  "trending": 117,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

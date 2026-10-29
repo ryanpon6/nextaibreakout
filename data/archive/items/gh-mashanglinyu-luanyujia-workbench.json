@@ -1,0 +1,44 @@
+{
+ "id": "gh:mashanglinyu/luanyujia-workbench",
+ "slug": "gh-mashanglinyu-luanyujia-workbench",
+ "first_seen": "2026-10-29T01:46:06.899591+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 93.5,
+   "metric": 293,
+   "t": "2026-10-29T01:46:06.899591+00:00"
+  }
+ ],
+ "peak_score": 93.5,
+ "best_rank": 5,
+ "name": "mashanglinyu/luanyujia-workbench",
+ "url": "https://github.com/mashanglinyu/luanyujia-workbench",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u591a\u573a\u666f AI \u5de5\u4f5c\u53f0\uff1a\u516d\u5c42\u603b\u7eb2 + \u62d3\u6251\u8fde\u7ebf\u56fe + \u516c\u5f00\u7248\u5de5\u4f5c\u53f0\u6a21\u677f\uff08\u56db\u573a\u666f\u53ef\u8dd1\uff0c\u6e90\u7801\u7167\u642c\u5373\u7528\uff09+ \u8bb0\u5fc6\u673a\u5236\u3002\u914d\u5957\u96c6\u5e02\uff1ahttps://www.mydsh.xyz \u3002\u4f5c\u8005\uff1ahttps://linyujia.me \u3002\u6ce8\u610f\uff1a\u4e0d\u662f\u88c5\u5b8c\u5c31\u80fd\u7528\uff0c\u573a\u666f\u8981\u6309\u81ea\u5df1\u7684\u5185\u5bb9\u8c03\u8bd5\u3002",
+ "what": "\u591a\u573a\u666f AI \u5de5\u4f5c\u53f0\uff1a\u516d\u5c42\u603b\u7eb2 + \u62d3\u6251\u8fde\u7ebf\u56fe + \u516c\u5f00\u7248\u5de5\u4f5c\u53f0\u6a21\u677f\uff08\u56db\u573a\u666f\u53ef\u8dd1\uff0c\u6e90\u7801\u7167\u642c\u5373\u7528\uff09+ \u8bb0\u5fc6\u673a\u5236\u3002\u914d\u5957\u96c6\u5e02\uff1ahttps://www.mydsh.xyz \u3002\u4f5c\u8005\uff1ahttps://linyujia.me \u3002\u6ce8\u610f\uff1a\u4e0d\u662f\u88c5\u5b8c\u5c31\u80fd\u7528\uff0c\u573a\u666f\u8981\u6309\u81ea\u5df1\u7684\u5185\u5bb9\u8c03\u8bd5\u3002",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-09-30T03:07:21Z",
+ "last_seen": "2026-10-29T01:46:06.899591+00:00",
+ "last_why": "293 stars since launch 29 days ago \u2248 10 stars/day since launch.",
+ "extra": {
+  "forks": 56,
+  "lang": "JavaScript",
+  "topics": [
+   "ai-agent",
+   "deepseek",
+   "electron",
+   "mcp",
+   "memory",
+   "multi-scene",
+   "topology",
+   "workbench"
+  ],
+  "repo_id": 1396887487
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

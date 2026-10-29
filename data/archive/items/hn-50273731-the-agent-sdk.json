@@ -1,0 +1,33 @@
+{
+ "id": "hn:50273731",
+ "slug": "hn-50273731-the-agent-sdk",
+ "first_seen": "2026-10-29T01:46:06.899591+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 76.0,
+   "metric": 99,
+   "t": "2026-10-29T01:46:06.899591+00:00"
+  }
+ ],
+ "peak_score": 76.0,
+ "best_rank": 9,
+ "name": "The Agent SDK",
+ "url": "https://cursor.com/blog/agent-sdk",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-28T14:02:20Z",
+ "last_seen": "2026-10-29T01:46:06.899591+00:00",
+ "last_why": "+154 points/day pace right now (99 total).",
+ "extra": {
+  "comments": 112,
+  "hn": "https://news.ycombinator.com/item?id=50273731"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
