@@ -1,0 +1,33 @@
+{
+ "id": "hn:50290177",
+ "slug": "hn-50290177-llm-voice",
+ "first_seen": "2026-10-29T17:46:09.482647+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 68,
+   "t": "2026-10-29T17:46:09.482647+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "LLM Voice",
+ "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T14:57:55Z",
+ "last_seen": "2026-10-29T17:46:09.482647+00:00",
+ "last_why": "68 points in 3h on Hacker News (29 comments).",
+ "extra": {
+  "comments": 29,
+  "hn": "https://news.ycombinator.com/item?id=50290177"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

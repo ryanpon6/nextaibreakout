@@ -14,10 +14,16 @@
    "score": 91.7,
    "metric": 1678,
    "t": "2026-10-27T16:46:14.579138+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.2,
+   "metric": 1804,
+   "t": "2026-10-29T17:46:09.482647+00:00"
   }
  ],
- "peak_score": 93.2,
- "best_rank": 7,
+ "peak_score": 94.2,
+ "best_rank": 5,
  "name": "HelixDB/helix-foundry",
  "url": "https://github.com/HelixDB/helix-foundry",
  "source": "github",
@@ -27,10 +33,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-07T05:10:45Z",
- "last_seen": "2026-10-27T16:46:14.579138+00:00",
- "last_why": "1.7K stars since launch 20 days ago \u2248 82 stars/day since launch.",
+ "last_seen": "2026-10-29T17:46:09.482647+00:00",
+ "last_why": "+326 stars/day pace right now (1.8K total).",
  "extra": {
-  "forks": 257,
+  "forks": 266,
   "lang": "TypeScript",
   "topics": [
    "ai-agents",
@@ -45,6 +51,7 @@
   "repo_id": 1408277479
  },
  "days": [
-  "2026-10-27"
+  "2026-10-27",
+  "2026-10-29"
  ]
 }

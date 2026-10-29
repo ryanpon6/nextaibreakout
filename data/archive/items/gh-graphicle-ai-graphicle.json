@@ -20,6 +20,12 @@
    "score": 95.6,
    "metric": 192,
    "t": "2026-10-16T20:40:01.109613+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 92.6,
+   "metric": 440,
+   "t": "2026-10-29T17:46:09.482647+00:00"
   }
  ],
  "peak_score": 95.6,
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T12:25:36Z",
- "last_seen": "2026-10-16T20:40:01.109613+00:00",
- "last_why": "+65 stars/day pace right now (192 total).",
+ "last_seen": "2026-10-29T17:46:09.482647+00:00",
+ "last_why": "+115 stars/day pace right now (440 total).",
  "extra": {
-  "forks": 9,
+  "forks": 31,
   "lang": "Rust",
   "topics": [
    "agent-memory",
@@ -59,9 +65,11 @@
    "model-context-protocol",
    "rust",
    "tree-sitter"
-  ]
+  ],
+  "repo_id": 1418870464
  },
  "days": [
-  "2026-10-16"
+  "2026-10-16",
+  "2026-10-29"
  ]
 }
