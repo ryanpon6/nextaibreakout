@@ -1,0 +1,33 @@
+{
+ "id": "hn:50284255",
+ "slug": "hn-50284255-claude-code-regularly-sends-each-background-agent",
+ "first_seen": "2026-10-29T06:31:12.044626+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 223,
+   "t": "2026-10-29T06:31:12.044626+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Claude Code regularly sends each background agent\u2019s transcript to its model",
+ "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-10-29T03:33:42Z",
+ "last_seen": "2026-10-29T06:31:12.044626+00:00",
+ "last_why": "+1.5K points/day pace right now (223 total).",
+ "extra": {
+  "comments": 63,
+  "hn": "https://news.ycombinator.com/item?id=50284255"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
