@@ -18,7 +18,8 @@
   "2026-10-29T17:46:09.482647+00:00",
   "2026-10-29T19:01:11.001085+00:00",
   "2026-10-29T20:16:07.524250+00:00",
-  "2026-10-29T21:06:33.815005+00:00"
+  "2026-10-29T21:06:33.815005+00:00",
+  "2026-10-29T22:16:07.936579+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -442,13 +443,13 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 15,
-   "last_seen": "2026-10-29T20:16:07.524250+00:00",
+   "runs_in_top10": 16,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4276,
-    "trending": 371,
+    "trending": 379,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -554,8 +555,8 @@
    "first_seen": "2026-10-29T04:01:08.472403+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-29T21:06:33.815005+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
@@ -856,12 +857,12 @@
    "first_seen": "2026-10-29T10:16:06.553992+00:00",
    "peak_score": 96.6,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-29T21:06:33.815005+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 110,
+    "forks": 114,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -889,10 +890,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-29T10:16:06.553992+00:00",
-   "peak_score": 95.5,
-   "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T10:16:06.553992+00:00",
+   "peak_score": 96.6,
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "\u8ba9 AI \u4e0e\u4eba\u7c7b\u4e00\u8d77\u653b\u514b\u771f\u6b63\u7684\u79d1\u5b66\u96be\u9898 \u2014\u2014 12 \u9636\u6bb5 55 \u95e8 \u00b7 36 \u5de5\u5177 \u00b7 98 \u6761\u6280\u80fd \u00b7 \u8bc1\u636e\u94fe\u4e0e\u53ef\u590d\u73b0",
    "tag": "agents",
    "extra": {
@@ -912,8 +913,8 @@
     ],
     "repo_id": 1428047292
    },
-   "why_at_peak": "256 stars since launch 8 days ago \u2248 32 stars/day since launch.",
-   "metric_at_peak": 256,
+   "why_at_peak": "330 stars since launch 9 days ago \u2248 38 stars/day since launch.",
+   "metric_at_peak": 330,
    "metric_name": "stars"
   },
   "gh-jddevtime-open-lakehouse-compute-fabric": {
@@ -960,13 +961,13 @@
    "first_seen": "2026-10-29T11:31:08.122083+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T14:01:08.967161+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "any-to-any model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1814,
-    "trending": 179,
+    "trending": 195,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1303,13 +1304,13 @@
    "first_seen": "2026-10-29T15:16:07.405638+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-29T21:06:33.815005+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 278,
-    "trending": 268,
+    "trending": 279,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1329,8 +1330,8 @@
    "first_seen": "2026-10-29T15:16:07.405638+00:00",
    "peak_score": 78.2,
    "best_rank": 10,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-29T21:06:33.815005+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -1381,12 +1382,12 @@
    "first_seen": "2026-10-29T16:31:10.411022+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T21:06:33.815005+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 273,
+    "comments": 305,
     "hn": "https://news.ycombinator.com/item?id=50289418"
    },
    "why_at_peak": "+2.3K points/day pace right now (904 total).",
@@ -1403,12 +1404,12 @@
    "first_seen": "2026-10-29T17:46:09.482647+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-29T21:06:33.815005+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 138,
+    "comments": 155,
     "hn": "https://news.ycombinator.com/item?id=50290177"
    },
    "why_at_peak": "+1.3K points/day pace right now (223 total).",
@@ -1668,6 +1669,28 @@
    "why_at_peak": "+86 likes/day pace right now (275 total).",
    "metric_at_peak": 275,
    "metric_name": "likes"
+  },
+  "hn-50292727-claude-duet-is-the-first-personal-assistant-type-h": {
+   "id": "hn:50292727",
+   "slug": "hn-50292727-claude-duet-is-the-first-personal-assistant-type-h",
+   "name": "Claude Duet is the first personal-assistant-type harness that feels useful",
+   "url": "https://fig.blue/posts/duet-is-the-future/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-29T22:16:07.936579+00:00",
+   "peak_score": 98.2,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T22:16:07.936579+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 53,
+    "hn": "https://news.ycombinator.com/item?id=50292727"
+   },
+   "why_at_peak": "+621 points/day pace right now (69 total).",
+   "metric_at_peak": 69,
+   "metric_name": "points"
   }
  }
 }

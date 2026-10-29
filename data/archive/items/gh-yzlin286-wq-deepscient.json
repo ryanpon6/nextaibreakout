@@ -8,10 +8,16 @@
    "score": 95.5,
    "metric": 256,
    "t": "2026-10-29T10:16:06.553992+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.6,
+   "metric": 330,
+   "t": "2026-10-29T22:16:07.936579+00:00"
   }
  ],
- "peak_score": 95.5,
- "best_rank": 5,
+ "peak_score": 96.6,
+ "best_rank": 3,
  "name": "yzlin286-wq/Deepscient",
  "url": "https://github.com/yzlin286-wq/Deepscient",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-21T07:44:10Z",
- "last_seen": "2026-10-29T10:16:06.553992+00:00",
- "last_why": "256 stars since launch 8 days ago \u2248 32 stars/day since launch.",
+ "last_seen": "2026-10-29T22:16:07.936579+00:00",
+ "last_why": "330 stars since launch 9 days ago \u2248 38 stars/day since launch.",
  "extra": {
   "forks": 0,
   "lang": "JavaScript",
