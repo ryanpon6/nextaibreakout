@@ -1,0 +1,41 @@
+{
+ "id": "gh:Charonyuu/whatsmyagentdoing",
+ "slug": "gh-charonyuu-whatsmyagentdoing",
+ "first_seen": "2026-10-29T11:31:08.122083+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.1,
+   "metric": 284,
+   "t": "2026-10-29T11:31:08.122083+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 6,
+ "name": "Charonyuu/whatsmyagentdoing",
+ "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+ "source": "github",
+ "kind": "tool",
+ "desc": "See what every Claude Code and Codex agent on your machine is doing \u2014 live, in a little office.",
+ "what": "See what every Claude Code and Codex agent on your machine is doing \u2014 live, in a little office.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-23T14:15:26Z",
+ "last_seen": "2026-10-29T11:31:08.122083+00:00",
+ "last_why": "284 stars since launch 6 days ago \u2248 48 stars/day since launch.",
+ "extra": {
+  "forks": 26,
+  "lang": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "dashboard",
+   "threejs"
+  ],
+  "repo_id": 1431137168
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
