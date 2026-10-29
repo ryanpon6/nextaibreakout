@@ -3,7 +3,8 @@
  "runs": [
   "2026-10-29T00:31:17.486341+00:00",
   "2026-10-29T01:46:06.899591+00:00",
-  "2026-10-29T02:51:37.031313+00:00"
+  "2026-10-29T02:51:37.031313+00:00",
+  "2026-10-29T04:01:08.472403+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -38,12 +39,12 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 37,
+    "forks": 38,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -71,12 +72,12 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 687,
+    "comments": 699,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
    "why_at_peak": "+766 points/day pace right now (777 total).",
@@ -135,10 +136,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
-   "peak_score": 95.7,
-   "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "peak_score": 96.6,
+   "best_rank": 2,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
    "what": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call\u2026",
    "tag": "agents",
    "extra": {
@@ -162,8 +163,8 @@
     ],
     "repo_id": 1425227613
    },
-   "why_at_peak": "+421 stars/day pace right now (444 total).",
-   "metric_at_peak": 444,
+   "why_at_peak": "+414 stars/day pace right now (513 total).",
+   "metric_at_peak": 513,
    "metric_name": "stars"
   },
   "hf-pyannote-speaker-diarization-community-1": {
@@ -357,20 +358,20 @@
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
    "peak_score": 92.7,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 376,
+    "trending": 387,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+418 likes/day pace right now (383 total).",
-   "metric_at_peak": 383,
+   "why_at_peak": "+228 likes/day pace right now (394 total).",
+   "metric_at_peak": 394,
    "metric_name": "likes"
   },
   "hn-50273731-the-agent-sdk": {
@@ -403,10 +404,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
-   "peak_score": 61.7,
+   "peak_score": 64.0,
    "best_rank": 10,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -427,13 +428,13 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 95.8,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 338,
-    "trending": 206,
+    "trending": 217,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -501,6 +502,116 @@
    },
    "why_at_peak": "+132 points/day pace right now (44 total).",
    "metric_at_peak": 44,
+   "metric_name": "points"
+  },
+  "hf-recursivesi-flint": {
+   "id": "hfmodel:RecursiveSI/flint",
+   "slug": "hf-recursivesi-flint",
+   "name": "RecursiveSI/flint",
+   "url": "https://huggingface.co/RecursiveSI/flint",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-29T04:01:08.472403+00:00",
+   "peak_score": 95.8,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 14047,
+    "trending": 708,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+746 likes/day pace right now (1.2K total).",
+   "metric_at_peak": 1203,
+   "metric_name": "likes"
+  },
+  "gh-daveebbelaar-bama": {
+   "id": "gh:daveebbelaar/bama",
+   "slug": "gh-daveebbelaar-bama",
+   "name": "daveebbelaar/bama",
+   "url": "https://github.com/daveebbelaar/bama",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-29T04:01:08.472403+00:00",
+   "peak_score": 94.3,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
+   "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+   "tag": "agents",
+   "extra": {
+    "forks": 92,
+    "lang": "Swift",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "app-clone",
+     "claude-code",
+     "claude-code-plugin",
+     "codex",
+     "computer-use",
+     "liquid-glass",
+     "macos",
+     "macos-app",
+     "native-apps",
+     "skills",
+     "swift",
+     "swiftdata",
+     "swiftui"
+    ],
+    "repo_id": 1431986839
+   },
+   "why_at_peak": "+207 stars/day pace right now (613 total).",
+   "metric_at_peak": 613,
+   "metric_name": "stars"
+  },
+  "hn-50273396-kentucky-man-becomes-the-first-humanist-granted-re": {
+   "id": "hn:50273396",
+   "slug": "hn-50273396-kentucky-man-becomes-the-first-humanist-granted-re",
+   "name": "Kentucky man becomes the first humanist granted religious exemption from AI",
+   "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-29T04:01:08.472403+00:00",
+   "peak_score": 84.4,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 491,
+    "hn": "https://news.ycombinator.com/item?id=50273396"
+   },
+   "why_at_peak": "+124 points/day pace right now (445 total).",
+   "metric_at_peak": 445,
+   "metric_name": "points"
+  },
+  "hn-50280178-google-ai-gets-cagey-when-asked-who-won-the-2020-e": {
+   "id": "hn:50280178",
+   "slug": "hn-50280178-google-ai-gets-cagey-when-asked-who-won-the-2020-e",
+   "name": "Google AI gets cagey when asked who won the 2020 elections",
+   "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-29T04:01:08.472403+00:00",
+   "peak_score": 79.4,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T04:01:08.472403+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 65,
+    "hn": "https://news.ycombinator.com/item?id=50280178"
+   },
+   "why_at_peak": "+104 points/day pace right now (136 total).",
+   "metric_at_peak": 136,
    "metric_name": "points"
   }
  }

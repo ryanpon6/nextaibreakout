@@ -14,9 +14,15 @@
    "score": 61.1,
    "metric": 8045235,
    "t": "2026-10-29T02:51:37.031313+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 64.0,
+   "metric": 8045235,
+   "t": "2026-10-29T04:01:08.472403+00:00"
   }
  ],
- "peak_score": 61.7,
+ "peak_score": 64.0,
  "best_rank": 10,
  "name": "anthropic",
  "url": "https://pypi.org/project/anthropic",
@@ -27,7 +33,7 @@
  "tag": "dev tools",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-10-29T02:51:37.031313+00:00",
+ "last_seen": "2026-10-29T04:01:08.472403+00:00",
  "last_why": "8.0M downloads yesterday, 1.25\u00d7 its 7-day average.",
  "extra": {
   "week": 45204336,
