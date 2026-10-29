@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T15:16:50.356163+00:00",
+ "generated": "2026-10-29T16:32:05.800672+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-10-29T15:16:50.356163+00:00"
+   "fetched": "2026-10-29T16:32:05.800672+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-10-29T15:16:50.356163+00:00"
+   "fetched": "2026-10-29T16:32:05.800672+00:00"
   },
   "openai": {
    "items": [
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-29T15:16:50.356163+00:00"
+   "fetched": "2026-10-29T16:32:05.800672+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-29T15:16:50.356163+00:00"
+   "fetched": "2026-10-29T16:32:05.800672+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-10-29T15:16:50.356163+00:00"
+   "fetched": "2026-10-29T16:32:05.800672+00:00"
   },
   "meta": {
    "items": [
@@ -779,7 +779,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-10-29T15:16:50.356163+00:00"
+   "fetched": "2026-10-29T16:32:05.800672+00:00"
   }
  }
 }

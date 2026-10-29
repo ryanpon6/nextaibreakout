@@ -13,7 +13,8 @@
   "2026-10-29T11:31:08.122083+00:00",
   "2026-10-29T12:46:09.832376+00:00",
   "2026-10-29T14:01:08.967161+00:00",
-  "2026-10-29T15:16:07.405638+00:00"
+  "2026-10-29T15:16:07.405638+00:00",
+  "2026-10-29T16:31:10.411022+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -48,8 +49,8 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-29T09:01:10.782944+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -437,13 +438,13 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-29T15:16:07.405638+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4276,
-    "trending": 340,
+    "trending": 348,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -549,12 +550,12 @@
    "first_seen": "2026-10-29T04:01:08.472403+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T15:16:07.405638+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 107,
+    "forks": 109,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -825,13 +826,13 @@
    "first_seen": "2026-10-29T10:16:06.553992+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T10:16:06.553992+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "any-to-any model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 702,
-    "trending": 118,
+    "downloads": 1794,
+    "trending": 130,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -851,12 +852,12 @@
    "first_seen": "2026-10-29T10:16:06.553992+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T15:16:07.405638+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 74,
+    "forks": 85,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -1170,12 +1171,12 @@
    "first_seen": "2026-10-29T14:01:08.967161+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T15:16:07.405638+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 160,
+    "comments": 210,
     "hn": "https://news.ycombinator.com/item?id=50288019"
    },
    "why_at_peak": "116 points in 1h on Hacker News (75 comments).",
@@ -1298,13 +1299,13 @@
    "first_seen": "2026-10-29T15:16:07.405638+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T15:16:07.405638+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 278,
-    "trending": 172,
+    "trending": 209,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1322,10 +1323,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-29T15:16:07.405638+00:00",
-   "peak_score": 77.3,
+   "peak_score": 78.2,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T15:16:07.405638+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -1343,6 +1344,50 @@
    "why_at_peak": "14.9M downloads yesterday, 1.20\u00d7 its 7-day average.",
    "metric_at_peak": 14900059,
    "metric_name": "downloads/day"
+  },
+  "hn-50290283-zombie-stats-where-the-numbers-ai-quotes-come-fro": {
+   "id": "hn:50290283",
+   "slug": "hn-50290283-zombie-stats-where-the-numbers-ai-quotes-come-fro",
+   "name": "Zombie stats: Where the numbers AI quotes come from",
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-29T16:31:10.411022+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 16,
+    "hn": "https://news.ycombinator.com/item?id=50290283"
+   },
+   "why_at_peak": "53 points in 1h on Hacker News (16 comments).",
+   "metric_at_peak": 53,
+   "metric_name": "points"
+  },
+  "hn-50289418-we-re-releasing-the-weights-of-mistral-large-4": {
+   "id": "hn:50289418",
+   "slug": "hn-50289418-we-re-releasing-the-weights-of-mistral-large-4",
+   "name": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-29T16:31:10.411022+00:00",
+   "peak_score": 96.6,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T16:31:10.411022+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 125,
+    "hn": "https://news.ycombinator.com/item?id=50289418"
+   },
+   "why_at_peak": "+3.7K points/day pace right now (478 total).",
+   "metric_at_peak": 478,
+   "metric_name": "points"
   }
  }
 }

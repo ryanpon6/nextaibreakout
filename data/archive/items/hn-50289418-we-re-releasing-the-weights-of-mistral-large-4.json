@@ -1,0 +1,33 @@
+{
+ "id": "hn:50289418",
+ "slug": "hn-50289418-we-re-releasing-the-weights-of-mistral-large-4",
+ "first_seen": "2026-10-29T16:31:10.411022+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.6,
+   "metric": 478,
+   "t": "2026-10-29T16:31:10.411022+00:00"
+  }
+ ],
+ "peak_score": 96.6,
+ "best_rank": 3,
+ "name": "We're releasing the weights of Mistral Large 4",
+ "url": "https://mistral.ai/news/mistral-large-4-oss/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T14:13:21Z",
+ "last_seen": "2026-10-29T16:31:10.411022+00:00",
+ "last_why": "+3.7K points/day pace right now (478 total).",
+ "extra": {
+  "comments": 125,
+  "hn": "https://news.ycombinator.com/item?id=50289418"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

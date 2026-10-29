@@ -1,0 +1,33 @@
+{
+ "id": "hn:50290283",
+ "slug": "hn-50290283-zombie-stats-where-the-numbers-ai-quotes-come-fro",
+ "first_seen": "2026-10-29T16:31:10.411022+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 53,
+   "t": "2026-10-29T16:31:10.411022+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Zombie stats: Where the numbers AI quotes come from",
+ "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T15:06:17Z",
+ "last_seen": "2026-10-29T16:31:10.411022+00:00",
+ "last_why": "53 points in 1h on Hacker News (16 comments).",
+ "extra": {
+  "comments": 16,
+  "hn": "https://news.ycombinator.com/item?id=50290283"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
