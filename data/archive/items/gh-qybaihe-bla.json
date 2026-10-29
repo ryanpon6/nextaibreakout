@@ -50,9 +50,15 @@
    "score": 95.1,
    "metric": 688,
    "t": "2026-10-29T22:16:07.936579+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 96.7,
+   "metric": 727,
+   "t": "2026-10-29T23:31:09.645402+00:00"
   }
  ],
- "peak_score": 96.6,
+ "peak_score": 96.7,
  "best_rank": 2,
  "name": "qybaihe/bla",
  "url": "https://github.com/qybaihe/bla",
@@ -63,10 +69,10 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-10-25T05:25:45Z",
- "last_seen": "2026-10-29T22:16:07.936579+00:00",
- "last_why": "+642 stars/day pace right now (688 total).",
+ "last_seen": "2026-10-29T23:31:09.645402+00:00",
+ "last_why": "+749 stars/day pace right now (727 total).",
  "extra": {
-  "forks": 114,
+  "forks": 118,
   "lang": "TypeScript",
   "topics": [
    "adversarial-ai",
