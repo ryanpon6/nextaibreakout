@@ -1,0 +1,33 @@
+{
+ "id": "hn:50282766",
+ "slug": "hn-50282766-new-york-times-adds-more-ai-features-to-its-cookin",
+ "first_seen": "2026-10-29T02:51:37.031313+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 88.9,
+   "metric": 44,
+   "t": "2026-10-29T02:51:37.031313+00:00"
+  }
+ ],
+ "peak_score": 88.9,
+ "best_rank": 9,
+ "name": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+ "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T00:16:08Z",
+ "last_seen": "2026-10-29T02:51:37.031313+00:00",
+ "last_why": "+132 points/day pace right now (44 total).",
+ "extra": {
+  "comments": 74,
+  "hn": "https://news.ycombinator.com/item?id=50282766"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

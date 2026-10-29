@@ -2,7 +2,8 @@
  "day": "2026-10-29",
  "runs": [
   "2026-10-29T00:31:17.486341+00:00",
-  "2026-10-29T01:46:06.899591+00:00"
+  "2026-10-29T01:46:06.899591+00:00",
+  "2026-10-29T02:51:37.031313+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -15,12 +16,12 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "",
    "tag": "safety",
    "extra": {
-    "comments": 138,
+    "comments": 152,
     "hn": "https://news.ycombinator.com/item?id=50280864"
    },
    "why_at_peak": "+574 points/day pace right now (258 total).",
@@ -35,14 +36,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
-   "peak_score": 98.2,
+   "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
-    "forks": 36,
+    "forks": 37,
     "lang": "Python",
     "topics": [
      "agent-skills",
@@ -56,8 +57,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+154 stars/day pace right now (359 total).",
-   "metric_at_peak": 359,
+   "why_at_peak": "+154 stars/day pace right now (366 total).",
+   "metric_at_peak": 366,
    "metric_name": "stars"
   },
   "hn-50276792-gemini-4-carbon": {
@@ -70,12 +71,12 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 663,
+    "comments": 687,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
    "why_at_peak": "+766 points/day pace right now (777 total).",
@@ -136,8 +137,8 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call\u2026",
    "tag": "agents",
    "extra": {
@@ -249,13 +250,13 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 96.6,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 8357,
-    "trending": 314,
+    "trending": 324,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -356,20 +357,20 @@
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
    "peak_score": 92.7,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 359,
+    "trending": 376,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+212 likes/day pace right now (364 total).",
-   "metric_at_peak": 364,
+   "why_at_peak": "+418 likes/day pace right now (383 total).",
+   "metric_at_peak": 383,
    "metric_name": "likes"
   },
   "hn-50273731-the-agent-sdk": {
@@ -404,8 +405,8 @@
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
    "peak_score": 61.7,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T01:46:06.899591+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -415,6 +416,92 @@
    "why_at_peak": "8.0M downloads yesterday, 1.25\u00d7 its 7-day average.",
    "metric_at_peak": 8045235,
    "metric_name": "downloads/day"
+  },
+  "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
+   "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "slug": "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b",
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-29T02:51:37.031313+00:00",
+   "peak_score": 95.8,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "what": "automatic-speech-recognition model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 338,
+    "trending": 206,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+418 likes/day pace right now (209 total).",
+   "metric_at_peak": 209,
+   "metric_name": "likes"
+  },
+  "gh-aientech-dossier": {
+   "id": "gh:AienTech/dossier",
+   "slug": "gh-aientech-dossier",
+   "name": "AienTech/dossier",
+   "url": "https://github.com/AienTech/dossier",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-29T02:51:37.031313+00:00",
+   "peak_score": 94.3,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 578,
+    "lang": "TypeScript",
+    "topics": [
+     "caprover",
+     "cover-letter",
+     "docker",
+     "job-application-tracker",
+     "job-search",
+     "llm",
+     "local-llm",
+     "nextjs",
+     "ollama",
+     "postgresql",
+     "resume",
+     "self-hosted",
+     "typescript"
+    ],
+    "repo_id": 1403649056
+   },
+   "why_at_peak": "+550 stars/day pace right now (2.8K total).",
+   "metric_at_peak": 2793,
+   "metric_name": "stars"
+  },
+  "hn-50282766-new-york-times-adds-more-ai-features-to-its-cookin": {
+   "id": "hn:50282766",
+   "slug": "hn-50282766-new-york-times-adds-more-ai-features-to-its-cookin",
+   "name": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+   "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-29T02:51:37.031313+00:00",
+   "peak_score": 88.9,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 74,
+    "hn": "https://news.ycombinator.com/item?id=50282766"
+   },
+   "why_at_peak": "+132 points/day pace right now (44 total).",
+   "metric_at_peak": 44,
+   "metric_name": "points"
   }
  }
 }
