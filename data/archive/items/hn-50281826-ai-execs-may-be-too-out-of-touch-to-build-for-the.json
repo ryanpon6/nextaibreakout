@@ -1,0 +1,33 @@
+{
+ "id": "hn:50281826",
+ "slug": "hn-50281826-ai-execs-may-be-too-out-of-touch-to-build-for-the",
+ "first_seen": "2026-10-29T05:16:10.798489+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 43,
+   "t": "2026-10-29T05:16:10.798489+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "AI execs may be too out of touch to build for the general public",
+ "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-28T22:27:46Z",
+ "last_seen": "2026-10-29T05:16:10.798489+00:00",
+ "last_why": "+173 points/day pace right now (43 total).",
+ "extra": {
+  "comments": 27,
+  "hn": "https://news.ycombinator.com/item?id=50281826"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

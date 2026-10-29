@@ -1,0 +1,33 @@
+{
+ "id": "hn:50284255",
+ "slug": "hn-50284255-claude-code-burns-15-20-of-your-tokens-on-a-3-wo",
+ "first_seen": "2026-10-29T05:16:10.798489+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 143,
+   "t": "2026-10-29T05:16:10.798489+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Claude Code burns ~15\u201320% of your tokens on a 3-word status line",
+ "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T03:33:42Z",
+ "last_seen": "2026-10-29T05:16:10.798489+00:00",
+ "last_why": "+2.4K points/day pace right now (143 total).",
+ "extra": {
+  "comments": 30,
+  "hn": "https://news.ycombinator.com/item?id=50284255"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

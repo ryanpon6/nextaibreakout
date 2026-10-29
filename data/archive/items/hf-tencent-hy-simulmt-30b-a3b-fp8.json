@@ -122,10 +122,16 @@
    "score": 92.7,
    "metric": 394,
    "t": "2026-10-29T04:01:08.472403+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.6,
+   "metric": 407,
+   "t": "2026-10-29T05:16:10.798489+00:00"
   }
  ],
- "peak_score": 95.7,
- "best_rank": 5,
+ "peak_score": 96.6,
+ "best_rank": 4,
  "name": "tencent/Hy-SimulMT-30B-A3B-FP8",
  "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
  "source": "huggingface",
@@ -135,11 +141,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-22T07:29:37.000Z",
- "last_seen": "2026-10-29T04:01:08.472403+00:00",
- "last_why": "+228 likes/day pace right now (394 total).",
+ "last_seen": "2026-10-29T05:16:10.798489+00:00",
+ "last_why": "+249 likes/day pace right now (407 total).",
  "extra": {
   "downloads": 165,
-  "trending": 387,
+  "trending": 400,
   "hf_type": "model",
   "title": null,
   "summary": null,
