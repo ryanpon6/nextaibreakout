@@ -20,10 +20,16 @@
    "score": 92.7,
    "metric": 325,
    "t": "2026-10-28T02:31:07.462311+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.5,
+   "metric": 332,
+   "t": "2026-10-29T00:31:17.486341+00:00"
   }
  ],
- "peak_score": 94.0,
- "best_rank": 6,
+ "peak_score": 96.5,
+ "best_rank": 4,
  "name": "Entelligence-AI/agentplay",
  "url": "https://github.com/Entelligence-AI/agentplay",
  "source": "github",
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-14T09:06:49Z",
- "last_seen": "2026-10-28T02:31:07.462311+00:00",
- "last_why": "325 stars since launch 14 days ago \u2248 24 stars/day since launch.",
+ "last_seen": "2026-10-29T00:31:17.486341+00:00",
+ "last_why": "332 stars since launch 15 days ago \u2248 23 stars/day since launch.",
  "extra": {
-  "forks": 30,
+  "forks": 32,
   "lang": "Python",
   "topics": [
    "agent-observability",
@@ -63,6 +69,7 @@
  },
  "days": [
   "2026-10-23",
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-29"
  ]
 }
