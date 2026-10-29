@@ -10,7 +10,8 @@
   "2026-10-29T07:46:06.977794+00:00",
   "2026-10-29T09:01:10.782944+00:00",
   "2026-10-29T10:16:06.553992+00:00",
-  "2026-10-29T11:31:08.122083+00:00"
+  "2026-10-29T11:31:08.122083+00:00",
+  "2026-10-29T12:46:09.832376+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -209,8 +210,8 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 96.5,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T11:31:08.122083+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
@@ -257,13 +258,13 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 96.6,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-29T02:51:37.031313+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 8357,
-    "trending": 324,
+    "downloads": 18141,
+    "trending": 344,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -412,8 +413,8 @@
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
    "peak_score": 66.2,
    "best_rank": 10,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-29T11:31:08.122083+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -434,13 +435,13 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-29T11:31:08.122083+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4276,
-    "trending": 311,
+    "trending": 322,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -584,18 +585,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-29T04:01:08.472403+00:00",
-   "peak_score": 84.4,
+   "peak_score": 84.6,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T04:01:08.472403+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 491,
+    "comments": 504,
     "hn": "https://news.ycombinator.com/item?id=50273396"
    },
-   "why_at_peak": "+124 points/day pace right now (445 total).",
-   "metric_at_peak": 445,
+   "why_at_peak": "+115 points/day pace right now (470 total).",
+   "metric_at_peak": 470,
    "metric_name": "points"
   },
   "hn-50280178-google-ai-gets-cagey-when-asked-who-won-the-2020-e": {
@@ -700,16 +701,16 @@
    "first_seen": "2026-10-29T06:31:12.044626+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T11:31:08.122083+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 153,
+    "comments": 182,
     "hn": "https://news.ycombinator.com/item?id=50284255"
    },
-   "why_at_peak": "+749 points/day pace right now (415 total).",
-   "metric_at_peak": 415,
+   "why_at_peak": "+633 points/day pace right now (448 total).",
+   "metric_at_peak": 448,
    "metric_name": "points"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -1038,6 +1039,123 @@
    },
    "why_at_peak": "146 stars since launch 4 days ago \u2248 36 stars/day since launch.",
    "metric_at_peak": 146,
+   "metric_name": "stars"
+  },
+  "hf-diffuspace-clover-35b-a3b-preview": {
+   "id": "hfmodel:Diffuspace/Clover-35B-A3B-Preview",
+   "slug": "hf-diffuspace-clover-35b-a3b-preview",
+   "name": "Diffuspace/Clover-35B-A3B-Preview",
+   "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-29T12:46:09.832376+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1030,
+    "trending": 122,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 122 on Hugging Face; 123 likes, 1.0K downloads.",
+   "metric_at_peak": 123,
+   "metric_name": "likes"
+  },
+  "gh-reason-machines-reason-network": {
+   "id": "gh:reason-machines/reason-network",
+   "slug": "gh-reason-machines-reason-network",
+   "name": "reason-machines/reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-29T12:46:09.832376+00:00",
+   "peak_score": 96.5,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
+   "what": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+   "tag": "agents",
+   "extra": {
+    "forks": 113,
+    "lang": "Rust",
+    "topics": [
+     "coding-agents",
+     "iroh",
+     "mcp",
+     "peer-to-peer",
+     "reason"
+    ],
+    "repo_id": 1422344223
+   },
+   "why_at_peak": "1.3K stars since launch 13 days ago \u2248 102 stars/day since launch.",
+   "metric_at_peak": 1317,
+   "metric_name": "stars"
+  },
+  "gh-leonxlnx-earshot": {
+   "id": "gh:Leonxlnx/earshot",
+   "slug": "gh-leonxlnx-earshot",
+   "name": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-29T12:46:09.832376+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
+   "what": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "tag": "agents",
+   "extra": {
+    "forks": 197,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "audio",
+     "claude-code",
+     "mcp",
+     "sound-design"
+    ],
+    "repo_id": 1420305104
+   },
+   "why_at_peak": "3.2K stars since launch 14 days ago \u2248 224 stars/day since launch.",
+   "metric_at_peak": 3197,
+   "metric_name": "stars"
+  },
+  "gh-feder-cr-git-ai": {
+   "id": "gh:feder-cr/git-ai",
+   "slug": "gh-feder-cr-git-ai",
+   "name": "feder-cr/git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-29T12:46:09.832376+00:00",
+   "peak_score": 94.9,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T12:46:09.832376+00:00",
+   "what": "Git designed for AI agents.",
+   "tag": "agents",
+   "extra": {
+    "forks": 101,
+    "lang": "Go",
+    "topics": [
+     "ai-agents",
+     "coding-agents",
+     "git",
+     "golang",
+     "scion",
+     "version-control"
+    ],
+    "repo_id": 1420751050
+   },
+   "why_at_peak": "1.0K stars since launch 14 days ago \u2248 72 stars/day since launch.",
+   "metric_at_peak": 1013,
    "metric_name": "stars"
   }
  }

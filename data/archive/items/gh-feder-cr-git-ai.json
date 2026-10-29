@@ -128,6 +128,12 @@
    "score": 94.4,
    "metric": 2297,
    "t": "2026-10-19T00:32:47.164971+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 1013,
+   "t": "2026-10-29T12:46:09.832376+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -141,10 +147,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-15T13:12:02Z",
- "last_seen": "2026-10-19T00:32:47.164971+00:00",
- "last_why": "+2.1K stars/day pace right now (2.3K total).",
+ "last_seen": "2026-10-29T12:46:09.832376+00:00",
+ "last_why": "1.0K stars since launch 14 days ago \u2248 72 stars/day since launch.",
  "extra": {
-  "forks": 257,
+  "forks": 101,
   "lang": "Go",
   "topics": [
    "ai-agents",
@@ -161,7 +167,8 @@
   "2026-10-16",
   "2026-10-17",
   "2026-10-18",
-  "2026-10-19"
+  "2026-10-19",
+  "2026-10-29"
  ],
  "aliases": [
   "gh:feder-cr/open_scion"
