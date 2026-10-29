@@ -14,10 +14,16 @@
    "score": 96.6,
    "metric": 49,
    "t": "2026-10-29T06:31:12.044626+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 55,
+   "t": "2026-10-29T07:46:06.977794+00:00"
   }
  ],
- "peak_score": 97.4,
- "best_rank": 3,
+ "peak_score": 98.2,
+ "best_rank": 2,
  "name": "AI execs may be too out of touch to build for the general public",
  "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
  "source": "hackernews",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-28T22:27:46Z",
- "last_seen": "2026-10-29T06:31:12.044626+00:00",
- "last_why": "+115 points/day pace right now (49 total).",
+ "last_seen": "2026-10-29T07:46:06.977794+00:00",
+ "last_why": "+115 points/day pace right now (55 total).",
  "extra": {
-  "comments": 29,
+  "comments": 39,
   "hn": "https://news.ycombinator.com/item?id=50281826"
  },
  "days": [

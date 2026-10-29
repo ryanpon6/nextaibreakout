@@ -6,7 +6,8 @@
   "2026-10-29T02:51:37.031313+00:00",
   "2026-10-29T04:01:08.472403+00:00",
   "2026-10-29T05:16:10.798489+00:00",
-  "2026-10-29T06:31:12.044626+00:00"
+  "2026-10-29T06:31:12.044626+00:00",
+  "2026-10-29T07:46:06.977794+00:00"
  ],
  "items": {
   "hn-50280864-leak-exposes-41-000-homeland-security-workers-incl": {
@@ -41,8 +42,8 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -74,12 +75,12 @@
    "first_seen": "2026-10-29T00:31:17.486341+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 722,
+    "comments": 736,
     "hn": "https://news.ycombinator.com/item?id=50276792"
    },
    "why_at_peak": "+766 points/day pace right now (777 total).",
@@ -360,13 +361,13 @@
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
    "peak_score": 96.6,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "translation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 165,
-    "trending": 412,
+    "trending": 425,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -406,10 +407,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-10-29T01:46:06.899591+00:00",
-   "peak_score": 65.5,
+   "peak_score": 66.2,
    "best_rank": 10,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -430,20 +431,20 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 95.8,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 338,
-    "trending": 239,
+    "trending": 252,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+418 likes/day pace right now (209 total).",
-   "metric_at_peak": 209,
+   "why_at_peak": "+288 likes/day pace right now (257 total).",
+   "metric_at_peak": 257,
    "metric_name": "likes"
   },
   "gh-aientech-dossier": {
@@ -456,12 +457,12 @@
    "first_seen": "2026-10-29T02:51:37.031313+00:00",
    "peak_score": 95.8,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
    "tag": "dev tools",
    "extra": {
-    "forks": 605,
+    "forks": 610,
     "lang": "TypeScript",
     "topics": [
      "caprover",
@@ -542,12 +543,12 @@
    "first_seen": "2026-10-29T04:01:08.472403+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 94,
+    "forks": 95,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -568,8 +569,8 @@
     ],
     "repo_id": 1431986839
    },
-   "why_at_peak": "+192 stars/day pace right now (632 total).",
-   "metric_at_peak": 632,
+   "why_at_peak": "+384 stars/day pace right now (652 total).",
+   "metric_at_peak": 652,
    "metric_name": "stars"
   },
   "hn-50273396-kentucky-man-becomes-the-first-humanist-granted-re": {
@@ -646,18 +647,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-29T05:16:10.798489+00:00",
-   "peak_score": 97.4,
-   "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 29,
+    "comments": 39,
     "hn": "https://news.ycombinator.com/item?id=50281826"
    },
-   "why_at_peak": "+173 points/day pace right now (43 total).",
-   "metric_at_peak": 43,
+   "why_at_peak": "+115 points/day pace right now (55 total).",
+   "metric_at_peak": 55,
    "metric_name": "points"
   },
   "hf-openbmb-minicpm-ocr-1-0": {
@@ -696,16 +697,16 @@
    "first_seen": "2026-10-29T06:31:12.044626+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-29T06:31:12.044626+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 63,
+    "comments": 88,
     "hn": "https://news.ycombinator.com/item?id=50284255"
    },
-   "why_at_peak": "+1.5K points/day pace right now (223 total).",
-   "metric_at_peak": 223,
+   "why_at_peak": "+1.4K points/day pace right now (294 total).",
+   "metric_at_peak": 294,
    "metric_name": "points"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -732,6 +733,32 @@
    },
    "why_at_peak": "+134 likes/day pace right now (416 total).",
    "metric_at_peak": 416,
+   "metric_name": "likes"
+  },
+  "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
+   "id": "hfmodel:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "slug": "hf-deepseek-ai-deepseek-v4-1-flash-1017",
+   "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-29T07:46:06.977794+00:00",
+   "peak_score": 91.1,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-29T07:46:06.977794+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 116770,
+    "trending": 886,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+596 likes/day pace right now (3.6K total).",
+   "metric_at_peak": 3643,
    "metric_name": "likes"
   }
  }
