@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:LiquidAI/LFM3-Audio-2B",
+ "slug": "hf-liquidai-lfm3-audio-2b",
+ "first_seen": "2026-10-29T10:16:06.553992+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.2,
+   "metric": 118,
+   "t": "2026-10-29T10:16:06.553992+00:00"
+  }
+ ],
+ "peak_score": 97.2,
+ "best_rank": 3,
+ "name": "LiquidAI/LFM3-Audio-2B",
+ "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "any-to-any",
+ "what": "any-to-any model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-08T18:23:36.000Z",
+ "last_seen": "2026-10-29T10:16:06.553992+00:00",
+ "last_why": "Trending score 118 on Hugging Face; 118 likes, 702 downloads.",
+ "extra": {
+  "downloads": 702,
+  "trending": 118,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

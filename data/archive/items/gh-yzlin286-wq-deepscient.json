@@ -1,0 +1,46 @@
+{
+ "id": "gh:yzlin286-wq/Deepscient",
+ "slug": "gh-yzlin286-wq-deepscient",
+ "first_seen": "2026-10-29T10:16:06.553992+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 256,
+   "t": "2026-10-29T10:16:06.553992+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 5,
+ "name": "yzlin286-wq/Deepscient",
+ "url": "https://github.com/yzlin286-wq/Deepscient",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u8ba9 AI \u4e0e\u4eba\u7c7b\u4e00\u8d77\u653b\u514b\u771f\u6b63\u7684\u79d1\u5b66\u96be\u9898 \u2014\u2014 12 \u9636\u6bb5 55 \u95e8 \u00b7 36 \u5de5\u5177 \u00b7 98 \u6761\u6280\u80fd \u00b7 \u8bc1\u636e\u94fe\u4e0e\u53ef\u590d\u73b0",
+ "what": "\u8ba9 AI \u4e0e\u4eba\u7c7b\u4e00\u8d77\u653b\u514b\u771f\u6b63\u7684\u79d1\u5b66\u96be\u9898 \u2014\u2014 12 \u9636\u6bb5 55 \u95e8 \u00b7 36 \u5de5\u5177 \u00b7 98 \u6761\u6280\u80fd \u00b7 \u8bc1\u636e\u94fe\u4e0e\u53ef\u590d\u73b0",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-21T07:44:10Z",
+ "last_seen": "2026-10-29T10:16:06.553992+00:00",
+ "last_why": "256 stars since launch 8 days ago \u2248 32 stars/day since launch.",
+ "extra": {
+  "forks": 0,
+  "lang": "JavaScript",
+  "topics": [
+   "agent-skills",
+   "cordis",
+   "deepseek-harness",
+   "literature-review",
+   "mcp",
+   "nodejs",
+   "reproducibility",
+   "research",
+   "scientific-writing",
+   "windows"
+  ],
+  "repo_id": 1428047292
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

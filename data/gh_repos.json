@@ -359,7 +359,13 @@
   "1419433458": "ImMappyJ/ps-ai",
   "1407922997": "kenfox0115/CastWorkshop",
   "1421481998": "CristobalSantana/ai-ml-questions",
-  "1396887487": "mashanglinyu/luanyujia-workbench"
+  "1396887487": "mashanglinyu/luanyujia-workbench",
+  "1428047292": "yzlin286-wq/Deepscient",
+  "1410924984": "GabrieleLozupone/kokon",
+  "1409494183": "scarletkc/Hatoba",
+  "1431815066": "jouaaaaaa/mcd-self-butler",
+  "1424344930": "suikv000/mai-you-pu",
+  "1432859403": "qybaihe/bla"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -376,7 +382,7 @@
   "init-co-jp/diff-tour": 1793242314.8047185,
   "keptinventory/kept": 1793264488.2783582,
   "backtrue/thinkwithblack-skill": 1793203295.1502466,
-  "OrgoAI/bops": 1793180787.3863523,
+  "OrgoAI/bops": 1793268984.6268373,
   "ZipengWu365/TOMC": 1793224886.942159,
   "eliasbiondo/antirion": 1792940489.941602,
   "mikamikasuki/forest": 1793250987.4825628,
@@ -387,18 +393,20 @@
   "Takamatsu-Hikaru/AI-Research-Guide": 1793084859.4484408,
   "beckettharriman/openfill": 1793102485.3353572,
   "stockedge/manga-generator": 1793102485.3353572,
-  "AienTech/dossier": 1793106663.086226,
-  "C4rohan/Lampline": 1793106663.086226,
+  "AienTech/dossier": 1793268984.6268373,
+  "C4rohan/Lampline": 1793268984.6268373,
   "FoShmily/ai-paper-system": 1793233894.2482855,
-  "Folkbench/folkbench": 1793106663.086226,
-  "HRuiCcc/RuiC-oc-ferry": 1793106663.086226,
-  "Kai-Jungsthoefel/SOMA": 1793106663.086226,
+  "Folkbench/folkbench": 1793268984.6268373,
+  "HRuiCcc/RuiC-oc-ferry": 1793268984.6268373,
+  "Kai-Jungsthoefel/SOMA": 1793268984.6268373,
   "StartLuxLabs/StartLux-Decision": 1793233894.2482855,
-  "VecSzn/PolyStrata": 1793106663.086226,
-  "chenxiachan/textfold": 1793106663.086226,
+  "VecSzn/PolyStrata": 1793268984.6268373,
+  "chenxiachan/textfold": 1793268984.6268373,
   "TheLastOxygen/mafdet": 1793115089.6638021,
   "FengZhenfei/carrel": 1793238382.2358801,
   "dagoSte/squadra": 1793238382.2358801,
-  "1105216375-alt/resimind": 1793220436.5582657
+  "1105216375-alt/resimind": 1793220436.5582657,
+  "cobanov/PS5LM": 1793268984.6268373,
+  "kanaworksai-hue/audio-studio-mcp": 1793268984.6268373
  }
 }
