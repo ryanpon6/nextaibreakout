@@ -1,0 +1,33 @@
+{
+ "id": "hn:50289418",
+ "slug": "hn-50289418-mistral-large-4-le-chonk-is-now-open-weight",
+ "first_seen": "2026-10-29T15:16:07.405638+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 286,
+   "t": "2026-10-29T15:16:07.405638+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Mistral Large 4 (Le Chonk) is now Open Weight",
+ "url": "https://mistral.ai/news/mistral-large-4-oss/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T14:13:21Z",
+ "last_seen": "2026-10-29T15:16:07.405638+00:00",
+ "last_why": "286 points in 1h on Hacker News (65 comments).",
+ "extra": {
+  "comments": 65,
+  "hn": "https://news.ycombinator.com/item?id=50289418"
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}

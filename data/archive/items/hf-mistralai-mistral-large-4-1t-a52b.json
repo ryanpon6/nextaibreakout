@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:mistralai/Mistral-Large-4-1T-A52B",
+ "slug": "hf-mistralai-mistral-large-4-1t-a52b",
+ "first_seen": "2026-10-29T15:16:07.405638+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.5,
+   "metric": 1083,
+   "t": "2026-10-29T15:16:07.405638+00:00"
+  }
+ ],
+ "peak_score": 96.5,
+ "best_rank": 3,
+ "name": "mistralai/Mistral-Large-4-1T-A52B",
+ "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-30T18:35:13.000Z",
+ "last_seen": "2026-10-29T15:16:07.405638+00:00",
+ "last_why": "Trending score 172 on Hugging Face; 1.1K likes, 278 downloads.",
+ "extra": {
+  "downloads": 278,
+  "trending": 172,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-29"
+ ]
+}
