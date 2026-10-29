@@ -14,9 +14,15 @@
    "score": 94.9,
    "metric": 3517,
    "t": "2026-10-29T00:31:17.486341+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.8,
+   "metric": 3559,
+   "t": "2026-10-29T19:01:11.001085+00:00"
   }
  ],
- "peak_score": 94.9,
+ "peak_score": 95.8,
  "best_rank": 4,
  "name": "pyannote/speaker-diarization-community-1",
  "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
@@ -27,11 +33,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2025-04-15T21:31:35.000Z",
- "last_seen": "2026-10-29T00:31:17.486341+00:00",
- "last_why": "Trending score 117 on Hugging Face; 3.5K likes, 5.2M downloads.",
+ "last_seen": "2026-10-29T19:01:11.001085+00:00",
+ "last_why": "Trending score 120 on Hugging Face; 3.6K likes, 5.2M downloads.",
  "extra": {
-  "downloads": 5192929,
-  "trending": 117,
+  "downloads": 5204400,
+  "trending": 120,
   "hf_type": "model",
   "title": null,
   "summary": null,
