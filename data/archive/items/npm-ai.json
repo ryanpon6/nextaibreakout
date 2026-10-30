@@ -1,0 +1,41 @@
+{
+ "id": "npm:ai",
+ "slug": "npm-ai",
+ "first_seen": "2026-10-30T04:31:06.048027+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 60.6,
+   "metric": 7369040,
+   "t": "2026-10-30T04:31:06.048027+00:00"
+  }
+ ],
+ "peak_score": 60.6,
+ "best_rank": 9,
+ "name": "ai",
+ "url": "https://www.npmjs.com/package/ai",
+ "source": "npm",
+ "kind": "tool",
+ "desc": "npm package",
+ "what": "npm package",
+ "tag": "dev tools",
+ "metric_name": "downloads/day",
+ "created": null,
+ "last_seen": "2026-10-30T04:31:06.048027+00:00",
+ "last_why": "7.4M downloads yesterday, 1.24\u00d7 its 7-day average.",
+ "extra": {
+  "week": 41654469,
+  "days": [
+   7080860,
+   6453179,
+   3547257,
+   3340030,
+   6691177,
+   7172926,
+   7369040
+  ]
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
