@@ -18,7 +18,8 @@
   "2026-10-30T17:46:09.863346+00:00",
   "2026-10-30T18:52:07.642186+00:00",
   "2026-10-30T20:01:06.419511+00:00",
-  "2026-10-30T21:16:13.428123+00:00"
+  "2026-10-30T21:16:13.428123+00:00",
+  "2026-10-30T22:31:08.431905+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -255,13 +256,13 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 91.7,
    "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 15980,
-    "trending": 430,
+    "trending": 467,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -281,8 +282,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 80.1,
    "best_rank": 7,
-   "runs_in_top10": 18,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -553,14 +554,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-30T03:16:05.936897+00:00",
-   "peak_score": 91.0,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "peak_score": 92.1,
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
-    "forks": 119,
+    "forks": 134,
     "lang": "Swift",
     "topics": [
      "agent-skills",
@@ -581,8 +582,8 @@
     ],
     "repo_id": 1431986839
    },
-   "why_at_peak": "+231 stars/day pace right now (802 total).",
-   "metric_at_peak": 802,
+   "why_at_peak": "+288 stars/day pace right now (924 total).",
+   "metric_at_peak": 924,
    "metric_name": "stars"
   },
   "hn-50290177-llm-voice": {
@@ -695,13 +696,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 185,
+    "trending": 189,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -721,8 +722,8 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
@@ -890,12 +891,12 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 187,
+    "forks": 191,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -909,8 +910,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+3.6K stars/day pace right now (952 total).",
-   "metric_at_peak": 952,
+   "why_at_peak": "+692 stars/day pace right now (1.2K total).",
+   "metric_at_peak": 1154,
    "metric_name": "stars"
   },
   "hn-50301983-anthropic-hacked-to-deliver-remote-access-trojan": {
@@ -1015,12 +1016,12 @@
    "first_seen": "2026-10-30T15:16:10.221986+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 423,
+    "comments": 435,
     "hn": "https://news.ycombinator.com/item?id=50300683"
    },
    "why_at_peak": "+1.5K points/day pace right now (580 total).",
@@ -1111,12 +1112,12 @@
    "first_seen": "2026-10-30T16:31:08.904531+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 309,
+    "comments": 330,
     "hn": "https://news.ycombinator.com/item?id=50305693"
    },
    "why_at_peak": "59 points in 1h on Hacker News (46 comments).",
@@ -1275,20 +1276,20 @@
    "first_seen": "2026-10-30T18:52:07.642186+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 221,
-    "trending": 133,
+    "trending": 141,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "Trending score 129 on Hugging Face; 129 likes, 221 downloads.",
-   "metric_at_peak": 129,
+   "why_at_peak": "+154 likes/day pace right now (142 total).",
+   "metric_at_peak": 142,
    "metric_name": "likes"
   },
   "hf-qwen-qwen3-8-flash-next": {
@@ -1395,6 +1396,30 @@
    },
    "why_at_peak": "+575 points/day pace right now (74 total).",
    "metric_at_peak": 74,
+   "metric_name": "points"
+  },
+  "hn-50306442-show-hn-a-working-nintendo-in-1gb-of-qwen-weight": {
+   "id": "hn:50306442",
+   "slug": "hn-50306442-show-hn-a-working-nintendo-in-1gb-of-qwen-weight",
+   "name": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T22:31:08.431905+00:00",
+   "peak_score": 95.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T22:31:08.431905+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 101,
+    "hn": "https://news.ycombinator.com/item?id=50306442",
+    "repo_created": "2026-10-30T15:54:20Z",
+    "repo": "dbreunig/nesformer"
+   },
+   "why_at_peak": "+327 points/day pace right now (158 total).",
+   "metric_at_peak": 158,
    "metric_name": "points"
   }
  }

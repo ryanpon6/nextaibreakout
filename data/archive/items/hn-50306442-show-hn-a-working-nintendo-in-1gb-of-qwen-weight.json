@@ -1,0 +1,35 @@
+{
+ "id": "hn:50306442",
+ "slug": "hn-50306442-show-hn-a-working-nintendo-in-1gb-of-qwen-weight",
+ "first_seen": "2026-10-30T22:31:08.431905+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.9,
+   "metric": 158,
+   "t": "2026-10-30T22:31:08.431905+00:00"
+  }
+ ],
+ "peak_score": 95.9,
+ "best_rank": 5,
+ "name": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+ "url": "https://github.com/dbreunig/nesformer",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T16:40:22Z",
+ "last_seen": "2026-10-30T22:31:08.431905+00:00",
+ "last_why": "+327 points/day pace right now (158 total).",
+ "extra": {
+  "comments": 101,
+  "hn": "https://news.ycombinator.com/item?id=50306442",
+  "repo_created": "2026-10-30T15:54:20Z",
+  "repo": "dbreunig/nesformer"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
