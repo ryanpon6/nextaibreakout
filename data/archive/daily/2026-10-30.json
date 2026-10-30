@@ -16,7 +16,8 @@
   "2026-10-30T15:16:10.221986+00:00",
   "2026-10-30T16:31:08.904531+00:00",
   "2026-10-30T17:46:09.863346+00:00",
-  "2026-10-30T18:52:07.642186+00:00"
+  "2026-10-30T18:52:07.642186+00:00",
+  "2026-10-30T20:01:06.419511+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -191,13 +192,13 @@
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 94.2,
-   "best_rank": 6,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-30T10:16:06.958267+00:00",
+   "best_rank": 5,
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 151,
+    "forks": 183,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -279,8 +280,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 80.1,
    "best_rank": 7,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -615,13 +616,13 @@
    "first_seen": "2026-10-30T04:31:06.048027+00:00",
    "peak_score": 89.4,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 23694,
-    "trending": 521,
+    "trending": 530,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -751,12 +752,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 98,
+    "forks": 99,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -920,12 +921,12 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 172,
+    "forks": 181,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -1045,16 +1046,16 @@
    "first_seen": "2026-10-30T15:16:10.221986+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 352,
+    "comments": 400,
     "hn": "https://news.ycombinator.com/item?id=50300683"
    },
-   "why_at_peak": "+2.2K points/day pace right now (159 total).",
-   "metric_at_peak": 159,
+   "why_at_peak": "+1.5K points/day pace right now (580 total).",
+   "metric_at_peak": 580,
    "metric_name": "points"
   },
   "hn-50301983-claude-code-vs-code-extension-with-backdoor-releas": {
@@ -1141,12 +1142,12 @@
    "first_seen": "2026-10-30T16:31:08.904531+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 223,
+    "comments": 283,
     "hn": "https://news.ycombinator.com/item?id=50305693"
    },
    "why_at_peak": "59 points in 1h on Hacker News (46 comments).",
@@ -1283,12 +1284,12 @@
    "first_seen": "2026-10-30T18:52:07.642186+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 103,
+    "comments": 175,
     "hn": "https://news.ycombinator.com/item?id=50307183"
    },
    "why_at_peak": "158 points in 1h on Hacker News (103 comments).",
@@ -1305,13 +1306,13 @@
    "first_seen": "2026-10-30T18:52:07.642186+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 221,
-    "trending": 129,
+    "trending": 130,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1345,6 +1346,32 @@
    },
    "why_at_peak": "Trending score 125 on Hugging Face; 6.7K likes, 4.1M downloads.",
    "metric_at_peak": 6655,
+   "metric_name": "likes"
+  },
+  "hf-liquidai-lfm3-1-7b-gguf": {
+   "id": "hfmodel:LiquidAI/LFM3-1.7B-GGUF",
+   "slug": "hf-liquidai-lfm3-1-7b-gguf",
+   "name": "LiquidAI/LFM3-1.7B-GGUF",
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T20:01:06.419511+00:00",
+   "peak_score": 89.8,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 97184,
+    "trending": 138,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+104 likes/day pace right now (143 total).",
+   "metric_at_peak": 143,
    "metric_name": "likes"
   }
  }
