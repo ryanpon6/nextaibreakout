@@ -62,6 +62,12 @@
    "score": 96.6,
    "metric": 488,
    "t": "2026-10-30T17:46:09.863346+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 494,
+   "t": "2026-10-30T18:52:07.642186+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -75,10 +81,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-27T19:26:12Z",
- "last_seen": "2026-10-30T17:46:09.863346+00:00",
- "last_why": "+250 stars/day pace right now (488 total).",
+ "last_seen": "2026-10-30T18:52:07.642186+00:00",
+ "last_why": "+131 stars/day pace right now (494 total).",
  "extra": {
-  "forks": 48,
+  "forks": 49,
   "lang": "Kotlin",
   "topics": [
    "ai-agent",

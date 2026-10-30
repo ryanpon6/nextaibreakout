@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Qwen/Qwen3.8-Flash-Next",
+ "slug": "hf-qwen-qwen3-8-flash-next",
+ "first_seen": "2026-10-30T18:52:07.642186+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 90.5,
+   "metric": 6655,
+   "t": "2026-10-30T18:52:07.642186+00:00"
+  }
+ ],
+ "peak_score": 90.5,
+ "best_rank": 9,
+ "name": "Qwen/Qwen3.8-Flash-Next",
+ "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-08-24T08:24:59.000Z",
+ "last_seen": "2026-10-30T18:52:07.642186+00:00",
+ "last_why": "Trending score 125 on Hugging Face; 6.7K likes, 4.1M downloads.",
+ "extra": {
+  "downloads": 4137335,
+  "trending": 125,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

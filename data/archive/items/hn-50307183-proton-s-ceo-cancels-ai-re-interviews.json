@@ -1,0 +1,33 @@
+{
+ "id": "hn:50307183",
+ "slug": "hn-50307183-proton-s-ceo-cancels-ai-re-interviews",
+ "first_seen": "2026-10-30T18:52:07.642186+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 158,
+   "t": "2026-10-30T18:52:07.642186+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Proton's CEO Cancels AI 'Re-Interviews'",
+ "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T17:24:45Z",
+ "last_seen": "2026-10-30T18:52:07.642186+00:00",
+ "last_why": "158 points in 1h on Hacker News (103 comments).",
+ "extra": {
+  "comments": 103,
+  "hn": "https://news.ycombinator.com/item?id=50307183"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
