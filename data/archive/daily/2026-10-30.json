@@ -1,7 +1,8 @@
 {
  "day": "2026-10-30",
  "runs": [
-  "2026-10-30T00:46:05.601897+00:00"
+  "2026-10-30T00:46:05.601897+00:00",
+  "2026-10-30T02:01:09.905107+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -14,12 +15,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T00:46:05.601897+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 21,
+    "comments": 71,
     "hn": "https://news.ycombinator.com/item?id=50296602"
    },
    "why_at_peak": "47 points in 3h on Hacker News (21 comments).",
@@ -36,12 +37,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T00:46:05.601897+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 45,
+    "comments": 62,
     "hn": "https://news.ycombinator.com/item?id=50296486"
    },
    "why_at_peak": "+826 points/day pace right now (119 total).",
@@ -175,14 +176,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 92.8,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T00:46:05.601897+00:00",
+   "peak_score": 93.4,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 121,
+    "forks": 128,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -198,8 +199,8 @@
     ],
     "repo_id": 1432859403
    },
-   "why_at_peak": "+730 stars/day pace right now (765 total).",
-   "metric_at_peak": 765,
+   "why_at_peak": "+882 stars/day pace right now (811 total).",
+   "metric_at_peak": 811,
    "metric_name": "stars"
   },
   "hf-mistralai-mistral-large-4-1t-a52b": {
@@ -212,13 +213,13 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 91.2,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T00:46:05.601897+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 278,
-    "trending": 296,
+    "trending": 304,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -262,10 +263,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 72.7,
+   "peak_score": 74.9,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T00:46:05.601897+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -283,6 +284,152 @@
    "why_at_peak": "14.9M downloads yesterday, 1.20\u00d7 its 7-day average.",
    "metric_at_peak": 14900059,
    "metric_name": "downloads/day"
+  },
+  "gh-channelcooperstart-capri-ai": {
+   "id": "gh:ChannelCooperStart/capri-ai",
+   "slug": "gh-channelcooperstart-capri-ai",
+   "name": "ChannelCooperStart/capri-ai",
+   "url": "https://github.com/ChannelCooperStart/capri-ai",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T02:01:09.905107+00:00",
+   "peak_score": 98.2,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "what": "Capri \u2014 Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+   "tag": "agents",
+   "extra": {
+    "forks": 66,
+    "lang": null,
+    "topics": [
+     "ai-agent",
+     "ai-agents",
+     "ai-assistants",
+     "antigravity",
+     "autamation",
+     "claude",
+     "claude-ai",
+     "claude-code",
+     "codex",
+     "cyberpunks",
+     "edgerunners",
+     "edgerunners-2",
+     "llm",
+     "llm-agents"
+    ],
+    "repo_id": 1436323783
+   },
+   "why_at_peak": "+1.1K stars/day pace right now (428 total).",
+   "metric_at_peak": 428,
+   "metric_name": "stars"
+  },
+  "gh-patch-gg-anymove": {
+   "id": "gh:patch-gg/anymove",
+   "slug": "gh-patch-gg-anymove",
+   "name": "patch-gg/anymove",
+   "url": "https://github.com/patch-gg/anymove",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T02:01:09.905107+00:00",
+   "peak_score": 97.4,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+   "tag": "agents",
+   "extra": {
+    "forks": 43,
+    "lang": "Python",
+    "topics": [
+     "agent-skills",
+     "animation",
+     "blender",
+     "claude-code-plugin",
+     "dinov2",
+     "gamedev",
+     "generative-ai",
+     "motion-capture"
+    ],
+    "repo_id": 1435425970
+   },
+   "why_at_peak": "+96 stars/day pace right now (424 total).",
+   "metric_at_peak": 424,
+   "metric_name": "stars"
+  },
+  "hf-hi3d-official-hi3dv1-0": {
+   "id": "hfmodel:hi3d-official/Hi3Dv1.0",
+   "slug": "hf-hi3d-official-hi3dv1-0",
+   "name": "hi3d-official/Hi3Dv1.0",
+   "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T02:01:09.905107+00:00",
+   "peak_score": 94.2,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "what": "image-to-3d model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 0,
+    "trending": 123,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 123 on Hugging Face; 132 likes, 0 downloads.",
+   "metric_at_peak": 132,
+   "metric_name": "likes"
+  },
+  "hn-50289418-we-re-releasing-the-weights-of-mistral-large-4": {
+   "id": "hn:50289418",
+   "slug": "hn-50289418-we-re-releasing-the-weights-of-mistral-large-4",
+   "name": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T02:01:09.905107+00:00",
+   "peak_score": 92.6,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 340,
+    "hn": "https://news.ycombinator.com/item?id=50289418"
+   },
+   "why_at_peak": "+1.1K points/day pace right now (1.2K total).",
+   "metric_at_peak": 1211,
+   "metric_name": "points"
+  },
+  "hf-openbmb-minicpm-ocr-1-0": {
+   "id": "hfmodel:openbmb/MiniCPM-OCR-1.0",
+   "slug": "hf-openbmb-minicpm-ocr-1-0",
+   "name": "openbmb/MiniCPM-OCR-1.0",
+   "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T02:01:09.905107+00:00",
+   "peak_score": 90.3,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1597,
+    "trending": 193,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+153 likes/day pace right now (327 total).",
+   "metric_at_peak": 327,
+   "metric_name": "likes"
   }
  }
 }
