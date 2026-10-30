@@ -14,6 +14,12 @@
    "score": 94.9,
    "metric": 1003,
    "t": "2026-10-30T07:46:07.640810+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 94.1,
+   "metric": 1239,
+   "t": "2026-10-30T09:01:08.921218+00:00"
   }
  ],
  "peak_score": 94.9,
@@ -22,15 +28,15 @@
  "url": "https://github.com/ccch1mneyyy/dsh-go",
  "source": "github",
  "kind": "tool",
- "desc": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002Android \u00b7 Unofficial.",
- "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002Android \u00b7 Unofficial.",
+ "desc": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
+ "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-25T08:09:52Z",
- "last_seen": "2026-10-30T07:46:07.640810+00:00",
- "last_why": "+3.6K stars/day pace right now (1.0K total).",
+ "last_seen": "2026-10-30T09:01:08.921218+00:00",
+ "last_why": "+4.5K stars/day pace right now (1.2K total).",
  "extra": {
-  "forks": 39,
+  "forks": 51,
   "lang": "Dart",
   "topics": [
    "ai-agent",
@@ -40,6 +46,7 @@
    "deepseek",
    "deepseek-harness",
    "dsh",
+   "dsh-plugin",
    "dsh-tui",
    "flutter",
    "llm"

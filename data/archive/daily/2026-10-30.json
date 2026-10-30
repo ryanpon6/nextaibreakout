@@ -7,7 +7,8 @@
   "2026-10-30T04:31:06.048027+00:00",
   "2026-10-30T05:46:06.490199+00:00",
   "2026-10-30T06:40:21.399481+00:00",
-  "2026-10-30T07:46:07.640810+00:00"
+  "2026-10-30T07:46:07.640810+00:00",
+  "2026-10-30T09:01:08.921218+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -183,12 +184,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 94.2,
    "best_rank": 6,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 139,
+    "forks": 148,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -244,13 +245,13 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 91.7,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4276,
-    "trending": 406,
+    "trending": 417,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -270,8 +271,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 78.9,
    "best_rank": 7,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -398,12 +399,12 @@
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
    "peak_score": 96.1,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 372,
+    "comments": 387,
     "hn": "https://news.ycombinator.com/item?id=50289418"
    },
    "why_at_peak": "+499 points/day pace right now (1.3K total).",
@@ -584,12 +585,12 @@
    "first_seen": "2026-10-30T04:31:06.048027+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 238,
+    "comments": 246,
     "hn": "https://news.ycombinator.com/item?id=50290177"
    },
    "why_at_peak": "+326 points/day pace right now (385 total).",
@@ -684,13 +685,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 141,
+    "trending": 147,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -710,12 +711,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
    "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
    "tag": "agents",
    "extra": {
-    "forks": 37,
+    "forks": 41,
     "lang": "Kotlin",
     "topics": [
      "ai-agent",
@@ -742,12 +743,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
-   "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002Android \u00b7 Unofficial.",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
+   "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 39,
+    "forks": 51,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -757,6 +758,7 @@
      "deepseek",
      "deepseek-harness",
      "dsh",
+     "dsh-plugin",
      "dsh-tui",
      "flutter",
      "llm"
@@ -851,6 +853,54 @@
    "why_at_peak": "+66 likes/day pace right now (154 total).",
    "metric_at_peak": 154,
    "metric_name": "likes"
+  },
+  "hf-atomicchat-lfm3-1-7b-uncensored-gguf": {
+   "id": "hfmodel:AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+   "slug": "hf-atomicchat-lfm3-1-7b-uncensored-gguf",
+   "name": "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T09:01:08.921218+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 16687,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 130 likes, 16.7K downloads.",
+   "metric_at_peak": 130,
+   "metric_name": "likes"
+  },
+  "hn-50300618-show-hn-arsaze-cursor-for-video-editing-tab-co": {
+   "id": "hn:50300618",
+   "slug": "hn-50300618-show-hn-arsaze-cursor-for-video-editing-tab-co",
+   "name": "Show HN: Arsaze \u2013 Cursor for video editing (Tab-complete and agent edits)",
+   "url": "https://www.arsaze.com",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T09:01:08.921218+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T09:01:08.921218+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 0,
+    "hn": "https://news.ycombinator.com/item?id=50300618"
+   },
+   "why_at_peak": "+557 points/day pace right now (48 total).",
+   "metric_at_peak": 48,
+   "metric_name": "points"
   }
  }
 }
