@@ -1,0 +1,33 @@
+{
+ "id": "hn:50301983",
+ "slug": "hn-50301983-claude-code-vs-code-extension-with-backdoor-releas",
+ "first_seen": "2026-10-30T15:16:10.221986+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.0,
+   "metric": 392,
+   "t": "2026-10-30T15:16:10.221986+00:00"
+  }
+ ],
+ "peak_score": 95.0,
+ "best_rank": 5,
+ "name": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+ "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T10:22:51Z",
+ "last_seen": "2026-10-30T15:16:10.221986+00:00",
+ "last_why": "+1.3K points/day pace right now (392 total).",
+ "extra": {
+  "comments": 1,
+  "hn": "https://news.ycombinator.com/item?id=50301983"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

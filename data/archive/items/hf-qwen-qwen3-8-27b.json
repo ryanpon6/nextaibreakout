@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Qwen/Qwen3.8-27B",
+ "slug": "hf-qwen-qwen3-8-27b",
+ "first_seen": "2026-10-30T15:16:10.221986+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 86.5,
+   "metric": 18779,
+   "t": "2026-10-30T15:16:10.221986+00:00"
+  }
+ ],
+ "peak_score": 86.5,
+ "best_rank": 9,
+ "name": "Qwen/Qwen3.8-27B",
+ "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-08-05T08:22:59.000Z",
+ "last_seen": "2026-10-30T15:16:10.221986+00:00",
+ "last_why": "+1.3K likes/day pace right now (18.8K total).",
+ "extra": {
+  "downloads": 7624809,
+  "trending": 278,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

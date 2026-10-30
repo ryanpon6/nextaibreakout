@@ -1,0 +1,33 @@
+{
+ "id": "hn:50300683",
+ "slug": "hn-50300683-backdoor-in-claude-code-for-vs-code-extension-on-t",
+ "first_seen": "2026-10-30T15:16:10.221986+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.4,
+   "metric": 159,
+   "t": "2026-10-30T15:16:10.221986+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 2,
+ "name": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+ "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T07:09:12Z",
+ "last_seen": "2026-10-30T15:16:10.221986+00:00",
+ "last_why": "+2.2K points/day pace right now (159 total).",
+ "extra": {
+  "comments": 313,
+  "hn": "https://news.ycombinator.com/item?id=50300683"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
