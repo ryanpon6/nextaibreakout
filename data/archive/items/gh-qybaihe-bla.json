@@ -104,6 +104,12 @@
    "score": 90.6,
    "metric": 1368,
    "t": "2026-10-30T21:16:13.428123+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 91.5,
+   "metric": 1391,
+   "t": "2026-10-30T23:46:05.911468+00:00"
   }
  ],
  "peak_score": 96.7,
@@ -117,10 +123,10 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-10-25T05:25:45Z",
- "last_seen": "2026-10-30T21:16:13.428123+00:00",
- "last_why": "+364 stars/day pace right now (1.4K total).",
+ "last_seen": "2026-10-30T23:46:05.911468+00:00",
+ "last_why": "+269 stars/day pace right now (1.4K total).",
  "extra": {
-  "forks": 186,
+  "forks": 188,
   "lang": "TypeScript",
   "topics": [
    "adversarial-ai",
