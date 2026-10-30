@@ -1,0 +1,33 @@
+{
+ "id": "hn:50302334",
+ "slug": "hn-50302334-backdoors-in-official-claude-code-extensions",
+ "first_seen": "2026-10-30T12:46:07.240413+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 309,
+   "t": "2026-10-30T12:46:07.240413+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "Backdoors in official Claude Code extensions",
+ "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T11:05:53Z",
+ "last_seen": "2026-10-30T12:46:07.240413+00:00",
+ "last_why": "+5.2K points/day pace right now (309 total).",
+ "extra": {
+  "comments": 75,
+  "hn": "https://news.ycombinator.com/item?id=50302334"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

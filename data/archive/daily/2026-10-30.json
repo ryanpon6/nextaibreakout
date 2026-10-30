@@ -10,7 +10,8 @@
   "2026-10-30T07:46:07.640810+00:00",
   "2026-10-30T09:01:08.921218+00:00",
   "2026-10-30T10:16:06.958267+00:00",
-  "2026-10-30T11:31:11.796401+00:00"
+  "2026-10-30T11:31:11.796401+00:00",
+  "2026-10-30T12:46:07.240413+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -45,12 +46,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 113,
+    "comments": 122,
     "hn": "https://news.ycombinator.com/item?id=50296486"
    },
    "why_at_peak": "+346 points/day pace right now (219 total).",
@@ -219,22 +220,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 91.2,
-   "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T07:46:07.640810+00:00",
+   "peak_score": 91.7,
+   "best_rank": 7,
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 278,
-    "trending": 325,
+    "downloads": 1239,
+    "trending": 358,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+192 likes/day pace right now (1.2K total).",
-   "metric_at_peak": 1216,
+   "why_at_peak": "+231 likes/day pace right now (1.3K total).",
+   "metric_at_peak": 1290,
    "metric_name": "likes"
   },
   "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
@@ -273,8 +274,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 78.9,
    "best_rank": 7,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -421,22 +422,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
-   "peak_score": 90.3,
+   "peak_score": 91.0,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 1597,
-    "trending": 193,
+    "downloads": 2413,
+    "trending": 210,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+153 likes/day pace right now (327 total).",
-   "metric_at_peak": 327,
+   "why_at_peak": "+115 likes/day pace right now (350 total).",
+   "metric_at_peak": 350,
    "metric_name": "likes"
   },
   "hn-50297697-show-hn-i-turned-doom-into-a-transformer": {
@@ -687,13 +688,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 152,
+    "trending": 159,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -713,12 +714,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
    "tag": "agents",
    "extra": {
-    "forks": 44,
+    "forks": 45,
     "lang": "Kotlin",
     "topics": [
      "ai-agent",
@@ -745,12 +746,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 69,
+    "forks": 72,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -914,12 +915,12 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 55,
+    "forks": 57,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -933,8 +934,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "337 stars since launch 1 days ago \u2248 386 stars/day since launch.",
-   "metric_at_peak": 337,
+   "why_at_peak": "361 stars since launch 1 days ago \u2248 390 stars/day since launch.",
+   "metric_at_peak": 361,
    "metric_name": "stars"
   },
   "hn-50301983-anthropic-hacked-to-deliver-remote-access-trojan": {
@@ -947,16 +948,38 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 9,
+    "comments": 37,
     "hn": "https://news.ycombinator.com/item?id=50301983"
    },
    "why_at_peak": "44 points in 1h on Hacker News (9 comments).",
    "metric_at_peak": 44,
+   "metric_name": "points"
+  },
+  "hn-50302334-backdoors-in-official-claude-code-extensions": {
+   "id": "hn:50302334",
+   "slug": "hn-50302334-backdoors-in-official-claude-code-extensions",
+   "name": "Backdoors in official Claude Code extensions",
+   "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T12:46:07.240413+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T12:46:07.240413+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 75,
+    "hn": "https://news.ycombinator.com/item?id=50302334"
+   },
+   "why_at_peak": "+5.2K points/day pace right now (309 total).",
+   "metric_at_peak": 309,
    "metric_name": "points"
   }
  }

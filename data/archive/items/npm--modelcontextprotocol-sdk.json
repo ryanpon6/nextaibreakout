@@ -722,6 +722,12 @@
    "score": 75.4,
    "metric": 14900059,
    "t": "2026-10-30T11:31:11.796401+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 72.5,
+   "metric": 14900059,
+   "t": "2026-10-30T12:46:07.240413+00:00"
   }
  ],
  "peak_score": 94.3,
@@ -735,7 +741,7 @@
  "tag": "dev tools",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-10-30T11:31:11.796401+00:00",
+ "last_seen": "2026-10-30T12:46:07.240413+00:00",
  "last_why": "14.9M downloads yesterday, 1.20\u00d7 its 7-day average.",
  "days": [
   "2026-10-15",
