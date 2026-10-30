@@ -14,7 +14,8 @@
   "2026-10-30T12:46:07.240413+00:00",
   "2026-10-30T14:01:07.240447+00:00",
   "2026-10-30T15:16:10.221986+00:00",
-  "2026-10-30T16:31:08.904531+00:00"
+  "2026-10-30T16:31:08.904531+00:00",
+  "2026-10-30T17:46:09.863346+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -225,13 +226,13 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 91.7,
    "best_rank": 7,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T14:01:07.240447+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1239,
-    "trending": 366,
+    "trending": 385,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -277,8 +278,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 80.1,
    "best_rank": 7,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -691,13 +692,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 173,
+    "trending": 176,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -717,12 +718,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
    "tag": "agents",
    "extra": {
-    "forks": 47,
+    "forks": 48,
     "lang": "Kotlin",
     "topics": [
      "ai-agent",
@@ -749,12 +750,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 86,
+    "forks": 93,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -918,12 +919,12 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 121,
+    "forks": 152,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -937,8 +938,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "361 stars since launch 1 days ago \u2248 390 stars/day since launch.",
-   "metric_at_peak": 361,
+   "why_at_peak": "+3.6K stars/day pace right now (952 total).",
+   "metric_at_peak": 952,
    "metric_name": "stars"
   },
   "hn-50301983-anthropic-hacked-to-deliver-remote-access-trojan": {
@@ -1139,12 +1140,12 @@
    "first_seen": "2026-10-30T16:31:08.904531+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 46,
+    "comments": 181,
     "hn": "https://news.ycombinator.com/item?id=50305693"
    },
    "why_at_peak": "59 points in 1h on Hacker News (46 comments).",
@@ -1197,6 +1198,78 @@
    },
    "why_at_peak": "+115 likes/day pace right now (303 total).",
    "metric_at_peak": 303,
+   "metric_name": "likes"
+  },
+  "hn-50306008-us-tech-stocks-see-sharp-falls-over-ai-cost-fears": {
+   "id": "hn:50306008",
+   "slug": "hn-50306008-us-tech-stocks-see-sharp-falls-over-ai-cost-fears",
+   "name": "US tech stocks see sharp falls over AI cost fears",
+   "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T17:46:09.863346+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 56,
+    "hn": "https://news.ycombinator.com/item?id=50306008"
+   },
+   "why_at_peak": "107 points in 2h on Hacker News (56 comments).",
+   "metric_at_peak": 107,
+   "metric_name": "points"
+  },
+  "hn-50306442-a-working-nintendo-in-1gb-of-qwen-weights": {
+   "id": "hn:50306442",
+   "slug": "hn-50306442-a-working-nintendo-in-1gb-of-qwen-weights",
+   "name": "A Working Nintendo in ~1GB of Qwen Weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T17:46:09.863346+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 46,
+    "hn": "https://news.ycombinator.com/item?id=50306442",
+    "repo_created": "2026-10-30T15:54:20Z",
+    "repo": "dbreunig/nesformer"
+   },
+   "why_at_peak": "51 points in 1h on Hacker News (46 comments).",
+   "metric_at_peak": 51,
+   "metric_name": "points"
+  },
+  "hf-maya-research-maya2-native": {
+   "id": "hfmodel:maya-research/maya2-native",
+   "slug": "hf-maya-research-maya2-native",
+   "name": "maya-research/maya2-native",
+   "url": "https://huggingface.co/maya-research/maya2-native",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T17:46:09.863346+00:00",
+   "peak_score": 93.5,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T17:46:09.863346+00:00",
+   "what": "text-to-speech model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1493,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 1.5K downloads.",
+   "metric_at_peak": 125,
    "metric_name": "likes"
   }
  }
