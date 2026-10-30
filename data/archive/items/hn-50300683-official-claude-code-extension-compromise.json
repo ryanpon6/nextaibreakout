@@ -1,0 +1,33 @@
+{
+ "id": "hn:50300683",
+ "slug": "hn-50300683-official-claude-code-extension-compromise",
+ "first_seen": "2026-10-30T14:01:07.240447+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.6,
+   "metric": 43,
+   "t": "2026-10-30T14:01:07.240447+00:00"
+  }
+ ],
+ "peak_score": 92.6,
+ "best_rank": 7,
+ "name": "Official Claude Code extension compromise",
+ "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T07:09:12Z",
+ "last_seen": "2026-10-30T14:01:07.240447+00:00",
+ "last_why": "+346 points/day pace right now (43 total).",
+ "extra": {
+  "comments": 7,
+  "hn": "https://news.ycombinator.com/item?id=50300683"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
