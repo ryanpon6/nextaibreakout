@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Pika-Labs/Pika-H3-Flex",
+ "slug": "hf-pika-labs-pika-h3-flex",
+ "first_seen": "2026-10-30T05:46:06.490199+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 125,
+   "t": "2026-10-30T05:46:06.490199+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Pika-Labs/Pika-H3-Flex",
+ "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-video",
+ "what": "image-to-video model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-29T17:08:44.000Z",
+ "last_seen": "2026-10-30T05:46:06.490199+00:00",
+ "last_why": "Trending score 124 on Hugging Face; 125 likes, 0 downloads.",
+ "extra": {
+  "downloads": 0,
+  "trending": 124,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

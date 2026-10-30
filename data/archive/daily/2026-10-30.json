@@ -4,7 +4,8 @@
   "2026-10-30T00:46:05.601897+00:00",
   "2026-10-30T02:01:09.905107+00:00",
   "2026-10-30T03:16:05.936897+00:00",
-  "2026-10-30T04:31:06.048027+00:00"
+  "2026-10-30T04:31:06.048027+00:00",
+  "2026-10-30T05:46:06.490199+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -39,12 +40,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T04:31:06.048027+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 70,
+    "comments": 79,
     "hn": "https://news.ycombinator.com/item?id=50296486"
    },
    "why_at_peak": "+346 points/day pace right now (219 total).",
@@ -180,12 +181,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 94.2,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 130,
+    "forks": 139,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -239,22 +240,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 90.5,
+   "peak_score": 91.7,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T04:31:06.048027+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4276,
-    "trending": 403,
+    "trending": 406,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+77 likes/day pace right now (422 total).",
-   "metric_at_peak": 422,
+   "why_at_peak": "+77 likes/day pace right now (426 total).",
+   "metric_at_peak": 426,
    "metric_name": "likes"
   },
   "npm--modelcontextprotocol-sdk": {
@@ -265,10 +266,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 75.9,
+   "peak_score": 78.9,
    "best_rank": 7,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T04:31:06.048027+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -297,8 +298,8 @@
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "Capri \u2014 Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
    "tag": "agents",
    "extra": {
@@ -322,8 +323,8 @@
     ],
     "repo_id": 1436323783
    },
-   "why_at_peak": "+1.1K stars/day pace right now (428 total).",
-   "metric_at_peak": 428,
+   "why_at_peak": "431 stars since launch 2 days ago \u2248 186 stars/day since launch.",
+   "metric_at_peak": 431,
    "metric_name": "stars"
   },
   "gh-patch-gg-anymove": {
@@ -336,8 +337,8 @@
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
    "tag": "agents",
    "extra": {
@@ -355,8 +356,8 @@
     ],
     "repo_id": 1435425970
    },
-   "why_at_peak": "+96 stars/day pace right now (424 total).",
-   "metric_at_peak": 424,
+   "why_at_peak": "429 stars since launch 3 days ago \u2248 148 stars/day since launch.",
+   "metric_at_peak": 429,
    "metric_name": "stars"
   },
   "hf-hi3d-official-hi3dv1-0": {
@@ -395,12 +396,12 @@
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
    "peak_score": 96.1,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T04:31:06.048027+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 357,
+    "comments": 360,
     "hn": "https://news.ycombinator.com/item?id=50289418"
    },
    "why_at_peak": "+499 points/day pace right now (1.3K total).",
@@ -515,13 +516,13 @@
    "first_seen": "2026-10-30T03:16:05.936897+00:00",
    "peak_score": 91.9,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T04:31:06.048027+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 18141,
-    "trending": 376,
+    "trending": 379,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -581,12 +582,12 @@
    "first_seen": "2026-10-30T04:31:06.048027+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T04:31:06.048027+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 205,
+    "comments": 211,
     "hn": "https://news.ycombinator.com/item?id=50290177"
    },
    "why_at_peak": "+326 points/day pace right now (385 total).",
@@ -670,6 +671,32 @@
    "why_at_peak": "7.4M downloads yesterday, 1.24\u00d7 its 7-day average.",
    "metric_at_peak": 7369040,
    "metric_name": "downloads/day"
+  },
+  "hf-pika-labs-pika-h3-flex": {
+   "id": "hfmodel:Pika-Labs/Pika-H3-Flex",
+   "slug": "hf-pika-labs-pika-h3-flex",
+   "name": "Pika-Labs/Pika-H3-Flex",
+   "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T05:46:06.490199+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "what": "image-to-video model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 0,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 0 downloads.",
+   "metric_at_peak": 125,
+   "metric_name": "likes"
   }
  }
 }
