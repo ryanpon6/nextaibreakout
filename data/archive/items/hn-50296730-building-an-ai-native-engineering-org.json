@@ -1,0 +1,33 @@
+{
+ "id": "hn:50296730",
+ "slug": "hn-50296730-building-an-ai-native-engineering-org",
+ "first_seen": "2026-10-30T21:16:13.428123+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.9,
+   "metric": 74,
+   "t": "2026-10-30T21:16:13.428123+00:00"
+  }
+ ],
+ "peak_score": 95.9,
+ "best_rank": 4,
+ "name": "Building an AI-native engineering org",
+ "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T21:58:34Z",
+ "last_seen": "2026-10-30T21:16:13.428123+00:00",
+ "last_why": "+575 points/day pace right now (74 total).",
+ "extra": {
+  "comments": 82,
+  "hn": "https://news.ycombinator.com/item?id=50296730"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

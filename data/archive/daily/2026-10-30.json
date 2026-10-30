@@ -17,7 +17,8 @@
   "2026-10-30T16:31:08.904531+00:00",
   "2026-10-30T17:46:09.863346+00:00",
   "2026-10-30T18:52:07.642186+00:00",
-  "2026-10-30T20:01:06.419511+00:00"
+  "2026-10-30T20:01:06.419511+00:00",
+  "2026-10-30T21:16:13.428123+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -193,12 +194,12 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 94.2,
    "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 183,
+    "forks": 186,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -280,8 +281,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 80.1,
    "best_rank": 7,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -694,13 +695,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 179,
+    "trending": 185,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -709,38 +710,6 @@
    "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 0 downloads.",
    "metric_at_peak": 125,
    "metric_name": "likes"
-  },
-  "gh-jackwener-deepseekharness-android": {
-   "id": "gh:jackwener/DeepseekHarness-Android",
-   "slug": "gh-jackwener-deepseekharness-android",
-   "name": "jackwener/DeepseekHarness-Android",
-   "url": "https://github.com/jackwener/DeepseekHarness-Android",
-   "source": "github",
-   "kind": "tool",
-   "first_seen": "2026-10-30T06:40:21.399481+00:00",
-   "peak_score": 99.0,
-   "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-10-30T18:52:07.642186+00:00",
-   "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
-   "tag": "agents",
-   "extra": {
-    "forks": 49,
-    "lang": "Kotlin",
-    "topics": [
-     "ai-agent",
-     "android",
-     "deepseek",
-     "deepseek-harness",
-     "llm",
-     "phone-agent",
-     "shizuku"
-    ],
-    "repo_id": 1436184001
-   },
-   "why_at_peak": "+442 stars/day pace right now (404 total).",
-   "metric_at_peak": 404,
-   "metric_name": "stars"
   },
   "gh-ccch1mneyyy-dsh-go": {
    "id": "gh:ccch1mneyyy/dsh-go",
@@ -752,12 +721,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 99,
+    "forks": 100,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -921,12 +890,12 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 181,
+    "forks": 187,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -1046,12 +1015,12 @@
    "first_seen": "2026-10-30T15:16:10.221986+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 400,
+    "comments": 423,
     "hn": "https://news.ycombinator.com/item?id=50300683"
    },
    "why_at_peak": "+1.5K points/day pace right now (580 total).",
@@ -1090,13 +1059,13 @@
    "first_seen": "2026-10-30T15:16:10.221986+00:00",
    "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5202326,
-    "trending": 124,
+    "trending": 123,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1142,12 +1111,12 @@
    "first_seen": "2026-10-30T16:31:08.904531+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 283,
+    "comments": 309,
     "hn": "https://news.ycombinator.com/item?id=50305693"
    },
    "why_at_peak": "59 points in 1h on Hacker News (46 comments).",
@@ -1306,13 +1275,13 @@
    "first_seen": "2026-10-30T18:52:07.642186+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T20:01:06.419511+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 221,
-    "trending": 130,
+    "trending": 133,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1373,6 +1342,60 @@
    "why_at_peak": "+104 likes/day pace right now (143 total).",
    "metric_at_peak": 143,
    "metric_name": "likes"
+  },
+  "gh-jackwener-dsh-android": {
+   "id": "gh:jackwener/DSH-Android",
+   "slug": "gh-jackwener-dsh-android",
+   "name": "jackwener/DSH-Android",
+   "url": "https://github.com/jackwener/DSH-Android",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T06:40:21.399481+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 11,
+   "last_seen": "2026-10-30T18:52:07.642186+00:00",
+   "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
+   "tag": "agents",
+   "extra": {
+    "forks": 49,
+    "lang": "Kotlin",
+    "topics": [
+     "ai-agent",
+     "android",
+     "deepseek",
+     "deepseek-harness",
+     "llm",
+     "phone-agent",
+     "shizuku"
+    ],
+    "repo_id": 1436184001
+   },
+   "why_at_peak": "+442 stars/day pace right now (404 total).",
+   "metric_at_peak": 404,
+   "metric_name": "stars"
+  },
+  "hn-50296730-building-an-ai-native-engineering-org": {
+   "id": "hn:50296730",
+   "slug": "hn-50296730-building-an-ai-native-engineering-org",
+   "name": "Building an AI-native engineering org",
+   "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T21:16:13.428123+00:00",
+   "peak_score": 95.9,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T21:16:13.428123+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 82,
+    "hn": "https://news.ycombinator.com/item?id=50296730"
+   },
+   "why_at_peak": "+575 points/day pace right now (74 total).",
+   "metric_at_peak": 74,
+   "metric_name": "points"
   }
  }
 }
