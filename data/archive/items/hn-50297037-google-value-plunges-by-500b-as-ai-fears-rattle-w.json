@@ -1,0 +1,33 @@
+{
+ "id": "hn:50297037",
+ "slug": "hn-50297037-google-value-plunges-by-500b-as-ai-fears-rattle-w",
+ "first_seen": "2026-10-30T03:16:05.936897+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.6,
+   "metric": 42,
+   "t": "2026-10-30T03:16:05.936897+00:00"
+  }
+ ],
+ "peak_score": 96.6,
+ "best_rank": 4,
+ "name": "Google value plunges by $500B as AI fears rattle Wall Street",
+ "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-29T22:22:13Z",
+ "last_seen": "2026-10-30T03:16:05.936897+00:00",
+ "last_why": "+154 points/day pace right now (42 total).",
+ "extra": {
+  "comments": 18,
+  "hn": "https://news.ycombinator.com/item?id=50297037"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

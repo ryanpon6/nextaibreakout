@@ -20,9 +20,15 @@
    "score": 95.8,
    "metric": 163,
    "t": "2026-10-30T02:01:09.905107+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 201,
+   "t": "2026-10-30T03:16:05.936897+00:00"
   }
  ],
- "peak_score": 97.4,
+ "peak_score": 99.0,
  "best_rank": 1,
  "name": "We ran AI agent swarms in Minecraft and Mindustry",
  "url": "https://labs.ycombinator.com/projects/games/index.html",
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "points",
  "created": "2026-10-29T21:40:28Z",
- "last_seen": "2026-10-30T02:01:09.905107+00:00",
- "last_why": "+844 points/day pace right now (163 total).",
+ "last_seen": "2026-10-30T03:16:05.936897+00:00",
+ "last_why": "+730 points/day pace right now (201 total).",
  "extra": {
-  "comments": 62,
+  "comments": 68,
   "hn": "https://news.ycombinator.com/item?id=50296486"
  },
  "days": [

@@ -2,7 +2,8 @@
  "day": "2026-10-30",
  "runs": [
   "2026-10-30T00:46:05.601897+00:00",
-  "2026-10-30T02:01:09.905107+00:00"
+  "2026-10-30T02:01:09.905107+00:00",
+  "2026-10-30T03:16:05.936897+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -35,18 +36,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 97.4,
-   "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 62,
+    "comments": 68,
     "hn": "https://news.ycombinator.com/item?id=50296486"
    },
-   "why_at_peak": "+826 points/day pace right now (119 total).",
-   "metric_at_peak": 119,
+   "why_at_peak": "+730 points/day pace right now (201 total).",
+   "metric_at_peak": 201,
    "metric_name": "points"
   },
   "hn-50289692-manifestos-fear-and-loser-thinking-inside-pro": {
@@ -81,13 +82,13 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 95.8,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T00:46:05.601897+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
    "what": "video-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 123,
+    "trending": 124,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -176,14 +177,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 93.4,
+   "peak_score": 94.2,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 128,
+    "forks": 130,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -199,8 +200,8 @@
     ],
     "repo_id": 1432859403
    },
-   "why_at_peak": "+882 stars/day pace right now (811 total).",
-   "metric_at_peak": 811,
+   "why_at_peak": "+1.4K stars/day pace right now (884 total).",
+   "metric_at_peak": 884,
    "metric_name": "stars"
   },
   "hf-mistralai-mistral-large-4-1t-a52b": {
@@ -263,10 +264,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 74.9,
+   "peak_score": 75.5,
    "best_rank": 10,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -295,8 +296,8 @@
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T02:01:09.905107+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
    "what": "Capri \u2014 Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
    "tag": "agents",
    "extra": {
@@ -430,6 +431,144 @@
    "why_at_peak": "+153 likes/day pace right now (327 total).",
    "metric_at_peak": 327,
    "metric_name": "likes"
+  },
+  "hn-50297697-show-hn-i-turned-doom-into-a-transformer": {
+   "id": "hn:50297697",
+   "slug": "hn-50297697-show-hn-i-turned-doom-into-a-transformer",
+   "name": "Show HN: I Turned DOOM into a Transformer",
+   "url": "https://github.com/mottopanikeiku/doomformer",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T03:16:05.936897+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 11,
+    "hn": "https://news.ycombinator.com/item?id=50297697",
+    "repo_created": "2026-10-20T05:38:09Z",
+    "repo": "mottopanikeiku/doomformer"
+   },
+   "why_at_peak": "+327 points/day pace right now (55 total).",
+   "metric_at_peak": 55,
+   "metric_name": "points"
+  },
+  "hn-50297037-google-value-plunges-by-500b-as-ai-fears-rattle-w": {
+   "id": "hn:50297037",
+   "slug": "hn-50297037-google-value-plunges-by-500b-as-ai-fears-rattle-w",
+   "name": "Google value plunges by $500B as AI fears rattle Wall Street",
+   "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T03:16:05.936897+00:00",
+   "peak_score": 96.6,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 18,
+    "hn": "https://news.ycombinator.com/item?id=50297037"
+   },
+   "why_at_peak": "+154 points/day pace right now (42 total).",
+   "metric_at_peak": 42,
+   "metric_name": "points"
+  },
+  "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
+   "id": "hfmodel:deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "slug": "hf-deepseek-ai-deepseek-v4-1-flash-1017",
+   "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T03:16:05.936897+00:00",
+   "peak_score": 92.6,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 131062,
+    "trending": 881,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+1.8K likes/day pace right now (3.9K total).",
+   "metric_at_peak": 3879,
+   "metric_name": "likes"
+  },
+  "hf-baidu-unlimited-ocr-2": {
+   "id": "hfmodel:baidu/Unlimited-OCR-2",
+   "slug": "hf-baidu-unlimited-ocr-2",
+   "name": "baidu/Unlimited-OCR-2",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T03:16:05.936897+00:00",
+   "peak_score": 91.8,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 18141,
+    "trending": 385,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+365 likes/day pace right now (406 total).",
+   "metric_at_peak": 406,
+   "metric_name": "likes"
+  },
+  "gh-daveebbelaar-bama": {
+   "id": "gh:daveebbelaar/bama",
+   "slug": "gh-daveebbelaar-bama",
+   "name": "daveebbelaar/bama",
+   "url": "https://github.com/daveebbelaar/bama",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T03:16:05.936897+00:00",
+   "peak_score": 91.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+   "tag": "agents",
+   "extra": {
+    "forks": 119,
+    "lang": "Swift",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "app-clone",
+     "claude-code",
+     "claude-code-plugin",
+     "codex",
+     "computer-use",
+     "liquid-glass",
+     "macos",
+     "macos-app",
+     "native-apps",
+     "skills",
+     "swift",
+     "swiftdata",
+     "swiftui"
+    ],
+    "repo_id": 1431986839
+   },
+   "why_at_peak": "+231 stars/day pace right now (802 total).",
+   "metric_at_peak": 802,
+   "metric_name": "stars"
   }
  }
 }
