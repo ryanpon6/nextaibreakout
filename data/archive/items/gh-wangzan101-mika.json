@@ -1,0 +1,44 @@
+{
+ "id": "gh:wangzan101/Mika",
+ "slug": "gh-wangzan101-mika",
+ "first_seen": "2026-10-30T11:31:11.796401+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 337,
+   "t": "2026-10-30T11:31:11.796401+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "wangzan101/Mika",
+ "url": "https://github.com/wangzan101/Mika",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
+ "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-29T14:34:07Z",
+ "last_seen": "2026-10-30T11:31:11.796401+00:00",
+ "last_why": "337 stars since launch 1 days ago \u2248 386 stars/day since launch.",
+ "extra": {
+  "forks": 55,
+  "lang": "Kotlin",
+  "topics": [
+   "accessibility",
+   "ai-agent",
+   "android",
+   "automation",
+   "jetpack-compose",
+   "kotlin",
+   "llm",
+   "mobile-agent"
+  ],
+  "repo_id": 1438540053
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

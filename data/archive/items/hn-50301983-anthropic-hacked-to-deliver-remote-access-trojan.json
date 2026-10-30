@@ -1,0 +1,33 @@
+{
+ "id": "hn:50301983",
+ "slug": "hn-50301983-anthropic-hacked-to-deliver-remote-access-trojan",
+ "first_seen": "2026-10-30T11:31:11.796401+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 44,
+   "t": "2026-10-30T11:31:11.796401+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "Anthropic hacked to deliver remote access trojan",
+ "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T10:22:51Z",
+ "last_seen": "2026-10-30T11:31:11.796401+00:00",
+ "last_why": "44 points in 1h on Hacker News (9 comments).",
+ "extra": {
+  "comments": 9,
+  "hn": "https://news.ycombinator.com/item?id=50301983"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
