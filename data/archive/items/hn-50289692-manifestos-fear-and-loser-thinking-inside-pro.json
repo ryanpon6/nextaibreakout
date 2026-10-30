@@ -14,10 +14,16 @@
    "score": 93.5,
    "metric": 77,
    "t": "2026-10-29T21:06:33.815005+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 96.6,
+   "metric": 129,
+   "t": "2026-10-30T00:46:05.601897+00:00"
   }
  ],
- "peak_score": 94.2,
- "best_rank": 5,
+ "peak_score": 96.6,
+ "best_rank": 3,
  "name": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
  "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
  "source": "hackernews",
@@ -27,13 +33,14 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-29T14:29:06Z",
- "last_seen": "2026-10-29T21:06:33.815005+00:00",
- "last_why": "+200 points/day pace right now (77 total).",
+ "last_seen": "2026-10-30T00:46:05.601897+00:00",
+ "last_why": "+596 points/day pace right now (129 total).",
  "extra": {
-  "comments": 32,
+  "comments": 49,
   "hn": "https://news.ycombinator.com/item?id=50289692"
  },
  "days": [
-  "2026-10-29"
+  "2026-10-29",
+  "2026-10-30"
  ]
 }

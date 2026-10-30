@@ -20,10 +20,16 @@
    "score": 93.5,
    "metric": 274,
    "t": "2026-10-28T01:27:46.654390+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.1,
+   "metric": 308,
+   "t": "2026-10-30T00:46:05.601897+00:00"
   }
  ],
- "peak_score": 93.5,
- "best_rank": 7,
+ "peak_score": 95.1,
+ "best_rank": 5,
  "name": "kukemc/bili-cli",
  "url": "https://github.com/kukemc/bili-cli",
  "source": "github",
@@ -33,10 +39,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-19T22:44:50Z",
- "last_seen": "2026-10-28T01:27:46.654390+00:00",
- "last_why": "274 stars since launch 8 days ago \u2248 34 stars/day since launch.",
+ "last_seen": "2026-10-30T00:46:05.601897+00:00",
+ "last_why": "308 stars since launch 10 days ago \u2248 31 stars/day since launch.",
  "extra": {
-  "forks": 17,
+  "forks": 20,
   "lang": "Python",
   "topics": [
    "agent-skills",
@@ -56,6 +62,7 @@
   "repo_id": 1426256817
  },
  "days": [
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-30"
  ]
 }

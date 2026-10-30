@@ -400,7 +400,8 @@
   "1437723962": "pink-qink/ComfyUI-Pink-Peach",
   "1437332926": "Cloudshred/prove-the-resp-ui",
   "1435528433": "VikingAtKhan/mls-network-plugin-rpocket-team",
-  "1437404645": "papisoV/Selenequant"
+  "1437404645": "papisoV/Selenequant",
+  "1410683619": "intuit/foresight-rl-core"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -430,11 +431,11 @@
   "stockedge/manga-generator": 1793102485.3353572,
   "AienTech/dossier": 1793268984.6268373,
   "C4rohan/Lampline": 1793268984.6268373,
-  "FoShmily/ai-paper-system": 1793233894.2482855,
+  "FoShmily/ai-paper-system": 1793321181.3416054,
   "Folkbench/folkbench": 1793268984.6268373,
   "HRuiCcc/RuiC-oc-ferry": 1793268984.6268373,
   "Kai-Jungsthoefel/SOMA": 1793268984.6268373,
-  "StartLuxLabs/StartLux-Decision": 1793233894.2482855,
+  "StartLuxLabs/StartLux-Decision": 1793321181.3416054,
   "VecSzn/PolyStrata": 1793268984.6268373,
   "chenxiachan/textfold": 1793268984.6268373,
   "TheLastOxygen/mafdet": 1793115089.6638021,
@@ -456,6 +457,7 @@
   "kukemc/bili-cli": 1793277987.1093292,
   "yzlin286-wq/Deepscient": 1793277987.1093292,
   "ChannelCooperStart/capri-ai": 1793282486.9968185,
-  "LosaLosSantos/aurelio-finance": 1793300487.4777164
+  "LosaLosSantos/aurelio-finance": 1793300487.4777164,
+  "mashanglinyu/luanyujia-workbench": 1793321181.3416054
  }
 }
