@@ -403,7 +403,7 @@
   "1437404645": "papisoV/Selenequant",
   "1410683619": "intuit/foresight-rl-core",
   "1403403480": "Coaade-Inc/strataflow",
-  "1432967563": "ccch1mneyyy/dsh-go",
+  "1432967563": "ccch1mneyyy/dsh-Go",
   "1436184001": "jackwener/DeepseekHarness-Android",
   "1429396529": "actionow-ai/vvv"
  },
@@ -420,7 +420,7 @@
   "sit-in/awesome-grokbot-playbooks": 1792764824.0909247,
   "Ebony-Vinyl/dsh-our-free-model": 1793330182.2485292,
   "init-co-jp/diff-tour": 1793339182.0547967,
-  "keptinventory/kept": 1793264488.2783582,
+  "keptinventory/kept": 1793355383.6197526,
   "backtrue/thinkwithblack-skill": 1793291487.3332684,
   "OrgoAI/bops": 1793268984.6268373,
   "ZipengWu365/TOMC": 1793312183.8840709,
@@ -463,6 +463,7 @@
   "ChannelCooperStart/capri-ai": 1793282486.9968185,
   "LosaLosSantos/aurelio-finance": 1793300487.4777164,
   "mashanglinyu/luanyujia-workbench": 1793321181.3416054,
-  "hamzafer/claude-code-mods": 1793342436.9976733
+  "hamzafer/claude-code-mods": 1793342436.9976733,
+  "ccch1mneyyy/dsh-go": 1793355383.6197526
  }
 }
