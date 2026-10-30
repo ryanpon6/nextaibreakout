@@ -13,7 +13,8 @@
   "2026-10-30T11:31:11.796401+00:00",
   "2026-10-30T12:46:07.240413+00:00",
   "2026-10-30T14:01:07.240447+00:00",
-  "2026-10-30T15:16:10.221986+00:00"
+  "2026-10-30T15:16:10.221986+00:00",
+  "2026-10-30T16:31:08.904531+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -274,10 +275,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
-   "peak_score": 78.9,
+   "peak_score": 80.1,
    "best_rank": 7,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -292,8 +293,8 @@
      14820372
     ]
    },
-   "why_at_peak": "14.9M downloads yesterday, 1.20\u00d7 its 7-day average.",
-   "metric_at_peak": 14900059,
+   "why_at_peak": "14.8M downloads yesterday, 1.19\u00d7 its 7-day average.",
+   "metric_at_peak": 14820372,
    "metric_name": "downloads/day"
   },
   "gh-channelcooperstart-capri-ai": {
@@ -612,13 +613,13 @@
    "first_seen": "2026-10-30T04:31:06.048027+00:00",
    "peak_score": 89.4,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T11:31:11.796401+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 23694,
-    "trending": 507,
+    "trending": 521,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -690,13 +691,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 167,
+    "trending": 173,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -716,12 +717,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
    "tag": "agents",
    "extra": {
-    "forks": 46,
+    "forks": 47,
     "lang": "Kotlin",
     "topics": [
      "ai-agent",
@@ -748,12 +749,12 @@
    "first_seen": "2026-10-30T06:40:21.399481+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 82,
+    "forks": 86,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -917,12 +918,12 @@
    "first_seen": "2026-10-30T11:31:11.796401+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 84,
+    "forks": 121,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -1042,12 +1043,12 @@
    "first_seen": "2026-10-30T15:16:10.221986+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T15:16:10.221986+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 313,
+    "comments": 352,
     "hn": "https://news.ycombinator.com/item?id=50300683"
    },
    "why_at_peak": "+2.2K points/day pace right now (159 total).",
@@ -1126,6 +1127,76 @@
    },
    "why_at_peak": "+1.3K likes/day pace right now (18.8K total).",
    "metric_at_peak": 18779,
+   "metric_name": "likes"
+  },
+  "hn-50305693-ai-isn-t-replacing-sres-it-s-deskilling-them": {
+   "id": "hn:50305693",
+   "slug": "hn-50305693-ai-isn-t-replacing-sres-it-s-deskilling-them",
+   "name": "AI Isn't Replacing SREs. It's Deskilling Them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T16:31:08.904531+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 46,
+    "hn": "https://news.ycombinator.com/item?id=50305693"
+   },
+   "why_at_peak": "59 points in 1h on Hacker News (46 comments).",
+   "metric_at_peak": 59,
+   "metric_name": "points"
+  },
+  "hn-50304122-cisco-gives-engineer-unlimited-ai-tokens-to-rewrit": {
+   "id": "hn:50304122",
+   "slug": "hn-50304122-cisco-gives-engineer-unlimited-ai-tokens-to-rewrit",
+   "name": "Cisco gives engineer unlimited AI tokens to rewrite 98% of the company's code",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-30T16:31:08.904531+00:00",
+   "peak_score": 92.7,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 59,
+    "hn": "https://news.ycombinator.com/item?id=50304122"
+   },
+   "why_at_peak": "+499 points/day pace right now (43 total).",
+   "metric_at_peak": 43,
+   "metric_name": "points"
+  },
+  "hf-ccore-qwen3-5-4b-3d-coder": {
+   "id": "hfmodel:ccore/Qwen3.5-4B-3D-Coder",
+   "slug": "hf-ccore-qwen3-5-4b-3d-coder",
+   "name": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T16:31:08.904531+00:00",
+   "peak_score": 90.4,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T16:31:08.904531+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 20197,
+    "trending": 281,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+115 likes/day pace right now (303 total).",
+   "metric_at_peak": 303,
    "metric_name": "likes"
   }
  }

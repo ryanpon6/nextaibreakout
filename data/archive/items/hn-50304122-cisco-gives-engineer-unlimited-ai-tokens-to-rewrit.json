@@ -1,0 +1,33 @@
+{
+ "id": "hn:50304122",
+ "slug": "hn-50304122-cisco-gives-engineer-unlimited-ai-tokens-to-rewrit",
+ "first_seen": "2026-10-30T16:31:08.904531+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.7,
+   "metric": 43,
+   "t": "2026-10-30T16:31:08.904531+00:00"
+  }
+ ],
+ "peak_score": 92.7,
+ "best_rank": 7,
+ "name": "Cisco gives engineer unlimited AI tokens to rewrite 98% of the company's code",
+ "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T14:08:20Z",
+ "last_seen": "2026-10-30T16:31:08.904531+00:00",
+ "last_why": "+499 points/day pace right now (43 total).",
+ "extra": {
+  "comments": 59,
+  "hn": "https://news.ycombinator.com/item?id=50304122"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

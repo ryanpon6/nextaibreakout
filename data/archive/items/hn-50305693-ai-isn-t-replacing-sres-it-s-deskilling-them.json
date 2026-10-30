@@ -1,0 +1,33 @@
+{
+ "id": "hn:50305693",
+ "slug": "hn-50305693-ai-isn-t-replacing-sres-it-s-deskilling-them",
+ "first_seen": "2026-10-30T16:31:08.904531+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 59,
+   "t": "2026-10-30T16:31:08.904531+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "AI Isn't Replacing SREs. It's Deskilling Them",
+ "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T15:52:18Z",
+ "last_seen": "2026-10-30T16:31:08.904531+00:00",
+ "last_why": "59 points in 1h on Hacker News (46 comments).",
+ "extra": {
+  "comments": 46,
+  "hn": "https://news.ycombinator.com/item?id=50305693"
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}
