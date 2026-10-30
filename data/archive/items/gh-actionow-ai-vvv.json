@@ -1,0 +1,44 @@
+{
+ "id": "gh:actionow-ai/vvv",
+ "slug": "gh-actionow-ai-vvv",
+ "first_seen": "2026-10-30T06:40:21.399481+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.1,
+   "metric": 460,
+   "t": "2026-10-30T06:40:21.399481+00:00"
+  }
+ ],
+ "peak_score": 94.1,
+ "best_rank": 7,
+ "name": "actionow-ai/vvv",
+ "url": "https://github.com/actionow-ai/vvv",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u4e00\u6b21\u6784\u5efa\u89c6\u9891\u6a21\u677f\uff0c\u591a\u6b21\u590d\u7528\uff1a\u7ed9 Claude Code\u3001Codex \u7b49 25+ \u4e2a Agent \u7684\u5f00\u6e90\u53ef\u7f16\u8f91\u5a5a\u793c\u89c6\u9891\u6a21\u677f\u4e0e Agent Skill\u3002Build a video template once, reuse it across coding agents.",
+ "what": "\u4e00\u6b21\u6784\u5efa\u89c6\u9891\u6a21\u677f\uff0c\u591a\u6b21\u590d\u7528\uff1a\u7ed9 Claude Code\u3001Codex \u7b49 25+ \u4e2a Agent \u7684\u5f00\u6e90\u53ef\u7f16\u8f91\u5a5a\u793c\u89c6\u9891\u6a21\u677f\u4e0e Agent Skill\u3002Build a video template once, reuse it across coding agents.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-22T07:29:54Z",
+ "last_seen": "2026-10-30T06:40:21.399481+00:00",
+ "last_why": "460 stars since launch 8 days ago \u2248 58 stars/day since launch.",
+ "extra": {
+  "forks": 133,
+  "lang": "Python",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "mcp",
+   "video",
+   "video-templates",
+   "wedding-video"
+  ],
+  "repo_id": 1429396529
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

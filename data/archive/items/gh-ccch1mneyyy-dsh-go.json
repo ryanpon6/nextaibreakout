@@ -1,0 +1,46 @@
+{
+ "id": "gh:ccch1mneyyy/dsh-go",
+ "slug": "gh-ccch1mneyyy-dsh-go",
+ "first_seen": "2026-10-30T06:40:21.399481+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 838,
+   "t": "2026-10-30T06:40:21.399481+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 6,
+ "name": "ccch1mneyyy/dsh-go",
+ "url": "https://github.com/ccch1mneyyy/dsh-go",
+ "source": "github",
+ "kind": "tool",
+ "desc": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002Android \u00b7 Unofficial.",
+ "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002Android \u00b7 Unofficial.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-25T08:09:52Z",
+ "last_seen": "2026-10-30T06:40:21.399481+00:00",
+ "last_why": "838 stars since launch 5 days ago \u2248 170 stars/day since launch.",
+ "extra": {
+  "forks": 32,
+  "lang": "Dart",
+  "topics": [
+   "ai-agent",
+   "android",
+   "android-app",
+   "coding-agent",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-tui",
+   "flutter",
+   "llm"
+  ],
+  "repo_id": 1432967563
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

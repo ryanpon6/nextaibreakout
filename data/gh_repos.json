@@ -403,7 +403,9 @@
   "1437404645": "papisoV/Selenequant",
   "1410683619": "intuit/foresight-rl-core",
   "1403403480": "Coaade-Inc/strataflow",
-  "1432967563": "ccch1mneyyy/dsh-go"
+  "1432967563": "ccch1mneyyy/dsh-go",
+  "1436184001": "jackwener/DeepseekHarness-Android",
+  "1429396529": "actionow-ai/vvv"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -460,6 +462,7 @@
   "yzlin286-wq/Deepscient": 1793277987.1093292,
   "ChannelCooperStart/capri-ai": 1793282486.9968185,
   "LosaLosSantos/aurelio-finance": 1793300487.4777164,
-  "mashanglinyu/luanyujia-workbench": 1793321181.3416054
+  "mashanglinyu/luanyujia-workbench": 1793321181.3416054,
+  "hamzafer/claude-code-mods": 1793342436.9976733
  }
 }

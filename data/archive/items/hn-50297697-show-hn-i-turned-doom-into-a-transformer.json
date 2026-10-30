@@ -8,6 +8,12 @@
    "score": 98.2,
    "metric": 55,
    "t": "2026-10-30T03:16:05.936897+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 68,
+   "t": "2026-10-30T06:40:21.399481+00:00"
   }
  ],
  "peak_score": 98.2,
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-29T23:25:46Z",
- "last_seen": "2026-10-30T03:16:05.936897+00:00",
- "last_why": "+327 points/day pace right now (55 total).",
+ "last_seen": "2026-10-30T06:40:21.399481+00:00",
+ "last_why": "+133 points/day pace right now (68 total).",
  "extra": {
-  "comments": 11,
+  "comments": 17,
   "hn": "https://news.ycombinator.com/item?id=50297697",
   "repo_created": "2026-10-20T05:38:09Z",
   "repo": "mottopanikeiku/doomformer"

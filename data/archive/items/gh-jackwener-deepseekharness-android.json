@@ -1,0 +1,43 @@
+{
+ "id": "gh:jackwener/DeepseekHarness-Android",
+ "slug": "gh-jackwener-deepseekharness-android",
+ "first_seen": "2026-10-30T06:40:21.399481+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 333,
+   "t": "2026-10-30T06:40:21.399481+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "jackwener/DeepseekHarness-Android",
+ "url": "https://github.com/jackwener/DeepseekHarness-Android",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
+ "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-27T19:26:12Z",
+ "last_seen": "2026-10-30T06:40:21.399481+00:00",
+ "last_why": "333 stars since launch 2 days ago \u2248 135 stars/day since launch.",
+ "extra": {
+  "forks": 33,
+  "lang": "Kotlin",
+  "topics": [
+   "ai-agent",
+   "android",
+   "deepseek",
+   "deepseek-harness",
+   "llm",
+   "phone-agent",
+   "shizuku"
+  ],
+  "repo_id": 1436184001
+ },
+ "days": [
+  "2026-10-30"
+ ]
+}

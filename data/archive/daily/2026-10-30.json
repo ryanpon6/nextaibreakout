@@ -5,7 +5,8 @@
   "2026-10-30T02:01:09.905107+00:00",
   "2026-10-30T03:16:05.936897+00:00",
   "2026-10-30T04:31:06.048027+00:00",
-  "2026-10-30T05:46:06.490199+00:00"
+  "2026-10-30T05:46:06.490199+00:00",
+  "2026-10-30T06:40:21.399481+00:00"
  ],
  "items": {
   "hn-50296602-proton-goes-all-in-on-using-ai": {
@@ -268,8 +269,8 @@
    "first_seen": "2026-10-30T00:46:05.601897+00:00",
    "peak_score": 78.9,
    "best_rank": 7,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -396,12 +397,12 @@
    "first_seen": "2026-10-30T02:01:09.905107+00:00",
    "peak_score": 96.1,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 360,
+    "comments": 361,
     "hn": "https://news.ycombinator.com/item?id=50289418"
    },
    "why_at_peak": "+499 points/day pace right now (1.3K total).",
@@ -444,12 +445,12 @@
    "first_seen": "2026-10-30T03:16:05.936897+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T03:16:05.936897+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 11,
+    "comments": 17,
     "hn": "https://news.ycombinator.com/item?id=50297697",
     "repo_created": "2026-10-20T05:38:09Z",
     "repo": "mottopanikeiku/doomformer"
@@ -514,22 +515,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-30T03:16:05.936897+00:00",
-   "peak_score": 91.9,
+   "peak_score": 93.3,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 18141,
-    "trending": 379,
+    "trending": 384,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+154 likes/day pace right now (414 total).",
-   "metric_at_peak": 414,
+   "why_at_peak": "+159 likes/day pace right now (423 total).",
+   "metric_at_peak": 423,
    "metric_name": "likes"
   },
   "gh-daveebbelaar-bama": {
@@ -582,12 +583,12 @@
    "first_seen": "2026-10-30T04:31:06.048027+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 211,
+    "comments": 215,
     "hn": "https://news.ycombinator.com/item?id=50290177"
    },
    "why_at_peak": "+326 points/day pace right now (385 total).",
@@ -682,13 +683,13 @@
    "first_seen": "2026-10-30T05:46:06.490199+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-30T05:46:06.490199+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 0,
-    "trending": 124,
+    "trending": 132,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -696,6 +697,132 @@
    },
    "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 0 downloads.",
    "metric_at_peak": 125,
+   "metric_name": "likes"
+  },
+  "gh-jackwener-deepseekharness-android": {
+   "id": "gh:jackwener/DeepseekHarness-Android",
+   "slug": "gh-jackwener-deepseekharness-android",
+   "name": "jackwener/DeepseekHarness-Android",
+   "url": "https://github.com/jackwener/DeepseekHarness-Android",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T06:40:21.399481+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
+   "what": "\u514d ROOT \u514d Termux\uff0c\u4e00\u4e2a APK \u5728\u5b89\u5353\u624b\u673a\u4e0a\u8dd1 DeepSeek Harness\u3002\u5f15\u64ce\u5185\u5d4c App \u8fdb\u7a0b \u00b7 \u8bfb\u5c4f\u64cd\u4f5c App \u00b7 \u6539\u7cfb\u7edf\u8bbe\u7f6e \u00b7 \u5b9a\u65f6/\u6761\u4ef6\u81ea\u52a8\u5316 \u00b7 \u53ef\u9009 Shizuku",
+   "tag": "agents",
+   "extra": {
+    "forks": 33,
+    "lang": "Kotlin",
+    "topics": [
+     "ai-agent",
+     "android",
+     "deepseek",
+     "deepseek-harness",
+     "llm",
+     "phone-agent",
+     "shizuku"
+    ],
+    "repo_id": 1436184001
+   },
+   "why_at_peak": "333 stars since launch 2 days ago \u2248 135 stars/day since launch.",
+   "metric_at_peak": 333,
+   "metric_name": "stars"
+  },
+  "gh-ccch1mneyyy-dsh-go": {
+   "id": "gh:ccch1mneyyy/dsh-go",
+   "slug": "gh-ccch1mneyyy-dsh-go",
+   "name": "ccch1mneyyy/dsh-go",
+   "url": "https://github.com/ccch1mneyyy/dsh-go",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T06:40:21.399481+00:00",
+   "peak_score": 94.9,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
+   "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002Android \u00b7 Unofficial.",
+   "tag": "agents",
+   "extra": {
+    "forks": 32,
+    "lang": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness",
+     "dsh",
+     "dsh-tui",
+     "flutter",
+     "llm"
+    ],
+    "repo_id": 1432967563
+   },
+   "why_at_peak": "838 stars since launch 5 days ago \u2248 170 stars/day since launch.",
+   "metric_at_peak": 838,
+   "metric_name": "stars"
+  },
+  "gh-actionow-ai-vvv": {
+   "id": "gh:actionow-ai/vvv",
+   "slug": "gh-actionow-ai-vvv",
+   "name": "actionow-ai/vvv",
+   "url": "https://github.com/actionow-ai/vvv",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-30T06:40:21.399481+00:00",
+   "peak_score": 94.1,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
+   "what": "\u4e00\u6b21\u6784\u5efa\u89c6\u9891\u6a21\u677f\uff0c\u591a\u6b21\u590d\u7528\uff1a\u7ed9 Claude Code\u3001Codex \u7b49 25+ \u4e2a Agent \u7684\u5f00\u6e90\u53ef\u7f16\u8f91\u5a5a\u793c\u89c6\u9891\u6a21\u677f\u4e0e Agent Skill\u3002Build a video template once, reuse it across coding agents.",
+   "tag": "agents",
+   "extra": {
+    "forks": 133,
+    "lang": "Python",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "mcp",
+     "video",
+     "video-templates",
+     "wedding-video"
+    ],
+    "repo_id": 1429396529
+   },
+   "why_at_peak": "460 stars since launch 8 days ago \u2248 58 stars/day since launch.",
+   "metric_at_peak": 460,
+   "metric_name": "stars"
+  },
+  "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf": {
+   "id": "hfmodel:orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+   "slug": "hf-orcarouter-deepseek-v4-1-flash-1017-abliterated-gguf",
+   "name": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+   "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-30T06:40:21.399481+00:00",
+   "peak_score": 90.1,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-30T06:40:21.399481+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 28763,
+    "trending": 282,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+80 likes/day pace right now (349 total).",
+   "metric_at_peak": 349,
    "metric_name": "likes"
   }
  }
