@@ -2,7 +2,8 @@
  "day": "2026-10-31",
  "runs": [
   "2026-10-31T01:01:06.065734+00:00",
-  "2026-10-31T02:16:08.546187+00:00"
+  "2026-10-31T02:16:08.546187+00:00",
+  "2026-10-31T03:31:07.193280+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -37,12 +38,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 233,
+    "forks": 247,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -56,8 +57,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+2.2K stars/day pace right now (1.4K total).",
-   "metric_at_peak": 1445,
+   "why_at_peak": "+2.1K stars/day pace right now (1.6K total).",
+   "metric_at_peak": 1554,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -70,13 +71,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 97.5,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 221,
-    "trending": 151,
+    "trending": 153,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -96,12 +97,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 119,
+    "comments": 151,
     "hn": "https://news.ycombinator.com/item?id=50304122"
    },
    "why_at_peak": "+384 points/day pace right now (114 total).",
@@ -118,12 +119,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 96.6,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 493,
+    "comments": 502,
     "hn": "https://news.ycombinator.com/item?id=50300683"
    },
    "why_at_peak": "+480 points/day pace right now (786 total).",
@@ -185,12 +186,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 92.7,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 107,
+    "forks": 115,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -221,13 +222,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 90.0,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T01:01:06.065734+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 23694,
-    "trending": 545,
+    "trending": 552,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -245,22 +246,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
-   "peak_score": 88.5,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T01:01:06.065734+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 194,
+    "trending": 198,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+38 likes/day pace right now (197 total).",
-   "metric_at_peak": 197,
+   "why_at_peak": "+58 likes/day pace right now (201 total).",
+   "metric_at_peak": 201,
    "metric_name": "likes"
   },
   "npm--modelcontextprotocol-sdk": {
@@ -303,8 +304,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 94.3,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -366,6 +367,63 @@
    "why_at_peak": "+58 likes/day pace right now (287 total).",
    "metric_at_peak": 287,
    "metric_name": "likes"
+  },
+  "hn-50305693-ai-isn-t-replacing-sres-it-s-deskilling-them": {
+   "id": "hn:50305693",
+   "slug": "hn-50305693-ai-isn-t-replacing-sres-it-s-deskilling-them",
+   "name": "AI isn't replacing SREs, it's deskilling them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T03:31:07.193280+00:00",
+   "peak_score": 95.0,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 397,
+    "hn": "https://news.ycombinator.com/item?id=50305693"
+   },
+   "why_at_peak": "+288 points/day pace right now (527 total).",
+   "metric_at_peak": 527,
+   "metric_name": "points"
+  },
+  "gh-qybaihe-bla": {
+   "id": "gh:qybaihe/bla",
+   "slug": "gh-qybaihe-bla",
+   "name": "qybaihe/bla",
+   "url": "https://github.com/qybaihe/bla",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-31T03:31:07.193280+00:00",
+   "peak_score": 89.5,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T03:31:07.193280+00:00",
+   "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
+   "tag": "safety",
+   "extra": {
+    "forks": 198,
+    "lang": "TypeScript",
+    "topics": [
+     "adversarial-ai",
+     "claude-code",
+     "cursor",
+     "electron-security",
+     "llm-security",
+     "mcp",
+     "mcp-server",
+     "obfuscation",
+     "reverse-engineering",
+     "webassembly"
+    ],
+    "repo_id": 1432859403
+   },
+   "why_at_peak": "+538 stars/day pace right now (1.5K total).",
+   "metric_at_peak": 1459,
+   "metric_name": "stars"
   }
  }
 }
