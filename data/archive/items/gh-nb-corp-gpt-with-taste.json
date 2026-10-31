@@ -1,0 +1,41 @@
+{
+ "id": "gh:NB-Corp/gpt-with-taste",
+ "slug": "gh-nb-corp-gpt-with-taste",
+ "first_seen": "2026-10-31T14:46:07.875137+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 92.3,
+   "metric": 534,
+   "t": "2026-10-31T14:46:07.875137+00:00"
+  }
+ ],
+ "peak_score": 92.3,
+ "best_rank": 9,
+ "name": "NB-Corp/gpt-with-taste",
+ "url": "https://github.com/NB-Corp/gpt-with-taste",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Better judgment. Better taste. Less ceremony. System instructions and source-aware steering for GPT in Codex.",
+ "what": "Better judgment. Better taste. Less ceremony. System instructions and source-aware steering for GPT in Codex.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-12T16:40:29Z",
+ "last_seen": "2026-10-31T14:46:07.875137+00:00",
+ "last_why": "+154 stars/day pace right now (534 total).",
+ "extra": {
+  "forks": 32,
+  "lang": "JavaScript",
+  "topics": [
+   "ai-agents",
+   "codex",
+   "gpt",
+   "prompt-engineering",
+   "system-prompt"
+  ],
+  "repo_id": 1415870680
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

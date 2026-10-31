@@ -1,0 +1,33 @@
+{
+ "id": "hn:50315990",
+ "slug": "hn-50315990-ai-startup-hacks-anthropic-gains-access-to-employ",
+ "first_seen": "2026-10-31T14:46:07.875137+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 57,
+   "t": "2026-10-31T14:46:07.875137+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+ "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T13:25:10Z",
+ "last_seen": "2026-10-31T14:46:07.875137+00:00",
+ "last_why": "57 points in 1h on Hacker News (11 comments).",
+ "extra": {
+  "comments": 11,
+  "hn": "https://news.ycombinator.com/item?id=50315990"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
