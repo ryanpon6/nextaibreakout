@@ -14,6 +14,12 @@
    "score": 90.7,
    "metric": 169,
    "t": "2026-10-30T23:46:05.911468+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.2,
+   "metric": 215,
+   "t": "2026-10-31T04:46:08.118724+00:00"
   }
  ],
  "peak_score": 95.9,
@@ -27,15 +33,16 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-30T16:40:22Z",
- "last_seen": "2026-10-30T23:46:05.911468+00:00",
- "last_why": "+211 points/day pace right now (169 total).",
+ "last_seen": "2026-10-31T04:46:08.118724+00:00",
+ "last_why": "+173 points/day pace right now (215 total).",
  "extra": {
-  "comments": 105,
+  "comments": 118,
   "hn": "https://news.ycombinator.com/item?id=50306442",
   "repo_created": "2026-10-30T15:54:20Z",
   "repo": "dbreunig/nesformer"
  },
  "days": [
-  "2026-10-30"
+  "2026-10-30",
+  "2026-10-31"
  ]
 }
