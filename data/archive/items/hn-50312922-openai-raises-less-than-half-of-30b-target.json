@@ -1,0 +1,33 @@
+{
+ "id": "hn:50312922",
+ "slug": "hn-50312922-openai-raises-less-than-half-of-30b-target",
+ "first_seen": "2026-10-31T06:01:12.714280+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 113,
+   "t": "2026-10-31T06:01:12.714280+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "OpenAI raises less than half of $30B target",
+ "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T03:22:44Z",
+ "last_seen": "2026-10-31T06:01:12.714280+00:00",
+ "last_why": "+1.5K points/day pace right now (113 total).",
+ "extra": {
+  "comments": 61,
+  "hn": "https://news.ycombinator.com/item?id=50312922"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

@@ -4,7 +4,8 @@
   "2026-10-31T01:01:06.065734+00:00",
   "2026-10-31T02:16:08.546187+00:00",
   "2026-10-31T03:31:07.193280+00:00",
-  "2026-10-31T04:46:08.118724+00:00"
+  "2026-10-31T04:46:08.118724+00:00",
+  "2026-10-31T06:01:12.714280+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -39,12 +40,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 261,
+    "forks": 271,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -58,8 +59,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+2.1K stars/day pace right now (1.6K total).",
-   "metric_at_peak": 1554,
+   "why_at_peak": "+1.7K stars/day pace right now (1.7K total).",
+   "metric_at_peak": 1746,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -72,13 +73,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 221,
-    "trending": 158,
+    "trending": 163,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -187,12 +188,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 118,
+    "forks": 121,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -249,13 +250,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 200,
+    "trending": 203,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -305,8 +306,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -401,12 +402,12 @@
    "first_seen": "2026-10-31T03:31:07.193280+00:00",
    "peak_score": 91.0,
    "best_rank": 9,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "\ufe0f BLA (Blind LLM Agents) \u2014 Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 198,
+    "forks": 201,
     "lang": "TypeScript",
     "topics": [
      "adversarial-ai",
@@ -434,10 +435,10 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-31T04:46:08.118724+00:00",
-   "peak_score": 94.2,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T04:46:08.118724+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
@@ -446,8 +447,8 @@
     "repo_created": "2026-10-30T15:54:20Z",
     "repo": "dbreunig/nesformer"
    },
-   "why_at_peak": "+173 points/day pace right now (215 total).",
-   "metric_at_peak": 215,
+   "why_at_peak": "+230 points/day pace right now (227 total).",
+   "metric_at_peak": 227,
    "metric_name": "points"
   },
   "hf-ccore-qwen3-5-4b-3d-coder": {
@@ -475,6 +476,76 @@
    "why_at_peak": "+96 likes/day pace right now (333 total).",
    "metric_at_peak": 333,
    "metric_name": "likes"
+  },
+  "hn-50312922-openai-raises-less-than-half-of-30b-target": {
+   "id": "hn:50312922",
+   "slug": "hn-50312922-openai-raises-less-than-half-of-30b-target",
+   "name": "OpenAI raises less than half of $30B target",
+   "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T06:01:12.714280+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 61,
+    "hn": "https://news.ycombinator.com/item?id=50312922"
+   },
+   "why_at_peak": "+1.5K points/day pace right now (113 total).",
+   "metric_at_peak": 113,
+   "metric_name": "points"
+  },
+  "hf-edge0-audio8-tts-realistic-0-6b": {
+   "id": "hfmodel:Edge0/Audio8-TTS-Realistic-0.6b",
+   "slug": "hf-edge0-audio8-tts-realistic-0-6b",
+   "name": "Edge0/Audio8-TTS-Realistic-0.6b",
+   "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T06:01:12.714280+00:00",
+   "peak_score": 94.1,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
+   "what": "text-to-speech model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 813,
+    "trending": 124,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 124 on Hugging Face; 125 likes, 813 downloads.",
+   "metric_at_peak": 125,
+   "metric_name": "likes"
+  },
+  "hn-50296730-building-an-ai-native-engineering-org": {
+   "id": "hn:50296730",
+   "slug": "hn-50296730-building-an-ai-native-engineering-org",
+   "name": "Building an AI-native engineering org",
+   "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T06:01:12.714280+00:00",
+   "peak_score": 93.3,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T06:01:12.714280+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 168,
+    "hn": "https://news.ycombinator.com/item?id=50296730"
+   },
+   "why_at_peak": "+173 points/day pace right now (131 total).",
+   "metric_at_peak": 131,
+   "metric_name": "points"
   }
  }
 }
