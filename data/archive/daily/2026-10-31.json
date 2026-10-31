@@ -6,7 +6,8 @@
   "2026-10-31T03:31:07.193280+00:00",
   "2026-10-31T04:46:08.118724+00:00",
   "2026-10-31T06:01:12.714280+00:00",
-  "2026-10-31T07:16:08.040547+00:00"
+  "2026-10-31T07:16:08.040547+00:00",
+  "2026-10-31T08:31:09.728688+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -41,12 +42,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 281,
+    "forks": 305,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -100,12 +101,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 195,
+    "comments": 210,
     "hn": "https://news.ycombinator.com/item?id=50304122"
    },
    "why_at_peak": "+384 points/day pace right now (114 total).",
@@ -142,10 +143,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
-   "peak_score": 92.2,
+   "peak_score": 92.5,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T02:16:08.546187+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "Awesome list of AI reverse engineering and rebuilds: what AI agents took apart and recreated, and which ones really used REA (Reverse\u2026",
    "tag": "agents",
    "extra": {
@@ -175,8 +176,8 @@
     ],
     "repo_id": 1417071033
    },
-   "why_at_peak": "313 stars since launch 17 days ago \u2248 18 stars/day since launch.",
-   "metric_at_peak": 313,
+   "why_at_peak": "317 stars since launch 18 days ago \u2248 18 stars/day since launch.",
+   "metric_at_peak": 317,
    "metric_name": "stars"
   },
   "gh-ccch1mneyyy-dsh-go": {
@@ -189,12 +190,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 6,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 127,
+    "forks": 130,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -251,13 +252,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 87,
-    "trending": 207,
+    "trending": 210,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -307,8 +308,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.0,
    "best_rank": 5,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -379,18 +380,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-31T03:31:07.193280+00:00",
-   "peak_score": 95.0,
-   "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "peak_score": 95.7,
+   "best_rank": 4,
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 416,
+    "comments": 431,
     "hn": "https://news.ycombinator.com/item?id=50305693"
    },
-   "why_at_peak": "+288 points/day pace right now (527 total).",
-   "metric_at_peak": 527,
+   "why_at_peak": "+365 points/day pace right now (586 total).",
+   "metric_at_peak": 586,
    "metric_name": "points"
   },
   "gh-qybaihe-bla": {
@@ -534,18 +535,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-31T06:01:12.714280+00:00",
-   "peak_score": 93.3,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T06:01:12.714280+00:00",
+   "peak_score": 94.1,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 168,
+    "comments": 178,
     "hn": "https://news.ycombinator.com/item?id=50296730"
    },
-   "why_at_peak": "+173 points/day pace right now (131 total).",
-   "metric_at_peak": 131,
+   "why_at_peak": "+154 points/day pace right now (148 total).",
+   "metric_at_peak": 148,
    "metric_name": "points"
   },
   "gh-yjid-kensaku": {
@@ -588,6 +589,58 @@
    "why_at_peak": "317 stars since launch 6 days ago \u2248 49 stars/day since launch.",
    "metric_at_peak": 317,
    "metric_name": "stars"
+  },
+  "hf-qwen-qwen3-8-flash-next": {
+   "id": "hfmodel:Qwen/Qwen3.8-Flash-Next",
+   "slug": "hf-qwen-qwen3-8-flash-next",
+   "name": "Qwen/Qwen3.8-Flash-Next",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T08:31:09.728688+00:00",
+   "peak_score": 91.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 4137335,
+    "trending": 121,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 121 on Hugging Face; 6.7K likes, 4.1M downloads.",
+   "metric_at_peak": 6662,
+   "metric_name": "likes"
+  },
+  "hf-sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf": {
+   "id": "hfmodel:SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "slug": "hf-sc117-qwen3-8-flash-next-gsq-rco-abliterated-gguf",
+   "name": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "url": "https://huggingface.co/SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T08:31:09.728688+00:00",
+   "peak_score": 90.1,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T08:31:09.728688+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 3158872,
+    "trending": 150,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+134 likes/day pace right now (561 total).",
+   "metric_at_peak": 561,
+   "metric_name": "likes"
   }
  }
 }
