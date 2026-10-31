@@ -8,10 +8,16 @@
    "score": 97.4,
    "metric": 74,
    "t": "2026-10-31T22:16:05.601248+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 137,
+   "t": "2026-10-31T23:31:08.212562+00:00"
   }
  ],
- "peak_score": 97.4,
- "best_rank": 3,
+ "peak_score": 98.2,
+ "best_rank": 2,
  "name": "Anthropic blocks users for anything touching training larger models",
  "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-31T19:39:19Z",
- "last_seen": "2026-10-31T22:16:05.601248+00:00",
- "last_why": "+979 points/day pace right now (74 total).",
+ "last_seen": "2026-10-31T23:31:08.212562+00:00",
+ "last_why": "+1.2K points/day pace right now (137 total).",
  "extra": {
-  "comments": 15,
+  "comments": 42,
   "hn": "https://news.ycombinator.com/item?id=50319358"
  },
  "days": [

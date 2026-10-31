@@ -18,7 +18,8 @@
   "2026-10-31T18:30:33.557766+00:00",
   "2026-10-31T19:46:05.750812+00:00",
   "2026-10-31T21:01:06.323431+00:00",
-  "2026-10-31T22:16:05.601248+00:00"
+  "2026-10-31T22:16:05.601248+00:00",
+  "2026-10-31T23:31:08.212562+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -53,12 +54,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 18,
-   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 431,
+    "forks": 435,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -86,13 +87,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 12,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2367,
-    "trending": 202,
+    "trending": 205,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -263,13 +264,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 294,
-    "trending": 255,
+    "trending": 258,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -319,8 +320,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -1013,12 +1014,12 @@
    "first_seen": "2026-10-31T19:46:05.750812+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 139,
+    "comments": 159,
     "hn": "https://news.ycombinator.com/item?id=50318871"
    },
    "why_at_peak": "46 points in 1h on Hacker News (24 comments).",
@@ -1057,12 +1058,12 @@
    "first_seen": "2026-10-31T19:46:05.750812+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "Experience-Driven Black-Box Cost Control for Coding Agents",
    "tag": "agents",
    "extra": {
-    "forks": 177,
+    "forks": 178,
     "lang": "Python",
     "topics": [
      "agentic-ai",
@@ -1101,8 +1102,8 @@
    "first_seen": "2026-10-31T19:46:05.750812+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T19:46:05.750812+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "text-to-speech model on Hugging Face",
    "tag": "models",
    "extra": {
@@ -1193,12 +1194,12 @@
    "first_seen": "2026-10-31T22:16:05.601248+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 38,
+    "comments": 57,
     "hn": "https://news.ycombinator.com/item?id=50320255"
    },
    "why_at_peak": "56 points in 1h on Hacker News (38 comments).",
@@ -1213,18 +1214,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-10-31T22:16:05.601248+00:00",
-   "peak_score": 97.4,
-   "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 15,
+    "comments": 42,
     "hn": "https://news.ycombinator.com/item?id=50319358"
    },
-   "why_at_peak": "+979 points/day pace right now (74 total).",
-   "metric_at_peak": 74,
+   "why_at_peak": "+1.2K points/day pace right now (137 total).",
+   "metric_at_peak": 137,
    "metric_name": "points"
   },
   "hf-divagr1925-qwen3-5-4b-qwenputer": {
@@ -1252,6 +1253,50 @@
    "why_at_peak": "Trending score 112 on Hugging Face; 112 likes, 744 downloads.",
    "metric_at_peak": 112,
    "metric_name": "likes"
+  },
+  "gh-boardshogunfluctuate-capri-ai": {
+   "id": "gh:boardshogunfluctuate/Capri-AI",
+   "slug": "gh-boardshogunfluctuate-capri-ai",
+   "name": "boardshogunfluctuate/Capri-AI",
+   "url": "https://github.com/boardshogunfluctuate/Capri-AI",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-31T23:31:08.212562+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T23:31:08.212562+00:00",
+   "what": "Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 55,
+    "lang": null,
+    "topics": [
+     "ai",
+     "ai-agent",
+     "ai-agents",
+     "ai-assistants",
+     "antigravity",
+     "claude-code",
+     "claude-code-mod",
+     "codex",
+     "codex-app",
+     "cyberpunks",
+     "desktop-app",
+     "desktop-application",
+     "edgerunners",
+     "edgerunners-2",
+     "jarvis",
+     "jarvis-ai",
+     "windows",
+     "windows-10",
+     "windows-11"
+    ],
+    "repo_id": 1440272373
+   },
+   "why_at_peak": "516 stars since launch 1 days ago \u2248 486 stars/day since launch.",
+   "metric_at_peak": 516,
+   "metric_name": "stars"
   }
  }
 }

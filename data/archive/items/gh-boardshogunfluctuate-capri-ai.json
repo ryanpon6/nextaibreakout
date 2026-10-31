@@ -1,0 +1,55 @@
+{
+ "id": "gh:boardshogunfluctuate/Capri-AI",
+ "slug": "gh-boardshogunfluctuate-capri-ai",
+ "first_seen": "2026-10-31T23:31:08.212562+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 516,
+   "t": "2026-10-31T23:31:08.212562+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "boardshogunfluctuate/Capri-AI",
+ "url": "https://github.com/boardshogunfluctuate/Capri-AI",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u26a1 Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or Antigravity. Windows installer, no terminal. Fan-made, not affiliated with CD PROJEKT RED.",
+ "what": "Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-30T22:03:48Z",
+ "last_seen": "2026-10-31T23:31:08.212562+00:00",
+ "last_why": "516 stars since launch 1 days ago \u2248 486 stars/day since launch.",
+ "extra": {
+  "forks": 55,
+  "lang": null,
+  "topics": [
+   "ai",
+   "ai-agent",
+   "ai-agents",
+   "ai-assistants",
+   "antigravity",
+   "claude-code",
+   "claude-code-mod",
+   "codex",
+   "codex-app",
+   "cyberpunks",
+   "desktop-app",
+   "desktop-application",
+   "edgerunners",
+   "edgerunners-2",
+   "jarvis",
+   "jarvis-ai",
+   "windows",
+   "windows-10",
+   "windows-11"
+  ],
+  "repo_id": 1440272373
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
