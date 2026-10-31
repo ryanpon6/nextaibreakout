@@ -1,0 +1,48 @@
+{
+ "id": "gh:VikingAtKhan/mls-network-plugin-rpocket-team",
+ "slug": "gh-vikingatkhan-mls-network-plugin-rpocket-team",
+ "first_seen": "2026-10-31T17:16:13.527314+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.0,
+   "metric": 59,
+   "t": "2026-10-31T17:16:13.527314+00:00"
+  }
+ ],
+ "peak_score": 94.0,
+ "best_rank": 6,
+ "name": "VikingAtKhan/mls-network-plugin-rpocket-team",
+ "url": "https://github.com/VikingAtKhan/mls-network-plugin-rpocket-team",
+ "source": "github",
+ "kind": "tool",
+ "desc": "AI anticheat for Minecraft servers: neural networks catch KillAura, aim assist, triggerbot and reach. Paper, Spigot, Folia 1.16.5\u20131.21.",
+ "what": "AI anticheat for Minecraft servers: neural networks catch KillAura, aim assist, triggerbot and reach. Paper, Spigot, Folia 1.16.5\u20131.21.",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-27T09:41:55Z",
+ "last_seen": "2026-10-31T17:16:13.527314+00:00",
+ "last_why": "+710 stars/day pace right now (59 total).",
+ "extra": {
+  "forks": 0,
+  "lang": "HTML",
+  "topics": [
+   "amongus",
+   "anti-exploit",
+   "bepinex",
+   "il2cpp",
+   "killaura-detection",
+   "lobby-moderation",
+   "machine-learning",
+   "minecraft-plugin-kotlin",
+   "ml",
+   "mlsac",
+   "neural-network",
+   "purpur"
+  ],
+  "repo_id": 1435528433
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
