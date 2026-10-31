@@ -1,0 +1,33 @@
+{
+ "id": "hn:50305724",
+ "slug": "hn-50305724-some-thing-is-happening-a-note-from-the-ai-compani",
+ "first_seen": "2026-10-31T11:01:10.600339+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 94.0,
+   "metric": 48,
+   "t": "2026-10-31T11:01:10.600339+00:00"
+  }
+ ],
+ "peak_score": 94.0,
+ "best_rank": 7,
+ "name": "Some Thing is Happening A note from the AI companies",
+ "url": "https://alanbellows.com/some-thing-is-happening/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T15:53:42Z",
+ "last_seen": "2026-10-31T11:01:10.600339+00:00",
+ "last_why": "+77 points/day pace right now (48 total).",
+ "extra": {
+  "comments": 11,
+  "hn": "https://news.ycombinator.com/item?id=50305724"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

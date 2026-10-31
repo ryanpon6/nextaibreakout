@@ -8,7 +8,8 @@
   "2026-10-31T06:01:12.714280+00:00",
   "2026-10-31T07:16:08.040547+00:00",
   "2026-10-31T08:31:09.728688+00:00",
-  "2026-10-31T09:46:06.860577+00:00"
+  "2026-10-31T09:46:06.860577+00:00",
+  "2026-10-31T11:01:10.600339+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -43,12 +44,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 322,
+    "forks": 333,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -62,8 +63,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+1.7K stars/day pace right now (1.7K total).",
-   "metric_at_peak": 1746,
+   "why_at_peak": "+1.4K stars/day pace right now (2.1K total).",
+   "metric_at_peak": 2079,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -76,13 +77,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2367,
-    "trending": 172,
+    "trending": 175,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -102,12 +103,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 219,
+    "comments": 231,
     "hn": "https://news.ycombinator.com/item?id=50304122"
    },
    "why_at_peak": "+211 points/day pace right now (190 total).",
@@ -124,12 +125,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 96.6,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 529,
+    "comments": 533,
     "hn": "https://news.ycombinator.com/item?id=50300683"
    },
    "why_at_peak": "+480 points/day pace right now (786 total).",
@@ -191,12 +192,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 132,
+    "forks": 137,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -253,20 +254,20 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 294,
-    "trending": 217,
+    "trending": 221,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+58 likes/day pace right now (201 total).",
-   "metric_at_peak": 201,
+   "why_at_peak": "+96 likes/day pace right now (225 total).",
+   "metric_at_peak": 225,
    "metric_name": "likes"
   },
   "npm--modelcontextprotocol-sdk": {
@@ -309,8 +310,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -464,13 +465,13 @@
    "first_seen": "2026-10-31T04:46:08.118724+00:00",
    "peak_score": 91.8,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T07:16:08.040547+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 20197,
-    "trending": 316,
+    "downloads": 29615,
+    "trending": 329,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -668,6 +669,59 @@
    "why_at_peak": "+192 likes/day pace right now (815 total).",
    "metric_at_peak": 815,
    "metric_name": "likes"
+  },
+  "hn-50305724-some-thing-is-happening-a-note-from-the-ai-compani": {
+   "id": "hn:50305724",
+   "slug": "hn-50305724-some-thing-is-happening-a-note-from-the-ai-compani",
+   "name": "Some Thing is Happening A note from the AI companies",
+   "url": "https://alanbellows.com/some-thing-is-happening/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T11:01:10.600339+00:00",
+   "peak_score": 94.0,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 11,
+    "hn": "https://news.ycombinator.com/item?id=50305724"
+   },
+   "why_at_peak": "+77 points/day pace right now (48 total).",
+   "metric_at_peak": 48,
+   "metric_name": "points"
+  },
+  "gh-divagr18-qwenputer": {
+   "id": "gh:divagr18/qwenputer",
+   "slug": "gh-divagr18-qwenputer",
+   "name": "divagr18/qwenputer",
+   "url": "https://github.com/divagr18/qwenputer",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-31T11:01:10.600339+00:00",
+   "peak_score": 93.2,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "what": "A computer, compiled into the weights of a language model. An exact CPU inside Qwen3.5-4B, with Gated DeltaNet state as RAM.",
+   "tag": "models",
+   "extra": {
+    "forks": 40,
+    "lang": "Python",
+    "topics": [
+     "compiled-weights",
+     "gated-deltanet",
+     "interpretability",
+     "llm",
+     "qwen",
+     "transformers"
+    ],
+    "repo_id": 1425535465
+   },
+   "why_at_peak": "337 stars since launch 12 days ago \u2248 28 stars/day since launch.",
+   "metric_at_peak": 337,
+   "metric_name": "stars"
   }
  }
 }
