@@ -8,10 +8,16 @@
    "score": 98.2,
    "metric": 113,
    "t": "2026-10-31T06:01:12.714280+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 141,
+   "t": "2026-10-31T07:16:08.040547+00:00"
   }
  ],
- "peak_score": 98.2,
- "best_rank": 2,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "OpenAI raises less than half of $30B target",
  "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-31T03:22:44Z",
- "last_seen": "2026-10-31T06:01:12.714280+00:00",
- "last_why": "+1.5K points/day pace right now (113 total).",
+ "last_seen": "2026-10-31T07:16:08.040547+00:00",
+ "last_why": "+538 points/day pace right now (141 total).",
  "extra": {
-  "comments": 61,
+  "comments": 124,
   "hn": "https://news.ycombinator.com/item?id=50312922"
  },
  "days": [
