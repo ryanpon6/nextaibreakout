@@ -1,0 +1,55 @@
+{
+ "id": "gh:microsoft/TokenEconomizer",
+ "slug": "gh-microsoft-tokeneconomizer",
+ "first_seen": "2026-10-31T19:46:05.750812+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.9,
+   "metric": 2901,
+   "t": "2026-10-31T19:46:05.750812+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 5,
+ "name": "microsoft/TokenEconomizer",
+ "url": "https://github.com/microsoft/TokenEconomizer",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Experience-Driven Black-Box Cost Control for Coding Agents",
+ "what": "Experience-Driven Black-Box Cost Control for Coding Agents",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-13T04:16:50Z",
+ "last_seen": "2026-10-31T19:46:05.750812+00:00",
+ "last_why": "2.9K stars since launch 19 days ago \u2248 156 stars/day since launch.",
+ "extra": {
+  "forks": 174,
+  "lang": "Python",
+  "topics": [
+   "agentic-ai",
+   "agentic-coding",
+   "ai-coding",
+   "ai-coding-assistant",
+   "anthropic",
+   "artificial-intelligence",
+   "claude-code",
+   "codex",
+   "coding-agent",
+   "coding-agents",
+   "cost-optimization",
+   "cost-reduction",
+   "developer-tools",
+   "github-copilot",
+   "llm",
+   "open-source",
+   "openai",
+   "productivity",
+   "token-optimization"
+  ],
+  "repo_id": 1416442720
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

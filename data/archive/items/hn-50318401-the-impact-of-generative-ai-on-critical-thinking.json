@@ -1,0 +1,33 @@
+{
+ "id": "hn:50318401",
+ "slug": "hn-50318401-the-impact-of-generative-ai-on-critical-thinking",
+ "first_seen": "2026-10-31T19:46:05.750812+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 53,
+   "t": "2026-10-31T19:46:05.750812+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+ "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T18:02:29Z",
+ "last_seen": "2026-10-31T19:46:05.750812+00:00",
+ "last_why": "53 points in 2h on Hacker News (39 comments).",
+ "extra": {
+  "comments": 39,
+  "hn": "https://news.ycombinator.com/item?id=50318401"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

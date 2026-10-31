@@ -1,0 +1,33 @@
+{
+ "id": "hn:50318871",
+ "slug": "hn-50318871-gpt-5-6-sol-can-beat-factorio-on-peaceful-mode",
+ "first_seen": "2026-10-31T19:46:05.750812+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 46,
+   "t": "2026-10-31T19:46:05.750812+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+ "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T18:50:34Z",
+ "last_seen": "2026-10-31T19:46:05.750812+00:00",
+ "last_why": "46 points in 1h on Hacker News (24 comments).",
+ "extra": {
+  "comments": 24,
+  "hn": "https://news.ycombinator.com/item?id=50318871"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
