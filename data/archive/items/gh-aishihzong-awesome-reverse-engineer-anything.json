@@ -1,0 +1,56 @@
+{
+ "id": "gh:AIshihzong/awesome-reverse-engineer-anything",
+ "slug": "gh-aishihzong-awesome-reverse-engineer-anything",
+ "first_seen": "2026-10-31T01:01:06.065734+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 92.2,
+   "metric": 313,
+   "t": "2026-10-31T01:01:06.065734+00:00"
+  }
+ ],
+ "peak_score": 92.2,
+ "best_rank": 6,
+ "name": "AIshihzong/awesome-reverse-engineer-anything",
+ "url": "https://github.com/AIshihzong/awesome-reverse-engineer-anything",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Awesome list of AI reverse engineering and rebuilds: what AI agents took apart and recreated, and which ones really used REA (Reverse Engineer Anything).",
+ "what": "Awesome list of AI reverse engineering and rebuilds: what AI agents took apart and recreated, and which ones really used REA (Reverse\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-13T13:04:16Z",
+ "last_seen": "2026-10-31T01:01:06.065734+00:00",
+ "last_why": "313 stars since launch 17 days ago \u2248 18 stars/day since launch.",
+ "extra": {
+  "forks": 95,
+  "lang": "Python",
+  "topics": [
+   "ai-agents",
+   "ai-reverse-engineering",
+   "awesome",
+   "awesome-list",
+   "case-studies",
+   "claude-code",
+   "clean-room",
+   "codex",
+   "decompilation",
+   "decompiler",
+   "game-preservation",
+   "ghidra",
+   "hardware-hacking",
+   "interoperability",
+   "mcp",
+   "open-source-alternatives",
+   "rea",
+   "reimplementation",
+   "reverse-engineer-anything",
+   "reverse-engineering"
+  ],
+  "repo_id": 1417071033
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

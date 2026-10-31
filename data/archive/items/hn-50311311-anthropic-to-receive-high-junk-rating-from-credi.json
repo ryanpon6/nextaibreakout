@@ -1,0 +1,33 @@
+{
+ "id": "hn:50311311",
+ "slug": "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi",
+ "first_seen": "2026-10-31T01:01:06.065734+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 61,
+   "t": "2026-10-31T01:01:06.065734+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+ "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T23:08:12Z",
+ "last_seen": "2026-10-31T01:01:06.065734+00:00",
+ "last_why": "61 points in 2h on Hacker News (31 comments).",
+ "extra": {
+  "comments": 31,
+  "hn": "https://news.ycombinator.com/item?id=50311311"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
