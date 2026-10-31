@@ -14,7 +14,8 @@
   "2026-10-31T13:31:05.805586+00:00",
   "2026-10-31T14:46:07.875137+00:00",
   "2026-10-31T16:01:08.345267+00:00",
-  "2026-10-31T17:16:13.527314+00:00"
+  "2026-10-31T17:16:13.527314+00:00",
+  "2026-10-31T18:30:33.557766+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -49,12 +50,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 415,
+    "forks": 423,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -108,12 +109,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 312,
+    "comments": 345,
     "hn": "https://news.ycombinator.com/item?id=50304122"
    },
    "why_at_peak": "+211 points/day pace right now (190 total).",
@@ -197,12 +198,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 14,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 156,
+    "forks": 161,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -259,13 +260,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 294,
-    "trending": 243,
+    "trending": 247,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -315,8 +316,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 13,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -876,16 +877,16 @@
    "first_seen": "2026-10-31T17:16:13.527314+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 48,
+    "comments": 88,
     "hn": "https://news.ycombinator.com/item?id=50316531"
    },
-   "why_at_peak": "112 points in 3h on Hacker News (48 comments).",
-   "metric_at_peak": 112,
+   "why_at_peak": "+1.3K points/day pace right now (181 total).",
+   "metric_at_peak": 181,
    "metric_name": "points"
   },
   "gh-vikingatkhan-mls-network-plugin-rpocket-team": {
@@ -898,8 +899,8 @@
    "first_seen": "2026-10-31T17:16:13.527314+00:00",
    "peak_score": 94.0,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T17:16:13.527314+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
    "what": "AI anticheat for Minecraft servers: neural networks catch KillAura, aim assist, triggerbot and reach. Paper, Spigot, Folia 1.16.5\u20131.21.",
    "tag": "dev tools",
    "extra": {
@@ -924,6 +925,80 @@
    "why_at_peak": "+710 stars/day pace right now (59 total).",
    "metric_at_peak": 59,
    "metric_name": "stars"
+  },
+  "hn-50315987-anthropic-s-claude-ai-blocks-video-game-cloning-an": {
+   "id": "hn:50315987",
+   "slug": "hn-50315987-anthropic-s-claude-ai-blocks-video-game-cloning-an",
+   "name": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T18:30:33.557766+00:00",
+   "peak_score": 97.3,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 20,
+    "hn": "https://news.ycombinator.com/item?id=50315987"
+   },
+   "why_at_peak": "+252 points/day pace right now (43 total).",
+   "metric_at_peak": 43,
+   "metric_name": "points"
+  },
+  "hf-unsloth-deepseek-v4-1-flash-1017-gguf": {
+   "id": "hfmodel:unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "slug": "hf-unsloth-deepseek-v4-1-flash-1017-gguf",
+   "name": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "url": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T18:30:33.557766+00:00",
+   "peak_score": 94.8,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 351192,
+    "trending": 118,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 118 on Hugging Face; 260 likes, 351.2K downloads.",
+   "metric_at_peak": 260,
+   "metric_name": "likes"
+  },
+  "hf-google-embeddinggemma-2": {
+   "id": "hfmodel:google/embeddinggemma-2",
+   "slug": "hf-google-embeddinggemma-2",
+   "name": "google/embeddinggemma-2",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T18:30:33.557766+00:00",
+   "peak_score": 92.4,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T18:30:33.557766+00:00",
+   "what": "feature-extraction model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 365603,
+    "trending": 115,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 115 on Hugging Face; 3.0K likes, 365.6K downloads.",
+   "metric_at_peak": 3041,
+   "metric_name": "likes"
   }
  }
 }

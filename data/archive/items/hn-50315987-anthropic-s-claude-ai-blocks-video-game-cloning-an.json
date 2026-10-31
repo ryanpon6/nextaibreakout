@@ -1,0 +1,33 @@
+{
+ "id": "hn:50315987",
+ "slug": "hn-50315987-anthropic-s-claude-ai-blocks-video-game-cloning-an",
+ "first_seen": "2026-10-31T18:30:33.557766+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 43,
+   "t": "2026-10-31T18:30:33.557766+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+ "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T13:25:00Z",
+ "last_seen": "2026-10-31T18:30:33.557766+00:00",
+ "last_why": "+252 points/day pace right now (43 total).",
+ "extra": {
+  "comments": 20,
+  "hn": "https://news.ycombinator.com/item?id=50315987"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
