@@ -50,10 +50,16 @@
    "score": 97.3,
    "metric": 179,
    "t": "2026-10-31T08:31:09.728688+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 190,
+   "t": "2026-10-31T09:46:06.860577+00:00"
   }
  ],
- "peak_score": 98.2,
- "best_rank": 2,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
  "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
  "source": "hackernews",
@@ -63,10 +69,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-30T14:08:20Z",
- "last_seen": "2026-10-31T08:31:09.728688+00:00",
- "last_why": "+365 points/day pace right now (179 total).",
+ "last_seen": "2026-10-31T09:46:06.860577+00:00",
+ "last_why": "+211 points/day pace right now (190 total).",
  "extra": {
-  "comments": 210,
+  "comments": 219,
   "hn": "https://news.ycombinator.com/item?id=50304122"
  },
  "days": [

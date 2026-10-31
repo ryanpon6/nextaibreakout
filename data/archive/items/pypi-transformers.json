@@ -38,9 +38,15 @@
    "score": 94.9,
    "metric": 4786714,
    "t": "2026-10-31T08:31:09.728688+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.7,
+   "metric": 4786714,
+   "t": "2026-10-31T09:46:06.860577+00:00"
   }
  ],
- "peak_score": 95.0,
+ "peak_score": 95.7,
  "best_rank": 5,
  "name": "transformers",
  "url": "https://pypi.org/project/transformers",
@@ -51,7 +57,7 @@
  "tag": "dev tools",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-10-31T08:31:09.728688+00:00",
+ "last_seen": "2026-10-31T09:46:06.860577+00:00",
  "last_why": "4.8M downloads yesterday, 1.25\u00d7 its 7-day average.",
  "extra": {
   "week": 26760268,
