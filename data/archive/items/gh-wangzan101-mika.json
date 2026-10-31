@@ -170,6 +170,12 @@
    "score": 98.2,
    "metric": 2632,
    "t": "2026-10-31T21:01:06.323431+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 2655,
+   "t": "2026-10-31T22:16:05.601248+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -183,10 +189,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-29T14:34:07Z",
- "last_seen": "2026-10-31T21:01:06.323431+00:00",
- "last_why": "+346 stars/day pace right now (2.6K total).",
+ "last_seen": "2026-10-31T22:16:05.601248+00:00",
+ "last_why": "+442 stars/day pace right now (2.7K total).",
  "extra": {
-  "forks": 428,
+  "forks": 431,
   "lang": "Kotlin",
   "topics": [
    "accessibility",

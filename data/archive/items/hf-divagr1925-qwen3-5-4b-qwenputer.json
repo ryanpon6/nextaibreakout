@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:divagr1925/Qwen3.5-4B-Qwenputer",
+ "slug": "hf-divagr1925-qwen3-5-4b-qwenputer",
+ "first_seen": "2026-10-31T22:16:05.601248+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.9,
+   "metric": 112,
+   "t": "2026-10-31T22:16:05.601248+00:00"
+  }
+ ],
+ "peak_score": 94.9,
+ "best_rank": 6,
+ "name": "divagr1925/Qwen3.5-4B-Qwenputer",
+ "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-19T18:51:39.000Z",
+ "last_seen": "2026-10-31T22:16:05.601248+00:00",
+ "last_why": "Trending score 112 on Hugging Face; 112 likes, 744 downloads.",
+ "extra": {
+  "downloads": 744,
+  "trending": 112,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

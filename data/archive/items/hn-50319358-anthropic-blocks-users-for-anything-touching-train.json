@@ -1,0 +1,33 @@
+{
+ "id": "hn:50319358",
+ "slug": "hn-50319358-anthropic-blocks-users-for-anything-touching-train",
+ "first_seen": "2026-10-31T22:16:05.601248+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.4,
+   "metric": 74,
+   "t": "2026-10-31T22:16:05.601248+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 3,
+ "name": "Anthropic blocks users for anything touching training larger models",
+ "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T19:39:19Z",
+ "last_seen": "2026-10-31T22:16:05.601248+00:00",
+ "last_why": "+979 points/day pace right now (74 total).",
+ "extra": {
+  "comments": 15,
+  "hn": "https://news.ycombinator.com/item?id=50319358"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}

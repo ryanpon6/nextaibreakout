@@ -17,7 +17,8 @@
   "2026-10-31T17:16:13.527314+00:00",
   "2026-10-31T18:30:33.557766+00:00",
   "2026-10-31T19:46:05.750812+00:00",
-  "2026-10-31T21:01:06.323431+00:00"
+  "2026-10-31T21:01:06.323431+00:00",
+  "2026-10-31T22:16:05.601248+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -52,12 +53,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 17,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 428,
+    "forks": 431,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -318,8 +319,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 16,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -473,13 +474,13 @@
    "first_seen": "2026-10-31T04:46:08.118724+00:00",
    "peak_score": 91.8,
    "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 29615,
-    "trending": 329,
+    "trending": 343,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -660,22 +661,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-10-31T09:46:06.860577+00:00",
-   "peak_score": 89.3,
-   "best_rank": 10,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-31T19:46:05.750812+00:00",
+   "peak_score": 90.9,
+   "best_rank": 9,
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 13832,
-    "trending": 795,
+    "trending": 798,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+192 likes/day pace right now (815 total).",
-   "metric_at_peak": 815,
+   "why_at_peak": "+134 likes/day pace right now (864 total).",
+   "metric_at_peak": 864,
    "metric_name": "likes"
   },
   "hn-50305724-some-thing-is-happening-a-note-from-the-ai-compani": {
@@ -1012,12 +1013,12 @@
    "first_seen": "2026-10-31T19:46:05.750812+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 104,
+    "comments": 139,
     "hn": "https://news.ycombinator.com/item?id=50318871"
    },
    "why_at_peak": "46 points in 1h on Hacker News (24 comments).",
@@ -1056,8 +1057,8 @@
    "first_seen": "2026-10-31T19:46:05.750812+00:00",
    "peak_score": 94.9,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "Experience-Driven Black-Box Cost Control for Coding Agents",
    "tag": "agents",
    "extra": {
@@ -1126,8 +1127,8 @@
    "first_seen": "2026-10-31T21:01:06.323431+00:00",
    "peak_score": 91.7,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T21:01:06.323431+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
    "what": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
    "tag": "agents",
    "extra": {
@@ -1152,8 +1153,8 @@
     ],
     "repo_id": 1431986839
    },
-   "why_at_peak": "+250 stars/day pace right now (1.1K total).",
-   "metric_at_peak": 1067,
+   "why_at_peak": "+173 stars/day pace right now (1.1K total).",
+   "metric_at_peak": 1076,
    "metric_name": "stars"
   },
   "hf-deepseek-ai-deepseek-v4-1-flash-1017": {
@@ -1180,6 +1181,76 @@
    },
    "why_at_peak": "+154 likes/day pace right now (4.1K total).",
    "metric_at_peak": 4096,
+   "metric_name": "likes"
+  },
+  "hn-50320255-anthropic-takes-steps-to-block-claude-from-reverse": {
+   "id": "hn:50320255",
+   "slug": "hn-50320255-anthropic-takes-steps-to-block-claude-from-reverse",
+   "name": "Anthropic takes steps to block Claude from reverse-engineering video games",
+   "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T22:16:05.601248+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 38,
+    "hn": "https://news.ycombinator.com/item?id=50320255"
+   },
+   "why_at_peak": "56 points in 1h on Hacker News (38 comments).",
+   "metric_at_peak": 56,
+   "metric_name": "points"
+  },
+  "hn-50319358-anthropic-blocks-users-for-anything-touching-train": {
+   "id": "hn:50319358",
+   "slug": "hn-50319358-anthropic-blocks-users-for-anything-touching-train",
+   "name": "Anthropic blocks users for anything touching training larger models",
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T22:16:05.601248+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 15,
+    "hn": "https://news.ycombinator.com/item?id=50319358"
+   },
+   "why_at_peak": "+979 points/day pace right now (74 total).",
+   "metric_at_peak": 74,
+   "metric_name": "points"
+  },
+  "hf-divagr1925-qwen3-5-4b-qwenputer": {
+   "id": "hfmodel:divagr1925/Qwen3.5-4B-Qwenputer",
+   "slug": "hf-divagr1925-qwen3-5-4b-qwenputer",
+   "name": "divagr1925/Qwen3.5-4B-Qwenputer",
+   "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T22:16:05.601248+00:00",
+   "peak_score": 94.9,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T22:16:05.601248+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 744,
+    "trending": 112,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 112 on Hugging Face; 112 likes, 744 downloads.",
+   "metric_at_peak": 112,
    "metric_name": "likes"
   }
  }

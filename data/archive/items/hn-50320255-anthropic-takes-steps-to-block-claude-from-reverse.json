@@ -1,0 +1,33 @@
+{
+ "id": "hn:50320255",
+ "slug": "hn-50320255-anthropic-takes-steps-to-block-claude-from-reverse",
+ "first_seen": "2026-10-31T22:16:05.601248+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 56,
+   "t": "2026-10-31T22:16:05.601248+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Anthropic takes steps to block Claude from reverse-engineering video games",
+ "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T21:07:58Z",
+ "last_seen": "2026-10-31T22:16:05.601248+00:00",
+ "last_why": "56 points in 1h on Hacker News (38 comments).",
+ "extra": {
+  "comments": 38,
+  "hn": "https://news.ycombinator.com/item?id=50320255"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
