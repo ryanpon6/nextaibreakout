@@ -9,7 +9,8 @@
   "2026-10-31T07:16:08.040547+00:00",
   "2026-10-31T08:31:09.728688+00:00",
   "2026-10-31T09:46:06.860577+00:00",
-  "2026-10-31T11:01:10.600339+00:00"
+  "2026-10-31T11:01:10.600339+00:00",
+  "2026-10-31T12:16:06.273718+00:00"
  ],
  "items": {
   "hn-50311311-anthropic-to-receive-high-junk-rating-from-credi": {
@@ -44,12 +45,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 333,
+    "forks": 343,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -63,8 +64,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+1.4K stars/day pace right now (2.1K total).",
-   "metric_at_peak": 2079,
+   "why_at_peak": "+1.2K stars/day pace right now (2.1K total).",
+   "metric_at_peak": 2143,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -77,13 +78,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 97.5,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2367,
-    "trending": 175,
+    "trending": 177,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -103,12 +104,12 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 231,
+    "comments": 253,
     "hn": "https://news.ycombinator.com/item?id=50304122"
    },
    "why_at_peak": "+211 points/day pace right now (190 total).",
@@ -190,14 +191,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
-   "peak_score": 93.4,
-   "best_rank": 7,
-   "runs_in_top10": 9,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "peak_score": 94.0,
+   "best_rank": 6,
+   "runs_in_top10": 10,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 137,
+    "forks": 142,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -214,8 +215,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+1.5K stars/day pace right now (2.8K total).",
-   "metric_at_peak": 2764,
+   "why_at_peak": "+1.3K stars/day pace right now (3.2K total).",
+   "metric_at_peak": 3212,
    "metric_name": "stars"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -254,13 +255,13 @@
    "first_seen": "2026-10-31T01:01:06.065734+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 294,
-    "trending": 221,
+    "trending": 224,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -310,8 +311,8 @@
    "first_seen": "2026-10-31T02:16:08.546187+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 8,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "Python package",
    "tag": "dev tools",
    "extra": {
@@ -384,12 +385,12 @@
    "first_seen": "2026-10-31T03:31:07.193280+00:00",
    "peak_score": 95.7,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-10-31T09:46:06.860577+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 445,
+    "comments": 455,
     "hn": "https://news.ycombinator.com/item?id=50305693"
    },
    "why_at_peak": "+365 points/day pace right now (586 total).",
@@ -701,9 +702,9 @@
    "kind": "tool",
    "first_seen": "2026-10-31T11:01:10.600339+00:00",
    "peak_score": 93.2,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-10-31T11:01:10.600339+00:00",
+   "best_rank": 7,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
    "what": "A computer, compiled into the weights of a language model. An exact CPU inside Qwen3.5-4B, with Gated DeltaNet state as RAM.",
    "tag": "models",
    "extra": {
@@ -722,6 +723,54 @@
    "why_at_peak": "337 stars since launch 12 days ago \u2248 28 stars/day since launch.",
    "metric_at_peak": 337,
    "metric_name": "stars"
+  },
+  "hn-50310431-wall-street-closes-sharply-lower-as-ai-cash-burn-f": {
+   "id": "hn:50310431",
+   "slug": "hn-50310431-wall-street-closes-sharply-lower-as-ai-cash-burn-f",
+   "name": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+   "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-10-31T12:16:06.273718+00:00",
+   "peak_score": 91.5,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 13,
+    "hn": "https://news.ycombinator.com/item?id=50310431"
+   },
+   "why_at_peak": "+58 points/day pace right now (62 total).",
+   "metric_at_peak": 62,
+   "metric_name": "points"
+  },
+  "hf-mistralai-mistral-large-4-1t-a52b": {
+   "id": "hfmodel:mistralai/Mistral-Large-4-1T-A52B",
+   "slug": "hf-mistralai-mistral-large-4-1t-a52b",
+   "name": "mistralai/Mistral-Large-4-1T-A52B",
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-10-31T12:16:06.273718+00:00",
+   "peak_score": 88.3,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-10-31T12:16:06.273718+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 2945,
+    "trending": 424,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+154 likes/day pace right now (1.4K total).",
+   "metric_at_peak": 1375,
+   "metric_name": "likes"
   }
  }
 }

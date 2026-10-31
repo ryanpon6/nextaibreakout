@@ -1,0 +1,33 @@
+{
+ "id": "hn:50310431",
+ "slug": "hn-50310431-wall-street-closes-sharply-lower-as-ai-cash-burn-f",
+ "first_seen": "2026-10-31T12:16:06.273718+00:00",
+ "appearances": [
+  {
+   "rank": 8,
+   "score": 91.5,
+   "metric": 62,
+   "t": "2026-10-31T12:16:06.273718+00:00"
+  }
+ ],
+ "peak_score": 91.5,
+ "best_rank": 8,
+ "name": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+ "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-30T21:32:35Z",
+ "last_seen": "2026-10-31T12:16:06.273718+00:00",
+ "last_why": "+58 points/day pace right now (62 total).",
+ "extra": {
+  "comments": 13,
+  "hn": "https://news.ycombinator.com/item?id=50310431"
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
