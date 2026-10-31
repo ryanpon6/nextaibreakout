@@ -1,0 +1,33 @@
+{
+ "id": "pypi:transformers",
+ "slug": "pypi-transformers",
+ "first_seen": "2026-10-31T02:16:08.546187+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.3,
+   "metric": 4786714,
+   "t": "2026-10-31T02:16:08.546187+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 5,
+ "name": "transformers",
+ "url": "https://pypi.org/project/transformers",
+ "source": "pypi",
+ "kind": "tool",
+ "desc": "Python package",
+ "what": "Python package",
+ "tag": "dev tools",
+ "metric_name": "downloads/day",
+ "created": null,
+ "last_seen": "2026-10-31T02:16:08.546187+00:00",
+ "last_why": "4.8M downloads yesterday, 1.25\u00d7 its 7-day average.",
+ "extra": {
+  "week": 26760268,
+  "month": 96323619
+ },
+ "days": [
+  "2026-10-31"
+ ]
+}
