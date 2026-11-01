@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:LiquidAI/d1-2B",
+ "slug": "hf-liquidai-d1-2b",
+ "first_seen": "2026-11-01T03:01:10.721451+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 94.8,
+   "metric": 114,
+   "t": "2026-11-01T03:01:10.721451+00:00"
+  }
+ ],
+ "peak_score": 94.8,
+ "best_rank": 5,
+ "name": "LiquidAI/d1-2B",
+ "url": "https://huggingface.co/LiquidAI/d1-2B",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-24T19:30:34.000Z",
+ "last_seen": "2026-11-01T03:01:10.721451+00:00",
+ "last_why": "Trending score 114 on Hugging Face; 114 likes, 3.6K downloads.",
+ "extra": {
+  "downloads": 3639,
+  "trending": 114,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
