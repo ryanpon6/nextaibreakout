@@ -56,6 +56,12 @@
    "score": 98.1,
    "metric": 261,
    "t": "2026-11-01T11:46:10.409292+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.2,
+   "metric": 287,
+   "t": "2026-11-01T13:01:09.692896+00:00"
   }
  ],
  "peak_score": 98.1,
@@ -69,10 +75,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-31T22:46:12Z",
- "last_seen": "2026-11-01T11:46:10.409292+00:00",
- "last_why": "+441 points/day pace right now (261 total).",
+ "last_seen": "2026-11-01T13:01:09.692896+00:00",
+ "last_why": "+499 points/day pace right now (287 total).",
  "extra": {
-  "comments": 120,
+  "comments": 131,
   "hn": "https://news.ycombinator.com/item?id=50320995",
   "repo_created": "2026-10-05T20:04:16Z",
   "repo": "guregodevo/memdoor"
