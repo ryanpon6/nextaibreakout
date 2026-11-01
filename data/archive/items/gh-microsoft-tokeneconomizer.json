@@ -26,9 +26,15 @@
    "score": 92.4,
    "metric": 3018,
    "t": "2026-10-31T23:31:08.212562+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 3379,
+   "t": "2026-11-01T09:16:07.488117+00:00"
   }
  ],
- "peak_score": 94.9,
+ "peak_score": 95.5,
  "best_rank": 5,
  "name": "microsoft/TokenEconomizer",
  "url": "https://github.com/microsoft/TokenEconomizer",
@@ -39,10 +45,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-13T04:16:50Z",
- "last_seen": "2026-10-31T23:31:08.212562+00:00",
- "last_why": "+787 stars/day pace right now (3.0K total).",
+ "last_seen": "2026-11-01T09:16:07.488117+00:00",
+ "last_why": "+921 stars/day pace right now (3.4K total).",
  "extra": {
-  "forks": 178,
+  "forks": 201,
   "lang": "Python",
   "topics": [
    "agentic-ai",
@@ -68,6 +74,7 @@
   "repo_id": 1416442720
  },
  "days": [
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-01"
  ]
 }

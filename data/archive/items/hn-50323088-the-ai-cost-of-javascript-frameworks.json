@@ -1,0 +1,33 @@
+{
+ "id": "hn:50323088",
+ "slug": "hn-50323088-the-ai-cost-of-javascript-frameworks",
+ "first_seen": "2026-11-01T09:16:07.488117+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 45,
+   "t": "2026-11-01T09:16:07.488117+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "The AI cost of JavaScript frameworks",
+ "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-01T06:06:19Z",
+ "last_seen": "2026-11-01T09:16:07.488117+00:00",
+ "last_why": "45 points in 3h on Hacker News (24 comments).",
+ "extra": {
+  "comments": 24,
+  "hn": "https://news.ycombinator.com/item?id=50323088"
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
