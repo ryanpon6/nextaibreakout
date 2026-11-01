@@ -1,0 +1,33 @@
+{
+ "id": "hn:50328488",
+ "slug": "hn-50328488-it-wasn-t-ai-that-flipped-proton-s-charge",
+ "first_seen": "2026-11-01T21:01:08.979230+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 100,
+   "t": "2026-11-01T21:01:08.979230+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "It wasn't AI that flipped Proton's charge",
+ "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-01T18:53:55Z",
+ "last_seen": "2026-11-01T21:01:08.979230+00:00",
+ "last_why": "100 points in 2h on Hacker News (47 comments).",
+ "extra": {
+  "comments": 47,
+  "hn": "https://news.ycombinator.com/item?id=50328488"
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}

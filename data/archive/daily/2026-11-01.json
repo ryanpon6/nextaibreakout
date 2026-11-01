@@ -17,7 +17,8 @@
   "2026-11-01T16:16:10.801920+00:00",
   "2026-11-01T17:31:07.225603+00:00",
   "2026-11-01T18:41:26.599898+00:00",
-  "2026-11-01T19:46:09.856600+00:00"
+  "2026-11-01T19:46:09.856600+00:00",
+  "2026-11-01T21:01:08.979230+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -417,8 +418,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.5,
    "best_rank": 10,
-   "runs_in_top10": 16,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -509,13 +510,13 @@
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 92.9,
    "best_rank": 7,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-01T18:41:26.599898+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4194,
-    "trending": 269,
+    "trending": 279,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -702,12 +703,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 166,
+    "comments": 180,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+289 points/day pace right now (236 total).",
@@ -808,12 +809,12 @@
    "first_seen": "2026-11-01T11:46:10.409292+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
    "tag": "agents",
    "extra": {
-    "forks": 26,
+    "forks": 28,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -876,12 +877,12 @@
    "first_seen": "2026-11-01T16:16:10.801920+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 59,
+    "comments": 60,
     "hn": "https://news.ycombinator.com/item?id=50325662"
    },
    "why_at_peak": "+441 points/day pace right now (57 total).",
@@ -981,13 +982,13 @@
    "first_seen": "2026-11-01T18:41:26.599898+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5846,
-    "trending": 145,
+    "trending": 171,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1007,8 +1008,8 @@
    "first_seen": "2026-11-01T19:46:09.856600+00:00",
    "peak_score": 97.2,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
    "what": "The free, open-source alternative to ZBrush. Sculpting for Linux, macOS and Windows with free built-in AI (image/text to 3D), Send to\u2026",
    "tag": "agents",
    "extra": {
@@ -1062,6 +1063,88 @@
    },
    "why_at_peak": "Trending score 117 on Hugging Face; 6.7K likes, 4.0M downloads.",
    "metric_at_peak": 6689,
+   "metric_name": "likes"
+  },
+  "hn-50328488-it-wasn-t-ai-that-flipped-proton-s-charge": {
+   "id": "hn:50328488",
+   "slug": "hn-50328488-it-wasn-t-ai-that-flipped-proton-s-charge",
+   "name": "It wasn't AI that flipped Proton's charge",
+   "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-01T21:01:08.979230+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 47,
+    "hn": "https://news.ycombinator.com/item?id=50328488"
+   },
+   "why_at_peak": "100 points in 2h on Hacker News (47 comments).",
+   "metric_at_peak": 100,
+   "metric_name": "points"
+  },
+  "gh-kerlenton-bootgpt": {
+   "id": "gh:kerlenton/bootgpt",
+   "slug": "gh-kerlenton-bootgpt",
+   "name": "kerlenton/bootgpt",
+   "url": "https://github.com/kerlenton/bootgpt",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-01T21:01:08.979230+00:00",
+   "peak_score": 97.3,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "what": "A language model that lives in a boot sector",
+   "tag": "models",
+   "extra": {
+    "forks": 0,
+    "lang": "Python",
+    "topics": [
+     "assembly",
+     "bootsector",
+     "demoscene",
+     "language-model",
+     "machine-learning",
+     "neural-networks",
+     "qemu",
+     "sizecoding",
+     "x86"
+    ],
+    "repo_id": 1440248149
+   },
+   "why_at_peak": "+38 stars/day pace right now (52 total).",
+   "metric_at_peak": 52,
+   "metric_name": "stars"
+  },
+  "hf-obliteratus-deepseek-v4-1-flash-1017-obliterated": {
+   "id": "hfmodel:OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+   "slug": "hf-obliteratus-deepseek-v4-1-flash-1017-obliterated",
+   "name": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+   "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T21:01:08.979230+00:00",
+   "peak_score": 96.4,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 520,
+    "trending": 122,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 122 on Hugging Face; 130 likes, 520 downloads.",
+   "metric_at_peak": 130,
    "metric_name": "likes"
   }
  }

@@ -1,0 +1,45 @@
+{
+ "id": "gh:kerlenton/bootgpt",
+ "slug": "gh-kerlenton-bootgpt",
+ "first_seen": "2026-11-01T21:01:08.979230+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 52,
+   "t": "2026-11-01T21:01:08.979230+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "kerlenton/bootgpt",
+ "url": "https://github.com/kerlenton/bootgpt",
+ "source": "github",
+ "kind": "tool",
+ "desc": "A language model that lives in a boot sector",
+ "what": "A language model that lives in a boot sector",
+ "tag": "models",
+ "metric_name": "stars",
+ "created": "2026-10-30T21:28:17Z",
+ "last_seen": "2026-11-01T21:01:08.979230+00:00",
+ "last_why": "+38 stars/day pace right now (52 total).",
+ "extra": {
+  "forks": 0,
+  "lang": "Python",
+  "topics": [
+   "assembly",
+   "bootsector",
+   "demoscene",
+   "language-model",
+   "machine-learning",
+   "neural-networks",
+   "qemu",
+   "sizecoding",
+   "x86"
+  ],
+  "repo_id": 1440248149
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
