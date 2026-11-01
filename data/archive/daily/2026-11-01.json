@@ -11,7 +11,8 @@
   "2026-11-01T09:16:07.488117+00:00",
   "2026-11-01T10:31:08.894405+00:00",
   "2026-11-01T11:46:10.409292+00:00",
-  "2026-11-01T13:01:09.692896+00:00"
+  "2026-11-01T13:01:09.692896+00:00",
+  "2026-11-01T13:56:43.287728+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -24,12 +25,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T00:35:12.018200+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 55,
+    "forks": 56,
     "lang": null,
     "topics": [
      "ai",
@@ -54,8 +55,8 @@
     ],
     "repo_id": 1440272373
    },
-   "why_at_peak": "516 stars since launch 1 days ago \u2248 467 stars/day since launch.",
-   "metric_at_peak": 516,
+   "why_at_peak": "+1.9K stars/day pace right now (593 total).",
+   "metric_at_peak": 593,
    "metric_name": "stars"
   },
   "gh-n1neman-sapper-v2": {
@@ -68,12 +69,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 365,
+    "forks": 367,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -100,12 +101,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-01T11:46:10.409292+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 219,
+    "comments": 227,
     "hn": "https://news.ycombinator.com/item?id=50319358"
    },
    "why_at_peak": "+711 points/day pace right now (255 total).",
@@ -122,12 +123,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 573,
+    "forks": 593,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -299,12 +300,12 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 131,
+    "comments": 147,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
@@ -409,10 +410,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
-   "peak_score": 77.4,
+   "peak_score": 77.5,
    "best_rank": 10,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -503,20 +504,20 @@
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 92.9,
    "best_rank": 7,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4194,
-    "trending": 250,
+    "trending": 256,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+173 likes/day pace right now (237 total).",
-   "metric_at_peak": 237,
+   "why_at_peak": "+156 likes/day pace right now (262 total).",
+   "metric_at_peak": 262,
    "metric_name": "likes"
   },
   "gh-yjid-kensaku": {
@@ -570,13 +571,13 @@
    "first_seen": "2026-11-01T04:16:05.786650+00:00",
    "peak_score": 92.9,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T11:46:10.409292+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 44825,
-    "trending": 370,
+    "trending": 363,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -696,12 +697,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 78,
+    "comments": 103,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+595 points/day pace right now (130 total).",
@@ -833,6 +834,32 @@
    "why_at_peak": "+653 stars/day pace right now (360 total).",
    "metric_at_peak": 360,
    "metric_name": "stars"
+  },
+  "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf": {
+   "id": "hfmodel:AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "slug": "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf",
+   "name": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T13:56:43.287728+00:00",
+   "peak_score": 94.6,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T13:56:43.287728+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 17384,
+    "trending": 115,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 115 on Hugging Face; 118 likes, 17.4K downloads.",
+   "metric_at_peak": 118,
+   "metric_name": "likes"
   }
  }
 }

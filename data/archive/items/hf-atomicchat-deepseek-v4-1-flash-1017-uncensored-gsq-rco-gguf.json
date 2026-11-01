@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+ "slug": "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf",
+ "first_seen": "2026-11-01T13:56:43.287728+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.6,
+   "metric": 118,
+   "t": "2026-11-01T13:56:43.287728+00:00"
+  }
+ ],
+ "peak_score": 94.6,
+ "best_rank": 6,
+ "name": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+ "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-generation",
+ "what": "text-generation model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-28T04:48:45.000Z",
+ "last_seen": "2026-11-01T13:56:43.287728+00:00",
+ "last_why": "Trending score 115 on Hugging Face; 118 likes, 17.4K downloads.",
+ "extra": {
+  "downloads": 17384,
+  "trending": 115,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
