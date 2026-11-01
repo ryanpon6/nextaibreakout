@@ -417,7 +417,12 @@
   "1437656497": "mehmetsongur/Machine-Learning-in-Economics-and-Finance",
   "1416442720": "microsoft/TokenEconomizer",
   "1440248149": "kerlenton/bootgpt",
-  "1440272373": "boardshogunfluctuate/Capri-AI"
+  "1440272373": "boardshogunfluctuate/Capri-AI",
+  "1439885901": "N1nEmAn/sapper-v2",
+  "1437033043": "jmanico/grim-prompter",
+  "1433932117": "JunWan666/astrbot-for-android",
+  "1438013733": "miguelcotrinaia/claude-skills-shorts-animados",
+  "1435623213": "st1vms/AModel"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -448,7 +453,7 @@
   "AienTech/dossier": 1793268984.6268373,
   "C4rohan/Lampline": 1793268984.6268373,
   "FoShmily/ai-paper-system": 1793408481.0721147,
-  "Folkbench/folkbench": 1793268984.6268373,
+  "Folkbench/folkbench": 1793493327.9679525,
   "HRuiCcc/RuiC-oc-ferry": 1793268984.6268373,
   "Kai-Jungsthoefel/SOMA": 1793268984.6268373,
   "StartLuxLabs/StartLux-Decision": 1793408481.0721147,
@@ -466,7 +471,7 @@
   "feder-cr/git-ai": 1793273487.7184563,
   "i12bp8/decomp.wtf": 1793273487.7184563,
   "kitlangton/scrawl": 1793273487.7184563,
-  "openqodex/openqodex": 1793273487.7184563,
+  "openqodex/openqodex": 1793493327.9679525,
   "qybaihe/bla": 1793273487.7184563,
   "Charonyuu/whatsmyagentdoing": 1793457983.8444288,
   "emanuele-em/kanzo": 1793457983.8444288,
@@ -477,6 +482,9 @@
   "mashanglinyu/luanyujia-workbench": 1793408481.0721147,
   "hamzafer/claude-code-mods": 1793489483.9606266,
   "ccch1mneyyy/dsh-go": 1793444485.4336987,
-  "AIshihzong/awesome-reverse-engineer-anything": 1793430983.5082994
+  "AIshihzong/awesome-reverse-engineer-anything": 1793430983.5082994,
+  "Aryanutkarsh/SeeCode": 1793493327.9679525,
+  "opensec-git/Pi-Bolt": 1793493327.9679525,
+  "xop01/ai_goodpractice": 1793493327.9679525
  }
 }
