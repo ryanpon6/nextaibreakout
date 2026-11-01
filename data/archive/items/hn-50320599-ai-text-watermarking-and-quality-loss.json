@@ -1,0 +1,33 @@
+{
+ "id": "hn:50320599",
+ "slug": "hn-50320599-ai-text-watermarking-and-quality-loss",
+ "first_seen": "2026-11-01T05:31:05.260241+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 87.0,
+   "metric": 42,
+   "t": "2026-11-01T05:31:05.260241+00:00"
+  }
+ ],
+ "peak_score": 87.0,
+ "best_rank": 9,
+ "name": "AI text watermarking and quality loss",
+ "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T21:50:13Z",
+ "last_seen": "2026-11-01T05:31:05.260241+00:00",
+ "last_why": "+115 points/day pace right now (42 total).",
+ "extra": {
+  "comments": 7,
+  "hn": "https://news.ycombinator.com/item?id=50320599"
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}

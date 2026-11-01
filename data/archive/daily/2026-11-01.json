@@ -4,7 +4,8 @@
   "2026-11-01T00:35:12.018200+00:00",
   "2026-11-01T01:46:06.274969+00:00",
   "2026-11-01T03:01:10.721451+00:00",
-  "2026-11-01T04:16:05.786650+00:00"
+  "2026-11-01T04:16:05.786650+00:00",
+  "2026-11-01T05:31:05.260241+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -61,12 +62,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T04:16:05.786650+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 321,
+    "forks": 331,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -93,12 +94,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T04:16:05.786650+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 134,
+    "comments": 155,
     "hn": "https://news.ycombinator.com/item?id=50319358"
    },
    "why_at_peak": "+711 points/day pace right now (255 total).",
@@ -115,12 +116,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T04:16:05.786650+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 464,
+    "forks": 478,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -292,18 +293,18 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T04:16:05.786650+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 70,
+    "comments": 83,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
    },
-   "why_at_peak": "+519 points/day pace right now (127 total).",
-   "metric_at_peak": 127,
+   "why_at_peak": "+480 points/day pace right now (152 total).",
+   "metric_at_peak": 152,
    "metric_name": "points"
   },
   "hf-pika-labs-pika-h3-flex": {
@@ -316,13 +317,13 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 94.8,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 294,
-    "trending": 261,
+    "trending": 267,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -342,13 +343,13 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 93.1,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 744,
-    "trending": 113,
+    "trending": 115,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -402,10 +403,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
-   "peak_score": 75.4,
+   "peak_score": 77.4,
    "best_rank": 10,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T04:16:05.786650+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -460,12 +461,12 @@
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 92.3,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T03:01:10.721451+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 171,
+    "forks": 179,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -578,6 +579,54 @@
    "why_at_peak": "+115 likes/day pace right now (405 total).",
    "metric_at_peak": 405,
    "metric_name": "likes"
+  },
+  "hf-xiaomi-research-xiaomi-ocr-0": {
+   "id": "hfmodel:xiaomi-research/Xiaomi-OCR-0",
+   "slug": "hf-xiaomi-research-xiaomi-ocr-0",
+   "name": "xiaomi-research/Xiaomi-OCR-0",
+   "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T05:31:05.260241+00:00",
+   "peak_score": 93.7,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 16009,
+    "trending": 116,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 116 on Hugging Face; 173 likes, 16.0K downloads.",
+   "metric_at_peak": 173,
+   "metric_name": "likes"
+  },
+  "hn-50320599-ai-text-watermarking-and-quality-loss": {
+   "id": "hn:50320599",
+   "slug": "hn-50320599-ai-text-watermarking-and-quality-loss",
+   "name": "AI text watermarking and quality loss",
+   "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-01T05:31:05.260241+00:00",
+   "peak_score": 87.0,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T05:31:05.260241+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 7,
+    "hn": "https://news.ycombinator.com/item?id=50320599"
+   },
+   "why_at_peak": "+115 points/day pace right now (42 total).",
+   "metric_at_peak": 42,
+   "metric_name": "points"
   }
  }
 }
