@@ -13,7 +13,8 @@
   "2026-11-01T11:46:10.409292+00:00",
   "2026-11-01T13:01:09.692896+00:00",
   "2026-11-01T13:56:43.287728+00:00",
-  "2026-11-01T15:01:07.833651+00:00"
+  "2026-11-01T15:01:07.833651+00:00",
+  "2026-11-01T16:16:10.801920+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -70,12 +71,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-01T15:01:07.833651+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 369,
+    "forks": 375,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -124,12 +125,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-11-01T15:01:07.833651+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 612,
+    "forks": 643,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -301,12 +302,12 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-01T15:01:07.833651+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 160,
+    "comments": 172,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
@@ -325,13 +326,13 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T13:01:09.692896+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 404,
-    "trending": 282,
+    "trending": 288,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -413,8 +414,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.5,
    "best_rank": 10,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-01T15:01:07.833651+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -443,13 +444,13 @@
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T09:16:07.488117+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4256,
-    "trending": 130,
+    "trending": 144,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -698,12 +699,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-01T15:01:07.833651+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 116,
+    "comments": 126,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+595 points/day pace right now (130 total).",
@@ -846,13 +847,13 @@
    "first_seen": "2026-11-01T13:56:43.287728+00:00",
    "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T13:56:43.287728+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 17384,
-    "trending": 115,
+    "trending": 121,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -861,6 +862,63 @@
    "why_at_peak": "Trending score 115 on Hugging Face; 118 likes, 17.4K downloads.",
    "metric_at_peak": 118,
    "metric_name": "likes"
+  },
+  "hn-50325662-ai-agent-swarms-in-minecraft-fail-to-build-civiliz": {
+   "id": "hn:50325662",
+   "slug": "hn-50325662-ai-agent-swarms-in-minecraft-fail-to-build-civiliz",
+   "name": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-01T16:16:10.801920+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 21,
+    "hn": "https://news.ycombinator.com/item?id=50325662"
+   },
+   "why_at_peak": "+441 points/day pace right now (57 total).",
+   "metric_at_peak": 57,
+   "metric_name": "points"
+  },
+  "gh-yzlin286-wq-deepscient": {
+   "id": "gh:yzlin286-wq/Deepscient",
+   "slug": "gh-yzlin286-wq-deepscient",
+   "name": "yzlin286-wq/Deepscient",
+   "url": "https://github.com/yzlin286-wq/Deepscient",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-01T16:16:10.801920+00:00",
+   "peak_score": 94.6,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "what": "\u8ba9 AI \u4e0e\u4eba\u7c7b\u4e00\u8d77\u653b\u514b\u771f\u6b63\u7684\u79d1\u5b66\u96be\u9898 \u2014\u2014 12 \u9636\u6bb5 55 \u95e8 \u00b7 36 \u5de5\u5177 \u00b7 98 \u6761\u6280\u80fd \u00b7 \u8bc1\u636e\u94fe\u4e0e\u53ef\u590d\u73b0",
+   "tag": "agents",
+   "extra": {
+    "forks": 0,
+    "lang": "JavaScript",
+    "topics": [
+     "agent-skills",
+     "cordis",
+     "deepseek-harness",
+     "literature-review",
+     "mcp",
+     "nodejs",
+     "reproducibility",
+     "research",
+     "scientific-writing",
+     "windows"
+    ],
+    "repo_id": 1428047292
+   },
+   "why_at_peak": "+614 stars/day pace right now (624 total).",
+   "metric_at_peak": 624,
+   "metric_name": "stars"
   }
  }
 }
