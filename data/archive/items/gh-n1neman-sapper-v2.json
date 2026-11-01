@@ -8,10 +8,16 @@
    "score": 97.3,
    "metric": 336,
    "t": "2026-11-01T00:35:12.018200+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 343,
+   "t": "2026-11-01T01:46:06.274969+00:00"
   }
  ],
- "peak_score": 97.3,
- "best_rank": 2,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "N1nEmAn/sapper-v2",
  "url": "https://github.com/N1nEmAn/sapper-v2",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-30T15:12:35Z",
- "last_seen": "2026-11-01T00:35:12.018200+00:00",
- "last_why": "336 stars since launch 1 days ago \u2248 242 stars/day since launch.",
+ "last_seen": "2026-11-01T01:46:06.274969+00:00",
+ "last_why": "343 stars since launch 1 days ago \u2248 238 stars/day since launch.",
  "extra": {
-  "forks": 306,
+  "forks": 310,
   "lang": "Python",
   "topics": [
    "ai-agents",

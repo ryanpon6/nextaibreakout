@@ -1,7 +1,8 @@
 {
  "day": "2026-11-01",
  "runs": [
-  "2026-11-01T00:35:12.018200+00:00"
+  "2026-11-01T00:35:12.018200+00:00",
+  "2026-11-01T01:46:06.274969+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -56,14 +57,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
-   "peak_score": 97.3,
-   "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T00:35:12.018200+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 306,
+    "forks": 310,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -76,8 +77,8 @@
     ],
     "repo_id": 1439885901
    },
-   "why_at_peak": "336 stars since launch 1 days ago \u2248 242 stars/day since launch.",
-   "metric_at_peak": 336,
+   "why_at_peak": "343 stars since launch 1 days ago \u2248 238 stars/day since launch.",
+   "metric_at_peak": 343,
    "metric_name": "stars"
   },
   "hn-50319358-anthropic-blocks-users-for-anything-touching-train": {
@@ -90,12 +91,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 96.5,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T00:35:12.018200+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 70,
+    "comments": 113,
     "hn": "https://news.ycombinator.com/item?id=50319358"
    },
    "why_at_peak": "+652 points/day pace right now (166 total).",
@@ -110,14 +111,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
-   "peak_score": 95.6,
-   "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T00:35:12.018200+00:00",
+   "peak_score": 97.3,
+   "best_rank": 2,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
    "what": "Mika \u2014 \u4f60\u624b\u673a\u4e0a\u7684\u79c1\u4eba AI \u52a9\u7406\uff0c\u66ff\u4f60\u64cd\u4f5c App\u3001\u4e0a\u7f51\u3001\u628a\u4e8b\u529e\u6210\u3002An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 439,
+    "forks": 447,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -131,8 +132,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+922 stars/day pace right now (2.7K total).",
-   "metric_at_peak": 2726,
+   "why_at_peak": "+995 stars/day pace right now (2.8K total).",
+   "metric_at_peak": 2775,
    "metric_name": "stars"
   },
   "hn-50320255-anthropic-takes-steps-to-block-claude-from-reverse": {
@@ -145,12 +146,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 94.8,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T00:35:12.018200+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 63,
+    "comments": 65,
     "hn": "https://news.ycombinator.com/item?id=50320255"
    },
    "why_at_peak": "+135 points/day pace right now (91 total).",
@@ -261,23 +262,165 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
-   "peak_score": 88.3,
-   "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T00:35:12.018200+00:00",
+   "peak_score": 89.1,
+   "best_rank": 9,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
    "what": "text-to-speech model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2755,
-    "trending": 158,
+    "trending": 161,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+90 likes/day pace right now (160 total).",
-   "metric_at_peak": 160,
+   "why_at_peak": "+61 likes/day pace right now (163 total).",
+   "metric_at_peak": 163,
    "metric_name": "likes"
+  },
+  "hn-50320995-memdoor-a-team-of-5-qwen3-8-27b-models-beats-fabl": {
+   "id": "hn:50320995",
+   "slug": "hn-50320995-memdoor-a-team-of-5-qwen3-8-27b-models-beats-fabl",
+   "name": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-01T01:46:06.274969+00:00",
+   "peak_score": 95.6,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 38,
+    "hn": "https://news.ycombinator.com/item?id=50320995",
+    "repo_created": "2026-10-05T20:04:16Z",
+    "repo": "guregodevo/memdoor"
+   },
+   "why_at_peak": "+812 points/day pace right now (74 total).",
+   "metric_at_peak": 74,
+   "metric_name": "points"
+  },
+  "hf-pika-labs-pika-h3-flex": {
+   "id": "hfmodel:Pika-Labs/Pika-H3-Flex",
+   "slug": "hf-pika-labs-pika-h3-flex",
+   "name": "Pika-Labs/Pika-H3-Flex",
+   "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T01:46:06.274969+00:00",
+   "peak_score": 94.8,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "what": "image-to-video model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 294,
+    "trending": 261,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+41 likes/day pace right now (266 total).",
+   "metric_at_peak": 266,
+   "metric_name": "likes"
+  },
+  "hf-divagr1925-qwen3-5-4b-qwenputer": {
+   "id": "hfmodel:divagr1925/Qwen3.5-4B-Qwenputer",
+   "slug": "hf-divagr1925-qwen3-5-4b-qwenputer",
+   "name": "divagr1925/Qwen3.5-4B-Qwenputer",
+   "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T01:46:06.274969+00:00",
+   "peak_score": 93.1,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 744,
+    "trending": 113,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 113 on Hugging Face; 113 likes, 744 downloads.",
+   "metric_at_peak": 113,
+   "metric_name": "likes"
+  },
+  "gh-jmanico-grim-prompter": {
+   "id": "gh:jmanico/grim-prompter",
+   "slug": "gh-jmanico-grim-prompter",
+   "name": "jmanico/grim-prompter",
+   "url": "https://github.com/jmanico/grim-prompter",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-01T01:46:06.274969+00:00",
+   "peak_score": 92.3,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "what": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36\u2026",
+   "tag": "safety",
+   "extra": {
+    "forks": 27,
+    "lang": null,
+    "topics": [
+     "ai-agents",
+     "appsec",
+     "claude-code",
+     "codex",
+     "linddun",
+     "llm",
+     "pasta",
+     "prompt-engineering",
+     "security",
+     "stride",
+     "threat-modeling"
+    ],
+    "repo_id": 1437033043
+   },
+   "why_at_peak": "310 stars since launch 4 days ago \u2248 87 stars/day since launch.",
+   "metric_at_peak": 310,
+   "metric_name": "stars"
+  },
+  "npm--modelcontextprotocol-sdk": {
+   "id": "npm:@modelcontextprotocol/sdk",
+   "slug": "npm--modelcontextprotocol-sdk",
+   "name": "@modelcontextprotocol/sdk",
+   "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+   "source": "npm",
+   "kind": "tool",
+   "first_seen": "2026-11-01T01:46:06.274969+00:00",
+   "peak_score": 73.8,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T01:46:06.274969+00:00",
+   "what": "npm package",
+   "tag": "dev tools",
+   "extra": {
+    "week": 87026138,
+    "days": [
+     13406688,
+     7765777,
+     7524121,
+     14015215,
+     14593906,
+     14900059,
+     14820372
+    ]
+   },
+   "why_at_peak": "14.8M downloads yesterday, 1.19\u00d7 its 7-day average.",
+   "metric_at_peak": 14820372,
+   "metric_name": "downloads/day"
   }
  }
 }

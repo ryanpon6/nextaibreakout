@@ -1,0 +1,35 @@
+{
+ "id": "hn:50320995",
+ "slug": "hn-50320995-memdoor-a-team-of-5-qwen3-8-27b-models-beats-fabl",
+ "first_seen": "2026-11-01T01:46:06.274969+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 95.6,
+   "metric": 74,
+   "t": "2026-11-01T01:46:06.274969+00:00"
+  }
+ ],
+ "peak_score": 95.6,
+ "best_rank": 3,
+ "name": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+ "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-10-31T22:46:12Z",
+ "last_seen": "2026-11-01T01:46:06.274969+00:00",
+ "last_why": "+812 points/day pace right now (74 total).",
+ "extra": {
+  "comments": 38,
+  "hn": "https://news.ycombinator.com/item?id=50320995",
+  "repo_created": "2026-10-05T20:04:16Z",
+  "repo": "guregodevo/memdoor"
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}

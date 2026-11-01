@@ -1,0 +1,47 @@
+{
+ "id": "gh:jmanico/grim-prompter",
+ "slug": "gh-jmanico-grim-prompter",
+ "first_seen": "2026-11-01T01:46:06.274969+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.3,
+   "metric": 310,
+   "t": "2026-11-01T01:46:06.274969+00:00"
+  }
+ ],
+ "peak_score": 92.3,
+ "best_rank": 7,
+ "name": "jmanico/grim-prompter",
+ "url": "https://github.com/jmanico/grim-prompter",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT.",
+ "what": "Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36\u2026",
+ "tag": "safety",
+ "metric_name": "stars",
+ "created": "2026-10-28T12:09:26Z",
+ "last_seen": "2026-11-01T01:46:06.274969+00:00",
+ "last_why": "310 stars since launch 4 days ago \u2248 87 stars/day since launch.",
+ "extra": {
+  "forks": 27,
+  "lang": null,
+  "topics": [
+   "ai-agents",
+   "appsec",
+   "claude-code",
+   "codex",
+   "linddun",
+   "llm",
+   "pasta",
+   "prompt-engineering",
+   "security",
+   "stride",
+   "threat-modeling"
+  ],
+  "repo_id": 1437033043
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
