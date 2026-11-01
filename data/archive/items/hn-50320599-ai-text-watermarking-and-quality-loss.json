@@ -8,10 +8,16 @@
    "score": 87.0,
    "metric": 42,
    "t": "2026-11-01T05:31:05.260241+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.5,
+   "metric": 49,
+   "t": "2026-11-01T08:01:06.744796+00:00"
   }
  ],
- "peak_score": 87.0,
- "best_rank": 9,
+ "peak_score": 95.5,
+ "best_rank": 5,
  "name": "AI text watermarking and quality loss",
  "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-10-31T21:50:13Z",
- "last_seen": "2026-11-01T05:31:05.260241+00:00",
- "last_why": "+115 points/day pace right now (42 total).",
+ "last_seen": "2026-11-01T08:01:06.744796+00:00",
+ "last_why": "+115 points/day pace right now (49 total).",
  "extra": {
-  "comments": 7,
+  "comments": 8,
   "hn": "https://news.ycombinator.com/item?id=50320599"
  },
  "days": [

@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:sensenova/SenseNova-Loop-9B-Preview",
+ "slug": "hf-sensenova-sensenova-loop-9b-preview",
+ "first_seen": "2026-11-01T08:01:06.744796+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.6,
+   "metric": 116,
+   "t": "2026-11-01T08:01:06.744796+00:00"
+  }
+ ],
+ "peak_score": 94.6,
+ "best_rank": 6,
+ "name": "sensenova/SenseNova-Loop-9B-Preview",
+ "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-text-to-text",
+ "what": "image-text-to-text model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-28T15:34:40.000Z",
+ "last_seen": "2026-11-01T08:01:06.744796+00:00",
+ "last_why": "Trending score 116 on Hugging Face; 116 likes, 566 downloads.",
+ "extra": {
+  "downloads": 566,
+  "trending": 116,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}

@@ -6,7 +6,8 @@
   "2026-11-01T03:01:10.721451+00:00",
   "2026-11-01T04:16:05.786650+00:00",
   "2026-11-01T05:31:05.260241+00:00",
-  "2026-11-01T06:46:07.521428+00:00"
+  "2026-11-01T06:46:07.521428+00:00",
+  "2026-11-01T08:01:06.744796+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -63,12 +64,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 338,
+    "forks": 347,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -95,12 +96,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 169,
+    "comments": 182,
     "hn": "https://news.ycombinator.com/item?id=50319358"
    },
    "why_at_peak": "+711 points/day pace right now (255 total).",
@@ -117,12 +118,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 488,
+    "forks": 499,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -136,8 +137,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+1.4K stars/day pace right now (3.0K total).",
-   "metric_at_peak": 3036,
+   "why_at_peak": "+979 stars/day pace right now (3.1K total).",
+   "metric_at_peak": 3087,
    "metric_name": "stars"
   },
   "hn-50320255-anthropic-takes-steps-to-block-claude-from-reverse": {
@@ -242,13 +243,13 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 91.2,
    "best_rank": 8,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 13832,
-    "trending": 808,
+    "trending": 811,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -294,18 +295,18 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 92,
+    "comments": 97,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
    },
-   "why_at_peak": "+365 points/day pace right now (171 total).",
-   "metric_at_peak": 171,
+   "why_at_peak": "+538 points/day pace right now (199 total).",
+   "metric_at_peak": 199,
    "metric_name": "points"
   },
   "hf-pika-labs-pika-h3-flex": {
@@ -406,8 +407,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.4,
    "best_rank": 10,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -462,12 +463,12 @@
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 93.7,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T06:46:07.521428+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 183,
+    "forks": 187,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -484,8 +485,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+1.2K stars/day pace right now (3.9K total).",
-   "metric_at_peak": 3868,
+   "why_at_peak": "+1.1K stars/day pace right now (3.9K total).",
+   "metric_at_peak": 3924,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -496,22 +497,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
-   "peak_score": 90.6,
+   "peak_score": 92.9,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T03:01:10.721451+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 2367,
-    "trending": 212,
+    "trending": 233,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+77 likes/day pace right now (215 total).",
-   "metric_at_peak": 215,
+   "why_at_peak": "+173 likes/day pace right now (237 total).",
+   "metric_at_peak": 237,
    "metric_name": "likes"
   },
   "gh-yjid-kensaku": {
@@ -615,18 +616,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-01T05:31:05.260241+00:00",
-   "peak_score": 87.0,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T05:31:05.260241+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 7,
+    "comments": 8,
     "hn": "https://news.ycombinator.com/item?id=50320599"
    },
-   "why_at_peak": "+115 points/day pace right now (42 total).",
-   "metric_at_peak": 42,
+   "why_at_peak": "+115 points/day pace right now (49 total).",
+   "metric_at_peak": 49,
    "metric_name": "points"
   },
   "hf-openmoss-team-moss-image-sft": {
@@ -653,6 +654,32 @@
    },
    "why_at_peak": "Trending score 114 on Hugging Face; 851 likes, 16.3K downloads.",
    "metric_at_peak": 851,
+   "metric_name": "likes"
+  },
+  "hf-sensenova-sensenova-loop-9b-preview": {
+   "id": "hfmodel:sensenova/SenseNova-Loop-9B-Preview",
+   "slug": "hf-sensenova-sensenova-loop-9b-preview",
+   "name": "sensenova/SenseNova-Loop-9B-Preview",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T08:01:06.744796+00:00",
+   "peak_score": 94.6,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T08:01:06.744796+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 566,
+    "trending": 116,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 116 on Hugging Face; 116 likes, 566 downloads.",
+   "metric_at_peak": 116,
    "metric_name": "likes"
   }
  }
