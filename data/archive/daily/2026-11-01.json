@@ -14,7 +14,8 @@
   "2026-11-01T13:01:09.692896+00:00",
   "2026-11-01T13:56:43.287728+00:00",
   "2026-11-01T15:01:07.833651+00:00",
-  "2026-11-01T16:16:10.801920+00:00"
+  "2026-11-01T16:16:10.801920+00:00",
+  "2026-11-01T17:31:07.225603+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -125,12 +126,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 14,
-   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 643,
+    "forks": 660,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -276,13 +277,13 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "text-to-speech model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4613,
-    "trending": 178,
+    "trending": 187,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -302,12 +303,12 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 13,
-   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 172,
+    "comments": 182,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
@@ -414,8 +415,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.5,
    "best_rank": 10,
-   "runs_in_top10": 13,
-   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -468,14 +469,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
-   "peak_score": 93.7,
-   "best_rank": 7,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T08:01:06.744796+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 187,
+    "forks": 214,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -492,8 +493,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+1.1K stars/day pace right now (3.9K total).",
-   "metric_at_peak": 3924,
+   "why_at_peak": "+1.4K stars/day pace right now (4.5K total).",
+   "metric_at_peak": 4514,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -805,12 +806,12 @@
    "first_seen": "2026-11-01T11:46:10.409292+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T15:01:07.833651+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
    "tag": "agents",
    "extra": {
-    "forks": 20,
+    "forks": 24,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -847,13 +848,13 @@
    "first_seen": "2026-11-01T13:56:43.287728+00:00",
    "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 17384,
-    "trending": 121,
+    "trending": 124,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -873,12 +874,12 @@
    "first_seen": "2026-11-01T16:16:10.801920+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T16:16:10.801920+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 21,
+    "comments": 38,
     "hn": "https://news.ycombinator.com/item?id=50325662"
    },
    "why_at_peak": "+441 points/day pace right now (57 total).",
@@ -919,6 +920,54 @@
    "why_at_peak": "+614 stars/day pace right now (624 total).",
    "metric_at_peak": 624,
    "metric_name": "stars"
+  },
+  "hn-50326727-anthropic-s-mythos-class-model-allegedly-leaked-on": {
+   "id": "hn:50326727",
+   "slug": "hn-50326727-anthropic-s-mythos-class-model-allegedly-leaked-on",
+   "name": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+   "url": "https://news.ycombinator.com/item?id=50326727",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-01T17:31:07.225603+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 40,
+    "hn": "https://news.ycombinator.com/item?id=50326727"
+   },
+   "why_at_peak": "40 points in 2h on Hacker News (40 comments).",
+   "metric_at_peak": 40,
+   "metric_name": "points"
+  },
+  "hf-liquidai-lfm3-1-7b": {
+   "id": "hfmodel:LiquidAI/LFM3-1.7B",
+   "slug": "hf-liquidai-lfm3-1-7b",
+   "name": "LiquidAI/LFM3-1.7B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-01T17:31:07.225603+00:00",
+   "peak_score": 85.4,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T17:31:07.225603+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 37568,
+    "trending": 623,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+115 likes/day pace right now (671 total).",
+   "metric_at_peak": 671,
+   "metric_name": "likes"
   }
  }
 }
