@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:burner22/numbat",
+ "slug": "hf-burner22-numbat",
+ "first_seen": "2026-11-01T18:41:26.599898+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.5,
+   "metric": 126,
+   "t": "2026-11-01T18:41:26.599898+00:00"
+  }
+ ],
+ "peak_score": 95.5,
+ "best_rank": 4,
+ "name": "burner22/numbat",
+ "url": "https://huggingface.co/burner22/numbat",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-23T01:37:02.000Z",
+ "last_seen": "2026-11-01T18:41:26.599898+00:00",
+ "last_why": "Trending score 119 on Hugging Face; 126 likes, 5.8K downloads.",
+ "extra": {
+  "downloads": 5846,
+  "trending": 119,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
