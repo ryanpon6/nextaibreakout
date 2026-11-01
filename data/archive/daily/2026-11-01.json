@@ -19,7 +19,8 @@
   "2026-11-01T18:41:26.599898+00:00",
   "2026-11-01T19:46:09.856600+00:00",
   "2026-11-01T21:01:08.979230+00:00",
-  "2026-11-01T22:16:06.972899+00:00"
+  "2026-11-01T22:16:06.972899+00:00",
+  "2026-11-01T23:31:08.871142+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -419,8 +420,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.5,
    "best_rank": 10,
-   "runs_in_top10": 18,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "runs_in_top10": 19,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -510,14 +511,14 @@
    "kind": "model",
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 92.9,
-   "best_rank": 7,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "best_rank": 6,
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4194,
-    "trending": 279,
+    "trending": 288,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -704,12 +705,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 204,
+    "comments": 216,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+289 points/day pace right now (236 total).",
@@ -810,12 +811,12 @@
    "first_seen": "2026-11-01T11:46:10.409292+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
-   "what": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
+   "what": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 29,
+    "forks": 30,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -983,13 +984,13 @@
    "first_seen": "2026-11-01T18:41:26.599898+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5846,
-    "trending": 179,
+    "trending": 181,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1076,12 +1077,12 @@
    "first_seen": "2026-11-01T21:01:08.979230+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 78,
+    "comments": 79,
     "hn": "https://news.ycombinator.com/item?id=50328488"
    },
    "why_at_peak": "+480 points/day pace right now (125 total).",
@@ -1098,8 +1099,8 @@
    "first_seen": "2026-11-01T21:01:08.979230+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "A language model that lives in a boot sector",
    "tag": "models",
    "extra": {
@@ -1132,13 +1133,13 @@
    "first_seen": "2026-11-01T21:01:08.979230+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 520,
-    "trending": 130,
+    "trending": 133,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1157,13 +1158,13 @@
    "kind": "tool",
    "first_seen": "2026-11-01T22:16:06.972899+00:00",
    "peak_score": 96.4,
-   "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "best_rank": 2,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 3,
+    "forks": 4,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -1189,9 +1190,31 @@
     ],
     "repo_id": 1435475558
    },
-   "why_at_peak": "362 stars since launch 6 days ago \u2248 65 stars/day since launch.",
-   "metric_at_peak": 362,
+   "why_at_peak": "404 stars since launch 6 days ago \u2248 72 stars/day since launch.",
+   "metric_at_peak": 404,
    "metric_name": "stars"
+  },
+  "hn-50330253-so-i-guess-everyone-uses-llms-to-think-now": {
+   "id": "hn:50330253",
+   "slug": "hn-50330253-so-i-guess-everyone-uses-llms-to-think-now",
+   "name": "So I guess everyone uses LLMs to think now",
+   "url": "https://eva.ac/blog/llms/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-01T23:31:08.871142+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T23:31:08.871142+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 37,
+    "hn": "https://news.ycombinator.com/item?id=50330253"
+   },
+   "why_at_peak": "44 points in 2h on Hacker News (37 comments).",
+   "metric_at_peak": 44,
+   "metric_name": "points"
   }
  }
 }

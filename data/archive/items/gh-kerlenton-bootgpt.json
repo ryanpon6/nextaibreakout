@@ -8,6 +8,12 @@
    "score": 97.3,
    "metric": 52,
    "t": "2026-11-01T21:01:08.979230+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.8,
+   "metric": 54,
+   "t": "2026-11-01T23:31:08.871142+00:00"
   }
  ],
  "peak_score": 97.3,
@@ -21,8 +27,8 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-30T21:28:17Z",
- "last_seen": "2026-11-01T21:01:08.979230+00:00",
- "last_why": "+38 stars/day pace right now (52 total).",
+ "last_seen": "2026-11-01T23:31:08.871142+00:00",
+ "last_why": "+19 stars/day pace right now (54 total).",
  "extra": {
   "forks": 0,
   "lang": "Python",

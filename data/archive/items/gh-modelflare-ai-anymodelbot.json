@@ -8,10 +8,16 @@
    "score": 96.4,
    "metric": 362,
    "t": "2026-11-01T22:16:06.972899+00:00"
+  },
+  {
+   "rank": 2,
+   "score": 96.4,
+   "metric": 404,
+   "t": "2026-11-01T23:31:08.871142+00:00"
   }
  ],
  "peak_score": 96.4,
- "best_rank": 4,
+ "best_rank": 2,
  "name": "modelflare-ai/AnyModelBot",
  "url": "https://github.com/modelflare-ai/AnyModelBot",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-27T08:51:18Z",
- "last_seen": "2026-11-01T22:16:06.972899+00:00",
- "last_why": "362 stars since launch 6 days ago \u2248 65 stars/day since launch.",
+ "last_seen": "2026-11-01T23:31:08.871142+00:00",
+ "last_why": "404 stars since launch 6 days ago \u2248 72 stars/day since launch.",
  "extra": {
-  "forks": 3,
+  "forks": 4,
   "lang": "TypeScript",
   "topics": [
    "ai-agent",

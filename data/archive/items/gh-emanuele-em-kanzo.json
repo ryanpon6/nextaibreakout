@@ -56,6 +56,12 @@
    "score": 94.7,
    "metric": 557,
    "t": "2026-11-01T22:16:06.972899+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 93.9,
+   "metric": 583,
+   "t": "2026-11-01T23:31:08.871142+00:00"
   }
  ],
  "peak_score": 95.5,
@@ -64,15 +70,15 @@
  "url": "https://github.com/emanuele-em/kanzo",
  "source": "github",
  "kind": "tool",
- "desc": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
- "what": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
+ "desc": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero setup.",
+ "what": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero\u2026",
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-25T11:14:03Z",
- "last_seen": "2026-11-01T22:16:06.972899+00:00",
- "last_why": "+384 stars/day pace right now (557 total).",
+ "last_seen": "2026-11-01T23:31:08.871142+00:00",
+ "last_why": "+499 stars/day pace right now (583 total).",
  "extra": {
-  "forks": 29,
+  "forks": 30,
   "lang": "Rust",
   "topics": [
    "ai-agents",
