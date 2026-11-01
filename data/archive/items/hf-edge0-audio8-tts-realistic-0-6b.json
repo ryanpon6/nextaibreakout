@@ -38,10 +38,16 @@
    "score": 89.1,
    "metric": 163,
    "t": "2026-11-01T01:46:06.274969+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.6,
+   "metric": 181,
+   "t": "2026-11-01T10:31:08.894405+00:00"
   }
  ],
- "peak_score": 94.1,
- "best_rank": 7,
+ "peak_score": 94.6,
+ "best_rank": 6,
  "name": "Edge0/Audio8-TTS-Realistic-0.6b",
  "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
  "source": "huggingface",
@@ -51,11 +57,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-14T03:02:49.000Z",
- "last_seen": "2026-11-01T01:46:06.274969+00:00",
- "last_why": "+61 likes/day pace right now (163 total).",
+ "last_seen": "2026-11-01T10:31:08.894405+00:00",
+ "last_why": "+134 likes/day pace right now (181 total).",
  "extra": {
-  "downloads": 2755,
-  "trending": 161,
+  "downloads": 4613,
+  "trending": 178,
   "hf_type": "model",
   "title": null,
   "summary": null,
