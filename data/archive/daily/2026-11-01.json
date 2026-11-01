@@ -18,7 +18,8 @@
   "2026-11-01T17:31:07.225603+00:00",
   "2026-11-01T18:41:26.599898+00:00",
   "2026-11-01T19:46:09.856600+00:00",
-  "2026-11-01T21:01:08.979230+00:00"
+  "2026-11-01T21:01:08.979230+00:00",
+  "2026-11-01T22:16:06.972899+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -306,12 +307,12 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 16,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 17,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 194,
+    "comments": 202,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
@@ -418,8 +419,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.5,
    "best_rank": 10,
-   "runs_in_top10": 17,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -703,12 +704,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 180,
+    "comments": 204,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+289 points/day pace right now (236 total).",
@@ -765,12 +766,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T19:46:09.856600+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "Experience-Driven Black-Box Cost Control for Coding Agents",
    "tag": "agents",
    "extra": {
-    "forks": 215,
+    "forks": 222,
     "lang": "Python",
     "topics": [
      "agentic-ai",
@@ -809,12 +810,12 @@
    "first_seen": "2026-11-01T11:46:10.409292+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
    "tag": "agents",
    "extra": {
-    "forks": 28,
+    "forks": 29,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -954,22 +955,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-01T17:31:07.225603+00:00",
-   "peak_score": 85.4,
+   "peak_score": 88.8,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T17:31:07.225603+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 37568,
-    "trending": 623,
+    "trending": 636,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+115 likes/day pace right now (671 total).",
-   "metric_at_peak": 671,
+   "why_at_peak": "+173 likes/day pace right now (690 total).",
+   "metric_at_peak": 690,
    "metric_name": "likes"
   },
   "hf-burner22-numbat": {
@@ -982,13 +983,13 @@
    "first_seen": "2026-11-01T18:41:26.599898+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5846,
-    "trending": 171,
+    "trending": 179,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1075,16 +1076,16 @@
    "first_seen": "2026-11-01T21:01:08.979230+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 47,
+    "comments": 78,
     "hn": "https://news.ycombinator.com/item?id=50328488"
    },
-   "why_at_peak": "100 points in 2h on Hacker News (47 comments).",
-   "metric_at_peak": 100,
+   "why_at_peak": "+480 points/day pace right now (125 total).",
+   "metric_at_peak": 125,
    "metric_name": "points"
   },
   "gh-kerlenton-bootgpt": {
@@ -1131,13 +1132,13 @@
    "first_seen": "2026-11-01T21:01:08.979230+00:00",
    "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T21:01:08.979230+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 520,
-    "trending": 122,
+    "trending": 130,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1146,6 +1147,51 @@
    "why_at_peak": "Trending score 122 on Hugging Face; 130 likes, 520 downloads.",
    "metric_at_peak": 130,
    "metric_name": "likes"
+  },
+  "gh-modelflare-ai-anymodelbot": {
+   "id": "gh:modelflare-ai/AnyModelBot",
+   "slug": "gh-modelflare-ai-anymodelbot",
+   "name": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-01T22:16:06.972899+00:00",
+   "peak_score": 96.4,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T22:16:06.972899+00:00",
+   "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 3,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agent",
+     "ai-assistant",
+     "chatbot",
+     "claude",
+     "computer-use",
+     "deepseek",
+     "desktop-app",
+     "dsh",
+     "electron",
+     "feishu",
+     "gemini",
+     "gpt",
+     "grok",
+     "llm",
+     "local-first",
+     "modelflare",
+     "multi-model",
+     "openai-compatible",
+     "personal-ai-agent",
+     "wechat"
+    ],
+    "repo_id": 1435475558
+   },
+   "why_at_peak": "362 stars since launch 6 days ago \u2248 65 stars/day since launch.",
+   "metric_at_peak": 362,
+   "metric_name": "stars"
   }
  }
 }

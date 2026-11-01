@@ -1,0 +1,56 @@
+{
+ "id": "gh:modelflare-ai/AnyModelBot",
+ "slug": "gh-modelflare-ai-anymodelbot",
+ "first_seen": "2026-11-01T22:16:06.972899+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 362,
+   "t": "2026-11-01T22:16:06.972899+00:00"
+  }
+ ],
+ "peak_score": 96.4,
+ "best_rank": 4,
+ "name": "modelflare-ai/AnyModelBot",
+ "url": "https://github.com/modelflare-ai/AnyModelBot",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\ud83e\udd16 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+ "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-27T08:51:18Z",
+ "last_seen": "2026-11-01T22:16:06.972899+00:00",
+ "last_why": "362 stars since launch 6 days ago \u2248 65 stars/day since launch.",
+ "extra": {
+  "forks": 3,
+  "lang": "TypeScript",
+  "topics": [
+   "ai-agent",
+   "ai-assistant",
+   "chatbot",
+   "claude",
+   "computer-use",
+   "deepseek",
+   "desktop-app",
+   "dsh",
+   "electron",
+   "feishu",
+   "gemini",
+   "gpt",
+   "grok",
+   "llm",
+   "local-first",
+   "modelflare",
+   "multi-model",
+   "openai-compatible",
+   "personal-ai-agent",
+   "wechat"
+  ],
+  "repo_id": 1435475558
+ },
+ "days": [
+  "2026-11-01"
+ ]
+}
