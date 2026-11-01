@@ -14,10 +14,16 @@
    "score": 91.7,
    "metric": 6662,
    "t": "2026-10-31T08:31:09.728688+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.8,
+   "metric": 6689,
+   "t": "2026-11-01T19:46:09.856600+00:00"
   }
  ],
- "peak_score": 91.7,
- "best_rank": 9,
+ "peak_score": 93.8,
+ "best_rank": 7,
  "name": "Qwen/Qwen3.8-Flash-Next",
  "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
  "source": "huggingface",
@@ -27,11 +33,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-08-24T08:24:59.000Z",
- "last_seen": "2026-10-31T08:31:09.728688+00:00",
- "last_why": "Trending score 121 on Hugging Face; 6.7K likes, 4.1M downloads.",
+ "last_seen": "2026-11-01T19:46:09.856600+00:00",
+ "last_why": "Trending score 117 on Hugging Face; 6.7K likes, 4.0M downloads.",
  "extra": {
-  "downloads": 4137335,
-  "trending": 121,
+  "downloads": 4029520,
+  "trending": 117,
   "hf_type": "model",
   "title": null,
   "summary": null,
@@ -39,6 +45,7 @@
  },
  "days": [
   "2026-10-30",
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-01"
  ]
 }
