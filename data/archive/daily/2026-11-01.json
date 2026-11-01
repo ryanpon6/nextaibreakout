@@ -9,7 +9,8 @@
   "2026-11-01T06:46:07.521428+00:00",
   "2026-11-01T08:01:06.744796+00:00",
   "2026-11-01T09:16:07.488117+00:00",
-  "2026-11-01T10:31:08.894405+00:00"
+  "2026-11-01T10:31:08.894405+00:00",
+  "2026-11-01T11:46:10.409292+00:00"
  ],
  "items": {
   "gh-boardshogunfluctuate-capri-ai": {
@@ -66,12 +67,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 356,
+    "forks": 360,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -98,12 +99,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 206,
+    "comments": 219,
     "hn": "https://news.ycombinator.com/item?id=50319358"
    },
    "why_at_peak": "+711 points/day pace right now (255 total).",
@@ -120,12 +121,12 @@
    "first_seen": "2026-11-01T00:35:12.018200+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 541,
+    "forks": 554,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -139,8 +140,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+979 stars/day pace right now (3.1K total).",
-   "metric_at_peak": 3087,
+   "why_at_peak": "+1.4K stars/day pace right now (3.3K total).",
+   "metric_at_peak": 3301,
    "metric_name": "stars"
   },
   "hn-50320255-anthropic-takes-steps-to-block-claude-from-reverse": {
@@ -297,18 +298,18 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 114,
+    "comments": 120,
     "hn": "https://news.ycombinator.com/item?id=50320995",
     "repo_created": "2026-10-05T20:04:16Z",
     "repo": "guregodevo/memdoor"
    },
-   "why_at_peak": "+538 points/day pace right now (199 total).",
-   "metric_at_peak": 199,
+   "why_at_peak": "+441 points/day pace right now (261 total).",
+   "metric_at_peak": 261,
    "metric_name": "points"
   },
   "hf-pika-labs-pika-h3-flex": {
@@ -319,22 +320,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
-   "peak_score": 94.8,
+   "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T05:31:05.260241+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "image-to-video model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 294,
-    "trending": 267,
+    "downloads": 404,
+    "trending": 279,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+41 likes/day pace right now (266 total).",
-   "metric_at_peak": 266,
+   "why_at_peak": "+115 likes/day pace right now (285 total).",
+   "metric_at_peak": 285,
    "metric_name": "likes"
   },
   "hf-divagr1925-qwen3-5-4b-qwenputer": {
@@ -409,8 +410,8 @@
    "first_seen": "2026-11-01T01:46:06.274969+00:00",
    "peak_score": 77.4,
    "best_rank": 10,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -501,13 +502,13 @@
    "first_seen": "2026-11-01T03:01:10.721451+00:00",
    "peak_score": 92.9,
    "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4194,
-    "trending": 242,
+    "trending": 246,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -566,22 +567,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-01T04:16:05.786650+00:00",
-   "peak_score": 90.4,
+   "peak_score": 92.9,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-01T04:16:05.786650+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 29615,
-    "trending": 358,
+    "downloads": 44825,
+    "trending": 370,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+115 likes/day pace right now (405 total).",
-   "metric_at_peak": 405,
+   "why_at_peak": "+154 likes/day pace right now (432 total).",
+   "metric_at_peak": 432,
    "metric_name": "likes"
   },
   "hf-xiaomi-research-xiaomi-ocr-0": {
@@ -694,12 +695,12 @@
    "first_seen": "2026-11-01T09:16:07.488117+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-01T10:31:08.894405+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 47,
+    "comments": 56,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+633 points/day pace right now (78 total).",
@@ -788,6 +789,48 @@
    },
    "why_at_peak": "+921 stars/day pace right now (3.4K total).",
    "metric_at_peak": 3379,
+   "metric_name": "stars"
+  },
+  "gh-emanuele-em-kanzo": {
+   "id": "gh:emanuele-em/kanzo",
+   "slug": "gh-emanuele-em-kanzo",
+   "name": "emanuele-em/kanzo",
+   "url": "https://github.com/emanuele-em/kanzo",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-01T11:46:10.409292+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-01T11:46:10.409292+00:00",
+   "what": "Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.",
+   "tag": "agents",
+   "extra": {
+    "forks": 16,
+    "lang": "Rust",
+    "topics": [
+     "ai-agents",
+     "claude-code",
+     "cli",
+     "codex",
+     "coding-agents",
+     "kanban",
+     "local-first",
+     "mcp",
+     "mcp-server",
+     "model-context-protocol",
+     "productivity",
+     "project-management",
+     "raspberry-pi",
+     "rust",
+     "self-hosted",
+     "sqlite",
+     "task-manager"
+    ],
+    "repo_id": 1433111563
+   },
+   "why_at_peak": "326 stars since launch 7 days ago \u2248 46 stars/day since launch.",
+   "metric_at_peak": 326,
    "metric_name": "stars"
   }
  }
