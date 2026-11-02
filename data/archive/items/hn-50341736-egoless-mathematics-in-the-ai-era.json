@@ -1,0 +1,33 @@
+{
+ "id": "hn:50341736",
+ "slug": "hn-50341736-egoless-mathematics-in-the-ai-era",
+ "first_seen": "2026-11-02T22:16:10.266136+00:00",
+ "appearances": [
+  {
+   "rank": 9,
+   "score": 84.6,
+   "metric": 80,
+   "t": "2026-11-02T22:16:10.266136+00:00"
+  }
+ ],
+ "peak_score": 84.6,
+ "best_rank": 9,
+ "name": "Egoless Mathematics in the AI Era",
+ "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T18:54:44Z",
+ "last_seen": "2026-11-02T22:16:10.266136+00:00",
+ "last_why": "+538 points/day pace right now (80 total).",
+ "extra": {
+  "comments": 53,
+  "hn": "https://news.ycombinator.com/item?id=50341736"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

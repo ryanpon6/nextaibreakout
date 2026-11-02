@@ -14,10 +14,16 @@
    "score": 94.7,
    "metric": 379,
    "t": "2026-11-01T04:16:05.786650+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 94.6,
+   "metric": 549,
+   "t": "2026-11-02T22:16:10.266136+00:00"
   }
  ],
  "peak_score": 94.7,
- "best_rank": 5,
+ "best_rank": 3,
  "name": "yjid/kensaku",
  "url": "https://github.com/yjid/kensaku",
  "source": "github",
@@ -27,10 +33,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-24T21:00:26Z",
- "last_seen": "2026-11-01T04:16:05.786650+00:00",
- "last_why": "+231 stars/day pace right now (379 total).",
+ "last_seen": "2026-11-02T22:16:10.266136+00:00",
+ "last_why": "+269 stars/day pace right now (549 total).",
  "extra": {
-  "forks": 28,
+  "forks": 39,
   "lang": "Rust",
   "topics": [
    "ai-agents",
@@ -54,6 +60,7 @@
  },
  "days": [
   "2026-10-31",
-  "2026-11-01"
+  "2026-11-01",
+  "2026-11-02"
  ]
 }
