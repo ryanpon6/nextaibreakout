@@ -1,0 +1,33 @@
+{
+ "id": "hn:50344958",
+ "slug": "hn-50344958-anthropic-s-growth-just-flattened",
+ "first_seen": "2026-11-02T23:31:09.311709+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 69,
+   "t": "2026-11-02T23:31:09.311709+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Anthropic's growth just flattened",
+ "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T22:33:20Z",
+ "last_seen": "2026-11-02T23:31:09.311709+00:00",
+ "last_why": "69 points in 1h on Hacker News (49 comments).",
+ "extra": {
+  "comments": 49,
+  "hn": "https://news.ycombinator.com/item?id=50344958"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

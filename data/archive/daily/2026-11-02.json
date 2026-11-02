@@ -19,7 +19,8 @@
   "2026-11-02T18:38:27.797481+00:00",
   "2026-11-02T19:46:11.279219+00:00",
   "2026-11-02T21:01:10.220492+00:00",
-  "2026-11-02T22:16:10.266136+00:00"
+  "2026-11-02T22:16:10.266136+00:00",
+  "2026-11-02T23:31:09.311709+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -203,13 +204,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 93.0,
    "best_rank": 7,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T22:16:10.266136+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 30284,
-    "trending": 174,
+    "trending": 178,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -383,12 +384,12 @@
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
    "peak_score": 94.6,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 998,
+    "forks": 1014,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -402,8 +403,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+1.8K stars/day pace right now (4.3K total).",
-   "metric_at_peak": 4266,
+   "why_at_peak": "+442 stars/day pace right now (5.3K total).",
+   "metric_at_peak": 5255,
    "metric_name": "stars"
   },
   "gh-modelflare-ai-anymodelbot": {
@@ -663,13 +664,13 @@
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
    "peak_score": 95.3,
    "best_rank": 3,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-02T22:16:10.266136+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 734,
+    "trending": 741,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -860,13 +861,13 @@
    "first_seen": "2026-11-02T11:31:07.316913+00:00",
    "peak_score": 94.5,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T15:16:24.963782+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "text-to-speech model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7259,
-    "trending": 221,
+    "trending": 227,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1219,12 +1220,12 @@
    "first_seen": "2026-11-02T19:46:11.279219+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T22:16:10.266136+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 432,
+    "comments": 520,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
    "why_at_peak": "515 points in 1h on Hacker News (147 comments).",
@@ -1277,14 +1278,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T19:46:11.279219+00:00",
-   "peak_score": 91.8,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "peak_score": 93.8,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 287,
+    "forks": 290,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -1301,8 +1302,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+447 stars/day pace right now (5.8K total).",
-   "metric_at_peak": 5776,
+   "why_at_peak": "+461 stars/day pace right now (5.8K total).",
+   "metric_at_peak": 5822,
    "metric_name": "stars"
   },
   "hn-50342284-oracle-files-to-sell-20b-in-new-stock-bonds-to-f": {
@@ -1315,12 +1316,12 @@
    "first_seen": "2026-11-02T21:01:10.220492+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T22:16:10.266136+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 61,
+    "comments": 92,
     "hn": "https://news.ycombinator.com/item?id=50342284"
    },
    "why_at_peak": "62 points in 2h on Hacker News (29 comments).",
@@ -1357,14 +1358,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T22:16:10.266136+00:00",
-   "peak_score": 94.6,
+   "peak_score": 95.5,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T22:16:10.266136+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
    "what": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 39,
+    "forks": 41,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -1386,8 +1387,8 @@
     ],
     "repo_id": 1432590994
    },
-   "why_at_peak": "+269 stars/day pace right now (549 total).",
-   "metric_at_peak": 549,
+   "why_at_peak": "+211 stars/day pace right now (560 total).",
+   "metric_at_peak": 560,
    "metric_name": "stars"
   },
   "gh-daveebbelaar-bama": {
@@ -1450,6 +1451,28 @@
    },
    "why_at_peak": "+538 points/day pace right now (80 total).",
    "metric_at_peak": 80,
+   "metric_name": "points"
+  },
+  "hn-50344958-anthropic-s-growth-just-flattened": {
+   "id": "hn:50344958",
+   "slug": "hn-50344958-anthropic-s-growth-just-flattened",
+   "name": "Anthropic's growth just flattened",
+   "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T23:31:09.311709+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T23:31:09.311709+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 49,
+    "hn": "https://news.ycombinator.com/item?id=50344958"
+   },
+   "why_at_peak": "69 points in 1h on Hacker News (49 comments).",
+   "metric_at_peak": 69,
    "metric_name": "points"
   }
  }
