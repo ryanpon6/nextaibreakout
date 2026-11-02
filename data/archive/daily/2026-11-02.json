@@ -11,7 +11,8 @@
   "2026-11-02T09:01:11.631831+00:00",
   "2026-11-02T10:16:09.401153+00:00",
   "2026-11-02T11:31:07.316913+00:00",
-  "2026-11-02T12:46:09.528763+00:00"
+  "2026-11-02T12:46:09.528763+00:00",
+  "2026-11-02T14:01:12.474212+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -68,12 +69,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 301,
+    "comments": 315,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+307 points/day pace right now (291 total).",
@@ -163,12 +164,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-02T10:16:09.401153+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 463,
+    "forks": 472,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -221,13 +222,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 92.9,
    "best_rank": 6,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T10:16:09.401153+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7108,
-    "trending": 235,
+    "trending": 245,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -273,8 +274,8 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 76.8,
    "best_rank": 10,
-   "runs_in_top10": 11,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -579,8 +580,8 @@
    "first_seen": "2026-11-02T04:01:09.841962+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
    "tag": "agents",
    "extra": {
@@ -633,12 +634,12 @@
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 79,
+    "comments": 86,
     "hn": "https://news.ycombinator.com/item?id=50332086"
    },
    "why_at_peak": "+250 points/day pace right now (78 total).",
@@ -759,13 +760,13 @@
    "first_seen": "2026-11-02T09:01:11.631831+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 155,
+    "trending": 165,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -785,12 +786,12 @@
    "first_seen": "2026-11-02T11:31:07.316913+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 40,
+    "comments": 54,
     "hn": "https://news.ycombinator.com/item?id=50334038"
    },
    "why_at_peak": "+38 points/day pace right now (41 total).",
@@ -805,10 +806,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T11:31:07.316913+00:00",
-   "peak_score": 96.3,
-   "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "peak_score": 97.2,
+   "best_rank": 2,
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
    "what": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
    "tag": "models",
    "extra": {
@@ -838,8 +839,8 @@
     ],
     "repo_id": 1442223451
    },
-   "why_at_peak": "+192 stars/day pace right now (52 total).",
-   "metric_at_peak": 52,
+   "why_at_peak": "+230 stars/day pace right now (72 total).",
+   "metric_at_peak": 72,
    "metric_name": "stars"
   },
   "hf-edge0-audio8-tts-realistic-air": {
@@ -892,6 +893,32 @@
    },
    "why_at_peak": "+1.2K likes/day pace right now (4.5K total).",
    "metric_at_peak": 4525,
+   "metric_name": "likes"
+  },
+  "hf-sensenova-sensenova-loop-9b-preview": {
+   "id": "hfmodel:sensenova/SenseNova-Loop-9B-Preview",
+   "slug": "hf-sensenova-sensenova-loop-9b-preview",
+   "name": "sensenova/SenseNova-Loop-9B-Preview",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T14:01:12.474212+00:00",
+   "peak_score": 90.2,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1536,
+    "trending": 167,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+134 likes/day pace right now (168 total).",
+   "metric_at_peak": 168,
    "metric_name": "likes"
   }
  }
