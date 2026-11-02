@@ -2,7 +2,8 @@
  "day": "2026-11-02",
  "runs": [
   "2026-11-02T00:46:07.273313+00:00",
-  "2026-11-02T01:40:25.086901+00:00"
+  "2026-11-02T01:40:25.086901+00:00",
+  "2026-11-02T02:46:08.495519+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -15,12 +16,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 131,
+    "comments": 161,
     "hn": "https://news.ycombinator.com/item?id=50330456"
    },
    "why_at_peak": "+1.8K points/day pace right now (120 total).",
@@ -59,12 +60,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 226,
+    "comments": 230,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+307 points/day pace right now (291 total).",
@@ -119,9 +120,9 @@
    "kind": "tool",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 95.6,
-   "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
    "what": "A language model that lives in a boot sector",
    "tag": "models",
    "extra": {
@@ -152,14 +153,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
-   "peak_score": 97.2,
-   "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 98.1,
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 394,
+    "forks": 408,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -172,8 +173,8 @@
     ],
     "repo_id": 1439885901
    },
-   "why_at_peak": "+451 stars/day pace right now (454 total).",
-   "metric_at_peak": 454,
+   "why_at_peak": "+635 stars/day pace right now (483 total).",
+   "metric_at_peak": 483,
    "metric_name": "stars"
   },
   "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf": {
@@ -262,10 +263,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
-   "peak_score": 74.1,
+   "peak_score": 74.4,
    "best_rank": 10,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -397,14 +398,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
-   "peak_score": 93.8,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 94.6,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 4,
+    "forks": 5,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -430,8 +431,8 @@
     ],
     "repo_id": 1435475558
    },
-   "why_at_peak": "+1.1K stars/day pace right now (482 total).",
-   "metric_at_peak": 482,
+   "why_at_peak": "+2.0K stars/day pace right now (575 total).",
+   "metric_at_peak": 575,
    "metric_name": "stars"
   },
   "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
@@ -458,6 +459,106 @@
    },
    "why_at_peak": "+159 likes/day pace right now (604 total).",
    "metric_at_peak": 604,
+   "metric_name": "likes"
+  },
+  "hn-50325662-ai-agent-swarms-in-minecraft-fail-to-build-civiliz": {
+   "id": "hn:50325662",
+   "slug": "hn-50325662-ai-agent-swarms-in-minecraft-fail-to-build-civiliz",
+   "name": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T02:46:08.495519+00:00",
+   "peak_score": 88.7,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 74,
+    "hn": "https://news.ycombinator.com/item?id=50325662"
+   },
+   "why_at_peak": "+66 points/day pace right now (152 total).",
+   "metric_at_peak": 152,
+   "metric_name": "points"
+  },
+  "hf-speridlabs-idol": {
+   "id": "hfmodel:speridlabs/idol",
+   "slug": "hf-speridlabs-idol",
+   "name": "speridlabs/idol",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T02:46:08.495519+00:00",
+   "peak_score": 87.9,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "what": "image-to-3d model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 4194,
+    "trending": 298,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+88 likes/day pace right now (306 total).",
+   "metric_at_peak": 306,
+   "metric_name": "likes"
+  },
+  "hf-edge0-audio8-tts-realistic-0-6b": {
+   "id": "hfmodel:Edge0/Audio8-TTS-Realistic-0.6b",
+   "slug": "hf-edge0-audio8-tts-realistic-0-6b",
+   "name": "Edge0/Audio8-TTS-Realistic-0.6b",
+   "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T02:46:08.495519+00:00",
+   "peak_score": 87.0,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "what": "text-to-speech model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 4613,
+    "trending": 203,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+66 likes/day pace right now (210 total).",
+   "metric_at_peak": 210,
+   "metric_name": "likes"
+  },
+  "hf-ccore-qwen3-5-4b-3d-coder": {
+   "id": "hfmodel:ccore/Qwen3.5-4B-3D-Coder",
+   "slug": "hf-ccore-qwen3-5-4b-3d-coder",
+   "name": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T02:46:08.495519+00:00",
+   "peak_score": 84.6,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "what": "Model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 44825,
+    "trending": 358,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+88 likes/day pace right now (485 total).",
+   "metric_at_peak": 485,
    "metric_name": "likes"
   }
  }
