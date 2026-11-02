@@ -1,0 +1,33 @@
+{
+ "id": "hn:50339494",
+ "slug": "hn-50339494-anthropic-s-internal-ai-use-at-retail-prices-now",
+ "first_seen": "2026-11-02T17:46:20.865487+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 51,
+   "t": "2026-11-02T17:46:20.865487+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+ "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T16:40:29Z",
+ "last_seen": "2026-11-02T17:46:20.865487+00:00",
+ "last_why": "51 points in 1h on Hacker News (41 comments).",
+ "extra": {
+  "comments": 41,
+  "hn": "https://news.ycombinator.com/item?id=50339494"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

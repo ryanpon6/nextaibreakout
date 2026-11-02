@@ -14,10 +14,16 @@
    "score": 93.1,
    "metric": 341,
    "t": "2026-10-31T12:16:06.273718+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 93.5,
+   "metric": 522,
+   "t": "2026-11-02T17:46:20.865487+00:00"
   }
  ],
- "peak_score": 93.2,
- "best_rank": 7,
+ "peak_score": 93.5,
+ "best_rank": 5,
  "name": "divagr18/qwenputer",
  "url": "https://github.com/divagr18/qwenputer",
  "source": "github",
@@ -27,10 +33,10 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-19T11:48:10Z",
- "last_seen": "2026-10-31T12:16:06.273718+00:00",
- "last_why": "341 stars since launch 12 days ago \u2248 28 stars/day since launch.",
+ "last_seen": "2026-11-02T17:46:20.865487+00:00",
+ "last_why": "+249 stars/day pace right now (522 total).",
  "extra": {
-  "forks": 40,
+  "forks": 60,
   "lang": "Python",
   "topics": [
    "compiled-weights",
@@ -43,6 +49,7 @@
   "repo_id": 1425535465
  },
  "days": [
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-02"
  ]
 }

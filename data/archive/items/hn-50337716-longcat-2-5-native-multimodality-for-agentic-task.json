@@ -1,0 +1,33 @@
+{
+ "id": "hn:50337716",
+ "slug": "hn-50337716-longcat-2-5-native-multimodality-for-agentic-task",
+ "first_seen": "2026-11-02T17:46:20.865487+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 90.9,
+   "metric": 44,
+   "t": "2026-11-02T17:46:20.865487+00:00"
+  }
+ ],
+ "peak_score": 90.9,
+ "best_rank": 7,
+ "name": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+ "url": "https://longcat.ai/blog/longcat-2.5/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-11-02T15:00:26Z",
+ "last_seen": "2026-11-02T17:46:20.865487+00:00",
+ "last_why": "+441 points/day pace right now (44 total).",
+ "extra": {
+  "comments": 15,
+  "hn": "https://news.ycombinator.com/item?id=50337716"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

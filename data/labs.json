@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T16:32:01.341658+00:00",
+ "generated": "2026-11-02T17:47:06.204332+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-11-02T16:32:01.341658+00:00"
+   "fetched": "2026-11-02T17:47:06.204332+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,10 +268,23 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-11-02T16:32:01.341658+00:00"
+   "fetched": "2026-11-02T17:47:06.204332+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "LifeVal",
+     "url": "https://openai.com/index/lifeval",
+     "date": "2026-11-02T09:00:00+00:00",
+     "day": "2026-11-02",
+     "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+     "categories": [
+      "Research"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Codex CLI 0.166.0",
      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
@@ -385,19 +398,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Advancing coding in low\u2011resource programming languages",
-     "url": "https://openai.com/index/low-resource-programming-languages",
-     "date": "2026-10-19T12:00:00+00:00",
-     "day": "2026-10-19",
-     "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-     "categories": [
-      "Publication"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -407,7 +407,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1342
+     "raw": 1343
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-02T16:32:01.341658+00:00"
+   "fetched": "2026-11-02T17:47:06.204332+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-02T16:32:01.341658+00:00"
+   "fetched": "2026-11-02T17:47:06.204332+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-02T16:32:01.341658+00:00"
+   "fetched": "2026-11-02T17:47:06.204332+00:00"
   },
   "meta": {
    "items": [
@@ -779,7 +779,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-11-02T16:32:01.341658+00:00"
+   "fetched": "2026-11-02T17:47:06.204332+00:00"
   }
  }
 }
