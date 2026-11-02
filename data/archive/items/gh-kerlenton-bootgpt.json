@@ -26,6 +26,12 @@
    "score": 95.5,
    "metric": 59,
    "t": "2026-11-02T02:46:08.495519+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 94.4,
+   "metric": 68,
+   "t": "2026-11-02T16:31:14.476695+00:00"
   }
  ],
  "peak_score": 97.3,
@@ -39,10 +45,10 @@
  "tag": "models",
  "metric_name": "stars",
  "created": "2026-10-30T21:28:17Z",
- "last_seen": "2026-11-02T02:46:08.495519+00:00",
- "last_why": "+66 stars/day pace right now (59 total).",
+ "last_seen": "2026-11-02T16:31:14.476695+00:00",
+ "last_why": "+58 stars/day pace right now (68 total).",
  "extra": {
-  "forks": 0,
+  "forks": 2,
   "lang": "Python",
   "topics": [
    "assembly",

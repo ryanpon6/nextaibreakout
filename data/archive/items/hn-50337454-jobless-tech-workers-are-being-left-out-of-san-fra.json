@@ -1,0 +1,33 @@
+{
+ "id": "hn:50337454",
+ "slug": "hn-50337454-jobless-tech-workers-are-being-left-out-of-san-fra",
+ "first_seen": "2026-11-02T16:31:14.476695+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.1,
+   "metric": 46,
+   "t": "2026-11-02T16:31:14.476695+00:00"
+  }
+ ],
+ "peak_score": 98.1,
+ "best_rank": 2,
+ "name": "Jobless tech workers are being left out of San Francisco's AI boom",
+ "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T14:40:05Z",
+ "last_seen": "2026-11-02T16:31:14.476695+00:00",
+ "last_why": "46 points in 2h on Hacker News (64 comments).",
+ "extra": {
+  "comments": 64,
+  "hn": "https://news.ycombinator.com/item?id=50337454"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}
