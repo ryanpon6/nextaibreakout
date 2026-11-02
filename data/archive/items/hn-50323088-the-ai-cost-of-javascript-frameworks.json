@@ -86,6 +86,12 @@
    "score": 96.4,
    "metric": 311,
    "t": "2026-11-02T02:46:08.495519+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 97.2,
+   "metric": 334,
+   "t": "2026-11-02T05:16:06.652134+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -99,10 +105,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-11-01T06:06:19Z",
- "last_seen": "2026-11-02T02:46:08.495519+00:00",
- "last_why": "+372 points/day pace right now (311 total).",
+ "last_seen": "2026-11-02T05:16:06.652134+00:00",
+ "last_why": "+269 points/day pace right now (334 total).",
  "extra": {
-  "comments": 230,
+  "comments": 254,
   "hn": "https://news.ycombinator.com/item?id=50323088"
  },
  "days": [

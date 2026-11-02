@@ -1,0 +1,33 @@
+{
+ "id": "hn:50332086",
+ "slug": "hn-50332086-ai-fan-wikis-riddled-with-errors-are-muddying-the",
+ "first_seen": "2026-11-02T05:16:06.652134+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.1,
+   "metric": 53,
+   "t": "2026-11-02T05:16:06.652134+00:00"
+  }
+ ],
+ "peak_score": 98.1,
+ "best_rank": 2,
+ "name": "AI fan wikis riddled with errors are muddying the waters of games culture",
+ "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T01:47:07Z",
+ "last_seen": "2026-11-02T05:16:06.652134+00:00",
+ "last_why": "+384 points/day pace right now (53 total).",
+ "extra": {
+  "comments": 25,
+  "hn": "https://news.ycombinator.com/item?id=50332086"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}
