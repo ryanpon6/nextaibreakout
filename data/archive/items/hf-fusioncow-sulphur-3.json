@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:FusionCow/Sulphur-3",
+ "slug": "hf-fusioncow-sulphur-3",
+ "first_seen": "2026-11-02T09:01:11.631831+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 136,
+   "t": "2026-11-02T09:01:11.631831+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "FusionCow/Sulphur-3",
+ "url": "https://huggingface.co/FusionCow/Sulphur-3",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "",
+ "what": "Model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-31T20:31:01.000Z",
+ "last_seen": "2026-11-02T09:01:11.631831+00:00",
+ "last_why": "Trending score 123 on Hugging Face; 136 likes, 0 downloads.",
+ "extra": {
+  "downloads": 0,
+  "trending": 123,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}
