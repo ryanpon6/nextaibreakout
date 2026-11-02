@@ -12,7 +12,8 @@
   "2026-11-02T10:16:09.401153+00:00",
   "2026-11-02T11:31:07.316913+00:00",
   "2026-11-02T12:46:09.528763+00:00",
-  "2026-11-02T14:01:12.474212+00:00"
+  "2026-11-02T14:01:12.474212+00:00",
+  "2026-11-02T15:16:24.963782+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -69,12 +70,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 315,
+    "comments": 325,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+307 points/day pace right now (291 total).",
@@ -222,13 +223,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 92.9,
    "best_rank": 6,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7108,
-    "trending": 245,
+    "trending": 252,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -580,12 +581,12 @@
    "first_seen": "2026-11-02T04:01:09.841962+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
    "tag": "agents",
    "extra": {
-    "forks": 3,
+    "forks": 4,
     "lang": "Go",
     "topics": [
      "agent-harness",
@@ -760,13 +761,13 @@
    "first_seen": "2026-11-02T09:01:11.631831+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 165,
+    "trending": 169,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -786,12 +787,12 @@
    "first_seen": "2026-11-02T11:31:07.316913+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 54,
+    "comments": 60,
     "hn": "https://news.ycombinator.com/item?id=50334038"
    },
    "why_at_peak": "+38 points/day pace right now (41 total).",
@@ -808,8 +809,8 @@
    "first_seen": "2026-11-02T11:31:07.316913+00:00",
    "peak_score": 97.2,
    "best_rank": 2,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T14:01:12.474212+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
    "tag": "models",
    "extra": {
@@ -853,13 +854,13 @@
    "first_seen": "2026-11-02T11:31:07.316913+00:00",
    "peak_score": 94.5,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T11:31:07.316913+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
    "what": "text-to-speech model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7259,
-    "trending": 213,
+    "trending": 221,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -920,6 +921,65 @@
    "why_at_peak": "+134 likes/day pace right now (168 total).",
    "metric_at_peak": 168,
    "metric_name": "likes"
+  },
+  "hn-50336138-last-night-an-ai-agent-performed-brain-surgery-on": {
+   "id": "hn:50336138",
+   "slug": "hn-50336138-last-night-an-ai-agent-performed-brain-surgery-on",
+   "name": "Last night an AI agent performed brain surgery on a mouse",
+   "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T15:16:24.963782+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 45,
+    "hn": "https://news.ycombinator.com/item?id=50336138"
+   },
+   "why_at_peak": "+555 points/day pace right now (52 total).",
+   "metric_at_peak": 52,
+   "metric_name": "points"
+  },
+  "gh-sahenjp-rustxng": {
+   "id": "gh:sahenjp/RustXNG",
+   "slug": "gh-sahenjp-rustxng",
+   "name": "sahenjp/RustXNG",
+   "url": "https://github.com/sahenjp/RustXNG",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-02T15:16:24.963782+00:00",
+   "peak_score": 94.3,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T15:16:24.963782+00:00",
+   "what": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
+   "tag": "agents",
+   "extra": {
+    "forks": 45,
+    "lang": "Rust",
+    "topics": [
+     "agpl",
+     "ai-agents",
+     "grounding",
+     "llm",
+     "mcp",
+     "metasearch",
+     "privacy",
+     "rag",
+     "rust",
+     "search-engine",
+     "searxng",
+     "self-hosted"
+    ],
+    "repo_id": 1423942292
+   },
+   "why_at_peak": "+498 stars/day pace right now (666 total).",
+   "metric_at_peak": 666,
+   "metric_name": "stars"
   }
  }
 }

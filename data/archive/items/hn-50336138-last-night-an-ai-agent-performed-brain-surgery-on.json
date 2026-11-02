@@ -1,0 +1,33 @@
+{
+ "id": "hn:50336138",
+ "slug": "hn-50336138-last-night-an-ai-agent-performed-brain-surgery-on",
+ "first_seen": "2026-11-02T15:16:24.963782+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 52,
+   "t": "2026-11-02T15:16:24.963782+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Last night an AI agent performed brain surgery on a mouse",
+ "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-11-02T12:50:59Z",
+ "last_seen": "2026-11-02T15:16:24.963782+00:00",
+ "last_why": "+555 points/day pace right now (52 total).",
+ "extra": {
+  "comments": 45,
+  "hn": "https://news.ycombinator.com/item?id=50336138"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

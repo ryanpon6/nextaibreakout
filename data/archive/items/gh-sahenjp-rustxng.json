@@ -1,0 +1,48 @@
+{
+ "id": "gh:sahenjp/RustXNG",
+ "slug": "gh-sahenjp-rustxng",
+ "first_seen": "2026-11-02T15:16:24.963782+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.3,
+   "metric": 666,
+   "t": "2026-11-02T15:16:24.963782+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 6,
+ "name": "sahenjp/RustXNG",
+ "url": "https://github.com/sahenjp/RustXNG",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
+ "what": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-18T03:06:52Z",
+ "last_seen": "2026-11-02T15:16:24.963782+00:00",
+ "last_why": "+498 stars/day pace right now (666 total).",
+ "extra": {
+  "forks": 45,
+  "lang": "Rust",
+  "topics": [
+   "agpl",
+   "ai-agents",
+   "grounding",
+   "llm",
+   "mcp",
+   "metasearch",
+   "privacy",
+   "rag",
+   "rust",
+   "search-engine",
+   "searxng",
+   "self-hosted"
+  ],
+  "repo_id": 1423942292
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}
