@@ -1,0 +1,33 @@
+{
+ "id": "hn:50330456",
+ "slug": "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan",
+ "first_seen": "2026-11-02T00:46:07.273313+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 120,
+   "t": "2026-11-02T00:46:07.273313+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+ "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-01T22:10:45Z",
+ "last_seen": "2026-11-02T00:46:07.273313+00:00",
+ "last_why": "+1.8K points/day pace right now (120 total).",
+ "extra": {
+  "comments": 107,
+  "hn": "https://news.ycombinator.com/item?id=50330456"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

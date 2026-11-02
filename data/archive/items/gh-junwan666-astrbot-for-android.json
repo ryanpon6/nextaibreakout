@@ -1,0 +1,50 @@
+{
+ "id": "gh:JunWan666/astrbot-for-android",
+ "slug": "gh-junwan666-astrbot-for-android",
+ "first_seen": "2026-11-02T00:46:07.273313+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.4,
+   "metric": 303,
+   "t": "2026-11-02T00:46:07.273313+00:00"
+  }
+ ],
+ "peak_score": 96.4,
+ "best_rank": 4,
+ "name": "JunWan666/astrbot-for-android",
+ "url": "https://github.com/JunWan666/astrbot-for-android",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u5728 Android \u624b\u673a\u4e0a\u672c\u5730\u90e8\u7f72\u548c\u7ba1\u7406 AstrBot \u4e0e NapCat\uff0c\u5185\u7f6e PRoot Ubuntu \u8fd0\u884c\u73af\u5883\uff0c\u652f\u6301\u539f\u751f\u7ba1\u7406\u754c\u9762\u3001WebUI\u3001\u65e5\u5fd7\u3001\u5907\u4efd\u6062\u590d\u548c\u72ec\u7acb\u66f4\u65b0\uff0c\u65e0\u9700 Root\u3002",
+ "what": "\u5728 Android \u624b\u673a\u4e0a\u672c\u5730\u90e8\u7f72\u548c\u7ba1\u7406 AstrBot \u4e0e NapCat\uff0c\u5185\u7f6e PRoot Ubuntu \u8fd0\u884c\u73af\u5883\uff0c\u652f\u6301\u539f\u751f\u7ba1\u7406\u754c\u9762\u3001WebUI\u3001\u65e5\u5fd7\u3001\u5907\u4efd\u6062\u590d\u548c\u72ec\u7acb\u66f4\u65b0\uff0c\u65e0\u9700 Root\u3002",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-10-26T05:13:32Z",
+ "last_seen": "2026-11-02T00:46:07.273313+00:00",
+ "last_why": "303 stars since launch 7 days ago \u2248 44 stars/day since launch.",
+ "extra": {
+  "forks": 13,
+  "lang": "Kotlin",
+  "topics": [
+   "ai",
+   "android",
+   "astrbot",
+   "chatbot",
+   "jetpack-compose",
+   "kotlin",
+   "llm",
+   "napcat",
+   "napcatqq",
+   "onebot",
+   "proot",
+   "qq-bot",
+   "self-hosted",
+   "ubuntu"
+  ],
+  "repo_id": 1433932117
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}
