@@ -14,10 +14,16 @@
    "score": 96.4,
    "metric": 65,
    "t": "2026-11-02T06:31:07.649800+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 78,
+   "t": "2026-11-02T07:46:05.531032+00:00"
   }
  ],
- "peak_score": 98.1,
- "best_rank": 2,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "AI fan wikis riddled with errors are muddying the waters of games culture",
  "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
  "source": "hackernews",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-11-02T01:47:07Z",
- "last_seen": "2026-11-02T06:31:07.649800+00:00",
- "last_why": "+230 points/day pace right now (65 total).",
+ "last_seen": "2026-11-02T07:46:05.531032+00:00",
+ "last_why": "+250 points/day pace right now (78 total).",
  "extra": {
-  "comments": 40,
+  "comments": 65,
   "hn": "https://news.ycombinator.com/item?id=50332086"
  },
  "days": [

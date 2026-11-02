@@ -6,7 +6,8 @@
   "2026-11-02T02:46:08.495519+00:00",
   "2026-11-02T04:01:09.841962+00:00",
   "2026-11-02T05:16:06.652134+00:00",
-  "2026-11-02T06:31:07.649800+00:00"
+  "2026-11-02T06:31:07.649800+00:00",
+  "2026-11-02T07:46:05.531032+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -19,12 +20,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 211,
+    "comments": 216,
     "hn": "https://news.ycombinator.com/item?id=50330456"
    },
    "why_at_peak": "+1.8K points/day pace right now (120 total).",
@@ -63,12 +64,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 261,
+    "comments": 276,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+307 points/day pace right now (291 total).",
@@ -158,12 +159,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 442,
+    "forks": 447,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -268,8 +269,8 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 75.3,
    "best_rank": 10,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -401,14 +402,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
-   "peak_score": 94.6,
+   "peak_score": 95.4,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 10,
+    "forks": 11,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -434,8 +435,8 @@
     ],
     "repo_id": 1435475558
    },
-   "why_at_peak": "+2.0K stars/day pace right now (575 total).",
-   "metric_at_peak": 575,
+   "why_at_peak": "+1.6K stars/day pace right now (877 total).",
+   "metric_at_peak": 877,
    "metric_name": "stars"
   },
   "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
@@ -494,22 +495,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-02T02:46:08.495519+00:00",
-   "peak_score": 87.9,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "peak_score": 94.6,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 4194,
-    "trending": 298,
+    "trending": 321,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+88 likes/day pace right now (306 total).",
-   "metric_at_peak": 306,
+   "why_at_peak": "+231 likes/day pace right now (338 total).",
+   "metric_at_peak": 338,
    "metric_name": "likes"
   },
   "hf-edge0-audio8-tts-realistic-0-6b": {
@@ -574,8 +575,8 @@
    "first_seen": "2026-11-02T04:01:09.841962+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
    "tag": "agents",
    "extra": {
@@ -626,18 +627,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
-   "peak_score": 98.1,
-   "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 40,
+    "comments": 65,
     "hn": "https://news.ycombinator.com/item?id=50332086"
    },
-   "why_at_peak": "+384 points/day pace right now (53 total).",
-   "metric_at_peak": 53,
+   "why_at_peak": "+250 points/day pace right now (78 total).",
+   "metric_at_peak": 78,
    "metric_name": "points"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -690,6 +691,58 @@
    },
    "why_at_peak": "Trending score 120 on Hugging Face; 122 likes, 1.5K downloads.",
    "metric_at_peak": 122,
+   "metric_name": "likes"
+  },
+  "hf-xiaomi-research-xiaomi-ocr-0": {
+   "id": "hfmodel:xiaomi-research/Xiaomi-OCR-0",
+   "slug": "hf-xiaomi-research-xiaomi-ocr-0",
+   "name": "xiaomi-research/Xiaomi-OCR-0",
+   "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T07:46:05.531032+00:00",
+   "peak_score": 88.5,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 17143,
+    "trending": 155,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+96 likes/day pace right now (222 total).",
+   "metric_at_peak": 222,
+   "metric_name": "likes"
+  },
+  "hf-efficient-large-model-open-h3-regenerate-2k": {
+   "id": "hfmodel:Efficient-Large-Model/Open-H3-Regenerate-2K",
+   "slug": "hf-efficient-large-model-open-h3-regenerate-2k",
+   "name": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+   "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T07:46:05.531032+00:00",
+   "peak_score": 87.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T07:46:05.531032+00:00",
+   "what": "video-to-video model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 0,
+    "trending": 160,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+96 likes/day pace right now (171 total).",
+   "metric_at_peak": 171,
    "metric_name": "likes"
   }
  }
