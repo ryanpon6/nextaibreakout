@@ -16,7 +16,8 @@
   "2026-11-02T15:16:24.963782+00:00",
   "2026-11-02T16:31:14.476695+00:00",
   "2026-11-02T17:46:20.865487+00:00",
-  "2026-11-02T18:38:27.797481+00:00"
+  "2026-11-02T18:38:27.797481+00:00",
+  "2026-11-02T19:46:11.279219+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -506,13 +507,13 @@
    "first_seen": "2026-11-02T02:46:08.495519+00:00",
    "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7787,
-    "trending": 347,
+    "trending": 380,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -660,13 +661,13 @@
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
    "peak_score": 95.3,
    "best_rank": 3,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 710,
+    "trending": 719,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -764,13 +765,13 @@
    "first_seen": "2026-11-02T09:01:11.631831+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 195,
+    "trending": 197,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -994,12 +995,12 @@
    "first_seen": "2026-11-02T16:31:14.476695+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 107,
+    "comments": 146,
     "hn": "https://news.ycombinator.com/item?id=50337454"
    },
    "why_at_peak": "46 points in 2h on Hacker News (64 comments).",
@@ -1042,12 +1043,12 @@
    "first_seen": "2026-11-02T17:46:20.865487+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 93,
+    "comments": 141,
     "hn": "https://news.ycombinator.com/item?id=50339494"
    },
    "why_at_peak": "+2.2K points/day pace right now (129 total).",
@@ -1128,10 +1129,10 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T17:46:20.865487+00:00",
-   "peak_score": 92.6,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T17:46:20.865487+00:00",
+   "peak_score": 94.5,
+   "best_rank": 4,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
    "what": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero\u2026",
    "tag": "agents",
    "extra": {
@@ -1158,8 +1159,8 @@
     ],
     "repo_id": 1433111563
    },
-   "why_at_peak": "+230 stars/day pace right now (824 total).",
-   "metric_at_peak": 824,
+   "why_at_peak": "+298 stars/day pace right now (844 total).",
+   "metric_at_peak": 844,
    "metric_name": "stars"
   },
   "hn-50337716-longcat-2-5-native-multimodality-for-agentic-task": {
@@ -1205,6 +1206,102 @@
    "why_at_peak": "+497 points/day pace right now (54 total).",
    "metric_at_peak": 54,
    "metric_name": "points"
+  },
+  "hn-50341174-astra-can-read-and-write-weights-to-improve-qwen": {
+   "id": "hn:50341174",
+   "slug": "hn-50341174-astra-can-read-and-write-weights-to-improve-qwen",
+   "name": "Astra can read and write weights to improve Qwen",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T19:46:11.279219+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 147,
+    "hn": "https://news.ycombinator.com/item?id=50341174"
+   },
+   "why_at_peak": "515 points in 1h on Hacker News (147 comments).",
+   "metric_at_peak": 515,
+   "metric_name": "points"
+  },
+  "gh-jumbomuffin777-frontier-ui": {
+   "id": "gh:Jumbomuffin777/Frontier-UI",
+   "slug": "gh-jumbomuffin777-frontier-ui",
+   "name": "Jumbomuffin777/Frontier-UI",
+   "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-02T19:46:11.279219+00:00",
+   "peak_score": 95.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "what": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calculators, live\u2026",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 2,
+    "lang": "Python",
+    "topics": [
+     "ai-tools",
+     "artcraft",
+     "artificial-intelligence",
+     "generative-ai",
+     "llm",
+     "local-ai",
+     "local-llm",
+     "open-webui",
+     "open-webui-extensions",
+     "open-webui-plugins",
+     "open-webui-tool",
+     "open-webui-tools",
+     "self-hosted"
+    ],
+    "repo_id": 1441555426
+   },
+   "why_at_peak": "+43 stars/day pace right now (50 total).",
+   "metric_at_peak": 50,
+   "metric_name": "stars"
+  },
+  "gh-ccch1mneyyy-dsh-go": {
+   "id": "gh:ccch1mneyyy/dsh-Go",
+   "slug": "gh-ccch1mneyyy-dsh-go",
+   "name": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-02T19:46:11.279219+00:00",
+   "peak_score": 91.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
+   "tag": "agents",
+   "extra": {
+    "forks": 287,
+    "lang": "Dart",
+    "topics": [
+     "ai-agent",
+     "android",
+     "android-app",
+     "coding-agent",
+     "deepseek",
+     "deepseek-harness",
+     "dsh",
+     "dsh-plugin",
+     "dsh-tui",
+     "flutter",
+     "llm"
+    ],
+    "repo_id": 1432967563
+   },
+   "why_at_peak": "+447 stars/day pace right now (5.8K total).",
+   "metric_at_peak": 5776,
+   "metric_name": "stars"
   }
  }
 }

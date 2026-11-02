@@ -1,0 +1,49 @@
+{
+ "id": "gh:Jumbomuffin777/Frontier-UI",
+ "slug": "gh-jumbomuffin777-frontier-ui",
+ "first_seen": "2026-11-02T19:46:11.279219+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 95.4,
+   "metric": 50,
+   "t": "2026-11-02T19:46:11.279219+00:00"
+  }
+ ],
+ "peak_score": 95.4,
+ "best_rank": 3,
+ "name": "Jumbomuffin777/Frontier-UI",
+ "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+ "source": "github",
+ "kind": "tool",
+ "desc": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calculators, live weather & stocks, link previews, and one-click Word/Excel/PowerPoint exports via ArtCraft. One file, no API keys.",
+ "what": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calculators, live\u2026",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-11-01T06:41:23Z",
+ "last_seen": "2026-11-02T19:46:11.279219+00:00",
+ "last_why": "+43 stars/day pace right now (50 total).",
+ "extra": {
+  "forks": 2,
+  "lang": "Python",
+  "topics": [
+   "ai-tools",
+   "artcraft",
+   "artificial-intelligence",
+   "generative-ai",
+   "llm",
+   "local-ai",
+   "local-llm",
+   "open-webui",
+   "open-webui-extensions",
+   "open-webui-plugins",
+   "open-webui-tool",
+   "open-webui-tools",
+   "self-hosted"
+  ],
+  "repo_id": 1441555426
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

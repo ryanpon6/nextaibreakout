@@ -68,10 +68,16 @@
    "score": 92.6,
    "metric": 824,
    "t": "2026-11-02T17:46:20.865487+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 94.5,
+   "metric": 844,
+   "t": "2026-11-02T19:46:11.279219+00:00"
   }
  ],
  "peak_score": 95.5,
- "best_rank": 5,
+ "best_rank": 4,
  "name": "emanuele-em/kanzo",
  "url": "https://github.com/emanuele-em/kanzo",
  "source": "github",
@@ -81,8 +87,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-25T11:14:03Z",
- "last_seen": "2026-11-02T17:46:20.865487+00:00",
- "last_why": "+230 stars/day pace right now (824 total).",
+ "last_seen": "2026-11-02T19:46:11.279219+00:00",
+ "last_why": "+298 stars/day pace right now (844 total).",
  "extra": {
   "forks": 49,
   "lang": "Rust",
