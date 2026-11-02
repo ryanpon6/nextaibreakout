@@ -1,7 +1,8 @@
 {
  "day": "2026-11-02",
  "runs": [
-  "2026-11-02T00:46:07.273313+00:00"
+  "2026-11-02T00:46:07.273313+00:00",
+  "2026-11-02T01:40:25.086901+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -14,12 +15,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 107,
+    "comments": 131,
     "hn": "https://news.ycombinator.com/item?id=50330456"
    },
    "why_at_peak": "+1.8K points/day pace right now (120 total).",
@@ -151,14 +152,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
-   "peak_score": 93.9,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "peak_score": 97.2,
+   "best_rank": 3,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 380,
+    "forks": 394,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -171,8 +172,8 @@
     ],
     "repo_id": 1439885901
    },
-   "why_at_peak": "+77 stars/day pace right now (437 total).",
-   "metric_at_peak": 437,
+   "why_at_peak": "+451 stars/day pace right now (454 total).",
+   "metric_at_peak": 454,
    "metric_name": "stars"
   },
   "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf": {
@@ -235,22 +236,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
-   "peak_score": 90.5,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "peak_score": 92.9,
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 520,
-    "trending": 138,
+    "trending": 143,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+96 likes/day pace right now (146 total).",
-   "metric_at_peak": 146,
+   "why_at_peak": "+159 likes/day pace right now (152 total).",
+   "metric_at_peak": 152,
    "metric_name": "likes"
   },
   "npm--modelcontextprotocol-sdk": {
@@ -263,8 +264,8 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 74.1,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -282,6 +283,182 @@
    "why_at_peak": "14.8M downloads yesterday, 1.19\u00d7 its 7-day average.",
    "metric_at_peak": 14820372,
    "metric_name": "downloads/day"
+  },
+  "hf-microsoft-mage-vl-cowork": {
+   "id": "hfmodel:microsoft/Mage-VL-Cowork",
+   "slug": "hf-microsoft-mage-vl-cowork",
+   "name": "microsoft/Mage-VL-Cowork",
+   "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 752,
+    "trending": 122,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 122 on Hugging Face; 123 likes, 752 downloads.",
+   "metric_at_peak": 123,
+   "metric_name": "likes"
+  },
+  "hn-50328488-it-wasn-t-ai-that-flipped-proton-s-charge": {
+   "id": "hn:50328488",
+   "slug": "hn-50328488-it-wasn-t-ai-that-flipped-proton-s-charge",
+   "name": "It wasn't AI that flipped Proton's charge",
+   "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 96.4,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 81,
+    "hn": "https://news.ycombinator.com/item?id=50328488"
+   },
+   "why_at_peak": "+80 points/day pace right now (141 total).",
+   "metric_at_peak": 141,
+   "metric_name": "points"
+  },
+  "hn-50320995-memdoor-a-team-of-5-qwen3-8-27b-models-beats-fabl": {
+   "id": "hn:50320995",
+   "slug": "hn-50320995-memdoor-a-team-of-5-qwen3-8-27b-models-beats-fabl",
+   "name": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 95.5,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 208,
+    "hn": "https://news.ycombinator.com/item?id=50320995",
+    "repo_created": "2026-10-05T20:04:16Z",
+    "repo": "guregodevo/memdoor"
+   },
+   "why_at_peak": "+106 points/day pace right now (425 total).",
+   "metric_at_peak": 425,
+   "metric_name": "points"
+  },
+  "gh-wangzan101-mika": {
+   "id": "gh:wangzan101/Mika",
+   "slug": "gh-wangzan101-mika",
+   "name": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 94.6,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+   "tag": "agents",
+   "extra": {
+    "forks": 724,
+    "lang": "Kotlin",
+    "topics": [
+     "accessibility",
+     "ai-agent",
+     "android",
+     "automation",
+     "jetpack-compose",
+     "kotlin",
+     "llm",
+     "mobile-agent"
+    ],
+    "repo_id": 1438540053
+   },
+   "why_at_peak": "+1.9K stars/day pace right now (3.9K total).",
+   "metric_at_peak": 3907,
+   "metric_name": "stars"
+  },
+  "gh-modelflare-ai-anymodelbot": {
+   "id": "gh:modelflare-ai/AnyModelBot",
+   "slug": "gh-modelflare-ai-anymodelbot",
+   "name": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 93.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 4,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agent",
+     "ai-assistant",
+     "chatbot",
+     "claude",
+     "computer-use",
+     "deepseek",
+     "desktop-app",
+     "dsh",
+     "electron",
+     "feishu",
+     "gemini",
+     "gpt",
+     "grok",
+     "llm",
+     "local-first",
+     "modelflare",
+     "multi-model",
+     "openai-compatible",
+     "personal-ai-agent",
+     "wechat"
+    ],
+    "repo_id": 1435475558
+   },
+   "why_at_peak": "+1.1K stars/day pace right now (482 total).",
+   "metric_at_peak": 482,
+   "metric_name": "stars"
+  },
+  "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
+   "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "slug": "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b",
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T01:40:25.086901+00:00",
+   "peak_score": 88.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "what": "automatic-speech-recognition model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 29364,
+    "trending": 548,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+159 likes/day pace right now (604 total).",
+   "metric_at_peak": 604,
+   "metric_name": "likes"
   }
  }
 }
