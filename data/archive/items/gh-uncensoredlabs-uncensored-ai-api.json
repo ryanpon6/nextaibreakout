@@ -1,0 +1,56 @@
+{
+ "id": "gh:UncensoredLabs/uncensored-ai-api",
+ "slug": "gh-uncensoredlabs-uncensored-ai-api",
+ "first_seen": "2026-11-02T11:31:07.316913+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.3,
+   "metric": 52,
+   "t": "2026-11-02T11:31:07.316913+00:00"
+  }
+ ],
+ "peak_score": 96.3,
+ "best_rank": 4,
+ "name": "UncensoredLabs/uncensored-ai-api",
+ "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+ "what": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+ "tag": "models",
+ "metric_name": "stars",
+ "created": "2026-11-01T20:53:34Z",
+ "last_seen": "2026-11-02T11:31:07.316913+00:00",
+ "last_why": "+192 stars/day pace right now (52 total).",
+ "extra": {
+  "forks": 0,
+  "lang": "JavaScript",
+  "topics": [
+   "abliterated-models",
+   "ai-chat",
+   "ai-models",
+   "chat-api",
+   "chatbot",
+   "deepseek",
+   "developer-tools",
+   "generative-ai",
+   "glm",
+   "llm-api",
+   "openai-compatible",
+   "python",
+   "streaming-api",
+   "typescript",
+   "uncensored-ai",
+   "uncensored-ai-api",
+   "uncensored-chat",
+   "uncensored-llm",
+   "unfiltered-ai",
+   "unfiltered-chat"
+  ],
+  "repo_id": 1442223451
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

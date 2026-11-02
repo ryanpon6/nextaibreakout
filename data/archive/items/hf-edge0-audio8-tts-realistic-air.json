@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Edge0/Audio8-TTS-Realistic-Air",
+ "slug": "hf-edge0-audio8-tts-realistic-air",
+ "first_seen": "2026-11-02T11:31:07.316913+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.5,
+   "metric": 229,
+   "t": "2026-11-02T11:31:07.316913+00:00"
+  }
+ ],
+ "peak_score": 94.5,
+ "best_rank": 6,
+ "name": "Edge0/Audio8-TTS-Realistic-Air",
+ "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-speech",
+ "what": "text-to-speech model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-14T03:02:49.000Z",
+ "last_seen": "2026-11-02T11:31:07.316913+00:00",
+ "last_why": "Trending score 213 on Hugging Face; 229 likes, 7.3K downloads.",
+ "extra": {
+  "downloads": 7259,
+  "trending": 213,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}
