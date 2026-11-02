@@ -1,0 +1,33 @@
+{
+ "id": "hn:50339913",
+ "slug": "hn-50339913-launch-hn-momentic-yc-w24-agents-that-catch-b",
+ "first_seen": "2026-11-02T18:38:27.797481+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 96.2,
+   "metric": 54,
+   "t": "2026-11-02T18:38:27.797481+00:00"
+  }
+ ],
+ "peak_score": 96.2,
+ "best_rank": 4,
+ "name": "Launch HN: Momentic (YC W24) \u2013 Agents that catch bugs by using your app",
+ "url": "https://momentic.ai/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-11-02T17:05:25Z",
+ "last_seen": "2026-11-02T18:38:27.797481+00:00",
+ "last_why": "+497 points/day pace right now (54 total).",
+ "extra": {
+  "comments": 37,
+  "hn": "https://news.ycombinator.com/item?id=50339913"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

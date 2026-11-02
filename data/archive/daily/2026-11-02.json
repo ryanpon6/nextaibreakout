@@ -15,7 +15,8 @@
   "2026-11-02T14:01:12.474212+00:00",
   "2026-11-02T15:16:24.963782+00:00",
   "2026-11-02T16:31:14.476695+00:00",
-  "2026-11-02T17:46:20.865487+00:00"
+  "2026-11-02T17:46:20.865487+00:00",
+  "2026-11-02T18:38:27.797481+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -133,8 +134,8 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T16:31:14.476695+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "A language model that lives in a boot sector",
    "tag": "models",
    "extra": {
@@ -379,12 +380,12 @@
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
    "peak_score": 94.6,
    "best_rank": 5,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 814,
+    "forks": 998,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -412,12 +413,12 @@
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
    "peak_score": 95.4,
    "best_rank": 5,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-02T12:46:09.528763+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 13,
+    "forks": 14,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -457,13 +458,13 @@
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
    "peak_score": 88.7,
    "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 29364,
-    "trending": 548,
+    "downloads": 32439,
+    "trending": 594,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -659,13 +660,13 @@
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
    "peak_score": 95.3,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T17:46:20.865487+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 707,
+    "trending": 710,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -763,13 +764,13 @@
    "first_seen": "2026-11-02T09:01:11.631831+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-02T17:46:20.865487+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 190,
+    "trending": 195,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -993,12 +994,12 @@
    "first_seen": "2026-11-02T16:31:14.476695+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T16:31:14.476695+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 64,
+    "comments": 107,
     "hn": "https://news.ycombinator.com/item?id=50337454"
    },
    "why_at_peak": "46 points in 2h on Hacker News (64 comments).",
@@ -1041,16 +1042,16 @@
    "first_seen": "2026-11-02T17:46:20.865487+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T17:46:20.865487+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 41,
+    "comments": 93,
     "hn": "https://news.ycombinator.com/item?id=50339494"
    },
-   "why_at_peak": "51 points in 1h on Hacker News (41 comments).",
-   "metric_at_peak": 51,
+   "why_at_peak": "+2.2K points/day pace right now (129 total).",
+   "metric_at_peak": 129,
    "metric_name": "points"
   },
   "gh-yzlin286-wq-deepscient": {
@@ -1181,6 +1182,28 @@
    },
    "why_at_peak": "+441 points/day pace right now (44 total).",
    "metric_at_peak": 44,
+   "metric_name": "points"
+  },
+  "hn-50339913-launch-hn-momentic-yc-w24-agents-that-catch-b": {
+   "id": "hn:50339913",
+   "slug": "hn-50339913-launch-hn-momentic-yc-w24-agents-that-catch-b",
+   "name": "Launch HN: Momentic (YC W24) \u2013 Agents that catch bugs by using your app",
+   "url": "https://momentic.ai/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T18:38:27.797481+00:00",
+   "peak_score": 96.2,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 37,
+    "hn": "https://news.ycombinator.com/item?id=50339913"
+   },
+   "why_at_peak": "+497 points/day pace right now (54 total).",
+   "metric_at_peak": 54,
    "metric_name": "points"
   }
  }
