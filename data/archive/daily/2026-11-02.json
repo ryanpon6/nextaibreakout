@@ -5,7 +5,8 @@
   "2026-11-02T01:40:25.086901+00:00",
   "2026-11-02T02:46:08.495519+00:00",
   "2026-11-02T04:01:09.841962+00:00",
-  "2026-11-02T05:16:06.652134+00:00"
+  "2026-11-02T05:16:06.652134+00:00",
+  "2026-11-02T06:31:07.649800+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -18,12 +19,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 203,
+    "comments": 211,
     "hn": "https://news.ycombinator.com/item?id=50330456"
    },
    "why_at_peak": "+1.8K points/day pace right now (120 total).",
@@ -62,12 +63,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 254,
+    "comments": 261,
     "hn": "https://news.ycombinator.com/item?id=50323088"
    },
    "why_at_peak": "+307 points/day pace right now (291 total).",
@@ -157,12 +158,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 436,
+    "forks": 442,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -215,13 +216,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 92.9,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T04:01:09.841962+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5846,
-    "trending": 200,
+    "trending": 212,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -241,13 +242,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 95.5,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 520,
-    "trending": 154,
+    "trending": 161,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -267,8 +268,8 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 75.3,
    "best_rank": 10,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -402,12 +403,12 @@
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
    "peak_score": 94.6,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 5,
+    "forks": 10,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -573,8 +574,8 @@
    "first_seen": "2026-11-02T04:01:09.841962+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
    "tag": "agents",
    "extra": {
@@ -627,12 +628,12 @@
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T05:16:06.652134+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 25,
+    "comments": 40,
     "hn": "https://news.ycombinator.com/item?id=50332086"
    },
    "why_at_peak": "+384 points/day pace right now (53 total).",
@@ -663,6 +664,32 @@
    },
    "why_at_peak": "+154 likes/day pace right now (720 total).",
    "metric_at_peak": 720,
+   "metric_name": "likes"
+  },
+  "hf-nvidia-deepseek-v4-1-flash-1017-nvfp4": {
+   "id": "hfmodel:nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+   "slug": "hf-nvidia-deepseek-v4-1-flash-1017-nvfp4",
+   "name": "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+   "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-02T06:31:07.649800+00:00",
+   "peak_score": 98.1,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T06:31:07.649800+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1473,
+    "trending": 120,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 120 on Hugging Face; 122 likes, 1.5K downloads.",
+   "metric_at_peak": 122,
    "metric_name": "likes"
   }
  }
