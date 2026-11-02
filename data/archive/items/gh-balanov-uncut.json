@@ -32,6 +32,12 @@
    "score": 98.1,
    "metric": 442,
    "t": "2026-11-02T09:01:11.631831+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 98.1,
+   "metric": 471,
+   "t": "2026-11-02T10:16:09.401153+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -45,10 +51,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-11-01T17:19:30Z",
- "last_seen": "2026-11-02T09:01:11.631831+00:00",
- "last_why": "+575 stars/day pace right now (442 total).",
+ "last_seen": "2026-11-02T10:16:09.401153+00:00",
+ "last_why": "+557 stars/day pace right now (471 total).",
  "extra": {
-  "forks": 2,
+  "forks": 3,
   "lang": "Go",
   "topics": [
    "agent-harness",
