@@ -3,7 +3,8 @@
  "runs": [
   "2026-11-02T00:46:07.273313+00:00",
   "2026-11-02T01:40:25.086901+00:00",
-  "2026-11-02T02:46:08.495519+00:00"
+  "2026-11-02T02:46:08.495519+00:00",
+  "2026-11-02T04:01:09.841962+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -16,12 +17,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 161,
+    "comments": 195,
     "hn": "https://news.ycombinator.com/item?id=50330456"
    },
    "why_at_peak": "+1.8K points/day pace right now (120 total).",
@@ -155,12 +156,12 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 408,
+    "forks": 432,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -187,13 +188,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 93.0,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 17384,
-    "trending": 136,
+    "trending": 142,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -211,22 +212,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
-   "peak_score": 92.2,
-   "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T00:46:07.273313+00:00",
+   "peak_score": 92.9,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 5846,
-    "trending": 187,
+    "trending": 200,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+115 likes/day pace right now (198 total).",
-   "metric_at_peak": 198,
+   "why_at_peak": "+154 likes/day pace right now (212 total).",
+   "metric_at_peak": 212,
    "metric_name": "likes"
   },
   "hf-obliteratus-deepseek-v4-1-flash-1017-obliterated": {
@@ -239,13 +240,13 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 92.9,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 520,
-    "trending": 143,
+    "trending": 149,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -263,10 +264,10 @@
    "source": "npm",
    "kind": "tool",
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
-   "peak_score": 74.4,
+   "peak_score": 75.3,
    "best_rank": 10,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "npm package",
    "tag": "dev tools",
    "extra": {
@@ -366,13 +367,13 @@
    "kind": "tool",
    "first_seen": "2026-11-02T01:40:25.086901+00:00",
    "peak_score": 94.6,
-   "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T01:40:25.086901+00:00",
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 724,
+    "forks": 783,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -386,8 +387,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+1.9K stars/day pace right now (3.9K total).",
-   "metric_at_peak": 3907,
+   "why_at_peak": "+2.8K stars/day pace right now (4.2K total).",
+   "metric_at_peak": 4172,
    "metric_name": "stars"
   },
   "gh-modelflare-ai-anymodelbot": {
@@ -471,16 +472,16 @@
    "first_seen": "2026-11-02T02:46:08.495519+00:00",
    "peak_score": 88.7,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T02:46:08.495519+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 74,
+    "comments": 77,
     "hn": "https://news.ycombinator.com/item?id=50325662"
    },
-   "why_at_peak": "+66 points/day pace right now (152 total).",
-   "metric_at_peak": 152,
+   "why_at_peak": "+96 points/day pace right now (157 total).",
+   "metric_at_peak": 157,
    "metric_name": "points"
   },
   "hf-speridlabs-idol": {
@@ -560,6 +561,60 @@
    "why_at_peak": "+88 likes/day pace right now (485 total).",
    "metric_at_peak": 485,
    "metric_name": "likes"
+  },
+  "gh-balanov-uncut": {
+   "id": "gh:Balanov/uncut",
+   "slug": "gh-balanov-uncut",
+   "name": "Balanov/uncut",
+   "url": "https://github.com/Balanov/uncut",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-02T04:01:09.841962+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
+   "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+   "tag": "agents",
+   "extra": {
+    "forks": 1,
+    "lang": "Go",
+    "topics": [
+     "agent-harness",
+     "cli",
+     "coding-agent",
+     "go",
+     "headless",
+     "llm",
+     "local-models"
+    ],
+    "repo_id": 1442056769
+   },
+   "why_at_peak": "311 stars since launch 1 days ago \u2248 698 stars/day since launch.",
+   "metric_at_peak": 311,
+   "metric_name": "stars"
+  },
+  "hn-50331998-ai-can-write-more-of-the-code-we-still-have-to-en": {
+   "id": "hn:50331998",
+   "slug": "hn-50331998-ai-can-write-more-of-the-code-we-still-have-to-en",
+   "name": "AI Can Write More of the Code. We Still Have to Engineer the System",
+   "url": "https://picon.dev/en/publications/ai-assisted-engineering/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T04:01:09.841962+00:00",
+   "peak_score": 97.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T04:01:09.841962+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 22,
+    "hn": "https://news.ycombinator.com/item?id=50331998"
+   },
+   "why_at_peak": "+403 points/day pace right now (43 total).",
+   "metric_at_peak": 43,
+   "metric_name": "points"
   }
  }
 }

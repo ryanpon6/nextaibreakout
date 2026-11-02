@@ -1,0 +1,33 @@
+{
+ "id": "hn:50331998",
+ "slug": "hn-50331998-ai-can-write-more-of-the-code-we-still-have-to-en",
+ "first_seen": "2026-11-02T04:01:09.841962+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.2,
+   "metric": 43,
+   "t": "2026-11-02T04:01:09.841962+00:00"
+  }
+ ],
+ "peak_score": 97.2,
+ "best_rank": 2,
+ "name": "AI Can Write More of the Code. We Still Have to Engineer the System",
+ "url": "https://picon.dev/en/publications/ai-assisted-engineering/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T01:35:02Z",
+ "last_seen": "2026-11-02T04:01:09.841962+00:00",
+ "last_why": "+403 points/day pace right now (43 total).",
+ "extra": {
+  "comments": 22,
+  "hn": "https://news.ycombinator.com/item?id=50331998"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

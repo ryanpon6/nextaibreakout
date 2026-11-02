@@ -1,0 +1,43 @@
+{
+ "id": "gh:Balanov/uncut",
+ "slug": "gh-balanov-uncut",
+ "first_seen": "2026-11-02T04:01:09.841962+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 311,
+   "t": "2026-11-02T04:01:09.841962+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Balanov/uncut",
+ "url": "https://github.com/Balanov/uncut",
+ "source": "github",
+ "kind": "tool",
+ "desc": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+ "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-11-01T17:19:30Z",
+ "last_seen": "2026-11-02T04:01:09.841962+00:00",
+ "last_why": "311 stars since launch 1 days ago \u2248 698 stars/day since launch.",
+ "extra": {
+  "forks": 1,
+  "lang": "Go",
+  "topics": [
+   "agent-harness",
+   "cli",
+   "coding-agent",
+   "go",
+   "headless",
+   "llm",
+   "local-models"
+  ],
+  "repo_id": 1442056769
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

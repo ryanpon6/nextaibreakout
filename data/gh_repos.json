@@ -428,7 +428,8 @@
   "1441555426": "Jumbomuffin777/Frontier-UI",
   "1427823436": "islandmed/SculptForge",
   "1435475558": "modelflare-ai/AnyModelBot",
-  "1423942292": "sahenjp/RustXNG"
+  "1423942292": "sahenjp/RustXNG",
+  "1442056769": "Balanov/uncut"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -449,10 +450,10 @@
   "ZipengWu365/TOMC": 1793575884.4094467,
   "eliasbiondo/antirion": 1792940489.941602,
   "mikamikasuki/forest": 1793515583.1216433,
-  "lemomo-ai/lemo-opuscar": 1793502086.232681,
+  "lemomo-ai/lemo-opuscar": 1793592086.705589,
   "Entelligence-AI/agentplay": 1793224886.942159,
-  "Louis-CFM/coucou": 1793502086.232681,
-  "Patch-gg/trompe": 1793502086.232681,
+  "Louis-CFM/coucou": 1793592086.705589,
+  "Patch-gg/trompe": 1793592086.705589,
   "Takamatsu-Hikaru/AI-Research-Guide": 1793084859.4484408,
   "beckettharriman/openfill": 1793273487.7184563,
   "stockedge/manga-generator": 1793102485.3353572,
@@ -466,8 +467,8 @@
   "VecSzn/PolyStrata": 1793268984.6268373,
   "chenxiachan/textfold": 1793268984.6268373,
   "TheLastOxygen/mafdet": 1793115089.6638021,
-  "FengZhenfei/carrel": 1793502086.232681,
-  "dagoSte/squadra": 1793502086.232681,
+  "FengZhenfei/carrel": 1793592086.705589,
+  "dagoSte/squadra": 1793592086.705589,
   "1105216375-alt/resimind": 1793571382.0265973,
   "cobanov/PS5LM": 1793587583.8569477,
   "kanaworksai-hue/audio-studio-mcp": 1793268984.6268373,
@@ -493,6 +494,7 @@
   "opensec-git/Pi-Bolt": 1793580383.082826,
   "xop01/ai_goodpractice": 1793580383.082826,
   "boardshogunfluctuate/Capri-AI": 1793554282.3399737,
-  "DozenTwelve/Papermorph": 1793580383.082826
+  "DozenTwelve/Papermorph": 1793580383.082826,
+  "JunWan666/astrbot-for-android": 1793592086.705589
  }
 }
