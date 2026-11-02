@@ -1,0 +1,33 @@
+{
+ "id": "hn:50342424",
+ "slug": "hn-50342424-anthropic-reveals-900b-ai-spending-commitments-ah",
+ "first_seen": "2026-11-02T21:01:10.220492+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.1,
+   "metric": 46,
+   "t": "2026-11-02T21:01:10.220492+00:00"
+  }
+ ],
+ "peak_score": 98.1,
+ "best_rank": 2,
+ "name": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+ "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T19:36:37Z",
+ "last_seen": "2026-11-02T21:01:10.220492+00:00",
+ "last_why": "46 points in 1h on Hacker News (20 comments).",
+ "extra": {
+  "comments": 20,
+  "hn": "https://news.ycombinator.com/item?id=50342424"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50342284",
+ "slug": "hn-50342284-oracle-files-to-sell-20b-in-new-stock-bonds-to-f",
+ "first_seen": "2026-11-02T21:01:10.220492+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 62,
+   "t": "2026-11-02T21:01:10.220492+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+ "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T19:27:37Z",
+ "last_seen": "2026-11-02T21:01:10.220492+00:00",
+ "last_why": "62 points in 2h on Hacker News (29 comments).",
+ "extra": {
+  "comments": 29,
+  "hn": "https://news.ycombinator.com/item?id=50342284"
+ },
+ "days": [
+  "2026-11-02"
+ ]
+}

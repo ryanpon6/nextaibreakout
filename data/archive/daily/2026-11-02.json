@@ -17,7 +17,8 @@
   "2026-11-02T16:31:14.476695+00:00",
   "2026-11-02T17:46:20.865487+00:00",
   "2026-11-02T18:38:27.797481+00:00",
-  "2026-11-02T19:46:11.279219+00:00"
+  "2026-11-02T19:46:11.279219+00:00",
+  "2026-11-02T21:01:10.220492+00:00"
  ],
  "items": {
   "hn-50330456-ai-delivers-zero-financial-payoff-to-most-compan": {
@@ -135,8 +136,8 @@
    "first_seen": "2026-11-02T00:46:07.273313+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-02T18:38:27.797481+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "A language model that lives in a boot sector",
    "tag": "models",
    "extra": {
@@ -507,13 +508,13 @@
    "first_seen": "2026-11-02T02:46:08.495519+00:00",
    "peak_score": 94.6,
    "best_rank": 6,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7787,
-    "trending": 380,
+    "trending": 387,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -661,13 +662,13 @@
    "first_seen": "2026-11-02T05:16:06.652134+00:00",
    "peak_score": 95.3,
    "best_rank": 3,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 719,
+    "trending": 724,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -765,13 +766,13 @@
    "first_seen": "2026-11-02T09:01:11.631831+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 197,
+    "trending": 199,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1098,14 +1099,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T17:46:20.865487+00:00",
-   "peak_score": 93.5,
+   "peak_score": 93.9,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T17:46:20.865487+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "A computer, compiled into the weights of a language model. An exact CPU inside Qwen3.5-4B, with Gated DeltaNet state as RAM.",
    "tag": "models",
    "extra": {
-    "forks": 60,
+    "forks": 63,
     "lang": "Python",
     "topics": [
      "compiled-weights",
@@ -1117,8 +1118,8 @@
     ],
     "repo_id": 1425535465
    },
-   "why_at_peak": "+249 stars/day pace right now (522 total).",
-   "metric_at_peak": 522,
+   "why_at_peak": "+134 stars/day pace right now (533 total).",
+   "metric_at_peak": 533,
    "metric_name": "stars"
   },
   "gh-emanuele-em-kanzo": {
@@ -1129,14 +1130,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-02T17:46:20.865487+00:00",
-   "peak_score": 94.5,
+   "peak_score": 94.8,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "Self-hosted, sharable kanban for humans and agents. One 4.5 MB binary, 4.5 MB of RAM, 10 to 60 tokens per agent reply, starts in 2 ms, zero\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 49,
+    "forks": 51,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -1159,8 +1160,8 @@
     ],
     "repo_id": 1433111563
    },
-   "why_at_peak": "+298 stars/day pace right now (844 total).",
-   "metric_at_peak": 844,
+   "why_at_peak": "+192 stars/day pace right now (854 total).",
+   "metric_at_peak": 854,
    "metric_name": "stars"
   },
   "hn-50337716-longcat-2-5-native-multimodality-for-agentic-task": {
@@ -1217,12 +1218,12 @@
    "first_seen": "2026-11-02T19:46:11.279219+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-02T19:46:11.279219+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 147,
+    "comments": 307,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
    "why_at_peak": "515 points in 1h on Hacker News (147 comments).",
@@ -1302,6 +1303,50 @@
    "why_at_peak": "+447 stars/day pace right now (5.8K total).",
    "metric_at_peak": 5776,
    "metric_name": "stars"
+  },
+  "hn-50342284-oracle-files-to-sell-20b-in-new-stock-bonds-to-f": {
+   "id": "hn:50342284",
+   "slug": "hn-50342284-oracle-files-to-sell-20b-in-new-stock-bonds-to-f",
+   "name": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+   "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T21:01:10.220492+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 29,
+    "hn": "https://news.ycombinator.com/item?id=50342284"
+   },
+   "why_at_peak": "62 points in 2h on Hacker News (29 comments).",
+   "metric_at_peak": 62,
+   "metric_name": "points"
+  },
+  "hn-50342424-anthropic-reveals-900b-ai-spending-commitments-ah": {
+   "id": "hn:50342424",
+   "slug": "hn-50342424-anthropic-reveals-900b-ai-spending-commitments-ah",
+   "name": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+   "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-02T21:01:10.220492+00:00",
+   "peak_score": 98.1,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-02T21:01:10.220492+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 20,
+    "hn": "https://news.ycombinator.com/item?id=50342424"
+   },
+   "why_at_peak": "46 points in 1h on Hacker News (20 comments).",
+   "metric_at_peak": 46,
+   "metric_name": "points"
   }
  }
 }
