@@ -440,13 +440,14 @@
   "1440500419": "AKMaasif/Meta-Ai-Global-Hackathon-Ran-Sentinel-",
   "1421856943": "thePloggy/CreatorOS-Studio",
   "1434537335": "rickconci/GENESIS",
-  "1430664237": "phone-harness/mcp"
+  "1430664237": "phone-harness/mcp",
+  "1437131455": "lexifina/global-law"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
   "bherbruck/solidcraft": 1792241137.2138562,
   "feder-cr/open_scion": 1792241137.2138562,
-  "Akun-python/autumn-recruitment": 1793637092.090851,
+  "Akun-python/autumn-recruitment": 1793724386.3319883,
   "jddevtime/open-lakehouse-compute-fabric": 1793715392.2353227,
   "amontlabs/lcu": 1793701887.8905241,
   "zgcagi/Harness-RSI": 1793675788.3922298,
@@ -495,7 +496,7 @@
   "emanuele-em/kanzo": 1793457983.8444288,
   "kukemc/bili-cli": 1793648789.379025,
   "yzlin286-wq/Deepscient": 1793277987.1093292,
-  "ChannelCooperStart/capri-ai": 1793637092.090851,
+  "ChannelCooperStart/capri-ai": 1793724386.3319883,
   "LosaLosSantos/aurelio-finance": 1793480482.17803,
   "mashanglinyu/luanyujia-workbench": 1793675788.3922298,
   "hamzafer/claude-code-mods": 1793662285.3490899,
@@ -506,6 +507,7 @@
   "xop01/ai_goodpractice": 1793666785.3004873,
   "boardshogunfluctuate/Capri-AI": 1793641597.1289864,
   "DozenTwelve/Papermorph": 1793666785.3004873,
-  "JunWan666/astrbot-for-android": 1793680284.119917
+  "JunWan666/astrbot-for-android": 1793680284.119917,
+  "LumaryLabsLLC/muxin": 1793724386.3319883
  }
 }

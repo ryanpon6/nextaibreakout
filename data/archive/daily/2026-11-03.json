@@ -13,7 +13,8 @@
   "2026-11-03T11:46:08.605401+00:00",
   "2026-11-03T13:01:12.838049+00:00",
   "2026-11-03T14:16:15.588212+00:00",
-  "2026-11-03T15:31:14.399323+00:00"
+  "2026-11-03T15:31:14.399323+00:00",
+  "2026-11-03T16:46:10.566237+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -70,13 +71,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-03T14:16:15.588212+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 395,
-    "trending": 263,
+    "trending": 264,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -96,13 +97,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-03T15:31:14.399323+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 47817,
-    "trending": 839,
+    "trending": 847,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -122,12 +123,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-03T14:16:15.588212+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 338,
+    "forks": 346,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -226,13 +227,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 91.4,
    "best_rank": 8,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10742,
-    "trending": 440,
+    "trending": 457,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -367,8 +368,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 84.9,
    "best_rank": 10,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-03T15:31:14.399323+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -772,6 +773,135 @@
    "why_at_peak": "+96 likes/day pace right now (311 total).",
    "metric_at_peak": 311,
    "metric_name": "likes"
+  },
+  "hn-50353475-quili-ai": {
+   "id": "hn:50353475",
+   "slug": "hn-50353475-quili-ai",
+   "name": "Quili AI",
+   "url": "https://www.quili.ai/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T16:46:10.566237+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 38,
+    "hn": "https://news.ycombinator.com/item?id=50353475"
+   },
+   "why_at_peak": "64 points in 1h on Hacker News (38 comments).",
+   "metric_at_peak": 64,
+   "metric_name": "points"
+  },
+  "hn-50353192-designing-responsible-ai-for-learning": {
+   "id": "hn:50353192",
+   "slug": "hn-50353192-designing-responsible-ai-for-learning",
+   "name": "Designing responsible AI for learning",
+   "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T16:46:10.566237+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 54,
+    "hn": "https://news.ycombinator.com/item?id=50353192"
+   },
+   "why_at_peak": "74 points in 1h on Hacker News (54 comments).",
+   "metric_at_peak": 74,
+   "metric_name": "points"
+  },
+  "hn-50352757-openai-seems-to-be-silently-re-enabling-model-trai": {
+   "id": "hn:50352757",
+   "slug": "hn-50352757-openai-seems-to-be-silently-re-enabling-model-trai",
+   "name": "OpenAI seems to be silently re-enabling model training on Codex chats",
+   "url": "https://news.ycombinator.com/item?id=50352757",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T16:46:10.566237+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 28,
+    "hn": "https://news.ycombinator.com/item?id=50352757"
+   },
+   "why_at_peak": "64 points in 2h on Hacker News (28 comments).",
+   "metric_at_peak": 64,
+   "metric_name": "points"
+  },
+  "gh-lexifina-global-law": {
+   "id": "gh:lexifina/global-law",
+   "slug": "gh-lexifina-global-law",
+   "name": "lexifina/global-law",
+   "url": "https://github.com/lexifina/global-law",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-03T16:46:10.566237+00:00",
+   "peak_score": 95.7,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
+   "what": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+   "tag": "agents",
+   "extra": {
+    "forks": 158,
+    "lang": "HTML",
+    "topics": [
+     "git",
+     "law",
+     "legal-tech",
+     "legislation",
+     "mcp",
+     "open-data"
+    ],
+    "repo_id": 1437131455
+   },
+   "why_at_peak": "1.7K stars since launch 6 days ago \u2248 282 stars/day since launch.",
+   "metric_at_peak": 1732,
+   "metric_name": "stars"
+  },
+  "gh-balanov-uncut": {
+   "id": "gh:Balanov/uncut",
+   "slug": "gh-balanov-uncut",
+   "name": "Balanov/uncut",
+   "url": "https://github.com/Balanov/uncut",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-03T16:46:10.566237+00:00",
+   "peak_score": 94.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T16:46:10.566237+00:00",
+   "what": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+   "tag": "agents",
+   "extra": {
+    "forks": 9,
+    "lang": "Go",
+    "topics": [
+     "agent-harness",
+     "cli",
+     "coding-agent",
+     "go",
+     "headless",
+     "llm",
+     "local-models"
+    ],
+    "repo_id": 1442056769
+   },
+   "why_at_peak": "+77 stars/day pace right now (588 total).",
+   "metric_at_peak": 588,
+   "metric_name": "stars"
   }
  }
 }

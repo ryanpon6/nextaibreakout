@@ -1,0 +1,33 @@
+{
+ "id": "hn:50353192",
+ "slug": "hn-50353192-designing-responsible-ai-for-learning",
+ "first_seen": "2026-11-03T16:46:10.566237+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 74,
+   "t": "2026-11-03T16:46:10.566237+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "Designing responsible AI for learning",
+ "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-03T15:25:47Z",
+ "last_seen": "2026-11-03T16:46:10.566237+00:00",
+ "last_why": "74 points in 1h on Hacker News (54 comments).",
+ "extra": {
+  "comments": 54,
+  "hn": "https://news.ycombinator.com/item?id=50353192"
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}

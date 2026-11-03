@@ -1,0 +1,33 @@
+{
+ "id": "hn:50353475",
+ "slug": "hn-50353475-quili-ai",
+ "first_seen": "2026-11-03T16:46:10.566237+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 64,
+   "t": "2026-11-03T16:46:10.566237+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Quili AI",
+ "url": "https://www.quili.ai/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-03T15:49:02Z",
+ "last_seen": "2026-11-03T16:46:10.566237+00:00",
+ "last_why": "64 points in 1h on Hacker News (38 comments).",
+ "extra": {
+  "comments": 38,
+  "hn": "https://news.ycombinator.com/item?id=50353475"
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}
