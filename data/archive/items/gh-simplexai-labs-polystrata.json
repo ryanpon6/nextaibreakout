@@ -1,6 +1,6 @@
 {
- "id": "gh:VecSzn/PolyStrata",
- "slug": "gh-vecszn-polystrata",
+ "id": "gh:simplexai-labs/PolyStrata",
+ "slug": "gh-simplexai-labs-polystrata",
  "first_seen": "2026-10-20T01:35:31.365860+00:00",
  "appearances": [
   {
@@ -18,8 +18,8 @@
  ],
  "peak_score": 95.3,
  "best_rank": 5,
- "name": "VecSzn/PolyStrata",
- "url": "https://github.com/VecSzn/PolyStrata",
+ "name": "simplexai-labs/PolyStrata",
+ "url": "https://github.com/simplexai-labs/PolyStrata",
  "source": "github",
  "kind": "tool",
  "desc": "Run large AI models on your own PC: Qwen3.8-Flash-Next on Strata's engine, and GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith 1.5, Gemma 4, Tiel Coder and MiniCPM-V on a second engine written for PolyStrata. One-click install for Windows and Linux, OpenAI/Anthropic API on localhost.",
@@ -51,5 +51,8 @@
  },
  "days": [
   "2026-10-20"
+ ],
+ "aliases": [
+  "gh:VecSzn/PolyStrata"
  ]
 }

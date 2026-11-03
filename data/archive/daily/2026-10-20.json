@@ -196,44 +196,6 @@
    "metric_at_peak": 474,
    "metric_name": "stars"
   },
-  "gh-vecszn-polystrata": {
-   "id": "gh:VecSzn/PolyStrata",
-   "slug": "gh-vecszn-polystrata",
-   "name": "VecSzn/PolyStrata",
-   "url": "https://github.com/VecSzn/PolyStrata",
-   "source": "github",
-   "kind": "tool",
-   "first_seen": "2026-10-20T01:35:31.365860+00:00",
-   "peak_score": 95.3,
-   "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-10-20T01:40:02.262829+00:00",
-   "what": "Run large AI models on your own PC: Qwen3.8-Flash-Next on Strata's engine, and GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith\u2026",
-   "tag": "models",
-   "extra": {
-    "forks": 50,
-    "lang": "C++",
-    "topics": [
-     "anthropic-api",
-     "cuda",
-     "gemma",
-     "gguf",
-     "glm",
-     "inference-engine",
-     "llm",
-     "local-llm",
-     "mixture-of-experts",
-     "openai-api",
-     "qwen",
-     "self-hosted",
-     "speculative-decoding"
-    ],
-    "repo_id": 1407921380
-   },
-   "why_at_peak": "283 stars since launch 13 days ago \u2248 21 stars/day since launch.",
-   "metric_at_peak": 283,
-   "metric_name": "stars"
-  },
   "hf-black-forest-labs-flux-3-image-klein-comfy": {
    "id": "hfmodel:black-forest-labs/flux-3-image-klein-comfy",
    "slug": "hf-black-forest-labs-flux-3-image-klein-comfy",
@@ -914,6 +876,44 @@
    "why_at_peak": "+56 likes/day pace right now (292 total).",
    "metric_at_peak": 292,
    "metric_name": "likes"
+  },
+  "gh-simplexai-labs-polystrata": {
+   "id": "gh:simplexai-labs/PolyStrata",
+   "slug": "gh-simplexai-labs-polystrata",
+   "name": "simplexai-labs/PolyStrata",
+   "url": "https://github.com/simplexai-labs/PolyStrata",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-10-20T01:35:31.365860+00:00",
+   "peak_score": 95.3,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-10-20T01:40:02.262829+00:00",
+   "what": "Run large AI models on your own PC: Qwen3.8-Flash-Next on Strata's engine, and GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith\u2026",
+   "tag": "models",
+   "extra": {
+    "forks": 50,
+    "lang": "C++",
+    "topics": [
+     "anthropic-api",
+     "cuda",
+     "gemma",
+     "gguf",
+     "glm",
+     "inference-engine",
+     "llm",
+     "local-llm",
+     "mixture-of-experts",
+     "openai-api",
+     "qwen",
+     "self-hosted",
+     "speculative-decoding"
+    ],
+    "repo_id": 1407921380
+   },
+   "why_at_peak": "283 stars since launch 13 days ago \u2248 21 stars/day since launch.",
+   "metric_at_peak": 283,
+   "metric_name": "stars"
   }
  }
 }
