@@ -5,7 +5,8 @@
   "2026-11-03T02:01:07.152122+00:00",
   "2026-11-03T03:16:11.550275+00:00",
   "2026-11-03T04:31:08.308558+00:00",
-  "2026-11-03T05:46:07.869652+00:00"
+  "2026-11-03T05:46:07.869652+00:00",
+  "2026-11-03T07:01:07.614897+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -40,16 +41,16 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 727,
+    "comments": 746,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
-   "why_at_peak": "+2.2K points/day pace right now (2.3K total).",
-   "metric_at_peak": 2283,
+   "why_at_peak": "+2.0K points/day pace right now (2.4K total).",
+   "metric_at_peak": 2388,
    "metric_name": "points"
   },
   "hf-fusioncow-sulphur-3": {
@@ -62,13 +63,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 230,
+    "trending": 234,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -88,13 +89,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 778,
+    "trending": 789,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -112,14 +113,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 93.9,
+   "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 309,
+    "forks": 310,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -136,8 +137,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+1.4K stars/day pace right now (6.2K total).",
-   "metric_at_peak": 6199,
+   "why_at_peak": "+1.7K stars/day pace right now (6.3K total).",
+   "metric_at_peak": 6288,
    "metric_name": "stars"
   },
   "gh-guregodevo-memdoor": {
@@ -183,14 +184,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 92.2,
+   "peak_score": 93.0,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 1085,
+    "forks": 1100,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -204,8 +205,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+960 stars/day pace right now (5.6K total).",
-   "metric_at_peak": 5579,
+   "why_at_peak": "+1.4K stars/day pace right now (5.7K total).",
+   "metric_at_peak": 5652,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -288,8 +289,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
@@ -333,13 +334,13 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 91.4,
    "best_rank": 8,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 30284,
-    "trending": 194,
+    "trending": 197,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -359,8 +360,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 82.6,
    "best_rank": 10,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -381,16 +382,16 @@
    "first_seen": "2026-11-03T03:16:11.550275+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 59,
+    "comments": 80,
     "hn": "https://news.ycombinator.com/item?id=50345924"
    },
-   "why_at_peak": "+634 points/day pace right now (130 total).",
-   "metric_at_peak": 130,
+   "why_at_peak": "+691 points/day pace right now (166 total).",
+   "metric_at_peak": 166,
    "metric_name": "points"
   },
   "hf-divagr1925-qwen3-5-4b-qwenputer": {
@@ -429,8 +430,8 @@
    "first_seen": "2026-11-03T05:46:07.869652+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T05:46:07.869652+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T07:01:07.614897+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {

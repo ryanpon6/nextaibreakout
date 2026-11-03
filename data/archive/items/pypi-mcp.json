@@ -140,6 +140,12 @@
    "score": 78.6,
    "metric": 11949289,
    "t": "2026-11-03T05:46:07.869652+00:00"
+  },
+  {
+   "rank": 10,
+   "score": 81.6,
+   "metric": 11949289,
+   "t": "2026-11-03T07:01:07.614897+00:00"
   }
  ],
  "peak_score": 92.5,
@@ -153,7 +159,7 @@
  "tag": "agents",
  "metric_name": "downloads/day",
  "created": null,
- "last_seen": "2026-11-03T05:46:07.869652+00:00",
+ "last_seen": "2026-11-03T07:01:07.614897+00:00",
  "last_why": "11.9M downloads yesterday, 1.18\u00d7 its 7-day average.",
  "extra": {
   "week": 71072297,
