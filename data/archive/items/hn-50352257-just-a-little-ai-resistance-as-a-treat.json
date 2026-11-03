@@ -1,0 +1,33 @@
+{
+ "id": "hn:50352257",
+ "slug": "hn-50352257-just-a-little-ai-resistance-as-a-treat",
+ "first_seen": "2026-11-03T15:31:14.399323+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 96,
+   "t": "2026-11-03T15:31:14.399323+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Just a little AI resistance, as a treat",
+ "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-03T14:14:12Z",
+ "last_seen": "2026-11-03T15:31:14.399323+00:00",
+ "last_why": "96 points in 1h on Hacker News (60 comments).",
+ "extra": {
+  "comments": 60,
+  "hn": "https://news.ycombinator.com/item?id=50352257"
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}
