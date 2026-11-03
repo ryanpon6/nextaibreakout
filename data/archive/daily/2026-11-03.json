@@ -10,7 +10,8 @@
   "2026-11-03T08:10:55.981181+00:00",
   "2026-11-03T09:16:07.030039+00:00",
   "2026-11-03T10:31:10.501450+00:00",
-  "2026-11-03T11:46:08.605401+00:00"
+  "2026-11-03T11:46:08.605401+00:00",
+  "2026-11-03T13:01:12.838049+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -45,12 +46,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 826,
+    "comments": 855,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
    "why_at_peak": "+1.8K points/day pace right now (2.7K total).",
@@ -67,13 +68,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 395,
-    "trending": 257,
+    "trending": 259,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -93,13 +94,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 47817,
-    "trending": 814,
+    "trending": 820,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -117,14 +118,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 94.7,
-   "best_rank": 5,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "peak_score": 96.4,
+   "best_rank": 3,
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 321,
+    "forks": 329,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -141,8 +142,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+1.8K stars/day pace right now (6.6K total).",
-   "metric_at_peak": 6625,
+   "why_at_peak": "+2.8K stars/day pace right now (6.8K total).",
+   "metric_at_peak": 6769,
    "metric_name": "stars"
   },
   "gh-guregodevo-memdoor": {
@@ -188,14 +189,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 93.0,
+   "peak_score": 93.9,
    "best_rank": 6,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 1100,
+    "forks": 1142,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -209,8 +210,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+1.4K stars/day pace right now (5.7K total).",
-   "metric_at_peak": 5652,
+   "why_at_peak": "+767 stars/day pace right now (5.9K total).",
+   "metric_at_peak": 5876,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -269,18 +270,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
-   "peak_score": 96.4,
-   "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "peak_score": 97.3,
+   "best_rank": 2,
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 107,
+    "comments": 130,
     "hn": "https://news.ycombinator.com/item?id=50341736"
    },
-   "why_at_peak": "+206 points/day pace right now (155 total).",
-   "metric_at_peak": 155,
+   "why_at_peak": "+134 points/day pace right now (173 total).",
+   "metric_at_peak": 173,
    "metric_name": "points"
   },
   "gh-modelflare-ai-anymodelbot": {
@@ -293,8 +294,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
@@ -324,8 +325,8 @@
     ],
     "repo_id": 1435475558
    },
-   "why_at_peak": "+2.0K stars/day pace right now (2.0K total).",
-   "metric_at_peak": 1972,
+   "why_at_peak": "+1.1K stars/day pace right now (2.2K total).",
+   "metric_at_peak": 2159,
    "metric_name": "stars"
   },
   "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf": {
@@ -338,13 +339,13 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 91.4,
    "best_rank": 8,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 30284,
-    "trending": 197,
+    "downloads": 53913,
+    "trending": 210,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -364,8 +365,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 84.9,
    "best_rank": 10,
-   "runs_in_top10": 9,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 10,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -432,18 +433,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-03T05:46:07.869652+00:00",
-   "peak_score": 97.3,
-   "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-03T09:16:07.030039+00:00",
+   "peak_score": 98.1,
+   "best_rank": 1,
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-03T13:01:12.838049+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
     "comments": 5,
     "hn": "https://news.ycombinator.com/item?id=50344861"
    },
-   "why_at_peak": "+96 points/day pace right now (49 total).",
-   "metric_at_peak": 49,
+   "why_at_peak": "+211 points/day pace right now (77 total).",
+   "metric_at_peak": 77,
    "metric_name": "points"
   },
   "gh-junwan666-astrbot-for-android": {
