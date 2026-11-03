@@ -1,0 +1,46 @@
+{
+ "id": "gh:guregodevo/memdoor",
+ "slug": "gh-guregodevo-memdoor",
+ "first_seen": "2026-11-03T00:46:08.354762+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 91.3,
+   "metric": 311,
+   "t": "2026-11-03T00:46:08.354762+00:00"
+  }
+ ],
+ "peak_score": 91.3,
+ "best_rank": 6,
+ "name": "guregodevo/memdoor",
+ "url": "https://github.com/guregodevo/memdoor",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Coding workflow harness that makes a small model beat a frontier one",
+ "what": "Coding workflow harness that makes a small model beat a frontier one",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-05T20:04:16Z",
+ "last_seen": "2026-11-03T00:46:08.354762+00:00",
+ "last_why": "311 stars since launch 28 days ago \u2248 11 stars/day since launch.",
+ "extra": {
+  "forks": 34,
+  "lang": "Go",
+  "topics": [
+   "agentic-workflows",
+   "ai-agent",
+   "coding-agent",
+   "developer-tools",
+   "golang",
+   "llm",
+   "openrouter",
+   "terminal",
+   "tui",
+   "workflow"
+  ],
+  "repo_id": 1406324573
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}

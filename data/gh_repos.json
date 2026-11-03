@@ -434,7 +434,8 @@
   "1436127152": "sintetizacom/easycomfee",
   "1442223451": "UncensoredLabs/uncensored-ai-api",
   "1435016391": "blixvip/GenMotion",
-  "1411306742": "dolev31/TabAgent"
+  "1411306742": "dolev31/TabAgent",
+  "1406324573": "guregodevo/memdoor"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -462,15 +463,15 @@
   "Takamatsu-Hikaru/AI-Research-Guide": 1793084859.4484408,
   "beckettharriman/openfill": 1793273487.7184563,
   "stockedge/manga-generator": 1793102485.3353572,
-  "AienTech/dossier": 1793580383.082826,
+  "AienTech/dossier": 1793666785.3004873,
   "C4rohan/Lampline": 1793268984.6268373,
   "FoShmily/ai-paper-system": 1793587583.8569477,
-  "Folkbench/folkbench": 1793580383.082826,
+  "Folkbench/folkbench": 1793666785.3004873,
   "HRuiCcc/RuiC-oc-ferry": 1793268984.6268373,
   "Kai-Jungsthoefel/SOMA": 1793268984.6268373,
   "StartLuxLabs/StartLux-Decision": 1793587583.8569477,
   "VecSzn/PolyStrata": 1793268984.6268373,
-  "chenxiachan/textfold": 1793268984.6268373,
+  "chenxiachan/textfold": 1793666785.3004873,
   "TheLastOxygen/mafdet": 1793115089.6638021,
   "FengZhenfei/carrel": 1793592086.705589,
   "dagoSte/squadra": 1793592086.705589,
@@ -483,7 +484,7 @@
   "feder-cr/git-ai": 1793273487.7184563,
   "i12bp8/decomp.wtf": 1793273487.7184563,
   "kitlangton/scrawl": 1793273487.7184563,
-  "openqodex/openqodex": 1793580383.082826,
+  "openqodex/openqodex": 1793666785.3004873,
   "qybaihe/bla": 1793273487.7184563,
   "Charonyuu/whatsmyagentdoing": 1793632603.2185764,
   "emanuele-em/kanzo": 1793457983.8444288,
@@ -495,11 +496,11 @@
   "hamzafer/claude-code-mods": 1793662285.3490899,
   "ccch1mneyyy/dsh-go": 1793623589.7894213,
   "AIshihzong/awesome-reverse-engineer-anything": 1793430983.5082994,
-  "Aryanutkarsh/SeeCode": 1793580383.082826,
-  "opensec-git/Pi-Bolt": 1793580383.082826,
-  "xop01/ai_goodpractice": 1793580383.082826,
+  "Aryanutkarsh/SeeCode": 1793666785.3004873,
+  "opensec-git/Pi-Bolt": 1793666785.3004873,
+  "xop01/ai_goodpractice": 1793666785.3004873,
   "boardshogunfluctuate/Capri-AI": 1793641597.1289864,
-  "DozenTwelve/Papermorph": 1793580383.082826,
+  "DozenTwelve/Papermorph": 1793666785.3004873,
   "JunWan666/astrbot-for-android": 1793592086.705589
  }
 }

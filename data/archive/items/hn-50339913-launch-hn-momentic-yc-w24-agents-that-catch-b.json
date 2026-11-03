@@ -8,6 +8,12 @@
    "score": 96.2,
    "metric": 54,
    "t": "2026-11-02T18:38:27.797481+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 80.1,
+   "metric": 117,
+   "t": "2026-11-03T00:46:08.354762+00:00"
   }
  ],
  "peak_score": 96.2,
@@ -21,13 +27,14 @@
  "tag": "agents",
  "metric_name": "points",
  "created": "2026-11-02T17:05:25Z",
- "last_seen": "2026-11-02T18:38:27.797481+00:00",
- "last_why": "+497 points/day pace right now (54 total).",
+ "last_seen": "2026-11-03T00:46:08.354762+00:00",
+ "last_why": "+192 points/day pace right now (117 total).",
  "extra": {
-  "comments": 37,
+  "comments": 75,
   "hn": "https://news.ycombinator.com/item?id=50339913"
  },
  "days": [
-  "2026-11-02"
+  "2026-11-02",
+  "2026-11-03"
  ]
 }
