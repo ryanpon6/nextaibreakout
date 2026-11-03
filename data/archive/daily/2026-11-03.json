@@ -2,7 +2,8 @@
  "day": "2026-11-03",
  "runs": [
   "2026-11-03T00:46:08.354762+00:00",
-  "2026-11-03T02:01:07.152122+00:00"
+  "2026-11-03T02:01:07.152122+00:00",
+  "2026-11-03T03:16:11.550275+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -15,12 +16,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 190,
+    "comments": 205,
     "hn": "https://news.ycombinator.com/item?id=50344958"
    },
    "why_at_peak": "+461 points/day pace right now (164 total).",
@@ -37,16 +38,16 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 97.3,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 622,
+    "comments": 674,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
-   "why_at_peak": "+2.4K points/day pace right now (2.0K total).",
-   "metric_at_peak": 1953,
+   "why_at_peak": "+2.2K points/day pace right now (2.1K total).",
+   "metric_at_peak": 2069,
    "metric_name": "points"
   },
   "hf-fusioncow-sulphur-3": {
@@ -59,20 +60,20 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 217,
+    "trending": 223,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+115 likes/day pace right now (259 total).",
-   "metric_at_peak": 259,
+   "why_at_peak": "+153 likes/day pace right now (267 total).",
+   "metric_at_peak": 267,
    "metric_name": "likes"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -85,13 +86,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 764,
+    "trending": 767,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -111,12 +112,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 93.1,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 300,
+    "forks": 303,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -180,14 +181,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 90.5,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "peak_score": 92.2,
+   "best_rank": 6,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
    "tag": "agents",
    "extra": {
-    "forks": 1023,
+    "forks": 1066,
     "lang": "Kotlin",
     "topics": [
      "accessibility",
@@ -201,8 +202,8 @@
     ],
     "repo_id": 1438540053
    },
-   "why_at_peak": "+576 stars/day pace right now (5.3K total).",
-   "metric_at_peak": 5285,
+   "why_at_peak": "+2.2K stars/day pace right now (5.5K total).",
+   "metric_at_peak": 5478,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -285,12 +286,12 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 93.9,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 16,
+    "forks": 17,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -356,8 +357,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 82.6,
    "best_rank": 10,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -367,6 +368,54 @@
    "why_at_peak": "11.9M downloads yesterday, 1.18\u00d7 its 7-day average.",
    "metric_at_peak": 11949289,
    "metric_name": "downloads/day"
+  },
+  "hn-50345924-scaling-git-at-openai": {
+   "id": "hn:50345924",
+   "slug": "hn-50345924-scaling-git-at-openai",
+   "name": "Scaling Git at OpenAI",
+   "url": "https://openai.com/index/scaling-git-at-openai/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T03:16:11.550275+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 5,
+    "hn": "https://news.ycombinator.com/item?id=50345924"
+   },
+   "why_at_peak": "+614 points/day pace right now (51 total).",
+   "metric_at_peak": 51,
+   "metric_name": "points"
+  },
+  "hf-divagr1925-qwen3-5-4b-qwenputer": {
+   "id": "hfmodel:divagr1925/Qwen3.5-4B-Qwenputer",
+   "slug": "hf-divagr1925-qwen3-5-4b-qwenputer",
+   "name": "divagr1925/Qwen3.5-4B-Qwenputer",
+   "url": "https://huggingface.co/divagr1925/Qwen3.5-4B-Qwenputer",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-03T03:16:11.550275+00:00",
+   "peak_score": 87.3,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T03:16:11.550275+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1043,
+    "trending": 134,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+77 likes/day pace right now (143 total).",
+   "metric_at_peak": 143,
+   "metric_name": "likes"
   }
  }
 }
