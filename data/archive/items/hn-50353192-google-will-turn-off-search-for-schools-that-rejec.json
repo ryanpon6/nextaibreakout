@@ -1,0 +1,33 @@
+{
+ "id": "hn:50353192",
+ "slug": "hn-50353192-google-will-turn-off-search-for-schools-that-rejec",
+ "first_seen": "2026-11-03T20:31:45.591540+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.6,
+   "metric": 399,
+   "t": "2026-11-03T20:31:45.591540+00:00"
+  }
+ ],
+ "peak_score": 96.6,
+ "best_rank": 3,
+ "name": "Google will turn off search for schools that reject AI",
+ "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-03T15:25:47Z",
+ "last_seen": "2026-11-03T20:31:45.591540+00:00",
+ "last_why": "+1.5K points/day pace right now (399 total).",
+ "extra": {
+  "comments": 300,
+  "hn": "https://news.ycombinator.com/item?id=50353192"
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}

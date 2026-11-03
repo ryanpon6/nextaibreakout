@@ -320,6 +320,12 @@
    "score": 93.5,
    "metric": 7320,
    "t": "2026-11-03T19:16:18.454156+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 91.1,
+   "metric": 7350,
+   "t": "2026-11-03T20:31:45.591540+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -333,8 +339,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-25T08:09:52Z",
- "last_seen": "2026-11-03T19:16:18.454156+00:00",
- "last_why": "+944 stars/day pace right now (7.3K total).",
+ "last_seen": "2026-11-03T20:31:45.591540+00:00",
+ "last_why": "+573 stars/day pace right now (7.3K total).",
  "extra": {
   "forks": 354,
   "lang": "Dart",

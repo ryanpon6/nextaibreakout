@@ -1,0 +1,56 @@
+{
+ "id": "gh:uclanlp/OpenVLHarness",
+ "slug": "gh-uclanlp-openvlharness",
+ "first_seen": "2026-11-03T20:31:45.591540+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.0,
+   "metric": 366,
+   "t": "2026-11-03T20:31:45.591540+00:00"
+  }
+ ],
+ "peak_score": 95.0,
+ "best_rank": 5,
+ "name": "uclanlp/OpenVLHarness",
+ "url": "https://github.com/uclanlp/OpenVLHarness",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Official Code for OpenVLHarness: Real-World Visual Agentic Tool\u2011Use with Multimodal Memory",
+ "what": "Official Code for OpenVLHarness: Real-World Visual Agentic Tool\u2011Use with Multimodal Memory",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-15T06:01:30Z",
+ "last_seen": "2026-11-03T20:31:45.591540+00:00",
+ "last_why": "366 stars since launch 20 days ago \u2248 19 stars/day since launch.",
+ "extra": {
+  "forks": 15,
+  "lang": "Python",
+  "topics": [
+   "agent-harness",
+   "agent-skills",
+   "agentic-ai",
+   "ai-agents",
+   "coding-agent",
+   "deep-research",
+   "efficiency",
+   "grounded-reasoning",
+   "harness-engineering",
+   "harness-optimization",
+   "llm",
+   "llm-agents",
+   "mllm",
+   "multimodal",
+   "multimodal-search",
+   "multimodal-tools",
+   "perception",
+   "rsi",
+   "spatial-reasoning",
+   "tool-use"
+  ],
+  "repo_id": 1420250493
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}

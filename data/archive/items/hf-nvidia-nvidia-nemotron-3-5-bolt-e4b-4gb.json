@@ -26,9 +26,15 @@
    "score": 86.6,
    "metric": 287,
    "t": "2026-10-31T02:16:08.546187+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 95.8,
+   "metric": 352,
+   "t": "2026-11-03T20:31:45.591540+00:00"
   }
  ],
- "peak_score": 95.5,
+ "peak_score": 95.8,
  "best_rank": 2,
  "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
@@ -39,11 +45,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-10-05T04:26:43.000Z",
- "last_seen": "2026-10-31T02:16:08.546187+00:00",
- "last_why": "+58 likes/day pace right now (287 total).",
+ "last_seen": "2026-11-03T20:31:45.591540+00:00",
+ "last_why": "Trending score 121 on Hugging Face; 352 likes, 98.0K downloads.",
  "extra": {
-  "downloads": 64263,
-  "trending": 195,
+  "downloads": 97982,
+  "trending": 121,
   "hf_type": "model",
   "title": null,
   "summary": null,
@@ -51,6 +57,7 @@
  },
  "days": [
   "2026-10-26",
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-03"
  ]
 }
