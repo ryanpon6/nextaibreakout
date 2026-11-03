@@ -18,7 +18,8 @@
   "2026-11-03T18:01:32.538221+00:00",
   "2026-11-03T19:16:18.454156+00:00",
   "2026-11-03T20:31:45.591540+00:00",
-  "2026-11-03T21:44:42.818591+00:00"
+  "2026-11-03T21:44:42.818591+00:00",
+  "2026-11-03T22:46:12.060839+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -101,13 +102,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 13,
-   "last_seen": "2026-11-03T16:46:10.566237+00:00",
+   "runs_in_top10": 14,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 47817,
-    "trending": 847,
+    "trending": 729,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -230,14 +231,14 @@
    "kind": "model",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 92.6,
-   "best_rank": 7,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-03T19:16:18.454156+00:00",
+   "best_rank": 6,
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10742,
-    "trending": 470,
+    "trending": 479,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -372,8 +373,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 85.2,
    "best_rank": 8,
-   "runs_in_top10": 17,
-   "last_seen": "2026-11-03T21:44:42.818591+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -529,12 +530,12 @@
    "first_seen": "2026-11-03T09:16:07.030039+00:00",
    "peak_score": 93.0,
    "best_rank": 7,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-03T11:46:08.605401+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 47,
+    "forks": 49,
     "lang": "Rust",
     "topics": [
      "ai-agents",
@@ -638,14 +639,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T14:16:15.588212+00:00",
-   "peak_score": 95.0,
-   "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T21:44:42.818591+00:00",
+   "peak_score": 95.1,
+   "best_rank": 4,
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "Connect AI agents to real iPhones and Androids",
    "tag": "agents",
    "extra": {
-    "forks": 30,
+    "forks": 31,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -659,8 +660,8 @@
     ],
     "repo_id": 1430664237
    },
-   "why_at_peak": "+257 stars/day pace right now (483 total).",
-   "metric_at_peak": 483,
+   "why_at_peak": "+234 stars/day pace right now (493 total).",
+   "metric_at_peak": 493,
    "metric_name": "stars"
   },
   "hn-50352257-just-a-little-ai-resistance-as-a-treat": {
@@ -917,13 +918,13 @@
    "first_seen": "2026-11-03T18:01:32.538221+00:00",
    "peak_score": 90.2,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T18:01:32.538221+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 91123,
-    "trending": 375,
+    "trending": 370,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1037,14 +1038,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T19:16:18.454156+00:00",
-   "peak_score": 91.9,
-   "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T19:16:18.454156+00:00",
+   "peak_score": 93.5,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
    "what": "Autonomous development for real products. Governed agents build from specs you approve, follow the rules you set, and nothing merges until\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 62,
+    "forks": 64,
     "lang": "JavaScript",
     "topics": [
      "agentic-coding",
@@ -1068,8 +1069,8 @@
     ],
     "repo_id": 1408228998
    },
-   "why_at_peak": "+231 stars/day pace right now (576 total).",
-   "metric_at_peak": 576,
+   "why_at_peak": "+164 stars/day pace right now (597 total).",
+   "metric_at_peak": 597,
    "metric_name": "stars"
   },
   "hn-50353192-google-will-turn-off-search-for-schools-that-rejec": {
@@ -1251,6 +1252,72 @@
    "why_at_peak": "+79 likes/day pace right now (2.4K total).",
    "metric_at_peak": 2375,
    "metric_name": "likes"
+  },
+  "hn-50358582-the-little-book-of-generative-ai-foundations-an-i": {
+   "id": "hn:50358582",
+   "slug": "hn-50358582-the-little-book-of-generative-ai-foundations-an-i",
+   "name": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+   "url": "https://arxiv.org/abs/2605.29713",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T22:46:12.060839+00:00",
+   "peak_score": 99.0,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 7,
+    "hn": "https://news.ycombinator.com/item?id=50358582"
+   },
+   "why_at_peak": "78 points in 1h on Hacker News (7 comments).",
+   "metric_at_peak": 78,
+   "metric_name": "points"
+  },
+  "hn-50358422-us-tech-giants-hidden-ai-debt-swells-90-to-3-2t": {
+   "id": "hn:50358422",
+   "slug": "hn-50358422-us-tech-giants-hidden-ai-debt-swells-90-to-3-2t",
+   "name": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T22:46:12.060839+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 16,
+    "hn": "https://news.ycombinator.com/item?id=50358422"
+   },
+   "why_at_peak": "51 points in 1h on Hacker News (16 comments).",
+   "metric_at_peak": 51,
+   "metric_name": "points"
+  },
+  "hn-50358414-the-ai-boom-may-be-sowing-seeds-of-another-financi": {
+   "id": "hn:50358414",
+   "slug": "hn-50358414-the-ai-boom-may-be-sowing-seeds-of-another-financi",
+   "name": "The AI Boom May Be Sowing Seeds of Another Financial Crisis",
+   "url": "https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T22:46:12.060839+00:00",
+   "peak_score": 97.4,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T22:46:12.060839+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 46,
+    "hn": "https://news.ycombinator.com/item?id=50358414"
+   },
+   "why_at_peak": "49 points in 1h on Hacker News (46 comments).",
+   "metric_at_peak": 49,
+   "metric_name": "points"
   }
  }
 }
