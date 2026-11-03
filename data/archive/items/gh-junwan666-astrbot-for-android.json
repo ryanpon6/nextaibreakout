@@ -8,6 +8,12 @@
    "score": 96.4,
    "metric": 303,
    "t": "2026-11-02T00:46:07.273313+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 92.2,
+   "metric": 314,
+   "t": "2026-11-03T08:10:55.981181+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -21,8 +27,8 @@
  "tag": "dev tools",
  "metric_name": "stars",
  "created": "2026-10-26T05:13:32Z",
- "last_seen": "2026-11-02T00:46:07.273313+00:00",
- "last_why": "303 stars since launch 7 days ago \u2248 44 stars/day since launch.",
+ "last_seen": "2026-11-03T08:10:55.981181+00:00",
+ "last_why": "314 stars since launch 8 days ago \u2248 39 stars/day since launch.",
  "extra": {
   "forks": 13,
   "lang": "Kotlin",
@@ -45,6 +51,7 @@
   "repo_id": 1433932117
  },
  "days": [
-  "2026-11-02"
+  "2026-11-02",
+  "2026-11-03"
  ]
 }

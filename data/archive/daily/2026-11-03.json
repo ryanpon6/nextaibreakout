@@ -6,7 +6,8 @@
   "2026-11-03T03:16:11.550275+00:00",
   "2026-11-03T04:31:08.308558+00:00",
   "2026-11-03T05:46:07.869652+00:00",
-  "2026-11-03T07:01:07.614897+00:00"
+  "2026-11-03T07:01:07.614897+00:00",
+  "2026-11-03T08:10:55.981181+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -41,16 +42,16 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 746,
+    "comments": 774,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
-   "why_at_peak": "+2.0K points/day pace right now (2.4K total).",
-   "metric_at_peak": 2388,
+   "why_at_peak": "+1.8K points/day pace right now (2.5K total).",
+   "metric_at_peak": 2475,
    "metric_name": "points"
   },
   "hf-fusioncow-sulphur-3": {
@@ -63,13 +64,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 234,
+    "trending": 237,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -115,12 +116,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 310,
+    "forks": 313,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -217,22 +218,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 84.8,
+   "peak_score": 88.9,
    "best_rank": 8,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7787,
-    "trending": 397,
+    "trending": 421,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+77 likes/day pace right now (416 total).",
-   "metric_at_peak": 416,
+   "why_at_peak": "+124 likes/day pace right now (442 total).",
+   "metric_at_peak": 442,
    "metric_name": "likes"
   },
   "hn-50339913-launch-hn-momentic-yc-w24-agents-that-catch-b": {
@@ -265,18 +266,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
-   "peak_score": 95.6,
+   "peak_score": 96.4,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 82,
+    "comments": 107,
     "hn": "https://news.ycombinator.com/item?id=50341736"
    },
-   "why_at_peak": "+230 points/day pace right now (113 total).",
-   "metric_at_peak": 113,
+   "why_at_peak": "+206 points/day pace right now (155 total).",
+   "metric_at_peak": 155,
    "metric_name": "points"
   },
   "gh-modelflare-ai-anymodelbot": {
@@ -289,12 +290,12 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 18,
+    "forks": 19,
     "lang": "TypeScript",
     "topics": [
      "ai-agent",
@@ -358,10 +359,10 @@
    "source": "pypi",
    "kind": "tool",
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
-   "peak_score": 82.6,
+   "peak_score": 83.3,
    "best_rank": 10,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -382,16 +383,16 @@
    "first_seen": "2026-11-03T03:16:11.550275+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 80,
+    "comments": 108,
     "hn": "https://news.ycombinator.com/item?id=50345924"
    },
-   "why_at_peak": "+691 points/day pace right now (166 total).",
-   "metric_at_peak": 166,
+   "why_at_peak": "+639 points/day pace right now (197 total).",
+   "metric_at_peak": 197,
    "metric_name": "points"
   },
   "hf-divagr1925-qwen3-5-4b-qwenputer": {
@@ -441,6 +442,71 @@
    "why_at_peak": "+96 points/day pace right now (49 total).",
    "metric_at_peak": 49,
    "metric_name": "points"
+  },
+  "gh-junwan666-astrbot-for-android": {
+   "id": "gh:JunWan666/astrbot-for-android",
+   "slug": "gh-junwan666-astrbot-for-android",
+   "name": "JunWan666/astrbot-for-android",
+   "url": "https://github.com/JunWan666/astrbot-for-android",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-03T08:10:55.981181+00:00",
+   "peak_score": 92.2,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "what": "\u5728 Android \u624b\u673a\u4e0a\u672c\u5730\u90e8\u7f72\u548c\u7ba1\u7406 AstrBot \u4e0e NapCat\uff0c\u5185\u7f6e PRoot Ubuntu \u8fd0\u884c\u73af\u5883\uff0c\u652f\u6301\u539f\u751f\u7ba1\u7406\u754c\u9762\u3001WebUI\u3001\u65e5\u5fd7\u3001\u5907\u4efd\u6062\u590d\u548c\u72ec\u7acb\u66f4\u65b0\uff0c\u65e0\u9700 Root\u3002",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 13,
+    "lang": "Kotlin",
+    "topics": [
+     "ai",
+     "android",
+     "astrbot",
+     "chatbot",
+     "jetpack-compose",
+     "kotlin",
+     "llm",
+     "napcat",
+     "napcatqq",
+     "onebot",
+     "proot",
+     "qq-bot",
+     "self-hosted",
+     "ubuntu"
+    ],
+    "repo_id": 1433932117
+   },
+   "why_at_peak": "314 stars since launch 8 days ago \u2248 39 stars/day since launch.",
+   "metric_at_peak": 314,
+   "metric_name": "stars"
+  },
+  "hf-edge0-audio8-tts-realistic-air": {
+   "id": "hfmodel:Edge0/Audio8-TTS-Realistic-Air",
+   "slug": "hf-edge0-audio8-tts-realistic-air",
+   "name": "Edge0/Audio8-TTS-Realistic-Air",
+   "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-03T08:10:55.981181+00:00",
+   "peak_score": 89.7,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "what": "text-to-speech model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 7259,
+    "trending": 240,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+103 likes/day pace right now (258 total).",
+   "metric_at_peak": 258,
+   "metric_name": "likes"
   }
  }
 }
