@@ -14,10 +14,16 @@
    "score": 91.2,
    "metric": 349,
    "t": "2026-10-27T23:46:11.803600+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 91.9,
+   "metric": 576,
+   "t": "2026-11-03T19:16:18.454156+00:00"
   }
  ],
  "peak_score": 92.7,
- "best_rank": 8,
+ "best_rank": 7,
  "name": "pullboard-dev/pullboard",
  "url": "https://github.com/pullboard-dev/pullboard",
  "source": "github",
@@ -27,13 +33,12 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-07T04:14:39Z",
- "last_seen": "2026-10-27T23:46:11.803600+00:00",
- "last_why": "+209 stars/day pace right now (349 total).",
+ "last_seen": "2026-11-03T19:16:18.454156+00:00",
+ "last_why": "+231 stars/day pace right now (576 total).",
  "extra": {
-  "forks": 28,
+  "forks": 62,
   "lang": "JavaScript",
   "topics": [
-   "agent-orchestration",
    "agentic-coding",
    "ai-agents",
    "ai-governance",
@@ -48,6 +53,7 @@
    "llm",
    "local-first",
    "multi-agent",
+   "software-factory",
    "spec-driven-development",
    "verification",
    "vibe-coding"
@@ -55,6 +61,7 @@
   "repo_id": 1408228998
  },
  "days": [
-  "2026-10-27"
+  "2026-10-27",
+  "2026-11-03"
  ]
 }

@@ -1,0 +1,33 @@
+{
+ "id": "hn:50355251",
+ "slug": "hn-50355251-qwen-3-8-27b-on-my-laptop-can-interpret-model-weig",
+ "first_seen": "2026-11-03T19:16:18.454156+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 187,
+   "t": "2026-11-03T19:16:18.454156+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+ "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-03T17:40:00Z",
+ "last_seen": "2026-11-03T19:16:18.454156+00:00",
+ "last_why": "187 points in 2h on Hacker News (50 comments).",
+ "extra": {
+  "comments": 50,
+  "hn": "https://news.ycombinator.com/item?id=50355251"
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}
