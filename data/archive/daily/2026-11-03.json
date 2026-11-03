@@ -11,7 +11,8 @@
   "2026-11-03T09:16:07.030039+00:00",
   "2026-11-03T10:31:10.501450+00:00",
   "2026-11-03T11:46:08.605401+00:00",
-  "2026-11-03T13:01:12.838049+00:00"
+  "2026-11-03T13:01:12.838049+00:00",
+  "2026-11-03T14:16:15.588212+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -46,12 +47,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 855,
+    "comments": 862,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
    "why_at_peak": "+1.8K points/day pace right now (2.7K total).",
@@ -68,20 +69,20 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 11,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 395,
-    "trending": 259,
+    "trending": 263,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+173 likes/day pace right now (306 total).",
-   "metric_at_peak": 306,
+   "why_at_peak": "+96 likes/day pace right now (313 total).",
+   "metric_at_peak": 313,
    "metric_name": "likes"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -94,13 +95,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 47817,
-    "trending": 820,
+    "trending": 828,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -120,12 +121,12 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 96.4,
    "best_rank": 3,
-   "runs_in_top10": 11,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 12,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 329,
+    "forks": 338,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -248,18 +249,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 80.1,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "peak_score": 90.6,
+   "best_rank": 8,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 75,
+    "comments": 102,
     "hn": "https://news.ycombinator.com/item?id=50339913"
    },
-   "why_at_peak": "+192 points/day pace right now (117 total).",
-   "metric_at_peak": 117,
+   "why_at_peak": "+96 points/day pace right now (152 total).",
+   "metric_at_peak": 152,
    "metric_name": "points"
   },
   "hn-50341736-egoless-mathematics-in-the-ai-era": {
@@ -294,12 +295,12 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 19,
+    "forks": 21,
     "lang": "Python",
     "topics": [
      "ai-agent",
@@ -339,13 +340,13 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 91.4,
    "best_rank": 8,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 53913,
-    "trending": 210,
+    "trending": 215,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -365,8 +366,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 84.9,
    "best_rank": 10,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -435,12 +436,12 @@
    "first_seen": "2026-11-03T05:46:07.869652+00:00",
    "peak_score": 98.1,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-03T13:01:12.838049+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 5,
+    "comments": 7,
     "hn": "https://news.ycombinator.com/item?id=50344861"
    },
    "why_at_peak": "+211 points/day pace right now (77 total).",
@@ -622,6 +623,39 @@
    "why_at_peak": "+58 points/day pace right now (101 total).",
    "metric_at_peak": 101,
    "metric_name": "points"
+  },
+  "gh-phone-harness-mcp": {
+   "id": "gh:phone-harness/mcp",
+   "slug": "gh-phone-harness-mcp",
+   "name": "phone-harness/mcp",
+   "url": "https://github.com/phone-harness/mcp",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-03T14:16:15.588212+00:00",
+   "peak_score": 93.9,
+   "best_rank": 5,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T14:16:15.588212+00:00",
+   "what": "Connect AI agents to real iPhones and Androids",
+   "tag": "agents",
+   "extra": {
+    "forks": 27,
+    "lang": "Python",
+    "topics": [
+     "ai-agents",
+     "android",
+     "iphone",
+     "mcp",
+     "mcp-server",
+     "mobile-automation",
+     "model-context-protocol",
+     "phone-automation"
+    ],
+    "repo_id": 1430664237
+   },
+   "why_at_peak": "380 stars since launch 11 days ago \u2248 34 stars/day since launch.",
+   "metric_at_peak": 380,
+   "metric_name": "stars"
   }
  }
 }

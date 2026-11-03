@@ -1,0 +1,44 @@
+{
+ "id": "gh:phone-harness/mcp",
+ "slug": "gh-phone-harness-mcp",
+ "first_seen": "2026-11-03T14:16:15.588212+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 93.9,
+   "metric": 380,
+   "t": "2026-11-03T14:16:15.588212+00:00"
+  }
+ ],
+ "peak_score": 93.9,
+ "best_rank": 5,
+ "name": "phone-harness/mcp",
+ "url": "https://github.com/phone-harness/mcp",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Connect AI agents to real iPhones and Androids",
+ "what": "Connect AI agents to real iPhones and Androids",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-23T06:27:40Z",
+ "last_seen": "2026-11-03T14:16:15.588212+00:00",
+ "last_why": "380 stars since launch 11 days ago \u2248 34 stars/day since launch.",
+ "extra": {
+  "forks": 27,
+  "lang": "Python",
+  "topics": [
+   "ai-agents",
+   "android",
+   "iphone",
+   "mcp",
+   "mcp-server",
+   "mobile-automation",
+   "model-context-protocol",
+   "phone-automation"
+  ],
+  "repo_id": 1430664237
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}

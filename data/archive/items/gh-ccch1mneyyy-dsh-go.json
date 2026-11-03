@@ -296,6 +296,12 @@
    "score": 96.4,
    "metric": 6769,
    "t": "2026-11-03T13:01:12.838049+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 92.3,
+   "metric": 6926,
+   "t": "2026-11-03T14:16:15.588212+00:00"
   }
  ],
  "peak_score": 96.4,
@@ -309,10 +315,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-25T08:09:52Z",
- "last_seen": "2026-11-03T13:01:12.838049+00:00",
- "last_why": "+2.8K stars/day pace right now (6.8K total).",
+ "last_seen": "2026-11-03T14:16:15.588212+00:00",
+ "last_why": "+3.0K stars/day pace right now (6.9K total).",
  "extra": {
-  "forks": 329,
+  "forks": 338,
   "lang": "Dart",
   "topics": [
    "ai-agent",
