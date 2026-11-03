@@ -8,9 +8,15 @@
    "score": 91.3,
    "metric": 311,
    "t": "2026-11-03T00:46:08.354762+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.2,
+   "metric": 313,
+   "t": "2026-11-03T02:01:07.152122+00:00"
   }
  ],
- "peak_score": 91.3,
+ "peak_score": 92.2,
  "best_rank": 6,
  "name": "guregodevo/memdoor",
  "url": "https://github.com/guregodevo/memdoor",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-05T20:04:16Z",
- "last_seen": "2026-11-03T00:46:08.354762+00:00",
- "last_why": "311 stars since launch 28 days ago \u2248 11 stars/day since launch.",
+ "last_seen": "2026-11-03T02:01:07.152122+00:00",
+ "last_why": "313 stars since launch 28 days ago \u2248 11 stars/day since launch.",
  "extra": {
-  "forks": 34,
+  "forks": 35,
   "lang": "Go",
   "topics": [
    "agentic-workflows",

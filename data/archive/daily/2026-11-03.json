@@ -1,7 +1,8 @@
 {
  "day": "2026-11-03",
  "runs": [
-  "2026-11-03T00:46:08.354762+00:00"
+  "2026-11-03T00:46:08.354762+00:00",
+  "2026-11-03T02:01:07.152122+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -12,18 +13,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 96.4,
+   "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 168,
+    "comments": 190,
     "hn": "https://news.ycombinator.com/item?id=50344958"
    },
-   "why_at_peak": "+1.4K points/day pace right now (140 total).",
-   "metric_at_peak": 140,
+   "why_at_peak": "+461 points/day pace right now (164 total).",
+   "metric_at_peak": 164,
    "metric_name": "points"
   },
   "hn-50341174-astra-can-read-and-write-weights-to-improve-qwen": {
@@ -34,18 +35,18 @@
    "source": "hackernews",
    "kind": "news",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 95.5,
+   "peak_score": 97.3,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 577,
+    "comments": 622,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
-   "why_at_peak": "+3.6K points/day pace right now (1.8K total).",
-   "metric_at_peak": 1829,
+   "why_at_peak": "+2.4K points/day pace right now (2.0K total).",
+   "metric_at_peak": 1953,
    "metric_name": "points"
   },
   "hf-fusioncow-sulphur-3": {
@@ -56,22 +57,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 94.7,
-   "best_rank": 3,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "peak_score": 98.1,
+   "best_rank": 2,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 211,
+    "trending": 217,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+58 likes/day pace right now (253 total).",
-   "metric_at_peak": 253,
+   "why_at_peak": "+115 likes/day pace right now (259 total).",
+   "metric_at_peak": 259,
    "metric_name": "likes"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -82,22 +83,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 93.0,
+   "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 747,
+    "trending": 764,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+403 likes/day pace right now (1.0K total).",
-   "metric_at_peak": 1012,
+   "why_at_peak": "+1.4K likes/day pace right now (1.1K total).",
+   "metric_at_peak": 1087,
    "metric_name": "likes"
   },
   "gh-ccch1mneyyy-dsh-go": {
@@ -108,14 +109,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 92.2,
+   "peak_score": 93.1,
    "best_rank": 5,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 291,
+    "forks": 300,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -132,8 +133,8 @@
     ],
     "repo_id": 1432967563
    },
-   "why_at_peak": "+826 stars/day pace right now (5.9K total).",
-   "metric_at_peak": 5865,
+   "why_at_peak": "+1.7K stars/day pace right now (6.0K total).",
+   "metric_at_peak": 5955,
    "metric_name": "stars"
   },
   "gh-guregodevo-memdoor": {
@@ -144,14 +145,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 91.3,
+   "peak_score": 92.2,
    "best_rank": 6,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-03T00:46:08.354762+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
    "what": "Coding workflow harness that makes a small model beat a frontier one",
    "tag": "agents",
    "extra": {
-    "forks": 34,
+    "forks": 35,
     "lang": "Go",
     "topics": [
      "agentic-workflows",
@@ -167,8 +168,8 @@
     ],
     "repo_id": 1406324573
    },
-   "why_at_peak": "311 stars since launch 28 days ago \u2248 11 stars/day since launch.",
-   "metric_at_peak": 311,
+   "why_at_peak": "313 stars since launch 28 days ago \u2248 11 stars/day since launch.",
+   "metric_at_peak": 313,
    "metric_name": "stars"
   },
   "gh-wangzan101-mika": {
@@ -251,6 +252,121 @@
    "why_at_peak": "+192 points/day pace right now (117 total).",
    "metric_at_peak": 117,
    "metric_name": "points"
+  },
+  "hn-50341736-egoless-mathematics-in-the-ai-era": {
+   "id": "hn:50341736",
+   "slug": "hn-50341736-egoless-mathematics-in-the-ai-era",
+   "name": "Egoless Mathematics in the AI Era",
+   "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-03T02:01:07.152122+00:00",
+   "peak_score": 95.6,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 82,
+    "hn": "https://news.ycombinator.com/item?id=50341736"
+   },
+   "why_at_peak": "+230 points/day pace right now (113 total).",
+   "metric_at_peak": 113,
+   "metric_name": "points"
+  },
+  "gh-modelflare-ai-anymodelbot": {
+   "id": "gh:modelflare-ai/AnyModelBot",
+   "slug": "gh-modelflare-ai-anymodelbot",
+   "name": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-03T02:01:07.152122+00:00",
+   "peak_score": 93.9,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 16,
+    "lang": "TypeScript",
+    "topics": [
+     "ai-agent",
+     "ai-assistant",
+     "chatbot",
+     "claude",
+     "computer-use",
+     "deepseek",
+     "desktop-app",
+     "dsh",
+     "electron",
+     "feishu",
+     "gemini",
+     "gpt",
+     "grok",
+     "llm",
+     "local-first",
+     "modelflare",
+     "multi-model",
+     "openai-compatible",
+     "personal-ai-agent",
+     "wechat"
+    ],
+    "repo_id": 1435475558
+   },
+   "why_at_peak": "+1.6K stars/day pace right now (1.4K total).",
+   "metric_at_peak": 1424,
+   "metric_name": "stars"
+  },
+  "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf": {
+   "id": "hfmodel:AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "slug": "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf",
+   "name": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-03T02:01:07.152122+00:00",
+   "peak_score": 89.7,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "what": "text-generation model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 30284,
+    "trending": 184,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+96 likes/day pace right now (207 total).",
+   "metric_at_peak": 207,
+   "metric_name": "likes"
+  },
+  "pypi-mcp": {
+   "id": "pypi:mcp",
+   "slug": "pypi-mcp",
+   "name": "mcp",
+   "url": "https://pypi.org/project/mcp",
+   "source": "pypi",
+   "kind": "tool",
+   "first_seen": "2026-11-03T02:01:07.152122+00:00",
+   "peak_score": 82.6,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T02:01:07.152122+00:00",
+   "what": "Python package",
+   "tag": "agents",
+   "extra": {
+    "week": 71072297,
+    "month": 235193557
+   },
+   "why_at_peak": "11.9M downloads yesterday, 1.18\u00d7 its 7-day average.",
+   "metric_at_peak": 11949289,
+   "metric_name": "downloads/day"
   }
  }
 }
