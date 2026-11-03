@@ -8,10 +8,16 @@
    "score": 95.7,
    "metric": 1732,
    "t": "2026-11-03T16:46:10.566237+00:00"
+  },
+  {
+   "rank": 3,
+   "score": 95.7,
+   "metric": 1734,
+   "t": "2026-11-03T18:01:32.538221+00:00"
   }
  ],
  "peak_score": 95.7,
- "best_rank": 4,
+ "best_rank": 3,
  "name": "lexifina/global-law",
  "url": "https://github.com/lexifina/global-law",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-28T13:34:16Z",
- "last_seen": "2026-11-03T16:46:10.566237+00:00",
- "last_why": "1.7K stars since launch 6 days ago \u2248 282 stars/day since launch.",
+ "last_seen": "2026-11-03T18:01:32.538221+00:00",
+ "last_why": "1.7K stars since launch 6 days ago \u2248 280 stars/day since launch.",
  "extra": {
   "forks": 158,
   "lang": "HTML",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T16:46:54.906965+00:00",
+ "generated": "2026-11-03T18:02:23.110301+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-11-03T16:46:54.906965+00:00"
+   "fetched": "2026-11-03T18:02:23.110301+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,7 +268,7 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-11-03T16:46:54.906965+00:00"
+   "fetched": "2026-11-03T18:02:23.110301+00:00"
   },
   "openai": {
    "items": [
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-03T16:46:54.906965+00:00"
+   "fetched": "2026-11-03T18:02:23.110301+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,10 +541,21 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-03T16:46:54.906965+00:00"
+   "fetched": "2026-11-03T18:02:23.110301+00:00"
   },
   "google-deepmind": {
    "items": [
+    {
+     "title": "Agentic cheminformatics with Google Antigravity",
+     "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+     "date": "2026-11-03T17:01:49+00:00",
+     "day": "2026-11-03",
+     "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+     "categories": [],
+     "source": "Google DeepMind Blog RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "Speeding up planning decisions with AI",
      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
@@ -643,17 +654,6 @@
      "source": "Google DeepMind Blog RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-     "date": "2026-10-06T19:57:04+00:00",
-     "day": "2026-10-06",
-     "summary": "",
-     "categories": [],
-     "source": "Google DeepMind Blog RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-03T16:46:54.906965+00:00"
+   "fetched": "2026-11-03T18:02:23.110301+00:00"
   },
   "meta": {
    "items": [
@@ -779,7 +779,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-11-03T16:46:54.906965+00:00"
+   "fetched": "2026-11-03T18:02:23.110301+00:00"
   }
  }
 }
