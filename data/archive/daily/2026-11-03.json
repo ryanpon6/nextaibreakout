@@ -7,7 +7,8 @@
   "2026-11-03T04:31:08.308558+00:00",
   "2026-11-03T05:46:07.869652+00:00",
   "2026-11-03T07:01:07.614897+00:00",
-  "2026-11-03T08:10:55.981181+00:00"
+  "2026-11-03T08:10:55.981181+00:00",
+  "2026-11-03T09:16:07.030039+00:00"
  ],
  "items": {
   "hn-50344958-anthropic-s-growth-just-flattened": {
@@ -42,16 +43,16 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 774,
+    "comments": 784,
     "hn": "https://news.ycombinator.com/item?id=50341174"
    },
-   "why_at_peak": "+1.8K points/day pace right now (2.5K total).",
-   "metric_at_peak": 2475,
+   "why_at_peak": "+2.0K points/day pace right now (2.6K total).",
+   "metric_at_peak": 2565,
    "metric_name": "points"
   },
   "hf-fusioncow-sulphur-3": {
@@ -64,13 +65,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 98.1,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "Model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 195,
-    "trending": 237,
+    "trending": 244,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -90,13 +91,13 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "text-generation model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 42384,
-    "trending": 789,
+    "trending": 802,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -116,8 +117,8 @@
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
    "peak_score": 94.7,
    "best_rank": 5,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
@@ -218,22 +219,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-03T00:46:08.354762+00:00",
-   "peak_score": 88.9,
+   "peak_score": 91.4,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 7787,
-    "trending": 421,
+    "trending": 428,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+124 likes/day pace right now (442 total).",
-   "metric_at_peak": 442,
+   "why_at_peak": "+177 likes/day pace right now (450 total).",
+   "metric_at_peak": 450,
    "metric_name": "likes"
   },
   "hn-50339913-launch-hn-momentic-yc-w24-agents-that-catch-b": {
@@ -290,8 +291,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 95.6,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok,\u2026",
    "tag": "agents",
    "extra": {
@@ -321,8 +322,8 @@
     ],
     "repo_id": 1435475558
    },
-   "why_at_peak": "+2.1K stars/day pace right now (1.7K total).",
-   "metric_at_peak": 1704,
+   "why_at_peak": "+2.0K stars/day pace right now (2.0K total).",
+   "metric_at_peak": 1972,
    "metric_name": "stars"
   },
   "hf-atomicchat-deepseek-v4-1-flash-1017-uncensored-gsq-rco-gguf": {
@@ -361,8 +362,8 @@
    "first_seen": "2026-11-03T02:01:07.152122+00:00",
    "peak_score": 83.3,
    "best_rank": 10,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -383,16 +384,16 @@
    "first_seen": "2026-11-03T03:16:11.550275+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-03T08:10:55.981181+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 108,
+    "comments": 121,
     "hn": "https://news.ycombinator.com/item?id=50345924"
    },
-   "why_at_peak": "+639 points/day pace right now (197 total).",
-   "metric_at_peak": 197,
+   "why_at_peak": "+376 points/day pace right now (214 total).",
+   "metric_at_peak": 214,
    "metric_name": "points"
   },
   "hf-divagr1925-qwen3-5-4b-qwenputer": {
@@ -431,12 +432,12 @@
    "first_seen": "2026-11-03T05:46:07.869652+00:00",
    "peak_score": 97.3,
    "best_rank": 3,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-03T07:01:07.614897+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 4,
+    "comments": 5,
     "hn": "https://news.ycombinator.com/item?id=50344861"
    },
    "why_at_peak": "+96 points/day pace right now (49 total).",
@@ -507,6 +508,47 @@
    "why_at_peak": "+103 likes/day pace right now (258 total).",
    "metric_at_peak": 258,
    "metric_name": "likes"
+  },
+  "gh-yjid-kensaku": {
+   "id": "gh:yjid/kensaku",
+   "slug": "gh-yjid-kensaku",
+   "name": "yjid/kensaku",
+   "url": "https://github.com/yjid/kensaku",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-03T09:16:07.030039+00:00",
+   "peak_score": 93.0,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-03T09:16:07.030039+00:00",
+   "what": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search,\u2026",
+   "tag": "agents",
+   "extra": {
+    "forks": 46,
+    "lang": "Rust",
+    "topics": [
+     "ai-agents",
+     "desktop",
+     "desktop-search",
+     "file-search",
+     "full-text-search",
+     "launcher",
+     "local-first",
+     "mcp",
+     "ocr",
+     "open-source",
+     "privacy",
+     "rust",
+     "search",
+     "semantic-search",
+     "tauri",
+     "windows"
+    ],
+    "repo_id": 1432590994
+   },
+   "why_at_peak": "+508 stars/day pace right now (628 total).",
+   "metric_at_peak": 628,
+   "metric_name": "stars"
   }
  }
 }

@@ -26,6 +26,12 @@
    "score": 95.5,
    "metric": 560,
    "t": "2026-11-02T23:31:09.311709+00:00"
+  },
+  {
+   "rank": 7,
+   "score": 93.0,
+   "metric": 628,
+   "t": "2026-11-03T09:16:07.030039+00:00"
   }
  ],
  "peak_score": 95.5,
@@ -39,10 +45,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-24T21:00:26Z",
- "last_seen": "2026-11-02T23:31:09.311709+00:00",
- "last_why": "+211 stars/day pace right now (560 total).",
+ "last_seen": "2026-11-03T09:16:07.030039+00:00",
+ "last_why": "+508 stars/day pace right now (628 total).",
  "extra": {
-  "forks": 41,
+  "forks": 46,
   "lang": "Rust",
   "topics": [
    "ai-agents",
@@ -67,6 +73,7 @@
  "days": [
   "2026-10-31",
   "2026-11-01",
-  "2026-11-02"
+  "2026-11-02",
+  "2026-11-03"
  ]
 }
