@@ -1,0 +1,33 @@
+{
+ "id": "hn:50344861",
+ "slug": "hn-50344861-llms-are-not-superhuman-at-reading-and-writing-neu",
+ "first_seen": "2026-11-03T05:46:07.869652+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 97.3,
+   "metric": 49,
+   "t": "2026-11-03T05:46:07.869652+00:00"
+  }
+ ],
+ "peak_score": 97.3,
+ "best_rank": 3,
+ "name": "LLMs are not superhuman at reading and writing neural network weights",
+ "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-02T22:26:53Z",
+ "last_seen": "2026-11-03T05:46:07.869652+00:00",
+ "last_why": "+96 points/day pace right now (49 total).",
+ "extra": {
+  "comments": 4,
+  "hn": "https://news.ycombinator.com/item?id=50344861"
+ },
+ "days": [
+  "2026-11-03"
+ ]
+}
