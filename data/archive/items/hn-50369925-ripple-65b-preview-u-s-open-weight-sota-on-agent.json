@@ -1,0 +1,33 @@
+{
+ "id": "hn:50369925",
+ "slug": "hn-50369925-ripple-65b-preview-u-s-open-weight-sota-on-agent",
+ "first_seen": "2026-11-04T20:16:09.342859+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 45,
+   "t": "2026-11-04T20:16:09.342859+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+ "url": "https://www.ricursive.com/ripple",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "agents",
+ "metric_name": "points",
+ "created": "2026-11-04T18:53:29Z",
+ "last_seen": "2026-11-04T20:16:09.342859+00:00",
+ "last_why": "45 points in 1h on Hacker News (19 comments).",
+ "extra": {
+  "comments": 19,
+  "hn": "https://news.ycombinator.com/item?id=50369925"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
