@@ -8,10 +8,16 @@
    "score": 92.8,
    "metric": 400,
    "t": "2026-11-04T03:46:07.410985+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 94.3,
+   "metric": 402,
+   "t": "2026-11-04T05:01:12.469579+00:00"
   }
  ],
- "peak_score": 92.8,
- "best_rank": 7,
+ "peak_score": 94.3,
+ "best_rank": 6,
  "name": "Anubis-Security-Tool/anubis",
  "url": "https://github.com/Anubis-Security-Tool/anubis",
  "source": "github",
@@ -21,8 +27,8 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-10-22T18:35:44Z",
- "last_seen": "2026-11-04T03:46:07.410985+00:00",
- "last_why": "400 stars since launch 12 days ago \u2248 32 stars/day since launch.",
+ "last_seen": "2026-11-04T05:01:12.469579+00:00",
+ "last_why": "402 stars since launch 12 days ago \u2248 32 stars/day since launch.",
  "extra": {
   "forks": 50,
   "lang": "JavaScript",

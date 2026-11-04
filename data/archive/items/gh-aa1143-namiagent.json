@@ -1,0 +1,46 @@
+{
+ "id": "gh:aa1143/NamiAgent",
+ "slug": "gh-aa1143-namiagent",
+ "first_seen": "2026-11-04T05:01:12.469579+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.1,
+   "metric": 296,
+   "t": "2026-11-04T05:01:12.469579+00:00"
+  }
+ ],
+ "peak_score": 95.1,
+ "best_rank": 5,
+ "name": "aa1143/NamiAgent",
+ "url": "https://github.com/aa1143/NamiAgent",
+ "source": "github",
+ "kind": "tool",
+ "desc": "\u96f6\u57fa\u7840\u5165\u95e8 AI Agent \u7684\u57fa\u7840\u6559\u7a0b\u3002\u4e0d\u53ea\u662f\u6559\u7a0b\uff0c\u4e5f\u662f\u4e00\u4e2a\u80fd\u5728\u672c\u5730\u8dd1\u8d77\u6765\u7684 Agent\uff1a\u8bfb\u5199\u6587\u4ef6\u3001\u6267\u884c\u547d\u4ee4\u3001MCP\u3001\u957f\u671f\u8bb0\u5fc6\uff0c\u81ea\u5e26\u7f51\u9875\u7aef\u770b\u6e05\u6bcf\u4e00\u6b65\u3002\u4ece 100 \u884c\u6700\u5c0f\u5faa\u73af\u5f00\u59cb\uff0c\u4e00\u8bfe\u52a0\u4e00\u4e2a\u80fd\u529b\uff0c\u6700\u540e\u62c6\u89e3 Claude Code\u3001Codex \u7b49\u4e3b\u6d41 Agent",
+ "what": "\u96f6\u57fa\u7840\u5165\u95e8 AI Agent \u7684\u57fa\u7840\u6559\u7a0b\u3002\u4e0d\u53ea\u662f\u6559\u7a0b\uff0c\u4e5f\u662f\u4e00\u4e2a\u80fd\u5728\u672c\u5730\u8dd1\u8d77\u6765\u7684 Agent\uff1a\u8bfb\u5199\u6587\u4ef6\u3001\u6267\u884c\u547d\u4ee4\u3001MCP\u3001\u957f\u671f\u8bb0\u5fc6\uff0c\u81ea\u5e26\u7f51\u9875\u7aef\u770b\u6e05\u6bcf\u4e00\u6b65\u3002\u4ece 100 \u884c\u6700\u5c0f\u5faa\u73af\u5f00\u59cb\uff0c\u4e00\u8bfe\u52a0\u4e00\u4e2a\u80fd\u529b\uff0c\u6700\u540e\u62c6\u89e3 Claude Code\u3001Codex \u7b49\u4e3b\u6d41 Agent",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-30T11:03:30Z",
+ "last_seen": "2026-11-04T05:01:12.469579+00:00",
+ "last_why": "296 stars since launch 5 days ago \u2248 62 stars/day since launch.",
+ "extra": {
+  "forks": 29,
+  "lang": "Python",
+  "topics": [
+   "agent",
+   "ai-agent",
+   "chinese",
+   "claude-code",
+   "deepseek",
+   "from-scratch",
+   "llm",
+   "mcp",
+   "python",
+   "tutorial"
+  ],
+  "repo_id": 1439615056
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
