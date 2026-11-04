@@ -1,0 +1,33 @@
+{
+ "id": "hn:50363554",
+ "slug": "hn-50363554-geoffrey-hinton-it-might-turn-out-we-were-better",
+ "first_seen": "2026-11-04T12:46:18.586624+00:00",
+ "appearances": [
+  {
+   "rank": 5,
+   "score": 95.8,
+   "metric": 95,
+   "t": "2026-11-04T12:46:18.586624+00:00"
+  }
+ ],
+ "peak_score": 95.8,
+ "best_rank": 5,
+ "name": "Geoffrey Hinton: it might turn out we were better off without AI",
+ "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T10:23:34Z",
+ "last_seen": "2026-11-04T12:46:18.586624+00:00",
+ "last_why": "+1.2K points/day pace right now (95 total).",
+ "extra": {
+  "comments": 59,
+  "hn": "https://news.ycombinator.com/item?id=50363554"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

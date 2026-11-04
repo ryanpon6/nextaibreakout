@@ -1,0 +1,33 @@
+{
+ "id": "hn:50364336",
+ "slug": "hn-50364336-ai-is-forcing-us-to-pay-off-40-years-of-technical",
+ "first_seen": "2026-11-04T12:46:18.586624+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 127,
+   "t": "2026-11-04T12:46:18.586624+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "AI is forcing us to pay off 40 years of technical debt",
+ "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T11:52:17Z",
+ "last_seen": "2026-11-04T12:46:18.586624+00:00",
+ "last_why": "127 points in 1h on Hacker News (40 comments).",
+ "extra": {
+  "comments": 40,
+  "hn": "https://news.ycombinator.com/item?id=50364336"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
