@@ -8,7 +8,8 @@
   "2026-11-04T05:01:12.469579+00:00",
   "2026-11-04T06:16:09.406306+00:00",
   "2026-11-04T07:31:07.440479+00:00",
-  "2026-11-04T08:46:07.874696+00:00"
+  "2026-11-04T08:46:07.874696+00:00",
+  "2026-11-04T10:16:12.555536+00:00"
  ],
  "items": {
   "hn-50358582-the-little-book-of-generative-ai-foundations-an-i": {
@@ -65,12 +66,12 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 178,
+    "comments": 183,
     "hn": "https://news.ycombinator.com/item?id=50355251"
    },
    "why_at_peak": "+461 points/day pace right now (604 total).",
@@ -195,14 +196,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
-   "peak_score": 92.0,
+   "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T00:01:11.594889+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "Bops: a team of AI bots that run your business ops, each with its own computer, email and phone number. bops.bot",
    "tag": "agents",
    "extra": {
-    "forks": 147,
+    "forks": 160,
     "lang": "TypeScript",
     "topics": [
      "ai-agents",
@@ -215,8 +216,8 @@
     ],
     "repo_id": 1407464278
    },
-   "why_at_peak": "432 stars since launch 28 days ago \u2248 15 stars/day since launch.",
-   "metric_at_peak": 432,
+   "why_at_peak": "442 stars since launch 29 days ago \u2248 15 stars/day since launch.",
+   "metric_at_peak": 442,
    "metric_name": "stars"
   },
   "hf-speridlabs-idol": {
@@ -281,8 +282,8 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 89.1,
    "best_rank": 8,
-   "runs_in_top10": 8,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 9,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -303,12 +304,12 @@
    "first_seen": "2026-11-04T01:16:07.047508+00:00",
    "peak_score": 95.2,
    "best_rank": 4,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 404,
+    "forks": 407,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -457,12 +458,12 @@
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 6,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 7,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "\u8ba9\u4f60\u7684\u547d\u4ee4\u884c Agent \u5728\u540e\u53f0\u81ea\u5df1\u63a5\u6d3b\u3001\u81ea\u5df1\u8ddf\u8fdb\u5230\u5e95\uff1b\u5e73\u65f6\u4e0d\u70e6\u4f60\uff0c\u9047\u5230\u62ff\u4e0d\u51c6\u7684\u4e8b\u624d\u53d1\u5361\u7247\u627e\u4f60\u62cd\u677f\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 328,
+    "forks": 363,
     "lang": "TypeScript",
     "topics": [
      "ai-agents",
@@ -722,13 +723,13 @@
    "first_seen": "2026-11-04T05:01:12.469579+00:00",
    "peak_score": 95.7,
    "best_rank": 5,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
-    "downloads": 187260,
-    "trending": 613,
+    "downloads": 221621,
+    "trending": 615,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -826,12 +827,12 @@
    "first_seen": "2026-11-04T08:46:07.874696+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 16,
+    "comments": 23,
     "hn": "https://news.ycombinator.com/item?id=50358352"
    },
    "why_at_peak": "+269 points/day pace right now (47 total).",
@@ -862,6 +863,80 @@
    },
    "why_at_peak": "+230 likes/day pace right now (2.4K total).",
    "metric_at_peak": 2404,
+   "metric_name": "likes"
+  },
+  "hn-50362274-ai-stocks-slide-as-texas-governor-result-raises-da": {
+   "id": "hn:50362274",
+   "slug": "hn-50362274-ai-stocks-slide-as-texas-governor-result-raises-da",
+   "name": "AI stocks slide as Texas governor result raises data center risks",
+   "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-04T10:16:12.555536+00:00",
+   "peak_score": 97.4,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 49,
+    "hn": "https://news.ycombinator.com/item?id=50362274"
+   },
+   "why_at_peak": "40 points in 3h on Hacker News (49 comments).",
+   "metric_at_peak": 40,
+   "metric_name": "points"
+  },
+  "hf-nvidia-nvidia-nemotronlabs-re-use": {
+   "id": "hfmodel:nvidia/NVIDIA-NemotronLabs-RE-USE",
+   "slug": "hf-nvidia-nvidia-nemotronlabs-re-use",
+   "name": "nvidia/NVIDIA-NemotronLabs-RE-USE",
+   "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-04T10:16:12.555536+00:00",
+   "peak_score": 95.8,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
+   "what": "audio-to-audio model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 32309,
+    "trending": 118,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 118 on Hugging Face; 152 likes, 32.3K downloads.",
+   "metric_at_peak": 152,
+   "metric_name": "likes"
+  },
+  "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b": {
+   "id": "hfmodel:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "slug": "hf-nvidia-nvidia-nemotron-3-5-transcribe-30b-a4b",
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-04T10:16:12.555536+00:00",
+   "peak_score": 89.5,
+   "best_rank": 9,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T10:16:12.555536+00:00",
+   "what": "automatic-speech-recognition model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 44939,
+    "trending": 672,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+160 likes/day pace right now (757 total).",
+   "metric_at_peak": 757,
    "metric_name": "likes"
   }
  }

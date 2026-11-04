@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:nvidia/NVIDIA-NemotronLabs-RE-USE",
+ "slug": "hf-nvidia-nvidia-nemotronlabs-re-use",
+ "first_seen": "2026-11-04T10:16:12.555536+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 95.8,
+   "metric": 152,
+   "t": "2026-11-04T10:16:12.555536+00:00"
+  }
+ ],
+ "peak_score": 95.8,
+ "best_rank": 4,
+ "name": "nvidia/NVIDIA-NemotronLabs-RE-USE",
+ "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-RE-USE",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "audio-to-audio",
+ "what": "audio-to-audio model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-07-22T12:52:19.000Z",
+ "last_seen": "2026-11-04T10:16:12.555536+00:00",
+ "last_why": "Trending score 118 on Hugging Face; 152 likes, 32.3K downloads.",
+ "extra": {
+  "downloads": 32309,
+  "trending": 118,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

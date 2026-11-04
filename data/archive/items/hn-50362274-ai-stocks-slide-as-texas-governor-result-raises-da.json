@@ -1,0 +1,33 @@
+{
+ "id": "hn:50362274",
+ "slug": "hn-50362274-ai-stocks-slide-as-texas-governor-result-raises-da",
+ "first_seen": "2026-11-04T10:16:12.555536+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 97.4,
+   "metric": 40,
+   "t": "2026-11-04T10:16:12.555536+00:00"
+  }
+ ],
+ "peak_score": 97.4,
+ "best_rank": 2,
+ "name": "AI stocks slide as Texas governor result raises data center risks",
+ "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T07:00:20Z",
+ "last_seen": "2026-11-04T10:16:12.555536+00:00",
+ "last_why": "40 points in 3h on Hacker News (49 comments).",
+ "extra": {
+  "comments": 49,
+  "hn": "https://news.ycombinator.com/item?id=50362274"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
