@@ -1,0 +1,33 @@
+{
+ "id": "hn:50371508",
+ "slug": "hn-50371508-everything-is-an-ai-scam-now",
+ "first_seen": "2026-11-04T22:46:08.467457+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 98,
+   "t": "2026-11-04T22:46:08.467457+00:00"
+  }
+ ],
+ "peak_score": 99.0,
+ "best_rank": 1,
+ "name": "Everything is an AI scam now",
+ "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T21:05:19Z",
+ "last_seen": "2026-11-04T22:46:08.467457+00:00",
+ "last_why": "+1.2K points/day pace right now (98 total).",
+ "extra": {
+  "comments": 28,
+  "hn": "https://news.ycombinator.com/item?id=50371508"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
