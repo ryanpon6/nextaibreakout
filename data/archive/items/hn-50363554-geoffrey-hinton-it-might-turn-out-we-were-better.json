@@ -8,10 +8,16 @@
    "score": 95.8,
    "metric": 95,
    "t": "2026-11-04T12:46:18.586624+00:00"
+  },
+  {
+   "rank": 4,
+   "score": 96.7,
+   "metric": 163,
+   "t": "2026-11-04T14:01:07.574035+00:00"
   }
  ],
- "peak_score": 95.8,
- "best_rank": 5,
+ "peak_score": 96.7,
+ "best_rank": 4,
  "name": "Geoffrey Hinton: it might turn out we were better off without AI",
  "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
  "source": "hackernews",
@@ -21,10 +27,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-11-04T10:23:34Z",
- "last_seen": "2026-11-04T12:46:18.586624+00:00",
- "last_why": "+1.2K points/day pace right now (95 total).",
+ "last_seen": "2026-11-04T14:01:07.574035+00:00",
+ "last_why": "+1.3K points/day pace right now (163 total).",
  "extra": {
-  "comments": 59,
+  "comments": 106,
   "hn": "https://news.ycombinator.com/item?id=50363554"
  },
  "days": [
