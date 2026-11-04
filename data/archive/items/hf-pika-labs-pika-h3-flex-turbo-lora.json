@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
+ "slug": "hf-pika-labs-pika-h3-flex-turbo-lora",
+ "first_seen": "2026-11-04T16:31:09.498909+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.1,
+   "metric": 138,
+   "t": "2026-11-04T16:31:09.498909+00:00"
+  }
+ ],
+ "peak_score": 92.1,
+ "best_rank": 7,
+ "name": "Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
+ "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "image-to-video",
+ "what": "image-to-video model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-10-29T18:45:00.000Z",
+ "last_seen": "2026-11-04T16:31:09.498909+00:00",
+ "last_why": "Trending score 119 on Hugging Face; 138 likes, 43.1K downloads.",
+ "extra": {
+  "downloads": 43133,
+  "trending": 119,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
