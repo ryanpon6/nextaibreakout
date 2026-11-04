@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:03:14.112614+00:00",
+ "generated": "2026-11-04T15:17:12.518407+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-11-04T14:03:14.112614+00:00"
+   "fetched": "2026-11-04T15:17:12.518407+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,10 +268,23 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-11-04T14:03:14.112614+00:00"
+   "fetched": "2026-11-04T15:17:12.518407+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+     "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+     "date": "2026-11-04T07:00:00+00:00",
+     "day": "2026-11-04",
+     "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+     "categories": [
+      "Product"
+     ],
+     "source": "OpenAI News RSS",
+     "unofficial": false,
+     "prio": 0
+    },
     {
      "title": "libcap 2.75 source archive",
      "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
@@ -385,19 +398,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-     "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-     "date": "2026-10-21T13:00:00+00:00",
-     "day": "2026-10-21",
-     "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-     "categories": [
-      "Product"
-     ],
-     "source": "OpenAI News RSS",
-     "unofficial": false,
-     "prio": 0
     }
    ],
    "sources": [
@@ -407,7 +407,7 @@
      "status": "provisional",
      "ok": true,
      "count": 10,
-     "raw": 1354
+     "raw": 1356
     },
     {
      "name": "GitHub: openai/codex releases",
@@ -418,7 +418,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-04T14:03:14.112614+00:00"
+   "fetched": "2026-11-04T15:17:12.518407+00:00"
   },
   "anthropic": {
    "items": [
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-04T14:03:14.112614+00:00"
+   "fetched": "2026-11-04T15:17:12.518407+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-04T14:03:14.112614+00:00"
+   "fetched": "2026-11-04T15:17:12.518407+00:00"
   },
   "meta": {
    "items": [
@@ -779,7 +779,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-11-04T14:03:14.112614+00:00"
+   "fetched": "2026-11-04T15:17:12.518407+00:00"
   }
  }
 }
