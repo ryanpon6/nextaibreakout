@@ -14,10 +14,16 @@
    "score": 97.4,
    "metric": 129,
    "t": "2026-11-04T00:01:11.594889+00:00"
+  },
+  {
+   "rank": 1,
+   "score": 99.0,
+   "metric": 223,
+   "t": "2026-11-04T01:16:07.047508+00:00"
   }
  ],
- "peak_score": 98.2,
- "best_rank": 2,
+ "peak_score": 99.0,
+ "best_rank": 1,
  "name": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
  "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
  "source": "hackernews",
@@ -27,10 +33,10 @@
  "tag": "dev tools",
  "metric_name": "points",
  "created": "2026-11-03T21:26:44Z",
- "last_seen": "2026-11-04T00:01:11.594889+00:00",
- "last_why": "+1.5K points/day pace right now (129 total).",
+ "last_seen": "2026-11-04T01:16:07.047508+00:00",
+ "last_why": "+1.8K points/day pace right now (223 total).",
  "extra": {
-  "comments": 49,
+  "comments": 86,
   "hn": "https://news.ycombinator.com/item?id=50358422"
  },
  "days": [
