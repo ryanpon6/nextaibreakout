@@ -14,9 +14,15 @@
    "score": 80.0,
    "metric": 2375,
    "t": "2026-11-03T21:44:42.818591+00:00"
+  },
+  {
+   "rank": 8,
+   "score": 92.6,
+   "metric": 2404,
+   "t": "2026-11-04T08:46:07.874696+00:00"
   }
  ],
- "peak_score": 82.4,
+ "peak_score": 92.6,
  "best_rank": 8,
  "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
  "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
@@ -27,11 +33,11 @@
  "tag": "models",
  "metric_name": "likes",
  "created": "2026-09-01T07:01:09.000Z",
- "last_seen": "2026-11-03T21:44:42.818591+00:00",
- "last_why": "+79 likes/day pace right now (2.4K total).",
+ "last_seen": "2026-11-04T08:46:07.874696+00:00",
+ "last_why": "+230 likes/day pace right now (2.4K total).",
  "extra": {
   "downloads": 1371484,
-  "trending": 151,
+  "trending": 159,
   "hf_type": "model",
   "title": null,
   "summary": null,
@@ -39,6 +45,7 @@
  },
  "days": [
   "2026-10-23",
-  "2026-11-03"
+  "2026-11-03",
+  "2026-11-04"
  ]
 }

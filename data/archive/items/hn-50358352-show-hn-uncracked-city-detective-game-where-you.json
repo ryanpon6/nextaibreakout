@@ -1,0 +1,33 @@
+{
+ "id": "hn:50358352",
+ "slug": "hn-50358352-show-hn-uncracked-city-detective-game-where-you",
+ "first_seen": "2026-11-04T08:46:07.874696+00:00",
+ "appearances": [
+  {
+   "rank": 2,
+   "score": 98.2,
+   "metric": 47,
+   "t": "2026-11-04T08:46:07.874696+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 2,
+ "name": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+ "url": "https://uncracked.city",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-03T21:20:03Z",
+ "last_seen": "2026-11-04T08:46:07.874696+00:00",
+ "last_why": "+269 points/day pace right now (47 total).",
+ "extra": {
+  "comments": 16,
+  "hn": "https://news.ycombinator.com/item?id=50358352"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

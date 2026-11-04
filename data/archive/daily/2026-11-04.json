@@ -7,7 +7,8 @@
   "2026-11-04T03:46:07.410985+00:00",
   "2026-11-04T05:01:12.469579+00:00",
   "2026-11-04T06:16:09.406306+00:00",
-  "2026-11-04T07:31:07.440479+00:00"
+  "2026-11-04T07:31:07.440479+00:00",
+  "2026-11-04T08:46:07.874696+00:00"
  ],
  "items": {
   "hn-50358582-the-little-book-of-generative-ai-foundations-an-i": {
@@ -42,12 +43,12 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-04T07:31:07.440479+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 142,
+    "comments": 143,
     "hn": "https://news.ycombinator.com/item?id=50358422"
    },
    "why_at_peak": "+1.8K points/day pace right now (223 total).",
@@ -64,16 +65,16 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-04T07:31:07.440479+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 172,
+    "comments": 178,
     "hn": "https://news.ycombinator.com/item?id=50355251"
    },
-   "why_at_peak": "+403 points/day pace right now (560 total).",
-   "metric_at_peak": 560,
+   "why_at_peak": "+461 points/day pace right now (604 total).",
+   "metric_at_peak": 604,
    "metric_name": "points"
   },
   "hf-abenzerps-qwen-image-2-1-turbo-quantized": {
@@ -280,8 +281,8 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 89.1,
    "best_rank": 8,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-04T07:31:07.440479+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -302,12 +303,12 @@
    "first_seen": "2026-11-04T01:16:07.047508+00:00",
    "peak_score": 95.2,
    "best_rank": 4,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-04T07:31:07.440479+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 395,
+    "forks": 404,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -456,12 +457,12 @@
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-04T07:31:07.440479+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "\u8ba9\u4f60\u7684\u547d\u4ee4\u884c Agent \u5728\u540e\u53f0\u81ea\u5df1\u63a5\u6d3b\u3001\u81ea\u5df1\u8ddf\u8fdb\u5230\u5e95\uff1b\u5e73\u65f6\u4e0d\u70e6\u4f60\uff0c\u9047\u5230\u62ff\u4e0d\u51c6\u7684\u4e8b\u624d\u53d1\u5361\u7247\u627e\u4f60\u62cd\u677f\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 284,
+    "forks": 328,
     "lang": "TypeScript",
     "topics": [
      "ai-agents",
@@ -478,8 +479,8 @@
     ],
     "repo_id": 1443985070
    },
-   "why_at_peak": "+4.4K stars/day pace right now (1.4K total).",
-   "metric_at_peak": 1419,
+   "why_at_peak": "+3.9K stars/day pace right now (1.6K total).",
+   "metric_at_peak": 1621,
    "metric_name": "stars"
   },
   "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-coder-gguf": {
@@ -561,22 +562,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
-   "peak_score": 92.1,
+   "peak_score": 93.4,
    "best_rank": 7,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T05:01:12.469579+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 3487734,
-    "trending": 145,
+    "trending": 152,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+96 likes/day pace right now (658 total).",
-   "metric_at_peak": 658,
+   "why_at_peak": "+134 likes/day pace right now (668 total).",
+   "metric_at_peak": 668,
    "metric_name": "likes"
   },
   "hf-ccore-qwen3-5-4b-3d-coder": {
@@ -641,12 +642,12 @@
    "first_seen": "2026-11-04T03:46:07.410985+00:00",
    "peak_score": 94.3,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T05:01:12.469579+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "\ufe0f Free Open-Source AI-Powered Security Terminal & Vulnerability Scanner (CVE, SBOM). Multi-Protocol Access: SSH, SFTP, RDP, VNC, Serial.\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 50,
+    "forks": 51,
     "lang": "JavaScript",
     "topics": [
      "anubis",
@@ -719,22 +720,22 @@
    "source": "huggingface",
    "kind": "model",
    "first_seen": "2026-11-04T05:01:12.469579+00:00",
-   "peak_score": 84.7,
-   "best_rank": 9,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T05:01:12.469579+00:00",
+   "peak_score": 95.7,
+   "best_rank": 5,
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 187260,
-    "trending": 608,
+    "trending": 613,
     "hf_type": "model",
     "title": null,
     "summary": null,
     "sdk": null
    },
-   "why_at_peak": "+115 likes/day pace right now (4.9K total).",
-   "metric_at_peak": 4870,
+   "why_at_peak": "+3.1K likes/day pace right now (5.0K total).",
+   "metric_at_peak": 5041,
    "metric_name": "likes"
   },
   "hf-liquidai-lfm3-1-7b": {
@@ -813,6 +814,54 @@
    },
    "why_at_peak": "+58 likes/day pace right now (337 total).",
    "metric_at_peak": 337,
+   "metric_name": "likes"
+  },
+  "hn-50358352-show-hn-uncracked-city-detective-game-where-you": {
+   "id": "hn:50358352",
+   "slug": "hn-50358352-show-hn-uncracked-city-detective-game-where-you",
+   "name": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+   "url": "https://uncracked.city",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-04T08:46:07.874696+00:00",
+   "peak_score": 98.2,
+   "best_rank": 2,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 16,
+    "hn": "https://news.ycombinator.com/item?id=50358352"
+   },
+   "why_at_peak": "+269 points/day pace right now (47 total).",
+   "metric_at_peak": 47,
+   "metric_name": "points"
+  },
+  "hf-davidau-qwen3-8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mt": {
+   "id": "hfmodel:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "slug": "hf-davidau-qwen3-8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mt",
+   "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-04T08:46:07.874696+00:00",
+   "peak_score": 92.6,
+   "best_rank": 8,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 1371484,
+    "trending": 159,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+230 likes/day pace right now (2.4K total).",
+   "metric_at_peak": 2404,
    "metric_name": "likes"
   }
  }

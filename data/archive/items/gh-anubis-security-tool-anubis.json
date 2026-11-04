@@ -14,6 +14,12 @@
    "score": 94.3,
    "metric": 402,
    "t": "2026-11-04T05:01:12.469579+00:00"
+  },
+  {
+   "rank": 9,
+   "score": 91.8,
+   "metric": 411,
+   "t": "2026-11-04T08:46:07.874696+00:00"
   }
  ],
  "peak_score": 94.3,
@@ -27,10 +33,10 @@
  "tag": "safety",
  "metric_name": "stars",
  "created": "2026-10-22T18:35:44Z",
- "last_seen": "2026-11-04T05:01:12.469579+00:00",
- "last_why": "402 stars since launch 12 days ago \u2248 32 stars/day since launch.",
+ "last_seen": "2026-11-04T08:46:07.874696+00:00",
+ "last_why": "+134 stars/day pace right now (411 total).",
  "extra": {
-  "forks": 50,
+  "forks": 51,
   "lang": "JavaScript",
   "topics": [
    "anubis",
