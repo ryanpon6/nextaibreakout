@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T22:47:03.518551+00:00",
+ "generated": "2026-11-04T00:02:47.086134+00:00",
  "labs": {
   "xai": {
    "items": [
@@ -129,7 +129,7 @@
      "error": "Official RSS exists (feed.xml) but it is incident history, not releases."
     }
    ],
-   "fetched": "2026-11-03T22:47:03.518551+00:00"
+   "fetched": "2026-11-04T00:02:47.086134+00:00"
   },
   "tesla-ai": {
    "items": [
@@ -268,10 +268,20 @@
      "error": "Official, but returns 403 to automated fetches."
     }
    ],
-   "fetched": "2026-11-03T22:47:03.518551+00:00"
+   "fetched": "2026-11-04T00:02:47.086134+00:00"
   },
   "openai": {
    "items": [
+    {
+     "title": "libcap 2.75 source archive",
+     "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
+     "date": "2026-11-03T23:04:31+00:00",
+     "day": "2026-11-03",
+     "summary": "",
+     "source": "GitHub: openai/codex releases",
+     "unofficial": false,
+     "prio": 1
+    },
     {
      "title": "Accelerating engineering for the physical world",
      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
@@ -310,16 +320,6 @@
      "source": "OpenAI News RSS",
      "unofficial": false,
      "prio": 0
-    },
-    {
-     "title": "Codex CLI 0.166.0",
-     "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
-     "date": "2026-10-29T19:50:20+00:00",
-     "day": "2026-10-29",
-     "summary": "",
-     "source": "GitHub: openai/codex releases",
-     "unofficial": false,
-     "prio": 1
     },
     {
      "title": "Introducing GPT-6.1 Terra",
@@ -418,15 +418,15 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-03T22:47:03.518551+00:00"
+   "fetched": "2026-11-04T00:02:47.086134+00:00"
   },
   "anthropic": {
    "items": [
     {
-     "title": "Claude Code v2.1.317",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "date": "2026-11-03T01:25:46+00:00",
-     "day": "2026-11-03",
+     "title": "Claude Code v2.1.318",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "date": "2026-11-04T00:01:03+00:00",
+     "day": "2026-11-04",
      "summary": "",
      "source": "GitHub: anthropics/claude-code releases",
      "unofficial": false,
@@ -541,7 +541,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-03T22:47:03.518551+00:00"
+   "fetched": "2026-11-04T00:02:47.086134+00:00"
   },
   "google-deepmind": {
    "items": [
@@ -682,7 +682,7 @@
      "raw": 10
     }
    ],
-   "fetched": "2026-11-03T22:47:03.518551+00:00"
+   "fetched": "2026-11-04T00:02:47.086134+00:00"
   },
   "meta": {
    "items": [
@@ -779,7 +779,7 @@
      "error": "No RSS, and ai.meta.com/robots.txt says automated collection is prohibited without written permission; not scraped."
     }
    ],
-   "fetched": "2026-11-03T22:47:03.518551+00:00"
+   "fetched": "2026-11-04T00:02:47.086134+00:00"
   }
  }
 }

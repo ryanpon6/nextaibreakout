@@ -1,0 +1,37 @@
+{
+ "id": "hfmodel:abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+ "slug": "hf-abenzerps-qwen-image-2-1-turbo-quantized",
+ "first_seen": "2026-11-04T00:01:11.594889+00:00",
+ "appearances": [
+  {
+   "rank": 4,
+   "score": 94.3,
+   "metric": 5622,
+   "t": "2026-11-04T00:01:11.594889+00:00"
+  }
+ ],
+ "peak_score": 94.3,
+ "best_rank": 4,
+ "name": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+ "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+ "source": "huggingface",
+ "kind": "model",
+ "desc": "text-to-image",
+ "what": "text-to-image model on Hugging Face",
+ "tag": "models",
+ "metric_name": "likes",
+ "created": "2026-09-20T15:51:13.000Z",
+ "last_seen": "2026-11-04T00:01:11.594889+00:00",
+ "last_why": "Trending score 290 on Hugging Face; 5.6K likes, 2.5M downloads.",
+ "extra": {
+  "downloads": 2508590,
+  "trending": 290,
+  "hf_type": "model",
+  "title": null,
+  "summary": null,
+  "sdk": null
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}
