@@ -17,7 +17,8 @@
   "2026-11-04T16:31:09.498909+00:00",
   "2026-11-04T17:46:08.814036+00:00",
   "2026-11-04T19:01:17.123777+00:00",
-  "2026-11-04T20:16:09.342859+00:00"
+  "2026-11-04T20:16:09.342859+00:00",
+  "2026-11-04T21:31:10.444224+00:00"
  ],
  "items": {
   "hn-50358582-the-little-book-of-generative-ai-foundations-an-i": {
@@ -290,8 +291,8 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 89.1,
    "best_rank": 8,
-   "runs_in_top10": 17,
-   "last_seen": "2026-11-04T20:16:09.342859+00:00",
+   "runs_in_top10": 18,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -466,12 +467,12 @@
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 15,
-   "last_seen": "2026-11-04T20:16:09.342859+00:00",
+   "runs_in_top10": 16,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "\u8ba9\u4f60\u7684\u547d\u4ee4\u884c Agent \u5728\u540e\u53f0\u81ea\u5df1\u63a5\u6d3b\u3001\u81ea\u5df1\u8ddf\u8fdb\u5230\u5e95\uff1b\u5e73\u65f6\u4e0d\u70e6\u4f60\uff0c\u9047\u5230\u62ff\u4e0d\u51c6\u7684\u4e8b\u624d\u53d1\u5361\u7247\u627e\u4f60\u62cd\u677f\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 478,
+    "forks": 479,
     "lang": "TypeScript",
     "topics": [
      "ai-agents",
@@ -857,13 +858,13 @@
    "first_seen": "2026-11-04T08:46:07.874696+00:00",
    "peak_score": 92.6,
    "best_rank": 8,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T15:16:12.468856+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 1403315,
-    "trending": 178,
+    "trending": 201,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -931,13 +932,13 @@
    "first_seen": "2026-11-04T10:16:12.555536+00:00",
    "peak_score": 95.1,
    "best_rank": 5,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-04T14:01:07.574035+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "automatic-speech-recognition model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 44939,
-    "trending": 842,
+    "trending": 709,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1193,13 +1194,13 @@
    "first_seen": "2026-11-04T16:31:09.498909+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-04T20:16:09.342859+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 797,
-    "trending": 390,
+    "trending": 421,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1370,14 +1371,14 @@
    "source": "github",
    "kind": "tool",
    "first_seen": "2026-11-04T19:01:17.123777+00:00",
-   "peak_score": 92.3,
+   "peak_score": 93.0,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T20:16:09.342859+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "Autonomous pentest legion \u2014 AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion\u2026",
    "tag": "agents",
    "extra": {
-    "forks": 564,
+    "forks": 567,
     "lang": "Python",
     "topics": [
      "ai-agents",
@@ -1390,8 +1391,8 @@
     ],
     "repo_id": 1439885901
    },
-   "why_at_peak": "+192 stars/day pace right now (777 total).",
-   "metric_at_peak": 777,
+   "why_at_peak": "+365 stars/day pace right now (796 total).",
+   "metric_at_peak": 796,
    "metric_name": "stars"
   },
   "hn-50369925-ripple-65b-preview-u-s-open-weight-sota-on-agent": {
@@ -1404,16 +1405,97 @@
    "first_seen": "2026-11-04T20:16:09.342859+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T20:16:09.342859+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
    "what": "",
    "tag": "agents",
    "extra": {
-    "comments": 19,
+    "comments": 47,
     "hn": "https://news.ycombinator.com/item?id=50369925"
    },
    "why_at_peak": "45 points in 1h on Hacker News (19 comments).",
    "metric_at_peak": 45,
+   "metric_name": "points"
+  },
+  "gh-silverdugongenhance-promptreel": {
+   "id": "gh:silverdugongenhance/PromptReel",
+   "slug": "gh-silverdugongenhance-promptreel",
+   "name": "silverdugongenhance/PromptReel",
+   "url": "https://github.com/silverdugongenhance/PromptReel",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-04T21:31:10.444224+00:00",
+   "peak_score": 98.2,
+   "best_rank": 1,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
+   "what": "Free desktop app that turns a text prompt into a short video clip on your own PC. Local AI text-to-video with Wan 2.2: type a scene, pick\u2026",
+   "tag": "dev tools",
+   "extra": {
+    "forks": 0,
+    "lang": null,
+    "topics": [
+     "ai-tools",
+     "ai-video",
+     "ai-video-clip",
+     "ai-video-generator-crack",
+     "free",
+     "generative-ai",
+     "local-ai",
+     "offline",
+     "prompt-to-video",
+     "text-to-video-generation",
+     "video-generation",
+     "wan2-2"
+    ],
+    "repo_id": 1445845007
+   },
+   "why_at_peak": "+941 stars/day pace right now (98 total).",
+   "metric_at_peak": 98,
+   "metric_name": "stars"
+  },
+  "hn-50370654-qualcomm-cloud-ai-100-ultra-150w-ai-accelerator": {
+   "id": "hn:50370654",
+   "slug": "hn-50370654-qualcomm-cloud-ai-100-ultra-150w-ai-accelerator",
+   "name": "Qualcomm Cloud AI 100 Ultra \u2013 150W AI Accelerator Card with 128GB at 548GB/s",
+   "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-04T21:31:10.444224+00:00",
+   "peak_score": 96.7,
+   "best_rank": 3,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 18,
+    "hn": "https://news.ycombinator.com/item?id=50370654"
+   },
+   "why_at_peak": "44 points in 2h on Hacker News (18 comments).",
+   "metric_at_peak": 44,
+   "metric_name": "points"
+  },
+  "hn-50366863-openai-to-acquire-pierre-computer-company": {
+   "id": "hn:50366863",
+   "slug": "hn-50366863-openai-to-acquire-pierre-computer-company",
+   "name": "OpenAI to acquire Pierre Computer Company",
+   "url": "https://openai.com/index/openai-to-acquire-pierre/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-04T21:31:10.444224+00:00",
+   "peak_score": 94.5,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T21:31:10.444224+00:00",
+   "what": "",
+   "tag": "dev tools",
+   "extra": {
+    "comments": 45,
+    "hn": "https://news.ycombinator.com/item?id=50366863"
+   },
+   "why_at_peak": "+710 points/day pace right now (116 total).",
+   "metric_at_peak": 116,
    "metric_name": "points"
   }
  }

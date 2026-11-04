@@ -1,0 +1,33 @@
+{
+ "id": "hn:50366863",
+ "slug": "hn-50366863-openai-to-acquire-pierre-computer-company",
+ "first_seen": "2026-11-04T21:31:10.444224+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 94.5,
+   "metric": 116,
+   "t": "2026-11-04T21:31:10.444224+00:00"
+  }
+ ],
+ "peak_score": 94.5,
+ "best_rank": 6,
+ "name": "OpenAI to acquire Pierre Computer Company",
+ "url": "https://openai.com/index/openai-to-acquire-pierre/",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T15:21:21Z",
+ "last_seen": "2026-11-04T21:31:10.444224+00:00",
+ "last_why": "+710 points/day pace right now (116 total).",
+ "extra": {
+  "comments": 45,
+  "hn": "https://news.ycombinator.com/item?id=50366863"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

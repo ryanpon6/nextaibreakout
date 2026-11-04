@@ -1,0 +1,48 @@
+{
+ "id": "gh:silverdugongenhance/PromptReel",
+ "slug": "gh-silverdugongenhance-promptreel",
+ "first_seen": "2026-11-04T21:31:10.444224+00:00",
+ "appearances": [
+  {
+   "rank": 1,
+   "score": 98.2,
+   "metric": 98,
+   "t": "2026-11-04T21:31:10.444224+00:00"
+  }
+ ],
+ "peak_score": 98.2,
+ "best_rank": 1,
+ "name": "silverdugongenhance/PromptReel",
+ "url": "https://github.com/silverdugongenhance/PromptReel",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Free desktop app that turns a text prompt into a short video clip on your own PC. Local AI text-to-video with Wan 2.2: type a scene, pick wide, vertical or square, get an MP4. No credits, no subscription, no queue. Windows 10/11.",
+ "what": "Free desktop app that turns a text prompt into a short video clip on your own PC. Local AI text-to-video with Wan 2.2: type a scene, pick\u2026",
+ "tag": "dev tools",
+ "metric_name": "stars",
+ "created": "2026-11-04T15:29:54Z",
+ "last_seen": "2026-11-04T21:31:10.444224+00:00",
+ "last_why": "+941 stars/day pace right now (98 total).",
+ "extra": {
+  "forks": 0,
+  "lang": null,
+  "topics": [
+   "ai-tools",
+   "ai-video",
+   "ai-video-clip",
+   "ai-video-generator-crack",
+   "free",
+   "generative-ai",
+   "local-ai",
+   "offline",
+   "prompt-to-video",
+   "text-to-video-generation",
+   "video-generation",
+   "wan2-2"
+  ],
+  "repo_id": 1445845007
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

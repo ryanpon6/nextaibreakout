@@ -1,0 +1,33 @@
+{
+ "id": "hn:50370654",
+ "slug": "hn-50370654-qualcomm-cloud-ai-100-ultra-150w-ai-accelerator",
+ "first_seen": "2026-11-04T21:31:10.444224+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.7,
+   "metric": 44,
+   "t": "2026-11-04T21:31:10.444224+00:00"
+  }
+ ],
+ "peak_score": 96.7,
+ "best_rank": 3,
+ "name": "Qualcomm Cloud AI 100 Ultra \u2013 150W AI Accelerator Card with 128GB at 548GB/s",
+ "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T19:55:14Z",
+ "last_seen": "2026-11-04T21:31:10.444224+00:00",
+ "last_why": "44 points in 2h on Hacker News (18 comments).",
+ "extra": {
+  "comments": 18,
+  "hn": "https://news.ycombinator.com/item?id=50370654"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

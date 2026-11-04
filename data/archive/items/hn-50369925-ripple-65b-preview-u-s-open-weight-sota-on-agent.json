@@ -8,6 +8,12 @@
    "score": 99.0,
    "metric": 45,
    "t": "2026-11-04T20:16:09.342859+00:00"
+  },
+  {
+   "rank": 5,
+   "score": 95.3,
+   "metric": 128,
+   "t": "2026-11-04T21:31:10.444224+00:00"
   }
  ],
  "peak_score": 99.0,
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "points",
  "created": "2026-11-04T18:53:29Z",
- "last_seen": "2026-11-04T20:16:09.342859+00:00",
- "last_why": "45 points in 1h on Hacker News (19 comments).",
+ "last_seen": "2026-11-04T21:31:10.444224+00:00",
+ "last_why": "+1.6K points/day pace right now (128 total).",
  "extra": {
-  "comments": 19,
+  "comments": 47,
   "hn": "https://news.ycombinator.com/item?id=50369925"
  },
  "days": [
