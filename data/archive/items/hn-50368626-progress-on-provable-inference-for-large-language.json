@@ -1,0 +1,33 @@
+{
+ "id": "hn:50368626",
+ "slug": "hn-50368626-progress-on-provable-inference-for-large-language",
+ "first_seen": "2026-11-04T19:01:17.123777+00:00",
+ "appearances": [
+  {
+   "rank": 3,
+   "score": 96.0,
+   "metric": 85,
+   "t": "2026-11-04T19:01:17.123777+00:00"
+  }
+ ],
+ "peak_score": 96.0,
+ "best_rank": 3,
+ "name": "Progress on provable inference for large language models",
+ "url": "https://www.anthropic.com/research/provable-inference",
+ "source": "hackernews",
+ "kind": "news",
+ "desc": "",
+ "what": "",
+ "tag": "dev tools",
+ "metric_name": "points",
+ "created": "2026-11-04T17:17:46Z",
+ "last_seen": "2026-11-04T19:01:17.123777+00:00",
+ "last_why": "+1.0K points/day pace right now (85 total).",
+ "extra": {
+  "comments": 29,
+  "hn": "https://news.ycombinator.com/item?id=50368626"
+ },
+ "days": [
+  "2026-11-04"
+ ]
+}

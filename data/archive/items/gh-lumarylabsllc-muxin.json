@@ -8,10 +8,16 @@
    "score": 93.2,
    "metric": 246,
    "t": "2026-10-17T18:05:00.160579+00:00"
+  },
+  {
+   "rank": 6,
+   "score": 93.0,
+   "metric": 402,
+   "t": "2026-11-04T19:01:17.123777+00:00"
   }
  ],
  "peak_score": 93.2,
- "best_rank": 9,
+ "best_rank": 6,
  "name": "LumaryLabsLLC/muxin",
  "url": "https://github.com/LumaryLabsLLC/muxin",
  "source": "github",
@@ -21,10 +27,10 @@
  "tag": "agents",
  "metric_name": "stars",
  "created": "2026-10-08T17:47:55Z",
- "last_seen": "2026-10-17T18:05:00.160579+00:00",
- "last_why": "+336 stars/day pace right now (246 total).",
+ "last_seen": "2026-11-04T19:01:17.123777+00:00",
+ "last_why": "402 stars since launch 27 days ago \u2248 15 stars/day since launch.",
  "extra": {
-  "forks": 37,
+  "forks": 59,
   "lang": "Rust",
   "topics": [
    "ai-agents",
@@ -41,6 +47,7 @@
   "repo_id": 1410747188
  },
  "days": [
-  "2026-10-17"
+  "2026-10-17",
+  "2026-11-04"
  ]
 }
