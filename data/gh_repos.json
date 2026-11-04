@@ -444,7 +444,9 @@
   "1437131455": "lexifina/global-law",
   "1420250493": "uclanlp/OpenVLHarness",
   "1443018818": "Future-Proof-DS/interactive-ai-ml-tools",
-  "1443985070": "KKKKhazix/agent-autoloop"
+  "1443985070": "KKKKhazix/agent-autoloop",
+  "1429601047": "wici-ai/inferssd",
+  "1430134074": "Anubis-Security-Tool/anubis"
  },
  "checked": {
   "anujasid/mcp-for-blender-pro": 1792241137.2138562,
@@ -453,7 +455,7 @@
   "Akun-python/autumn-recruitment": 1793724386.3319883,
   "jddevtime/open-lakehouse-compute-fabric": 1793715392.2353227,
   "amontlabs/lcu": 1793701887.8905241,
-  "zgcagi/Harness-RSI": 1793675788.3922298,
+  "zgcagi/Harness-RSI": 1793763982.874882,
   "LiCinCan/blender-ai-mcp-addon": 1793737921.7211802,
   "nano-muse/nanoMuse": 1793684783.635304,
   "sit-in/awesome-grokbot-playbooks": 1792764824.0909247,
@@ -474,18 +476,18 @@
   "stockedge/manga-generator": 1793102485.3353572,
   "AienTech/dossier": 1793754983.613305,
   "C4rohan/Lampline": 1793268984.6268373,
-  "FoShmily/ai-paper-system": 1793675788.3922298,
+  "FoShmily/ai-paper-system": 1793763982.874882,
   "Folkbench/folkbench": 1793754983.613305,
   "HRuiCcc/RuiC-oc-ferry": 1793268984.6268373,
   "Kai-Jungsthoefel/SOMA": 1793268984.6268373,
-  "StartLuxLabs/StartLux-Decision": 1793675788.3922298,
+  "StartLuxLabs/StartLux-Decision": 1793763982.874882,
   "VecSzn/PolyStrata": 1793268984.6268373,
   "chenxiachan/textfold": 1793754983.613305,
   "TheLastOxygen/mafdet": 1793115089.6638021,
   "FengZhenfei/carrel": 1793680284.119917,
   "dagoSte/squadra": 1793680284.119917,
   "1105216375-alt/resimind": 1793745989.4560359,
-  "cobanov/PS5LM": 1793675788.3922298,
+  "cobanov/PS5LM": 1793763982.874882,
   "kanaworksai-hue/audio-studio-mcp": 1793268984.6268373,
   "HelixDB/helix-foundry": 1793273487.7184563,
   "Leonxlnx/earshot": 1793273487.7184563,
@@ -501,7 +503,7 @@
   "yzlin286-wq/Deepscient": 1793277987.1093292,
   "ChannelCooperStart/capri-ai": 1793724386.3319883,
   "LosaLosSantos/aurelio-finance": 1793480482.17803,
-  "mashanglinyu/luanyujia-workbench": 1793675788.3922298,
+  "mashanglinyu/luanyujia-workbench": 1793763982.874882,
   "hamzafer/claude-code-mods": 1793750489.448011,
   "ccch1mneyyy/dsh-go": 1793710891.258442,
   "AIshihzong/awesome-reverse-engineer-anything": 1793430983.5082994,
@@ -514,6 +516,7 @@
   "LumaryLabsLLC/muxin": 1793724386.3319883,
   "UncensoredLabs/uncensored-ai-api": 1793745989.4560359,
   "guregodevo/memdoor": 1793750489.448011,
-  "hanzohanzhe/Grandet": 1793750489.448011
+  "hanzohanzhe/Grandet": 1793750489.448011,
+  "trhhubsd/ARTEX": 1793763982.874882
  }
 }

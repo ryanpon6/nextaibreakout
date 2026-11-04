@@ -3,7 +3,8 @@
  "runs": [
   "2026-11-04T00:01:11.594889+00:00",
   "2026-11-04T01:16:07.047508+00:00",
-  "2026-11-04T02:31:07.030810+00:00"
+  "2026-11-04T02:31:07.030810+00:00",
+  "2026-11-04T03:46:07.410985+00:00"
  ],
  "items": {
   "hn-50358582-the-little-book-of-generative-ai-foundations-an-i": {
@@ -16,12 +17,12 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 98.2,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 41,
+    "comments": 46,
     "hn": "https://news.ycombinator.com/item?id=50358582"
    },
    "why_at_peak": "+1.1K points/day pace right now (216 total).",
@@ -38,12 +39,12 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 116,
+    "comments": 130,
     "hn": "https://news.ycombinator.com/item?id=50358422"
    },
    "why_at_peak": "+1.8K points/day pace right now (223 total).",
@@ -60,16 +61,16 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 97.4,
    "best_rank": 3,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 155,
+    "comments": 165,
     "hn": "https://news.ycombinator.com/item?id=50355251"
    },
-   "why_at_peak": "+461 points/day pace right now (481 total).",
-   "metric_at_peak": 481,
+   "why_at_peak": "+442 points/day pace right now (520 total).",
+   "metric_at_peak": 520,
    "metric_name": "points"
   },
   "hf-abenzerps-qwen-image-2-1-turbo-quantized": {
@@ -224,13 +225,13 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 93.5,
    "best_rank": 6,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T01:16:07.047508+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 10742,
-    "trending": 491,
+    "trending": 500,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -276,8 +277,8 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 85.6,
    "best_rank": 10,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -298,12 +299,12 @@
    "first_seen": "2026-11-04T01:16:07.047508+00:00",
    "peak_score": 95.2,
    "best_rank": 4,
-   "runs_in_top10": 2,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 3,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 367,
+    "forks": 376,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -452,12 +453,12 @@
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "\u8ba9\u4f60\u7684\u547d\u4ee4\u884c Agent \u5728\u540e\u53f0\u81ea\u5df1\u63a5\u6d3b\u3001\u81ea\u5df1\u8ddf\u8fdb\u5230\u5e95\uff1b\u5e73\u65f6\u4e0d\u70e6\u4f60\uff0c\u9047\u5230\u62ff\u4e0d\u51c6\u7684\u4e8b\u624d\u53d1\u5361\u7247\u627e\u4f60\u62cd\u677f\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 128,
+    "forks": 179,
     "lang": "TypeScript",
     "topics": [
      "ai-agents",
@@ -474,8 +475,8 @@
     ],
     "repo_id": 1443985070
    },
-   "why_at_peak": "633 stars since launch 1 days ago \u2248 822 stars/day since launch.",
-   "metric_at_peak": 633,
+   "why_at_peak": "882 stars since launch 1 days ago \u2248 1.1K stars/day since launch.",
+   "metric_at_peak": 882,
    "metric_name": "stars"
   },
   "hf-ista-daslab-deepseek-v4-1-flash-1017-gsq-rco-coder-gguf": {
@@ -488,13 +489,13 @@
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
    "peak_score": 98.2,
    "best_rank": 2,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T02:31:07.030810+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 28666,
-    "trending": 120,
+    "trending": 122,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -600,6 +601,77 @@
    "why_at_peak": "+77 likes/day pace right now (609 total).",
    "metric_at_peak": 609,
    "metric_name": "likes"
+  },
+  "hf-openbmb-minicpm-ocr-1-0": {
+   "id": "hfmodel:openbmb/MiniCPM-OCR-1.0",
+   "slug": "hf-openbmb-minicpm-ocr-1-0",
+   "name": "openbmb/MiniCPM-OCR-1.0",
+   "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-04T03:46:07.410985+00:00",
+   "peak_score": 93.6,
+   "best_rank": 6,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 10393,
+    "trending": 145,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "Trending score 145 on Hugging Face; 416 likes, 10.4K downloads.",
+   "metric_at_peak": 416,
+   "metric_name": "likes"
+  },
+  "gh-anubis-security-tool-anubis": {
+   "id": "gh:Anubis-Security-Tool/anubis",
+   "slug": "gh-anubis-security-tool-anubis",
+   "name": "Anubis-Security-Tool/anubis",
+   "url": "https://github.com/Anubis-Security-Tool/anubis",
+   "source": "github",
+   "kind": "tool",
+   "first_seen": "2026-11-04T03:46:07.410985+00:00",
+   "peak_score": 92.8,
+   "best_rank": 7,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T03:46:07.410985+00:00",
+   "what": "\ufe0f Free Open-Source AI-Powered Security Terminal & Vulnerability Scanner (CVE, SBOM). Multi-Protocol Access: SSH, SFTP, RDP, VNC, Serial.\u2026",
+   "tag": "safety",
+   "extra": {
+    "forks": 50,
+    "lang": "JavaScript",
+    "topics": [
+     "anubis",
+     "anubis-security-tool",
+     "developer-tools",
+     "electron",
+     "ftp",
+     "linux",
+     "macos",
+     "mcp",
+     "rdp",
+     "remote-access",
+     "self-hosted",
+     "serial-port",
+     "sftp",
+     "spice",
+     "ssh",
+     "system-administration",
+     "telnet",
+     "terminal",
+     "vnc",
+     "windows"
+    ],
+    "repo_id": 1430134074
+   },
+   "why_at_peak": "400 stars since launch 12 days ago \u2248 32 stars/day since launch.",
+   "metric_at_peak": 400,
+   "metric_name": "stars"
   }
  }
 }
