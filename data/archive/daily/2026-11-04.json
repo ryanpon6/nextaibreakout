@@ -14,7 +14,8 @@
   "2026-11-04T12:46:18.586624+00:00",
   "2026-11-04T14:01:07.574035+00:00",
   "2026-11-04T15:16:12.468856+00:00",
-  "2026-11-04T16:31:09.498909+00:00"
+  "2026-11-04T16:31:09.498909+00:00",
+  "2026-11-04T17:46:08.814036+00:00"
  ],
  "items": {
   "hn-50358582-the-little-book-of-generative-ai-foundations-an-i": {
@@ -235,13 +236,13 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 93.5,
    "best_rank": 6,
-   "runs_in_top10": 7,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 8,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "image-to-3d model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 14613,
-    "trending": 545,
+    "trending": 549,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -287,8 +288,8 @@
    "first_seen": "2026-11-04T00:01:11.594889+00:00",
    "peak_score": 89.1,
    "best_rank": 8,
-   "runs_in_top10": 14,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 15,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "Python package",
    "tag": "agents",
    "extra": {
@@ -309,12 +310,12 @@
    "first_seen": "2026-11-04T01:16:07.047508+00:00",
    "peak_score": 95.2,
    "best_rank": 4,
-   "runs_in_top10": 10,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 11,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 425,
+    "forks": 426,
     "lang": "Dart",
     "topics": [
      "ai-agent",
@@ -463,12 +464,12 @@
    "first_seen": "2026-11-04T02:31:07.030810+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 12,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 13,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "\u8ba9\u4f60\u7684\u547d\u4ee4\u884c Agent \u5728\u540e\u53f0\u81ea\u5df1\u63a5\u6d3b\u3001\u81ea\u5df1\u8ddf\u8fdb\u5230\u5e95\uff1b\u5e73\u65f6\u4e0d\u70e6\u4f60\uff0c\u9047\u5230\u62ff\u4e0d\u51c6\u7684\u4e8b\u624d\u53d1\u5361\u7247\u627e\u4f60\u62cd\u677f\u3002",
    "tag": "agents",
    "extra": {
-    "forks": 464,
+    "forks": 473,
     "lang": "TypeScript",
     "topics": [
      "ai-agents",
@@ -648,12 +649,12 @@
    "first_seen": "2026-11-04T03:46:07.410985+00:00",
    "peak_score": 94.3,
    "best_rank": 6,
-   "runs_in_top10": 3,
-   "last_seen": "2026-11-04T08:46:07.874696+00:00",
+   "runs_in_top10": 4,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "\ufe0f Free Open-Source AI-Powered Security Terminal & Vulnerability Scanner (CVE, SBOM). Multi-Protocol Access: SSH, SFTP, RDP, VNC, Serial.\u2026",
    "tag": "safety",
    "extra": {
-    "forks": 51,
+    "forks": 63,
     "lang": "JavaScript",
     "topics": [
      "anubis",
@@ -954,12 +955,12 @@
    "first_seen": "2026-11-04T11:31:08.110234+00:00",
    "peak_score": 97.4,
    "best_rank": 2,
-   "runs_in_top10": 5,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 6,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 187,
+    "comments": 197,
     "hn": "https://news.ycombinator.com/item?id=50362905"
    },
    "why_at_peak": "+1.4K points/day pace right now (177 total).",
@@ -1002,12 +1003,12 @@
    "first_seen": "2026-11-04T12:46:18.586624+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 4,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 5,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "",
    "tag": "dev tools",
    "extra": {
-    "comments": 362,
+    "comments": 434,
     "hn": "https://news.ycombinator.com/item?id=50364336"
    },
    "why_at_peak": "+2.7K points/day pace right now (266 total).",
@@ -1190,13 +1191,13 @@
    "first_seen": "2026-11-04T16:31:09.498909+00:00",
    "peak_score": 99.0,
    "best_rank": 1,
-   "runs_in_top10": 1,
-   "last_seen": "2026-11-04T16:31:09.498909+00:00",
+   "runs_in_top10": 2,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
    "what": "image-text-to-text model on Hugging Face",
    "tag": "models",
    "extra": {
     "downloads": 797,
-    "trending": 153,
+    "trending": 288,
     "hf_type": "model",
     "title": null,
     "summary": null,
@@ -1230,6 +1231,54 @@
    },
    "why_at_peak": "Trending score 119 on Hugging Face; 138 likes, 43.1K downloads.",
    "metric_at_peak": 138,
+   "metric_name": "likes"
+  },
+  "hn-50366971-yc-s-garry-tan-uses-ai-agents-so-much-he-spends-u": {
+   "id": "hn:50366971",
+   "slug": "hn-50366971-yc-s-garry-tan-uses-ai-agents-so-much-he-spends-u",
+   "name": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+   "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+   "source": "hackernews",
+   "kind": "news",
+   "first_seen": "2026-11-04T17:46:08.814036+00:00",
+   "peak_score": 95.2,
+   "best_rank": 4,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
+   "what": "",
+   "tag": "agents",
+   "extra": {
+    "comments": 57,
+    "hn": "https://news.ycombinator.com/item?id=50366971"
+   },
+   "why_at_peak": "+480 points/day pace right now (45 total).",
+   "metric_at_peak": 45,
+   "metric_name": "points"
+  },
+  "hf-nvidia-deepseek-v4-1-flash-1017-nvfp4": {
+   "id": "hfmodel:nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+   "slug": "hf-nvidia-deepseek-v4-1-flash-1017-nvfp4",
+   "name": "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+   "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+   "source": "huggingface",
+   "kind": "model",
+   "first_seen": "2026-11-04T17:46:08.814036+00:00",
+   "peak_score": 85.7,
+   "best_rank": 10,
+   "runs_in_top10": 1,
+   "last_seen": "2026-11-04T17:46:08.814036+00:00",
+   "what": "image-text-to-text model on Hugging Face",
+   "tag": "models",
+   "extra": {
+    "downloads": 3648,
+    "trending": 141,
+    "hf_type": "model",
+    "title": null,
+    "summary": null,
+    "sdk": null
+   },
+   "why_at_peak": "+77 likes/day pace right now (171 total).",
+   "metric_at_peak": 171,
    "metric_name": "likes"
   }
  }
