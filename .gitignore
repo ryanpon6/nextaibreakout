@@ -18,6 +18,7 @@
 !/labs.py
 !/migrate_archive.py
 !/score.py
+!/cjkcheck.py
 !/selfcheck.py
 !/seo2.py
 !/labs.css

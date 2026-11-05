@@ -45,6 +45,20 @@ def window_ok(it):
     if it.get("source") == "pypi":  # pypistats gives totals only: require a non-zero day and week
         return bool(ex.get("week")) and bool(it.get("metric"))
     return False
+CJK = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af\uff00-\uffef]")
+def mostly_cjk(t):
+    """True if >=20% of the non-space chars are CJK (or 3+ CJK chars). English-only site: drop these."""
+    t = re.sub(r"\s", "", t or ""); n = len(CJK.findall(t))
+    return n >= 3 or (t and n / len(t) >= 0.2)
+# Soft quality gate (conservative: hide rather than promote junk): items whose title claims SOTA / beats-X /
+# "Preview" model names are dropped unless the item's own URL is a real GitHub/HF/HN/PyPI/npm page.
+CLAIM = re.compile(r"\b(sota|state[- ]of[- ]the[- ]art|preview|beats?|surpass\w*|outperform\w*|matche[sd]|agi)\b", re.I)
+REAL_SRC = ("github.com/", "huggingface.co/", "news.ycombinator.com/", "pypi.org/", "npmjs.com/")
+def junk(it):
+    if mostly_cjk(it.get("name")) or mostly_cjk(it.get("desc")): return True
+    if CLAIM.search(it.get("name") or "") and not any(h in (it.get("url") or "") for h in REAL_SRC): return True
+    if it.get("source") == "hackernews" and CLAIM.search(it.get("name") or "") and re.search(r"-\d+B\b.*preview|preview.*-\d+B\b", it.get("name") or "", re.I): return True
+    return False
 def score():
     cur, prev, now = load()
     AL = aliases()  # GitHub renames: older snapshots carry the old ID; key history by the canonical one
@@ -55,6 +69,7 @@ def score():
         for x in json.load(open(os.path.join(SNAP, f)))["items"]: c = canon(x["id"], AL); nsnap[c] = nsnap.get(c, 0) + 1
     out = []
     for it in cur["items"]:
+        if junk(it): continue
         if it["source"] == "hackernews":
             if not AI_RE.search(it["name"]) or OPINION.search(it["name"]) or any(h in it["url"] for h in OPINION_HOSTS): continue
         if it["source"] == "github":

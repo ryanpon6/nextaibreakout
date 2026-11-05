@@ -18,6 +18,7 @@ if [[ "$SEO2" == "1" ]]; then
     exit 3
   fi
 fi
+python3 cjkcheck.py dist/index.html || { echo "CJK in homepage, DEPLOY SKIPPED" >&2; exit 4; }
 if [[ "${DEPLOY:-0}" == "1" ]]; then
   set -a; . "$HOME/.secrets/cloudflare.env"; set +a
   export CLOUDFLARE_ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:-fdc58fb4586f5e0eea17aaebad49c994}"
