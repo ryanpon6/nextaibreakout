@@ -1,0 +1,45 @@
+{
+ "id": "gh:wici-ai/inferssd",
+ "slug": "gh-wici-ai-inferssd",
+ "first_seen": "2026-11-05T00:01:14.728210+00:00",
+ "appearances": [
+  {
+   "rank": 6,
+   "score": 93.7,
+   "metric": 312,
+   "t": "2026-11-05T00:01:14.728210+00:00"
+  }
+ ],
+ "peak_score": 93.7,
+ "best_rank": 6,
+ "name": "wici-ai/inferssd",
+ "url": "https://github.com/wici-ai/inferssd",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Built on llama.cpp.",
+ "what": "Run models larger than your RAM or VRAM by streaming MoE experts from SSD. Built on llama.cpp.",
+ "tag": "models",
+ "metric_name": "stars",
+ "created": "2026-10-22T10:40:45Z",
+ "last_seen": "2026-11-05T00:01:14.728210+00:00",
+ "last_why": "312 stars since launch 14 days ago \u2248 23 stars/day since launch.",
+ "extra": {
+  "forks": 48,
+  "lang": "C++",
+  "topics": [
+   "apple-silicon",
+   "cuda",
+   "gguf",
+   "inference",
+   "llama-cpp",
+   "llm",
+   "metal",
+   "mixture-of-experts",
+   "ssd"
+  ],
+  "repo_id": 1429601047
+ },
+ "days": [
+  "2026-11-05"
+ ]
+}

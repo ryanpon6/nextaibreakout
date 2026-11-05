@@ -1,0 +1,42 @@
+{
+ "id": "gh:fayazara/robot-heads",
+ "slug": "gh-fayazara-robot-heads",
+ "first_seen": "2026-11-05T00:01:14.728210+00:00",
+ "appearances": [
+  {
+   "rank": 7,
+   "score": 92.3,
+   "metric": 445,
+   "t": "2026-11-05T00:01:14.728210+00:00"
+  }
+ ],
+ "peak_score": 92.3,
+ "best_rank": 7,
+ "name": "fayazara/robot-heads",
+ "url": "https://github.com/fayazara/robot-heads",
+ "source": "github",
+ "kind": "tool",
+ "desc": "Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.",
+ "what": "Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.",
+ "tag": "agents",
+ "metric_name": "stars",
+ "created": "2026-10-09T16:28:47Z",
+ "last_seen": "2026-11-05T00:01:14.728210+00:00",
+ "last_why": "445 stars since launch 26 days ago \u2248 17 stars/day since launch.",
+ "extra": {
+  "forks": 63,
+  "lang": "TypeScript",
+  "topics": [
+   "ai-agents",
+   "animation",
+   "avatar",
+   "canvas",
+   "react",
+   "robot"
+  ],
+  "repo_id": 1412143785
+ },
+ "days": [
+  "2026-11-05"
+ ]
+}
