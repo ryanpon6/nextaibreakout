@@ -29,7 +29,8 @@
     "/archive/*",
     "/grok-bot",
     "/grok-bot/*",
-    "/about.html"
+    "/about.html",
+    "/data.json"
   ],
   "exclude": [
     "/",
@@ -43,7 +44,6 @@
     "/sitemap.xml",
     "/robots.txt",
     "/llms.txt",
-    "/data.json",
     "/feed.xml",
     "/favicon.svg",
     "/style.css",

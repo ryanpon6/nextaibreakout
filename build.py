@@ -350,9 +350,7 @@ def main():
         f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n"
     )
     open(os.path.join(DIST, "llms.txt"), "w", encoding="utf-8").write(LLMS)
-    # Leave /data.json in place. migration.md wants it 410'd; that is reported, not done,
-    # because the watchdog Worker may still be live and the parent asked not to delete it.
-    json.dump({k: d[k] for k in ("generated", "top", "frontier") if k in d}, open(os.path.join(DIST, "data.json"), "w"))
+    # /data.json is retired (410 via the Pages Function). Do not emit the stale hourly payload.
     if SEO2:
         print("[build] SEO2=1 is set, but ranking pages are not emitted in this relaunch build")
     import tips

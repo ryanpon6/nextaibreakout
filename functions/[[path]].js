@@ -3,7 +3,7 @@
  * 301 only where a real new page exists. 410 for the rest of the old prefixes.
  * Tightly scoped: this function is only invoked for the include list in _routes.json.
  * It must never handle /, /tips/*, /claude/*, /blog/*, /about, assets,
- * sitemap.xml, robots.txt, llms.txt, feed.xml, or /data.json.
+ * sitemap.xml, robots.txt, llms.txt, or feed.xml.
  */
 const TIPS = "/tips/";
 const ABOUT = "/about";
@@ -28,6 +28,7 @@ const RETIRED = [
   "/today",
   "/frontier",
   "/archive",
+  "/data.json",
 ];
 
 function isRetired(path) {
@@ -47,7 +48,6 @@ function isProtected(path) {
     "/sitemap.xml",
     "/robots.txt",
     "/llms.txt",
-    "/data.json",
     "/feed.xml",
     "/favicon.svg",
     "/style.css",

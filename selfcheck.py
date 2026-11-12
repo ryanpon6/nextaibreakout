@@ -115,6 +115,8 @@ for loc in re.findall(r"<loc>([^<]+)</loc>", sm):
 for shadow in ("item", "daily", "labs", "github", "huggingface", "npm", "pypi", "breakouts", "agents", "models", "grok-bot"):
     if os.path.exists(os.path.join(D, shadow)):
         F(shadow, "retired path still present in dist")
+if os.path.exists(os.path.join(D, "data.json")):
+    F("data.json", "retired payload still present in dist; should 410 and not be emitted")
 
 # blog: every published post is built, has Article JSON-LD and a sitemap entry
 import blog as _blog
