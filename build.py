@@ -24,13 +24,6 @@ WORD = f'{LOGO}<span>NextAiBreakout</span>'
 XICON = '<svg class="xi" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M17.8 2.5h3.1l-6.8 7.8 8 10.6h-6.3l-4.9-6.4-5.6 6.4H2.2l7.3-8.3L1.9 2.5h6.4l4.4 5.9 5.1-5.9zm-1.1 16.6h1.7L7.4 4.3H5.6l11.1 14.8z"/></svg>'
 MENU = '<svg class="i-menu" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>'
 CLOSE = '<svg class="i-close" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
-SUN = '<svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>'
-MOON = '<svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>'
-# Theme: follows the device (prefers-color-scheme) until the visitor picks one with the header button; the choice is kept in localStorage.
-THEME_JS = ("<script>(function(){var d=document.documentElement;try{var t=localStorage.getItem('nab-theme');if(t==='dark'||t==='light')d.setAttribute('data-theme',t)}catch(_){}"
-            "document.addEventListener('click',function(ev){var b=ev.target.closest&&ev.target.closest('[data-theme-toggle]');if(!b)return;"
-            "var c=d.getAttribute('data-theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),n=c==='dark'?'light':'dark';"
-            "d.setAttribute('data-theme',n);try{localStorage.setItem('nab-theme',n)}catch(_){}})})();</script>")
 MENU_JS = ("<script>(function(){function q(){return document.querySelector('.nav-toggle')}"
            "function set(open){var b=q();if(!b)return;b.setAttribute('aria-expanded',open?'true':'false');b.setAttribute('aria-label',open?'Close menu':'Open menu')}"
            "document.addEventListener('click',function(ev){var b=q();if(!b)return;"
@@ -81,10 +74,10 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="dark"><meta name="theme-color" content="#274043">
-<link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{THEME_JS}{MENU_JS}</head><body>
+<link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{WORD}</a>
 <nav id="site-nav" aria-label="Primary"><a href="/tips/">Tips</a><a href="/blog/">Blog</a><a href="/about">About</a></nav>
-<div class="acts"><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button><button class="ib" type="button" data-theme-toggle aria-label="Switch light or dark theme">{SUN}{MOON}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="/#subscribe" class="cta">Subscribe</a></div></header>"""
+<div class="acts"><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="/#subscribe" class="cta">Subscribe</a></div></header>"""
 
 def foot(year, root=""):
     return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Tips</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""

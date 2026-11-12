@@ -1,23 +1,7 @@
-/* NextAiBreakout: Pacific Sea Teal + champagne gold.
-   Same teal look in every theme (default, prefers-color-scheme, and html[data-theme])
-   so gold text is never placed on a light background.
+/* NextAiBreakout: Pacific Sea Teal + champagne gold. Single teal skin; no theme switching.
    --accent (#B8A188) is for headings, logo, borders and buttons.
    --gold-ink (#BCA68E) is a lighter tint for small text and links (WCAG AA 4.5:1 on #274043). */
 :root{--f:'Archivo','Helvetica Neue',Arial,sans-serif;
---bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
---accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
---spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
---bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
---accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
---spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
-:root:not([data-theme=light]) .i-sun{display:block}:root:not([data-theme=light]) .i-moon{display:none}}
-:root[data-theme=dark]{
---bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
---accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
---spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
-:root[data-theme=dark] .i-sun{display:block}:root[data-theme=dark] .i-moon{display:none}
-:root[data-theme=light]{
 --bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
 --accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
 --spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
@@ -46,7 +30,7 @@ nav{display:flex;flex-wrap:wrap;gap:6px 26px;font-size:15px;font-weight:500}
 nav a{color:var(--ink2)}nav a:hover{color:var(--ink)}
 .acts{display:flex;align-items:center;gap:10px;flex:none}
 .ib{width:44px;height:44px;border-radius:999px;border:1px solid var(--rule2);background:transparent;color:var(--ink);display:grid;place-items:center;cursor:pointer;padding:0}
-.ib svg{width:18px;height:18px}.i-sun{display:none}
+.ib svg{width:18px;height:18px}
 .ghost{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--rule2);font-weight:600;font-size:15px;color:var(--ink);white-space:nowrap}
 .ghost:hover{border-color:var(--ink2)}
 .xi{width:14px;height:14px;flex:none}
@@ -285,7 +269,7 @@ main{padding:0 18px 32px}.top{padding:16px 18px 12px;gap:10px}.brand{gap:9px}.br
 .gbhome,.gbx{padding:0 18px}
 footer{padding:24px 18px 36px;margin-top:56px}}
 
-/* Keep the header (menu + theme + Subscribe) on one row under 480px without clipping. */
+/* Keep the header (menu + Subscribe) on one row under 480px without clipping. */
 @media (max-width:480px){
 .top{padding-left:12px;padding-right:12px;gap:8px}
 .acts{gap:6px}
