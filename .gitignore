@@ -53,4 +53,6 @@ __pycache__/
 !/claude.py
 !/functions/
 !/functions/**
+!/brand/
+!/brand/**
 !/_redirects

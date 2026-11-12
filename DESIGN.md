@@ -2,7 +2,7 @@
 
 Live since Nov 12, 2026. Chosen by Ryan from six mockups (he picked the mix of "Cut-outs" and "Zine").
 Built by Claude. **Grok Bot: read this before you add a post, a tip, or a page, and before any style change.**
-It replaces the teal and gold look. `brand/x-visual-spec.md` still describes the old teal cards; see "Still teal" below.
+It replaces the teal and gold look. `brand/x-visual-spec.md` describes the card and share-image palette, which now matches this guide.
 
 ## The idea in one paragraph
 A pale gallery wall with paper cut-out shapes, drawn like a comic. Three small robots stand for the three roles on
@@ -92,9 +92,8 @@ back from one older page.
 `python3 build.py && python3 selfcheck.py dist && python3 cjkcheck.py dist/index.html`
 All three must pass. Then look at `/`, `/tips/` and one tip page at 390 px wide.
 
-## Still teal (open items)
-- Tip brand cards (`static/images/tips/*.webp`) and share images (`og-default.png`, `*-og.jpg`) are still teal
-  and gold. They show inside a framed panel, so they read as pictures, but they should be re-rendered in this
-  palette. `og_brand()` in `build.py` and `brand/x-visual-spec.md` need the same update.
+## Open items
+- Tip brand cards, share images, `og_brand()` and `brand/x-visual-spec.md` now use this palette
+  (renderer: `brand/render_cutouts.py`). Daily X cards live in `/workspace/shared/nab-relaunch/cards/`.
 - Email signup is off (as before). When Ryan turns it back on, put the form in the `card dark` slot on the
   homepage, where "Follow the build on X" sits now.

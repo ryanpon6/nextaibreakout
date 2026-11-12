@@ -1,5 +1,5 @@
 /* Self-hosted, Latin subset, all SIL Open Font License. Syne = headings, DM Sans = body, Gochi Hand = handwritten notes.
-   Archivo is kept only because build.py's share-image renderer reads the file directly. */
+   Archivo is kept on disk for older card renderers; new share images use Syne, DM Sans and Gochi Hand. */
 @font-face{font-family:'Syne';font-style:normal;font-weight:400 800;font-display:swap;src:url(/fonts/Syne-var.woff2) format('woff2-variations'),url(/fonts/Syne-var.woff2) format('woff2')}
 @font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;src:url(/fonts/DMSans-var.woff2) format('woff2-variations'),url(/fonts/DMSans-var.woff2) format('woff2')}
 @font-face{font-family:'Gochi Hand';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/GochiHand.woff2) format('woff2')}
