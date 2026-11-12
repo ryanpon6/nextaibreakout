@@ -398,7 +398,7 @@ def prompt_block(text, pid, note=None):
     """Build-time 'Copy this prompt' block. The text is always visible and selectable without JS."""
     note_html = f'<p class="prompt-note">{e(note)}</p>' if note else ""
     return (
-        f'<section class="prompt-block" aria-labelledby="prompt-h-{e(pid)}">'
+        f'<section class="prompt-block" id="{e(pid)}" aria-labelledby="prompt-h-{e(pid)}">'
         f'<div class="prompt-head">'
         f'<h2 class="prompt-title" id="prompt-h-{e(pid)}">Copy this prompt</h2>'
         f'<button type="button" class="btn pri prompt-copy" data-prompt-copy'
@@ -416,7 +416,7 @@ def prompt_blocks(slug):
         return ""
     bits = []
     for i, item in enumerate(items, 1):
-        pid = slug if len(items) == 1 else f"{slug}-{i}"
+        pid = "copy-prompt" if i == 1 else f"copy-prompt-{i}"
         bits.append(prompt_block(item["text"], pid, item.get("note")))
     bits.append(COPY_PROMPT_JS)
     return "".join(bits)

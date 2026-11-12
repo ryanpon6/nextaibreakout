@@ -9,10 +9,13 @@ html.tips .logo-break{stroke:var(--accent)}
 .tips-sec{margin:0 0 48px}
 .tips-sec h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-ink);margin:0 0 16px}
 .tip-cards{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-.tip-cards li{border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:18px 20px}
-.tip-cards a.tip-title{font-size:20px;font-weight:700;color:var(--ink);text-decoration:none}
-.tip-cards a.tip-title:hover{color:var(--accent)}
-.tip-cards .tip-title-static{font-size:20px;font-weight:700;color:var(--ink)}
+.tip-cards li{position:relative;border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:18px 20px;cursor:pointer}
+.tip-cards a.tip-title{font-size:20px;font-weight:700;color:var(--accent);text-decoration:none;cursor:pointer}
+.tip-cards a.tip-title::after{content:"";position:absolute;inset:0;z-index:1}
+.tip-cards a.tip-title:hover,.tip-cards a.tip-title:focus-visible{color:var(--gold-hi);text-decoration:underline;text-underline-offset:3px}
+.tip-cards a.tip-title:focus{outline:none}
+.tip-cards li:has(a.tip-title:focus-visible){outline:2px solid var(--gold-hi);outline-offset:3px}
+.tip-cards .tip-title-static{font-size:20px;font-weight:700;color:var(--accent)}
 .tip-cards p{margin:8px 0 0;color:var(--ink2);font-size:16px}
 .tip-body{font-size:19px;line-height:1.6;color:var(--ink);margin:0 0 28px}
 .tip-shot{margin:0 0 36px}
@@ -34,7 +37,7 @@ html.tips .logo-break{stroke:var(--accent)}
 @media (max-width:640px){
   .tips-main{padding:0 18px 56px}
 }
-.prompt-block{margin:0 0 28px;padding:22px 22px 20px;border:1px solid var(--rule);border-radius:14px;background:var(--bg2)}
+.prompt-block{margin:0 0 28px;padding:22px 22px 20px;border:1px solid var(--rule);border-radius:14px;background:var(--bg2);scroll-margin-top:96px}
 .prompt-block + .prompt-block{margin-top:-8px}
 .prompt-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 12px}
 .prompt-block h2.prompt-title{font-size:clamp(22px,3vw,28px);margin:0;color:var(--accent);font-stretch:125%;letter-spacing:-.04em}

@@ -307,9 +307,12 @@ main h1{overflow-wrap:break-word;hyphens:manual}
   .hero.relaunch{padding-top:28px}
 }
 
-/* Homepage featured tip cards (tips.css is only on /tips/ pages) */
+/* Tip cards: gold title (#E0B84E), whole card is one stretched link. */
 .tip-cards{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-.tip-cards li{border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:18px 20px}
-.tip-cards a.tip-title{font-size:20px;font-weight:700;color:var(--ink);text-decoration:none}
-.tip-cards a.tip-title:hover{color:var(--accent)}
+.tip-cards li{position:relative;border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:18px 20px;cursor:pointer}
+.tip-cards a.tip-title{font-size:20px;font-weight:700;color:var(--accent);text-decoration:none;cursor:pointer}
+.tip-cards a.tip-title::after{content:"";position:absolute;inset:0;z-index:1}
+.tip-cards a.tip-title:hover,.tip-cards a.tip-title:focus-visible{color:var(--gold-hi);text-decoration:underline;text-underline-offset:3px}
+.tip-cards a.tip-title:focus{outline:none}
+.tip-cards li:has(a.tip-title:focus-visible){outline:2px solid var(--gold-hi);outline-offset:3px}
 .tip-cards p{margin:8px 0 0;color:var(--ink2);font-size:16px}
