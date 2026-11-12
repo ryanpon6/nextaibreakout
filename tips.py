@@ -422,6 +422,218 @@ def prompt_blocks(slug):
     return "".join(bits)
 
 
+# Honest tradeoffs and, only when a live X post clearly fits, a "From the team" cite.
+# Proof posts must be by Elon Musk or a verifiable xAI/Grok team member, quoted verbatim,
+# and re-fetched by id before publish. Skip the line rather than stretch a loose match.
+
+PROS_CONS = {
+    "talk-to-one-lead-bot": {
+        "pros": [
+            "I have one place to talk, instead of hopping between specialists.",
+            "There's less juggling. I ask once and the lead routes the work.",
+            "Specialists still do the deep work. I just don't have to manage every thread.",
+        ],
+        "cons": [
+            "That one bot can become a bottleneck if it sits on work.",
+            "It needs clear routing rules, or jobs stay in the lead chat instead of moving on.",
+        ],
+        "proof": {
+            "text": "Grok @Bot is like hiring an incredibly competent chief of staff https://t.co/jFQs8WG5Vo",
+            "url": "https://x.com/elonmusk/status/2114772843997351993",
+            "name": "Elon Musk",
+            "handle": "elonmusk",
+            "date": "October 26, 2026",
+            "role": "Elon Musk, founder of xAI. Post re-fetched by id 2114772843997351993 on Nov 12, 2026; text matched exactly.",
+        },
+    },
+    "quality-checker-before-it-reaches-you": {
+        "pros": [
+            "I get one reviewed answer, not five versions of \"done.\"",
+            "Small issues get cleaned up before I see them.",
+            "Real risks get held, so I spend my time on the ones that matter.",
+        ],
+        "cons": [
+            "It adds a step, so I wait a bit longer for the answer.",
+            "The checker is only as good as the rules file it follows.",
+            "If I don't keep those rules current, bad work can still slip through.",
+        ],
+    },
+    "agent-to-agent-handoffs": {
+        "pros": [
+            "I don't sit in every hop.",
+            "Specialists can keep moving without waiting on me.",
+            "I get one packet instead of a trail of half-updates.",
+        ],
+        "cons": [
+            "If a handoff is vague, the next bot can stall and I won't see it right away.",
+            "A missed finish line is harder to catch when I'm not in the thread.",
+        ],
+    },
+    "drafts-only-approval": {
+        "pros": [
+            "Nothing posts, sends, or spends while I sleep.",
+            "I still see every post, email, DM, or spend before it goes out.",
+            "I can run a fleet without waking up to a surprise on my account.",
+        ],
+        "cons": [
+            "I have to actually approve, so work waits on me.",
+            "If I'm slow, drafts pile up.",
+        ],
+    },
+    "shared-skills-across-bots": {
+        "pros": [
+            "A working workflow gets reused instead of retyped every morning.",
+            "New bots inherit the same steps and the same stop-and-ask rules.",
+            "When the tools change, I update one skill instead of every bot.",
+        ],
+        "cons": [
+            "A stale skill can spread the same mistake across the fleet.",
+            "I have to drop the ones we stopped using, or bots keep following old steps.",
+        ],
+    },
+    "check-your-routine-timezone": {
+        "pros": [
+            "Once I check the zone, the job runs when I meant it to.",
+            "I catch a quiet miss before I start relying on work that never ran.",
+        ],
+        "cons": [
+            "It's easy to assume local time and be wrong.",
+            "A wrong zone fails quietly. I only notice when the work doesn't show up.",
+        ],
+    },
+    "watch-usage-pause-routines": {
+        "pros": [
+            "A paused routine is better than a week of empty slots.",
+            "I can keep the fleet running tomorrow instead of watching everything fail at once.",
+        ],
+        "cons": [
+            "I have to check the meter on purpose.",
+            "If I forget, every routine can still fail together.",
+            "Pausing work means some jobs wait.",
+        ],
+    },
+    "blabara-in-one-day": {
+        "pros": [
+            "A small team with clear roles can ship a real app in a day, not a slide deck.",
+            "It's the clearest proof I have that focused bots beat a pile of unfocused chats.",
+        ],
+        "cons": [
+            "It only worked because the roles stayed clear.",
+            "One good day isn't a promise that every build goes that fast.",
+        ],
+    },
+    "group-chat-per-project": {
+        "pros": [
+            "Handoffs stay in one channel instead of getting dropped between threads.",
+            "Each bot has a distinct role, and the lead still coordinates.",
+            "When the project ends, I close the chat so old context doesn't linger.",
+        ],
+        "cons": [
+            "A group chat still needs a lead, or it turns into noise.",
+            "If I leave it open after the work is done, old context can creep into the next job.",
+        ],
+    },
+    "before-after-proof": {
+        "pros": [
+            "I can see what changed, not just take \"done\" as the answer.",
+            "\"I fixed it\" without proof goes back.",
+            "It's saved me from a lot of false dones.",
+        ],
+        "cons": [
+            "I have to wait for a screenshot or a passing case, so I accept a fix later.",
+            "If the proof is weak, I send it back and we go around again.",
+        ],
+    },
+    "approve-spend-and-credentials": {
+        "pros": [
+            "A bot can draft the step, but I still press the button.",
+            "Payments and logins don't go through on a pre-approval.",
+            "I don't put passwords in the chat, and I don't leave a blank check.",
+        ],
+        "cons": [
+            "Every spend or login waits on me.",
+            "If I miss an approval, the work stops.",
+        ],
+    },
+    "bot-drafts-checker-reviews": {
+        "pros": [
+            "The draft comes back fast.",
+            "A checker reviews it before I ever approve a send.",
+            "Nothing goes out on a bot's say-so alone.",
+        ],
+        "cons": [
+            "Two bots plus my approval is more moving parts.",
+            "The send still waits on me.",
+            "If the checker is weak, I can still be the last to catch a bad draft.",
+        ],
+    },
+    "scripted-brand-cards": {
+        "pros": [
+            "Every card looks like one site, not a pile of random graphics.",
+            "Same type, same margins, no photos of people.",
+            "I don't redesign a graphic for every post.",
+        ],
+        "cons": [
+            "A scripted style can feel rigid when I need a one-off.",
+            "If the script drifts from the live brand, every new card is off until I fix it.",
+        ],
+    },
+    "scheduled-pack-and-gates": {
+        "pros": [
+            "I get a morning pack without publishing anything.",
+            "Later gates catch problems before anything can go out.",
+            "I still approve.",
+        ],
+        "cons": [
+            "A schedule without a review window just publishes mistakes on time.",
+            "I have to be there for the approval, or the work sits.",
+            "The pack only helps if I actually read it.",
+        ],
+    },
+}
+
+
+def team_proof_block(slug):
+    proof = (PROS_CONS.get(slug) or {}).get("proof")
+    if not proof:
+        return ""
+    label = f"{proof['name']} (@{proof['handle']}), {proof['date']}"
+    return (
+        f'<aside class="team-proof" aria-labelledby="team-proof-heading">'
+        f'<h2 id="team-proof-heading">From the team</h2>'
+        f"<blockquote>"
+        f"<p>{e(proof['text'])}</p>"
+        f"<footer><cite><a href=\"{e(proof['url'])}\">{e(label)}</a></cite></footer>"
+        f"</blockquote>"
+        f"</aside>"
+    )
+
+
+def pros_cons_block(slug):
+    data = PROS_CONS.get(slug)
+    if not data:
+        raise KeyError(f"missing pros/cons for tip {slug}")
+    if not (2 <= len(data["pros"]) <= 4 and 2 <= len(data["cons"]) <= 3):
+        raise ValueError(f"pros/cons count out of range for {slug}")
+    pros = "".join(f"<li>{e(item)}</li>" for item in data["pros"])
+    cons = "".join(f"<li>{e(item)}</li>" for item in data["cons"])
+    return (
+        f'<section class="pros-cons" id="pros-cons" aria-labelledby="pros-cons-heading">'
+        f'<h2 id="pros-cons-heading">Pros and cons</h2>'
+        f"<h3>Pros</h3>"
+        f"<ul>{pros}</ul>"
+        f"<h3>Cons</h3>"
+        f"<ul>{cons}</ul>"
+        f"</section>"
+    )
+
+
+def tip_extras(slug):
+    # Proof (if any), then pros/cons, then the copy-prompt box so the
+    # tradeoffs sit immediately before #copy-prompt when one exists.
+    return team_proof_block(slug) + pros_cons_block(slug) + prompt_blocks(slug)
+
+
 def tip_page(t, year):
     url = SITE + path_of(t["slug"])
     sibs = [BY_SLUG[s] for s in t["siblings"] if s in BY_SLUG]
@@ -433,7 +645,7 @@ def tip_page(t, year):
 {card_figure(t["slug"], t["alt"], CAPTIONS[t["slug"]], lazy=False)}
 <h2 class="how">How I did it</h2>
 <p class="how-body">{e(t["how"])}</p>
-{prompt_blocks(t["slug"])}
+{tip_extras(t["slug"])}
 <nav class="tip-more" aria-label="More tips">
 <h2>More tips</h2>
 <ul>{more}</ul>

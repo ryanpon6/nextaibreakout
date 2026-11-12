@@ -49,3 +49,21 @@ html.tips .logo-break{stroke:var(--accent)}
   .prompt-block{padding:18px 16px 16px}
   .prompt-copy{min-height:44px}
 }
+
+.team-proof{margin:0 0 32px}
+.team-proof h2{font-size:clamp(22px,3vw,28px);margin:0 0 14px;color:var(--accent)}
+.team-proof blockquote{margin:0;padding:16px 18px;border-left:3px solid var(--accent);background:var(--bg2);border-radius:0 10px 10px 0;color:var(--ink)}
+.team-proof blockquote p{margin:0;font-size:17px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere}
+.team-proof cite{display:block;margin:10px 0 0;font-style:normal;font-size:14px;color:var(--mut)}
+.team-proof cite a{color:var(--gold-ink);text-decoration:underline;text-underline-offset:3px}
+.team-proof cite a:hover,.team-proof cite a:focus-visible{color:var(--gold-hi)}
+.pros-cons{margin:0 0 36px}
+.pros-cons h2{font-size:clamp(22px,3vw,28px);margin:0 0 16px;color:var(--accent)}
+.pros-cons h3{font-size:18px;font-weight:700;margin:18px 0 8px;color:var(--accent)}
+.pros-cons ul{margin:0;padding:0 0 0 1.25em;color:var(--ink)}
+.pros-cons li{margin:0 0 8px;font-size:17px;line-height:1.55}
+.pros-cons li:last-child{margin-bottom:0}
+@media (max-width:640px){
+  .pros-cons li,.team-proof blockquote p{font-size:16px}
+  .team-proof blockquote{padding:14px}
+}
