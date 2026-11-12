@@ -45,7 +45,7 @@ def apply(DIST, t):
 <h2>How this site was built</h2>
 <p>Although I mostly use Claude for coding because it produces better results, I relied on Grok to help build this website. Once Grok creates the site and I add the final touches, I use Claude to refine the template and confirm the code structure is correct.</p>
 <h2>A real build: my landscaping company's site</h2>
-<p>Another example is the Landscape Specialists site, which was built with Claude. I have Claude connected to my GitHub, Cloudflare and everything else. It creates mockups for pictures and similar assets for me, and then I narrow them down or combine them to reach a finished product.</p>
+<p>Another example is the Landscape Specialists site, which was built with Claude. I have Claude connected to my GitHub, Cloudflare and everything else. It creates mockups for pictures and similar assets for me, and then I narrow them down or combine them to reach a finalized product.</p>
 <figure>
 <img src="/images/claude/landscape-specialists-home.webp" width="1200" height="750" alt="The Landscape Specialists homepage, built with Claude." loading="lazy">
 <figcaption>The Landscape Specialists homepage, built with Claude.</figcaption>
