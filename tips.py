@@ -343,6 +343,85 @@ def article_ld(t, url):
     }
 
 
+
+# Copyable setup prompts for tips that recommend a bot, routine, or checker.
+# Day 1 text is verbatim. Other drafts stay faithful to that tip; see /workspace/shared/nab-relaunch/tip-prompts.md.
+PROMPTS = {
+    'talk-to-one-lead-bot': [
+        {'text': "You are my Chief of Staff and the only bot I talk to first. Take whatever I ask (business, ideas, research or anything else) and turn it into a clear goal, who owns it, and the next step. Keep unrelated topics in separate threads and never mix them in one answer. When one area gets deep enough, suggest a focused specialist bot, ask me before creating it, give it only the brief it needs, and stay the coordinator. Get facts from live sources, not memory; use memory for my preferences and how I like to work. Never send messages, post, spend money, delete anything or change permissions without my explicit OK. If a tool is missing, tell me what to connect. If you're blocked, stop and ask. Keep replies short and lead with the answer."},
+    ],
+    'quality-checker-before-it-reaches-you': [
+        {'text': 'You are my Quality Checker. Every bot\'s work, including the lead bot\'s, comes to you before it reaches me. I don\'t want five versions of "done." I want one reviewed answer. Follow the rules in the shared file I give you. Clean up small issues in that pass. Hold real risks and do not send those through to me as finished work. You are a reviewer, not the one who publishes or sends.'},
+    ],
+    'agent-to-agent-handoffs': [
+        {'text': 'You are a specialist bot. You do not report to me on every hop. When you finish your part, hand the work to the next specialist with an agent-to-agent message and a clear finish line — what you did, and what they need to do next. Do not leave a trail of half-updates for me. The lead bot will collect one combined summary and bring me the result.'},
+    ],
+    'drafts-only-approval': [
+        {'text': 'Nothing you write may post, send, go out as a DM or email, or spend money unless I have approved it. Drafts only. Write the draft and wait. Another bot saying "it\'s ready" is not approval. My yes is the only approval.'},
+    ],
+    'group-chat-per-project': [
+        {'text': 'You are the lead bot in this project group chat. Every bot in this channel has a distinct role. You coordinate the work here, in this one channel, not across a pile of separate threads. When the project is done, say so and remind me to close the channel. Do not let handoffs get lost.'},
+    ],
+    'before-after-proof': [
+        {'text': 'Do not call a bug or problem fixed until you can prove it with a before and after. "I fixed it" or "done" is not proof. Show me what it looked like, then show me what changed — a screenshot, a failing case that now passes, or something else I can see. If you cannot show that, the work goes back; it is not done.'},
+    ],
+    'approve-spend-and-credentials': [
+        {'text': 'Spending and credentials stay on a one-tap approval from me. You may draft the step. I still press the button. Payments, logins, and anything with credentials come back to me as an approval. Do not put passwords in the chat. Do not treat spend as pre-approved. Do not go ahead on those until I tap yes on an action I recognize.'},
+    ],
+    'bot-drafts-checker-reviews': [
+        {'note': 'For the draft bot.', 'text': "You pull the day's data and write the email draft. You do not send it. Hand the draft to the checker. Fast draft, slow send. Nothing goes out on your say-so."},
+        {'note': 'For the checker bot.', 'text': "You are the checker for this email. Review the draft before anything can go out. Do not send it. Flag problems and hold it if it isn't ready. It only goes out after I approve the send. Nothing goes out on a bot's say-so alone. Fast draft, slow send."},
+    ],
+    'scheduled-pack-and-gates': [
+        {'note': 'For the morning pack.', 'text': 'You run the morning pack. Write the draft of the work for the day. Do not publish or send it. Scheduled prompts are useful; unattended publish is not. Later gates will check the work, and I still approve, before anything can go out.'},
+        {'note': 'For a later gate.', 'text': 'You are a later gate on scheduled work. Check the draft at the time I scheduled you. Catch problems before anything can go out. Do not publish or send. I still approve. A schedule without a review is not a reason to let work go out.'},
+    ],
+}
+
+COPY_PROMPT_JS = (
+    '<script>(function(){'
+    'function copy(pre,btn){var t=pre.textContent,old=btn.textContent;'
+    'function done(){btn.textContent="Copied";btn.setAttribute("aria-label","Copied");'
+    'setTimeout(function(){btn.textContent=old;btn.setAttribute("aria-label","Copy this prompt")},2000)}'
+    'function fallback(){var r=document.createRange();r.selectNodeContents(pre);'
+    'var s=window.getSelection();s.removeAllRanges();s.addRange(r);'
+    'try{if(document.execCommand("copy"))done()}catch(err){}}'
+    'if(navigator.clipboard&&navigator.clipboard.writeText){'
+    'navigator.clipboard.writeText(t).then(done,fallback)}else fallback()}'
+    'document.querySelectorAll("[data-prompt-copy]").forEach(function(btn){'
+    'btn.addEventListener("click",function(){var pre=document.getElementById(btn.getAttribute("aria-controls"));'
+    'if(pre)copy(pre,btn)})})})();</script>'
+)
+
+
+def prompt_block(text, pid, note=None):
+    """Build-time 'Copy this prompt' block. The text is always visible and selectable without JS."""
+    note_html = f'<p class="prompt-note">{e(note)}</p>' if note else ""
+    return (
+        f'<section class="prompt-block" aria-labelledby="prompt-h-{e(pid)}">'
+        f'<div class="prompt-head">'
+        f'<h2 class="prompt-title" id="prompt-h-{e(pid)}">Copy this prompt</h2>'
+        f'<button type="button" class="btn pri prompt-copy" data-prompt-copy'
+        f' aria-label="Copy this prompt" aria-controls="prompt-text-{e(pid)}">Copy this prompt</button>'
+        f"</div>"
+        f"{note_html}"
+        f'<pre id="prompt-text-{e(pid)}" class="prompt-text" tabindex="0">{e(text)}</pre>'
+        f"</section>"
+    )
+
+
+def prompt_blocks(slug):
+    items = PROMPTS.get(slug) or []
+    if not items:
+        return ""
+    bits = []
+    for i, item in enumerate(items, 1):
+        pid = slug if len(items) == 1 else f"{slug}-{i}"
+        bits.append(prompt_block(item["text"], pid, item.get("note")))
+    bits.append(COPY_PROMPT_JS)
+    return "".join(bits)
+
+
 def tip_page(t, year):
     url = SITE + path_of(t["slug"])
     sibs = [BY_SLUG[s] for s in t["siblings"] if s in BY_SLUG]
@@ -354,6 +433,7 @@ def tip_page(t, year):
 {card_figure(t["slug"], t["alt"], CAPTIONS[t["slug"]], lazy=False)}
 <h2 class="how">How I did it</h2>
 <p class="how-body">{e(t["how"])}</p>
+{prompt_blocks(t["slug"])}
 <nav class="tip-more" aria-label="More tips">
 <h2>More tips</h2>
 <ul>{more}</ul>
