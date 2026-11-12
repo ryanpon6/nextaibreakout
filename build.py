@@ -24,7 +24,7 @@ def _filehash(files):
             parts.append(open(path, "rb").read())
     return hashlib.sha1(b"".join(parts)).hexdigest()[:10]
 VER = _filehash(("static/style.css", "fonts/fonts.css"))
-ICON_VER = _filehash(("static/favicon.svg", "static/favicon.png", "static/apple-touch-icon.png"))
+ICON_VER = _filehash(("static/favicon.svg", "static/favicon.png", "static/favicon.ico", "static/apple-touch-icon.png"))
 FONTS = ('<link rel="preload" href="/fonts/Syne-var.woff2" as="font" type="font/woff2" crossorigin>'
          '<link rel="preload" href="/fonts/DMSans-var.woff2" as="font" type="font/woff2" crossorigin>'
          f'<link rel="stylesheet" href="/fonts/fonts.css?v={VER}">')
@@ -104,7 +104,7 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="light"><meta name="theme-color" content="{THEME}">
-<link rel="icon" href="/favicon.svg?v={ICON_VER}" type="image/svg+xml"><link rel="icon" href="/favicon.png?v={ICON_VER}" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ICON_VER}" sizes="180x180">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
+<link rel="icon" href="/favicon.svg?v={ICON_VER}" type="image/svg+xml"><link rel="icon" href="/favicon.png?v={ICON_VER}" type="image/png" sizes="32x32"><link rel="icon" href="/favicon.ico?v={ICON_VER}" sizes="16x16 32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ICON_VER}" sizes="180x180">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{NAVWORD}</a>
 <div class="acts"><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank" aria-label="Follow on X">{XICON}<span>Follow</span></a><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button></div>
 <nav id="site-nav" aria-label="Primary"><a href="/tips/">Grok Bot tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a></nav></header>"""

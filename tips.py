@@ -6,7 +6,7 @@ e = B.e; SITE = B.SITE; BRAND = B.BRAND
 # Cache-bust tips.css without changing the global style.css version.
 TVER = hashlib.sha1(open(os.path.join(B.ROOT, "static", "tips.css"), "rb").read()).hexdigest()[:10]
 CSS = f'<link rel="stylesheet" href="/tips.css?v={TVER}">'
-# Browser chrome follows the teal brand; CSS uses the same palette in light and dark themes.
+# Theme colour matches the Bot Cut-outs page background (DESIGN.md).
 THEME_COLOR = f'<meta name="theme-color" content="{B.THEME}">'
 
 # Copy is from /workspace/shared/nab-relaunch/x-drafts.md (QC-fixed, Nov 12 2026).
@@ -160,11 +160,11 @@ TIPS = [
         "slug": "scripted-brand-cards",
         "title": "Script the cards, don't redesign every post",
         "seo_title": "Scripted brand cards | NextAiBreakout",
-        "meta": "I don't design a new image for every post. A script builds the cards in one brand style: yellow gold on teal, same type, no photos of people. Consistency beats a one-off graphic every time.",
-        "tip": "I don't design a new image for every post. A script builds the cards in one brand style: yellow gold on teal, same type, no photos of people. Consistency beats a one-off graphic every time. How do you keep your visuals from drifting?",
-        "how": "I used a script to render post cards in one style: yellow gold (#E0B84E) on Pacific Sea Teal (#274043), Archivo, no photos of people. Same mark, same margins, a source line on the card. It kept the feed looking like one site, not a pile of random graphics.",
-        "alt": "Brand card quoting the visual rule: one style, every card, gold on teal, Archivo, no photos of people.",
-        "slot": "A quote card: one style, every card. Yellow gold on teal. Archivo. No photos of people.",
+        "meta": "I don't design a new image for every post. A script builds the cards in one brand style: same colours, same type, no photos of people. Consistency beats a one-off graphic every time.",
+        "tip": "I don't design a new image for every post. A script builds the cards in one brand style: same colours, same type, no photos of people. Consistency beats a one-off graphic every time. How do you keep your visuals from drifting?",
+        "how": "I used a script to render post cards in one style: navy ink on a pale ground, Syne and DM Sans, no photos of people. Same mark, same margins, a source line on the card. It kept the feed looking like one site, not a pile of random graphics.",
+        "alt": "Brand card quoting the visual rule: one style, every card, same colours and type, no photos of people.",
+        "slot": "A quote card: one style, every card. Same colours, same type. No photos of people.",
         "section": "skills",
         "siblings": ["shared-skills-across-bots", "before-after-proof", "drafts-only-approval"],
     },

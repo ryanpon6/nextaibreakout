@@ -51,6 +51,7 @@ function isProtected(path) {
     "/feed.xml",
     "/favicon.svg",
     "/favicon.png",
+    "/favicon.ico",
     "/apple-touch-icon.png",
     "/style.css",
     "/tips.css",
@@ -71,14 +72,16 @@ const GONE = `<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>This page was retired | NextAiBreakout</title>
 <meta name="robots" content="noindex">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#274043">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#E9EEF2">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/fonts/fonts.css">
 <style>
-body{margin:0;background:#274043;color:#F5F1E8;font:400 18px/1.55 Archivo,Helvetica Neue,Arial,sans-serif;padding:48px 24px}
+body{margin:0;background:#E9EEF2;color:#0F1B3D;font:400 18px/1.55 'DM Sans',Helvetica Neue,Arial,sans-serif;padding:48px 24px}
 main{max-width:40rem;margin:0 auto}
-h1{color:#E0B84E;font-weight:800;font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0 0 16px}
-p{color:#D8D0C6}
-a{color:#E0B84E}
+h1{font-family:Syne,'DM Sans',sans-serif;color:#0F1B3D;font-weight:800;font-size:clamp(32px,6vw,48px);line-height:1.05;letter-spacing:-.04em;margin:0 0 16px}
+p{color:#46506B}
+a{color:#B92E16}
 </style>
 </head>
 <body>
