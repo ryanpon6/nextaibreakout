@@ -8,8 +8,8 @@ BRAND = B.BRAND
 PATH = "/claude/"
 TITLE = "Claude notes | NextAiBreakout"
 H1 = "Claude, on its own page."
-# 148 chars. Does not claim a "when I use Claude" list that has not been written.
-META = "This site is Grok Bot first. Claude has its own page, including the existing Claude Code Android TV guide. Not a second tips hub."
+# Mentions the Landscape Specialists build and the existing Android TV guide already on the site.
+META = "This site is Grok Bot first. Claude has its own page, including a Landscape Specialists build and the existing Claude Code Android TV guide. Not a second tips hub."
 BLOG = "/blog/claude-code-android-tv-debloat/"
 BLOG_TITLE = "Claude Code Android TV Debloat: cleanyourtv Explained"
 
@@ -42,7 +42,15 @@ def apply(DIST, t):
 <p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude is a separate lane, and this is its page.</p>
 <p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude. I am not claiming Blabara is live on Google Play.</p>
 <p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>
-<p>I have not yet written up a full list of when I reach for Claude. When I have one that's been reviewed, it will go here. Until then, this is what I can stand behind.</p>
+<h2>How this site was built</h2>
+<p>This site, NextAiBreakout, is a Grok Bot tips site I publish on Cloudflare Pages. The tips are from my own Grok Bot setup. Claude stays on this page because I also use it for some of the builds I ship.</p>
+<h2>A real build: my landscaping company's site</h2>
+<p>Another example is the Landscape Specialists site, which was built with Claude. I have Claude connected to my GitHub, Cloudflare and everything else. It creates mockups for pictures and similar assets for me, and then I narrow them down or combine them to reach a finished product.</p>
+<figure>
+<img src="/images/claude/landscape-specialists-home.webp" width="1200" height="750" alt="The Landscape Specialists homepage, built with Claude." loading="lazy">
+<figcaption>The Landscape Specialists homepage, built with Claude.</figcaption>
+</figure>
+<p><a href="https://landscapespecialists.ca" rel="noopener" target="_blank">landscapespecialists.ca</a></p>
 <h2>A guide that's already on the site</h2>
 <p>The one older guide already published here is about using Claude Code to debloat an Android TV, carefully. It covers a public repo, not a build I shipped, and it keeps the safety framing: what the method does, what it doesn't, and what to watch for.</p>
 <p><a href="{BLOG}">{e(BLOG_TITLE)}</a></p>

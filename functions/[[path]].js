@@ -74,9 +74,9 @@ const GONE = `<!doctype html>
 <style>
 body{margin:0;background:#274043;color:#F5F1E8;font:400 18px/1.55 Archivo,Helvetica Neue,Arial,sans-serif;padding:48px 24px}
 main{max-width:40rem;margin:0 auto}
-h1{color:#B8A188;font-weight:800;font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0 0 16px}
+h1{color:#E0B84E;font-weight:800;font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0 0 16px}
 p{color:#D8D0C6}
-a{color:#BCA68E}
+a{color:#E0B84E}
 </style>
 </head>
 <body>

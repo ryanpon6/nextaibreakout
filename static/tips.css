@@ -1,4 +1,4 @@
-/* Tips layout. Headings/borders use --accent (#B8A188); 13px labels and links use --gold-ink (#BCA68E) for AA contrast. */
+/* Tips layout. Headings, borders, labels and links use --accent / --gold-ink (#E0B84E). */
 html.tips .logo-break{stroke:var(--accent)}
 .tips-main{max-width:760px;margin:0 auto;padding:0 24px 72px}
 .tips-main .lede{font-size:19px;line-height:1.55;color:var(--ink2);max-width:56ch;margin:8px 0 32px}
@@ -16,8 +16,7 @@ html.tips .logo-break{stroke:var(--accent)}
 .tip-cards p{margin:8px 0 0;color:var(--ink2);font-size:16px}
 .tip-body{font-size:19px;line-height:1.6;color:var(--ink);margin:0 0 28px}
 .tip-shot{margin:0 0 36px}
-.tip-shot-box{min-height:220px;border:1px dashed var(--rule2);border-radius:14px;background:var(--bg2);display:flex;align-items:center;justify-content:center;padding:24px;text-align:center;color:var(--mut);font-size:15px;line-height:1.5}
-.tip-shot-box strong{display:block;color:var(--ink2);font-weight:600;margin-bottom:8px}
+.tip-shot img{width:100%;height:auto;border-radius:14px;display:block;background:var(--bg2);aspect-ratio:16/9}
 .tip-shot figcaption{margin:10px 0 0;font-size:14px;color:var(--mut)}
 .tips-main h2.how{font-size:clamp(22px,3vw,28px);margin:0 0 14px}
 .how-body{font-size:17px;line-height:1.6;color:var(--ink2);margin:0 0 40px}
@@ -32,8 +31,6 @@ html.tips .logo-break{stroke:var(--accent)}
 .hub-only .tip-body{font-size:17px;margin:0 0 16px}
 .hub-only .how-body{margin:0 0 16px}
 .hub-only .tip-shot{margin:0 0 16px}
-.hub-only .tip-shot-box{min-height:160px}
 @media (max-width:640px){
   .tips-main{padding:0 18px 56px}
-  .tip-shot-box{min-height:180px}
 }

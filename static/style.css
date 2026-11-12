@@ -1,10 +1,11 @@
-/* NextAiBreakout: Pacific Sea Teal + champagne gold. Single teal skin; no theme switching.
-   --accent (#B8A188) is for headings, logo, borders and buttons.
-   --gold-ink (#BCA68E) is a lighter tint for small text and links (WCAG AA 4.5:1 on #274043). */
+/* NextAiBreakout: Pacific Sea Teal + yellow gold. Single teal skin; no theme switching.
+   --accent / --gold / --gold-ink (#E0B84E) is one gold for headings, logo, links, small text, buttons and borders.
+   Contrast: 5.86:1 on #274043 and 7.03:1 on #1F3336 (AA for small text). Button text #1F3336 on #E0B84E is 7.03:1.
+   --gold-hi (#E8C45A) is a lighter gold for glows and chart highlights only. */
 :root{--f:'Archivo','Helvetica Neue',Arial,sans-serif;
---bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
---accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
---spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
+--bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(224,184,78,.28);--rule2:rgba(224,184,78,.45);
+--accent:#E0B84E;--gold:var(--accent);--gold-ink:#E0B84E;--gold-hi:#E8C45A;--on-gold:#1F3336;--glow:rgba(224,184,78,.22);--grid:rgba(224,184,78,.08);--area:1;--err:#FF8F7A;
+--spark:#E0B84E;--s-github:#A3AAB8;--s-huggingface:#E0B84E;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip}
@@ -199,6 +200,7 @@ background:radial-gradient(800px 380px at 72% 66%,var(--glow),transparent 70%),l
 .prose h1{font-size:clamp(34px,4.4vw,54px);line-height:.95;font-stretch:125%;letter-spacing:-.045em;margin:0 0 24px;text-wrap:balance}
 .prose h2{font-size:32px;margin:48px 0 12px}
 .prose p,.prose li{font-size:17px;color:var(--ink2)}.prose li{margin:8px 0}
+.prose figure{margin:28px 0 36px}.prose figure img{width:100%;height:auto;border-radius:14px;display:block;background:var(--bg2)}.prose figcaption{margin:10px 0 0;font-size:14px;color:var(--mut)}
 .kit-welcome{padding-top:64px;min-height:52vh}
 
 /* Grok Bot page */

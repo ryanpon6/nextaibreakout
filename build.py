@@ -13,14 +13,14 @@ H1_TEXT = "Grok Bot tips, with the real build behind each one."
 H1_HTML = 'Grok Bot tips, with the real build behind each one.'
 e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
-GOLD = "#B8A188"
+GOLD = "#E0B84E"
 # Cache-busting: stylesheet/font URLs carry a hash of their contents, so a visitor's browser never pairs new pages with an old cached stylesheet.
 VER = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("static/style.css", "fonts/fonts.css"))).hexdigest()[:10]
 FONTS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
          f'<link rel="stylesheet" href="/fonts/fonts.css?v={VER}">')
 # Mark: a frame with a line breaking out through its top-right corner
 LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
-        '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#B8A188" stroke-width="2.6" stroke-linecap="square"/></svg>')
+        '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#E0B84E" stroke-width="2.6" stroke-linecap="square"/></svg>')
 WORD = f'{LOGO}<span>NextAiBreakout</span>'
 XICON = '<svg class="xi" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M17.8 2.5h3.1l-6.8 7.8 8 10.6h-6.3l-4.9-6.4-5.6 6.4H2.2l7.3-8.3L1.9 2.5h6.4l4.4 5.9 5.1-5.9zm-1.1 16.6h1.7L7.4 4.3H5.6l11.1 14.8z"/></svg>'
 MENU = '<svg class="i-menu" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>'
@@ -115,18 +115,18 @@ def short(s, n=64):
     s = s.split(". ")[0].rstrip(".")
     return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
 def og_brand():
-    """Teal and champagne-gold default OG image. No ranking product, no invented stats."""
+    """Teal and yellow-gold default OG image. No ranking product, no invented stats."""
     font = os.path.join(ROOT, "fonts", "Archivo-var.woff2")
     page = f"""<!doctype html><html><head><style>
 @font-face{{font-family:Archivo;src:url('file://{font}') format('woff2');font-weight:100 900;font-stretch:62% 125%;}}
 html,body{{margin:0;padding:0}}
 body{{width:1200px;height:630px;background:#274043;color:#F5F1E8;font-family:Archivo,Helvetica Neue,Arial,sans-serif;padding:56px 64px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between}}
-.top{{display:flex;align-items:center;gap:14px;font-stretch:125%;font-weight:800;font-size:28px;color:#B8A188}}
-.logo{{width:40px;height:40px;color:#B8A188}}
-.k{{font-size:20px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#BCA68E;margin:0 0 16px}}
+.top{{display:flex;align-items:center;gap:14px;font-stretch:125%;font-weight:800;font-size:28px;color:#E0B84E}}
+.logo{{width:40px;height:40px;color:#E0B84E}}
+.k{{font-size:20px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#E0B84E;margin:0 0 16px}}
 h1{{font-size:72px;line-height:1.02;font-weight:800;font-stretch:112%;letter-spacing:-.03em;margin:0;max-width:18ch;color:#F5F1E8}}
-.bot{{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(184,161,136,.28);padding-top:22px;font-size:20px}}
-.bot span{{color:#C5C0B6}}.bot b{{color:#B8A188}}
+.bot{{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(224,184,78,.28);padding-top:22px;font-size:20px}}
+.bot span{{color:#C5C0B6}}.bot b{{color:#E0B84E}}
 </style></head><body>
 <div class="top">{WORD}</div>
 <div><p class="k">Grok Bot first. One page for Claude.</p>
@@ -152,9 +152,9 @@ h1{{font-size:72px;line-height:1.02;font-weight:800;font-stretch:112%;letter-spa
             from PIL import Image, ImageDraw, ImageFont
             im = Image.new("RGB", (1200, 630), "#274043")
             d = ImageDraw.Draw(im)
-            d.rectangle((64, 520, 1136, 521), fill="#B8A188")
+            d.rectangle((64, 520, 1136, 521), fill="#E0B84E")
             font_lg = font_sm = ImageFont.load_default()
-            d.text((64, 80), "NextAiBreakout", fill="#B8A188", font=font_lg)
+            d.text((64, 80), "NextAiBreakout", fill="#E0B84E", font=font_lg)
             d.text((64, 220), "Grok Bot tips, with the real", fill="#F5F1E8", font=font_lg)
             d.text((64, 280), "build behind each one.", fill="#F5F1E8", font=font_lg)
             d.text((64, 560), "nextaibreakout.com", fill="#C5C0B6", font=font_sm)
@@ -175,7 +175,6 @@ FEATURED_SLUGS = (
 )
 
 HOME_TITLE = "Grok Bot tips with real builds | NextAiBreakout"
-# Honest meta: do not promise screenshots that are still placeholders.
 HOME_DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
 ABOUT_TITLE = "About this site | NextAiBreakout"
 ABOUT_DESC = "NextAiBreakout is a Grok Bot tips site, with a separate page for Claude. Tips are reviewed before they go up."
@@ -322,9 +321,18 @@ def main():
     open(os.path.join(DIST, "index.html"), "w", encoding="utf-8").write(home_page(t.year))
     open(os.path.join(DIST, "about.html"), "w", encoding="utf-8").write(about_page(t.year))
     open(os.path.join(DIST, "404.html"), "w", encoding="utf-8").write(not_found_page(t.year))
-    for f in os.listdir(os.path.join(ROOT, "static")):
-        if f not in ("og.png", "og-default.png"):
-            shutil.copy(os.path.join(ROOT, "static", f), DIST)
+    static_dir = os.path.join(ROOT, "static")
+    for f in os.listdir(static_dir):
+        if f in ("og.png", "og-default.png"):
+            continue
+        src = os.path.join(static_dir, f)
+        dest = os.path.join(DIST, f)
+        if os.path.isdir(src):
+            if os.path.exists(dest):
+                shutil.rmtree(dest)
+            shutil.copytree(src, dest)
+        else:
+            shutil.copy(src, dest)
     fonts_dest = os.path.join(DIST, "fonts")
     if os.path.isdir(fonts_dest):
         shutil.rmtree(fonts_dest)
