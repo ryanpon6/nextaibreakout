@@ -43,7 +43,7 @@ def apply(DIST, t):
 <p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude. I am not claiming Blabara is live on Google Play.</p>
 <p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>
 <h2>How this site was built</h2>
-<p>This site, NextAiBreakout, is a Grok Bot tips site I publish on Cloudflare Pages. The tips are from my own Grok Bot setup. Claude stays on this page because I also use it for some of the builds I ship.</p>
+<p>Although I mostly use Claude for coding because it produces better results, I relied on Grok to help build this website. Once Grok creates the site and I add the final touches, I use Claude to refine the template and confirm the code structure is correct.</p>
 <h2>A real build: my landscaping company's site</h2>
 <p>Another example is the Landscape Specialists site, which was built with Claude. I have Claude connected to my GitHub, Cloudflare and everything else. It creates mockups for pictures and similar assets for me, and then I narrow them down or combine them to reach a finished product.</p>
 <figure>
