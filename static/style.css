@@ -1,17 +1,19 @@
 /* NextAiBreakout: "Escape Velocity" design system. Gold on deep black (dark) or cool paper (light).
-   Theme follows the device until the visitor picks one with the header button (html[data-theme]). */
+   Theme follows the device until the visitor picks one with the header button (html[data-theme]).
+   --accent is the single brand accent (defaults to the current gold: #E0A826 light, #F2C14E dark).
+   To switch the site to green later, set --accent to #3DDC84 and adjust --gold-ink, --gold-hi, --glow, and --spark. */
 :root{--f:'Archivo','Helvetica Neue',Arial,sans-serif;
 --bg:#EDEFF4;--bg2:#E3E6EE;--panel:rgba(255,255,255,.66);--ink:#0A0E1A;--ink2:#333A4C;--mut:#586074;--rule:rgba(10,14,26,.11);--rule2:rgba(10,14,26,.2);
---gold:#E0A826;--gold-ink:#8A5F00;--gold-hi:#C99A2E;--on-gold:#1A1203;--glow:rgba(201,154,46,.18);--grid:rgba(10,14,26,.055);--area:.6;--err:#B42318;
+--accent:#E0A826;--gold:var(--accent);--gold-ink:#8A5F00;--gold-hi:#C99A2E;--on-gold:#1A1203;--glow:rgba(201,154,46,.18);--grid:rgba(10,14,26,.055);--area:.6;--err:#B42318;
 --spark:#B8860B;--s-github:#4B5263;--s-huggingface:#B07A00;--s-npm:#B8322C;--s-pypi:#2861C7;--s-hackernews:#C9520F;color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
 --bg:#05070D;--bg2:#0B0F1A;--panel:rgba(255,255,255,.035);--ink:#F2F4F9;--ink2:#C2C8D6;--mut:#8C94A8;--rule:rgba(255,255,255,.09);--rule2:rgba(255,255,255,.16);
---gold:#F2C14E;--gold-ink:#F2C14E;--gold-hi:#FFD98A;--on-gold:#1A1203;--glow:rgba(242,193,78,.2);--grid:rgba(255,255,255,.045);--area:1;--err:#FF8F7A;
+--accent:#F2C14E;--gold:var(--accent);--gold-ink:#F2C14E;--gold-hi:#FFD98A;--on-gold:#1A1203;--glow:rgba(242,193,78,.2);--grid:rgba(255,255,255,.045);--area:1;--err:#FF8F7A;
 --spark:#F2C14E;--s-github:#A3AAB8;--s-huggingface:#F2C14E;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 :root:not([data-theme=light]) .i-sun{display:block}:root:not([data-theme=light]) .i-moon{display:none}}
 :root[data-theme=dark]{
 --bg:#05070D;--bg2:#0B0F1A;--panel:rgba(255,255,255,.035);--ink:#F2F4F9;--ink2:#C2C8D6;--mut:#8C94A8;--rule:rgba(255,255,255,.09);--rule2:rgba(255,255,255,.16);
---gold:#F2C14E;--gold-ink:#F2C14E;--gold-hi:#FFD98A;--on-gold:#1A1203;--glow:rgba(242,193,78,.2);--grid:rgba(255,255,255,.045);--area:1;--err:#FF8F7A;
+--accent:#F2C14E;--gold:var(--accent);--gold-ink:#F2C14E;--gold-hi:#FFD98A;--on-gold:#1A1203;--glow:rgba(242,193,78,.2);--grid:rgba(255,255,255,.045);--area:1;--err:#FF8F7A;
 --spark:#F2C14E;--s-github:#A3AAB8;--s-huggingface:#F2C14E;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 :root[data-theme=dark] .i-sun{display:block}:root[data-theme=dark] .i-moon{display:none}
 

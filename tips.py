@@ -182,19 +182,83 @@ TIPS = [
     },
 ]
 
+
+# Site-only tips: live on the hub as #anchors, no standalone /tips/<slug>/ page.
+# Copy is trimmed from pillar-guide.md seed outlines. [NEEDS] items stay as placeholders.
+# Asset names, token savings, and proposed-but-not-live results are left out of public copy.
+HUB_ONLY = [
+    {
+        "slug": "one-job-per-bot",
+        "title": "Give every bot one job",
+        "section": "job-descriptions",
+        "tip": "One bot asked to market, code, and file invoices gets mushy. Give each bot one job.",
+        "how": "The fleet has named specialists (research, site, marketing, checker, desks) instead of one generalist. Overlapping jobs create duplicate routines.",
+        "alt": "Placeholder. A screenshot will show a bot job-description screen, with a real job description once there is one ready to publish.",
+        "slot": "A job-description screen, once a redacted example is ready.",
+    },
+    {
+        "slug": "write-down-checker-rules",
+        "title": "Write the checker's rules down, and add one for every miss",
+        "section": "quality",
+        "tip": "The same mistake slipping through twice is the problem: a wrong sign-off, an invented figure, or an unproven \"fixed.\"",
+        "how": "The checker's rules live in a shared file, with a regression pack. Named rules get dates and examples. No invented figures. No bug is \"fixed\" without before-and-after proof. Don't paste other people's email addresses or private misses onto a public page.",
+        "alt": "Placeholder. A screenshot will show a snippet of the rules file, with private email addresses cropped out.",
+        "slot": "A snippet of the rules file, no private addresses.",
+    },
+    {
+        "slug": "isolate-the-app-repo",
+        "title": "Keep one repo off-limits to the rest of the fleet",
+        "section": "teams",
+        "tip": "Two bots pushing to the same app repo is the problem this is meant to stop.",
+        "how": "A decision on 24 Oct 2026 split the work: Claude builds the Blabara app in its own repo. Chief of Staff and the Voice Keyboard Builder don't edit or push there. The Grok Bot fleet handles coordination and other work. This is a process split, not a claim about Claude versus Grok quality.",
+        "alt": "Placeholder. A screenshot will show a redacted access or handoff note for the isolated app repo.",
+        "slot": "A redacted access or handoff note, once one is ready to publish.",
+    },
+    {
+        "slug": "change-only-watches",
+        "title": "Stay quiet unless something changed",
+        "section": "routines",
+        "tip": "Scheduled bots waking dozens of times a week to say nothing changed is wasted work. Silence is the correct output when nothing changed.",
+        "how": "Change-only scripts do the watch, with no model in the loop: exit quietly when nothing happened, and only speak when there is an alert. The model is not woken for a \"no change\" line. Don't publish thresholds. A measured before-and-after of token use is still an example coming soon.",
+        "alt": "Placeholder. A screenshot will show a quiet exit versus an alert, with no price levels, sizes, or wallet data.",
+        "slot": "A redacted quiet-exit versus alert example, with no levels, sizes, or wallet data.",
+    },
+    {
+        "slug": "script-before-model",
+        "title": "Prefer a script over a model when the job is deterministic",
+        "section": "usage",
+        "tip": "Don't pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
+        "how": "The pattern is a change-only script: exit quietly when nothing happened, and print the message only when there is something to say. Don't claim those routines are already running, and don't treat a second model vendor as the first move. Measured savings are still an example coming soon.",
+        "alt": "Placeholder. A screenshot will show a dry-run of a quiet exit versus a message exit, with private details redacted.",
+        "slot": "A redacted dry-run of a quiet exit versus a message exit.",
+    },
+    {
+        "slug": "human-publish-gate",
+        "title": "Put a human publish gate in front of the website",
+        "section": "safety",
+        "tip": "Unreviewed auto content, including CJK text and unverified ranking blurbs, reached the NAB homepage and daily pages in early November 2026. Ryan stopped sends and publishes.",
+        "how": "A structural publish gate is proposed, not live: builds would come only from reviewed markdown, checks would catch CJK unless it is allowlisted, empty descriptions, and a missing review stamp, and nothing would deploy without Ryan's OK. That result is not in place yet, so it is not written here as if it already shipped. 404-ing old daily pages is not the same as a gate.",
+        "alt": "Placeholder. A screenshot will show a selfcheck failure fixture, and a redacted before-shot of the leaked page if one is still available.",
+        "slot": "A selfcheck failure example, and a redacted before-shot if one can be published.",
+    },
+]
+
 SECTIONS = [
     ("teams", "Teams"),
+    ("job-descriptions", "Job descriptions"),
     ("quality", "Quality"),
     ("approvals", "Approvals"),
     ("skills", "Skills"),
     ("routines", "Routines"),
+    ("usage", "Usage"),
     ("builds", "Builds"),
+    ("safety", "Safety"),
 ]
 
 HUB_TITLE = "Grok Bot tips | NextAiBreakout"
 HUB_H1 = "Grok Bot tips"
 HUB_META = "Grok Bot tips from work I actually ran: a lead bot, a Quality Checker, drafts-only approval, and other practices from my own setup."
-HUB_INTRO = "Grok Bot tips from work I actually ran. Each page has the tip, how I did it, and a slot for a real example when I have one."
+HUB_INTRO = "Grok Bot tips from work I actually ran. Fourteen have their own page, with the tip, how I did it, and a slot for a real example when I have one. Six more live on this page until they have a full write-up."
 
 BY_SLUG = {t["slug"]: t for t in TIPS}
 
@@ -279,24 +343,51 @@ def tip_page(t, year):
     return page(t["seo_title"], t["meta"], path_of(t["slug"]), extra, main, year)
 
 
+def first_sentence(text):
+    return re.split(r"(?<=\.)\s", text, 1)[0]
+
+
+def placeholder(alt, slot):
+    return f"""<figure class="tip-shot">
+<div class="tip-shot-box" role="img" aria-label="{e(alt)}"><strong>Example coming soon</strong>{e(slot)}</div>
+<figcaption>Example coming soon. {e(slot)}</figcaption>
+</figure>"""
+
+
 def hub_page(year):
     url = SITE + "/tips/"
+    # Jump links: every standalone page slug, plus every site-only anchor.
+    page_jumps = "".join(f'<a href="#{e(t["slug"])}">{e(t["title"])}</a>' for t in TIPS)
+    hub_jumps = "".join(f'<a href="#{e(t["slug"])}">{e(t["title"])}</a>' for t in HUB_ONLY)
     secs = []
     for key, label in SECTIONS:
-        items = [t for t in TIPS if t["section"] == key]
-        if not items:
+        pages = [t for t in TIPS if t["section"] == key]
+        hubs = [t for t in HUB_ONLY if t["section"] == key]
+        if not pages and not hubs:
             continue
         cards = []
-        for t in items:
-            # First sentence only, no new wording.
-            first = re.split(r"(?<=\.)\s", t["tip"], 1)[0]
+        for t in pages:
+            first = first_sentence(t["tip"])
             cards.append(
                 f'<li id="{e(t["slug"])}"><a class="tip-title" href="{path_of(t["slug"])}">{e(t["title"])}</a>'
                 f"<p>{e(first)}</p></li>"
             )
-        secs.append(f'<section class="tips-sec" aria-label="{e(label)}"><h2>{e(label)}</h2><ul class="tip-cards">{"".join(cards)}</ul></section>')
-    # Jump links should also include every tip anchor, as required.
-    tip_jumps = "".join(f'<a href="#{e(t["slug"])}">{e(t["title"])}</a>' for t in TIPS)
+        page_list = f'<ul class="tip-cards">{"".join(cards)}</ul>' if cards else ""
+        blocks = []
+        for t in hubs:
+            blocks.append(
+                f'<article class="hub-only" id="{e(t["slug"])}">'
+                f'<h3>{e(t["title"])}</h3>'
+                f'<p class="tip-body">{e(t["tip"])}</p>'
+                f'<h2 class="how">How I did it</h2>'
+                f'<p class="how-body">{e(t["how"])}</p>'
+                f'{placeholder(t["alt"], t["slot"])}'
+                f"</article>"
+            )
+        secs.append(
+            f'<section class="tips-sec" aria-label="{e(label)}"><h2>{e(label)}</h2>'
+            f"{page_list}{''.join(blocks)}</section>"
+        )
     item_list = {
         "@type": "ItemList",
         "name": "Grok Bot tips",
@@ -319,7 +410,10 @@ def hub_page(year):
 {crumbs(("Tips", "/tips/", True))}
 <h1>{e(HUB_H1)}</h1>
 <p class="lede">{e(HUB_INTRO)}</p>
-<nav class="tips-jump" aria-label="All tips">{tip_jumps}</nav>
+<p class="tips-jump-label">Tip pages</p>
+<nav class="tips-jump" aria-label="Tip pages">{page_jumps}</nav>
+<p class="tips-jump-label">On this page</p>
+<nav class="tips-jump" aria-label="Tips on this page">{hub_jumps}</nav>
 {"".join(secs)}
 </main>"""
     return page(HUB_TITLE, HUB_META, "/tips/", B.ld(graph), main, year)
