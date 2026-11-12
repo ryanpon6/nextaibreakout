@@ -50,6 +50,8 @@ function isProtected(path) {
     "/llms.txt",
     "/feed.xml",
     "/favicon.svg",
+    "/favicon.png",
+    "/apple-touch-icon.png",
     "/style.css",
     "/tips.css",
     "/og.png",

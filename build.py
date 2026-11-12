@@ -16,7 +16,15 @@ e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
 GOLD = "#E0B84E"
 # Cache-busting: stylesheet/font URLs carry a hash of their contents, so a visitor's browser never pairs new pages with an old cached stylesheet.
-VER = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("static/style.css", "fonts/fonts.css"))).hexdigest()[:10]
+def _filehash(files):
+    parts = []
+    for f in files:
+        path = os.path.join(ROOT, f)
+        if os.path.isfile(path):
+            parts.append(open(path, "rb").read())
+    return hashlib.sha1(b"".join(parts)).hexdigest()[:10]
+VER = _filehash(("static/style.css", "fonts/fonts.css"))
+ICON_VER = _filehash(("static/favicon.svg", "static/favicon.png", "static/apple-touch-icon.png"))
 FONTS = ('<link rel="preload" href="/fonts/Syne-var.woff2" as="font" type="font/woff2" crossorigin>'
          '<link rel="preload" href="/fonts/DMSans-var.woff2" as="font" type="font/woff2" crossorigin>'
          f'<link rel="stylesheet" href="/fonts/fonts.css?v={VER}">')
@@ -96,7 +104,7 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="light"><meta name="theme-color" content="{THEME}">
-<link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
+<link rel="icon" href="/favicon.svg?v={ICON_VER}" type="image/svg+xml"><link rel="icon" href="/favicon.png?v={ICON_VER}" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ICON_VER}" sizes="180x180">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{NAVWORD}</a>
 <div class="acts"><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank" aria-label="Follow on X">{XICON}<span>Follow</span></a><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button></div>
 <nav id="site-nav" aria-label="Primary"><a href="/tips/">Grok Bot tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a></nav></header>"""
@@ -136,56 +144,24 @@ def short(s, n=64):
     s = s.split(". ")[0].rstrip(".")
     return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
 def og_brand():
-    """Teal and yellow-gold default OG image. No ranking product, no invented stats."""
-    font = os.path.join(ROOT, "fonts", "Archivo-var.woff2")
-    page = f"""<!doctype html><html><head><style>
-@font-face{{font-family:Archivo;src:url('file://{font}') format('woff2');font-weight:100 900;font-stretch:62% 125%;}}
-html,body{{margin:0;padding:0}}
-body{{width:1200px;height:630px;background:#274043;color:#F5F1E8;font-family:Archivo,Helvetica Neue,Arial,sans-serif;padding:56px 64px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between}}
-.top{{display:flex;align-items:center;gap:14px;font-stretch:125%;font-weight:800;font-size:28px;color:#E0B84E}}
-.logo{{width:40px;height:40px;color:#E0B84E}}
-.k{{font-size:20px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#E0B84E;margin:0 0 16px}}
-h1{{font-size:72px;line-height:1.02;font-weight:800;font-stretch:112%;letter-spacing:-.03em;margin:0;max-width:18ch;color:#F5F1E8}}
-.bot{{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(224,184,78,.28);padding-top:22px;font-size:20px}}
-.bot span{{color:#C5C0B6}}.bot b{{color:#E0B84E}}
-</style></head><body>
-<div class="top">{WORD}</div>
-<div><p class="k">Grok Bot first. One page for Claude.</p>
-<h1>Grok Bot tips, with the real build behind each one.</h1></div>
-<div class="bot"><span>nextaibreakout.com</span><b>Tips · Claude · Blog · About</b></div>
-</body></html>"""
-    with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
-        f.write(page); src = f.name
+    """Bot Cut-outs default OG image. See DESIGN.md. No Grok/xAI logos, no ranking art."""
     dest = os.path.join(DIST, "og-default.png")
     try:
-        subprocess.run(
-            ["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
-             "--virtual-time-budget=4000", "--window-size=1200,630", f"--screenshot={dest}", "file://" + src],
-            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=60, check=False,
-        )
-    finally:
-        os.unlink(src)
-    if os.path.isfile(dest) and os.path.getsize(dest) > 1000:
-        shutil.copy(dest, os.path.join(DIST, "og.png"))
-    else:
-        # Fall back to a solid teal card generated without Chrome, still no ranking art.
-        try:
-            from PIL import Image, ImageDraw, ImageFont
-            im = Image.new("RGB", (1200, 630), "#274043")
-            d = ImageDraw.Draw(im)
-            d.rectangle((64, 520, 1136, 521), fill="#E0B84E")
-            font_lg = font_sm = ImageFont.load_default()
-            d.text((64, 80), "NextAiBreakout", fill="#E0B84E", font=font_lg)
-            d.text((64, 220), "Grok Bot tips, with the real", fill="#F5F1E8", font=font_lg)
-            d.text((64, 280), "build behind each one.", fill="#F5F1E8", font=font_lg)
-            d.text((64, 560), "nextaibreakout.com", fill="#C5C0B6", font=font_sm)
-            im.save(dest, "PNG")
+        import sys
+        brand_dir = os.path.join(ROOT, "brand")
+        if brand_dir not in sys.path:
+            sys.path.insert(0, brand_dir)
+        from render_cutouts import render_og_default
+        render_og_default(dest)
+        if os.path.isfile(dest) and os.path.getsize(dest) > 1000:
             shutil.copy(dest, os.path.join(DIST, "og.png"))
-        except Exception:
-            fallback = os.path.join(ROOT, "static", "og-default.png")
-            if os.path.isfile(fallback):
-                shutil.copy(fallback, dest)
-                shutil.copy(fallback, os.path.join(DIST, "og.png"))
+            return
+    except Exception:
+        pass
+    fallback = os.path.join(ROOT, "static", "og-default.png")
+    if os.path.isfile(fallback):
+        shutil.copy(fallback, dest)
+        shutil.copy(fallback, os.path.join(DIST, "og.png"))
 
 
 FEATURED_SLUGS = (
@@ -255,7 +231,7 @@ def home_page(year):
 <div class="sh rv"><h2 id="h-posts">Latest posts.</h2><a class="more" href="/blog/">All posts →</a></div>
 <ul class="posts rv">{post_html}</ul>
 </div></section>""" if posts else ""
-    tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> drafts only <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
+    tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> nothing posts without my OK <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
     org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png",
            "sameAs": [X_URL]}
     website = {"@type": "WebSite", "name": BRAND, "url": SITE + "/", "description": HOME_DESC, "inLanguage": "en-CA",
@@ -286,7 +262,7 @@ def home_page(year):
 <p class="note fade">Grok Bot tips, from real work ↓</p>
 <h1>{H1_HTML}</h1>
 <svg class="squig" aria-hidden="true" viewBox="0 0 300 24" preserveAspectRatio="none"><path pathLength="1" d="M4 14c40-12 70 10 110-2s70-8 100 2 50-6 82-4"/></svg>
-<p class="lede fade" style="animation-delay:.8s">How I run a team of Grok Bots: one lead bot, a Quality Checker, and a drafts-only rule. Every tip comes from work I actually ran. You get the problem, how I did it, and what happened.</p>
+<p class="lede fade" style="animation-delay:.8s">How I run a team of Grok Bots: one lead bot, a Quality Checker, and an approval-first rule. Every tip comes from work I actually ran. You get the problem, how I did it, and what happened.</p>
 <div class="btns fade" style="animation-delay:1s"><a class="btn pri" href="/tips/">Read all {n_all} tips →</a><a class="btn" href="#how">How it works</a></div>
 </div></section>
 <div class="tapewrap" aria-hidden="true"><div class="tape"><div><span>{tape}</span><span>{tape}</span></div></div></div>
@@ -297,7 +273,7 @@ def home_page(year):
 <ol>
 <li class="rv">{bot_head("#fff", "50%")}<span><b>1. I send one message</b><span>To one lead bot, not the whole fleet.</span></span></li>
 <li class="rv">{bot_head("var(--red)")}<span><b>2. The lead bot routes it</b><span>It picks the specialist and brings back one result.</span></span></li>
-<li class="rv">{bot_head("var(--blue)", ".16em")}<span><b>3. A specialist drafts</b><span>One job each. Drafts only, it can't publish.</span></span></li>
+<li class="rv">{bot_head("var(--blue)", ".16em")}<span><b>3. A specialist drafts</b><span>One job each. It writes a draft; it can't publish.</span></span></li>
 <li class="rv">{bot_head("var(--och)", "50% 50% .4em .4em", big=True)}<span><b>4. The Quality Checker holds weak work</b><span>No before and after, no pass.</span></span></li>
 <li class="rv">{bot_head("#fff", "50%")}<span><b>5. I approve</b><span>Nothing posts, sends or spends until I tap yes.</span></span></li>
 </ol></div>
