@@ -174,7 +174,7 @@ FEATURED_SLUGS = (
 HOME_TITLE = "Grok Bot tips with real builds | NextAiBreakout"
 HOME_DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
 ABOUT_TITLE = "About this site | NextAiBreakout"
-ABOUT_DESC = "NextAiBreakout is a Grok Bot tips site, with a separate page for Claude. Tips are reviewed before they go up."
+ABOUT_DESC = "Why I built NextAiBreakout: I'm not a coder, I run a company, and I only publish Grok Bot and Claude tips I've tested and can prove."
 LLMS = """# NextAiBreakout
 > Grok Bot tips with the real build behind each one. One separate page for Claude.
 
@@ -325,8 +325,20 @@ def about_page(year):
     }
     body = f"""<main class="prose">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">About</span></nav>
-<h1>About this site.</h1>
+<div class="tips-hero" style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 28px"><h1 style="margin-bottom:0;flex:999 1 320px">About this site.</h1><span style="font-size:34px;margin:0 10px 6px 0">{bot(cls="wave", **LEAD_BOT)}</span></div>
+<p class="note" style="margin:14px 0 18px">a regular user, not a coder</p>
 <p>NextAiBreakout is a Grok Bot tips site, with the real build behind each tip. There is a separate page for Claude.</p>
+
+<h2>Why I built this</h2>
+<p>I have always loved computers, AI, and code. I am not a coder. I run my own company, and I built this website while automating my work with Grok and other AI tools.</p>
+<p>That is the point of the site. I am a regular user, and I can still produce work that companies pay specialists to do. I replaced about 10 years of Squarespace by building my company site myself. My brother and I built an Android app in a day with a team of Grok Bots.</p>
+<p>I hope it gets you to try it. You may build something you did not think you could, with Grok and with Claude.</p>
+
+<h2>Why keep it updated</h2>
+<p>AI moves fast. New releases keep landing, and it gets overwhelming. I wanted one place that keeps up without the noise.</p>
+<p>A lot of AI posts are made for the sake of posting. This site is curated. It only covers things I have actually tested, can prove, and want to stand behind.</p>
+
+<h2>What gets published</h2>
 <p>Every tip comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have those, the tip stays off the site.</p>
 <p>I talk to one lead bot. A Quality Checker reviews work before it reaches me. Tips are reviewed before they go up. Unreviewed bot output does not publish.</p>
 <p>This site no longer ranks AI repos, models, or packages by hourly velocity.</p>
