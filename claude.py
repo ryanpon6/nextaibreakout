@@ -41,7 +41,7 @@ def apply(DIST, t):
 <h1>{e(H1)}</h1>
 <p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude is a separate lane, and this is its page.</p>
 <p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude. I am not claiming Blabara is live on Google Play.</p>
-<p>Claude is what builds the Blabara app in a separate repo, <a href="https://github.com/ryanpon6/voicekey-app" rel="noopener">ryanpon6/voicekey-app</a>. The Chief of Staff bot does not edit or push there.</p>
+<p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>
 <p>I have not yet written up a full list of when I reach for Claude. When I have one that's been reviewed, it will go here. Until then, this is what I can stand behind.</p>
 <h2>A guide that's already on the site</h2>
 <p>The one older guide already published here is about using Claude Code to debloat an Android TV, carefully. It covers a public repo, not a build I shipped, and it keeps the safety framing: what the method does, what it doesn't, and what to watch for.</p>
