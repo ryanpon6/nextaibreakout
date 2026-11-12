@@ -9,15 +9,36 @@ def re_strip(s): return _re.sub(r"\s+", " ", html.unescape(_re.sub(r"<[^>]+>", "
 SITE = "https://nextaibreakout.com"; BRAND = "NextAiBreakout"; TAG = "Grok Bot tips, with the real build behind each one."
 DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
 X_URL = "https://x.com/ryanpon"; X_HANDLE = "@ryanpon"
-H1_TEXT = "Grok Bot tips, with the real build behind each one."
-H1_HTML = 'Grok Bot tips, with the real build behind each one.'
+H1_TEXT = "Grok Bot tips from a fleet that actually ran."
+# One <h1>, three lines. Each line slides up on load (style.css: .hero h1 .ln). Crawlers read it as one sentence.
+H1_HTML = '<span class="ln"><span>Grok Bot tips</span></span> <span class="ln"><span>from a fleet that</span></span> <span class="ln"><span>actually ran.</span></span>'
 e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
 GOLD = "#E0B84E"
 # Cache-busting: stylesheet/font URLs carry a hash of their contents, so a visitor's browser never pairs new pages with an old cached stylesheet.
 VER = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("static/style.css", "fonts/fonts.css"))).hexdigest()[:10]
-FONTS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
+FONTS = ('<link rel="preload" href="/fonts/Syne-var.woff2" as="font" type="font/woff2" crossorigin>'
+         '<link rel="preload" href="/fonts/DMSans-var.woff2" as="font" type="font/woff2" crossorigin>'
          f'<link rel="stylesheet" href="/fonts/fonts.css?v={VER}">')
+THEME = "#E9EEF2"  # page background (style.css --bg); used for the browser theme-color
+
+# ---- Bot Cut-outs design system (see DESIGN.md). The robots are plain HTML shapes styled by style.css; no image files.
+def bot_head(c="var(--red)", hr="", big=False, mouth=True):
+    """Just a robot face. c = head colour, hr = head border-radius (.16em square, 50% round), big = monocle eye."""
+    style = f"--c:{c}" + (f";--hr:{hr}" if hr else "")
+    return (f'<span class="bhead" style="{style}" aria-hidden="true"><i class="beye{" big" if big else ""}"></i><i class="beye"></i>'
+            + ('<b class="bmouth"></b>' if mouth else "") + "</span>")
+def bot(c="var(--red)", hr="", a="", b="", big=False, cls=""):
+    """A whole robot: antenna, head, body, arms. Size it with font-size on a parent. cls: 'wave' waves, 'still' stops the bobbing."""
+    style = f"--c:{c}" + (f";--hr:{hr}" if hr else "") + (f";--a:{a}" if a else "") + (f";--b:{b}" if b else "")
+    return (f'<span class="bot{" " + cls if cls else ""}" style="{style}" aria-hidden="true"><span class="bant"></span>'
+            f'<span class="bhead"><i class="beye{" big" if big else ""}"></i><i class="beye"></i><b class="bmouth"></b></span>'
+            '<span class="bbody"><i class="barm l"></i><i class="barm r"></i></span></span>')
+# The three characters. Keep each one's look the same everywhere so readers learn who is who.
+LEAD_BOT = dict(c="var(--red)", a="var(--och)")                               # lead bot: red, rounded head
+SPECIALIST_BOT = dict(c="var(--blue)", hr=".16em", a="var(--red)")            # specialist: blue, square head
+CHECKER_BOT = dict(c="var(--och)", hr="50% 50% .4em .4em", a="var(--blue)", big=True)  # Quality Checker: ochre, one monocle eye
+NAVWORD = '<span class="bhead" aria-hidden="true"><i class="beye"></i><i class="beye"></i></span><span>NextAiBreakout</span>'
 # Mark: a frame with a line breaking out through its top-right corner
 LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
         '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#E0B84E" stroke-width="2.6" stroke-linecap="square"/></svg>')
@@ -74,11 +95,11 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{SITE}/og-default.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
-<meta name="color-scheme" content="dark"><meta name="theme-color" content="#274043">
+<meta name="color-scheme" content="light"><meta name="theme-color" content="{THEME}">
 <link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
-<header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{WORD}</a>
-<nav id="site-nav" aria-label="Primary"><a href="/tips/">Tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a></nav>
-<div class="acts"><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a></div></header>"""
+<header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{NAVWORD}</a>
+<div class="acts"><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank" aria-label="Follow on X">{XICON}<span>Follow</span></a><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button></div>
+<nav id="site-nav" aria-label="Primary"><a href="/tips/">Grok Bot tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a></nav></header>"""
 
 def foot(year, root=""):
     return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/feed.xml">RSS</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div>
@@ -203,11 +224,38 @@ def featured():
 
 
 def home_page(year):
+    import tips as T
+    import blog as BL
     cards = featured()
+    labels = dict(T.SECTIONS)
+    peeks = (dict(c="#fff", b="var(--och)"), CHECKER_BOT, SPECIALIST_BOT, LEAD_BOT)  # the bot peeking out of each stacked card
+    # Featured tips: coloured cards that stack as you scroll (.stack/.tipc). Colours cycle by position in the CSS.
     card_html = "".join(
-        f'<li><a class="tip-title" href="{e(c["path"])}">{e(c["title"])}</a><p>{e(c["line"])}</p></li>'
-        for c in cards
+        f'<a class="tipc" href="{e(c["path"])}"><span class="peek">{bot(cls="still", **peeks[i % len(peeks)])}</span>'
+        f'<span class="hand">no. {i + 1} · {e(labels.get(T.BY_SLUG[c["slug"]]["section"], "tip").lower())}</span>'
+        f'<h3>{e(c["title"])}</h3><p>{e(c["line"])}</p><span class="go">Read it →</span></a>'
+        for i, c in enumerate(cards)
     )
+    # Counts come from the data, so they stay right when tips are added.
+    all_tips = list(T.TIPS) + list(T.HUB_ONLY)
+    n_all, n_full = len(all_tips), len(T.TIPS)
+    topics = "".join(
+        f'<a href="/tips/#sec-{e(k)}">{e(label)} <span>{n}</span></a>'
+        for k, label in T.SECTIONS
+        for n in [sum(1 for t in all_tips if t["section"] == k)] if n
+    )
+    # Latest blog posts (newest three). Hidden when there are none.
+    posts = BL.posts()[:3]
+    post_html = "".join(
+        f'<li><a href="/blog/{e(p["slug"])}/"><time datetime="{e(p["date"])}">{e(BL.nice(p["date"]))}</time>'
+        f'<b>{e(p["title"])}</b><span>{e(p["description"])}</span><i aria-hidden="true">→</i></a></li>'
+        for p in posts
+    )
+    posts_sec = f"""<section class="sec" aria-labelledby="h-posts"><div class="wrap">
+<div class="sh rv"><h2 id="h-posts">Latest posts.</h2><a class="more" href="/blog/">All posts →</a></div>
+<ul class="posts rv">{post_html}</ul>
+</div></section>""" if posts else ""
+    tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> drafts only <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
     org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png",
            "sameAs": [X_URL]}
     website = {"@type": "WebSite", "name": BRAND, "url": SITE + "/", "description": HOME_DESC, "inLanguage": "en-CA",
@@ -224,32 +272,63 @@ def home_page(year):
         ],
     }
     extra = ld({"@context": "https://schema.org", "@graph": [website, org, item_list]})
-    return head(HOME_TITLE, HOME_DESC, "/", "/", extra) + f"""<main>
-<section class="hero relaunch" id="top"><div class="hcopy">
-<p class="kicker">Grok Bot first. One page for Claude.</p>
+    return head(HOME_TITLE, HOME_DESC, "/", "/", extra) + f"""<main class="home">
+<section class="hero" id="top"><div class="wrap">
+<div class="art" aria-hidden="true">
+<div class="shape morph1" style="left:0;top:14%;width:52%;aspect-ratio:1.1;background:var(--och);border-radius:62% 38% 54% 46%/48% 60% 40% 52%"></div>
+<div class="shape morph2" style="right:2%;top:4%;width:40%;aspect-ratio:1;background:var(--sky);border-radius:50%"></div>
+<div class="dots" style="right:24%;bottom:0;width:34%;aspect-ratio:1"></div>
+<div class="b1"><div class="pop" style="animation-delay:.5s">{bot(cls="wave", **LEAD_BOT)}</div></div>
+<div class="b2"><div class="pop" style="animation-delay:.7s">{bot(**SPECIALIST_BOT)}</div></div>
+<div class="b3"><div class="pop" style="animation-delay:.9s">{bot(**CHECKER_BOT)}</div></div>
+<p class="say pop" style="animation-delay:1.3s">one message in.<br>one result out!</p>
+</div>
+<p class="note fade">Grok Bot tips, from real work ↓</p>
 <h1>{H1_HTML}</h1>
-<p class="lede">Most Grok Bot tip lists are one-liners. Fine as a checklist. Not how I learned this.</p>
-<p class="lede">Every tip here comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have the real story, the tip stays off the site.</p>
-<div class="btns"><a class="btn pri" href="/tips/">Browse the tips</a><a class="btn" href="/claude/">Read the Claude notes</a></div>
+<svg class="squig" aria-hidden="true" viewBox="0 0 300 24" preserveAspectRatio="none"><path pathLength="1" d="M4 14c40-12 70 10 110-2s70-8 100 2 50-6 82-4"/></svg>
+<p class="lede fade" style="animation-delay:.8s">How I run a team of Grok Bots: one lead bot, a Quality Checker, and a drafts-only rule. Every tip comes from work I actually ran. You get the problem, how I did it, and what happened.</p>
+<div class="btns fade" style="animation-delay:1s"><a class="btn pri" href="/tips/">Read all {n_all} tips →</a><a class="btn" href="#how">How it works</a></div>
 </div></section>
-<section class="proof" aria-label="From work I actually ran">
-<article><h2>A real app in a day.</h2><p>On 16 Oct 2026, my brother and I built the Blabara Android voice-dictation app (it was called VoiceKey then) with a team of Grok Bots. I am not claiming it is live on Google Play.</p></article>
-<article><h2>A coordinator, plus a checker.</h2><p>I talk to one Chief of Staff bot. A fleet-wide Quality Checker reviews work before it reaches me.</p></article>
-<article><h2>Quiet unless something changed.</h2><p>Change-only scripts watch prices and other lists, and stay silent when nothing moved.</p></article>
-<article><h2>I already use this for real work.</h2><p>I use AI for daily admin (email drafts, safety forms, crew attendance, scheduling, monthly tracking), and I replaced about 10 years of Squarespace by building my company site myself.</p></article>
-</section>
-<section class="home-sec" aria-label="Featured tips">
-<h2>A few to start with.</h2>
-<p>Each one links to the full write-up.</p>
-<ul class="tip-cards">{card_html}</ul>
-<p class="btns"><a class="btn" href="/tips/">See all tips</a></p>
-</section>
-<section class="claude-band">
-<h2>I also use Claude. That work lives on its own page.</h2>
-<p>This site is Grok Bot first. I'm not going to mix both tools into every tip.</p>
-<p>Claude has its own page: what I can stand behind so far, and the one older guide already published on using Claude Code to debloat an Android TV, carefully.</p>
-<div class="btns"><a class="btn pri" href="/claude/">Go to the Claude page</a></div>
-</section>
+<div class="tapewrap" aria-hidden="true"><div class="tape"><div><span>{tape}</span><span>{tape}</span></div></div></div>
+<section class="sec" id="how" aria-labelledby="h-how"><div class="wrap split">
+<div class="rv"><h2 id="h-how">How one person runs a team of Grok Bots.</h2><p class="note">same 5 steps, every single request</p></div>
+<div class="steps">
+<svg aria-hidden="true" viewBox="0 0 40 500" preserveAspectRatio="none"><path pathLength="1" d="M20 0C44 40-4 80 20 125S44 205 20 250-4 330 20 375 44 455 20 500"/></svg>
+<ol>
+<li class="rv">{bot_head("#fff", "50%")}<span><b>1. I send one message</b><span>To one lead bot, not the whole fleet.</span></span></li>
+<li class="rv">{bot_head("var(--red)")}<span><b>2. The lead bot routes it</b><span>It picks the specialist and brings back one result.</span></span></li>
+<li class="rv">{bot_head("var(--blue)", ".16em")}<span><b>3. A specialist drafts</b><span>One job each. Drafts only, it can't publish.</span></span></li>
+<li class="rv">{bot_head("var(--och)", "50% 50% .4em .4em", big=True)}<span><b>4. The Quality Checker holds weak work</b><span>No before and after, no pass.</span></span></li>
+<li class="rv">{bot_head("#fff", "50%")}<span><b>5. I approve</b><span>Nothing posts, sends or spends until I tap yes.</span></span></li>
+</ol></div>
+</div></section>
+<section class="sec" id="start" aria-labelledby="h-start"><div class="wrap">
+<div class="sh rv"><h2 id="h-start">Four Grok Bot tips to read first.</h2><a class="more" href="/tips/">All {n_all} tips →</a></div>
+<div class="stack">{card_html}</div>
+</div></section>
+{posts_sec}
+<section class="sec proof" aria-labelledby="h-proof"><div class="wrap">
+<div class="badge" aria-hidden="true"><div class="shape"></div><div class="dots"></div><p class="stamp">1 day</p></div>
+<div class="txt rv"><p class="note">proof · 16 Oct 2026</p>
+<h2 id="h-proof">A real Android app, built in a day by a team of Grok Bots.</h2>
+<p>On 16 Oct 2026, my brother and I built the Blabara Android voice-dictation app (it was called VoiceKey then) with a team of Grok Bots. I am not claiming it is live on Google Play.</p>
+<p>I use AI for daily admin (email drafts, safety forms, crew attendance, scheduling, monthly tracking), and I replaced about 10 years of Squarespace by building my company site myself.</p>
+<a class="more" href="/tips/blabara-in-one-day/">How we built Blabara in one day →</a></div>
+</div></section>
+<section class="sec" aria-labelledby="h-topics"><div class="wrap">
+<h2 id="h-topics" class="rv">Grok Bot tips by topic.</h2>
+<p class="lede rv">{n_all} tips so far. {n_full} have a full write-up with how I did it.</p>
+<nav class="stickers rv" aria-label="Tips by topic">{topics}</nav>
+</div></section>
+<section class="sec"><div class="wrap duo">
+<div class="card rv"><h2>Using Claude too? That has its own page.</h2>
+<p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude has its own page, including the older guide on using Claude Code to debloat an Android TV, carefully.</p>
+<a class="more" href="/claude/">Read the Claude notes →</a></div>
+<div class="card dark rv"><span class="perch">{bot(cls="wave", c="var(--och)", a="var(--red)")}</span>
+<h2>Follow the build on X.</h2>
+<p>I post Grok Bot tips and builds on X.</p>
+<a class="btn" href="{X_URL}" rel="me noopener" target="_blank">Follow {X_HANDLE}</a></div>
+</div></section>
 </main>
 """ + foot(year) + "</body></html>"
 

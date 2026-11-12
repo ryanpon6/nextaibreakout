@@ -7,7 +7,7 @@ e = B.e; SITE = B.SITE; BRAND = B.BRAND
 TVER = hashlib.sha1(open(os.path.join(B.ROOT, "static", "tips.css"), "rb").read()).hexdigest()[:10]
 CSS = f'<link rel="stylesheet" href="/tips.css?v={TVER}">'
 # Browser chrome follows the teal brand; CSS uses the same palette in light and dark themes.
-THEME_COLOR = '<meta name="theme-color" content="#274043">'
+THEME_COLOR = f'<meta name="theme-color" content="{B.THEME}">'
 
 # Copy is from /workspace/shared/nab-relaunch/x-drafts.md (QC-fixed, Nov 12 2026).
 # Do not add claims, numbers, or stories that are not in that file.
@@ -312,7 +312,7 @@ def page(title, desc, path, extra, main, year):
     h = B.head(title, desc, path, "/", CSS + extra)
     h = h.replace("<html lang=\"en\">", "<html lang=\"en\" class=\"tips\">", 1)
     h = h.replace("<body>", "<body class=\"tips\">", 1)
-    # Tips pages stay teal; replace the global theme-color tags with the brand swatch.
+    # Same theme-color as the rest of the site (B.THEME).
     h = re.sub(r'<meta name="theme-color"[^>]*>', "", h)
     h = h.replace("</head>", THEME_COLOR + "</head>", 1)
     return h + main + B.foot(year, "/") + "</body></html>"
@@ -704,7 +704,7 @@ def hub_page(year):
                 f"</article>"
             )
         secs.append(
-            f'<section class="tips-sec" aria-label="{e(label)}"><h2>{e(label)}</h2>'
+            f'<section class="tips-sec" id="sec-{e(key)}" aria-label="{e(label)}"><h2>{e(label)}</h2>'
             f"{page_list}{''.join(blocks)}</section>"
         )
     item_list = {
@@ -727,7 +727,7 @@ def hub_page(year):
     }
     main = f"""<main class="prose tips-main">
 {crumbs(("Tips", "/tips/", True))}
-<h1>{e(HUB_H1)}</h1>
+<div class="tips-hero"><h1>{e(HUB_H1)}</h1>{B.bot(cls="wave", **B.LEAD_BOT)}</div>
 <p class="lede">{e(HUB_INTRO)}</p>
 <p class="tips-jump-label">Tip pages</p>
 <nav class="tips-jump" aria-label="Tip pages">{page_jumps}</nav>

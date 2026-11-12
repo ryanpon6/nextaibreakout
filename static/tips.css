@@ -1,69 +1,72 @@
-/* Tips layout. Headings, borders, labels and links use --accent / --gold-ink (#E0B84E). */
-html.tips .logo-break{stroke:var(--accent)}
-.tips-main{max-width:760px;margin:0 auto;padding:0 24px 72px}
-.tips-main .lede{font-size:19px;line-height:1.55;color:var(--ink2);max-width:56ch;margin:8px 0 32px}
-.tips-jump{display:flex;flex-wrap:wrap;gap:8px 10px;margin:0 0 28px;padding:0;list-style:none}
-.tips-jump a{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border:1px solid var(--rule2);border-radius:999px;color:var(--ink2);font-size:14px;font-weight:500;text-decoration:none}
-.tips-jump a:hover{color:var(--ink);border-color:var(--accent)}
-.tips-jump-label{display:block;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-ink);margin:0 0 10px}
-.tips-sec{margin:0 0 48px}
-.tips-sec h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-ink);margin:0 0 16px}
-.tip-cards{list-style:none;padding:0;margin:0;display:grid;gap:12px}
-.tip-cards li{position:relative;border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:18px 20px;cursor:pointer}
-.tip-cards a.tip-title{font-size:20px;font-weight:700;color:var(--accent);text-decoration:none;cursor:pointer}
+/* Tips pages (hub + each tip), on top of style.css. Same Bot Cut-outs system: paper cards, ink outlines, handwritten labels. */
+.tips-main{max-width:820px;margin:0 auto;padding:0 22px 72px}
+.tips-main .lede{font-size:19px;line-height:1.55;color:var(--mut);max-width:56ch;margin:0 0 28px}
+.tips-hero{position:relative;display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 28px;margin:6px 0 20px}
+.tips-hero h1{margin:0;flex:999 1 320px}
+.tips-hero .bot{font-size:34px;margin:0 10px 6px 0}
+.tips-jump-label{display:block;font:400 22px/1.1 var(--fh);color:var(--red-ink);margin:0 0 12px;transform:rotate(-1deg)}
+.tips-jump{display:flex;flex-wrap:wrap;gap:10px 8px;margin:0 0 30px;padding:0;list-style:none}
+.tips-jump a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:var(--line);border-radius:999px;background:var(--paper);color:var(--ink);font-size:15px;font-weight:700;text-decoration:none;transition:background-color .2s}
+.tips-jump a:hover{background:var(--och);color:var(--ink)}
+.tips-sec{margin:0 0 52px;scroll-margin-top:16px}
+.tips-sec>h2{font:400 26px/1.1 var(--fh);letter-spacing:0;color:var(--red-ink);margin:0 0 16px;transform:rotate(-1deg);display:inline-block}
+.tip-cards{list-style:none;padding:0;margin:0;display:grid;gap:18px}
+.tip-cards li{position:relative;margin:0;border:var(--line);border-radius:22px;background:var(--paper);padding:20px 22px;cursor:pointer;box-shadow:5px 5px 0 var(--ink);scroll-margin-top:16px;transition:transform .2s,box-shadow .2s}
+.tip-cards li:nth-child(odd){transform:rotate(-.5deg)}.tip-cards li:nth-child(even){transform:rotate(.5deg)}
+.tip-cards li:hover{transform:translate(-3px,-3px) rotate(0deg);box-shadow:9px 9px 0 var(--red)}
+.tip-cards a.tip-title{font:800 clamp(21px,3vw,26px)/1.1 var(--fd);letter-spacing:-.025em;color:var(--ink);text-decoration:none;cursor:pointer}
 .tip-cards a.tip-title::after{content:"";position:absolute;inset:0;z-index:1}
-.tip-cards a.tip-title:hover,.tip-cards a.tip-title:focus-visible{color:var(--gold-hi);text-decoration:underline;text-underline-offset:3px}
+.tip-cards a.tip-title:hover,.tip-cards a.tip-title:focus-visible{color:var(--red-ink)}
 .tip-cards a.tip-title:focus{outline:none}
-.tip-cards li:has(a.tip-title:focus-visible){outline:2px solid var(--gold-hi);outline-offset:3px}
-.tip-cards .tip-title-static{font-size:20px;font-weight:700;color:var(--accent)}
-.tip-cards p{margin:8px 0 0;color:var(--ink2);font-size:16px}
-.tip-body{font-size:19px;line-height:1.6;color:var(--ink);margin:0 0 28px}
+.tip-cards li:has(a.tip-title:focus-visible){outline:3px solid var(--blue);outline-offset:3px}
+.tip-cards p{margin:8px 0 0;color:var(--mut);font-size:16px}
+.tip-body{font-size:20px!important;line-height:1.5;color:var(--ink);margin:0 0 28px}
 .tip-shot{margin:0 0 36px}
-.tip-shot img{width:100%;height:auto;border-radius:14px;display:block;background:var(--bg2);aspect-ratio:16/9}
-.tip-shot figcaption{margin:10px 0 0;font-size:14px;color:var(--mut)}
-.tips-main h2.how{font-size:clamp(22px,3vw,28px);margin:0 0 14px}
-.how-body{font-size:17px;line-height:1.6;color:var(--ink2);margin:0 0 40px}
-.tip-more{border-top:1px solid var(--rule);padding-top:24px}
-.tip-more h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-ink);margin:0 0 12px}
+.tip-shot img{width:100%;height:auto;display:block;aspect-ratio:16/9;border:var(--line);border-radius:22px;box-shadow:var(--shadow);background:var(--paper)}
+.tips-main h2.how{font-size:clamp(24px,3.4vw,32px);margin:0 0 12px}
+.how-body{font-size:18px;line-height:1.6;color:var(--ink);margin:0 0 40px}
+.tip-more{border-top:var(--line);padding-top:24px}
+.tip-more h2{font:400 26px/1.1 var(--fh);letter-spacing:0;color:var(--red-ink);margin:0 0 10px}
 .tip-more ul{list-style:none;padding:0;margin:0 0 18px}
-.tip-more li{margin:0 0 8px}
-.tip-more a{color:var(--gold-ink);text-decoration:underline;text-underline-offset:3px}
-.tip-more .back{font-weight:600}
-.hub-only{border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:22px 22px 8px;margin:0 0 16px}
-.hub-only h3{font-size:22px;font-weight:700;margin:0 0 12px;color:var(--ink)}
-.hub-only .tip-body{font-size:17px;margin:0 0 16px}
-.hub-only .how-body{margin:0 0 16px}
+.tip-more li{margin:0}
+.tip-more a{display:inline-flex;align-items:center;min-height:44px}
+.hub-only{border:var(--line);border-radius:22px;background:var(--paper);box-shadow:5px 5px 0 var(--ink);padding:22px 22px 8px;margin:18px 0 0;scroll-margin-top:16px}
+.hub-only h3{font-size:clamp(21px,3vw,26px);line-height:1.1;letter-spacing:-.025em;margin:0 0 12px}
+.hub-only .tip-body{font-size:18px!important;margin:0 0 16px}
+.hub-only h2.how{font:400 22px/1.1 var(--fh);letter-spacing:0;color:var(--red-ink);margin:0 0 6px}
+.hub-only .how-body{font-size:17px;margin:0 0 16px}
 .hub-only .tip-shot{margin:0 0 16px}
-@media (max-width:640px){
-  .tips-main{padding:0 18px 56px}
-}
-.prompt-block{margin:0 0 28px;padding:22px 22px 20px;border:1px solid var(--rule);border-radius:14px;background:var(--bg2);scroll-margin-top:96px}
-.prompt-block + .prompt-block{margin-top:-8px}
-.prompt-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 12px}
-.prompt-block h2.prompt-title{font-size:clamp(22px,3vw,28px);margin:0;color:var(--accent);font-stretch:125%;letter-spacing:-.04em}
-.prompt-block .prompt-note{margin:0 0 12px;font-size:15px;color:var(--mut)}
-.prompt-copy{flex:none;min-height:40px;padding:0 16px;font-size:14px}
-.prompt-text{margin:0;padding:16px 18px;border-radius:10px;background:var(--panel);color:var(--ink);font:400 15px/1.55 var(--f);white-space:pre-wrap;overflow-wrap:anywhere;user-select:text;-webkit-user-select:text}
-.prompt-text:focus{outline:2px solid var(--rule2);outline-offset:2px}
-@media (max-width:640px){
-  .prompt-block{padding:18px 16px 16px}
-  .prompt-copy{min-height:44px}
-}
+.hub-only .tip-shot img{box-shadow:none;border-radius:14px}
 
-.team-proof{margin:0 0 32px}
-.team-proof h2{font-size:clamp(22px,3vw,28px);margin:0 0 14px;color:var(--accent)}
-.team-proof blockquote{margin:0;padding:16px 18px;border-left:3px solid var(--accent);background:var(--bg2);border-radius:0 10px 10px 0;color:var(--ink)}
-.team-proof blockquote p{margin:0;font-size:17px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere}
+/* copy-this-prompt panel */
+.prompt-block{margin:0 0 30px;padding:22px 22px 20px;border:var(--line);border-radius:22px;background:var(--och);box-shadow:var(--shadow);scroll-margin-top:24px}
+.prompt-block + .prompt-block{margin-top:-6px}
+.prompt-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 12px}
+.prompt-block h2.prompt-title{font-size:clamp(24px,3.4vw,32px);margin:0}
+.prompt-block .prompt-note{margin:0 0 12px;font:400 20px/1.2 var(--fh)!important;color:var(--ink)}
+.prompt-copy{flex:none;min-height:46px;padding:0 18px;font-size:15px}
+.prompt-text{margin:0;padding:16px 18px;border:var(--line);border-radius:14px;background:var(--paper);color:var(--ink);font:400 16px/1.55 var(--f);white-space:pre-wrap;overflow-wrap:anywhere;user-select:text;-webkit-user-select:text}
+
+/* quote from the team, as a speech bubble */
+.team-proof{margin:0 0 36px}
+.team-proof h2{font-size:clamp(24px,3.4vw,32px);margin:0 0 16px}
+.team-proof blockquote{position:relative;margin:0 0 18px;padding:18px 20px;background:var(--paper);border:var(--line);border-radius:22px;box-shadow:5px 5px 0 var(--ink)}
+.team-proof blockquote::after{content:"";position:absolute;left:34px;bottom:-13px;width:20px;height:20px;background:var(--paper);border-right:var(--line);border-bottom:var(--line);transform:rotate(45deg) skew(12deg,12deg)}
+.team-proof blockquote p{margin:0;font:400 24px/1.25 var(--fh)!important;white-space:pre-wrap;overflow-wrap:anywhere}
 .team-proof cite{display:block;margin:10px 0 0;font-style:normal;font-size:14px;color:var(--mut)}
-.team-proof cite a{color:var(--gold-ink);text-decoration:underline;text-underline-offset:3px}
-.team-proof cite a:hover,.team-proof cite a:focus-visible{color:var(--gold-hi)}
+
+/* pros and cons */
 .pros-cons{margin:0 0 36px}
-.pros-cons h2{font-size:clamp(22px,3vw,28px);margin:0 0 16px;color:var(--accent)}
-.pros-cons h3{font-size:18px;font-weight:700;margin:18px 0 8px;color:var(--accent)}
-.pros-cons ul{margin:0;padding:0 0 0 1.25em;color:var(--ink)}
-.pros-cons li{margin:0 0 8px;font-size:17px;line-height:1.55}
-.pros-cons li:last-child{margin-bottom:0}
+.pros-cons h2{font-size:clamp(24px,3.4vw,32px);margin:0 0 6px}
+.pros-cons h3{font:400 24px/1.1 var(--fh);letter-spacing:0;margin:18px 0 8px;color:var(--red-ink)}
+.pros-cons ul{margin:0;padding:0;list-style:none}
+.pros-cons li{position:relative;margin:0 0 8px;padding-left:30px;font-size:18px;line-height:1.5}
+.pros-cons li::before{content:"";position:absolute;left:2px;top:.42em;width:14px;height:14px;border:2px solid var(--ink);border-radius:50%;background:var(--och)}
+.pros-cons h3 + ul + h3 + ul li::before{background:var(--red);border-radius:3px}
 @media (max-width:640px){
-  .pros-cons li,.team-proof blockquote p{font-size:16px}
-  .team-proof blockquote{padding:14px}
+.tips-main{padding:0 18px 56px}
+.tips-jump{flex-wrap:nowrap;overflow-x:auto;margin-left:-18px;margin-right:-18px;padding:4px 18px 12px;scrollbar-width:none}
+.tips-jump a{flex:none;white-space:nowrap}
+.prompt-block{padding:18px 16px 16px}
+.pros-cons li{font-size:17px}
 }

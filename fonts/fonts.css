@@ -1,1 +1,5 @@
-@font-face{font-family:'Archivo';font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url(/fonts/Archivo-var.woff2) format('woff2-variations'),url(/fonts/Archivo-var.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* Self-hosted, Latin subset, all SIL Open Font License. Syne = headings, DM Sans = body, Gochi Hand = handwritten notes.
+   Archivo is kept only because build.py's share-image renderer reads the file directly. */
+@font-face{font-family:'Syne';font-style:normal;font-weight:400 800;font-display:swap;src:url(/fonts/Syne-var.woff2) format('woff2-variations'),url(/fonts/Syne-var.woff2) format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:100 1000;font-display:swap;src:url(/fonts/DMSans-var.woff2) format('woff2-variations'),url(/fonts/DMSans-var.woff2) format('woff2')}
+@font-face{font-family:'Gochi Hand';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/GochiHand.woff2) format('woff2')}
