@@ -1,0 +1,42 @@
+/* Tips pages: near-black, off-white text, single green accent. Scoped so the rest of the site is unchanged. */
+html.tips, html.tips[data-theme="light"], html.tips[data-theme="dark"]{
+  --bg:#05070D;--bg2:#0B0F1A;--panel:rgba(255,255,255,.035);
+  --ink:#F2F4F9;--ink2:#C2C8D6;--mut:#8C94A8;
+  --rule:rgba(255,255,255,.09);--rule2:rgba(255,255,255,.16);
+  --gold:#3DDC84;--gold-ink:#3DDC84;--gold-hi:#6BE8A3;--on-gold:#04140B;
+  --glow:rgba(61,220,132,.2);--grid:rgba(255,255,255,.045);--spark:#3DDC84;
+  --s-github:#A3AAB8;--s-huggingface:#3DDC84;--s-npm:#C2C8D6;--s-pypi:#A3AAB8;--s-hackernews:#C2C8D6;
+  --err:#FF8F7A;color-scheme:dark;background:#05070D;color:#F2F4F9;
+}
+html.tips body{background:#05070D;color:#F2F4F9}
+html.tips .logo-break{stroke:#3DDC84}
+html.tips .pink,html.tips .grad{color:#3DDC84}
+.tips-main{max-width:760px;margin:0 auto;padding:0 24px 72px}
+.tips-main .lede{font-size:19px;line-height:1.55;color:var(--ink2);max-width:56ch;margin:8px 0 32px}
+.tips-jump{display:flex;flex-wrap:wrap;gap:8px 10px;margin:0 0 48px;padding:0;list-style:none}
+.tips-jump a{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border:1px solid var(--rule2);border-radius:999px;color:var(--ink2);font-size:14px;font-weight:500;text-decoration:none}
+.tips-jump a:hover{color:var(--ink);border-color:#3DDC84}
+.tips-sec{margin:0 0 48px}
+.tips-sec h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#3DDC84;margin:0 0 16px}
+.tip-cards{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.tip-cards li{border:1px solid var(--rule);border-radius:14px;background:var(--panel);padding:18px 20px}
+.tip-cards a.tip-title{font-size:20px;font-weight:700;color:var(--ink);text-decoration:none}
+.tip-cards a.tip-title:hover{color:#3DDC84}
+.tip-cards p{margin:8px 0 0;color:var(--ink2);font-size:16px}
+.tip-body{font-size:19px;line-height:1.6;color:var(--ink);margin:0 0 28px}
+.tip-shot{margin:0 0 36px}
+.tip-shot-box{min-height:220px;border:1px dashed var(--rule2);border-radius:14px;background:var(--bg2);display:flex;align-items:center;justify-content:center;padding:24px;text-align:center;color:var(--mut);font-size:15px;line-height:1.5}
+.tip-shot-box strong{display:block;color:var(--ink2);font-weight:600;margin-bottom:8px}
+.tip-shot figcaption{margin:10px 0 0;font-size:14px;color:var(--mut)}
+.tips-main h2.how{font-size:clamp(22px,3vw,28px);margin:0 0 14px}
+.how-body{font-size:17px;line-height:1.6;color:var(--ink2);margin:0 0 40px}
+.tip-more{border-top:1px solid var(--rule);padding-top:24px}
+.tip-more h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#3DDC84;margin:0 0 12px}
+.tip-more ul{list-style:none;padding:0;margin:0 0 18px}
+.tip-more li{margin:0 0 8px}
+.tip-more a{color:#3DDC84;text-decoration:underline;text-underline-offset:3px}
+.tip-more .back{font-weight:600}
+@media (max-width:640px){
+  .tips-main{padding:0 18px 56px}
+  .tip-shot-box{min-height:180px}
+}

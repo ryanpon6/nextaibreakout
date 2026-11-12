@@ -76,11 +76,11 @@ def head(title, desc, path, root="", extra=""):
 <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#EDEFF4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#05070D" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{THEME_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{WORD}</a>
-<nav><a href="/#top10">Today</a>{labsnav}<a href="/#sponsor">Sponsor</a><a href="/about">About</a></nav>
+<nav><a href="/#top10">Today</a>{labsnav}<a href="/tips/">Tips</a><a href="/#sponsor">Sponsor</a><a href="/about">About</a></nav>
 <div class="acts"><button class="ib" type="button" data-theme-toggle aria-label="Switch light or dark theme">{SUN}{MOON}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="/#subscribe" class="cta">Subscribe</a></div></header>"""
 
 def foot(year, root=""):
-    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/about">About</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""
+    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Tips</a><a href="/about">About</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""
 
 def row(i, n):
     return f"""<tr data-src="{i['source']}" data-tag="{i['tag']}"><td class="rk">{n}</td>
@@ -190,6 +190,7 @@ def main():
         import seo2; seo2.apply(DIST, d, t)
     if os.getenv("GROKBOT") == "1":  # Grok Bot page: off by default so the cron deploy does not publish it
         import grokbot; grokbot.apply(DIST)
+    import tips; tips.apply(DIST, t)
     import blog; blog.apply(DIST, t)  # blog: always on (posts only render with status: published)
     if os.getenv("KIT") == "1":  # Kit email signup: off by default so production/cron builds do not include it (preview only); after blog so posts get the box
         import kit; kit.apply(DIST)
