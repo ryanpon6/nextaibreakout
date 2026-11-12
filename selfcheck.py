@@ -37,8 +37,8 @@ for f in files:
     for m in re.finditer(r'<p class="(?:what|dim)">\s*</p>', raw): F(rel, "empty description")
     for m in re.finditer(r"-[\d.,]+[KM]? downloads|\b0 downloads/day", txt): F(rel, f"bad downloads figure {m.group(0)!r}")
     for m in re.finditer(r"\+[\d.,]+[KM]? [a-z/]+ total\b", txt): F(rel, f"plus sign on a total {m.group(0)!r}")
-    if ndays < 7:
-        for m in re.finditer(r"\b(this|last) week\b|\bweekly\b|week's", txt, re.I): F(rel, f"'week' wording with only {ndays} days of data: {txt[max(0,m.start()-40):m.end()+20]!r}")
+    if ndays < 7 and rel.endswith(".html"):
+        for m in re.finditer(r"\b(this|last) week\b|week's", txt, re.I): F(rel, f"'week' wording with only {ndays} days of data: {txt[max(0,m.start()-40):m.end()+20]!r}")
     # JSON-LD parses, and item pages' description matches the visible one
     for blob in re.findall(r'<script type="application/ld\+json">(.*?)</script>', raw, re.S):
         try: j = json.loads(blob)
@@ -60,40 +60,62 @@ for f in files:
         if u.startswith("//") or u.endswith((".xml",)) and resolve(u): continue
         if not resolve(u): F(rel, f"link does not resolve: {u}")
     if rel == "feed.xml":
-        if raw.count("<item>") > 10: F(rel, "more than 10 items")
+        if "hourly" in raw.lower() and "top 10" in raw.lower(): F(rel, "feed still describes hourly top 10")
         for t_ in re.findall(r"<item><title>(.*?)</title>", raw):
             if re.match(r"\d+\. ", t_): F(rel, f"numbered feed title {t_!r}")
-# top-10 coverage: every current top-10 item has an item page, a daily entry and a /breakouts/ entry, and the homepage/feed link on-site
-sys.path.insert(0, HERE)
-import archive as A
-SCF = "scored-seo2.json" if os.getenv("SEO2") == "1" or os.path.basename(os.path.normpath(D)) == "dist-seo2" else "scored.json"
-sc = json.load(open(os.path.join(HERE, "data", SCF)))
-home = open(os.path.join(D, "index.html")).read(); feed = open(os.path.join(D, "feed.xml")).read() if os.path.exists(os.path.join(D, "feed.xml")) else ""
-daily = open(os.path.join(D, "daily", sc["generated"][:10], "index.html")).read() if os.path.exists(os.path.join(D, "daily", sc["generated"][:10], "index.html")) else ""
-brk = open(os.path.join(D, "breakouts", "index.html")).read() if os.path.exists(os.path.join(D, "breakouts", "index.html")) else ""
-for i in sc["top"]:
-    sl = A.slug(i); p = f"/item/{i['source']}/{sl.split('-', 1)[1].strip('-')}/"
-    if not resolve(p): F("top10", f"no item page for {i['id']} ({p})")
-    for nm, doc in (("homepage", home), ("daily", daily), ("breakouts", brk)):
-        if f'href="{p}"' not in doc: F("top10", f"{i['id']} not linked on {nm}")
-    if SITE + p not in feed: F("top10", f"{i['id']} not linked in feed")
-    if f'"url": "{SITE}{p}"' not in home: F("top10", f"{i['id']} not in homepage ItemList with its item page")
-# build stale vs scored file: homepage rows, homepage ItemList and feed must be exactly the scored top 10, in order, from the same run
-exp = [f"/item/{i['source']}/{A.slug(i).split('-', 1)[1].strip('-')}/" for i in sc["top"]]
-tb = re.search(r"<tbody>(.*?)</tbody>", home, re.S)
-rows = re.findall(r'<a class="title" href="([^"]+)"', tb.group(1)) if tb else []
-il = []
-for blob in re.findall(r'<script type="application/ld\+json">(.*?)</script>', home, re.S):
-    for g in json.loads(blob).get("@graph", []):
-        if g.get("@type") == "ItemList": il = [x["url"].replace(SITE, "") for x in g["itemListElement"]]
-fl = [u.replace(SITE, "") for u in re.findall(r"<item><title>.*?</title><link>([^<]+)</link>", feed)]
-for nm, got in (("homepage rows", rows), ("homepage ItemList", il), ("feed", fl)):
-    if got != exp:
-        bad = [f"#{k+1} {sc['top'][k]['id'] if k < len(sc['top']) else '-'} expected {exp[k] if k < len(exp) else '-'} got {got[k] if k < len(got) else '-'}" for k in range(max(len(got), len(exp))) if (got[k:k+1] or [None]) != (exp[k:k+1] or [None])]
-        F("stale", f"build stale vs scored file ({SCF}): {nm} differ: " + "; ".join(bad[:4]))
-import email.utils as eu, datetime as _dt
-lb = re.search(r"<lastBuildDate>([^<]+)</lastBuildDate>", feed)
-if feed and (not lb or lb.group(1) != eu.format_datetime(_dt.datetime.fromisoformat(sc["generated"]))): F("stale", f"build stale vs scored file ({SCF}): feed lastBuildDate {lb.group(1) if lb else None} != scored generated {sc['generated']}")
+# Relaunch checks: no leftover ranking product on kept pages; sitemap and llms match the new IA.
+LEFTOVERS = (
+    "Last run", "Trending AI", "See today's top 10", "top 10 movers",
+    "Hugging Face", "Hacker News", "breaking out right now", "what's breaking out",
+    "Don't miss the next breakout", "Get the daily email", "Get the daily brief",
+    "daily breakout", "ranked hourly",
+)
+# 'Gavin' must never appear. 'data.json' must not be linked from HTML/llms/sitemap.
+KEEP_PREFIXES = ("https://nextaibreakout.com/", "https://nextaibreakout.com/about",
+                 "https://nextaibreakout.com/tips/", "https://nextaibreakout.com/claude/",
+                 "https://nextaibreakout.com/blog/")
+kept = ("index.html", "about.html", "404.html", "llms.txt", "robots.txt", "sitemap.xml",
+        "feed.xml", os.path.join("claude", "index.html"), os.path.join("tips", "index.html"),
+        os.path.join("blog", "index.html"))
+for rel in kept:
+    fp = os.path.join(D, rel)
+    if not os.path.isfile(fp):
+        if rel in ("index.html", "about.html", os.path.join("claude", "index.html"), os.path.join("tips", "index.html"), "sitemap.xml", "llms.txt"):
+            F(rel, "missing from build")
+        continue
+    raw = open(fp, encoding="utf-8").read()
+    for pat in LEFTOVERS + ("Gavin",):
+        if pat in raw:
+            F(rel, f"leftover ranking or disallowed copy: {pat!r}")
+    if rel.endswith(".html") and rel != "404.html":
+        if 'name="robots" content="noindex"' in raw:
+            F(rel, "kept page is noindex")
+        if rel == "index.html" and 'rel="canonical" href="https://nextaibreakout.com/"' not in raw:
+            F(rel, "homepage canonical missing")
+        if rel == "about.html" and 'rel="canonical" href="https://nextaibreakout.com/about"' not in raw:
+            F(rel, "about canonical missing")
+        if rel == os.path.join("claude", "index.html") and 'rel="canonical" href="https://nextaibreakout.com/claude/"' not in raw:
+            F(rel, "claude canonical missing")
+    if "data.json" in raw and rel != "robots.txt":
+        F(rel, "links to or mentions data.json")
+
+sm = open(os.path.join(D, "sitemap.xml"), encoding="utf-8").read() if os.path.isfile(os.path.join(D, "sitemap.xml")) else ""
+for loc in re.findall(r"<loc>([^<]+)</loc>", sm):
+    if not any(loc == p or loc.startswith(p if p.endswith("/") else p + "/") or loc == p for p in (
+        "https://nextaibreakout.com/",
+        "https://nextaibreakout.com/about",
+        "https://nextaibreakout.com/tips/",
+        "https://nextaibreakout.com/claude/",
+        "https://nextaibreakout.com/blog/",
+    )):
+        F("sitemap.xml", f"unexpected URL {loc}")
+    if loc in ("https://nextaibreakout.com/about.html", "https://nextaibreakout.com/data.json", "https://nextaibreakout.com/thanks/"):
+        F("sitemap.xml", f"retired or excluded URL {loc}")
+# old product paths must not be built into dist
+for shadow in ("item", "daily", "labs", "github", "huggingface", "npm", "pypi", "breakouts", "agents", "models", "grok-bot"):
+    if os.path.exists(os.path.join(D, shadow)):
+        F(shadow, "retired path still present in dist")
+
 # blog: every published post is built, has Article JSON-LD and a sitemap entry
 import blog as _blog
 _sm = open(os.path.join(D, "sitemap.xml")).read() if os.path.exists(os.path.join(D, "sitemap.xml")) else ""
@@ -103,6 +125,6 @@ for _p in _blog.posts():
     if '"@type": "Article"' not in open(_f, encoding="utf-8").read(): F("blog", f"post {_p['slug']} has no Article JSON-LD")
     if f"<loc>{SITE}/blog/{_p['slug']}/</loc>" not in _sm: F("blog", f"post {_p['slug']} not in sitemap.xml")
 if _blog.posts() and not os.path.isfile(os.path.join(D, "blog", "index.html")): F("blog", "/blog/ index not built")
-print(f"selfcheck ({SCF}): {len(files)} files, {len(fails)} failures")
+print(f"selfcheck: {len(files)} files, {len(fails)} failures")
 for x in fails[:60]: print("  FAIL", x)
 sys.exit(1 if fails else 0)

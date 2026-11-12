@@ -65,7 +65,6 @@ def nice(d): return dt.date.fromisoformat(d).strftime("%b %d, %Y").replace(" 0",
 
 def page(title, desc, path, extra, main, year, og_type="website"):
     h = B.head(title, desc, path, "/", CSS + FEED + extra).replace('<meta property="og:type" content="website">', f'<meta property="og:type" content="{og_type}">', 1)
-    h = h.replace('<meta name="twitter:card"', f'<meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:card"', 1)
     h += main + B.foot(year, "/") + "</body></html>"
     if B.SEO2:
         import seo2; return seo2.common(h)
@@ -92,13 +91,13 @@ def apply(DIST, t):
         main = (f'<main class="prose post"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <span aria-current="page">Post</span></nav>'
                 f'<article><h1>{e(p["title"])}</h1><p class="meta"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {BRAND}</p>\n{md(p["body"])}\n</article></main>')
         write(DIST, f"blog/{p['slug']}/index.html", page(title, desc, path, extra, main, year, "article"))
-    desc = f"Explainers from {BRAND} on the AI stories breaking out right now: what happened, what's real and what to watch."
+    desc = f"Notes and explainers from {BRAND}, including a Claude Code guide. Human-reviewed posts only."
     lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {e(p["description"])}</p></li>' for p in ps)
     j = {"@context": "https://schema.org", "@graph": [{"@type": "Blog", "name": f"{BRAND} blog", "url": SITE + "/blog/", "description": desc,
          "blogPost": [{"@type": "BlogPosting", "headline": p.get("seo_title") or p["title"], "url": f"{SITE}/blog/{p['slug']}/", "datePublished": p["date"]} for p in ps]},
          {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}]}]}
     main = f'<main class="prose"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Blog</span></nav><h1>Blog</h1><p class="dim">{e(desc)}</p><ul class="bloglist">{lis}</ul></main>'
-    write(DIST, "blog/index.html", page(B.seo_title("AI Explainers & Analysis"), desc, "/blog/", B.ld(j), main, year))
+    write(DIST, "blog/index.html", page(B.seo_title("Blog"), desc, "/blog/", B.ld(j), main, year))
     rfc = lambda d: eu.format_datetime(dt.datetime.fromisoformat(d + "T12:00:00+00:00"))
     items = "".join(f"<item><title>{e(p['title'])}</title><link>{SITE}/blog/{p['slug']}/</link><guid isPermaLink=\"true\">{SITE}/blog/{p['slug']}/</guid>"
                     f"<pubDate>{rfc(p['date'])}</pubDate><description>{e(p['description'])}</description></item>" for p in ps)
@@ -107,7 +106,7 @@ def apply(DIST, t):
           f'<lastBuildDate>{rfc(ps[0].get("modified") or ps[0]["date"])}</lastBuildDate>{items}</channel></rss>\n')
     # sitemap + llms.txt entries
     sp = os.path.join(DIST, "sitemap.xml"); s = open(sp).read()
-    urls = [("/blog/", ps[0]["date"], "daily")] + [(f"/blog/{p['slug']}/", p.get("modified") or p["date"], "monthly") for p in ps]
+    urls = [("/blog/", ps[0]["date"], "weekly")] + [(f"/blog/{p['slug']}/", p.get("modified") or p["date"], "monthly") for p in ps]
     s = s.replace("</urlset>", "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{d}</lastmod><changefreq>{c}</changefreq></url>" for u, d, c in urls) + "</urlset>", 1)
     open(sp, "w").write(s)
     lp = os.path.join(DIST, "llms.txt")

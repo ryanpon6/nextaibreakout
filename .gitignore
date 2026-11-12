@@ -49,3 +49,7 @@ __pycache__/
 *.log
 *.pem
 *.key
+!/claude.py
+!/functions/
+!/functions/**
+!/_redirects

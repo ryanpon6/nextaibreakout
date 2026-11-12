@@ -1,0 +1,5 @@
+# 301s for paths that have a real new page. 410s are served by the Pages Function
+# in functions/[[path]].js (_redirects cannot return 410).
+/about.html    /about    301
+/grok-bot      /tips/    301
+/grok-bot/     /tips/    301

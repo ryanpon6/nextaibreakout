@@ -6,17 +6,18 @@ LABS = os.getenv("LABS") == "1"
 SEO2 = os.getenv("SEO2") == "1"  # SEO fixes + archive/item pages: off by default so the hourly cron does not publish them yet
 import re as _re
 def re_strip(s): return _re.sub(r"\s+", " ", html.unescape(_re.sub(r"<[^>]+>", "", s))).strip()  # Frontier Labs pages: off by default so the hourly cron deploy does not publish them yet
-SITE = "https://nextaibreakout.com"; BRAND = "NextAiBreakout"; TAG = "Tracking the road to superintelligence."
-DESC = "AI repos, models and packages ranked hourly by velocity, not hype. Tracked across GitHub, Hugging Face, npm, PyPI and Hacker News."
+SITE = "https://nextaibreakout.com"; BRAND = "NextAiBreakout"; TAG = "Grok Bot tips, with the real build behind each one."
+DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
 X_URL = "https://x.com/ryanpon"; X_HANDLE = "@ryanpon"
-H1_TEXT = "Trending AI, caught the hour it breaks out."
-H1_HTML = 'Trending <span class="accent">AI</span>, caught the hour it breaks out.'
+H1_TEXT = "Grok Bot tips, with the real build behind each one."
+H1_HTML = 'Grok Bot tips, with the real build behind each one.'
 e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
-FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">'
 GOLD = "#B8A188"
 # Cache-busting: stylesheet/font URLs carry a hash of their contents, so a visitor's browser never pairs new pages with an old cached stylesheet.
 VER = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("static/style.css", "fonts/fonts.css"))).hexdigest()[:10]
+FONTS = ('<link rel="preload" href="/fonts/Archivo-var.woff2" as="font" type="font/woff2" crossorigin>'
+         f'<link rel="stylesheet" href="/fonts/fonts.css?v={VER}">')
 # Mark: a frame with a line breaking out through its top-right corner
 LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
         '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#B8A188" stroke-width="2.6" stroke-linecap="square"/></svg>')
@@ -72,15 +73,16 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{SITE}/og-default.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="dark"><meta name="theme-color" content="#274043">
 <link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{WORD}</a>
-<nav id="site-nav" aria-label="Primary"><a href="/tips/">Tips</a><a href="/blog/">Blog</a><a href="/about">About</a></nav>
-<div class="acts"><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="/#subscribe" class="cta">Subscribe</a></div></header>"""
+<nav id="site-nav" aria-label="Primary"><a href="/tips/">Tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a></nav>
+<div class="acts"><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a></div></header>"""
 
 def foot(year, root=""):
-    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Tips</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""
+    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/feed.xml">RSS</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div>
+<p class="fnote">Tips are reviewed before they go up. Unreviewed bot output does not publish.</p></footer>"""
 
 def row(i, n):
     return f"""<tr data-src="{i['source']}" data-tag="{i['tag']}"><td class="rk">{n}</td>
@@ -112,88 +114,259 @@ def chart(top):
 def short(s, n=64):
     s = s.split(". ")[0].rstrip(".")
     return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
-def og(d, stamp_day):
-    t = d["top"][0] if d["top"] else None
-    if not t: return
-    others = "&nbsp;&nbsp;&nbsp;&nbsp;".join(f"{k+2}. {e(x['name'].split('/')[-1] if x['source']!='hackernews' else x['name'][:30].rsplit(' ',1)[0]+'…')}" for k, x in enumerate(d["top"][1:3]))
-    sp = spark(t.get("hist"), 1090, 110, GOLD, True)
-    big, sub = t["momentum"].split(" ", 1) if " " in t["momentum"] else (t["momentum"], "")
-    page = f"""<html><head>{FONTS}<style>html{{background:#274043}}body{{margin:0;width:1200px;height:630px;background:radial-gradient(560px 380px at 86% 88%,rgba(184,161,136,.16),transparent 70%),#274043;color:#F5F1E8;font-family:'Archivo',sans-serif;padding:56px 64px;box-sizing:border-box;position:relative}}
-.logo{{width:40px;height:40px;vertical-align:middle;margin-right:14px;color:#B8A188}}.w{{font-stretch:125%;font-weight:800}}</style></head><body>
-<div style="display:flex;justify-content:space-between;align-items:center;font-size:28px"><div class="w">{WORD}</div><div style="font-size:20px;color:#B8A188">● {stamp_day}</div></div>
-<div style="color:#B8A188;font-size:22px;font-weight:600;margin-top:52px">Breaking out fastest right now</div>
-<div style="display:flex;justify-content:space-between;align-items:flex-end"><div style="max-width:780px"><div style="font-size:{'70' if len(t['name'])<24 else '50'}px;font-weight:800;font-stretch:112%;line-height:1.02;letter-spacing:-.02em;margin-top:10px">{e(t['name'])}</div>
-<div style="font-size:26px;color:#D8D0C6;margin-top:12px">{e(short(t.get('what') or ''))}</div></div>
-<div style="text-align:right"><div style="font-size:64px;font-weight:800;font-stretch:112%;color:#B8A188">{e(big)}</div><div style="color:#C5C0B6;font-size:18px">{e(sub)}</div></div></div>
-<div style="position:absolute;left:64px;right:46px;top:380px">{sp}</div>
-<div style="position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;border-top:1px solid rgba(184,161,136,.28);padding-top:22px;font-size:18px;color:#C5C0B6"><span>{others}</span><b style="color:#F5F1E8">nextaibreakout.com</b></div></body></html>"""
-    with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f: f.write(page); p = f.name
-    subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--virtual-time-budget=4000",
-                    "--window-size=1200,630", f"--screenshot={os.path.join(DIST, 'og.png')}", "file://" + p],
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=60)
-    os.unlink(p)
+def og_brand():
+    """Teal and champagne-gold default OG image. No ranking product, no invented stats."""
+    font = os.path.join(ROOT, "fonts", "Archivo-var.woff2")
+    page = f"""<!doctype html><html><head><style>
+@font-face{{font-family:Archivo;src:url('file://{font}') format('woff2');font-weight:100 900;font-stretch:62% 125%;}}
+html,body{{margin:0;padding:0}}
+body{{width:1200px;height:630px;background:#274043;color:#F5F1E8;font-family:Archivo,Helvetica Neue,Arial,sans-serif;padding:56px 64px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between}}
+.top{{display:flex;align-items:center;gap:14px;font-stretch:125%;font-weight:800;font-size:28px;color:#B8A188}}
+.logo{{width:40px;height:40px;color:#B8A188}}
+.k{{font-size:20px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#BCA68E;margin:0 0 16px}}
+h1{{font-size:72px;line-height:1.02;font-weight:800;font-stretch:112%;letter-spacing:-.03em;margin:0;max-width:18ch;color:#F5F1E8}}
+.bot{{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(184,161,136,.28);padding-top:22px;font-size:20px}}
+.bot span{{color:#C5C0B6}}.bot b{{color:#B8A188}}
+</style></head><body>
+<div class="top">{WORD}</div>
+<div><p class="k">Grok Bot first. One page for Claude.</p>
+<h1>Grok Bot tips, with the real build behind each one.</h1></div>
+<div class="bot"><span>nextaibreakout.com</span><b>Tips · Claude · Blog · About</b></div>
+</body></html>"""
+    with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
+        f.write(page); src = f.name
+    dest = os.path.join(DIST, "og-default.png")
+    try:
+        subprocess.run(
+            ["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
+             "--virtual-time-budget=4000", "--window-size=1200,630", f"--screenshot={dest}", "file://" + src],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=60, check=False,
+        )
+    finally:
+        os.unlink(src)
+    if os.path.isfile(dest) and os.path.getsize(dest) > 1000:
+        shutil.copy(dest, os.path.join(DIST, "og.png"))
+    else:
+        # Fall back to a solid teal card generated without Chrome, still no ranking art.
+        try:
+            from PIL import Image, ImageDraw, ImageFont
+            im = Image.new("RGB", (1200, 630), "#274043")
+            d = ImageDraw.Draw(im)
+            d.rectangle((64, 520, 1136, 521), fill="#B8A188")
+            font_lg = font_sm = ImageFont.load_default()
+            d.text((64, 80), "NextAiBreakout", fill="#B8A188", font=font_lg)
+            d.text((64, 220), "Grok Bot tips, with the real", fill="#F5F1E8", font=font_lg)
+            d.text((64, 280), "build behind each one.", fill="#F5F1E8", font=font_lg)
+            d.text((64, 560), "nextaibreakout.com", fill="#C5C0B6", font=font_sm)
+            im.save(dest, "PNG")
+            shutil.copy(dest, os.path.join(DIST, "og.png"))
+        except Exception:
+            fallback = os.path.join(ROOT, "static", "og-default.png")
+            if os.path.isfile(fallback):
+                shutil.copy(fallback, dest)
+                shutil.copy(fallback, os.path.join(DIST, "og.png"))
+
+
+FEATURED_SLUGS = (
+    "talk-to-one-lead-bot",
+    "quality-checker-before-it-reaches-you",
+    "drafts-only-approval",
+    "blabara-in-one-day",
+)
+
+HOME_TITLE = "Grok Bot tips with real builds | NextAiBreakout"
+# Honest meta: do not promise screenshots that are still placeholders.
+HOME_DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
+ABOUT_TITLE = "About this site | NextAiBreakout"
+ABOUT_DESC = "NextAiBreakout is a Grok Bot tips site, with a separate page for Claude. Tips are reviewed before they go up."
+LLMS = """# NextAiBreakout
+> Grok Bot tips with the real build behind each one. One separate page for Claude.
+
+## Site
+- [Home](https://nextaibreakout.com/)
+- [Tips](https://nextaibreakout.com/tips/)
+- [Claude](https://nextaibreakout.com/claude/)
+- [Blog](https://nextaibreakout.com/blog/)
+- [About](https://nextaibreakout.com/about)
+
+## Notes
+Pages are reviewed before they go up. Unreviewed model output is not published. This site no longer ranks AI repos, models, or packages by hourly velocity.
+"""
+
+
+def featured():
+    import tips as T
+    out = []
+    for slug in FEATURED_SLUGS:
+        tip = T.BY_SLUG[slug]
+        out.append({"slug": slug, "title": tip["title"], "line": tip["meta"], "path": T.path_of(slug)})
+    return out
+
+
+def home_page(year):
+    cards = featured()
+    card_html = "".join(
+        f'<li><a class="tip-title" href="{e(c["path"])}">{e(c["title"])}</a><p>{e(c["line"])}</p></li>'
+        for c in cards
+    )
+    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png",
+           "sameAs": [X_URL]}
+    website = {"@type": "WebSite", "name": BRAND, "url": SITE + "/", "description": HOME_DESC, "inLanguage": "en-CA",
+               "publisher": {"@id": SITE + "/#org"}}
+    org = dict(org, **{"@id": SITE + "/#org"})
+    item_list = {
+        "@type": "ItemList",
+        "name": "Featured Grok Bot tips",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": len(cards),
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": c["title"], "url": SITE + c["path"]}
+            for i, c in enumerate(cards, 1)
+        ],
+    }
+    extra = ld({"@context": "https://schema.org", "@graph": [website, org, item_list]})
+    return head(HOME_TITLE, HOME_DESC, "/", "/", extra) + f"""<main>
+<section class="hero relaunch" id="top"><div class="hcopy">
+<p class="kicker">Grok Bot first. One page for Claude.</p>
+<h1>{H1_HTML}</h1>
+<p class="lede">Most Grok Bot tip lists are one-liners. Fine as a checklist. Not how I learned this.</p>
+<p class="lede">Every tip here comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have the real story, the tip stays off the site.</p>
+<div class="btns"><a class="btn pri" href="/tips/">Browse the tips</a><a class="btn" href="/claude/">Read the Claude notes</a></div>
+</div></section>
+<section class="proof" aria-label="From work I actually ran">
+<article><h2>A real app in a day.</h2><p>On 16 Oct 2026, my brother and I built the Blabara Android voice-dictation app (it was called VoiceKey then) with a team of Grok Bots. I am not claiming it is live on Google Play.</p></article>
+<article><h2>A coordinator, plus a checker.</h2><p>I talk to one Chief of Staff bot. A fleet-wide Quality Checker reviews work before it reaches me.</p></article>
+<article><h2>Quiet unless something changed.</h2><p>Change-only scripts watch prices and other lists, and stay silent when nothing moved.</p></article>
+<article><h2>I already use this for real work.</h2><p>I use AI for daily admin (email drafts, safety forms, crew attendance, scheduling, monthly tracking), and I replaced about 10 years of Squarespace by building my company site myself.</p></article>
+</section>
+<section class="home-sec" aria-label="Featured tips">
+<h2>A few to start with.</h2>
+<p>Each one links to the full write-up.</p>
+<ul class="tip-cards">{card_html}</ul>
+<p class="btns"><a class="btn" href="/tips/">See all tips</a></p>
+</section>
+<section class="claude-band">
+<h2>I also use Claude. That work lives on its own page.</h2>
+<p>This site is Grok Bot first. I'm not going to mix both tools into every tip.</p>
+<p>Claude has its own page: what I can stand behind so far, and the one older guide already published on using Claude Code to debloat an Android TV, carefully.</p>
+<div class="btns"><a class="btn pri" href="/claude/">Go to the Claude page</a></div>
+</section>
+</main>
+""" + foot(year) + "</body></html>"
+
+
+def about_page(year):
+    url = SITE + "/about"
+    graph = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "AboutPage", "name": "About this site", "url": url, "description": ABOUT_DESC,
+             "isPartOf": {"@type": "WebSite", "name": BRAND, "url": SITE + "/"}},
+            {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png", "sameAs": [X_URL]},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+                {"@type": "ListItem", "position": 2, "name": "About", "item": url},
+            ]},
+        ],
+    }
+    body = f"""<main class="prose">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">About</span></nav>
+<h1>About this site.</h1>
+<p>NextAiBreakout is a Grok Bot tips site, with the real build behind each tip. There is a separate page for Claude.</p>
+<p>Every tip comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have those, the tip stays off the site.</p>
+<p>I talk to one lead bot. A Quality Checker reviews work before it reaches me. Tips are reviewed before they go up. Unreviewed bot output does not publish.</p>
+<p>This site no longer ranks AI repos, models, or packages by hourly velocity.</p>
+<p><a href="/tips/">Browse the tips</a> · <a href="/claude/">Read the Claude notes</a> · <a href="/blog/">See the blog</a></p>
+<p class="follow-p">Follow along on X: <a href="{X_URL}" rel="me noopener" target="_blank">{X_HANDLE}</a>.</p>
+</main>"""
+    return head(ABOUT_TITLE, ABOUT_DESC, "/about", "/", ld(graph)) + body + foot(year) + "</body></html>"
+
+
+def not_found_page(year):
+    nf = head(f"Page not found | {BRAND}", "This page doesn't exist on NextAiBreakout.", "/404.html", "/")
+    nf = nf.replace('<link rel="canonical" href="https://nextaibreakout.com/404.html">', '<meta name="robots" content="noindex">')
+    return nf + """<main class="prose">
+<h1>Page not found</h1><p class="dim">That page doesn't exist, or hasn't launched yet.</p>
+<div class="btns"><a class="btn pri" href="/tips/">Browse the tips</a><a class="btn" href="/about">About</a></div></main>""" + foot(year, "/") + "</body></html>"
+
+
+def clear_dist():
+    if os.path.isdir(DIST):
+        for name in os.listdir(DIST):
+            path = os.path.join(DIST, name)
+            if os.path.isdir(path):
+                shutil.rmtree(path)
+            else:
+                os.remove(path)
+    os.makedirs(DIST, exist_ok=True)
+
+
+def write_redirects():
+    src = os.path.join(ROOT, "_redirects")
+    if os.path.isfile(src):
+        shutil.copy(src, os.path.join(DIST, "_redirects"))
+
+
+def copy_functions():
+    """Copy _routes.json into dist so the Pages Function stays scoped after wrangler pages deploy."""
+    src = os.path.join(ROOT, "functions", "_routes.json")
+    if os.path.isfile(src):
+        shutil.copy(src, os.path.join(DIST, "_routes.json"))
+
 
 def main():
     d = json.load(open(os.path.join(DATA, "scored-seo2.json" if SEO2 else "scored.json")))
-    t = dt.datetime.fromisoformat(d["generated"]); stamp = t.strftime("%b %d, %Y %H:%M UTC"); day = t.strftime("%Y-%m-%d")
-    os.makedirs(DIST, exist_ok=True)
-    top = d["top"]
-    counts = {s: sum(1 for x in top if x["source"] == s) for s in LABEL}
-    srctabs = f'<button class="on" data-f="src" data-v="all">All sources <i>{len(top)}</i></button>' + "".join(
-        f'<button data-f="src" data-v="{s}">{LABEL[s]} <i>{counts[s]}</i></button>' for s in LABEL if counts[s])
-    tagtabs = '<button class="on" data-f="tag" data-v="all">#all</button>' + "".join(
-        f'<button data-f="tag" data-v="{g}">#{g}</button>' for g in ("agents", "models", "dev tools", "safety"))
-    page = head(f"{BRAND}: what's breaking out in AI right now", DESC, "/") + f"""<main>
-<section class="hero" id="top"><div class="hcopy"><p class="live"><span class="dot" aria-hidden="true"></span>Live. Last run {stamp}, {d['items_scanned']} items checked across {len(d['sources'])} sources</p>
-<h1>{H1_HTML}</h1><p class="lede">{e(DESC)}</p>
-<!--kit-hero--><div class="btns"><a class="btn pri" href="#top10">See today's top 10</a><a class="btn" href="/tips/">Grok Bot tips</a><a class="btn" href="#subscribe">Get the daily email</a></div><!--/kit-hero--></div>
-{chart(top)}</section>
-<section id="top10" class="board"><div class="sh"><h2>Breaking out right now</h2><p class="dim">Each score compares an item's growth this hour with its own baseline, from 0 to 99. Refreshed every hour.</p></div>
-<div class="filters" role="group" aria-label="Filter by source">{srctabs}</div><div class="filters small" role="group" aria-label="Filter by topic">{tagtabs}</div>
-<div class="tbl"><table><thead><tr><th>Rank</th><th>Item</th><th>48h trend</th><th>Momentum</th><th>Score</th></tr></thead><tbody>
-{"".join(row(i, n+1) for n, i in enumerate(top))}</tbody></table><p class="empty dim" hidden>Nothing from this filter in today's top 10.</p></div></section>
-<section id="sponsor" class="spon"><span class="tag-s">Sponsor</span><div><b>Your product here, pinned for 7 days</b><p>One slot, seen by everyone tracking new AI. Sponsor this spot: email for rates.</p></div><a class="btn" href="/about#sponsor">Book this slot</a></section>
-{labs_home(t) if LABS else ""}<section id="subscribe" class="signup"><div><h2>Don't miss the next breakout.</h2><p class="dim">The top 10 movers and the frontier releases, in one email a day.</p></div>
-<form onsubmit="return false"><label for="em">Email address</label><div><input id="em" type="email" placeholder="you@company.com" disabled><button class="btn pri" type="button" disabled aria-disabled="true">Email launching soon</button></div></form></section>
-<section class="follow"><p>New breakouts post live on X, three times a day.</p><a class="ghost" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow {X_HANDLE}</a></section></main>
-{foot(t.year)}
-<script>const st={{src:'all',tag:'all'}};document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{{b.parentNode.querySelectorAll('button').forEach(x=>{{x.classList.remove('on');x.setAttribute('aria-pressed','false')}});b.classList.add('on');b.setAttribute('aria-pressed','true');st[b.dataset.f]=b.dataset.v;let n=0;document.querySelectorAll('tbody tr').forEach(r=>{{const ok=(st.src=='all'||r.dataset.src==st.src)&&(st.tag=='all'||r.dataset.tag==st.tag);r.hidden=!ok;n+=ok}});document.querySelector('.empty').hidden=n>0}})</script></body></html>"""
-    open(os.path.join(DIST, "index.html"), "w").write(page)
-    about = head(seo_title("How we rank trending AI repos & models"), "How NextAiBreakout finds trending AI repos, models and packages every hour: the sources, the 0–99 breakout score, and how to sponsor.", "/about") + f"""<main class="prose">
-<h1>{TAG}</h1><p>{BRAND} checks public sources every hour and ranks what is <strong>gaining momentum fastest</strong>, not what is already biggest.</p>
-<h2>How the breakout score works</h2><ul><li><b>GitHub:</b> new AI repos (AI keywords required, 50+ stars), stars gained per hour once a repo has 3+ hourly snapshots; before that, shown as stars/day since launch (lifetime stars ÷ age). Repos older than ~60 days are down-ranked unless they show real recent velocity.</li>
-<li><b>Hugging Face:</b> trending score and like growth for models and Spaces.</li><li><b>npm / PyPI:</b> yesterday's downloads vs. the 7-day average.</li>
-<li><b>Hacker News:</b> AI stories, points per hour since posting (opinion pieces filtered where possible).</li></ul>
-<p>Each source is ranked by velocity and relative growth, then everything is re-ranked into a 0–99 score. Trend lines use only real hourly snapshots; new items show a dashed line until there's history. Descriptions come from each project's own page.</p>
-<h2 id="sponsor">Sponsor</h2><p>One pinned slot per week on the site and in the daily email: Sponsor this spot: email for rates.</p>
-<h2>Follow along</h2><p class="follow-p">New breakouts also post live on X, three times a day: <a href="{X_URL}" rel="me noopener" target="_blank">{X_HANDLE}</a>.</p></main>""" + foot(t.year) + "</body></html>"
-    open(os.path.join(DIST, "about.html"), "w").write(about)
-    # real 404 page: Cloudflare Pages serves dist/404.html with HTTP 404 for unknown paths (absolute links so it works at any depth)
-    nf = head(f"Page not found | {BRAND}", "This page doesn't exist on NextAiBreakout.", "/404.html", "/").replace('<link rel="canonical" href="https://nextaibreakout.com/404.html">', '<meta name="robots" content="noindex">') + """<main class="prose">
-<h1>Page not found</h1><p class="dim">That page doesn't exist, or hasn't launched yet.</p>
-<div class="btns"><a class="btn pri" href="/">See what's breaking out</a><a class="btn" href="/about">About</a></div></main>""" + foot(t.year, "/") + "</body></html>"
-    open(os.path.join(DIST, "404.html"), "w").write(nf)
+    t = dt.datetime.fromisoformat(d["generated"])
+    day = "2026-11-12"  # relaunch copy date, not a fake "updated hourly" stamp
+    clear_dist()
+    open(os.path.join(DIST, "index.html"), "w", encoding="utf-8").write(home_page(t.year))
+    open(os.path.join(DIST, "about.html"), "w", encoding="utf-8").write(about_page(t.year))
+    open(os.path.join(DIST, "404.html"), "w", encoding="utf-8").write(not_found_page(t.year))
     for f in os.listdir(os.path.join(ROOT, "static")):
-        if f != "og.png": shutil.copy(os.path.join(ROOT, "static", f), DIST)
-    if LABS: shutil.copy(os.path.join(ROOT, "labs.css"), DIST)
-    og(d, t.strftime("%b %d, %Y").upper())
-    if not os.path.exists(os.path.join(DIST, "og.png")): shutil.copy(os.path.join(ROOT, "static", "og.png"), DIST)
-    open(os.path.join(DIST, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        + "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{day}</lastmod><changefreq>{c}</changefreq></url>" for p, c in (("/", "hourly"), ("/about", "monthly")) + (labs_pages(t) if LABS else ())) + "</urlset>\n")
-    open(os.path.join(DIST, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
-    llms = [f"# {BRAND}", f"> {TAG} {DESC}", "", f"Updated hourly. Last refresh: {stamp}.", "", "## Top 10 breaking out today"]
-    llms += [f"- [{i['name']}]({i['url']}) ({LABEL[i['source']]}, score {i['score']:.0f}): {i.get('what','')} {i['why']}" for i in top]
-    llms += ["", "## Pages", f"- [Home]({SITE}/)", f"- [About and methodology]({SITE}/about)", f"- [Data JSON]({SITE}/data.json)"]
-    open(os.path.join(DIST, "llms.txt"), "w").write("\n".join(llms) + "\n")
-    json.dump({k: d[k] for k in ("generated", "top", "frontier")}, open(os.path.join(DIST, "data.json"), "w"))
+        if f not in ("og.png", "og-default.png"):
+            shutil.copy(os.path.join(ROOT, "static", f), DIST)
+    fonts_dest = os.path.join(DIST, "fonts")
+    if os.path.isdir(fonts_dest):
+        shutil.rmtree(fonts_dest)
+    shutil.copytree(os.path.join(ROOT, "fonts"), fonts_dest)
+    write_redirects()
+    copy_functions()
+    og_brand()
+    if not os.path.exists(os.path.join(DIST, "og-default.png")):
+        src = os.path.join(ROOT, "static", "og-default.png")
+        if os.path.isfile(src):
+            shutil.copy(src, os.path.join(DIST, "og-default.png"))
+            shutil.copy(src, os.path.join(DIST, "og.png"))
+    sitemap_urls = [("/", day, "weekly"), ("/about", day, "monthly"), ("/claude/", day, "monthly")]
+    open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        + "".join(
+            f"<url><loc>{SITE}{p}</loc><lastmod>{d_}</lastmod><changefreq>{c}</changefreq></url>"
+            for p, d_, c in sitemap_urls
+        )
+        + "</urlset>\n"
+    )
+    open(os.path.join(DIST, "robots.txt"), "w", encoding="utf-8").write(
+        f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n"
+    )
+    open(os.path.join(DIST, "llms.txt"), "w", encoding="utf-8").write(LLMS)
+    # Leave /data.json in place. migration.md wants it 410'd; that is reported, not done,
+    # because the watchdog Worker may still be live and the parent asked not to delete it.
+    json.dump({k: d[k] for k in ("generated", "top", "frontier") if k in d}, open(os.path.join(DIST, "data.json"), "w"))
     if SEO2:
-        import seo2; seo2.apply(DIST, d, t)
-    if os.getenv("GROKBOT") == "1":  # Grok Bot page: off by default so the cron deploy does not publish it
-        import grokbot; grokbot.apply(DIST)
-    import tips; tips.apply(DIST, t)
-    import blog; blog.apply(DIST, t)  # blog: always on (posts only render with status: published)
-    if os.getenv("KIT") == "1":  # Kit email signup: off by default so production/cron builds do not include it (preview only); after blog so posts get the box
-        import kit; kit.apply(DIST)
+        print("[build] SEO2=1 is set, but ranking pages are not emitted in this relaunch build")
+    import tips
+    tips.apply(DIST, t)
+    import blog
+    blog.apply(DIST, t)
+    import claude
+    claude.apply(DIST, t)
+    # Site feed at /feed.xml (same items as the blog feed; no hourly ranking items).
+    blog_rss = os.path.join(DIST, "blog", "rss.xml")
+    if os.path.isfile(blog_rss):
+        shutil.copy(blog_rss, os.path.join(DIST, "feed.xml"))
+    if os.getenv("KIT") == "1":
+        print("[build] KIT=1 is set, but NAB email sends are stopped and the form was not verified; signup is not injected")
     print("built", DIST)
 
 # ---------------- Frontier Labs ----------------
