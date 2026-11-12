@@ -422,7 +422,7 @@ def prompt_blocks(slug):
     return "".join(bits)
 
 
-# Honest tradeoffs and, only when a live X post clearly fits, a "From the team" cite.
+# Honest tradeoffs and, only when a live X post clearly fits, a "From {author}" cite.
 # Proof posts must be by Elon Musk or a verifiable xAI/Grok team member, quoted verbatim,
 # and re-fetched by id before publish. Skip the line rather than stretch a loose match.
 
@@ -438,7 +438,7 @@ PROS_CONS = {
             "It needs clear routing rules, or jobs stay in the lead chat instead of moving on.",
         ],
         "proof": {
-            "text": "Grok @Bot is like hiring an incredibly competent chief of staff https://t.co/jFQs8WG5Vo",
+            "text": "Grok @Bot is like hiring an incredibly competent chief of staff",
             "url": "https://x.com/elonmusk/status/2114772843997351993",
             "name": "Elon Musk",
             "handle": "elonmusk",
@@ -597,10 +597,11 @@ def team_proof_block(slug):
     proof = (PROS_CONS.get(slug) or {}).get("proof")
     if not proof:
         return ""
+    heading = f"From {proof['name']}"
     label = f"{proof['name']} (@{proof['handle']}), {proof['date']}"
     return (
         f'<aside class="team-proof" aria-labelledby="team-proof-heading">'
-        f'<h2 id="team-proof-heading">From the team</h2>'
+        f'<h2 id="team-proof-heading">{e(heading)}</h2>'
         f"<blockquote>"
         f"<p>{e(proof['text'])}</p>"
         f"<footer><cite><a href=\"{e(proof['url'])}\">{e(label)}</a></cite></footer>"
