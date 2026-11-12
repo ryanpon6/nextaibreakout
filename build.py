@@ -75,12 +75,12 @@ def head(title, desc, path, root="", extra=""):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="light dark"><meta name="theme-color" content="#EDEFF4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#05070D" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{THEME_JS}</head><body>
-<header class="top"><a class="brand" href="{root}index.html" aria-label="{BRAND} home">{WORD}</a>
-<nav><a href="{root}index.html#top10">Today</a>{labsnav}<a href="{root}index.html#sponsor">Sponsor</a><a href="{root}about.html">About</a></nav>
-<div class="acts"><button class="ib" type="button" data-theme-toggle aria-label="Switch light or dark theme">{SUN}{MOON}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="{root}index.html#subscribe" class="cta">Subscribe</a></div></header>"""
+<header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{WORD}</a>
+<nav><a href="/#top10">Today</a>{labsnav}<a href="/#sponsor">Sponsor</a><a href="/about">About</a></nav>
+<div class="acts"><button class="ib" type="button" data-theme-toggle aria-label="Switch light or dark theme">{SUN}{MOON}</button><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow</a><a href="/#subscribe" class="cta">Subscribe</a></div></header>"""
 
 def foot(year, root=""):
-    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="{root}about.html">About</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""
+    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/about">About</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""
 
 def row(i, n):
     return f"""<tr data-src="{i['source']}" data-tag="{i['tag']}"><td class="rk">{n}</td>
@@ -152,14 +152,14 @@ def main():
 <div class="filters" role="group" aria-label="Filter by source">{srctabs}</div><div class="filters small" role="group" aria-label="Filter by topic">{tagtabs}</div>
 <div class="tbl"><table><thead><tr><th>Rank</th><th>Item</th><th>48h trend</th><th>Momentum</th><th>Score</th></tr></thead><tbody>
 {"".join(row(i, n+1) for n, i in enumerate(top))}</tbody></table><p class="empty dim" hidden>Nothing from this filter in today's top 10.</p></div></section>
-<section id="sponsor" class="spon"><span class="tag-s">Sponsor</span><div><b>Your product here, pinned for 7 days</b><p>One slot, seen by everyone tracking new AI. Sponsor this spot: email for rates.</p></div><a class="btn" href="about.html#sponsor">Book this slot</a></section>
+<section id="sponsor" class="spon"><span class="tag-s">Sponsor</span><div><b>Your product here, pinned for 7 days</b><p>One slot, seen by everyone tracking new AI. Sponsor this spot: email for rates.</p></div><a class="btn" href="/about#sponsor">Book this slot</a></section>
 {labs_home(t) if LABS else ""}<section id="subscribe" class="signup"><div><h2>Don't miss the next breakout.</h2><p class="dim">The top 10 movers and the frontier releases, in one email a day.</p></div>
 <form onsubmit="return false"><label for="em">Email address</label><div><input id="em" type="email" placeholder="you@company.com" disabled><button class="btn pri" type="button" disabled aria-disabled="true">Email launching soon</button></div></form></section>
 <section class="follow"><p>New breakouts post live on X, three times a day.</p><a class="ghost" href="{X_URL}" rel="me noopener" target="_blank">{XICON}Follow {X_HANDLE}</a></section></main>
 {foot(t.year)}
 <script>const st={{src:'all',tag:'all'}};document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{{b.parentNode.querySelectorAll('button').forEach(x=>{{x.classList.remove('on');x.setAttribute('aria-pressed','false')}});b.classList.add('on');b.setAttribute('aria-pressed','true');st[b.dataset.f]=b.dataset.v;let n=0;document.querySelectorAll('tbody tr').forEach(r=>{{const ok=(st.src=='all'||r.dataset.src==st.src)&&(st.tag=='all'||r.dataset.tag==st.tag);r.hidden=!ok;n+=ok}});document.querySelector('.empty').hidden=n>0}})</script></body></html>"""
     open(os.path.join(DIST, "index.html"), "w").write(page)
-    about = head(seo_title("How we rank trending AI repos & models"), "How NextAiBreakout finds trending AI repos, models and packages every hour: the sources, the 0–99 breakout score, and how to sponsor.", "/about.html") + f"""<main class="prose">
+    about = head(seo_title("How we rank trending AI repos & models"), "How NextAiBreakout finds trending AI repos, models and packages every hour: the sources, the 0–99 breakout score, and how to sponsor.", "/about") + f"""<main class="prose">
 <h1>{TAG}</h1><p>{BRAND} checks public sources every hour and ranks what is <strong>gaining momentum fastest</strong>, not what is already biggest.</p>
 <h2>How the breakout score works</h2><ul><li><b>GitHub:</b> new AI repos (AI keywords required, 50+ stars), stars gained per hour once a repo has 3+ hourly snapshots; before that, shown as stars/day since launch (lifetime stars ÷ age). Repos older than ~60 days are down-ranked unless they show real recent velocity.</li>
 <li><b>Hugging Face:</b> trending score and like growth for models and Spaces.</li><li><b>npm / PyPI:</b> yesterday's downloads vs. the 7-day average.</li>
@@ -171,7 +171,7 @@ def main():
     # real 404 page: Cloudflare Pages serves dist/404.html with HTTP 404 for unknown paths (absolute links so it works at any depth)
     nf = head(f"Page not found | {BRAND}", "This page doesn't exist on NextAiBreakout.", "/404.html", "/").replace('<link rel="canonical" href="https://nextaibreakout.com/404.html">', '<meta name="robots" content="noindex">') + """<main class="prose">
 <h1>Page not found</h1><p class="dim">That page doesn't exist, or hasn't launched yet.</p>
-<div class="btns"><a class="btn pri" href="/">See what's breaking out</a><a class="btn" href="/about.html">About</a></div></main>""" + foot(t.year, "/") + "</body></html>"
+<div class="btns"><a class="btn pri" href="/">See what's breaking out</a><a class="btn" href="/about">About</a></div></main>""" + foot(t.year, "/") + "</body></html>"
     open(os.path.join(DIST, "404.html"), "w").write(nf)
     for f in os.listdir(os.path.join(ROOT, "static")):
         if f != "og.png": shutil.copy(os.path.join(ROOT, "static", f), DIST)
@@ -179,11 +179,11 @@ def main():
     og(d, t.strftime("%b %d, %Y").upper())
     if not os.path.exists(os.path.join(DIST, "og.png")): shutil.copy(os.path.join(ROOT, "static", "og.png"), DIST)
     open(os.path.join(DIST, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        + "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{day}</lastmod><changefreq>{c}</changefreq></url>" for p, c in (("/", "hourly"), ("/about.html", "monthly")) + (labs_pages(t) if LABS else ())) + "</urlset>\n")
+        + "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{day}</lastmod><changefreq>{c}</changefreq></url>" for p, c in (("/", "hourly"), ("/about", "monthly")) + (labs_pages(t) if LABS else ())) + "</urlset>\n")
     open(os.path.join(DIST, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     llms = [f"# {BRAND}", f"> {TAG} {DESC}", "", f"Updated hourly. Last refresh: {stamp}.", "", "## Top 10 breaking out today"]
     llms += [f"- [{i['name']}]({i['url']}) ({LABEL[i['source']]}, score {i['score']:.0f}): {i.get('what','')} {i['why']}" for i in top]
-    llms += ["", "## Pages", f"- [Home]({SITE}/)", f"- [About and methodology]({SITE}/about.html)", f"- [Data JSON]({SITE}/data.json)"]
+    llms += ["", "## Pages", f"- [Home]({SITE}/)", f"- [About and methodology]({SITE}/about)", f"- [Data JSON]({SITE}/data.json)"]
     open(os.path.join(DIST, "llms.txt"), "w").write("\n".join(llms) + "\n")
     json.dump({k: d[k] for k in ("generated", "top", "frontier")}, open(os.path.join(DIST, "data.json"), "w"))
     if SEO2:
