@@ -241,7 +241,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .signup.kit-page{grid-template-columns:minmax(0,1fr)}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}
 .stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
 @media (max-width:640px){
-main{padding:0 18px 32px}.top{padding:16px 18px 12px;gap:10px}.brand{gap:9px}.brand span{font-size:15px}.logo{width:26px;height:26px}
+main{padding:0 18px 32px}.top{padding:16px 18px 12px;gap:10px}.brand{gap:9px}.brand span{font-size:15px;color:var(--gold-ink)}.logo{width:26px;height:26px}
 .ghost.xf{display:none}.acts{gap:8px}.cta{padding:0 16px;font-size:14px}
 .hero{padding-top:20px}.hero h1{font-size:46px;line-height:.96;margin-top:20px}.lede{font-size:18px;margin-top:20px}
 .live{border-radius:16px;align-items:flex-start;font-size:13px}.live .dot{margin-top:5px}
