@@ -1,21 +1,26 @@
-/* NextAiBreakout: "Escape Velocity" design system. Gold on deep black (dark) or cool paper (light).
-   Theme follows the device until the visitor picks one with the header button (html[data-theme]).
-   --accent is the single brand accent (defaults to the current gold: #E0A826 light, #F2C14E dark).
-   To switch the site to green later, set --accent to #3DDC84 and adjust --gold-ink, --gold-hi, --glow, and --spark. */
+/* NextAiBreakout: Pacific Sea Teal + champagne gold.
+   Same teal look in every theme (default, prefers-color-scheme, and html[data-theme])
+   so gold text is never placed on a light background.
+   --accent (#B8A188) is for headings, logo, borders and buttons.
+   --gold-ink (#BCA68E) is a lighter tint for small text and links (WCAG AA 4.5:1 on #274043). */
 :root{--f:'Archivo','Helvetica Neue',Arial,sans-serif;
---bg:#EDEFF4;--bg2:#E3E6EE;--panel:rgba(255,255,255,.66);--ink:#0A0E1A;--ink2:#333A4C;--mut:#586074;--rule:rgba(10,14,26,.11);--rule2:rgba(10,14,26,.2);
---accent:#E0A826;--gold:var(--accent);--gold-ink:#8A5F00;--gold-hi:#C99A2E;--on-gold:#1A1203;--glow:rgba(201,154,46,.18);--grid:rgba(10,14,26,.055);--area:.6;--err:#B42318;
---spark:#B8860B;--s-github:#4B5263;--s-huggingface:#B07A00;--s-npm:#B8322C;--s-pypi:#2861C7;--s-hackernews:#C9520F;color-scheme:light}
+--bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
+--accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
+--spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
---bg:#05070D;--bg2:#0B0F1A;--panel:rgba(255,255,255,.035);--ink:#F2F4F9;--ink2:#C2C8D6;--mut:#8C94A8;--rule:rgba(255,255,255,.09);--rule2:rgba(255,255,255,.16);
---accent:#F2C14E;--gold:var(--accent);--gold-ink:#F2C14E;--gold-hi:#FFD98A;--on-gold:#1A1203;--glow:rgba(242,193,78,.2);--grid:rgba(255,255,255,.045);--area:1;--err:#FF8F7A;
---spark:#F2C14E;--s-github:#A3AAB8;--s-huggingface:#F2C14E;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
+--bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
+--accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
+--spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 :root:not([data-theme=light]) .i-sun{display:block}:root:not([data-theme=light]) .i-moon{display:none}}
 :root[data-theme=dark]{
---bg:#05070D;--bg2:#0B0F1A;--panel:rgba(255,255,255,.035);--ink:#F2F4F9;--ink2:#C2C8D6;--mut:#8C94A8;--rule:rgba(255,255,255,.09);--rule2:rgba(255,255,255,.16);
---accent:#F2C14E;--gold:var(--accent);--gold-ink:#F2C14E;--gold-hi:#FFD98A;--on-gold:#1A1203;--glow:rgba(242,193,78,.2);--grid:rgba(255,255,255,.045);--area:1;--err:#FF8F7A;
---spark:#F2C14E;--s-github:#A3AAB8;--s-huggingface:#F2C14E;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
+--bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
+--accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
+--spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 :root[data-theme=dark] .i-sun{display:block}:root[data-theme=dark] .i-moon{display:none}
+:root[data-theme=light]{
+--bg:#274043;--bg2:#1F3336;--panel:#22393C;--ink:#F5F1E8;--ink2:#D8D0C6;--mut:#C5C0B6;--rule:rgba(184,161,136,.28);--rule2:rgba(184,161,136,.45);
+--accent:#B8A188;--gold:var(--accent);--gold-ink:#BCA68E;--gold-hi:#C9B8A5;--on-gold:#1F3336;--glow:rgba(184,161,136,.22);--grid:rgba(184,161,136,.08);--area:1;--err:#FF8F7A;
+--spark:#B8A188;--s-github:#A3AAB8;--s-huggingface:#B8A188;--s-npm:#F07A72;--s-pypi:#7FA8F5;--s-hackernews:#FF9A5C;color-scheme:dark}
 
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip}
@@ -29,14 +34,14 @@ p,a,span,b,td,li{overflow-wrap:anywhere}h1,h2,h3{overflow-wrap:break-word}
 main{max-width:1320px;margin:0 auto;padding:0 48px 40px}
 .wrap{max-width:1320px;margin-left:auto;margin-right:auto}
 section[id]{scroll-margin-top:16px}
-h1,h2,h3{margin:0;font-weight:800}
+h1,h2,h3{margin:0;font-weight:800;color:var(--accent)}
 h2{font-size:clamp(34px,4.2vw,60px);line-height:.95;font-stretch:125%;letter-spacing:-.04em}
 
 /* header */
 .top{position:relative;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1320px;margin:0 auto;padding:26px 48px 20px}
 .brand{display:flex;align-items:center;gap:12px;flex:none}
-.brand span{font-weight:800;font-size:20px;line-height:1;font-stretch:125%;letter-spacing:-.01em}
-.logo{width:32px;height:32px;flex:none;color:var(--ink)}.logo-break{stroke:var(--gold)}
+.brand span{font-weight:800;font-size:20px;line-height:1;font-stretch:125%;letter-spacing:-.01em;color:var(--accent)}
+.logo{width:32px;height:32px;flex:none;color:var(--accent)}.logo-break{stroke:var(--accent)}
 nav{display:flex;flex-wrap:wrap;gap:6px 26px;font-size:15px;font-weight:500}
 nav a{color:var(--ink2)}nav a:hover{color:var(--ink)}
 .acts{display:flex;align-items:center;gap:10px;flex:none}
@@ -45,7 +50,7 @@ nav a{color:var(--ink2)}nav a:hover{color:var(--ink)}
 .ghost{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--rule2);font-weight:600;font-size:15px;color:var(--ink);white-space:nowrap}
 .ghost:hover{border-color:var(--ink2)}
 .xi{width:14px;height:14px;flex:none}
-.cta{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 22px;border-radius:999px;background:var(--ink);color:var(--bg);font-weight:700;font-size:15px;white-space:nowrap}
+.cta{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 22px;border-radius:999px;background:var(--accent);color:var(--on-gold);font-weight:700;font-size:15px;white-space:nowrap}
 
 /* buttons */
 .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
@@ -115,7 +120,7 @@ background:radial-gradient(800px 380px at 72% 66%,var(--glow),transparent 70%),l
 .filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .filters button{min-height:38px;padding:0 15px;border-radius:999px;border:1px solid var(--rule);background:var(--panel);color:var(--ink2);font:500 14px var(--f);cursor:pointer}
 .filters button i{font-style:normal;color:var(--mut);margin-left:4px}
-.filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}.filters button.on i{color:inherit;opacity:.7}
+.filters button.on{background:var(--accent);color:var(--on-gold);border-color:var(--accent)}.filters button.on i{color:inherit;opacity:.7}
 .tbl{margin-top:22px;border-top:1px solid var(--rule)}
 .board table{width:100%;border-collapse:collapse}
 .board th{text-align:left;font-size:13px;font-weight:500;color:var(--mut);padding:12px 14px;border-bottom:1px solid var(--rule)}

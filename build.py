@@ -14,12 +14,12 @@ H1_HTML = 'Trending <span class="accent">AI</span>, caught the hour it breaks ou
 e = html.escape
 LABEL = {"github": "GitHub", "huggingface": "Hugging Face", "npm": "npm", "pypi": "PyPI", "hackernews": "Hacker News"}
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">'
-GOLD = "#F2C14E"
+GOLD = "#B8A188"
 # Cache-busting: stylesheet/font URLs carry a hash of their contents, so a visitor's browser never pairs new pages with an old cached stylesheet.
 VER = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("static/style.css", "fonts/fonts.css"))).hexdigest()[:10]
 # Mark: a frame with a line breaking out through its top-right corner
 LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
-        '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#F2C14E" stroke-width="2.6" stroke-linecap="square"/></svg>')
+        '<path class="logo-break" d="M10.5 21.5L27 5M19 5h8v8" fill="none" stroke="#B8A188" stroke-width="2.6" stroke-linecap="square"/></svg>')
 WORD = f'{LOGO}<span>NextAiBreakout</span>'
 XICON = '<svg class="xi" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M17.8 2.5h3.1l-6.8 7.8 8 10.6h-6.3l-4.9-6.4-5.6 6.4H2.2l7.3-8.3L1.9 2.5h6.4l4.4 5.9 5.1-5.9zm-1.1 16.6h1.7L7.4 4.3H5.6l11.1 14.8z"/></svg>'
 SUN = '<svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>'
@@ -73,7 +73,7 @@ def head(title, desc, path, root="", extra=""):
 <meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{SITE}/og-default.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
-<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#EDEFF4" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#05070D" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="dark"><meta name="theme-color" content="#274043">
 <link rel="icon" href="/favicon.svg">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{THEME_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{WORD}</a>
 <nav><a href="/#top10">Today</a>{labsnav}<a href="/tips/">Tips</a><a href="/#sponsor">Sponsor</a><a href="/about">About</a></nav>
@@ -118,15 +118,15 @@ def og(d, stamp_day):
     others = "&nbsp;&nbsp;&nbsp;&nbsp;".join(f"{k+2}. {e(x['name'].split('/')[-1] if x['source']!='hackernews' else x['name'][:30].rsplit(' ',1)[0]+'…')}" for k, x in enumerate(d["top"][1:3]))
     sp = spark(t.get("hist"), 1090, 110, GOLD, True)
     big, sub = t["momentum"].split(" ", 1) if " " in t["momentum"] else (t["momentum"], "")
-    page = f"""<html><head>{FONTS}<style>html{{background:#05070D}}body{{margin:0;width:1200px;height:630px;background:radial-gradient(560px 380px at 86% 88%,rgba(242,193,78,.16),transparent 70%),#05070D;color:#F2F4F9;font-family:'Archivo',sans-serif;padding:56px 64px;box-sizing:border-box;position:relative}}
-.logo{{width:40px;height:40px;vertical-align:middle;margin-right:14px;color:#F2F4F9}}.w{{font-stretch:125%;font-weight:800}}</style></head><body>
-<div style="display:flex;justify-content:space-between;align-items:center;font-size:28px"><div class="w">{WORD}</div><div style="font-size:20px;color:#F2C14E">● {stamp_day}</div></div>
-<div style="color:#F2C14E;font-size:22px;font-weight:600;margin-top:52px">Breaking out fastest right now</div>
+    page = f"""<html><head>{FONTS}<style>html{{background:#274043}}body{{margin:0;width:1200px;height:630px;background:radial-gradient(560px 380px at 86% 88%,rgba(184,161,136,.16),transparent 70%),#274043;color:#F5F1E8;font-family:'Archivo',sans-serif;padding:56px 64px;box-sizing:border-box;position:relative}}
+.logo{{width:40px;height:40px;vertical-align:middle;margin-right:14px;color:#B8A188}}.w{{font-stretch:125%;font-weight:800}}</style></head><body>
+<div style="display:flex;justify-content:space-between;align-items:center;font-size:28px"><div class="w">{WORD}</div><div style="font-size:20px;color:#B8A188">● {stamp_day}</div></div>
+<div style="color:#B8A188;font-size:22px;font-weight:600;margin-top:52px">Breaking out fastest right now</div>
 <div style="display:flex;justify-content:space-between;align-items:flex-end"><div style="max-width:780px"><div style="font-size:{'70' if len(t['name'])<24 else '50'}px;font-weight:800;font-stretch:112%;line-height:1.02;letter-spacing:-.02em;margin-top:10px">{e(t['name'])}</div>
-<div style="font-size:26px;color:#C2C8D6;margin-top:12px">{e(short(t.get('what') or ''))}</div></div>
-<div style="text-align:right"><div style="font-size:64px;font-weight:800;font-stretch:112%;color:#F2C14E">{e(big)}</div><div style="color:#8C94A8;font-size:18px">{e(sub)}</div></div></div>
+<div style="font-size:26px;color:#D8D0C6;margin-top:12px">{e(short(t.get('what') or ''))}</div></div>
+<div style="text-align:right"><div style="font-size:64px;font-weight:800;font-stretch:112%;color:#B8A188">{e(big)}</div><div style="color:#C5C0B6;font-size:18px">{e(sub)}</div></div></div>
 <div style="position:absolute;left:64px;right:46px;top:380px">{sp}</div>
-<div style="position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;font-size:18px;color:#8C94A8"><span>{others}</span><b style="color:#F2F4F9">nextaibreakout.com</b></div></body></html>"""
+<div style="position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;border-top:1px solid rgba(184,161,136,.28);padding-top:22px;font-size:18px;color:#C5C0B6"><span>{others}</span><b style="color:#F5F1E8">nextaibreakout.com</b></div></body></html>"""
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f: f.write(page); p = f.name
     subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars", "--virtual-time-budget=4000",
                     "--window-size=1200,630", f"--screenshot={os.path.join(DIST, 'og.png')}", "file://" + p],

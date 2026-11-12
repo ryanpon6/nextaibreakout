@@ -6,8 +6,8 @@ e = B.e; SITE = B.SITE; BRAND = B.BRAND
 # Cache-bust tips.css without changing the global style.css version.
 TVER = hashlib.sha1(open(os.path.join(B.ROOT, "static", "tips.css"), "rb").read()).hexdigest()[:10]
 CSS = f'<link rel="stylesheet" href="/tips.css?v={TVER}">'
-# Force the near-black / green tips palette even if a saved theme prefers light.
-THEME_COLOR = '<meta name="theme-color" content="#05070D">'
+# Browser chrome follows the teal brand; CSS uses the same palette in light and dark themes.
+THEME_COLOR = '<meta name="theme-color" content="#274043">'
 
 # Copy is from /workspace/shared/nab-relaunch/x-drafts.md (QC-fixed, Nov 12 2026).
 # Do not add claims, numbers, or stories that are not in that file.
@@ -288,7 +288,7 @@ def page(title, desc, path, extra, main, year):
     h = B.head(title, desc, path, "/", CSS + extra)
     h = h.replace("<html lang=\"en\">", "<html lang=\"en\" class=\"tips\">", 1)
     h = h.replace("<body>", "<body class=\"tips\">", 1)
-    # Tips pages stay near-black; the existing light theme-color would be misleading here.
+    # Tips pages stay teal; replace the global theme-color tags with the brand swatch.
     h = re.sub(r'<meta name="theme-color"[^>]*>', "", h)
     h = h.replace("</head>", THEME_COLOR + "</head>", 1)
     return h + main + B.foot(year, "/") + "</body></html>"
