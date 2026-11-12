@@ -23,7 +23,7 @@ CATS = [("github", "GitHub", "Trending AI GitHub repos", "source"), ("huggingfac
         ("agents", "Agents", "Trending AI agent projects", "tag"), ("models", "Models", "Trending AI models", "tag")]
 def vcrumbs(*pairs):
     return '<nav class="crumbs" aria-label="Breadcrumb">' + " / ".join(f'<a href="{u}">{e(n)}</a>' if k < len(pairs) - 1 else f'<span aria-current="page">{e(n)}</span>' for k, (n, u) in enumerate(pairs)) + "</nav>"
-FOOT_LINKS = ('<nav class="footlinks" aria-label="Site"><a href="/">Today</a><a href="/breakouts/">Breakouts</a><a href="/daily/">Daily archive</a>'
+FOOT_LINKS = ('<nav class="footlinks" aria-label="Site"><a href="/">Today</a><a href="/tips/">Tips</a><a href="/blog/">Blog</a><a href="/breakouts/">Breakouts</a><a href="/daily/">Daily archive</a>'
               '<a href="/github/">GitHub</a><a href="/huggingface/">Hugging Face</a><a href="/npm/">npm</a><a href="/pypi/">PyPI</a><a href="/agents/">Agents</a><a href="/models/">Models</a>'
               '<a href="/labs/">Frontier Labs</a><a href="/about">About</a><a href="/feed.xml">RSS</a></nav>')
 BLABEL = "Breakouts"

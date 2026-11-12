@@ -52,6 +52,12 @@ nav a{color:var(--ink2)}nav a:hover{color:var(--ink)}
 .xi{width:14px;height:14px;flex:none}
 .cta{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 22px;border-radius:999px;background:var(--accent);color:var(--on-gold);font-weight:700;font-size:15px;white-space:nowrap}
 
+.nav-toggle{display:none;flex:none}
+.nav-toggle .i-close{display:none}
+.nav-toggle[aria-expanded=true] .i-menu{display:none}
+.nav-toggle[aria-expanded=true] .i-close{display:block}
+
+
 /* buttons */
 .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid var(--rule2);background:transparent;color:var(--ink);font:600 15px/1 var(--f);cursor:pointer;white-space:nowrap}
@@ -240,7 +246,12 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 /* responsive */
 @media (max-width:1180px){.hero{min-height:900px}.hero h1{font-size:86px}.hc{width:52%;top:420px}.hc-chart{height:400px}
 .board th:nth-child(5),.board td.sc{display:none}.lab-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:960px){nav{display:none}
+@media (max-width:960px){
+.nav-toggle{display:grid}
+#site-nav{display:none;position:absolute;top:100%;left:calc(50% - 50vw);width:100vw;flex-direction:column;flex-wrap:nowrap;gap:0;padding:8px 18px 16px;background:var(--bg2);border-bottom:1px solid var(--rule2);box-shadow:0 16px 32px rgba(0,0,0,.28);z-index:6}
+.top:has(.nav-toggle[aria-expanded=true]) #site-nav{display:flex}
+#site-nav a{display:flex;align-items:center;min-height:44px;padding:8px 6px;font-size:17px;font-weight:600;color:var(--ink);border-top:1px solid var(--rule)}
+#site-nav a:hover,#site-nav a:focus-visible{color:var(--gold-ink)}
 .hero{min-height:0}.hc{position:relative;top:auto;right:auto;width:auto;margin-top:48px;padding-top:62px}.hc-label{right:0;top:0}.hc-chart{height:280px}
 .signup.kit-page{grid-template-columns:minmax(0,1fr)}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}
 .stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
@@ -273,6 +284,13 @@ main{padding:0 18px 32px}.top{padding:16px 18px 12px;gap:10px}.brand{gap:9px}.br
 .stats b{font-size:26px}
 .gbhome,.gbx{padding:0 18px}
 footer{padding:24px 18px 36px;margin-top:56px}}
+
+/* Keep the header (menu + theme + Subscribe) on one row under 480px without clipping. */
+@media (max-width:480px){
+.top{padding-left:12px;padding-right:12px;gap:8px}
+.acts{gap:6px}
+.cta{padding:0 10px;font-size:13px}
+}
 
 /* H1s (repo names carry <wbr> after "/"): wrap at word/slash breaks; break inside a word only if one segment still overflows */
 main h1{overflow-wrap:break-word;hyphens:manual}

@@ -118,7 +118,7 @@ def apply(DIST, t):
         for f in fs:
             if not f.endswith(".html"): continue
             fp = os.path.join(root, f); h = open(fp, encoding="utf-8").read()
-            if 'href="/blog/">Blog</a></' in h.split("<footer", 1)[-1] or "<footer" not in h: continue
+            if 'href="/blog/">Blog</a>' in h.split("<footer", 1)[-1] or "<footer" not in h: continue
             ft = h.rfind("<footer"); tail = h[ft:]
             new = re.sub(r'(<a href="/?about(?:\.html)?">About</a>)', r'<a href="/blog/">Blog</a>\1', tail, 1)
             if new != tail: open(fp, "w", encoding="utf-8").write(h[:ft] + new); n += 1
