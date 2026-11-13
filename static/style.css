@@ -184,6 +184,16 @@ nav#site-nav a:hover,nav#site-nav a[aria-current],.fmeta a:hover{text-decoration
 .card.dark .btn{background:var(--och);border-color:var(--och);color:var(--ink);box-shadow:none}
 .card .perch{position:absolute;right:26px;top:-62px;font-size:26px}
 
+/* title style D: hand-drawn loop around key words (build.py circ) + bot head peeking off page titles (build.py peek_h1) */
+.circ{position:relative;display:inline-block;white-space:nowrap}
+.circ svg{position:absolute;left:-.4em;top:-.4em;width:calc(100% + .8em);height:calc(100% + .74em);max-width:none;overflow:visible;pointer-events:none}
+.circ path{fill:none;stroke:var(--red);stroke-width:3.5px;stroke-linecap:round;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.1s ease-out .45s forwards}
+h1:has(.circ),h2:has(.circ){line-height:1.2}
+.ptitle{position:relative;display:inline-block;max-width:100%;margin:6px 0 24px;padding:26px 30px 0 0}
+.ptitle h1{margin:0!important}
+.ptitle>.bhead{position:absolute;right:0;top:0;font-size:17px;box-shadow:3px 3px 0 var(--ink);transform:rotate(14deg);transform-origin:30% 100%;animation:peek 2.8s ease-in-out infinite alternate}
+@keyframes peek{from{transform:rotate(14deg) translateY(4px)}to{transform:rotate(4deg) translateY(-3px)}}
+
 /* inner pages: About, Claude, Blog, 404 */
 .crumbs{font-size:14px;color:var(--mut);padding-top:20px}
 .crumbs a{display:inline-flex;align-items:center;min-height:44px}.crumbs span{color:var(--ink);font-weight:700}
@@ -222,6 +232,7 @@ body>footer>*{max-width:1120px;margin-left:auto;margin-right:auto;padding-left:2
 @keyframes drift2{to{transform:translate(0,-60%) rotate(14deg) scale(1.15)}}
 @keyframes drift3{to{transform:translate(46%,34%) rotate(26deg)}}
 .steps path{animation:linedraw linear both;animation-timeline:view();animation-range:cover 15% cover 70%}
+h2 .circ path{animation:linedraw linear both;animation-timeline:view();animation-range:entry 60% cover 35%}
 @keyframes linedraw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 .stamp{animation:stampin linear both;animation-timeline:view();animation-range:entry 20% cover 45%}
 @keyframes stampin{from{opacity:0;transform:scale(2.8) rotate(-34deg)}}
@@ -243,5 +254,5 @@ nav#site-nav a{min-height:48px;font-size:18px;font-weight:700;border-top:1px sol
 @media (prefers-reduced-motion:reduce){
 html{scroll-behavior:auto}
 *,*::before,*::after{animation:none!important;transition:none!important}
-.fade,.pop{opacity:1;transform:none}.hero h1 .ln>span{transform:none}.squig path{stroke-dashoffset:0}
+.fade,.pop{opacity:1;transform:none}.hero h1 .ln>span{transform:none}.squig path,.circ path{stroke-dashoffset:0}
 }

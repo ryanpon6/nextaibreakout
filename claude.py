@@ -38,7 +38,7 @@ def apply(DIST, t):
     }
     main = f"""<main class="prose">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Claude</span></nav>
-<h1>{e(H1)}</h1>
+{B.peek_h1(B.circ("Claude,") + " on its own page.", B.SPECIALIST_BOT)}
 <p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude is a separate lane, and this is its page.</p>
 <p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude. I am not claiming Blabara is live on Google Play.</p>
 <p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>

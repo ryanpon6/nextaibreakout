@@ -89,14 +89,14 @@ def apply(DIST, t):
                 {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}, {"@type": "ListItem", "position": 3, "name": p["title"], "item": url}]}]}
         extra = B.ld(j) + f'<meta property="article:published_time" content="{p["date"]}"><meta property="article:modified_time" content="{mod}">'
         main = (f'<main class="prose post"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <span aria-current="page">Post</span></nav>'
-                f'<article><h1>{e(p["title"])}</h1><p class="meta"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {BRAND}</p>\n{md(p["body"])}\n</article></main>')
+                f'<article>{B.peek_h1(e(p["title"]), B.SPECIALIST_BOT)}<p class="meta"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {BRAND}</p>\n{md(p["body"])}\n</article></main>')
         write(DIST, f"blog/{p['slug']}/index.html", page(title, desc, path, extra, main, year, "article"))
     desc = f"Notes and explainers from {BRAND}, including a Claude Code guide. Human-reviewed posts only."
     lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {e(p["description"])}</p></li>' for p in ps)
     j = {"@context": "https://schema.org", "@graph": [{"@type": "Blog", "name": f"{BRAND} blog", "url": SITE + "/blog/", "description": desc,
          "blogPost": [{"@type": "BlogPosting", "headline": p.get("seo_title") or p["title"], "url": f"{SITE}/blog/{p['slug']}/", "datePublished": p["date"]} for p in ps]},
          {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}]}]}
-    main = f'<main class="prose"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Blog</span></nav><h1>Blog</h1><p class="dim">{e(desc)}</p><ul class="bloglist">{lis}</ul></main>'
+    main = f'<main class="prose"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Blog</span></nav>{B.peek_h1(B.circ("Blog"), B.SPECIALIST_BOT)}<p class="dim">{e(desc)}</p><ul class="bloglist">{lis}</ul></main>'
     write(DIST, "blog/index.html", page(B.seo_title("Blog"), desc, "/blog/", B.ld(j), main, year))
     rfc = lambda d: eu.format_datetime(dt.datetime.fromisoformat(d + "T12:00:00+00:00"))
     items = "".join(f"<item><title>{e(p['title'])}</title><link>{SITE}/blog/{p['slug']}/</link><guid isPermaLink=\"true\">{SITE}/blog/{p['slug']}/</guid>"

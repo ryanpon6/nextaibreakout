@@ -51,6 +51,18 @@ Use `B.bot(**B.LEAD_BOT)` in any page builder. Size it with `font-size` on the p
 `cls="still"` to stop the bobbing. Keep each character's colours the same everywhere. These are original
 characters. Do not swap in the Grok logo, the xAI logo, or any other company's mascot.
 
+## Titles: style "D" (chosen by Ryan, Nov 12, 2026)
+Two helpers in `build.py`, used on every page:
+- `circ("words")`: draws a red hand-drawn loop around the key words of a title. The loop draws itself on load
+  (page titles) or as it scrolls in (section titles). Pass 1 to 3 short words; they never wrap.
+- `peek_h1(inner_html, WHO)`: wraps the page `<h1>` with a bot head peeking off the top-right corner.
+  `WHO` is `LEAD_BOT` (About, tips hub), `CHECKER_BOT` (each tip, 404) or `SPECIALIST_BOT` (Claude, blog).
+
+Rules: circle one phrase per title, never more. Circle the word a reader would search for or the payoff
+("Grok Bot tips", "in a day", "this site."). Tip and blog post titles get the peeking bot but no circle, because
+those titles come from data. Every new page builder should use `peek_h1` for its title. Example:
+`B.peek_h1("Grok Bot " + B.circ("routines"), B.CHECKER_BOT)`
+
 ## Building blocks (class names)
 | Block | Classes | Where |
 |---|---|---|

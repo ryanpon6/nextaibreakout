@@ -641,7 +641,7 @@ def tip_page(t, year):
     more = "".join(f'<li><a href="{path_of(s["slug"])}">{e(s["title"])}</a></li>' for s in sibs)
     main = f"""<main class="prose tips-main">
 {crumbs(("Tips", "/tips/", False), (t["title"], path_of(t["slug"]), True))}
-<h1>{e(t["title"])}</h1>
+{B.peek_h1(e(t["title"]), B.CHECKER_BOT)}
 <p class="tip-body">{e(t["tip"])}</p>
 {card_figure(t["slug"], t["alt"], CAPTIONS[t["slug"]], lazy=False)}
 <h2 class="how">How I did it</h2>
@@ -727,7 +727,7 @@ def hub_page(year):
     }
     main = f"""<main class="prose tips-main">
 {crumbs(("Tips", "/tips/", True))}
-<div class="tips-hero"><h1>{e(HUB_H1)}</h1>{B.bot(cls="wave", **B.LEAD_BOT)}</div>
+{B.peek_h1(B.circ(e(HUB_H1)), B.LEAD_BOT)}
 <p class="lede">{e(HUB_INTRO)}</p>
 <p class="tips-jump-label">Tip pages</p>
 <nav class="tips-jump" aria-label="Tip pages">{page_jumps}</nav>

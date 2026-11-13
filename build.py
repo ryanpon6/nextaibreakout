@@ -46,6 +46,17 @@ def bot(c="var(--red)", hr="", a="", b="", big=False, cls=""):
 LEAD_BOT = dict(c="var(--red)", a="var(--och)")                               # lead bot: red, rounded head
 SPECIALIST_BOT = dict(c="var(--blue)", hr=".16em", a="var(--red)")            # specialist: blue, square head
 CHECKER_BOT = dict(c="var(--och)", hr="50% 50% .4em .4em", a="var(--blue)", big=True)  # Quality Checker: ochre, one monocle eye
+# Title style "D" (Nov 12, 2026): a hand-drawn red loop around the key words, and a bot head peeking off page titles.
+_LOOP = ('<svg aria-hidden="true" viewBox="0 0 200 60" preserveAspectRatio="none">'
+         '<path pathLength="1" d="M44 7C104-1 178 2 194 24S168 58 100 57 5 49 6 29 54 3 128 3"/></svg>')
+def circ(html_text):
+    """Circle the key words of a title. Pass escaped HTML. Keep it to 1-3 short words so it stays on one line."""
+    return f'<span class="circ">{html_text}{_LOOP}</span>'
+def peek_h1(inner_html, who=None):
+    """A page title with a bot head peeking off its top-right corner. who = LEAD_BOT, SPECIALIST_BOT or CHECKER_BOT."""
+    w = who or LEAD_BOT
+    return (f'<div class="ptitle"><h1>{inner_html}</h1>'
+            + bot_head(w["c"], w.get("hr", ""), big=w.get("big", False)) + '</div>')
 NAVWORD = '<span class="bhead" aria-hidden="true"><i class="beye"></i><i class="beye"></i></span><span>NextAiBreakout</span>'
 # Mark: a frame with a line breaking out through its top-right corner
 LOGO = ('<svg class="logo" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M17 5H5v22h22V15" fill="none" stroke="currentColor" stroke-width="2.6"/>'
@@ -228,7 +239,7 @@ def home_page(year):
         for p in posts
     )
     posts_sec = f"""<section class="sec" aria-labelledby="h-posts"><div class="wrap">
-<div class="sh rv"><h2 id="h-posts">Latest posts.</h2><a class="more" href="/blog/">All posts →</a></div>
+<div class="sh rv"><h2 id="h-posts">Latest {circ("posts.")}</h2><a class="more" href="/blog/">All posts →</a></div>
 <ul class="posts rv">{post_html}</ul>
 </div></section>""" if posts else ""
     tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> nothing posts without my OK <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
@@ -267,7 +278,7 @@ def home_page(year):
 </div></section>
 <div class="tapewrap" aria-hidden="true"><div class="tape"><div><span>{tape}</span><span>{tape}</span></div></div></div>
 <section class="sec" id="how" aria-labelledby="h-how"><div class="wrap split">
-<div class="rv"><h2 id="h-how">How one person runs a team of Grok Bots.</h2><p class="note">same 5 steps, every single request</p></div>
+<div class="rv"><h2 id="h-how">How one person runs a team of {circ("Grok Bots.")}</h2><p class="note">same 5 steps, every single request</p></div>
 <div class="steps">
 <svg aria-hidden="true" viewBox="0 0 40 500" preserveAspectRatio="none"><path pathLength="1" d="M20 0C44 40-4 80 20 125S44 205 20 250-4 330 20 375 44 455 20 500"/></svg>
 <ol>
@@ -279,20 +290,20 @@ def home_page(year):
 </ol></div>
 </div></section>
 <section class="sec" id="start" aria-labelledby="h-start"><div class="wrap">
-<div class="sh rv"><h2 id="h-start">Four Grok Bot tips to read first.</h2><a class="more" href="/tips/">All {n_all} tips →</a></div>
+<div class="sh rv"><h2 id="h-start">Four {circ("Grok Bot tips")} to read first.</h2><a class="more" href="/tips/">All {n_all} tips →</a></div>
 <div class="stack">{card_html}</div>
 </div></section>
 {posts_sec}
 <section class="sec proof" aria-labelledby="h-proof"><div class="wrap">
 <div class="badge" aria-hidden="true"><div class="shape"></div><div class="dots"></div><p class="stamp">1 day</p></div>
 <div class="txt rv"><p class="note">proof · 16 Oct 2026</p>
-<h2 id="h-proof">A real Android app, built in a day by a team of Grok Bots.</h2>
+<h2 id="h-proof">A real Android app, built {circ("in a day")} by a team of Grok Bots.</h2>
 <p>On 16 Oct 2026, my brother and I built the Blabara Android voice-dictation app (it was called VoiceKey then) with a team of Grok Bots. I am not claiming it is live on Google Play.</p>
 <p>I use AI for daily admin (email drafts, safety forms, crew attendance, scheduling, monthly tracking), and I replaced about 10 years of Squarespace by building my company site myself.</p>
 <a class="more" href="/tips/blabara-in-one-day/">How we built Blabara in one day →</a></div>
 </div></section>
 <section class="sec" aria-labelledby="h-topics"><div class="wrap">
-<h2 id="h-topics" class="rv">Grok Bot tips by topic.</h2>
+<h2 id="h-topics" class="rv">{circ("Grok Bot tips")} by topic.</h2>
 <p class="lede rv">{n_all} tips so far. {n_full} have a full write-up with how I did it.</p>
 <nav class="stickers rv" aria-label="Tips by topic">{topics}</nav>
 </div></section>
@@ -325,20 +336,20 @@ def about_page(year):
     }
     body = f"""<main class="prose">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">About</span></nav>
-<div class="tips-hero" style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 28px"><h1 style="margin-bottom:0;flex:999 1 320px">About this site.</h1><span style="font-size:34px;margin:0 10px 6px 0">{bot(cls="wave", **LEAD_BOT)}</span></div>
-<p class="note" style="margin:14px 0 18px">a regular user, not a coder</p>
+{peek_h1("About " + circ("this site."), LEAD_BOT)}
+<p class="note" style="margin:0 0 18px">a regular user, not a coder</p>
 <p>NextAiBreakout is a Grok Bot tips site, with the real build behind each tip. There is a separate page for Claude.</p>
 
-<h2>Why I built this</h2>
+<h2>Why I {circ("built this")}</h2>
 <p>I have always loved computers, AI, and code. I am not a coder. I run my own company, and I built this website while automating my work with Grok and other AI tools.</p>
 <p>That is the point of the site. I am a regular user, and I can still produce work that companies pay specialists to do. I replaced about 10 years of Squarespace by building my company site myself. My brother and I built an Android app in a day with a team of Grok Bots.</p>
 <p>I hope it gets you to try it. You may build something you did not think you could, with Grok and with Claude.</p>
 
-<h2>Why keep it updated</h2>
+<h2>Why keep it {circ("updated")}</h2>
 <p>AI moves fast. New releases keep landing, and it gets overwhelming. I wanted one place that keeps up without the noise.</p>
 <p>A lot of AI posts are made for the sake of posting. This site is curated. It only covers things I have actually tested, can prove, and want to stand behind.</p>
 
-<h2>What gets published</h2>
+<h2>What gets {circ("published")}</h2>
 <p>Every tip comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have those, the tip stays off the site.</p>
 <p>I talk to one lead bot. A Quality Checker reviews work before it reaches me. Tips are reviewed before they go up. Unreviewed bot output does not publish.</p>
 <p>This site no longer ranks AI repos, models, or packages by hourly velocity.</p>
@@ -351,8 +362,8 @@ def about_page(year):
 def not_found_page(year):
     nf = head(f"Page not found | {BRAND}", "This page doesn't exist on NextAiBreakout.", "/404.html", "/")
     nf = nf.replace('<link rel="canonical" href="https://nextaibreakout.com/404.html">', '<meta name="robots" content="noindex">')
-    return nf + """<main class="prose">
-<h1>Page not found</h1><p class="dim">That page doesn't exist, or hasn't launched yet.</p>
+    return nf + f"""<main class="prose">
+{peek_h1("Page " + circ("not found"), CHECKER_BOT)}<p class="dim">That page doesn't exist, or hasn't launched yet.</p>
 <div class="btns"><a class="btn pri" href="/tips/">Browse the tips</a><a class="btn" href="/about">About</a></div></main>""" + foot(year, "/") + "</body></html>"
 
 
