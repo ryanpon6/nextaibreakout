@@ -1,6 +1,6 @@
 """Shared paths and helpers for the daily Grok Bot news pipeline. No secrets live here.
 Every path can be overridden with an env var so tests can run on copies."""
-import datetime as dt, html, json, os, re, urllib.request, urllib.error
+import datetime as dt, html, json, os, re, unicodedata, urllib.request, urllib.error
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # repo root
@@ -20,6 +20,24 @@ TIP_SLOTS_AT = (9, 13, 18)       # Days 2-14 tip series, Atlantic time
 SLOT_GAP_MIN = 60                # no news post within this many minutes of a tip slot
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 QUIET = 10                       # exit code: nothing new, the AI should not run
+HELD = 20                        # exit code: G12 per-post hold, draft written to news/held-DATE.md, waits for --release
+CONFIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
+
+def config():
+    """tools/news/config.json. Missing file or key = safe default (hold ON). NAB_NEWS_CONFIG is honoured only
+    in dry runs and selftests (NAB_DRYRUN=1), so a live run always reads the committed file."""
+    p = os.getenv("NAB_NEWS_CONFIG") if os.getenv("NAB_DRYRUN") == "1" and os.getenv("NAB_NEWS_CONFIG") else CONFIG
+    try: c = json.load(open(p, encoding="utf-8"))
+    except Exception: c = {}
+    return {"hold_money_policy": c.get("hold_money_policy", True) is not False, "_path": p}
+
+def xweight(t):
+    """twitter-text v3 weighting: these code point ranges count 1, everything else (CJK, emoji, '…', '•') counts 2."""
+    n = 0
+    for ch in unicodedata.normalize("NFC", t):
+        o = ord(ch)
+        n += 1 if (o <= 4351 or 8192 <= o <= 8205 or 8208 <= o <= 8223 or 8242 <= o <= 8247) else 2
+    return n
 
 def now():
     return dt.datetime.now(MT)
@@ -40,13 +58,13 @@ def save(p, obj):
     os.makedirs(os.path.dirname(p), exist_ok=True)
     with open(p, "w", encoding="utf-8") as f: json.dump(obj, f, indent=2, ensure_ascii=False); f.write("\n")
 
-def issue(stage, reasons, date=None):
+def issue(stage, reasons, date=None, head=None):
     """Append a failure to autopost-issues.md (Chief of Staff relays it to Ryan)."""
     os.makedirs(os.path.dirname(ISSUES), exist_ok=True)
     new = not os.path.exists(ISSUES)
     with open(ISSUES, "a", encoding="utf-8") as f:
         if new: f.write("# NAB news auto-post issues\nNewest at the bottom. Each entry blocked a publish. Chief of Staff: relay to Ryan.\n")
-        f.write(f"\n## {now():%Y-%m-%d %H:%M} MT · {stage} · slot {slot(date or today())}\nALERT: news post NOT published.\n")
+        f.write(f"\n## {now():%Y-%m-%d %H:%M} MT · {stage} · slot {slot(date or today())}\n{now():%Y-%m-%d %H:%M} MT {head or 'ALERT: news post NOT published (' + stage + ').'}\n")
         for r in reasons: f.write(f"- {r}\n")
 
 def http_status(url, timeout=20, method="GET"):
@@ -90,6 +108,7 @@ def _token(n):
 
 def norm(s):
     """Normalise for verbatim quote matching: curly quotes, dashes, whitespace, and t.co links."""
+    s = unicodedata.normalize("NFKC", html.unescape(s))
     s = re.sub(r"https://t\.co/\S+", "", s)
     s = s.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"').replace("\u2014", "-").replace("\u2013", "-")
     return re.sub(r"\s+", " ", s).strip()

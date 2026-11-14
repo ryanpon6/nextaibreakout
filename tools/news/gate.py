@@ -15,15 +15,23 @@ Checks (each prints PASS or FAIL):
                   exist in the build; after deploy publish.py re-checks the live URL)
   G6  image       OG card 1200x630 PNG and X card 1600x900 PNG exist, are > 15 KB (X card < 5 MB), and the OG card
                   is the page's og:image, twitter:image, schema image and lead <img>
-  G7  claims      every blockquote and every quoted phrase (3+ words) appears verbatim in the fetched post text;
-                  every number in title, description, body, card and X text appears in a cited post; every
-                  x.com post linked is one fetch.py verified
+  G7  claims      the gate RE-FETCHES every cited post from X's public embed endpoint itself (the story file is
+                  only a list of ids; a story file whose text differs from X fails). Every blockquote and every
+                  quoted phrase (3+ words) is verbatim in that re-fetched text; the main X post must carry one
+                  such quoted phrase; every number in title, description, body, card and X text is in a cited
+                  post AND keeps the source's qualifier (~ / about / around / roughly / approximately / nearly);
+                  every x.com post linked is a verified one
   G8  secrets     no token patterns, secret file paths or secret env var names, and no live secret env value
   G9  seo         one h1, title <= 60, description <= 155, canonical, in sitemap/feed/blog index/homepage,
                   Article schema, no noindex, links to 2+ existing tips, h2 subheads
-  G10 xtext       main post <= 280 chars with no link or domain; reply is exactly the story-link reply; alt <= 1000
+  G10 xtext       main post <= 280 by twitter-text weighting (CJK, emoji, '…', '•' count 2) with no link or domain; reply is exactly the story-link reply; alt <= 1000
   G11 privacy     no Landscape Specialists, Gavin, email address or phone number
-Usage  gate.py --dist DIR [--date YYYY-MM-DD] [--at "YYYY-MM-DD HH:MM"] [--no-log]"""
+  G12 hold        per-post hold (switch: tools/news/config.json "hold_money_policy", default true). If the story
+                  touches money, pricing, plans, usage limits, billing or policy (keyword list below, or
+                  "sensitive": true in the story file), the gate returns HELD (exit 20) instead of PASS.
+                  publish.py then writes news/held-DATE.md and an alert, and waits for publish.py --release DATE.
+Exit   0 pass · 1 fail (any failure wins over a hold) · 20 held by G12 only
+Usage  gate.py --dist DIR [--date YYYY-MM-DD] [--at "YYYY-MM-DD HH:MM"] [--no-log] [--release]"""
 import argparse, colorsys, datetime as dt, glob, html as H, json, os, re, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nc
@@ -37,6 +45,10 @@ SECRET_PATTERNS = [r"gh[pousr]_[A-Za-z0-9]{20,}", r"github_pat_[A-Za-z0-9_]{20,}
                    r"cloudflare\.env", r"gsc-nextaibreakout\.json", r"\.secrets/", r"\b\d{6,}-[A-Za-z0-9]{30,}\b"]
 SECRET_ENVS = ("CLOUDFLARE_API_TOKEN", "KIT_API_KEY", "NAB_WATCHDOG_GH_TOKEN", "NAB_WATCHDOG_CF_TOKEN",
                "X_API_KEY", "X_API_KEY_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET", "GITHUB_TOKEN", "GH_TOKEN")
+HOLD_RE = re.compile(r"\$\s?\d|\b(money|price[sd]?|pricing|cost[s]?|dollars?|usd|plans?|subscriptions?|subscribers? only|tier[s]?|billing|billed|bill|refunds?|"
+                     r"payments?|pay|paid|charge[sd]?|fees?|credits?|usage|limits?|rate limits?|quotas?|policy|policies|terms of service|tos|"
+                     r"pricing|discount|free trial|trial|revenue|earn(?:ed|ings)?|profit)\b", re.I)
+QUAL = r"(?:(~)|\b((?i:about|around|roughly|approximately|approx\.|nearly))\s+)?"
 MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
 
 class Gate:
@@ -84,11 +96,12 @@ def pixel_check(p):
     if ink < 0.01: out.append(f"{os.path.basename(p)} has almost no ink #0F1B3D")
     return out
 
-def numbers(text):
+def num_hits(text):
+    """[(qualified, bare_number)] for every figure in text, ignoring dates, times, years and URLs."""
     t = re.sub(rf"\b{MONTH}\s+\d{{1,2}}(?:,\s*\d{{4}})?", " ", text)
     t = re.sub(r"\b\d{4}-\d\d-\d\d\b|\b\d{1,2}:\d\d\s*(?:AM|PM|am|pm)?\b|\b20\d\d\b", " ", t)
     t = re.sub(r"https?://\S+|/[\w/-]*\d[\w/-]*", " ", t)
-    return set(re.findall(r"[$~]?\d[\d,]*(?:\.\d+)?%?", t))
+    return [(bool(m.group(1) or m.group(2)), m.group(3)) for m in re.finditer(QUAL + r"\$?(\d[\d,]*(?:\.\d+)?%?)", t)]
 
 def quoted(text):
     out = []
@@ -100,7 +113,8 @@ def quoted(text):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dist", required=True); ap.add_argument("--date", default=nc.today())
     ap.add_argument("--at", help="check timing as of this Edmonton time, e.g. '2026-11-15 08:05'"); ap.add_argument("--no-log", action="store_true")
-    ap.add_argument("--skip-net", action="store_true", help="unit tests only; never used by publish.py")
+    ap.add_argument("--skip-net", action="store_true", help="unit tests only; skips G5's external link fetches (G7 always re-fetches); never used by publish.py")
+    ap.add_argument("--release", action="store_true", help="manual release of a G12 hold (publish.py --release); every other check still runs")
     a = ap.parse_args(); G = Gate()
     print(f"gate: slot {nc.slot(a.date)}, dist {a.dist}", flush=True)
     try:
@@ -192,8 +206,15 @@ def main():
                       (f'"image": "{nc.SITE}{rel}"', "schema image"), (f'<img src="{rel}"', "lead img")):
         if pat not in page: p6.append(f"{what} does not point at {rel}")
     G.check("G6 image", p6)
-    # G7 claims
-    p7 = []; srcs = {p["id"]: nc.norm(p["text"]) for p in story["posts"]}; alltext = " ".join(srcs.values())
+    # G7 claims: re-fetch every cited post here; never trust the text stored in the story file
+    p7 = []; srcs = {}
+    for p in story["posts"]:
+        v = nc.syndication(p["id"])
+        if not v or not v.get("user"): p7.append(f"post {p['id']} could not be re-fetched from X (fail closed)"); continue
+        if v["user"].lower() != str(p.get("user", "")).lower(): p7.append(f"post {p['id']} is by @{v['user']}, story file says @{p.get('user')}")
+        if nc.norm(v["text"]) != nc.norm(p.get("text", "")): p7.append(f"story file text for post {p['id']} differs from X (tampered or edited)")
+        srcs[p["id"]] = nc.norm(v["text"])
+    alltext = " ".join(srcs.values())
     body = re.split(r"\n## Sources\n", md.split("\n---\n", 1)[-1])[0]
     for m in re.finditer(r"<blockquote><p>(.*?)</p>(?:<cite>(.*?)</cite>)?</blockquote>", main_h, re.S):
         qt = nc.norm(visible(m.group(1))).strip('"\u201c\u201d '); cite = m.group(2) or ""
@@ -203,13 +224,16 @@ def main():
         if nc.norm(qt) not in srcs[ids[0]]: p7.append(f"blockquote not verbatim in post {ids[0]}: '{qt[:60]}'")
     for qt in quoted(body.replace("\n>", "\n")) + quoted(pay["main"]["text"]) + quoted(cardtxt):
         if nc.norm(qt) not in alltext: p7.append(f"quoted phrase not in any cited post: '{qt[:60]}'")
+    if not any(nc.norm(q) in alltext for q in quoted(pay["main"]["text"])):
+        p7.append("main X post has no verbatim quoted phrase (3+ words, in quote marks) of the key claim")
     claim_txt = " ".join([spec["title"], spec["description"], spec.get("seo_title", ""), spec.get("seo_description", ""), re.sub(r"\]\([^)]*\)", "]", body), pay["main"]["text"], pay["main"].get("alt", ""), cardtxt])
-    src_nums = numbers(alltext)
-    for n in sorted(numbers(claim_txt)):
-        bare = n.lstrip("$~")
-        if n not in src_nums and bare not in {x.lstrip("$~") for x in src_nums}: p7.append(f"figure '{n}' is not in any cited post")
+    src_hits = num_hits(alltext); src_q = {}
+    for q, n in src_hits: src_q.setdefault(n, set()).add(q)
+    for q, n in num_hits(claim_txt):
+        if n not in src_q: p7.append(f"figure '{n}' is not in any cited post")
+        elif True in src_q[n] and False not in src_q[n] and not q: p7.append(f"figure '{n}' dropped the source's qualifier (~ or about)")
     for pid in set(re.findall(r"(?:x|twitter)\.com/\w+/status/(\d+)", md + page)):
-        if pid not in srcs: p7.append(f"links post {pid}, which fetch.py did not verify")
+        if pid not in srcs: p7.append(f"links post {pid}, which was not verified")
     G.check("G7 claims match cited posts", p7)
     # G8 secrets
     p8 = []; scan = {"post md": md, "page": page, "x payload": json.dumps(pay), "spec": json.dumps(spec)}
@@ -239,9 +263,9 @@ def main():
     if "<h2" not in main_h: p9.append("no h2 subheads")
     G.check("G9 seo", p9)
     # G10 X text
-    p10 = []; mt = pay["main"]["text"]; xl = sum(2 if ord(ch) > 0x10FF else 1 for ch in mt)
+    p10 = []; mt = pay["main"]["text"]; xl = nc.xweight(mt)
     if not mt.strip(): p10.append("main post empty")
-    if xl > 280: p10.append(f"main post {xl} chars")
+    if xl > 280: p10.append(f"main post weighs {xl} (twitter-text), limit 280")
     if URL_RE.search(mt): p10.append(f"main post has a link/domain '{URL_RE.search(mt).group(0)}'")
     if pay["reply"]["text"] != f"Full story + sources: {url}": p10.append("reply text is not the story-link reply")
     if len(pay["main"].get("alt", "")) > 1000 or not pay["main"].get("alt"): p10.append("alt text missing or > 1000 chars")
@@ -251,6 +275,17 @@ def main():
     for pat, what in ((r"landscape\s*specialists", "Landscape Specialists"), (r"\bgavin\b", "Gavin"), (r"[\w.+-]+@[\w-]+\.[\w.]+", "email address"), (r"\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b", "phone number")):
         if re.search(pat, vis + " " + " ".join(xtexts), re.I): p11.append(what)
     G.check("G11 privacy", p11)
+    # G12 per-post hold (money / pricing / plans / usage limits / billing / policy)
+    cfg = nc.config(); G.held = []
+    if cfg["hold_money_policy"]:
+        hay = " ".join([story.get("headline", ""), spec["title"], spec["description"], body, pay["main"]["text"], cardtxt] + [p.get("text", "") for p in story["posts"]])
+        hits = sorted({m.group(0).lower() for m in HOLD_RE.finditer(hay)})
+        if story.get("sensitive"): hits = ["story flagged sensitive"] + hits
+        if hits and a.release: print(f"RELEASED G12 hold: manual release (publish.py --release); matched {', '.join(hits[:8])}")
+        elif hits:
+            G.held = hits; print(f"HOLD G12 money/plans/policy: matched {', '.join(hits[:10])} (switch: {cfg['_path']} hold_money_policy)")
+        else: print("PASS G12 hold (no money/plans/policy terms)")
+    else: print(f"OFF  G12 hold (hold_money_policy is false in {cfg['_path']})")
     return finish(G, a)
 
 def exists_in(dist, loc):
@@ -260,6 +295,8 @@ def exists_in(dist, loc):
     return os.path.isfile(p) or os.path.isfile(os.path.join(p, "index.html")) or os.path.isfile(p.rstrip("/") + ".html") or loc in ("/about",) and os.path.isfile(os.path.join(dist, "about.html"))
 
 def finish(G, a):
+    if getattr(G, "held", None) and not G.fails:
+        print("GATE HELD: every check passed, but G12 holds this post for a manual release"); return nc.HELD
     if G.fails:
         print(f"GATE FAIL: {len(G.fails)} check(s) failed, publish blocked")
         if not a.no_log: nc.issue("gate", G.fails, a.date); print(f"logged to {nc.ISSUES}")
