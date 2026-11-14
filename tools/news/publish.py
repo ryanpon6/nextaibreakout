@@ -3,7 +3,7 @@
 
 --dry-run (what QC reviews): runs the real build and the real gate on a temp dist, then PRINTS the git, wrangler,
 curl, X and ledger steps instead of doing them. No push, no deploy, no X call of any kind, no ledger write.
-Dry-run alerts go to news/dryrun-issues.md, never to autopost-issues.md.
+Dry-run alerts and held drafts go to news/dryrun/ (dryrun-issues.md, held-DATE.md), never to the real paths.
 Live: refuses to run unless $NAB_AUTOPOST_FLAG (/workspace/shared/nab-relaunch/autopost-live.flag) exists.
   KILL SWITCH: delete that file. The next run stops at step 0 (and logs that it did).
 Every failure path writes a dated alert to autopost-issues.md (Chief of Staff relays it; watch_issues.py notices it).
@@ -43,12 +43,16 @@ def run_gate(dist, d, at=None, release=False):
     if rc not in (0, 1, nc.HELD): return 99, out + f"\ngate crashed (exit {rc})"
     return rc, out
 
-def held(d, pay, spec, gate_out):
-    p = os.path.join(nc.STATE, f"held-{d}.md")
+def held_dir(dry):
+    """Dry-run artifacts never sit at real paths: held drafts and alerts from dry runs go to news/dryrun/."""
+    return os.path.join(nc.STATE, "dryrun") if dry else nc.STATE
+
+def held(d, pay, spec, gate_out, dry=False):
+    os.makedirs(held_dir(dry), exist_ok=True); p = os.path.join(held_dir(dry), f"held-{d}.md")
     md = open(pay["post_md"], encoding="utf-8").read()
     with open(p, "w", encoding="utf-8") as f:
         f.write(f"# HELD news post {nc.slot(d)} ({nc.now():%Y-%m-%d %H:%M} MT)\n\nG12 held this post because it touches money, pricing, plans, usage limits, billing or policy.\n"
-                f"Nothing was pushed, deployed or posted. To publish it as is, after reading it:\n\n    python3 tools/news/publish.py --release {d}\n\n"
+                f"{'DRY RUN ONLY: this draft came from a dry run and is not waiting for release.' + chr(10) + chr(10) if dry else ''}Nothing was pushed, deployed or posted. To publish it as is, after reading it:\n\n    python3 tools/news/publish.py --release {d}\n\n"
                 f"(needs the live flag; re-runs the build and every gate). To drop it, do nothing.\n\n"
                 f"## Page URL (not live)\n{pay['url']}\n\n## X main post (card attached, no link)\n{pay['main']['text']}\n\n## X reply\n{pay['reply']['text']}\n\n"
                 f"## Card files\n- OG / page: {pay['og_image']}\n- X card: {pay['x_card']}\n- alt: {pay['main']['alt']}\n\n## Gate output\n```\n{gate_out.strip()}\n```\n\n## Full page source (blog/posts)\n```markdown\n{md}```\n")
@@ -63,13 +67,14 @@ def main():
     a = ap.parse_args(); dry = a.dry_run; rel = bool(a.release); d = a.release or a.date or nc.today()
     mode = ("DRY-RUN " if dry else "LIVE ") + ("RELEASE" if rel else "")
     if dry:  # a dry run must never raise a real alert for Ryan
-        nc.ISSUES = os.environ["NAB_AUTOPOST_ISSUES"] = os.path.join(nc.STATE, "dryrun-issues.md"); os.environ["NAB_DRYRUN"] = "1"
+        os.makedirs(held_dir(True), exist_ok=True)
+        nc.ISSUES = os.environ["NAB_AUTOPOST_ISSUES"] = os.path.join(held_dir(True), "dryrun-issues.md"); os.environ["NAB_DRYRUN"] = "1"
     print(f"== publish {mode.strip()} {nc.slot(d)} at {nc.now():%Y-%m-%d %H:%M} MT, repo {nc.ROOT}")
     flag = os.path.exists(nc.LIVE_FLAG)
     print(f"[0] live flag {nc.LIVE_FLAG}: {'present' if flag else 'ABSENT'}")
     if not dry and not flag: return fail("live-flag", "live publishing is off (autopost-live.flag absent = kill switch); nothing done", d)
     if a.at and not dry: return fail("args", "--at is for dry runs only", d)
-    if rel and not os.path.exists(os.path.join(nc.STATE, f"held-{d}.md")): return fail("release", f"no held draft news/held-{d}.md to release", d)
+    if rel and not os.path.exists(os.path.join(held_dir(dry), f"held-{d}.md")): return fail("release", f"no held draft {os.path.join(held_dir(dry), f'held-{d}.md')} to release", d)
     pay_p = nc.path("xpayload", d)
     try: pay = nc.load(pay_p); spec = nc.load(nc.path("spec", d))
     except Exception as e: return fail("inputs", f"no payload/spec for {d} ({e.__class__.__name__}); run make_post.py first", d)
@@ -108,7 +113,7 @@ def main():
     # [4] gate
     print("[4] gate" + (" (--release: G12 released, every other check runs)" if rel else ""))
     rc, out = run_gate(dist, d, a.at, rel); print(out.rstrip())
-    if rc == nc.HELD: return held(d, pay, spec, out)
+    if rc == nc.HELD: return held(d, pay, spec, out, dry)
     if rc != 0:
         fl = [l for l in out.splitlines() if l.startswith("FAIL") or "crash" in l or "could not run" in l]
         return fail("gate", " | ".join(fl)[:900] or f"gate exit {rc}", d)

@@ -22,9 +22,10 @@ State files live in `/workspace/shared/nab-relaunch/news/` (override with `NAB_N
 
 ## Alerts
 Every failure path writes a dated entry to `/workspace/shared/nab-relaunch/autopost-issues.md` (dry runs write
-`news/dryrun-issues.md` instead, so they never alert Ryan). `tools/news/watch_issues.py` (no AI) prints the lines
-added since its last check and exits 1 when there is something new, 0 when not. State: `news/.issues-watch.json`.
-On its very first run it reports the whole file once.
+`news/dryrun/dryrun-issues.md` and `news/dryrun/held-DATE.md` instead, so they never alert Ryan or look releasable). `tools/news/watch_issues.py` (no AI) prints the lines
+added since its last check and exits 1 when there is something new; it prints nothing and exits 0 when not.
+Stable copy for CoS's hourly routine: `/workspace/shared/nab-relaunch/news/watch_issues.py`, state `.issues-watch.json`
+beside it. `--seed` marks the current file (or its absence) as already seen. Keep the stable copy in sync with this one.
 
 ## Exit codes
 fetch.py 0 story / 10 quiet / 2 bad input · gate.py 0 pass / 1 fail / 20 held · publish.py 0 done / 1 stopped / 20 held ·

@@ -78,7 +78,7 @@ def main():
            "main": {"text": spec["x_main"].strip(), "card": xc, "alt": spec["image_alt"]},
            "reply": {"text": REPLY_FMT.format(url=url)}}
     import entries_hook   # tips-index integration point (homepage strips, /tips/, Claude index)
-    ef = entries_hook.register(a.date, spec["title"], slug, story["topic"], [p["url"] for p in cited])
+    ef = entries_hook.register(a.date, spec["title"], slug, story["topic"], [p["url"] for p in cited], spec["description"])
     pay["entries_file"] = ef
     nc.save(nc.path("xpayload", a.date), pay)
     print(f"WROTE {mdp}\nWROTE {og}\nWROTE {xc}\nWROTE {nc.path('xpayload', a.date)}\nURL {url}")
