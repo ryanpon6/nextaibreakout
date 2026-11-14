@@ -162,7 +162,7 @@
       "url": "/tips/#one-job-per-bot",
       "kind": "grok",
       "type": "tip",
-      "summary": "One bot asked to market, code, and file invoices gets mushy.",
+      "summary": "A bot asked to market, code, and file invoices gets mushy.",
       "seq": 1,
       "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
     },
@@ -173,7 +173,7 @@
       "url": "/tips/#write-down-checker-rules",
       "kind": "grok",
       "type": "tip",
-      "summary": "The same mistake slipping through twice is the problem: a wrong sign-off, an invented figure, or an unproven \"fixed.\"",
+      "summary": "I don't want the same mistake slipping through twice: a wrong sign-off, an invented figure, or an unproven \"fixed.\"",
       "seq": 2,
       "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
     },
@@ -184,7 +184,7 @@
       "url": "/tips/#isolate-the-app-repo",
       "kind": "grok",
       "type": "tip",
-      "summary": "Two bots pushing to the same app repo is the problem this is meant to stop.",
+      "summary": "I don't want two bots pushing to the same app repo.",
       "seq": 3,
       "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
     },
@@ -195,7 +195,7 @@
       "url": "/tips/#change-only-watches",
       "kind": "grok",
       "type": "tip",
-      "summary": "Scheduled bots waking dozens of times a week to say nothing changed is wasted work.",
+      "summary": "A scheduled bot that wakes up just to say nothing changed is wasted work.",
       "seq": 4,
       "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
     },
@@ -206,7 +206,7 @@
       "url": "/tips/#script-before-model",
       "kind": "grok",
       "type": "tip",
-      "summary": "Don't pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
+      "summary": "I don't pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
       "seq": 5,
       "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
     },

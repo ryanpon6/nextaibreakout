@@ -56,7 +56,7 @@ def apply(DIST, t):
 {B.peek_h1(B.circ("Claude Tips."), B.SPECIALIST_BOT)}
 <p>{e(list_lede)}</p>
 {list_block}
-<p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude. I am not claiming Blabara is live on Google Play.</p>
+<p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude.</p>
 <p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>
 <h2>How this site was built</h2>
 <p>Although I mostly use Claude for coding because it produces better results, I relied on Grok to help build this website. Once Grok creates the site and I add the final touches, I use Claude to refine the template and confirm the code structure is correct.</p>
