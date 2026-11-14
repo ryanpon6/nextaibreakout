@@ -1,1 +1,1 @@
-{"hold_money_policy": true, "_note": "G12 per-post hold for money, pricing, plans, usage limits, billing or policy stories. true = hold (default). Set false to let those stories auto-publish. See README.md."}
+{"hold_money_policy": false, "_note": "G12 per-post hold for money, pricing, plans, usage limits, billing or policy stories. Ryan 2026-11-14 5:01 PM MT: 'Auto post everything for now' -> false. true = hold. If the file or key is missing, the hold is ON. See README.md."}
