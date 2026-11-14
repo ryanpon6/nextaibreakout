@@ -228,7 +228,7 @@ HUB_ONLY = [
         "title": "Prefer a script over a model when the job is deterministic",
         "section": "usage",
         "tip": "I don't pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
-        "how": "I'd rather use a small script: exit quietly when nothing happened, and only print a message when there's something to say. Adding another model vendor is not my first move. I want that pattern. I'm not saying those scripts are already running.",
+        "how": "I'd rather use a small script: exit quietly when nothing happened, and only print a message when there's something to say. Adding another model vendor is not my first move. That's the pattern I want, though I'm not claiming every watch already runs this way.",
         "alt": "Brand card quoting the script-first rule: prefer a script over a model when the job is deterministic.",
         "slot": "A redacted dry-run of a quiet exit versus a message exit.",
     },
