@@ -1,0 +1,1 @@
+{"hold_money_policy": true, "_note": "G12 per-post hold for money, pricing, plans, usage limits, billing or policy stories. true = hold (default). Set false to let those stories auto-publish. See README.md."}
