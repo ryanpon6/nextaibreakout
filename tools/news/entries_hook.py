@@ -12,13 +12,14 @@ import nc
 
 ENTRIES_FILE = os.getenv("NAB_ENTRIES", os.path.join(nc.ROOT, "catalog.json"))
 
-def to_entry(date, title, slug, topic, sources=()):
+def to_entry(date, title, slug, topic, sources=(), summary=None):
     e = {"id": slug, "date": date, "title": title, "url": f"/blog/{slug}/", "kind": "claude" if topic == "claude" else "grok", "type": "news"}
+    if summary: e["summary"] = summary  # the gated description (G7 checked its figures), never new text
     if sources: e["source"] = "News post from the daily pipeline. Cited X posts: " + ", ".join(sources)
     return e
 
-def register(date, title, slug, topic, sources=()):
-    e = to_entry(date, title, slug, topic, sources)
+def register(date, title, slug, topic, sources=(), summary=None):
+    e = to_entry(date, title, slug, topic, sources, summary)
     if not os.path.exists(ENTRIES_FILE):
         print(f"ENTRIES skipped: {ENTRIES_FILE} not present (tips-index not merged); would add {json.dumps(e)}"); return None
     if os.path.exists(os.path.join(nc.ROOT, "catalog.py")) and os.path.abspath(ENTRIES_FILE) == os.path.join(nc.ROOT, "catalog.json"):

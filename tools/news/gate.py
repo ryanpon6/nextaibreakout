@@ -23,7 +23,7 @@ Checks (each prints PASS or FAIL):
                   every x.com post linked is a verified one
   G8  secrets     no token patterns, secret file paths or secret env var names, and no live secret env value
   G9  seo         one h1, title <= 60, description <= 155, canonical, in sitemap/feed/blog index/homepage,
-                  Article schema, no noindex, links to 2+ existing tips, h2 subheads
+                  in catalog.json (and catalog.py validates) when the catalog exists, Article schema, no noindex, links to 2+ existing tips, h2 subheads
   G10 xtext       main post <= 280 by twitter-text weighting (CJK, emoji, '…', '•' count 2) with no link or domain; reply is exactly the story-link reply; alt <= 1000
   G11 privacy     no Landscape Specialists, Gavin, email address or phone number
   G12 hold        per-post hold (switch: tools/news/config.json "hold_money_policy", default true). If the story
@@ -261,6 +261,11 @@ def main():
     tl = set(re.findall(r'href="/tips/([\w-]+)/"', main_h))
     if len([s for s in tl if os.path.exists(os.path.join(a.dist, "tips", s, "index.html"))]) < 2: p9.append("fewer than 2 links to existing tip pages")
     if "<h2" not in main_h: p9.append("no h2 subheads")
+    cat = os.path.join(nc.ROOT, "catalog.json")   # tips-index listing catalog: must validate and list this post
+    if os.path.exists(cat):
+        r = __import__("subprocess").run([sys.executable, os.path.join(nc.ROOT, "catalog.py")], cwd=nc.ROOT, capture_output=True, text=True)
+        if r.returncode: p9.append("catalog.py validation failed: " + (r.stdout + r.stderr).strip().splitlines()[-1][:120])
+        elif f"/blog/{slug}/" not in open(cat, encoding="utf-8").read(): p9.append("post not registered in catalog.json")
     G.check("G9 seo", p9)
     # G10 X text
     p10 = []; mt = pay["main"]["text"]; xl = nc.xweight(mt)
