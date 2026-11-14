@@ -125,10 +125,10 @@ def head(title, desc, path, root="", extra=""):
 <link rel="icon" href="/favicon.svg?v={ICON_VER}" type="image/svg+xml"><link rel="icon" href="/favicon.png?v={ICON_VER}" type="image/png" sizes="32x32"><link rel="icon" href="/favicon.ico?v={ICON_VER}" sizes="16x16 32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ICON_VER}" sizes="180x180">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}{SCROLL_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{NAVWORD}</a>
 <div class="acts"><a class="ghost xf" href="{X_URL}" rel="me noopener" target="_blank" aria-label="Follow on X">{XICON}<span>Follow</span></a><button class="ib nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">{MENU}{CLOSE}</button></div>
-<nav id="site-nav" aria-label="Primary"><a href="/tips/">Grok Bot tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a></nav></header>"""
+<nav id="site-nav" aria-label="Primary"><a href="/tips/">Grok Bot Tips</a><a href="/claude/">Claude Tips</a><a href="/blog/">Blog</a><a href="/about">About</a></nav></header>"""
 
 def foot(year, root=""):
-    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Tips</a><a href="/claude/">Claude</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/feed.xml">RSS</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div>
+    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Grok Bot Tips</a><a href="/claude/">Claude Tips</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/feed.xml">RSS</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div>
 <p class="fnote">Tips are reviewed before they go up. Unreviewed bot output does not publish.</p></footer>"""
 
 def row(i, n):
@@ -182,24 +182,17 @@ def og_brand():
         shutil.copy(fallback, os.path.join(DIST, "og.png"))
 
 
-FEATURED_SLUGS = (
-    "talk-to-one-lead-bot",
-    "quality-checker-before-it-reaches-you",
-    "drafts-only-approval",
-    "blabara-in-one-day",
-)
-
 HOME_TITLE = "Grok Bot tips with real builds | NextAiBreakout"
 HOME_DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
 ABOUT_TITLE = "About this site | NextAiBreakout"
 ABOUT_DESC = "Why I built NextAiBreakout: I'm not a coder, I run a company, and I only publish Grok Bot and Claude tips I've tested and can prove."
 LLMS = """# NextAiBreakout
-> Grok Bot tips with the real build behind each one. One separate page for Claude.
+> Grok Bot tips with the real build behind each one. A separate Claude Tips index.
 
 ## Site
 - [Home](https://nextaibreakout.com/)
-- [Tips](https://nextaibreakout.com/tips/)
-- [Claude](https://nextaibreakout.com/claude/)
+- [Grok Bot Tips](https://nextaibreakout.com/tips/)
+- [Claude Tips](https://nextaibreakout.com/claude/)
 - [Blog](https://nextaibreakout.com/blog/)
 - [About](https://nextaibreakout.com/about)
 
@@ -208,31 +201,15 @@ Pages are reviewed before they go up. Unreviewed model output is not published. 
 """
 
 
-def featured():
-    import tips as T
-    out = []
-    for slug in FEATURED_SLUGS:
-        tip = T.BY_SLUG[slug]
-        out.append({"slug": slug, "title": tip["title"], "line": tip["meta"], "path": T.path_of(slug)})
-    return out
-
-
 def home_page(year):
     import tips as T
     import blog as BL
-    cards = featured()
-    labels = dict(T.SECTIONS)
-    peeks = (dict(c="#fff", b="var(--och)"), CHECKER_BOT, SPECIALIST_BOT, LEAD_BOT)  # the bot peeking out of each stacked card
-    # Featured tips: coloured cards that stack as you scroll (.stack/.tipc). Colours cycle by position in the CSS.
-    card_html = "".join(
-        f'<a class="tipc" href="{e(c["path"])}"><span class="peek">{bot(cls="still", **peeks[i % len(peeks)])}</span>'
-        f'<span class="hand">no. {i + 1} · {e(labels.get(T.BY_SLUG[c["slug"]]["section"], "tip").lower())}</span>'
-        f'<h3>{e(c["title"])}</h3><p>{e(c["line"])}</p><span class="go">Read it →</span></a>'
-        for i, c in enumerate(cards)
-    )
+    import catalog as C
     # Counts come from the data, so they stay right when tips are added.
     all_tips = list(T.TIPS) + list(T.HUB_ONLY)
     n_all, n_full = len(all_tips), len(T.TIPS)
+    grok_latest = C.latest(3, kind="grok", type="tip")
+    claude_latest = C.latest(3, kind="claude", type="tip")
     topics = "".join(
         f'<a href="/tips/#sec-{e(k)}">{e(label)} <span>{n}</span></a>'
         for k, label in T.SECTIONS
@@ -255,17 +232,18 @@ def home_page(year):
     website = {"@type": "WebSite", "name": BRAND, "url": SITE + "/", "description": HOME_DESC, "inLanguage": "en-CA",
                "publisher": {"@id": SITE + "/#org"}}
     org = dict(org, **{"@id": SITE + "/#org"})
-    item_list = {
-        "@type": "ItemList",
-        "name": "Featured Grok Bot tips",
-        "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": len(cards),
-        "itemListElement": [
-            {"@type": "ListItem", "position": i, "name": c["title"], "url": SITE + c["path"]}
-            for i, c in enumerate(cards, 1)
-        ],
-    }
-    extra = ld({"@context": "https://schema.org", "@graph": [website, org, item_list]})
+    graph = [website, org, C.item_list("Latest Grok Bot tips", grok_latest)]
+    if claude_latest:
+        graph.append(C.item_list("Latest Claude Tips", claude_latest))
+    extra = ld({"@context": "https://schema.org", "@graph": graph})
+    grok_sec = f"""<section class="sec" id="start" aria-labelledby="h-start"><div class="wrap">
+<div class="sh rv"><h2 id="h-start">Latest {circ("Grok Bot tips.")}</h2><a class="more" href="/tips/">See all Grok Bot tips</a></div>
+{C.listing_html(grok_latest, "rv")}
+</div></section>"""
+    claude_sec = f"""<section class="sec" id="claude-tips" aria-labelledby="h-claude"><div class="wrap">
+<div class="sh rv"><h2 id="h-claude">Latest {circ("Claude Tips.")}</h2><a class="more" href="/claude/">See all Claude Tips</a></div>
+{C.listing_html(claude_latest, "rv")}
+</div></section>""" if claude_latest else ""
     return head(HOME_TITLE, HOME_DESC, "/", "/", extra) + f"""<main class="home">
 <section class="hero" id="top"><div class="wrap">
 <div class="art" aria-hidden="true">
@@ -296,10 +274,8 @@ def home_page(year):
 <li class="rv">{bot_head("#fff", "50%")}<span><b>5. I approve</b><span>Nothing posts, sends or spends until I tap yes.</span></span></li>
 </ol></div>
 </div></section>
-<section class="sec" id="start" aria-labelledby="h-start"><div class="wrap">
-<div class="sh rv"><h2 id="h-start">Four {circ("Grok Bot tips")} to read first.</h2><a class="more" href="/tips/">All {n_all} tips →</a></div>
-<div class="stack">{card_html}</div>
-</div></section>
+{grok_sec}
+{claude_sec}
 {posts_sec}
 <section class="sec proof" aria-labelledby="h-proof"><div class="wrap">
 <div class="badge" aria-hidden="true"><div class="shape"></div><div class="dots"></div><p class="stamp">1 day</p></div>
@@ -316,8 +292,8 @@ def home_page(year):
 </div></section>
 <section class="sec"><div class="wrap duo">
 <div class="card rv"><h2>Using Claude too? That has its own page.</h2>
-<p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude has its own page, including the older guide on using Claude Code to debloat an Android TV, carefully.</p>
-<a class="more" href="/claude/">Read the Claude notes →</a></div>
+<p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude Tips is a separate list, including the older guide on using Claude Code to debloat an Android TV, carefully.</p>
+<a class="more" href="/claude/">See all Claude Tips</a></div>
 <div class="card dark rv"><span class="perch">{bot(cls="wave", c="var(--och)", a="var(--red)")}</span>
 <h2>Follow the build on X.</h2>
 <p>I post Grok Bot tips and builds on X.</p>
@@ -345,7 +321,7 @@ def about_page(year):
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">About</span></nav>
 {peek_h1("About " + circ("this site."), LEAD_BOT)}
 <p class="note" style="margin:0 0 18px">a regular user, not a coder</p>
-<p>NextAiBreakout is a Grok Bot tips site, with the real build behind each tip. There is a separate page for Claude.</p>
+<p>NextAiBreakout is a Grok Bot tips site, with the real build behind each tip. Claude Tips has its own page.</p>
 
 <h2>Why I {circ("built this")}</h2>
 <p>I have always loved computers, AI, and code. I am not a coder. I run my own company, and I built this website while automating my work with Grok and other AI tools.</p>
@@ -360,7 +336,7 @@ def about_page(year):
 <p>Every tip comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have those, the tip stays off the site.</p>
 <p>I talk to one lead bot. A Quality Checker reviews work before it reaches me. Tips are reviewed before they go up. Unreviewed bot output does not publish.</p>
 <p>This site no longer ranks AI repos, models, or packages by hourly velocity.</p>
-<p><a href="/tips/">Browse the tips</a> · <a href="/claude/">Read the Claude notes</a> · <a href="/blog/">See the blog</a></p>
+<p><a href="/tips/">See all Grok Bot tips</a> · <a href="/claude/">See all Claude Tips</a> · <a href="/blog/">See the blog</a></p>
 <p class="follow-p">Follow along on X: <a href="{X_URL}" rel="me noopener" target="_blank">{X_HANDLE}</a>.</p>
 </main>"""
     return head(ABOUT_TITLE, ABOUT_DESC, "/about", "/", ld(graph)) + body + foot(year) + "</body></html>"

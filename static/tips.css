@@ -66,8 +66,7 @@
 .pros-cons h3 + ul + h3 + ul li::before{background:var(--red);border-radius:3px}
 @media (max-width:640px){
 .tips-main{padding:0 18px 56px}
-.tips-jump{flex-wrap:nowrap;overflow-x:auto;margin-left:-18px;margin-right:-18px;padding:4px 18px 12px;scrollbar-width:none}
-.tips-jump a{flex:none;white-space:nowrap}
+.tips-jump{flex-wrap:wrap}
 .prompt-block{padding:18px 16px 16px}
 .pros-cons li{font-size:17px}
 }

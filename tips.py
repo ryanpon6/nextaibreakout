@@ -258,7 +258,12 @@ SECTIONS = [
 HUB_TITLE = "Grok Bot tips | NextAiBreakout"
 HUB_H1 = "Grok Bot tips"
 HUB_META = "Grok Bot tips from work I actually ran: a lead bot, a Quality Checker, drafts-only approval, and other practices from my own setup."
-HUB_INTRO = "Grok Bot tips from work I actually ran. Fourteen have their own page, with the tip, how I did it, and a brand card for each one. Six more live on this page until they have a full write-up."
+def hub_intro():
+    """Computed counts; never type them. Hub-only tips are already written up on this page."""
+    n_all, n_full, n_hub = len(TIPS) + len(HUB_ONLY), len(TIPS), len(HUB_ONLY)
+    return (f"{n_all} Grok Bot tips from work I actually ran. "
+            f"{n_full} have their own page, with the tip, how I did it, and a brand card for each one. "
+            f"{n_hub} are written up on this page.")
 
 BY_SLUG = {t["slug"]: t for t in TIPS}
 
@@ -338,7 +343,7 @@ def article_ld(t, url):
                 "publisher": {"@type": "Organization", "name": BRAND, "url": SITE + "/"},
                 "mainEntityOfPage": {"@type": "WebPage", "@id": url},
             },
-            ld_breadcrumb([("Home", SITE + "/"), ("Tips", SITE + "/tips/"), (t["title"], url)]),
+            ld_breadcrumb([("Home", SITE + "/"), ("Grok Bot Tips", SITE + "/tips/"), (t["title"], url)]),
         ],
     }
 
@@ -635,13 +640,24 @@ def tip_extras(slug):
     return team_proof_block(slug) + pros_cons_block(slug) + prompt_blocks(slug)
 
 
+
+def tip_date_html(slug):
+    """Visible publish date from the catalog, or empty if the slug is missing."""
+    import catalog as C
+    row = C.by_id(slug)
+    if not row:
+        return ""
+    return f'<p class="tip-date"><time datetime="{e(row["date"])}">{e(C.nice(row["date"]))}</time></p>'
+
+
 def tip_page(t, year):
     url = SITE + path_of(t["slug"])
     sibs = [BY_SLUG[s] for s in t["siblings"] if s in BY_SLUG]
     more = "".join(f'<li><a href="{path_of(s["slug"])}">{e(s["title"])}</a></li>' for s in sibs)
     main = f"""<main class="prose tips-main">
-{crumbs(("Tips", "/tips/", False), (t["title"], path_of(t["slug"]), True))}
+{crumbs(("Grok Bot Tips", "/tips/", False), (t["title"], path_of(t["slug"]), True))}
 {B.peek_h1(e(t["title"]), B.CHECKER_BOT)}
+{tip_date_html(t["slug"])}
 <p class="tip-body">{e(t["tip"])}</p>
 {card_figure(t["slug"], t["alt"], CAPTIONS[t["slug"]], lazy=False)}
 <h2 class="how">How I did it</h2>
@@ -650,7 +666,7 @@ def tip_page(t, year):
 <nav class="tip-more" aria-label="More tips">
 <h2>More tips</h2>
 <ul>{more}</ul>
-<p><a class="back" href="/tips/">All tips</a></p>
+<p><a class="back" href="/tips/">See all Grok Bot tips</a></p>
 </nav>
 </main>"""
     extra = B.ld(article_ld(t, url))
@@ -688,7 +704,8 @@ def hub_page(year):
         for t in pages:
             first = first_sentence(t["tip"])
             cards.append(
-                f'<li id="{e(t["slug"])}"><a class="tip-title" href="{path_of(t["slug"])}">{e(t["title"])}</a>'
+                f'<li id="{e(t["slug"])}">{tip_date_html(t["slug"])}'
+                f'<a class="tip-title" href="{path_of(t["slug"])}">{e(t["title"])}</a>'
                 f"<p>{e(first)}</p></li>"
             )
         page_list = f'<ul class="tip-cards">{"".join(cards)}</ul>' if cards else ""
@@ -696,6 +713,7 @@ def hub_page(year):
         for t in hubs:
             blocks.append(
                 f'<article class="hub-only" id="{e(t["slug"])}">'
+                f'{tip_date_html(t["slug"])}'
                 f'<h3>{e(t["title"])}</h3>'
                 f'<p class="tip-body">{e(t["tip"])}</p>'
                 f'<h2 class="how">How I did it</h2>'
@@ -707,28 +725,23 @@ def hub_page(year):
             f'<section class="tips-sec" id="sec-{e(key)}" aria-label="{e(label)}"><h2>{e(label)}</h2>'
             f"{page_list}{''.join(blocks)}</section>"
         )
-    item_list = {
-        "@type": "ItemList",
-        "name": "Grok Bot tips",
-        "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": len(TIPS),
-        "itemListElement": [
-            {"@type": "ListItem", "position": i, "name": t["title"], "url": SITE + path_of(t["slug"])}
-            for i, t in enumerate(TIPS, 1)
-        ],
-    }
+    import catalog as C
+    dated = C.filter_entries(kind="grok", type="tip")
+    item_list = dict(C.item_list("Grok Bot tips", dated), **{"@id": url + "#list"})
     graph = {
         "@context": "https://schema.org",
         "@graph": [
             {"@type": "CollectionPage", "name": "Grok Bot tips", "url": url, "description": HUB_META, "mainEntity": {"@id": url + "#list"}},
-            dict(item_list, **{"@id": url + "#list"}),
-            ld_breadcrumb([("Home", SITE + "/"), ("Tips", url)]),
+            item_list,
+            ld_breadcrumb([("Home", SITE + "/"), ("Grok Bot Tips", url)]),
         ],
     }
     main = f"""<main class="prose tips-main">
-{crumbs(("Tips", "/tips/", True))}
+{crumbs(("Grok Bot Tips", "/tips/", True))}
 {B.peek_h1(B.circ(e(HUB_H1)), B.LEAD_BOT)}
-<p class="lede">{e(HUB_INTRO)}</p>
+<p class="lede">{e(hub_intro())}</p>
+<h2 class="tips-index-h">All tips, newest first</h2>
+{C.listing_html(dated, "tips-index")}
 <p class="tips-jump-label">Tip pages</p>
 <nav class="tips-jump" aria-label="Tip pages">{page_jumps}</nav>
 <p class="tips-jump-label">On this page</p>
@@ -739,6 +752,13 @@ def hub_page(year):
 
 
 def apply(DIST, t):
+    import catalog as C
+    cat_ids = {e["id"] for e in C.filter_entries(kind="grok", type="tip")}
+    src_ids = {x["slug"] for x in list(TIPS) + list(HUB_ONLY)}
+    if cat_ids != src_ids:
+        missing = src_ids - cat_ids
+        extra = cat_ids - src_ids
+        raise SystemExit(f"catalog grok tips out of sync with tips.py: missing {sorted(missing)} extra {sorted(extra)}")
     year = t.year
     write(DIST, "tips/index.html", hub_page(year))
     for tip in TIPS:
@@ -746,8 +766,10 @@ def apply(DIST, t):
     # sitemap + llms
     sp = os.path.join(DIST, "sitemap.xml")
     s = open(sp, encoding="utf-8").read()
-    day = "2026-11-12"  # drafts written this day; not a fake "updated" date
-    urls = [("/tips/", day, "weekly")] + [(path_of(tip["slug"]), day, "monthly") for tip in TIPS]
+    import catalog as C
+    dated = {e["url"]: e["date"] for e in C.filter_entries(kind="grok", type="tip")}
+    hub_day = C.newest_date(kind="grok", type="tip") or "2026-11-12"
+    urls = [("/tips/", hub_day, "weekly")] + [(path_of(tip["slug"]), dated.get(path_of(tip["slug"]), hub_day), "monthly") for tip in TIPS]
     s = s.replace("</urlset>", "".join(
         f"<url><loc>{SITE}{u}</loc><lastmod>{d}</lastmod><changefreq>{c}</changefreq></url>" for u, d, c in urls
     ) + "</urlset>", 1)

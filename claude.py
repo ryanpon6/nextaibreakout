@@ -1,45 +1,61 @@
-"""Claude page at /claude/. Copy is from /workspace/shared/nab-relaunch/ia.md, facts only."""
+"""Claude Tips index at /claude/. Keeps the existing URL and the already-published notes."""
 import os
 import build as B
+import catalog as C
 
 e = B.e
 SITE = B.SITE
 BRAND = B.BRAND
 PATH = "/claude/"
-TITLE = "Claude notes | NextAiBreakout"
-H1 = "Claude, on its own page."
-# Mentions the Landscape Specialists build and the existing Android TV guide already on the site.
-META = "This site is Grok Bot first. Claude has its own page, including a Landscape Specialists build and the existing Claude Code Android TV guide. Not a second tips hub."
-BLOG = "/blog/claude-code-android-tv-debloat/"
-BLOG_TITLE = "Claude Code Android TV Debloat: cleanyourtv Explained"
+TITLE = "Claude Tips | NextAiBreakout"
+H1 = "Claude Tips"
+META = "Claude Tips I have published, including the Claude Code Android TV guide, and a note on a Landscape Specialists build. This site is Grok Bot first."
 
 
 def apply(DIST, t):
     year = t.year
     url = SITE + PATH
+    dated = C.filter_entries(kind="claude", type="tip")
+    item_list = dict(C.item_list("Claude Tips", dated), **{"@id": url + "#list"})
     graph = {
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "WebPage",
-                "name": H1,
+                "@type": "CollectionPage",
+                "name": "Claude Tips",
                 "url": url,
                 "description": META,
                 "isPartOf": {"@type": "WebSite", "name": BRAND, "url": SITE + "/"},
+                "mainEntity": {"@id": url + "#list"},
             },
+            item_list,
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
                     {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-                    {"@type": "ListItem", "position": 2, "name": "Claude", "item": url},
+                    {"@type": "ListItem", "position": 2, "name": "Claude Tips", "item": url},
                 ],
             },
         ],
     }
+    n = len(dated)
+    if n == 0:
+        list_block = ""
+        list_lede = "This site is Grok Bot first. I'm not going to mix both tools into every tip."
+        # Rule 19: do not render an empty list. The existing notes on this page stay.
+    elif n == 1:
+        list_block = f'<h2 class="tips-index-h">The published tip</h2>\n{C.listing_html(dated, "tips-index")}'
+        list_lede = "This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude Tips is the list of Claude write-ups I have published."
+    else:
+        list_block = f'<h2 class="tips-index-h">All tips, newest first</h2>\n{C.listing_html(dated, "tips-index")}'
+        list_lede = "This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude Tips is the list of Claude write-ups I have published."
+    # n==0 copy must not be a "coming soon". Today there is one published tip, so this branch will not render.
+    # Keep it only so a future empty catalog does not emit an empty list.
     main = f"""<main class="prose">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Claude</span></nav>
-{B.peek_h1(B.circ("Claude,") + " on its own page.", B.SPECIALIST_BOT)}
-<p>This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude is a separate lane, and this is its page.</p>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Claude Tips</span></nav>
+{B.peek_h1(B.circ("Claude Tips."), B.SPECIALIST_BOT)}
+<p>{e(list_lede)}</p>
+{list_block}
 <p>After the 16 Oct 2026 one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude. I am not claiming Blabara is live on Google Play.</p>
 <p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>
 <h2>How this site was built</h2>
@@ -51,32 +67,38 @@ def apply(DIST, t):
 <figcaption>The Landscape Specialists homepage, built with Claude.</figcaption>
 </figure>
 <p><a href="https://landscapespecialists.ca" rel="noopener" target="_blank">landscapespecialists.ca</a></p>
-<h2>A guide that's already on the site</h2>
-<p>The one older guide already published here is about using Claude Code to debloat an Android TV, carefully. It covers a public repo, not a build I shipped, and it keeps the safety framing: what the method does, what it doesn't, and what to watch for.</p>
-<p><a href="{BLOG}">{e(BLOG_TITLE)}</a></p>
-<p><a href="/tips/">Back to Grok Bot tips</a></p>
+<p><a href="/tips/">See all Grok Bot tips</a></p>
 </main>"""
     page = B.head(TITLE, META, PATH, "/", B.ld(graph)) + main + B.foot(year, "/") + "</body></html>"
     dest = os.path.join(DIST, "claude", "index.html")
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     open(dest, "w", encoding="utf-8").write(page)
-    # sitemap: add /claude/ if the base build did not
+    # sitemap: add /claude/ if the base build did not; lastmod is the newer of the page's first publish day and the newest listed tip.
     sp = os.path.join(DIST, "sitemap.xml")
     if os.path.isfile(sp):
         s = open(sp, encoding="utf-8").read()
         loc = f"<loc>{SITE}{PATH}</loc>"
+        page_day = "2026-11-12"  # first published in commit 7e64428
+        tip_day = C.newest_date(kind="claude", type="tip")
+        day = max(d for d in (page_day, tip_day) if d)
         if loc not in s:
-            day = "2026-11-12"
             s = s.replace(
                 "</urlset>",
-                f"<url><loc>{SITE}{PATH}</loc><lastmod>{day}</lastmod><changefreq>monthly</changefreq></url></urlset>",
+                f"<url><loc>{SITE}{PATH}</loc><lastmod>{day}</lastmod><changefreq>weekly</changefreq></url></urlset>",
                 1,
             )
             open(sp, "w", encoding="utf-8").write(s)
-    print("[claude] /claude/")
+        else:
+            s = s.replace(
+                f"<loc>{SITE}{PATH}</loc><lastmod>2026-11-12</lastmod><changefreq>monthly</changefreq>",
+                f"<loc>{SITE}{PATH}</loc><lastmod>{day}</lastmod><changefreq>weekly</changefreq>",
+                1,
+            )
+            open(sp, "w", encoding="utf-8").write(s)
+    print(f"[claude] /claude/ ({n} tip{'' if n == 1 else 's'})")
 
 
 if __name__ == "__main__":
-    import datetime as dt
+    import datetime as _dt
 
-    apply("dist", dt.date(2026, 11, 12))
+    apply("dist", _dt.date(2026, 11, 12))

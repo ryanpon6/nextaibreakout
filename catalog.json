@@ -1,0 +1,236 @@
+{
+  "_comment": "Listing catalog for nextaibreakout.com. The build reads this file for dated tip lists and homepage latest-N strips. Append new posts here; see CATALOG.md. Dates are real publish dates, never invented.",
+  "entries": [
+    {
+      "id": "talk-to-one-lead-bot",
+      "date": "2026-11-12",
+      "title": "Talk to one lead bot",
+      "url": "/tips/talk-to-one-lead-bot/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "I don't talk to my whole Grok Bot fleet. I talk to one lead bot, and it routes work to the specialists.",
+      "seq": 1,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "quality-checker-before-it-reaches-you",
+      "date": "2026-11-12",
+      "title": "Quality Checker in front of you",
+      "url": "/tips/quality-checker-before-it-reaches-you/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Every bot's work goes through a Quality Checker bot before it reaches me. I don't want five versions of \"done.\" I want one reviewed answer.",
+      "seq": 2,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "agent-to-agent-handoffs",
+      "date": "2026-11-12",
+      "title": "Agent-to-agent handoffs",
+      "url": "/tips/agent-to-agent-handoffs/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Specialists don't report to me. They hand work to each other with a clear output, and the lead bot brings me one result.",
+      "seq": 3,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "drafts-only-approval",
+      "date": "2026-11-12",
+      "title": "Drafts only, then I approve",
+      "url": "/tips/drafts-only-approval/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Nothing posts, sends, or goes public until I approve it. Drafts only. That's the rule that lets me run a fleet without waking up to a surprise on my account.",
+      "seq": 4,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "shared-skills-across-bots",
+      "date": "2026-11-12",
+      "title": "Save working workflows as skills",
+      "url": "/tips/shared-skills-across-bots/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "When a workflow works, I save it as a skill and share it across bots so they don't reinvent the steps. A skill is a reusable playbook, not a prompt I retype every morning.",
+      "seq": 5,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "check-your-routine-timezone",
+      "date": "2026-11-12",
+      "title": "Check the timezone on every routine",
+      "url": "/tips/check-your-routine-timezone/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "I had a routine on the wrong timezone. It quietly missed its slot, and I only noticed when the work didn't show up. Cron doesn't care what you meant. It cares what zone you set.",
+      "seq": 6,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "watch-usage-pause-routines",
+      "date": "2026-11-12",
+      "title": "Watch usage, then pause routines",
+      "url": "/tips/watch-usage-pause-routines/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Usage ran out and every routine failed at once. Now I watch the meter and pause routines before they all crash. A fleet is only useful if it's still running tomorrow.",
+      "seq": 7,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "blabara-in-one-day",
+      "date": "2026-11-12",
+      "title": "We built Blabara in one day",
+      "url": "/tips/blabara-in-one-day/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "On Oct 16, my brother and I built Blabara, an Android voice-dictation app, in one day with a team of Grok Bots. Not a slide deck. A real app, in a day.",
+      "seq": 8,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "group-chat-per-project",
+      "date": "2026-11-12",
+      "title": "One group chat per project",
+      "url": "/tips/group-chat-per-project/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "When bots share a project, I put them in one group chat with clear roles. One channel, one job, then close it when the work is done.",
+      "seq": 9,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "before-after-proof",
+      "date": "2026-11-12",
+      "title": "No fix without a before and after",
+      "url": "/tips/before-after-proof/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "No bug is fixed until it's proven with a before and after. A bot saying \"done\" isn't proof. Show me what it looked like, then show me what changed.",
+      "seq": 10,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "approve-spend-and-credentials",
+      "date": "2026-11-12",
+      "title": "One-tap approvals for spend and credentials",
+      "url": "/tips/approve-spend-and-credentials/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Spending and credentials stay on a one-tap approval. I don't auto-allow those. A bot can draft the step. I still press the button.",
+      "seq": 11,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "bot-drafts-checker-reviews",
+      "date": "2026-11-12",
+      "title": "Bot drafts the email, a checker reviews it",
+      "url": "/tips/bot-drafts-checker-reviews/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "I had a bot build a daily email, then a checker bot review it before anything could go out. Fast draft, slow send. That's the only way I'd let a routine touch an audience.",
+      "seq": 12,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "scripted-brand-cards",
+      "date": "2026-11-12",
+      "title": "Script the cards, don't redesign every post",
+      "url": "/tips/scripted-brand-cards/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "I don't design a new image for every post. A script builds the cards in one brand style: same colours, same type, no photos of people. Consistency beats a one-off graphic every time.",
+      "seq": 13,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "scheduled-pack-and-gates",
+      "date": "2026-11-12",
+      "title": "A morning pack, then gates, then I approve",
+      "url": "/tips/scheduled-pack-and-gates/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "I run a morning pack routine, then later gates that check the work before it can go out. Scheduled prompts are useful. Unattended publish is not.",
+      "seq": 14,
+      "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
+    },
+    {
+      "id": "one-job-per-bot",
+      "date": "2026-11-12",
+      "title": "Give every bot one job",
+      "url": "/tips/#one-job-per-bot",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "One bot asked to market, code, and file invoices gets mushy.",
+      "seq": 15,
+      "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
+    },
+    {
+      "id": "write-down-checker-rules",
+      "date": "2026-11-12",
+      "title": "Write the checker's rules down, and add one for every miss",
+      "url": "/tips/#write-down-checker-rules",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "The same mistake slipping through twice is the problem: a wrong sign-off, an invented figure, or an unproven \"fixed.\"",
+      "seq": 16,
+      "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
+    },
+    {
+      "id": "isolate-the-app-repo",
+      "date": "2026-11-12",
+      "title": "Keep one repo off-limits to the rest of the fleet",
+      "url": "/tips/#isolate-the-app-repo",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Two bots pushing to the same app repo is the problem this is meant to stop.",
+      "seq": 17,
+      "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
+    },
+    {
+      "id": "change-only-watches",
+      "date": "2026-11-12",
+      "title": "Stay quiet unless something changed",
+      "url": "/tips/#change-only-watches",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Scheduled bots waking dozens of times a week to say nothing changed is wasted work.",
+      "seq": 18,
+      "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
+    },
+    {
+      "id": "script-before-model",
+      "date": "2026-11-12",
+      "title": "Prefer a script over a model when the job is deterministic",
+      "url": "/tips/#script-before-model",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Don't pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
+      "seq": 19,
+      "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
+    },
+    {
+      "id": "human-publish-gate",
+      "date": "2026-11-12",
+      "title": "Put a human publish gate in front of the website",
+      "url": "/tips/#human-publish-gate",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "Unreviewed auto content, including CJK text and unverified ranking blurbs, reached the NAB homepage and daily pages in early November 2026.",
+      "seq": 20,
+      "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
+    },
+    {
+      "id": "claude-code-android-tv-debloat",
+      "date": "2026-10-19",
+      "title": "AI didn't invent Android TV debloating, but one repo says it's now a 15-minute job",
+      "url": "/blog/claude-code-android-tv-debloat/",
+      "kind": "claude",
+      "type": "tip",
+      "summary": "People are using Claude Code to disable bloat and home-screen ad rows on Android and Google TVs over ADB. What it does, what it doesn't, and how to do it safely.",
+      "seq": 1,
+      "source": "Blog front matter date: 2026-10-19. First published in git commit ace6dcc on 2026-10-19 (America/Edmonton, UTC-6), \"Blog: publish 'Claude Code Android TV debloat' post\"."
+    }
+  ]
+}

@@ -35,7 +35,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,pre:focus-visible{outli
 .brand{display:flex;align-items:center;gap:10px;min-height:44px;font:800 19px var(--fd);letter-spacing:-.02em;text-decoration:none;color:var(--ink)}
 .brand .bhead{font-size:13px;--c:var(--red);padding-bottom:0;box-shadow:2px 2px 0 var(--ink)}
 nav#site-nav{display:flex;flex-wrap:wrap;gap:0 22px;font-size:16px;font-weight:500}
-nav#site-nav a,.fmeta a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
+nav#site-nav a,.fmeta a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;text-decoration:none}
 nav#site-nav a:hover,nav#site-nav a[aria-current],.fmeta a:hover{text-decoration:underline wavy var(--red);text-underline-offset:6px}
 .acts{display:flex;align-items:center;gap:10px;order:3}nav#site-nav{order:2}
 .ib{width:44px;height:44px;border-radius:14px;border:var(--line);background:var(--paper);color:var(--ink);display:grid;place-items:center;cursor:pointer;padding:0;box-shadow:3px 3px 0 var(--ink)}
@@ -148,7 +148,7 @@ nav#site-nav a:hover,nav#site-nav a[aria-current],.fmeta a:hover{text-decoration
 /* home: latest posts */
 .posts{list-style:none;margin:0;padding:0;border-top:var(--line)}
 .posts li{border-bottom:var(--line)}
-.posts a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 18px;align-items:center;padding:16px 4px;text-decoration:none;transition:padding-left .25s,background-color .25s}
+.posts a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 18px;align-items:center;min-height:44px;padding:16px 4px;text-decoration:none;transition:padding-left .25s,background-color .25s}
 .posts a:hover{padding-left:14px;background:var(--paper)}
 .posts time{font:400 18px var(--fh);color:var(--red-ink)}
 .posts b{grid-column:1;font:700 clamp(19px,2.4vw,24px)/1.15 var(--fd);letter-spacing:-.02em}
@@ -196,7 +196,7 @@ h1:has(.circ),h2:has(.circ){line-height:1.2}
 
 /* inner pages: About, Claude, Blog, 404 */
 .crumbs{font-size:14px;color:var(--mut);padding-top:20px}
-.crumbs a{display:inline-flex;align-items:center;min-height:44px}.crumbs span{color:var(--ink);font-weight:700}
+.crumbs a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px}.crumbs span{color:var(--ink);font-weight:700}
 .prose{max-width:820px;padding-top:8px;padding-bottom:72px}
 .prose h1{font-size:clamp(38px,7vw,72px);line-height:.96;letter-spacing:-.045em;margin:6px 0 24px;text-wrap:balance}
 .prose h2{font-size:clamp(26px,3.6vw,38px);line-height:1.04;margin:48px 0 12px;letter-spacing:-.03em}
@@ -207,6 +207,9 @@ h1:has(.circ),h2:has(.circ){line-height:1.2}
 .prose figure{margin:28px 0 36px}
 .prose figure img{width:100%;height:auto;display:block;border:var(--line);border-radius:22px;box-shadow:var(--shadow);background:var(--paper)}
 .prose figcaption{margin:16px 0 0;font:400 20px/1.2 var(--fh);color:var(--red-ink);transform:rotate(-1deg)}
+.prose .posts a{color:inherit;font-weight:inherit;text-decoration:none}
+.prose .posts time{color:var(--red-ink)}
+.prose .posts b{color:var(--ink)}
 .post .meta{font:400 20px var(--fh)!important;color:var(--red-ink)!important}
 .post code{border:2px solid var(--ink)!important;border-radius:6px!important;background:var(--paper)!important}
 .bloglist li{padding:20px 22px;background:var(--paper);border:var(--line);border-radius:22px;box-shadow:5px 5px 0 var(--ink)}
@@ -267,3 +270,9 @@ html{scroll-behavior:auto}
 .sj .rv:not(.in){transform:none}.sj .stamp:not(.in){transform:rotate(-9deg)}.sj .badge .shape:not(.in){transform:none}
 @keyframes soft{to{opacity:1}}@keyframes softin{from{opacity:0}}
 }
+
+/* publish dates on tip lists and tip pages */
+.tip-date,.tip-cards .tip-date,.hub-only .tip-date{margin:0 0 8px;font:400 18px var(--fh);color:var(--red-ink)}
+.tip-cards .tip-date{margin:0 0 6px}
+.hub-only .tip-date{margin:0 0 6px}
+h2.tips-index-h{font-size:clamp(22px,3.2vw,32px);margin:12px 0 0;letter-spacing:-.02em}

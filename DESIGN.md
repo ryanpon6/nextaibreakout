@@ -17,7 +17,7 @@ files for the art, so pages stay light and nothing has to be generated to publis
 | CSS motion, no library | No GSAP, no framework. Faster pages rank better, and nothing can break the build. One small inline script (`SCROLL_JS` in `build.py`) replays the scroll effects in browsers without CSS scroll-driven animation (Firefox, older Safari). |
 | Motion never hides content | Scroll effects sit inside `@supports (animation-timeline: view())`. Old browsers show the finished state. |
 | Real text for everything | Headings, steps, and card copy are plain HTML so Google reads all of it. Art is `aria-hidden`. |
-| Counts come from data | "20 tips", "14 full write-ups", and topic counts are computed in `build.py` from `tips.py`. Never type them. |
+| Counts come from data | "20 tips", "14 full write-ups", and topic counts are computed from `tips.py` and `catalog.json`. Never type them. |
 
 ## Tokens (`static/style.css`, top of file)
 | Token | Value | Use |
@@ -94,8 +94,12 @@ stay; bobbing, drifting, sliding, spinning and the tape stop. Changed 2026-11-14
 - adds it to `sitemap.xml`, `feed.xml` and `llms.txt`.
 
 **A tip:** add it to `TIPS` (own page) or `HUB_ONLY` (hub only) in `tips.py`, with `PROS_CONS`, `CAPTIONS` and a
-card image as today. Homepage counts and topic stickers update on their own. To change the four homepage cards,
-edit `FEATURED_SLUGS` in `build.py`.
+card image as today, and add a row to `catalog.json` with the real publish date (see `CATALOG.md`). Homepage
+counts, the latest-3 strips, the dated lists on `/tips/` and `/claude/`, and topic stickers update from that
+catalog and from `tips.py`. Never type a count, and never invent a date.
+
+**A news post:** write the page, then append a `type: news` row to `catalog.json` as described in `CATALOG.md`.
+Do not add an empty news section if there are no news rows.
 
 **SEO checklist for every post:** keyword at the start of the title, title 60 characters or less, description
 155 or less, one `h1`, plain `h2` subheads that say what the section answers, link to two related tips, and link
