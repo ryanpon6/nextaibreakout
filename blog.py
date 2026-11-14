@@ -106,7 +106,7 @@ def apply(DIST, t):
         if img:
             h = h.replace(f'content="{SITE}/og-default.png"', f'content="{SITE}{img}"')
         write(DIST, f"blog/{p['slug']}/index.html", h)
-    desc = f"Notes and explainers from {BRAND}, including a Claude Code guide. Human-reviewed posts only."
+    desc = f"Guides I write, including a Claude Code guide, plus daily Grok Bot news posts checked by an automated gate."
     lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {e(p["description"])}</p></li>' for p in ps)
     j = {"@context": "https://schema.org", "@graph": [{"@type": "Blog", "name": f"{BRAND} blog", "url": SITE + "/blog/", "description": desc,
          "blogPost": [{"@type": "BlogPosting", "headline": p.get("seo_title") or p["title"], "url": f"{SITE}/blog/{p['slug']}/", "datePublished": p["date"]} for p in ps]},

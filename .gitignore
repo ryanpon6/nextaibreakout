@@ -58,4 +58,6 @@ __pycache__/
 !/tools/
 !/tools/**
 !/_redirects
-/tools/**/__pycache__/
+# compiled Python, never committed (after the allowlist so it wins inside allowed dirs)
+__pycache__/
+*.pyc
