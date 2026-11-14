@@ -206,7 +206,7 @@
       "url": "/tips/#script-before-model",
       "kind": "grok",
       "type": "tip",
-      "summary": "I don't pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
+      "summary": "I'd rather not pay for a model wake to diff a list, check a price, or filter an inbox when a script can do that job.",
       "seq": 5,
       "source": "First added in git commit a7fdbdf on 2026-11-12 (America/Halifax, UTC-4), \"Tips preview: hub-only anchors, --accent variable, gold default\", later the same morning as the 14 tip pages."
     },
