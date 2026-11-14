@@ -51,6 +51,15 @@ def run_gate(dist, d, at=None, release=False):
     if rc not in (0, 1, nc.HELD): return 99, out + f"\ngate crashed (exit {rc})"
     return rc, out
 
+def pin_check():
+    """The X step must be the QC-passed copy: sha256 of nc.XNEWS has to match tools/news/PINNED.sha256. Returns an error or ''."""
+    import hashlib
+    try:
+        pins = {n: h for h, n in (l.split() for l in open(os.path.join(os.path.dirname(GATE), "PINNED.sha256")) if l.strip())}
+        got = hashlib.sha256(open(nc.XNEWS, "rb").read()).hexdigest()
+    except Exception as e: return f"xnews pin check could not run ({e.__class__.__name__})"
+    return "" if got == pins.get("xnews.py") else f"{nc.XNEWS} sha256 {got[:12]} does not match PINNED.sha256"
+
 def held_dir(dry):
     """Dry-run artifacts never sit at real paths: held drafts and alerts from dry runs go to news/dryrun/."""
     return os.path.join(nc.STATE, "dryrun") if dry else nc.STATE
@@ -115,6 +124,9 @@ def _run(a, dry, rel, d):
     print(f"[0] live flag {nc.LIVE_FLAG}: {'present' if flag else 'ABSENT'}")
     if not dry and not flag: return fail("live-flag", "live publishing is off (autopost-live.flag absent = kill switch); nothing done", d)
     if a.at and not dry: return fail("args", "--at is for dry runs only", d)
+    pin = pin_check()
+    if pin: return fail("x-pin", pin + "; nothing done", d)
+    print(f"[0] xnews pin: {nc.XNEWS} matches tools/news/PINNED.sha256")
     if rel and not os.path.exists(os.path.join(held_dir(dry), f"held-{d}.md")): return fail("release", f"no held draft {os.path.join(held_dir(dry), f'held-{d}.md')} to release", d)
     pay_p = nc.path("xpayload", d)
     try: pay = nc.load(pay_p); spec = nc.load(nc.path("spec", d))

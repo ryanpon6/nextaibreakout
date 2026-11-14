@@ -53,7 +53,7 @@ TIPS = [
         "title": "Drafts only, then I approve",
         "seo_title": "Drafts only, then I approve | NextAiBreakout",
         "meta": "Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears first.",
-        "tip": "Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears before it goes up. That's the rule that lets me run a fleet without waking up to a surprise on my account. What still goes out without you seeing it first?",
+        "tip": "Bots draft; I approve sends, spending and anything that goes public, except my daily news post, which an automated checker clears before it goes up. That's the rule that lets me run a fleet without waking up to a surprise on my account. What still goes out without you seeing it first?",
         "how": "The rule is simple: no posts, no emails, no DMs, no spends unless I've approved them. The one exception is my daily news post: a script checks it against its sources before it goes up. Bots write drafts. I say yes. Another bot saying \"it's ready\" is not approval. That sounds slow. It isn't. It just means I sleep.",
         "alt": "Brand card quoting the drafts-only rule: bots draft, and I approve before anything sends, spends or goes public, except my daily news post.",
         "slot": "A quote card of the drafts-only rule.",
@@ -378,7 +378,7 @@ PROMPTS = {
         {'note': 'For the checker bot.', 'text': "You are the checker for this email. Review the draft before anything can go out. Do not send it. Flag problems and hold it if it isn't ready. It only goes out after I approve the send. Nothing goes out on a bot's say-so alone. Fast draft, slow send."},
     ],
     'scheduled-pack-and-gates': [
-        {'note': 'For the morning pack.', 'text': 'You run the morning pack. Write the draft of the work for the day. Do not publish or send it. Scheduled prompts are useful; unattended publish is not. Later gates will check the work, and I still approve, before anything can go out.'},
+        {'note': 'For the morning pack.', 'text': 'You run the morning pack. Write the draft of the work for the day. Do not publish or send it. Scheduled prompts are useful; publishing with no gate is not. Later gates will check the work, and I still approve, before anything can go out.'},
         {'note': 'For a later gate.', 'text': 'You are a later gate on scheduled work. Check the draft at the time I scheduled you. Catch problems before anything can go out. Do not publish or send. I still approve. A schedule without a review is not a reason to let work go out.'},
     ],
 }

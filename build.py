@@ -197,7 +197,7 @@ LLMS = """# NextAiBreakout
 - [About](https://nextaibreakout.com/about)
 
 ## Notes
-Pages are reviewed before they go up. The one exception is the daily news post, which publishes automatically once an automated checker passes it. This site no longer ranks AI repos, models, or packages by hourly velocity.
+Pages wait for my OK before they go up. The one exception is the daily news post, which publishes automatically once an automated checker passes it. This site no longer ranks AI repos, models, or packages by hourly velocity.
 """
 
 

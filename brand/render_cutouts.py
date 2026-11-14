@@ -394,7 +394,7 @@ X_CARDS = [
          tip="Specialists don't report to me. They hand work to each other with a clear output, and the lead bot brings me one result.",
          pro="Fewer pings.", con="A sloppy handoff can stall the chain, and I see it later."),
     dict(day=4, title="Drafts only, then I approve",
-         tip="Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears before it goes up.",
+         tip="Bots draft; I approve sends, spending and anything that goes public, except my daily news post, which an automated checker clears before it goes up.",
          pro="No surprise posts on my account.", con="Other work waits while I'm away, even if it's ready."),
     dict(day=5, title="Save working workflows as skills",
          tip="When a workflow works, I save it as a skill and share it across bots so they don't reinvent the steps.",
