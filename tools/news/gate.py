@@ -19,7 +19,11 @@ Checks (each prints PASS or FAIL):
                   only a list of ids; a story file whose text differs from X fails). Every blockquote and every
                   quoted phrase (3+ words) is verbatim in that re-fetched text; the main X post must carry one
                   such quoted phrase; every number in title, description, body, card and X text is in a cited
-                  post AND keeps the source's qualifier (~ / about / around / roughly / approximately / nearly);
+                  post; wherever a source number appears (title, SEO title/description, description, body, built
+                  page incl. <title>/meta, X main/reply/alt, card) it keeps every qualifier the source always uses
+                  with it: "up to" (or "as much as") and "~" (or about / around / roughly / approximately / nearly);
+                  copy that attributes a claim to "the team" ("the team says", "of the Grok Bot team", "who builds
+                  Grok Bot", ...) must quote or link a post whose author is in fetch.py's TEAM list;
                   every x.com post linked is a verified one
   G8  secrets     no token patterns, secret file paths or secret env var names, and no live secret env value
   G9  seo         one h1, title <= 60, description <= 155, canonical, in sitemap/feed/blog index/homepage,
@@ -35,6 +39,7 @@ Usage  gate.py --dist DIR [--date YYYY-MM-DD] [--at "YYYY-MM-DD HH:MM"] [--no-lo
 import argparse, colorsys, datetime as dt, glob, html as H, json, os, re, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nc
+from fetch import TEAM
 
 RETIRED = ["#274043", "#1F3336", "#E0B84E", "#F5F1E8", "#E8C45A", "Archivo", "gold on teal"]
 R19 = re.compile(r"\b(placeholder|todo|tbd|coming soon|lorem|ipsum|draft|not written yet|fixme|xxx+|insert (?:link|image|here)|example coming)\b|\{\{|\}\}|\[\s*(?:link|image|tk)\s*\]", re.I)
@@ -49,6 +54,9 @@ HOLD_RE = re.compile(r"\$\s?\d|\b(money|price[sd]?|pricing|cost[s]?|dollars?|usd
                      r"payments?|pay|paid|charge[sd]?|fees?|credits?|usage|limits?|rate limits?|quotas?|policy|policies|terms of service|tos|"
                      r"pricing|discount|free trial|trial|revenue|earn(?:ed|ings)?|profit)\b", re.I)
 QUAL = r"(?:(~)|\b((?i:about|around|roughly|approximately|approx\.|nearly))\s+)?"
+QUALS = re.compile(r"(?i:\b(up to|as much as)\s+)?(?:(~)\s?|\b(?i:(about|around|roughly|approximately|approx\.|nearly))\s+)?\$?(\d[\d,]*(?:\.\d+)?%?)")
+TEAM_RE = re.compile(r"\b(?:the\s+)?(?:grok\s+bot\s+|xai\s+|grok\s+|claude\s+|anthropic\s+)?team(?:'s)?\s+(?:says|said|confirms|confirmed|announced|announces|reports|reported|shipped|numbers)\b"
+                     r"|\b(?:from|of|by) the (?:grok bot |xai |grok )?team\b|\bwho (?:also )?(?:builds|works on|work on|build) grok bot\b|\baccording to the (?:grok bot )?team\b", re.I)
 MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
 
 class Gate:
@@ -102,6 +110,13 @@ def num_hits(text):
     t = re.sub(r"\b\d{4}-\d\d-\d\d\b|\b\d{1,2}:\d\d\s*(?:AM|PM|am|pm)?\b|\b20\d\d\b", " ", t)
     t = re.sub(r"https?://\S+|/[\w/-]*\d[\w/-]*", " ", t)
     return [(bool(m.group(1) or m.group(2)), m.group(3)) for m in re.finditer(QUAL + r"\$?(\d[\d,]*(?:\.\d+)?%?)", t)]
+
+def qual_hits(text):
+    """[(frozenset of qualifier classes {'upto','approx'}, bare_number)] like num_hits, but keeping which qualifiers were used."""
+    t = re.sub(rf"\b{MONTH}\s+\d{{1,2}}(?:,\s*\d{{4}})?", " ", text)
+    t = re.sub(r"\b\d{4}-\d\d-\d\d\b|\b\d{1,2}:\d\d\s*(?:AM|PM|am|pm)?\b|\b20\d\d\b", " ", t)
+    t = re.sub(r"https?://\S+|/[\w/-]*\d[\w/-]*", " ", t)
+    return [(frozenset(k for k, on in (("upto", m.group(1)), ("approx", m.group(2) or m.group(3))) if on), m.group(4)) for m in QUALS.finditer(t)]
 
 def quoted(text):
     out = []
@@ -231,7 +246,30 @@ def main():
     for q, n in src_hits: src_q.setdefault(n, set()).add(q)
     for q, n in num_hits(claim_txt):
         if n not in src_q: p7.append(f"figure '{n}' is not in any cited post")
-        elif True in src_q[n] and False not in src_q[n] and not q: p7.append(f"figure '{n}' dropped the source's qualifier (~ or about)")
+    # qualifiers: a class the source ALWAYS uses with a number must be kept on that number everywhere it appears
+    need = {}
+    for cls, n in qual_hits(alltext): need[n] = need.get(n, cls) & cls
+    head = " ".join(x for t in re.findall(r'<title>([^<]*)</title>|content="([^"]*)"', page[:max(page.find("<body"), 0)]) for x in t)
+    places = (("title", spec["title"]), ("SEO title", spec.get("seo_title", "")), ("description", spec["description"]),
+              ("SEO description", spec.get("seo_description", "")), ("body", re.sub(r"\]\([^)]*\)", "]", body)),
+              ("page", vis), ("page <title>/meta", H.unescape(head)), ("X main", pay["main"]["text"]), ("X reply", pay["reply"]["text"]),
+              ("image alt", pay["main"].get("alt", "")), ("card", cardtxt))
+    names = {"upto": "'up to'", "approx": "'~'/'about'"}
+    for where, txt in places:
+        for cls, n in qual_hits(txt):
+            for k in sorted(need.get(n, frozenset()) - cls):
+                p7.append(f"figure '{n}' in {where} dropped the source's {names[k]} qualifier")
+    # "the team says ...": the quoted or linked post in that sentence must be by a TEAM account
+    team_ids = {pid for pid, p in ((p["id"], p) for p in story["posts"]) if str(p.get("user", "")).lower() in TEAM and pid in srcs}
+    team_txt = " ".join(srcs[i] for i in team_ids)
+    for where, txt in places[:4] + (("body", body),) + places[7:]:
+        for m in TEAM_RE.finditer(txt):
+            a0 = max(txt.rfind(". ", 0, m.start()), txt.rfind("\n", 0, m.start())) + 1
+            ends = [i for i in (txt.find(". ", m.end()), txt.find("\n", m.end())) if i != -1]; sent = txt[a0:min(ends) if ends else len(txt)]
+            qs = quoted(sent); links = re.findall(r"(?:x|twitter)\.com/(\w+)/status/(\d+)", sent)
+            bad = [q for q in qs if nc.norm(q) not in team_txt] + [f"@{u}" for u, i in links if u.lower() not in TEAM]
+            if bad: p7.append(f"{where}: '{m.group(0)}' but {', '.join(x[:40] for x in bad)} is not from a TEAM account")
+            elif not qs and not links and not team_ids: p7.append(f"{where}: '{m.group(0)}' but no cited post is by a TEAM account")
     for pid in set(re.findall(r"(?:x|twitter)\.com/\w+/status/(\d+)", md + page)):
         if pid not in srcs: p7.append(f"links post {pid}, which was not verified")
     G.check("G7 claims match cited posts", p7)

@@ -41,7 +41,7 @@
       "url": "/tips/drafts-only-approval/",
       "kind": "grok",
       "type": "tip",
-      "summary": "Nothing posts, sends, or goes public until I approve it. Drafts only. That's the rule that lets me run a fleet without waking up to a surprise on my account.",
+      "summary": "Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears first.",
       "seq": 10,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },
@@ -151,7 +151,7 @@
       "url": "/tips/scheduled-pack-and-gates/",
       "kind": "grok",
       "type": "tip",
-      "summary": "I run a morning pack routine, then later gates that check the work before it can go out. Scheduled prompts are useful. Unattended publish is not.",
+      "summary": "I run a morning pack routine, then later gates that check the work before it can go out. Scheduled prompts are useful. Publishing with no gate is not.",
       "seq": 20,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },

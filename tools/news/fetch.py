@@ -17,6 +17,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nc
 
 TEAM = {"elonmusk", "xai", "grok", "bot", "samsokolin", "mattyp", "poteto", "romanugarte_"}  # Elon + Grok Bot team accounts seen in real posts
+if os.getenv("NAB_DRYRUN") == "1" and os.getenv("NAB_NEWS_TEAM"):   # selftests only; live runs always use the list above
+    TEAM = {u.strip().lower() for u in os.environ["NAB_NEWS_TEAM"].split(",") if u.strip()}
 MIN_LIKES = 500          # biggest verified post in the story must clear this, unless a team account posted it
 MIN_TEAM_LIKES = 200
 WINDOW_H = 24

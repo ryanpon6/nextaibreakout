@@ -31,7 +31,7 @@ beside it. `--seed` marks the current file (or its absence) as already seen. Kee
 
 ## Cost log
 Every real run appends one JSON line to `/workspace/shared/nab-relaunch/autopost-cost.jsonl` (lock + temp file +
-`os.replace`; override with `NAB_AUTOPOST_COST`). Dry runs write `news/dryrun/autopost-cost.jsonl`. Quiet days log too.
+`os.replace`; override with `NAB_AUTOPOST_COST`). Dry runs write `news/dryrun/autopost-cost.jsonl` with outcome `dry-run` (the would-be outcome in `dry_outcome`, `posted` always false). Quiet days log too.
 Fields: `date`, `run_at` (Edmonton), `outcome` (`quiet` | `posted` | `held` | `failed:<stage>`), `posted`, `x_post_id`,
 `reply_id`, `post_url`, `x_reads_agent` (the routine agent's own X tool calls, passed as `fetch.py --x-reads N` or
 `"x_reads"` in candidates), `syndication_fetches` (free public embed reads by fetch.py + gate.py),
@@ -53,8 +53,13 @@ xnews.py 0 ok / 1 refused / 2 auth / 3 definite X failure / 4 UNKNOWN (check by 
   hand", never retried; publish.py refuses that slot until a human fixes the row.
 - Reply-only re-run: allowed only when the row has a main tweet_id and empty reply_ids (no reply_unknown).
 - Every attempt first checks posted.jsonl and the @ryanpon timeline (text normalised: html.unescape, NFKC, whitespace).
-- Every X API request goes through a counting wrapper; counts by endpoint are written to `$NAB_XNEWS_METRICS` on exit.
-- Offline tests: `xnews_selftest.py` (17 checks).
+- One live run at a time: a non-blocking lock on `posted.jsonl.run.lock` is taken right after the dry-run return and the
+  slot is re-read under it; a busy lock prints REFUSED and exits 1.
+- Every X API request goes through a counting wrapper; counts by endpoint are written to `$NAB_XNEWS_METRICS` on exit
+  (a failed metrics write only prints a note; it never turns a good post into a failure).
+- Offline tests: `xnews_selftest.py` (18 checks).
+- `.gitignore` keeps X-posting code out of the repo, so `tools/news/PINNED.sha256` records the sha256 of the
+  QC-passed `xnews.py` and `xnews_selftest.py`. Check before go-live: `cd /workspace/nextaibreakout/proposals/nab-news && sha256sum -c /path/to/tools/news/PINNED.sha256`.
 
 ## candidates-DATE.json (written by the routine agent)
 ```json
@@ -71,10 +76,12 @@ Keys: `slug`, `title`, `seo_title` (<= 60), `description` (<= 155), `keywords`, 
 In `body_md`: plain `##` subheads; quotes as `> exact post text ~ [Name (@user) on X, Mon D, YYYY](https://x.com/user/status/id)`;
 every quote verbatim, every number from a cited post with its ~/about qualifier kept, no "this week"/"last week" (selfcheck.py blocks it).
 
-## Gate (`gate.py`), proven by `selftest.py` (26 gate cases + 6 cost-log cases)
+## Gate (`gate.py`), proven by `selftest.py` (29 gate cases + 6 cost-log cases)
 G1 ledger · G2 tip-slot timing (re-checked again right before the X post) · G3 rule 19 · G4 rule 20 design ·
 G5 links 200 over HTTPS · G6 image · G7 claims (the gate re-fetches every cited post itself; quotes verbatim, the X
-post carries one verbatim quoted phrase, numbers keep the source's ~/about qualifier) · G8 secrets · G9 SEO ·
+post carries one verbatim quoted phrase, every source number keeps its 'up to' and '~'/'about' qualifiers in the title,
+SEO title/description, description, body, built page and its <title>/meta, X text, alt and card; "the team says"-style
+attribution must quote or link a post by an account in fetch.py's TEAM list) · G8 secrets · G9 SEO ·
 G10 X text (twitter-text weighting) · G11 privacy · G12 money/plans/policy hold. Details in the file header.
 The live check after deploy needs HTTP 200 and the post's title in the HTML.
 

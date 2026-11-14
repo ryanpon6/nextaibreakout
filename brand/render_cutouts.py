@@ -192,7 +192,7 @@ TIPS = [
          quote="Specialists don't report to me. They hand work to each other with a clear output, and the lead bot brings me one result.",
          title="Agent-to-agent handoffs"),
     dict(slug="drafts-only-approval", layout="quote", pill="Rule",
-         quote="Drafts only. I approve before anything posts or sends.",
+         quote="Bots draft. I approve before anything sends, spends or goes public, except my daily news post.",
          title="Drafts only, then I approve"),
     dict(slug="shared-skills-across-bots", layout="quote", pill="Skills",
          quote="A skill is a reusable playbook, not a prompt I retype every morning.",
@@ -225,7 +225,7 @@ TIPS = [
          title="Script the cards, don't redesign every post",
          sub="Same colours, same type. No photos of people."),
     dict(slug="scheduled-pack-and-gates", layout="quote", pill="Routines",
-         quote="Scheduled prompts are useful. Unattended publish is not.",
+         quote="Scheduled prompts are useful. Publishing with no gate is not.",
          title="A morning pack, then gates, then I approve"),
     dict(slug="one-job-per-bot", layout="quote", pill="Jobs",
          quote="Give each bot one job.",
@@ -394,8 +394,8 @@ X_CARDS = [
          tip="Specialists don't report to me. They hand work to each other with a clear output, and the lead bot brings me one result.",
          pro="Fewer pings.", con="A sloppy handoff can stall the chain, and I see it later."),
     dict(day=4, title="Drafts only, then I approve",
-         tip="Nothing posts, sends, or goes public until I approve it. Drafts only.",
-         pro="No surprise posts on my account.", con="Nothing goes out while I'm away, even if it's ready."),
+         tip="Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears before it goes up.",
+         pro="No surprise posts on my account.", con="Other work waits while I'm away, even if it's ready."),
     dict(day=5, title="Save working workflows as skills",
          tip="When a workflow works, I save it as a skill and share it across bots so they don't reinvent the steps.",
          pro="Same playbook, less retyping.", con="A stale skill will be reused until you update or drop it."),
@@ -425,7 +425,7 @@ X_CARDS = [
          pro="The feed stays consistent.", con="A bad template gets copied onto every card."),
     dict(day=14, title="A morning pack, then gates, then I approve",
          tip="I run a morning pack routine, then later gates that check the work before it can go out.",
-         pro="The draft is ready on a schedule.", con="Unattended publish is still a bad idea; I still have to review."),
+         pro="The draft is ready on a schedule.", con="A gate only catches what it checks for."),
 ]
 
 

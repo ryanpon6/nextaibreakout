@@ -129,7 +129,7 @@ def head(title, desc, path, root="", extra=""):
 
 def foot(year, root=""):
     return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Grok Bot Tips</a><a href="/claude/">Claude Tips</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/feed.xml">RSS</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div>
-<p class="fnote">Tips are reviewed before they go up. Unreviewed bot output does not publish.</p></footer>"""
+<p class="fnote">Tips are reviewed before they go up. Daily news posts publish automatically once an automated checker passes them. Everything else waits for my OK.</p></footer>"""
 
 def row(i, n):
     return f"""<tr data-src="{i['source']}" data-tag="{i['tag']}"><td class="rk">{n}</td>
@@ -197,7 +197,7 @@ LLMS = """# NextAiBreakout
 - [About](https://nextaibreakout.com/about)
 
 ## Notes
-Pages are reviewed before they go up. Unreviewed model output is not published. This site no longer ranks AI repos, models, or packages by hourly velocity.
+Pages are reviewed before they go up. The one exception is the daily news post, which publishes automatically once an automated checker passes it. This site no longer ranks AI repos, models, or packages by hourly velocity.
 """
 
 
@@ -228,7 +228,7 @@ def home_page(year):
 <div class="sh rv"><h2 id="h-posts">Latest {circ("posts.")}</h2><a class="more" href="/blog/">All posts →</a></div>
 <ul class="posts rv">{post_html}</ul>
 </div></section>""" if posts else ""
-    tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> nothing posts without my OK <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
+    tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> nothing posts unchecked <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
     org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png",
            "sameAs": [X_URL]}
     website = {"@type": "WebSite", "name": BRAND, "url": SITE + "/", "description": HOME_DESC, "inLanguage": "en-CA",
@@ -273,7 +273,7 @@ def home_page(year):
 <li class="rv">{bot_head("var(--red)")}<span><b>2. The lead bot routes it</b><span>It picks the specialist and brings back one result.</span></span></li>
 <li class="rv">{bot_head("var(--blue)", ".16em")}<span><b>3. A specialist drafts</b><span>One job each. It writes a draft; it can't publish.</span></span></li>
 <li class="rv">{bot_head("var(--och)", "50% 50% .4em .4em", big=True)}<span><b>4. The Quality Checker holds weak work</b><span>No before and after, no pass.</span></span></li>
-<li class="rv">{bot_head("#fff", "50%")}<span><b>5. I approve</b><span>Nothing posts, sends or spends until I tap yes.</span></span></li>
+<li class="rv">{bot_head("#fff", "50%")}<span><b>5. I approve</b><span>Sends, spends and posts wait for my yes. The one exception is my daily news post, which an automated checker clears.</span></span></li>
 </ol></div>
 </div></section>
 {grok_sec}
@@ -336,7 +336,7 @@ def about_page(year):
 
 <h2>What gets {circ("published")}</h2>
 <p>Every tip comes from work I actually ran. You get the problem, how I did it, and what happened. A screenshot goes up when I have one that's safe to show. If I don't have those, the tip stays off the site.</p>
-<p>I talk to one lead bot. A Quality Checker reviews work before it reaches me. Tips are reviewed before they go up. Unreviewed bot output does not publish.</p>
+<p>I talk to one lead bot. A Quality Checker reviews work before it reaches me. Tips are reviewed before they go up. Daily news posts publish automatically once an automated checker passes them. Everything else waits for my OK.</p>
 <p>This site no longer ranks AI repos, models, or packages by hourly velocity.</p>
 <p><a href="/tips/">See all Grok Bot tips</a> · <a href="/claude/">See all Claude Tips</a> · <a href="/blog/">See the blog</a></p>
 <p class="follow-p">Follow along on X: <a href="{X_URL}" rel="me noopener" target="_blank">{X_HANDLE}</a>.</p>

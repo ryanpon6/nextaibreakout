@@ -85,10 +85,13 @@ def record(d, rc):
     row = nc.in_ledger(d) if out == "posted" else None
     prior = [r for r in nc.jsonl_rows(nc.cost_path()) if r.get("date") == d]
     m = nc.metrics(d)
+    # wall time runs from fetch.py's start (so it includes the AI writing step) on a normal run; dry runs, releases and
+    # anything more than 3 h after the fetch count from publish.py's own start
+    start = m.get("start_ts") if m.get("start_ts") and not nc.is_dry() and not RUN.get("release") and time.time() - m["start_ts"] < 3 * 3600 else T0
     r = nc.cost_row(d, out, x_post_id=(row or {}).get("tweet_id"), reply_id=((row or {}).get("reply_ids") or [None])[0],
                     post_url=RUN.get("url") if out in ("posted", "held") or out.startswith("failed") else None, x_calls=RUN["x_calls"],
-                    ai_writing_step=RUN["ai"], gate_fix_retries=sum(1 for p in prior if p.get("outcome") == "failed:gate"),
-                    wall_seconds=round(time.time() - (m.get("start_ts") or T0), 1), note=RUN["note"])
+                    ai_writing_step=RUN["ai"], gate_fix_retries=sum(1 for p in prior if "failed:gate" in (p.get("outcome"), p.get("dry_outcome"))),
+                    wall_seconds=round(time.time() - start, 1), note=RUN["note"])
     print(f"cost log: {nc.cost_path()} <- outcome {r['outcome']}, X API calls {r['x_api_calls']['total']}, embed fetches {r['syndication_fetches']}")
 
 def xcalls(path):
@@ -99,6 +102,7 @@ def _main():
     ap = argparse.ArgumentParser(); ap.add_argument("--date"); ap.add_argument("--dry-run", action="store_true"); ap.add_argument("--at")
     ap.add_argument("--release", metavar="DATE", help="publish a G12-held post after a human read news/held-DATE.md")
     a = ap.parse_args(); dry = a.dry_run; rel = bool(a.release); d = a.release or a.date or nc.today()
+    RUN["release"] = rel
     return _run(a, dry, rel, d), d
 
 def _run(a, dry, rel, d):

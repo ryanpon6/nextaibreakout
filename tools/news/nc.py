@@ -191,12 +191,14 @@ def metrics_update(date, dry=None, reset=False, **kv):
 
 def cost_row(date, outcome, *, x_post_id=None, reply_id=None, post_url=None, x_calls=None, ai_writing_step=False,
              gate_fix_retries=0, wall_seconds=None, note=None, dry=None):
+    dry = is_dry() if dry is None else dry
     m = metrics(date, dry); calls = {k: int((x_calls or {}).get(k, 0)) for k in XAPI_KEYS}; calls["total"] = sum(calls.values())
-    row = {"date": date, "run_at": now().isoformat(timespec="seconds"), "outcome": outcome, "posted": outcome == "posted" and not (is_dry() if dry is None else dry),
+    row = {"date": date, "run_at": now().isoformat(timespec="seconds"), "outcome": "dry-run" if dry else outcome, "posted": outcome == "posted" and not dry,
            "x_post_id": x_post_id, "reply_id": reply_id, "post_url": post_url,
            "x_reads_agent": m.get("x_reads_agent"), "syndication_fetches": int(m.get("syndication_fetches") or 0),
            "x_api_calls": calls, "ai_writing_step": bool(ai_writing_step), "gate_fix_retries": int(gate_fix_retries),
            "wall_seconds": wall_seconds if wall_seconds is not None else (round(time.time() - m["start_ts"], 1) if m.get("start_ts") else None)}
+    if dry: row["dry_outcome"] = outcome   # what a live run would have logged; dry rows never count as posted
     if note: row["note"] = note
     jsonl_append(cost_path(dry), row)
     metrics_update(date, dry, reset=True, x_reads_agent=None, syndication_fetches=0, start_ts=time.time())  # next run in the day starts clean

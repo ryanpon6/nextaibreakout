@@ -34,6 +34,9 @@ def main():
         ("G7", "tampered story + page", "both", None, [], False),
         ("G7", "invented figure", "pay", lambda p: {**p, "main": {**p["main"], "text": p["main"]["text"] + " Usage is up 40%."}}, [], False),
         ("G7", "dropped qualifier", "spec", lambda s: {**s, "description": s["description"].replace("up to about 15%", "up to 15%")}, [], False),
+        ("G7", "SEO title drops 'up to'", "spec", lambda s: {**s, "seo_title": s["seo_title"].replace("up to ~15%", "~15%")}, [], False),
+        ("G7", "page meta drops 'up to'", "page", lambda h: h.replace("up to about 15%", "about 15%", 1), [], False),
+        ("G7", "'team says', not TEAM", "team", None, [], False),
         ("G7", "X post without quote", "pay", lambda p: {**p, "main": {**p["main"], "text": "Grok Bot plans got about 7% more room, the team says."}}, [], False),
         ("G7", "unverified post link", "page", end('<p><a href="https://x.com/someone/status/1234567890123">x</a></p>'), [], False),
         ("G8", "token in page", "page", end("<p>ghp_" + "A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5 z</p>"), [], False),
@@ -64,6 +67,7 @@ def main():
         nc.save(os.path.join(state, f"xpayload-{d}.json"), pay)
         env = {**os.environ, "NAB_NEWS_STATE": state, "NAB_LEDGER": ledger, "NAB_AUTOPOST_ISSUES": os.path.join(t, "issues.md"),
                "NAB_DRYRUN": "1", "NAB_NEWS_CONFIG": cfg, "PYTHONDONTWRITEBYTECODE": "1"}
+        if kind == "team": env["NAB_NEWS_TEAM"] = "elonmusk"   # Sam and Matt treated as outsiders: "the team says" must now fail
         args = (extra or ["--at", f"{d} 17:30"]) + (["--at", f"{d} 17:30"] if extra and "--at" not in extra else [])
         if want != "G5" or "http" in name: args += ["--skip-net"]
         r = subprocess.run([sys.executable, os.path.join(HERE, "gate.py"), "--dist", dist, "--date", d, "--no-log", *args], env=env, text=True, capture_output=True)
@@ -111,7 +115,7 @@ def cost_cases(d, show):
     n0 = len(nc.jsonl_rows(cost))
     r = run([os.path.join(HERE, "fetch.py"), "--date", d, "--candidates", cand, "--dry-run", "--x-reads", "3"], {**env, "NAB_LEDGER": ledger + ".q"})
     dr = nc.jsonl_rows(os.path.join(state, "dryrun", "autopost-cost.jsonl"))
-    check("dry run goes to dryrun/", r.returncode == nc.QUIET and len(nc.jsonl_rows(cost)) == n0 and dr and dr[-1].get("x_reads_agent") == 3, f"real rows {len(nc.jsonl_rows(cost))}, dryrun rows {len(dr)}")
+    check("dry run goes to dryrun/", r.returncode == nc.QUIET and len(nc.jsonl_rows(cost)) == n0 and dr and dr[-1].get("x_reads_agent") == 3 and dr[-1].get("outcome") == "dry-run" and dr[-1].get("dry_outcome") == "quiet" and dr[-1].get("posted") is False, f"real rows {len(nc.jsonl_rows(cost))}, dryrun rows {len(dr)}")
     r = run([os.path.join(HERE, "publish.py"), "--date", d]); row = last()
     check("failed row (flag absent)", r.returncode == 1 and row.get("outcome") == "failed:live-flag" and row.get("posted") is False
           and row["x_api_calls"]["total"] == 0 and row.get("ai_writing_step") is False, f"exit {r.returncode} -> {row.get('outcome')}")
