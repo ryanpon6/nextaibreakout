@@ -54,7 +54,7 @@ def main():
     else:
         rc, out = sh("git fetch origin && git rev-parse --abbrev-ref HEAD && git status --porcelain")
         lines = out.strip().splitlines()
-        if rc or lines[0] != "main": return fail("git", f"live run must be on main (got {lines[:1]})", d)
+        if rc or lines[0] not in ("main", "autopost"): return fail("git", f"live run must be on main or the autopost branch that tracks origin/main (got {lines[:1]})", d)
         dirty = [l for l in lines[1:] if l[3:] not in files and not l[3:].startswith(("static/images/news/", "blog/posts/"))]
         if dirty: return fail("git", f"working tree not clean: {dirty[:5]}", d)
         rc, out = sh("git merge --ff-only origin/main")
