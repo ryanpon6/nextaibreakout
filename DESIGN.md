@@ -15,7 +15,7 @@ files for the art, so pages stay light and nothing has to be generated to publis
 | Phone first | Ryan reviews on his phone, and most visitors will too. Every section is one column at 390 px wide. |
 | No tap needed to read anything | The first mockups hid step text behind buttons. Ryan rejected that. All copy is visible on load. |
 | CSS motion, no library | No GSAP, no framework. Faster pages rank better, and nothing can break the build. One small inline script (`SCROLL_JS` in `build.py`) replays the scroll effects in browsers without CSS scroll-driven animation (Firefox, older Safari). |
-| Motion never hides content | Scroll effects sit inside `@supports (animation-timeline: view())`. Old browsers show the finished state. |
+| Motion never hides content | Scroll effects sit inside `@supports (animation-timeline: view())`. Load fades and the hero line-up start in the keyframes (`animation-fill-mode: both`), so the base state stays visible if animations are off. Old browsers show the finished state. |
 | Real text for everything | Headings, steps, and card copy are plain HTML so Google reads all of it. Art is `aria-hidden`. |
 | Counts come from data | "20 tips", "14 full write-ups", and topic counts are computed from `tips.py` and `catalog.json`. Never type them. |
 
@@ -80,8 +80,10 @@ those titles come from data. Every new page builder should use `peek_h1` for its
 Load: headline lines slide up, bots pop in, underline draws. Always on: bots bob, blink and wave; shapes morph;
 tape scrolls. Scroll: bots drift apart, the red line draws through the steps, cards stack (`position: sticky`),
 the stamp lands. Hover: buttons press, cards change corner shape, stickers wiggle, a bot rises out of each card.
-`prefers-reduced-motion` (Windows "Animation effects" off, Mac "Reduce motion" on) gets a calm version: fades and line-draws
-stay; bobbing, drifting, sliding, spinning and the tape stop. Changed 2026-11-14 because Ryan's desktop showed a dead page.
+`prefers-reduced-motion` (Windows "Animation effects" off, Mac "Reduce motion" on) gets a calm version: the hero,
+`.fade` and `.pop` are statically visible (`opacity: 1; transform: none`); bobbing, drifting, sliding, spinning and the
+tape stop. Changed 2026-11-14 because Ryan's desktop showed a dead page, then again the same day so suppressed CSS
+animations cannot leave the hero hidden.
 
 **Do not** put `overflow: hidden` on `body`, `main`, or `.stack`'s parents. It breaks the stacking cards.
 
