@@ -68,7 +68,7 @@ def main():
                else f"not notable (top {top['likes']} likes)" if not notable else "")
         log.append(f"{key} [{topic}]: {len(posts)} verified, top @{top['user']} {top['likes']} likes" + (f" -> skip: {why}" if why else " -> eligible"))
         if why: continue
-        picked.append({"key": key, "topic": topic, "headline": str(s.get("headline", ""))[:200],
+        picked.append({"key": key, "topic": topic, "headline": str(s.get("headline", ""))[:200], "sensitive": bool(s.get("sensitive")),
                        "news_url": s.get("news_url") if str(s.get("news_url", "")).startswith("https://x.com/") else None,
                        "score": sum(p["likes"] for p in posts), "posts": posts})
     for ln in log: print("  " + ln)
