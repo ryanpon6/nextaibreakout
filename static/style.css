@@ -239,6 +239,11 @@ h2 .circ path{animation:linedraw linear both;animation-timeline:view();animation
 .badge .shape{animation:grow linear both;animation-timeline:view();animation-range:entry 0% cover 55%}
 @keyframes grow{from{transform:scale(.25)}}
 }
+/* fallback for browsers without scroll-driven animation (Firefox, older Safari): the head script adds .sj to <html> and .in as blocks enter the screen. No script = everything visible */
+.sj .rv{transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}.sj .rv:not(.in){opacity:0;transform:translateY(60px) rotate(3deg)}
+.sj .stamp{transition:opacity .5s ease,transform .5s cubic-bezier(.3,1.4,.5,1)}.sj .stamp:not(.in){opacity:0;transform:scale(2.8) rotate(-34deg)}
+.sj .badge .shape{transition:transform .9s cubic-bezier(.2,.8,.2,1)}.sj .badge .shape:not(.in){transform:scale(.25)}
+.sj .steps path{transition:stroke-dashoffset 1.8s ease}.sj .steps:not(.in) path{stroke-dashoffset:1}
 @view-transition{navigation:auto}
 
 /* phones */
@@ -251,8 +256,14 @@ nav#site-nav a{min-height:48px;font-size:18px;font-weight:700;border-top:1px sol
 .sec{padding-top:68px}
 .fbase{flex-direction:column;align-items:flex-start}
 }
+/* reduced motion: a calm version, not a dead page. Fades and line-draws stay; bobbing, drifting, sliding, spinning and the tape stop */
 @media (prefers-reduced-motion:reduce){
 html{scroll-behavior:auto}
-*,*::before,*::after{animation:none!important;transition:none!important}
-.fade,.pop{opacity:1;transform:none}.hero h1 .ln>span{transform:none}.squig path,.circ path{stroke-dashoffset:0}
+.bot,.bant,.bot.wave .barm.r,.tipc:hover .barm.r,.morph1,.morph2,.tape div,.ptitle>.bhead,.stickers a:hover,.art .b1,.art .b2,.art .b3,.badge .shape{animation:none!important}
+.hero h1 .ln>span{transform:none;opacity:0;animation-name:soft}
+.fade,.pop{transform:none;animation-name:soft}
+.rv,.stamp{animation-name:softin}
+.tipc,.tipc .peek{transition:none}
+.sj .rv:not(.in){transform:none}.sj .stamp:not(.in){transform:rotate(-9deg)}.sj .badge .shape:not(.in){transform:none}
+@keyframes soft{to{opacity:1}}@keyframes softin{from{opacity:0}}
 }
