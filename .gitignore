@@ -55,4 +55,7 @@ __pycache__/
 !/functions/**
 !/brand/
 !/brand/**
+!/tools/
+!/tools/**
 !/_redirects
+/tools/**/__pycache__/
