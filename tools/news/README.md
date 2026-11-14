@@ -14,8 +14,10 @@ State files live in `/workspace/shared/nab-relaunch/news/` (override with `NAB_N
 ## Switches
 - **Kill switch:** delete `/workspace/shared/nab-relaunch/autopost-live.flag`. Live runs stop at step 0 and log a dated
   line saying so. Recreate the file (only after a QC PASS) to turn auto-publishing back on.
-- **G12 money/plans/policy hold:** `tools/news/config.json` `"hold_money_policy": true` (default; also the default if
-  the file or key is missing). To switch it off, set it to `false` and commit. `NAB_NEWS_CONFIG` can point at another
+- **G12 money/plans/policy hold:** `tools/news/config.json` `"hold_money_policy"`. Currently **`false`** (Ryan,
+  2026-11-14 5:01 PM MT: "Auto post everything for now"), so money/plans/policy stories auto-publish like any other.
+  The G12 code stays; set it back to `true` and commit to hold those stories again. If the file or key is missing, the
+  hold is ON. `NAB_NEWS_CONFIG` can point at another
   config only in dry runs and selftests (`NAB_DRYRUN=1`); live runs always read the committed file.
 - **Releasing a held post:** read `news/held-DATE.md`, then `python3 tools/news/publish.py --release DATE`.
   Needs the live flag; rebuilds and re-runs every gate, and only G12 is released. Preview with `--dry-run`.
@@ -26,6 +28,19 @@ Every failure path writes a dated entry to `/workspace/shared/nab-relaunch/autop
 added since its last check and exits 1 when there is something new; it prints nothing and exits 0 when not.
 Stable copy for CoS's hourly routine: `/workspace/shared/nab-relaunch/news/watch_issues.py`, state `.issues-watch.json`
 beside it. `--seed` marks the current file (or its absence) as already seen. Keep the stable copy in sync with this one.
+
+## Cost log
+Every real run appends one JSON line to `/workspace/shared/nab-relaunch/autopost-cost.jsonl` (lock + temp file +
+`os.replace`; override with `NAB_AUTOPOST_COST`). Dry runs write `news/dryrun/autopost-cost.jsonl`. Quiet days log too.
+Fields: `date`, `run_at` (Edmonton), `outcome` (`quiet` | `posted` | `held` | `failed:<stage>`), `posted`, `x_post_id`,
+`reply_id`, `post_url`, `x_reads_agent` (the routine agent's own X tool calls, passed as `fetch.py --x-reads N` or
+`"x_reads"` in candidates), `syndication_fetches` (free public embed reads by fetch.py + gate.py),
+`x_api_calls` {users_me, timeline_read, media_upload, media_metadata, post, reply, total} (counted inside xnews.py
+by endpoint), `ai_writing_step`, `gate_fix_retries` (earlier `failed:gate` rows that day), `wall_seconds`, `note`.
+fetch.py writes the row for quiet / bad-input days; publish.py writes it for everything after a story is found.
+Monthly totals: `python3 tools/news/cost_report.py [--month YYYY-MM] [--json] [--file PATH]` (stable copy:
+`/workspace/shared/nab-relaunch/news/cost_report.py`). Missing or empty log prints nothing, exit 0. Counts only;
+no prices are applied because X's per-call pricing is not verified.
 
 ## Exit codes
 fetch.py 0 story / 10 quiet / 2 bad input · gate.py 0 pass / 1 fail / 20 held · publish.py 0 done / 1 stopped / 20 held ·
@@ -38,15 +53,16 @@ xnews.py 0 ok / 1 refused / 2 auth / 3 definite X failure / 4 UNKNOWN (check by 
   hand", never retried; publish.py refuses that slot until a human fixes the row.
 - Reply-only re-run: allowed only when the row has a main tweet_id and empty reply_ids (no reply_unknown).
 - Every attempt first checks posted.jsonl and the @ryanpon timeline (text normalised: html.unescape, NFKC, whitespace).
-- Offline tests: `xnews_selftest.py` (16 checks).
+- Every X API request goes through a counting wrapper; counts by endpoint are written to `$NAB_XNEWS_METRICS` on exit.
+- Offline tests: `xnews_selftest.py` (17 checks).
 
 ## candidates-DATE.json (written by the routine agent)
 ```json
-{"date": "YYYY-MM-DD", "stories": [
+{"date": "YYYY-MM-DD", "x_reads": 3, "stories": [
   {"key": "grok-bot-usage-boost", "topic": "grokbot", "headline": "one line",
    "news_url": "https://x.com/i/trending/<id>", "post_ids": ["<id>", "<id>"]}]}
 ```
-`topic` is `grokbot` or `claude`. Only ids are trusted; text is re-fetched by `fetch.py`.
+`topic` is `grokbot` or `claude`. `x_reads` = how many X tool calls the agent made (optional; `--x-reads` wins). Only ids are trusted; text is re-fetched by `fetch.py`.
 
 ## spec-DATE.json (written by the routine agent)
 Keys: `slug`, `title`, `seo_title` (<= 60), `description` (<= 155), `keywords`, `note` (one short handwritten line),
@@ -55,7 +71,7 @@ Keys: `slug`, `title`, `seo_title` (<= 60), `description` (<= 155), `keywords`, 
 In `body_md`: plain `##` subheads; quotes as `> exact post text ~ [Name (@user) on X, Mon D, YYYY](https://x.com/user/status/id)`;
 every quote verbatim, every number from a cited post with its ~/about qualifier kept, no "this week"/"last week" (selfcheck.py blocks it).
 
-## Gate (`gate.py`), proven by `selftest.py` (26 cases)
+## Gate (`gate.py`), proven by `selftest.py` (26 gate cases + 6 cost-log cases)
 G1 ledger · G2 tip-slot timing (re-checked again right before the X post) · G3 rule 19 · G4 rule 20 design ·
 G5 links 200 over HTTPS · G6 image · G7 claims (the gate re-fetches every cited post itself; quotes verbatim, the X
 post carries one verbatim quoted phrase, numbers keep the source's ~/about qualifier) · G8 secrets · G9 SEO ·

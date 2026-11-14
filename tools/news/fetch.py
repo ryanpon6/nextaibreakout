@@ -8,8 +8,11 @@ Work   re-reads every post from X's public embed endpoint (no login, no X API sp
        notability bar, and ranks Grok Bot stories above Claude stories.
 Output story-YYYY-MM-DD.json with the picked story and the verified post text the gate checks quotes against.
 Exit   0 = a story was picked (AI writes the post) · 10 = quiet day (stop, no AI) · 2 = bad input.
-Usage  fetch.py [--date YYYY-MM-DD] [--candidates PATH] [--log-trends]"""
-import argparse, datetime as dt, glob, json, os, re, sys
+Cost   every run starts a fresh run record (news/metrics-DATE.json) with the agent's X read count
+       (--x-reads N, or "x_reads" in the candidates file) and this script's embed fetches. A quiet day or bad
+       input also appends its row to autopost-cost.jsonl here (dry runs: news/dryrun/).
+Usage  fetch.py [--date YYYY-MM-DD] [--candidates PATH] [--log-trends] [--x-reads N] [--dry-run]"""
+import argparse, datetime as dt, glob, json, os, re, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nc
 
@@ -34,14 +37,29 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=nc.today()); ap.add_argument("--candidates")
     ap.add_argument("--log-trends", action="store_true", help="append today's scan to trend-log.md")
+    ap.add_argument("--x-reads", type=int, help="X tool reads the routine agent made (else candidates 'x_reads')")
+    ap.add_argument("--dry-run", action="store_true", help="cost row and run record go to news/dryrun/")
     a = ap.parse_args()
+    if a.dry_run: os.environ["NAB_DRYRUN"] = "1"
+    rc = run(a); return rc
+
+def run(a):
+    t0 = time.time()
+    def done(rc, outcome=None, note=None):
+        reads = a.x_reads if a.x_reads is not None else xr
+        nc.metrics_update(a.date, x_reads_agent=reads, syndication_fetches=nc.SYND_CALLS)
+        if outcome: nc.cost_row(a.date, outcome, wall_seconds=round(time.time() - t0, 1), note=note)
+        return rc
+    xr = None
+    nc.metrics_update(a.date, reset=True, start_ts=t0, x_reads_agent=a.x_reads, syndication_fetches=0)
     src = a.candidates or nc.path("candidates", a.date)
     try:
         c = nc.load(src); stories = c["stories"]; assert isinstance(stories, list)
+        xr = c.get("x_reads") if isinstance(c.get("x_reads"), int) else None
     except Exception as e:
-        print(f"BAD INPUT {src}: {e.__class__.__name__}"); return 2
+        print(f"BAD INPUT {src}: {e.__class__.__name__}"); return done(2, "failed:fetch", f"bad input {e.__class__.__name__}")
     if nc.in_ledger(a.date):
-        print(f"QUIET: slot {nc.slot(a.date)} already posted"); return nc.QUIET
+        print(f"QUIET: slot {nc.slot(a.date)} already posted"); return done(nc.QUIET, "quiet", "slot already posted")
     ids, keys = seen_ids()
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=WINDOW_H)
     picked, log = [], []
@@ -74,12 +92,12 @@ def main():
     for ln in log: print("  " + ln)
     if a.log_trends: append_trends(a.date, log, picked)
     if not picked:
-        print("QUIET: no new notable Grok Bot or Claude story in the last 24h"); return nc.QUIET
+        print("QUIET: no new notable Grok Bot or Claude story in the last 24h"); return done(nc.QUIET, "quiet")
     picked.sort(key=lambda s: (TOPIC_RANK[s["topic"]], -s["score"]))
     best = picked[0]; best.update(date=a.date, picked_at=nc.now().isoformat(), candidates_file=src)
     out = nc.path("story", a.date); nc.save(out, best)
     print(f"STORY {best['key']} ({best['topic']}, {len(best['posts'])} verified posts) -> {out}")
-    return 0
+    return done(0)
 
 def append_trends(date, log, picked):
     with open(nc.TREND_LOG, "a", encoding="utf-8") as f:

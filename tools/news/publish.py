@@ -15,8 +15,12 @@ Ledger rules (posted.jsonl, slot nab-news-DATE):
   main id, empty reply_ids             -> reply-only re-run allowed (xnews.py re-checks the timeline first)
   row marked unknown / reply_unknown   -> STOP, "unknown, check by hand"; never retried automatically
 Usage  publish.py [--date YYYY-MM-DD] [--dry-run] [--release DATE] [--at "YYYY-MM-DD HH:MM" (dry-run only)]
+Cost   every run appends one row to autopost-cost.jsonl (dry runs: news/dryrun/autopost-cost.jsonl):
+       outcome posted | held | failed:<stage> (| quiet when the slot is already posted), X ids, X API calls by
+       endpoint (from xnews.py), embed fetches and the agent's X reads (from fetch.py's run record), whether the
+       AI wrote this run, gate-fix retries so far today, wall time since the run started.
 Exit   0 done / nothing to do · 1 stopped (alert logged) · 20 held by G12"""
-import argparse, html, os, shlex, subprocess, sys, tempfile, time
+import argparse, html, json, os, shlex, subprocess, sys, tempfile, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nc
 
@@ -30,7 +34,11 @@ def sh(cmd, cwd=nc.ROOT, env=None, show=True):
     r = subprocess.run(cmd, cwd=cwd, env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1", **(env or {})}, shell=isinstance(cmd, str), text=True, capture_output=True)
     return r.returncode, (r.stdout + r.stderr)
 
+RUN = {"outcome": None, "note": None, "ai": False, "x_calls": {}}
+T0 = time.time()
+
 def fail(stage, why, date):
+    RUN["outcome"] = f"failed:{stage}"
     print(f"STOP at {stage}: {why}"); nc.issue(stage, [why], date); print(f"logged to {nc.ISSUES}"); return 1
 
 def run_gate(dist, d, at=None, release=False):
@@ -58,13 +66,42 @@ def held(d, pay, spec, gate_out, dry=False):
                 f"## Card files\n- OG / page: {pay['og_image']}\n- X card: {pay['x_card']}\n- alt: {pay['main']['alt']}\n\n## Gate output\n```\n{gate_out.strip()}\n```\n\n## Full page source (blog/posts)\n```markdown\n{md}```\n")
     nc.issue("held", [f"draft: {p}", f"release: python3 tools/news/publish.py --release {d}"], d,
              head=f"HELD: news post '{spec['title']}' waits for a manual release (G12 money/plans/policy hold).")
-    print(f"HELD: draft written to {p}; alert logged to {nc.ISSUES}")
+    print(f"HELD: draft written to {p}; alert logged to {nc.ISSUES}"); RUN["outcome"] = "held"
     return nc.HELD
 
 def main():
+    d = None
+    try:
+        rc, d = _main()
+    except SystemExit: raise
+    except Exception as e:
+        d = d or nc.today(); rc = fail("crash", f"publish.py crashed: {e.__class__.__name__}: {e}", d)
+    try: record(d or nc.today(), rc)
+    except Exception as e: print(f"cost log: could not write ({e.__class__.__name__})")
+    return rc
+
+def record(d, rc):
+    out = RUN["outcome"] or ("posted" if rc == 0 else f"failed:exit{rc}")
+    row = nc.in_ledger(d) if out == "posted" else None
+    prior = [r for r in nc.jsonl_rows(nc.cost_path()) if r.get("date") == d]
+    m = nc.metrics(d)
+    r = nc.cost_row(d, out, x_post_id=(row or {}).get("tweet_id"), reply_id=((row or {}).get("reply_ids") or [None])[0],
+                    post_url=RUN.get("url") if out in ("posted", "held") or out.startswith("failed") else None, x_calls=RUN["x_calls"],
+                    ai_writing_step=RUN["ai"], gate_fix_retries=sum(1 for p in prior if p.get("outcome") == "failed:gate"),
+                    wall_seconds=round(time.time() - (m.get("start_ts") or T0), 1), note=RUN["note"])
+    print(f"cost log: {nc.cost_path()} <- outcome {r['outcome']}, X API calls {r['x_api_calls']['total']}, embed fetches {r['syndication_fetches']}")
+
+def xcalls(path):
+    try: c = json.load(open(path)); os.remove(path); return c
+    except Exception: return {}
+
+def _main():
     ap = argparse.ArgumentParser(); ap.add_argument("--date"); ap.add_argument("--dry-run", action="store_true"); ap.add_argument("--at")
     ap.add_argument("--release", metavar="DATE", help="publish a G12-held post after a human read news/held-DATE.md")
     a = ap.parse_args(); dry = a.dry_run; rel = bool(a.release); d = a.release or a.date or nc.today()
+    return _run(a, dry, rel, d), d
+
+def _run(a, dry, rel, d):
     mode = ("DRY-RUN " if dry else "LIVE ") + ("RELEASE" if rel else "")
     if dry:  # a dry run must never raise a real alert for Ryan
         os.makedirs(held_dir(True), exist_ok=True)
@@ -78,17 +115,21 @@ def main():
     pay_p = nc.path("xpayload", d)
     try: pay = nc.load(pay_p); spec = nc.load(nc.path("spec", d))
     except Exception as e: return fail("inputs", f"no payload/spec for {d} ({e.__class__.__name__}); run make_post.py first", d)
-    url = pay["url"]
+    url = pay["url"]; RUN["url"] = url; RUN["ai"] = not rel   # the routine agent wrote spec-DATE.json for this run
     # [1] ledger state (also governs every retry)
     row = nc.in_ledger(d)
-    if row and row.get("reply_ids"): print(f"[1] ledger: {nc.slot(d)} already posted {row.get('url')}. Nothing to do."); return 0
+    if row and row.get("reply_ids"):
+        print(f"[1] ledger: {nc.slot(d)} already posted {row.get('url')}. Nothing to do."); RUN.update(outcome="quiet", note="slot already posted", ai=False); return 0
     if row and (row.get("status") == "unknown" or row.get("reply_unknown") or not row.get("tweet_id")):
         return fail("ledger", f"{nc.slot(d)} has an UNKNOWN post state in posted.jsonl ({row.get('note', 'ambiguous X response')}); check @ryanpon by hand. Not retried.", d)
     if row:
         print(f"[1] ledger: main post exists ({row.get('url')}) with empty reply_ids -> reply-only re-run (allowed)")
-        if dry: print(f"    would run: {XPY} {nc.XNEWS} {pay_p}"); return 0
-        rc, out = sh([XPY, nc.XNEWS, pay_p]); print(out)
-        return 0 if rc == 0 else fail("x-reply-retry", out.strip()[-300:], d)
+        RUN["ai"] = False
+        if dry: print(f"    would run: {XPY} {nc.XNEWS} {pay_p}"); RUN.update(outcome="posted", note="dry run: reply-only re-run printed"); return 0
+        xm = nc.metrics_path(d) + ".xcalls"
+        rc, out = sh([XPY, nc.XNEWS, pay_p], env={"NAB_XNEWS_METRICS": xm}); print(out); RUN["x_calls"] = xcalls(xm)
+        if rc == 0: RUN.update(outcome="posted", note="reply-only re-run"); return 0
+        return fail("x-reply-retry", out.strip()[-300:], d)
     print(f"[1] ledger: {nc.slot(d)} not in {nc.LEDGER}")
     # [2] git
     files = [os.path.relpath(pay["post_md"], nc.ROOT), os.path.relpath(pay["og_image"], nc.ROOT)] + ([os.path.relpath(pay["entries_file"], nc.ROOT)] if pay.get("entries_file") else [])
@@ -158,9 +199,12 @@ def main():
     print(f"[7b] timing re-check: {t:%H:%M} MT clear of tip slots")
     # [8] X post + reply + ledger (xnews.py re-checks the ledger and the timeline itself)
     print("[8] X post via xnews.py" + (" --dry-run (no network)" if dry else ""))
-    env = {"NAB_RELEASED": "1"} if rel else {}
-    rc, out = sh([XPY, nc.XNEWS, pay_p] + (["--dry-run"] if dry else []), env=env); print(out.rstrip())
+    xm = nc.metrics_path(d) + ".xcalls"
+    env = {"NAB_XNEWS_METRICS": xm, **({"NAB_RELEASED": "1"} if rel else {})}
+    rc, out = sh([XPY, nc.XNEWS, pay_p] + (["--dry-run"] if dry else []), env=env); print(out.rstrip()); RUN["x_calls"] = xcalls(xm)
     if rc: return fail("x-post", out.strip()[-300:], d)
+    RUN["outcome"] = "posted"
+    if dry: RUN["note"] = "dry run: nothing was posted"
     print(f"== {mode.strip()} DONE: {url}")
     return 0
 

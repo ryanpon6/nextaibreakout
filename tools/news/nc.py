@@ -78,8 +78,12 @@ def http_status(url, timeout=20, method="GET"):
 
 STATUS_RE = re.compile(r"https://(?:x|twitter)\.com/([A-Za-z0-9_]{1,15})/status/(\d{5,25})")
 
+SYND_CALLS = 0   # embed-endpoint fetches made by this process (flushed into the run metrics)
+
 def syndication(pid):
-    """Public, no-auth copy of one X post (the embed endpoint). Returns dict or None."""
+    """Public, no-auth copy of one X post (the embed endpoint). Returns dict or None. Counted in SYND_CALLS."""
+    global SYND_CALLS
+    SYND_CALLS += 1
     try:
         tok = _token(int(pid))
         req = urllib.request.Request(f"https://cdn.syndication.twimg.com/tweet-result?id={pid}&lang=en&token={tok}", headers={"User-Agent": UA})
@@ -134,3 +138,66 @@ def ledger_rows():
 
 def in_ledger(date):
     return next((r for r in ledger_rows() if r.get("slot") == slot(date)), None)
+
+# ---- cost log (autopost-cost.jsonl) and per-run work metrics ----
+import fcntl, time
+from contextlib import contextmanager
+COST = os.getenv("NAB_AUTOPOST_COST", os.path.join(SHARED, "autopost-cost.jsonl"))
+XAPI_KEYS = ("users_me", "timeline_read", "media_upload", "media_metadata", "post", "reply")
+
+def drydir(): return os.path.join(STATE, "dryrun")
+def is_dry(): return os.getenv("NAB_DRYRUN") == "1"
+def cost_path(dry=None): return os.path.join(drydir(), "autopost-cost.jsonl") if (is_dry() if dry is None else dry) else COST
+def metrics_path(date, dry=None): return os.path.join(drydir() if (is_dry() if dry is None else dry) else STATE, f"metrics-{date}.json")
+
+@contextmanager
+def locked(path):
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+    with open(path + ".lock", "w") as lk:
+        fcntl.flock(lk, fcntl.LOCK_EX)
+        try: yield
+        finally: fcntl.flock(lk, fcntl.LOCK_UN)
+
+def jsonl_append(path, row):
+    """Append one row under an exclusive lock, written atomically (temp file + os.replace)."""
+    with locked(path):
+        old = open(path, encoding="utf-8").read() if os.path.exists(path) else ""
+        if old and not old.endswith("\n"): old += "\n"
+        tmp = f"{path}.tmp{os.getpid()}"
+        with open(tmp, "w", encoding="utf-8") as f: f.write(old + json.dumps(row, ensure_ascii=False) + "\n"); f.flush(); os.fsync(f.fileno())
+        os.replace(tmp, path)
+
+def jsonl_rows(path):
+    if not os.path.exists(path): return []
+    out = []
+    for ln in open(path, encoding="utf-8"):
+        try: out.append(json.loads(ln))
+        except Exception: pass
+    return out
+
+def metrics(date, dry=None):
+    try: return load(metrics_path(date, dry))
+    except Exception: return {}
+
+def metrics_update(date, dry=None, reset=False, **kv):
+    """kv values that are ints are added; others replace. reset=True starts a fresh run record."""
+    p = metrics_path(date, dry)
+    with locked(p):
+        m = {} if reset else (load(p) if os.path.exists(p) else {})
+        for k, v in kv.items():
+            m[k] = (m.get(k) or 0) + v if isinstance(v, int) and not isinstance(v, bool) and k != "x_reads_agent" else v
+        tmp = f"{p}.tmp{os.getpid()}"; save(tmp, m); os.replace(tmp, p)
+    return m
+
+def cost_row(date, outcome, *, x_post_id=None, reply_id=None, post_url=None, x_calls=None, ai_writing_step=False,
+             gate_fix_retries=0, wall_seconds=None, note=None, dry=None):
+    m = metrics(date, dry); calls = {k: int((x_calls or {}).get(k, 0)) for k in XAPI_KEYS}; calls["total"] = sum(calls.values())
+    row = {"date": date, "run_at": now().isoformat(timespec="seconds"), "outcome": outcome, "posted": outcome == "posted" and not (is_dry() if dry is None else dry),
+           "x_post_id": x_post_id, "reply_id": reply_id, "post_url": post_url,
+           "x_reads_agent": m.get("x_reads_agent"), "syndication_fetches": int(m.get("syndication_fetches") or 0),
+           "x_api_calls": calls, "ai_writing_step": bool(ai_writing_step), "gate_fix_retries": int(gate_fix_retries),
+           "wall_seconds": wall_seconds if wall_seconds is not None else (round(time.time() - m["start_ts"], 1) if m.get("start_ts") else None)}
+    if note: row["note"] = note
+    jsonl_append(cost_path(dry), row)
+    metrics_update(date, dry, reset=True, x_reads_agent=None, syndication_fetches=0, start_ts=time.time())  # next run in the day starts clean
+    return row

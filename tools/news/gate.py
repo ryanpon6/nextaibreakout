@@ -300,6 +300,8 @@ def exists_in(dist, loc):
     return os.path.isfile(p) or os.path.isfile(os.path.join(p, "index.html")) or os.path.isfile(p.rstrip("/") + ".html") or loc in ("/about",) and os.path.isfile(os.path.join(dist, "about.html"))
 
 def finish(G, a):
+    try: nc.metrics_update(a.date, syndication_fetches=nc.SYND_CALLS)   # G7 re-fetches count toward the run
+    except Exception: pass
     if getattr(G, "held", None) and not G.fails:
         print("GATE HELD: every check passed, but G12 holds this post for a manual release"); return nc.HELD
     if G.fails:
