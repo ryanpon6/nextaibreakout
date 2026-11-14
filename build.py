@@ -216,7 +216,9 @@ def home_page(year):
         for n in [sum(1 for t in all_tips if t["section"] == k)] if n
     )
     # Latest blog posts (newest three). Hidden when there are none.
-    posts = BL.posts()[:3]
+    # If a post is already in a tip strip, don't list it again; drop the section if that leaves it empty.
+    already = {e["url"] for e in grok_latest + claude_latest}
+    posts = [p for p in BL.posts() if f"/blog/{p['slug']}/" not in already][:3]
     post_html = "".join(
         f'<li><a href="/blog/{e(p["slug"])}/"><time datetime="{e(p["date"])}">{e(BL.nice(p["date"]))}</time>'
         f'<b>{e(p["title"])}</b><span>{e(p["description"])}</span><i aria-hidden="true">→</i></a></li>'
