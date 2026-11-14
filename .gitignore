@@ -58,4 +58,7 @@ __pycache__/
 !/catalog.py
 !/catalog.json
 !/CATALOG.md
+!/tools/
+!/tools/**
 !/_redirects
+/tools/**/__pycache__/

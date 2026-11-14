@@ -7,7 +7,10 @@ POSTS = os.path.join(B.ROOT, "blog", "posts")
 CSS = ("<style>.post .meta{font-size:14px;color:var(--mut);margin:-12px 0 28px}.post code{font-size:.92em;padding:.1em .35em;border:1px solid var(--rule);"
        "border-radius:4px;background:var(--bg2);color:var(--ink)}.post ol,.post ul{padding-left:1.4em}.post strong{color:var(--ink)}"
        ".post h2{font-size:clamp(24px,3vw,32px)}.post a{overflow-wrap:anywhere}.bloglist{list-style:none;padding:0}.bloglist li{margin:0 0 24px}"
-       ".bloglist a{font-size:22px;font-weight:700}</style>")
+       ".bloglist a{font-size:22px;font-weight:700}"
+       ".post blockquote{position:relative;margin:24px 0 30px;padding:18px 20px;background:var(--paper);border:var(--line);border-radius:22px;box-shadow:5px 5px 0 var(--ink)}"
+       ".post blockquote p{margin:0;font-size:19px;font-weight:500;white-space:pre-wrap;overflow-wrap:anywhere}.post blockquote cite{display:block;margin:10px 0 0;font-style:normal;font-size:14px;color:var(--mut)}"
+       ".post .lead-img img{display:block;width:100%;height:auto;border:var(--line);border-radius:18px;box-shadow:var(--shadow);background:var(--paper)}</style>")
 FEED = f'<link rel="alternate" type="application/rss+xml" title="{BRAND} blog" href="/blog/rss.xml">'
 
 def parse(path):
@@ -43,7 +46,11 @@ def md(text):
     for ln in text.splitlines():
         s = ln.strip()
         h = re.match(r"(#{1,6})\s+(.*)", s); ul = re.match(r"[-*]\s+(.*)", s); ol = re.match(r"\d+\.\s+(.*)", s)
+        bq = re.match(r">\s?(.*)", s)
         if not s: flush()
+        elif bq:
+            flush(); q = bq.group(1); body, _, cite = q.partition(" ~ ")
+            out.append("<blockquote><p>" + inline(body) + "</p>" + (f"<cite>{inline(cite)}</cite>" if cite else "") + "</blockquote>")
         elif h: flush(); n = max(2, len(h.group(1))); out.append(f"<h{n}>{inline(h.group(2))}</h{n}>")
         elif ul or ol:
             tag = "ul" if ul else "ol"
@@ -87,10 +94,18 @@ def apply(DIST, t):
              **({"keywords": [k.strip() for k in p["keywords"].split(",")]} if p.get("keywords") else {})},
             {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}, {"@type": "ListItem", "position": 3, "name": p["title"], "item": url}]}]}
+        img = p.get("image")  # optional per-post share card (news posts); falls back to og-default.png
+        if img:
+            j["@graph"][0]["image"] = SITE + img
         extra = B.ld(j) + f'<meta property="article:published_time" content="{p["date"]}"><meta property="article:modified_time" content="{mod}">'
         main = (f'<main class="prose post"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <span aria-current="page">Post</span></nav>'
-                f'<article>{B.peek_h1(e(p["title"]), B.SPECIALIST_BOT)}<p class="meta"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {BRAND}</p>\n{md(p["body"])}\n</article></main>')
-        write(DIST, f"blog/{p['slug']}/index.html", page(title, desc, path, extra, main, year, "article"))
+                f'<article>{B.peek_h1(e(p["title"]), B.SPECIALIST_BOT)}<p class="meta"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {BRAND}</p>\n'
+                + (f'<figure class="lead-img"><img src="{e(img)}" alt="{e(p.get("image_alt") or p["title"])}" width="1200" height="630"></figure>\n' if img else "")
+                + f'{md(p["body"])}\n</article></main>')
+        h = page(title, desc, path, extra, main, year, "article")
+        if img:
+            h = h.replace(f'content="{SITE}/og-default.png"', f'content="{SITE}{img}"')
+        write(DIST, f"blog/{p['slug']}/index.html", h)
     desc = f"Notes and explainers from {BRAND}, including a Claude Code guide. Human-reviewed posts only."
     lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {e(p["description"])}</p></li>' for p in ps)
     j = {"@context": "https://schema.org", "@graph": [{"@type": "Blog", "name": f"{BRAND} blog", "url": SITE + "/blog/", "description": desc,
