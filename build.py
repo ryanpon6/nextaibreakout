@@ -216,7 +216,7 @@ def home_page(year):
     already = {e["url"] for e in grok_latest + claude_latest}
     posts = [p for p in BL.posts() if f"/blog/{p['slug']}/" not in already][:3]
     post_html = "".join(
-        f'<li><a href="/blog/{e(p["slug"])}/"><time datetime="{e(p["date"])}">{e(BL.nice(p["date"]))}</time>'
+        f'<li><a href="/blog/{e(p["slug"])}/"><time class="vh" datetime="{e(p["date"])}"></time>'
         f'<b>{e(p["title"])}</b><span>{e(p["description"])}</span><i aria-hidden="true">→</i></a></li>'
         for p in posts
     )

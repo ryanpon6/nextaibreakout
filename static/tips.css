@@ -2,6 +2,15 @@
 .tips-main{max-width:820px;margin:0 auto;padding:0 22px 72px}
 .tips-main .ptitle h1{font-size:clamp(34px,6vw,60px);line-height:1}
 .tips-main .lede{font-size:19px;line-height:1.55;color:var(--mut);max-width:56ch;margin:0 0 28px}
+/* Beginner path on the Grok Bot tips hub only. Paper card, ink outline, Syne heading. */
+.start-here{margin:0 0 32px;padding:20px 18px 16px;background:var(--paper);border:var(--line);border-radius:22px;box-shadow:var(--shadow)}
+.start-here h2{margin:0 0 14px;font:800 clamp(24px,5vw,32px)/1.1 var(--fd);letter-spacing:-.03em;color:var(--ink)}
+.start-here-list{margin:0;padding:0 0 0 1.25em}
+.start-here-list li{margin:0 0 14px}
+.start-here-list li:last-child{margin-bottom:0}
+.start-here-list a{font:800 18px/1.2 var(--fd);letter-spacing:-.02em;color:var(--ink);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.start-here-list a:hover,.start-here-list a:focus-visible{color:var(--red-ink)}
+.start-here-list p{margin:4px 0 0;color:var(--mut);font:400 16px/1.45 var(--f)}
 .tips-hero{position:relative;display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 28px;margin:6px 0 20px}
 .tips-hero h1{margin:0;flex:999 1 320px}
 .tips-hero .bot{font-size:34px;margin:0 10px 6px 0}

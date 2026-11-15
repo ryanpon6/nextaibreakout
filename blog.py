@@ -99,7 +99,7 @@ def apply(DIST, t):
             j["@graph"][0]["image"] = SITE + img
         extra = B.ld(j) + f'<meta property="article:published_time" content="{p["date"]}"><meta property="article:modified_time" content="{mod}">'
         main = (f'<main class="prose post"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <span aria-current="page">Post</span></nav>'
-                f'<article>{B.peek_h1(e(p["title"]), B.SPECIALIST_BOT)}<p class="meta"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {BRAND}</p>\n'
+                f'<article>{B.peek_h1(e(p["title"]), B.SPECIALIST_BOT)}<p class="meta"><time class="vh" datetime="{p["date"]}"></time>{BRAND}</p>\n'
                 + (f'<figure class="lead-img"><img src="{e(img)}" alt="{e(p.get("image_alt") or p["title"])}" width="1200" height="630"></figure>\n' if img else "")
                 + f'{md(p["body"])}\n</article></main>')
         h = page(title, desc, path, extra, main, year, "article")
@@ -107,7 +107,7 @@ def apply(DIST, t):
             h = h.replace(f'content="{SITE}{B.OG_DEFAULT}"', f'content="{SITE}{img}"')
         write(DIST, f"blog/{p['slug']}/index.html", h)
     desc = f"Guides I write, including a Claude Code guide, plus daily Grok Bot news posts checked by an automated gate."
-    lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {e(p["description"])}</p></li>' for p in ps)
+    lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time class="vh" datetime="{p["date"]}"></time>{e(p["description"])}</p></li>' for p in ps)
     j = {"@context": "https://schema.org", "@graph": [{"@type": "Blog", "name": f"{BRAND} blog", "url": SITE + "/blog/", "description": desc,
          "blogPost": [{"@type": "BlogPosting", "headline": p.get("seo_title") or p["title"], "url": f"{SITE}/blog/{p['slug']}/", "datePublished": p["date"]} for p in ps]},
          {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}]}]}

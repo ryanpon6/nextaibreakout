@@ -190,7 +190,7 @@ def item_list(name, rows, order="descending"):
 
 
 def listing_html(rows, extra_class=""):
-    """Dated list markup using the existing .posts treatment (phone-first, one column)."""
+    """List markup using the existing .posts treatment (phone-first, one column). Sorted by catalog date; the date stays in a hidden <time datetime>."""
     from html import escape as e
     if not rows:
         return ""
@@ -201,7 +201,7 @@ def listing_html(rows, extra_class=""):
         span = f"<span>{e(summary)}</span>" if summary else ""
         items.append(
             f'<li><a href="{e(row["url"])}">'
-            f'<time datetime="{e(row["date"])}">{e(nice(row["date"]))}</time>'
+            f'<time class="vh" datetime="{e(row["date"])}"></time>'
             f'<b>{e(row["title"])}</b>{span}'
             f'<i aria-hidden="true">→</i></a></li>'
         )

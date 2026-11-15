@@ -321,6 +321,36 @@ def hub_intro():
 
 BY_SLUG = {t["slug"]: t for t in TIPS}
 
+
+# Beginner path on /tips/ only. Each slug must be a standalone tip page.
+# Reasons are taken from that page's own tip text. Newest-first list stays below.
+START_HERE = (
+    ("talk-to-one-lead-bot", "I talk to one lead bot, and it routes work to the specialists."),
+    ("drafts-only-approval", "Sends, spending and sign-ins still wait for my OK."),
+    ("quality-checker-before-it-reaches-you", "Every bot's work goes through a Quality Checker before it reaches me."),
+    ("approve-spend-and-credentials", "Spending and credentials stay on a one-tap approval. I still press the button."),
+    ("watch-usage-pause-routines", "I watch the meter and pause routines before they all crash."),
+)
+
+
+def start_here_html():
+    """Accessible 'Start here' block: heading, ordered list, real links."""
+    items = []
+    for slug, reason in START_HERE:
+        t = BY_SLUG[slug]
+        items.append(
+            f'<li><a href="{path_of(slug)}">{e(t["title"])}</a>'
+            f"<p>{e(reason)}</p></li>"
+        )
+    return (
+        '<section class="start-here" aria-labelledby="h-start-here">'
+        '<h2 id="h-start-here">Start here</h2>'
+        f'<ol class="start-here-list">{"".join(items)}</ol>'
+        "</section>"
+    )
+
+
+
 CAPTIONS = {
     "talk-to-one-lead-bot": 'The lead-bot rule, as a brand card.',
     "quality-checker-before-it-reaches-you": 'Five dones versus one checked result.',
@@ -752,12 +782,12 @@ def tip_extras(slug):
 
 
 def tip_date_html(slug):
-    """Visible publish date from the catalog, or empty if the slug is missing."""
+    """Hidden publish date from the catalog, or empty if the slug is missing."""
     import catalog as C
     row = C.by_id(slug)
     if not row:
         return ""
-    return f'<p class="tip-date"><time datetime="{e(row["date"])}">{e(C.nice(row["date"]))}</time></p>'
+    return f'<time class="vh" datetime="{e(row["date"])}"></time>'
 
 
 def tip_page(t, year):
@@ -850,6 +880,7 @@ def hub_page(year):
 {crumbs(("Grok Bot Tips", "/tips/", True))}
 {B.peek_h1(B.circ(e(HUB_H1)), B.LEAD_BOT)}
 <p class="lede">{e(hub_intro())}</p>
+{start_here_html()}
 <h2 class="tips-index-h">All tips, newest first</h2>
 {C.listing_html(dated, "tips-index")}
 <p class="tips-jump-label">Tip pages</p>
