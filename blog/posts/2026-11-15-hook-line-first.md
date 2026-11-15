@@ -16,7 +16,7 @@ keywords: "hook line, first line, X posts, Grok Bot, drafts, lessons"
 
 **We rewrote the first line of 7 posts before they went out, and every new one is more specific than the old.**
 
-On Nov 14 we added a rule for every NextAiBreakout post, on X and on this site: the first line has to be a hook. That means a true, specific line, ideally with a real number or a clear payoff, that the rest of the post actually delivers. No clickbait.
+We added a rule for every NextAiBreakout post, on X and on this site: the first line has to be a hook. That means a true, specific line, ideally with a real number or a clear payoff, that the rest of the post actually delivers. No clickbait.
 
 Why the first line? In a feed, the opening words are the first thing anyone sees. A first line that just states a topic gives them nothing to stop for. A first line that makes a concrete claim gives them a reason, and then the post has to pay it off.
 

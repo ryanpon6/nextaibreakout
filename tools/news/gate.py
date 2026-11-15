@@ -49,9 +49,12 @@ Checks (each prints PASS or FAIL):
   G14 visibledate Ryan's no-visible-dates rule: fail if a month-and-day (Nov 13, November 13, 2026),
                   ISO date (2026-11-13) or d/m/y pattern appears in the card kicker (spec note), card
                   lines (headline and points), X main text, reply text or page prose. Exempt the quote
-                  citation format '~ [Name (@user) on X, Mon D, YYYY](url)', JSON-LD, hidden <time>,
-                  and the pipeline Sources list (same kind of attribution date). Bare years, "Day 1"
-                  and "Days 10 to 14" are not dates. Fail closed, same path as the other checks.
+                  citation format '~ [Name (@user) on X, Mon D, YYYY](x.com url)' (the @handle is required),
+                  JSON-LD, hidden <time>, and the pipeline Sources lines '- [Name (@user) on X](url), Mon D,
+                  YYYY' (other text under a Sources heading is still scanned). Text is NFKC-normalised and
+                  zero-width characters removed first; month names are exact and case-sensitive. Bare years,
+                  "Day 1", "Days 10 to 14", month-and-year, versions (0.9.18) and fractions (3/4, 24/7) are
+                  not dates. Fail closed, same path as the other checks.
   Lesson source   when story/spec source is "lesson", G7 does not re-fetch X. It requires the qc PASS block
                   (verdict PASS, by, at, sha256 = lessons.content_hash of the spec and of the queue file, rule 23) and checks every quoted example (Before:/After: lines, quoted
                   phrases in the X main text, and blockquotes) verbatim against the listed evidence files
@@ -164,43 +167,62 @@ HOOK_ACRONYMS = frozenset({"HTML", "HTTP", "HTTPS", "JSON", "NASA", "YAML", "ASC
                            "SVG", "PNG", "GUID", "UUID", "OAUTH", "OIDC", "SAML", "LDAP", "GRAPHQL", "GRPC"})
 
 
-# G14: visible dates (Ryan's rule). Month+day, ISO, or d/m/y. Not bare years or "Day 1".
+# G14: visible dates (Ryan's rule). Month+day, ISO, d/m/y or m/d. Not bare years, "Day 1" or month+year.
+# Own month list, case-sensitive: the shared MONTH allows any suffix and re.I, which flagged "Marketing 2",
+# "Decision 3", "Novel 3" and "Grok 4 may roll out" as dates.
+DMONTH = (r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?"
+          r"|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?|JAN|FEB|MAR|APR|MAY|JUNE?|JULY?|AUG|SEPT?|OCT|NOV|DEC)\.?(?![A-Za-z])")
+DDATE = rf"{DMONTH}\s*\d{{1,2}},\s*\d{{4}}"
 VISIBLE_DATE = re.compile(
-    rf"\b{MONTH}\s+\d{{1,2}}(?:st|nd|rd|th)?(?!\d)(?:,\s*\d{{4}})?"
-    rf"|\b\d{{1,2}}(?:st|nd|rd|th)?\s+{MONTH}(?!\w)(?:,?\s*\d{{4}})?"
-    rf"|\b\d{{4}}-\d{{2}}-\d{{2}}\b"
-    rf"|\b\d{{1,2}}[./-]\d{{1,2}}[./-]\d{{2,4}}\b",
-    re.I,
+    rf"\b{DMONTH}\s*\d{{1,2}}(?:st|nd|rd|th)?(?!\d)(?:,\s*\d{{4}})?"
+    rf"|\b\d{{1,2}}(?:st|nd|rd|th)?\s*(?:of\s+)?{DMONTH}(?:,?\s*\d{{4}})?"
+    rf"|\b\d{{4}}[-/.]\d{{1,2}}[-/.]\d{{1,2}}\b"
+    rf"|\b\d{{1,2}}[/-]\d{{1,2}}[/-]\d{{2,4}}\b|\b\d{{1,2}}\.\d{{1,2}}\.\d{{4}}\b"
+    rf"|\b(?:1[0-2]|0?[1-9])/(?:1[3-9]|2\d|3[01])\b"   # m/d with a day above 12 (11/14); 3/4, 1/2, 24/7, 50/50 pass
 )
-# Quote citation: '~ [Name (@user) on X, Mon D, YYYY](url)' and the visible/HTML form after links unwrap.
-CITE_MD = re.compile(rf"~\s*\[[^\]\n]+ on X, {MONTH}\s+\d{{1,2}},\s*\d{{4}}\]\([^)]+\)", re.I)
-CITE_VIS = re.compile(rf"~\s*[^~\n\[\]]+ on X, {MONTH}\s+\d{{1,2}},\s*\d{{4}}", re.I)
+# Quote citation '~ [Name (@user) on X, Mon D, YYYY](x.com url)' and its visible form. The @handle is required,
+# so free prose like '~ by the team on X, Nov 14, 2026' is not exempt.
+CITE_MD = re.compile(rf"~\s*\[[^\]\n]{{1,80}} \(@\w{{1,15}}\) on X, {DDATE}\]\(https://(?:x|twitter)\.com/[^)\s]+\)")
+CITE_VIS = re.compile(rf"~\s*[^~\n\[\]<>]{{1,80}} \(@\w{{1,15}}\) on X, {DDATE}")
+# Rendered form: <cite><a href="https://x.com/...">Name (@user) on X, Mon D, YYYY</a></cite> (blog.py drops the "~").
+CITE_HTML = re.compile(rf'<cite>\s*(?:<a\b[^>]*href="https://(?:x|twitter)\.com/[^"]+"[^>]*>)?[^<]{{1,80}} \(@\w{{1,15}}\) on X, {DDATE}\s*(?:</a>)?\s*</cite>')
+# Pipeline Sources lines only (make_post.py: '- [Name (@user) on X](url), Mon D, YYYY'). Other text under a
+# Sources heading is still scanned.
+SRC_MD = re.compile(rf"(?m)^\s*-\s*\[[^\]\n]{{1,80}} \(@\w{{1,15}}\) on X\]\(https://(?:x|twitter)\.com/[^)\s]+\),\s*{DDATE}\s*$")
+SRC_HTML = re.compile(rf'<li>\s*<a\b[^>]*href="https://(?:x|twitter)\.com/[^"]+"[^>]*>[^<]{{1,80}} \(@\w{{1,15}}\) on X</a>,\s*{DDATE}\s*</li>')
+INVISIBLE = re.compile("[\u00ad\u180e\u200b-\u200f\u202a-\u202e\u2060-\u2064\ufeff]")
+INLINE_TAG = re.compile(r"</?(?:a|abbr|b|code|em|i|mark|s|small|span|strong|sub|sup|u)\b[^>]*>", re.I)
 
 def strip_sources_md(text):
-    """Drop the pipeline ## Sources section so attribution dates are not flagged."""
-    return re.sub(r"(?im)^##\s+Sources\b.*?(?=^##\s|\Z)", "\n", text or "", flags=re.S)
+    return SRC_MD.sub(" ", text or "")
 
 def strip_sources_html(h):
-    return re.sub(r"<h2[^>]*>\s*Sources\s*</h2>.*?(?=<h2\b|\Z)", " ", h or "", flags=re.S | re.I)
+    return SRC_HTML.sub(" ", h or "")
 
 def strip_date_exemptions(text, is_html=False):
-    """Remove citation format, Sources list, JSON-LD and hidden <time> before scanning for dates."""
+    """Remove citation format, pipeline Sources lines, JSON-LD and hidden <time> before scanning for dates."""
     t = text or ""
     if is_html:
         t = re.sub(r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>.*?</script>', " ", t, flags=re.S | re.I)
         t = re.sub(r"<time\b[^>]*>.*?</time>", " ", t, flags=re.S | re.I)
         t = strip_sources_html(t)
+        t = CITE_HTML.sub(" ", t)
         t = CITE_MD.sub(" ", t)
+        t = INLINE_TAG.sub("", t)          # 'No<span>v 14</span>' must read as 'Nov 14'
         t = visible(t)
+        t = INVISIBLE.sub("", t)
         t = CITE_VIS.sub(" ", t)
         return t
+    t = INVISIBLE.sub("", t)
     t = strip_sources_md(t)
     t = CITE_MD.sub(" ", t)
     t = CITE_VIS.sub(" ", t)
     return t
 
 def date_hits(text):
-    return [m.group(0) for m in VISIBLE_DATE.finditer(text or "")]
+    import unicodedata
+    t = INVISIBLE.sub("", unicodedata.normalize("NFKC", H.unescape(text or "")))
+    return [m.group(0) for m in VISIBLE_DATE.finditer(t)]
 
 def visible_date_problems(spec, pay=None, page=""):
     """G14 failures for a spec, optional X payload and optional built page. Empty list = pass."""

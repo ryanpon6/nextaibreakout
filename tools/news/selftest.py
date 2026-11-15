@@ -299,6 +299,18 @@ def date_cases():
         ("FAIL", "reply text date", clean_spec, {"reply": {"text": "Posted Nov 13. Full story + sources: https://nextaibreakout.com/blog/x/"}, "main": {"text": clean_spec["x_main"]}}, ""),
         ("FAIL", "13 November 2026", {**clean_spec, "note": "Shipped 13 November 2026"}, None, ""),
         ("FAIL", "prose date in rendered page", clean_spec, None, html_clean.replace("Grok Bot plans now stretch about 7% further.", "On Nov 14 the team shipped a harness change.")),
+        # QC nodate-gate: misses and false fails found in review
+        ("PASS", "words that start with a month", {**clean_spec, "body_md": "Marketing 2 bots, Decision 3, Novel 3, Junior 2 devs, Market 10x.\n\n" + cite}, None, ""),
+        ("PASS", "lowercase may, versions, fractions", {**clean_spec, "body_md": "Grok 4 may roll out in v0.9.18 and Python 3.10.12, 24/7, 50/50, 3/4 of runs, 8:05 AM.\n\n" + cite}, None, ""),
+        ("FAIL", "zero-width space inside a date", {**clean_spec, "note": "Shipped Nov\u200b14"}, None, ""),
+        ("FAIL", "m/d with no year", {**clean_spec, "note": "Shipped 11/14"}, None, ""),
+        ("FAIL", "14th of November", {**clean_spec, "note": "Shipped the 14th of November"}, None, ""),
+        ("FAIL", "date split across inline tags", clean_spec, None, html_clean.replace("Grok Bot plans now stretch about 7% further.", "No<span>v 14</span> it shipped.")),
+        ("FAIL", "fake citation without @handle", {**clean_spec, "body_md": "We shipped it ~ by the team on X, Nov 14, 2026.\n\n" + cite}, None, ""),
+        ("FAIL", "prose under a Sources heading", {**clean_spec, "body_md": "Intro.\n\n" + cite + "\n\n## Sources and timeline\n\nOn Nov 14 we shipped it."}, None, ""),
+        ("PASS", "rendered <cite> citation", clean_spec, None, html_clean.replace("</blockquote>", '<cite><a href="https://x.com/e/status/1">Elon Musk (@elonmusk) on X, Nov 14, 2026</a></cite></blockquote>')),
+        ("FAIL", "date between a ~ number and a citation", clean_spec, None, html_clean.replace("Grok Bot plans now stretch about 7% further.", "About ~7% more. On Nov 14 we shipped it.")),
+        ("FAIL", "prose inside rendered Sources", clean_spec, None, html_clean.replace("</ul>", "</ul><p>On Nov 14 we shipped it.</p>")),
     ]
     bad = 0
     for want, name, spec, pay, page in cases:

@@ -85,7 +85,7 @@
       "url": "/tips/blabara-in-one-day/",
       "kind": "grok",
       "type": "tip",
-      "summary": "On Oct 16, my brother and I built Blabara, an Android voice-dictation app, in one day with a team of Grok Bots. Not a slide deck. A real app, in a day.",
+      "summary": "My brother and I built Blabara, an Android voice-dictation app, in one day with a team of Grok Bots. Not a slide deck. A real app, in a day.",
       "seq": 14,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },
@@ -239,7 +239,7 @@
       "url": "/tips/open-with-a-hook-line/",
       "kind": "grok",
       "type": "tip",
-      "summary": "On Nov 14 I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line the post delivers.",
+      "summary": "I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line the post delivers.",
       "seq": 3,
       "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
     },
@@ -250,7 +250,7 @@
       "url": "/tips/turn-lessons-into-posts/",
       "kind": "grok",
       "type": "tip",
-      "summary": "On Nov 14, I wrote the hook-line rule up as a lesson post, using real before-and-after lines from our drafts.",
+      "summary": "I wrote the hook-line rule up as a lesson post, using real before-and-after lines from our drafts.",
       "seq": 2,
       "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
     },
@@ -261,7 +261,7 @@
       "url": "/tips/recheck-after-late-edits/",
       "kind": "grok",
       "type": "tip",
-      "summary": "On Nov 14, Day 12 and Day 14 copy was corrected after the first review, then went back to the checker. A pass only covers the version it reviewed.",
+      "summary": "Day 12 and Day 14 copy was corrected after the first review, then went back to the checker. A pass only covers the version it reviewed.",
       "seq": 1,
       "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
     },

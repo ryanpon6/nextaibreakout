@@ -279,7 +279,7 @@ def home_page(year):
 <div class="badge" aria-hidden="true"><div class="shape"></div><div class="dots"></div><p class="stamp">1 day</p></div>
 <div class="txt rv"><p class="note">proof</p>
 <h2 id="h-proof">A real Android app, built {circ("in a day")} by a team of Grok Bots.</h2>
-<p>On 16 Oct 2026, my brother and I built the Blabara Android voice-dictation app (it was called VoiceKey then) with a team of Grok Bots.</p>
+<p>My brother and I built the Blabara Android voice-dictation app (it was called VoiceKey then) with a team of Grok Bots.</p>
 <p>I use AI for daily admin (email drafts, safety forms, crew attendance, scheduling, monthly tracking), and I replaced about 10 years of Squarespace by building my company site myself.</p>
 <a class="more" href="/tips/blabara-in-one-day/">How we built Blabara in one day →</a></div>
 </div></section>
