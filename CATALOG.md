@@ -27,7 +27,7 @@ Counts on the site are computed from this file (and from `tips.py` for topic sti
 
 ## Sort order
 
-Newest first: `date` descending, then `seq` descending, then `id`. The 20 Grok Bot tips all share the publish date 2026-11-12 (see each row's `source`). Their `seq` is the order they were registered that day: the 14 full tip pages (Days 1–14), then the 6 hub-only tips that landed in a later commit the same morning.
+Newest first: `date` descending, then `seq` descending, then `id`. The original 20 Grok Bot tips share the publish date 2026-11-12 (see each row's `source`). Their `seq` is the order they were registered that day: the 14 full tip pages (Days 1–14), then the 6 hub-only tips that landed in a later commit the same morning. Tips dated 2026-11-14 sort ahead of that group; their `seq` breaks ties on that day.
 
 ## How the news pipeline should append
 

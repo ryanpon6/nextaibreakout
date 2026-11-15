@@ -38,7 +38,12 @@ for f in files:
     for m in re.finditer(r"-[\d.,]+[KM]? downloads|\b0 downloads/day", txt): F(rel, f"bad downloads figure {m.group(0)!r}")
     for m in re.finditer(r"\+[\d.,]+[KM]? [a-z/]+ total\b", txt): F(rel, f"plus sign on a total {m.group(0)!r}")
     if ndays < 7 and rel.endswith(".html"):
-        for m in re.finditer(r"\b(this|last) week\b|week's", txt, re.I): F(rel, f"'week' wording with only {ndays} days of data: {txt[max(0,m.start()-40):m.end()+20]!r}")
+        for m in re.finditer(r"\b(this|last) week\b|week's", txt, re.I):
+            # Exact draft quotes (marked Before:/After:) may contain "this week"; that is not a claim we have a week of site data.
+            window = txt[max(0, m.start() - 120):m.end()]
+            if re.search(r"\b(Before|After):", window):
+                continue
+            F(rel, f"'week' wording with only {ndays} days of data: {txt[max(0,m.start()-40):m.end()+20]!r}")
     # JSON-LD parses, and item pages' description matches the visible one
     for blob in re.findall(r'<script type="application/ld\+json">(.*?)</script>', raw, re.S):
         try: j = json.loads(blob)

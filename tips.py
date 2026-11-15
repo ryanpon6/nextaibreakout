@@ -34,7 +34,7 @@ TIPS = [
         "alt": "Brand card comparing five dones with one checked result.",
         "slot": "A compare card: five dones versus one checked result.",
         "section": "quality",
-        "siblings": ["bot-drafts-checker-reviews", "before-after-proof", "drafts-only-approval"],
+        "siblings": ["before-after-proof", "drafts-only-approval", "recheck-after-late-edits"],
     },
     {
         "slug": "agent-to-agent-handoffs",
@@ -170,15 +170,69 @@ TIPS = [
     },
     {
         "slug": "scheduled-pack-and-gates",
-        "title": "A morning pack, then gates, then I approve",
-        "seo_title": "A morning pack, then gates | NextAiBreakout",
-        "meta": "I run a morning pack routine, then later gates that check the work before it can go out. Scheduled prompts are useful. Publishing with no gate is not.",
-        "tip": "I run a morning pack routine, then later gates that check the work before it can go out. Scheduled prompts are useful. Publishing with no gate is not. When do you actually review what your routines produced?",
-        "how": "The morning pack runs at 6:45 AM Edmonton time. Later gates check the work at fixed times before anything can go out. The routine writes the draft. The gates catch problems. I still approve. A schedule without a review window is just a way to publish mistakes on time.",
+        "title": "Daily news posts go out after a gate",
+        "seo_title": "Daily news posts go out after a gate | NextAiBreakout",
+        "meta": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Everything else still waits for my OK.",
+        "tip": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Everything else still waits for my OK. Scheduled prompts are useful. Publishing with no gate is not. When do you actually review what your routines produced?",
+        "how": "The 6:45 AM morning pack is retired. A scheduled routine writes each daily news post. An automated gate re-checks the sources, confirms the links return 200, and rejects placeholders and a missing hook line. Then the post publishes on the site and goes to X. Sends, spending, and other public posts still wait for my OK. A schedule without a gate is just a way to publish mistakes on time.",
         "alt": "Brand card quoting the scheduling rule: scheduled prompts are useful, publishing with no gate is not.",
-        "slot": "A screenshot of the morning pack and later gates on the routines schedule, showing the real times on screen.",
+        "slot": "A card of the checked-then-scheduled rule, with no clock times.",
         "section": "routines",
-        "siblings": ["check-your-routine-timezone", "bot-drafts-checker-reviews", "drafts-only-approval"],
+        "siblings": ["drafts-only-approval", "open-with-a-hook-line", "recheck-after-late-edits"],
+    },
+    {
+        "slug": "open-with-a-hook-line",
+        "title": "Open every post with a hook line",
+        "seo_title": "Open every post with a hook line | NextAiBreakout",
+        "meta": "On Nov 14 I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line the post delivers.",
+        "tip": "On Nov 14 I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line, ideally with a real number or payoff, that the post actually delivers. No clickbait. What's the first line you'd fix on your feed?",
+        "how": """On Nov 14 I rewrote the first line of 7 unposted X drafts: Days 10 to 14, and the Week 1 and Week 2 thread openers. For most of them, only the first line changed. A few needed one more edit so the whole post stayed true.
+
+Here are the real first lines.
+
+Day 10, proof. Before: No bug is fixed until it's proven with a before and after. After: My bots aren't allowed to say "fixed" until they show me a before and an after.
+
+Day 11, approvals. Before: Spending and credentials stay on a one-tap approval. After: Two things my bots can't do without my tap: spend money or sign in with my credentials.
+
+Day 12, draft then check. Before: I had a bot build a daily email, then a checker bot review it before anything could go out. After: Two bots, one daily email: one wrote it, the other checked it before anything could go out.
+
+Day 13, scripted cards. Before: I don't design a new image for every post. After: One script makes every post card in my feed, all in one brand style.
+
+Day 14, scheduled posts. Before: I run a morning pack routine, then later gates that check the work before it can go out. After: Every post in my queue gets a full review from a checker bot before a routine posts it on schedule.
+
+Week 1 opener. Before: This week I wrote down what actually mattered in a Grok Bot fleet, plus the tradeoffs, not just the wins. After: 7 things that actually mattered running a Grok Bot fleet this week, with the tradeoffs, not just the wins.
+
+Week 2 opener. Before: Week 2: we built a real app in a day, and I tightened the rules that keep a fleet honest, including the tradeoffs. After: We built a real Android app in one day with a team of bots, and I tightened the rules that keep a fleet honest, tradeoffs included.
+
+The rule I use now: lead with the most specific true thing in the post, a number, a time, or a result. Write it in first person if it's something I actually did. If the post can't pay off the hook, I change the line, not the facts. I never use a number I can't point to.""",
+        "alt": "Brand card with the number 7, labeled first lines rewritten.",
+        "slot": "A number card: 7 first lines rewritten.",
+        "section": "quality",
+        "siblings": ["turn-lessons-into-posts", "recheck-after-late-edits", "scheduled-pack-and-gates"],
+    },
+    {
+        "slug": "turn-lessons-into-posts",
+        "title": "Turn lessons into posts",
+        "seo_title": "Turn lessons into posts | NextAiBreakout",
+        "meta": "On Nov 14, the hook-line rule became a lesson post that goes through the same automated gate as my daily news.",
+        "tip": "On Nov 14, the hook-line rule became a lesson post that goes through the same automated gate as my daily news. When we adopt a lesson for ourselves, it also becomes a post so other people can learn it. Would you publish your bots' lessons?",
+        "how": "We adopted the hook-line rule on Nov 14, then I wrote it up as a lesson post with the real before-and-after first lines from our own drafts. That lesson goes through the same automated gate as the daily news: sources re-checked, links returning 200, no placeholders, and a hook line the post actually delivers. I want other people to be able to use what we just had to learn.",
+        "alt": "Brand card comparing a fix we adopted with the same lesson turned into a post.",
+        "slot": "A compare card: we fixed it, now it's a post.",
+        "section": "skills",
+        "siblings": ["open-with-a-hook-line", "scheduled-pack-and-gates", "shared-skills-across-bots"],
+    },
+    {
+        "slug": "recheck-after-late-edits",
+        "title": "Re-check after late edits",
+        "seo_title": "Re-check after late edits | NextAiBreakout",
+        "meta": "On Nov 14, Day 12 and Day 14 copy was corrected after the first review, then went back to the checker. A pass only covers the version it reviewed.",
+        "tip": "On Nov 14, Day 12 and Day 14 copy was corrected after the first review, then went back to the checker. A pass only covers the version it reviewed, so I re-check the file after any late edit. How do you catch late edits?",
+        "how": "After the first review, Day 12's cons line and the Day 14 post were rewritten so they matched how publishing works now. Day 14 was reworded again after the checker said an earlier line overstated the mechanism. Those changed drafts went back to the checker and passed. A pass only covers the version it reviewed. If anyone edits the file after that, it needs another pass before it can go out.",
+        "alt": "Brand card showing a passed draft that was edited, so it has to be checked again.",
+        "slot": "A before-and-after card: passed, then edited, so check again.",
+        "section": "quality",
+        "siblings": ["open-with-a-hook-line", "quality-checker-before-it-reaches-you", "scheduled-pack-and-gates"],
     },
 ]
 
@@ -281,7 +335,10 @@ CAPTIONS = {
     "approve-spend-and-credentials": 'The spend-and-credentials approval rule, as a brand card.',
     "bot-drafts-checker-reviews": 'Bot drafts, checker reviews, I approve the send.',
     "scripted-brand-cards": 'One style, every card.',
-    "scheduled-pack-and-gates": 'The scheduled-pack-and-gates rule, as a brand card.',
+    "scheduled-pack-and-gates": 'The scheduled-news-and-gate rule, as a brand card.',
+    "open-with-a-hook-line": 'Seven first lines rewritten, as a brand card.',
+    "turn-lessons-into-posts": 'A lesson becomes a post, as a brand card.',
+    "recheck-after-late-edits": 'Re-check after a late edit, as a brand card.',
     "one-job-per-bot": 'The one-job-per-bot rule, as a brand card.',
     "write-down-checker-rules": 'The written-checker-rules rule, as a brand card.',
     "isolate-the-app-repo": 'The isolated-repo rule, as a brand card.',
@@ -290,6 +347,18 @@ CAPTIONS = {
     "human-publish-gate": 'The human publish gate, as a brand card.',
 }
 
+
+
+
+def paras(text, first_class=None):
+    """Split on blank lines so a long how-section can be more than one <p>."""
+    parts = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
+    bits = []
+    for i, part in enumerate(parts):
+        cls = first_class if first_class and i == 0 else None
+        attr = f' class="{cls}"' if cls else ""
+        bits.append(f"<p{attr}>{e(part)}</p>")
+    return "".join(bits) if bits else ""
 
 
 def path_of(slug=None):
@@ -378,8 +447,17 @@ PROMPTS = {
         {'note': 'For the checker bot.', 'text': "You are the checker for this email. Review the draft before anything can go out. Do not send it. Flag problems and hold it if it isn't ready. It only goes out after I approve the send. Nothing goes out on a bot's say-so alone. Fast draft, slow send."},
     ],
     'scheduled-pack-and-gates': [
-        {'note': 'For the morning pack.', 'text': 'You run the morning pack. Write the draft of the work for the day. Do not publish or send it. Scheduled prompts are useful; publishing with no gate is not. Later gates will check the work, and I still approve, before anything can go out.'},
-        {'note': 'For a later gate.', 'text': 'You are a later gate on scheduled work. Check the draft at the time I scheduled you. Catch problems before anything can go out. Do not publish or send. I still approve. A schedule without a review is not a reason to let work go out.'},
+        {'note': 'For the daily news writer.', 'text': 'You write the daily news post on the schedule I set. Do not publish it yourself. The draft has to pass the automated gate first: sources re-checked, links returning 200, no placeholders, and a hook line the post actually delivers. Scheduled prompts are useful; publishing with no gate is not.'},
+        {'note': 'For the automated gate.', 'text': 'You are the automated gate for the daily news post. Re-check the sources, confirm every link returns 200, reject placeholders, and confirm the first line is a hook the post delivers. If it fails, hold it. If it passes, it can publish to the site and X. This gate is only for the daily news post. Sends, spending, and other public posts still wait for my OK.'},
+    ],
+    'open-with-a-hook-line': [
+        {'text': 'Every post you draft opens with a hook line: a true, specific first line, ideally with a real number or payoff, that the rest of the post actually delivers. No clickbait. If the post cannot pay off the hook, change the line, not the facts. Never use a number you cannot point to.'},
+    ],
+    'turn-lessons-into-posts': [
+        {'text': 'When we adopt a lesson or improvement for ourselves, write it up as a post so other people can learn it. Use real before-and-after examples from our own files, quoted word for word. Do not invent numbers or stories. The post goes through the same automated gate as the daily news before it can publish.'},
+    ],
+    'recheck-after-late-edits': [
+        {'text': 'A review only covers the version you checked. If the file is edited after you pass it, the pass no longer applies. Re-check the file after any late edit, and do not let it go out until that new pass is done.'},
     ],
 }
 
@@ -585,14 +663,46 @@ PROS_CONS = {
     },
     "scheduled-pack-and-gates": {
         "pros": [
-            "I get a morning pack without publishing anything.",
-            "Later gates catch problems before anything can go out.",
-            "I still approve.",
+            "Daily news can go out on schedule after a real gate, without me tapping send.",
+            "The gate re-checks sources, link status, placeholders, and the hook line.",
+            "Sends, spending, and other public posts still wait for my OK.",
         ],
         "cons": [
-            "A schedule without a review window just publishes mistakes on time.",
-            "I have to be there for the approval, or the work sits.",
-            "The pack only helps if I actually read it.",
+            "A schedule without a gate is just a way to publish mistakes on time.",
+            "If the gate is weak, a bad news post can still go out.",
+            "The gate only covers the version it reviewed, so a late edit needs another pass.",
+        ],
+    },
+    "open-with-a-hook-line": {
+        "pros": [
+            "The first line makes a concrete claim the rest of the post has to pay off.",
+            "A real number or payoff is easier to check than a vague opener.",
+            "I can point at the 7 rewrites, not a made-up example.",
+        ],
+        "cons": [
+            "Every hook has to be checked for truth.",
+            "If the post can't deliver the line, I have to rewrite the opener, not dress up the facts.",
+        ],
+    },
+    "turn-lessons-into-posts": {
+        "pros": [
+            "Other people can learn the same lesson from a real example.",
+            "The post uses our own drafts, so nothing is invented.",
+            "It goes through the same automated gate as the daily news.",
+        ],
+        "cons": [
+            "You show your mistakes and late fixes in public.",
+            "A lesson post still has to wait on the gate, so it doesn't go out the second you learn it.",
+        ],
+    },
+    "recheck-after-late-edits": {
+        "pros": [
+            "What goes out is the version that actually passed.",
+            "A late correction can't ride on an earlier pass.",
+        ],
+        "cons": [
+            "Each late edit means another review round.",
+            "If I skip the re-check, a failed line can still go out.",
         ],
     },
 }
@@ -658,10 +768,10 @@ def tip_page(t, year):
 {crumbs(("Grok Bot Tips", "/tips/", False), (t["title"], path_of(t["slug"]), True))}
 {B.peek_h1(e(t["title"]), B.CHECKER_BOT)}
 {tip_date_html(t["slug"])}
-<p class="tip-body">{e(t["tip"])}</p>
+{paras(t["tip"], "tip-body")}
 {card_figure(t["slug"], t["alt"], CAPTIONS[t["slug"]], lazy=False)}
 <h2 class="how">How I did it</h2>
-<p class="how-body">{e(t["how"])}</p>
+{paras(t["how"], "how-body")}
 {tip_extras(t["slug"])}
 <nav class="tip-more" aria-label="More tips">
 <h2>More tips</h2>

@@ -147,11 +147,11 @@
     {
       "id": "scheduled-pack-and-gates",
       "date": "2026-11-12",
-      "title": "A morning pack, then gates, then I approve",
+      "title": "Daily news posts go out after a gate",
       "url": "/tips/scheduled-pack-and-gates/",
       "kind": "grok",
       "type": "tip",
-      "summary": "I run a morning pack routine, then later gates that check the work before it can go out. Scheduled prompts are useful. Publishing with no gate is not.",
+      "summary": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Everything else still waits for my OK.",
       "seq": 20,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },
@@ -231,6 +231,39 @@
       "summary": "People are using Claude Code to disable bloat and home-screen ad rows on Android and Google TVs over ADB. What it does, what it doesn't, and how to do it safely.",
       "seq": 1,
       "source": "Blog front matter date: 2026-10-19. First published in git commit ace6dcc on 2026-10-19 (America/Edmonton, UTC-6), \"Blog: publish 'Claude Code Android TV debloat' post\"."
+    },
+    {
+      "id": "open-with-a-hook-line",
+      "date": "2026-11-14",
+      "title": "Open every post with a hook line",
+      "url": "/tips/open-with-a-hook-line/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "On Nov 14 I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line the post delivers.",
+      "seq": 3,
+      "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
+    },
+    {
+      "id": "turn-lessons-into-posts",
+      "date": "2026-11-14",
+      "title": "Turn lessons into posts",
+      "url": "/tips/turn-lessons-into-posts/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "On Nov 14, the hook-line rule became a lesson post that goes through the same automated gate as my daily news.",
+      "seq": 2,
+      "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
+    },
+    {
+      "id": "recheck-after-late-edits",
+      "date": "2026-11-14",
+      "title": "Re-check after late edits",
+      "url": "/tips/recheck-after-late-edits/",
+      "kind": "grok",
+      "type": "tip",
+      "summary": "On Nov 14, Day 12 and Day 14 copy was corrected after the first review, then went back to the checker. A pass only covers the version it reviewed.",
+      "seq": 1,
+      "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
     }
   ]
 }
