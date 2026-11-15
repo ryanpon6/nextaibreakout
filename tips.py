@@ -28,7 +28,7 @@ TIPS = [
         "slug": "quality-checker-before-it-reaches-you",
         "title": "Quality Checker in front of you",
         "seo_title": "Quality Checker before it reaches you | NextAiBreakout",
-        "meta": "A Quality Checker bot reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead.",
+        "meta": "A Quality Checker bot reviews my bots' work before it reaches me. Public posts get a full review; daily news goes through an automated gate.",
         "tip": "A Quality Checker bot reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead. I don't want five versions of \"done.\" I want one reviewed answer. Who reviews work before it gets to you?",
         "how": "I added a fleet-wide Quality Checker that reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead. Small issues get cleaned up in that pass. Real risks get held. The rules live in a shared file the checker follows.",
         "alt": "Brand card comparing five dones with one checked result.",
@@ -326,7 +326,7 @@ BY_SLUG = {t["slug"]: t for t in TIPS}
 # Reasons are taken from that page's own tip text. Newest-first list stays below.
 START_HERE = (
     ("talk-to-one-lead-bot", "I talk to one lead bot, and it routes work to the specialists."),
-    ("drafts-only-approval", "Sends, spending and sign-ins still wait for my OK."),
+    ("drafts-only-approval", "My queued X tip posts go out on a schedule after my checker bot reviews them."),
     ("quality-checker-before-it-reaches-you", "A Quality Checker bot reviews work before it reaches me. Small issues get cleaned up, and real risks get held."),
     ("approve-spend-and-credentials", "Spending and credentials stay on a one-tap approval. I still press the button."),
     ("watch-usage-pause-routines", "I watch the meter and pause routines before they all crash."),
