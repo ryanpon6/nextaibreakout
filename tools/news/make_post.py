@@ -22,16 +22,12 @@ REQ = ("slug", "title", "description", "body_md", "related_tips", "x_main", "car
 def q(s): return '"' + str(s).replace("\\", "").replace('"', '\\"') + '"'
 
 def card_html(w, h, spec, story, date):
-    import datetime as dt
     posts = story.get("posts") or []
     src = next((p for p in posts if p["id"] == str(spec.get("card_source", ""))), posts[0] if posts else None)
     if src:
-        nice = dt.datetime.fromisoformat(src["created_at"].replace("Z", "+00:00")).astimezone(nc.MT).strftime("%b %-d, %Y")  # the cited post's date
-        credit = f"Source: @{R.e(src['user'])} on X · {nice}"
+        credit = f"Source: @{R.e(src['user'])} on X"
     else:
-        try: nice = dt.date.fromisoformat(str(date)).strftime("%b %-d, %Y")
-        except Exception: nice = str(date)
-        credit = f"Source: lessons we learned · {nice}"
+        credit = "Source: lessons we learned"
     big = w >= 1600; pad = 80 if big else 60
     hs = 76 if big else 54
     pts = "".join(f'<li style="margin:0 0 {14 if big else 8}px">{R.e(p)}</li>' for p in spec["card_points"][:3])

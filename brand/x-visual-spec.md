@@ -40,7 +40,7 @@ System TTFs used by the renderer: Syne, DM Sans and Gochi Hand under `/usr/share
 Draw them in flat colour, with ink outlines and hard shadows, the same way `bot()` / `bot_head()` do on the site. No photos of people. No domain name on an X card (the site OG image may show nextaibreakout.com).
 
 ## Card anatomy
-- **Tip brand cards (1200×675)** and **OG share crops (1200×630):** wordmark + topic pill, a paper cut-out (or a number / compare / before-after layout), footer "From my Grok Bot setup, Nov 2026". Same text as the previous teal cards; only the palette and type change.
+- **Tip brand cards (1200×675)** and **OG share crops (1200×630):** wordmark + topic pill, a paper cut-out (or a number / compare / before-after layout), footer "From my Grok Bot setup". Same text as the previous teal cards; only the palette and type change.
 - **X cards (1600×900):** wordmark + Day N pill, one Gochi Hand title, the tip line, a Pros card and a Cons card, then the same footer. Pros heading is blue; Cons heading is `--red-ink`. No question, no prompt, no domain, no people.
 - Pills are ochre fills with ink text, a 3px ink outline and a hard offset shadow.
 - Decorative ochre and sky shapes, and a dotted field, sit behind the type and must not cover it.

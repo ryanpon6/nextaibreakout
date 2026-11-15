@@ -19,7 +19,7 @@
       "url": "/tips/quality-checker-before-it-reaches-you/",
       "kind": "grok",
       "type": "tip",
-      "summary": "Every bot's work goes through a Quality Checker bot before it reaches me. I don't want five versions of \"done.\" I want one reviewed answer.",
+      "summary": "A Quality Checker bot reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead.",
       "seq": 8,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },
@@ -37,7 +37,7 @@
     {
       "id": "drafts-only-approval",
       "date": "2026-11-12",
-      "title": "Drafts only, then I approve",
+      "title": "Sends, spending and sign-ins wait for my OK",
       "url": "/tips/drafts-only-approval/",
       "kind": "grok",
       "type": "tip",

@@ -80,7 +80,7 @@ def bot(c="var(--red)", hr="", a="var(--och)", b="", big=False, size="64px"):
             f'<span class="bbody"><i class="barm l"></i><i class="barm r"></i></span></span>')
 
 LEAD = bot_head()
-FOOTER = "From my Grok Bot setup, Nov 2026"
+FOOTER = "From my Grok Bot setup"
 
 def screenshot(page_html, dest, w, h):
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as f:
@@ -193,7 +193,7 @@ TIPS = [
          title="Agent-to-agent handoffs"),
     dict(slug="drafts-only-approval", layout="quote", pill="Rule",
          quote="Sends, spending and sign-ins still wait for my OK.",
-         title="Drafts only, then I approve"),
+         title="Sends, spending and sign-ins wait for my OK"),
     dict(slug="shared-skills-across-bots", layout="quote", pill="Skills",
          quote="A skill is a reusable playbook, not a prompt I retype every morning.",
          title="Save working workflows as skills"),
@@ -205,7 +205,7 @@ TIPS = [
          title="Watch usage, then pause routines"),
     dict(slug="blabara-in-one-day", layout="bignum", pill="Built",
          number="1 day", label="Blabara, Android voice dictation.",
-         sub="Built with a Grok Bot team, Oct 16, 2026."),
+         sub="Built with a Grok Bot team."),
     dict(slug="group-chat-per-project", layout="quote", pill="Teams",
          quote="One channel, one job, then close it when the work is done.",
          title="One group chat per project"),
@@ -399,12 +399,12 @@ X_CARDS = [
          tip="I don't talk to my whole Grok Bot fleet. I talk to one lead bot, and it routes work to the specialists.",
          pro="One inbox, clear routing.", con="If the lead bot stalls, everything waits."),
     dict(day=2, title="Quality Checker in front of you",
-         tip="Every bot's work goes through a Quality Checker bot before it reaches me. I want one reviewed answer, not five versions of \"done.\"",
+         tip="A Quality Checker bot reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead. I want one reviewed answer, not five versions of \"done.\"",
          pro="Fewer bad handoffs to me.", con="Another hop, and it can hold work I wanted sooner."),
     dict(day=3, title="Agent-to-agent handoffs",
          tip="Specialists don't report to me. They hand work to each other with a clear output, and the lead bot brings me one result.",
          pro="Fewer pings.", con="A sloppy handoff can stall the chain, and I see it later."),
-    dict(day=4, title="Drafts only, then I approve",
+    dict(day=4, title="Sends, spending and sign-ins wait for my OK",
          tip="Sends, spending and sign-ins still wait for my OK. My queued X tip posts go out on a schedule after my checker bot reviews them.",
          pro="No surprise posts on my account.", con="Other work waits while I'm away, even if it's ready."),
     dict(day=5, title="Save working workflows as skills",
