@@ -38,10 +38,12 @@ for f in files:
     for m in re.finditer(r"-[\d.,]+[KM]? downloads|\b0 downloads/day", txt): F(rel, f"bad downloads figure {m.group(0)!r}")
     for m in re.finditer(r"\+[\d.,]+[KM]? [a-z/]+ total\b", txt): F(rel, f"plus sign on a total {m.group(0)!r}")
     if ndays < 7 and rel.endswith(".html"):
-        # Lesson posts quote our own drafts verbatim; "this week" in a blockquote or a
-        # Before:/After: example line is sourced, not a claim about the site's data window.
+        # Lesson and tip posts quote our own drafts verbatim; "this week" in a blockquote
+        # or a Before:/After: example block is sourced, not a claim about the site's data
+        # window. Scoped to those elements so a following "What changed:" line is still flagged
+        # (unlike a 120-character lookbehind).
         week_raw = re.sub(r"<blockquote\b.*?</blockquote>", " ", raw, flags=re.S | re.I)
-        week_raw = re.sub(r"<li\b[^>]*>\s*(?:Before|After):.*?</li>", " ", week_raw, flags=re.S | re.I)
+        week_raw = re.sub(r"<(li|p)\b[^>]*>(?:(?!</\1>).)*?\b(?:Before|After):.*?</\1>", " ", week_raw, flags=re.S | re.I)
         week_txt = html.unescape(re.sub(r"<[^>]+>", " ", week_raw))
         for m in re.finditer(r"\b(this|last) week\b|week's", week_txt, re.I): F(rel, f"'week' wording with only {ndays} days of data: {week_txt[max(0,m.start()-40):m.end()+20]!r}")
     # JSON-LD parses, and item pages' description matches the visible one

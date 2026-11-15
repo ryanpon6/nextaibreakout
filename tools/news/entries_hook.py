@@ -16,8 +16,7 @@ def to_entry(date, title, slug, topic, sources=(), summary=None):
     e = {"id": slug, "date": date, "title": title, "url": f"/blog/{slug}/", "kind": "claude" if topic == "claude" else "grok", "type": "news"}
     if summary: e["summary"] = summary  # the gated description (G7 checked its figures), never new text
     if sources and sources[0] == "lessons we learned":
-        ev = ", ".join(sources[1:])
-        e["source"] = "News post from the daily pipeline (lessons we learned)." + (f" Evidence: {ev}" if ev else "")
+        e["source"] = "News post from the daily pipeline (lessons we learned)."
     elif sources:
         e["source"] = "News post from the daily pipeline. Cited X posts: " + ", ".join(sources)
     return e

@@ -92,9 +92,7 @@ def main():
     import entries_hook   # tips-index integration point (homepage strips, /tips/, Claude index)
     if lesson:
         kind_topic = "claude" if str(story.get("kind") or "").lower() == "claude" else "grok"
-        ev = story.get("evidence") or spec.get("evidence") or []
-        evp = [e if isinstance(e, str) else (e or {}).get("file") or (e or {}).get("path") or "" for e in ev]
-        sources = ["lessons we learned"] + [x for x in evp if x]
+        sources = ["lessons we learned"]  # don't put internal evidence paths in the committed catalog entry
     else:
         kind_topic = story["topic"]
         sources = [p["url"] for p in cited]
