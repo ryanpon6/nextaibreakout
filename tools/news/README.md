@@ -5,8 +5,8 @@ One routine a day. Scripts do the fetching and checking; the AI only writes when
 | Step | File | AI? | What it does |
 |---|---|---|---|
 | 0 | routine agent | reads only | Grok Bot's public X tools (`x.search_news`, `x.search_posts_all`, `x.get_posts_by_ids`) -> `candidates-DATE.json` |
-| 1 | `fetch.py` | no | re-reads every post from X's public embed endpoint (no login, no X API spend), dedupes against `trend-log.md` and `blog/posts/`, 24h window, notability bar, Grok Bot before Claude. Exit 10 = quiet day, stop. |
-| 2 | routine agent | writes | `spec-DATE.json` (title, description, body, card text, X text) from `story-DATE.json` only |
+| 1 | `fetch.py` | no | re-reads every post from X's public embed endpoint (no login, no X API spend), dedupes against `trend-log.md` and `blog/posts/`, 24h window, notability bar, Grok Bot before Claude. If the X scan is quiet, or a queue item has `priority: true`, takes the oldest qc-PASS item from `news/lessons/` and writes both `story-DATE.json` and `spec-DATE.json` (topic `lesson`). Exit 10 only when both the X scan and the lesson queue are empty. |
+| 2 | routine agent | writes | `spec-DATE.json` (title, description, body, card text, X text) from `story-DATE.json` only. Skip this when fetch.py already wrote the spec from a lesson. The X text and the body must open with a hook line (G13). |
 | 3 | `make_post.py` | no | `blog/posts/DATE-slug.md` (kind: news), OG card `static/images/news/DATE-slug.png`, X card, `xpayload-DATE.json`, tips-index entry (`entries_hook.py`) |
 | 4 | `publish.py` | no | build, selfcheck, cjkcheck, `gate.py`, commit + push main (ff only), wrangler deploy, live 200 check, X post + link reply (`xnews.py`), ledger |
 
@@ -73,17 +73,34 @@ xnews.py 0 ok / 1 refused / 2 auth / 3 definite X failure / 4 UNKNOWN (check by 
 Keys: `slug`, `title`, `seo_title` (<= 60), `description` (<= 155), `keywords`, `note` (one short handwritten line),
 `card_headline`, `card_points` (1-3 short lines), `card_source` (post id credited on the card), `image_alt`,
 `related_tips` (2 slugs from `tips.TIPS`), `x_main` (<= 280 weighted, no links, must contain one verbatim quoted phrase of the key claim in quote marks), `body_md`.
+The X text (`x_main`) and the body (`body_md`) must open with a hook line: a true, specific first line with a real
+number or payoff that the post delivers, with the source's qualifiers kept, and no clickbait or questions (G13).
 In `body_md`: plain `##` subheads; quotes as `> exact post text ~ [Name (@user) on X, Mon D, YYYY](https://x.com/user/status/id)`;
 every quote verbatim, every number from a cited post with its ~/about qualifier kept, no "this week"/"last week" (selfcheck.py blocks it).
 
-## Gate (`gate.py`), proven by `selftest.py` (29 gate cases + 6 cost-log cases)
+## Gate (`gate.py`), proven by `selftest.py` (existing cases plus G13 and lesson cases; cost-log 6/6)
 G1 ledger · G2 tip-slot timing (re-checked again right before the X post) · G3 rule 19 · G4 rule 20 design ·
 G5 links 200 over HTTPS · G6 image · G7 claims (the gate re-fetches every cited post itself; quotes verbatim, the X
 post carries one verbatim quoted phrase, every source number keeps its 'up to' and '~'/'about' qualifiers in the title,
 SEO title/description, description, body, built page and its <title>/meta, X text, alt and card; "the team says"-style
-attribution must quote or link a post by an account in fetch.py's TEAM list) · G8 secrets · G9 SEO ·
-G10 X text (twitter-text weighting) · G11 privacy · G12 money/plans/policy hold. Details in the file header.
-The live check after deploy needs HTTP 200 and the post's title in the HTML.
+attribution must quote or link a post by an account in fetch.py's TEAM list; for a lesson source, G7 does not re-fetch
+X — it requires the qc PASS block and checks every quoted example verbatim against the listed evidence files) ·
+G8 secrets · G9 SEO · G10 X text (twitter-text weighting) · G11 privacy · G12 money/plans/policy hold ·
+G13 hook (rule 22: line 1 of the X main text and the page lede must be a true, specific hook with a figure, named
+product or company, dated event, or verbatim quote; no clickbait, no bare question; X first line at most about 120
+characters; a miss is a fail-closed gate failure, same path as the others, and still allows the one spec fix).
+Details in the file header. The live check after deploy needs HTTP 200 and the post's title in the HTML.
+
+## Lessons we learned (`news/lessons/`)
+Standing source when there is no new X story, or when a queue item has `"priority": true` (that item is posted
+ahead of an X story; the X story waits for tomorrow). Still one post a day under slot `nab-news-DATE` (G1).
+Queue folder: `/workspace/shared/nab-relaunch/news/lessons/` (`$NAB_NEWS_STATE/lessons/`). Each item is
+`LESSON-SLUG.json` in the same format as `spec-DATE.json`, plus `"source": "lesson"`,
+`"qc": {"verdict": "PASS", "by": "Quality Checker", "at": ISO time}`, `"evidence": [paths]`, and optional
+`"priority": true` and `"kind": "claude"` (otherwise catalog `kind` is `grok`; `type` is always `news`).
+Examples must be real, quoted from our own files, with those paths listed under `evidence`. After a successful
+post, `publish.py` moves the item to `lessons/posted/` (dry runs only print the move). A gate failure on a
+lesson uses the same fail-closed hold (exit 1, `autopost-issues.md`, one spec fix) as any other story.
 
 ## Tips-index hook
 `entries_hook.py` adds `{id: slug, date, title, url: /blog/slug/, kind, type: news, source}` to `catalog.json`

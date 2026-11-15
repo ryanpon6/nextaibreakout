@@ -7,14 +7,17 @@ Work   re-reads every post from X's public embed endpoint (no login, no X API sp
        verify, drops anything already in trend-log.md or an existing site post, applies the 24h window and a
        notability bar, and ranks Grok Bot stories above Claude stories.
 Output story-YYYY-MM-DD.json with the picked story and the verified post text the gate checks quotes against.
-Exit   0 = a story was picked (AI writes the post) · 10 = quiet day (stop, no AI) · 2 = bad input.
+       If the X scan is quiet, or a queue item has priority:true, a qc-PASS item from news/lessons/ is
+       written as both story-DATE.json and spec-DATE.json (topic "lesson") and this exits 0. A priority
+       lesson is posted ahead of an X story; the X story waits for tomorrow. Still one nab-news-DATE slot.
+Exit   0 = a story was picked (X or lesson) · 10 = quiet day (no X story and no qc-PASS lesson) · 2 = bad input.
 Cost   every run starts a fresh run record (news/metrics-DATE.json) with the agent's X read count
        (--x-reads N, or "x_reads" in the candidates file) and this script's embed fetches. A quiet day or bad
        input also appends its row to autopost-cost.jsonl here (dry runs: news/dryrun/).
 Usage  fetch.py [--date YYYY-MM-DD] [--candidates PATH] [--log-trends] [--x-reads N] [--dry-run]"""
 import argparse, datetime as dt, glob, json, os, re, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import nc
+import nc, lessons
 
 TEAM = {"elonmusk", "xai", "grok", "bot", "samsokolin", "mattyp", "poteto", "romanugarte_"}  # Elon + Grok Bot team accounts seen in real posts
 if os.getenv("NAB_DRYRUN") == "1" and os.getenv("NAB_NEWS_TEAM"):   # selftests only; live runs always use the list above
@@ -93,8 +96,19 @@ def run(a):
                        "score": sum(p["likes"] for p in posts), "posts": posts})
     for ln in log: print("  " + ln)
     if a.log_trends: append_trends(a.date, log, picked)
-    if not picked:
-        print("QUIET: no new notable Grok Bot or Claude story in the last 24h"); return done(nc.QUIET, "quiet")
+    qlog = []
+    queue = lessons.load_queue(qlog)
+    for ln in qlog: print("  " + ln)
+    choice, item = lessons.choose(picked, queue)
+    if choice == "quiet":
+        print("QUIET: no new notable Grok Bot or Claude story in the last 24h, and no qc-PASS lesson in the queue"); return done(nc.QUIET, "quiet")
+    if choice == "lesson":
+        path, obj = item
+        story_p, spec_p = lessons.emit(a.date, path, obj)
+        why = "priority lesson, X story waits for tomorrow" if obj.get("priority") and picked else "quiet X scan, oldest qc-PASS lesson"
+        print(f"LESSON {obj.get('slug')} ({why}) -> {story_p}")
+        print(f"SPEC already written from the queue (do not rewrite): {spec_p}")
+        return done(0)
     picked.sort(key=lambda s: (TOPIC_RANK[s["topic"]], -s["score"]))
     best = picked[0]; best.update(date=a.date, picked_at=nc.now().isoformat(), candidates_file=src)
     out = nc.path("story", a.date); nc.save(out, best)

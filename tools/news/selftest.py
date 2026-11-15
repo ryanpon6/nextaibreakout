@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Negative tests for gate.py: each case breaks one thing on a COPY of a passing build and expects that check to
 FAIL (or G12 to HOLD). Nothing here touches the real post, ledger, issues file, site or X. G7 re-fetches the cited
-posts from X's public embed endpoint in every case, so this needs network.
+posts from X's public embed endpoint in every X-story case, so those need network. Lesson cases and hook_cases do not.
 Usage  selftest.py --dist DIR --date YYYY-MM-DD   (the copy must pass the gate with G12 off)"""
 import argparse, json, os, re, shutil, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -45,6 +45,13 @@ def main():
         ("G11", "personal name", "page", end("<p>Thanks Gavin</p>"), [], False),
         ("G1", "already posted", "ledger", None, [], False),
         ("G2", "tip slot window", None, None, ["--at", f"{d} 06:30"], False),
+        ("G13", "clickbait you won't believe", "pay", lambda p: {**p, "main": {**p["main"], "text": _set_xhook(p["main"]["text"], "You won't believe what Grok Bot just did.")}}, [], False),
+        ("G13", "lede clickbait", "lede", lambda h: _set_lede(h, "You won't believe what happened to the plans."), [], False),
+        ("G13", "bare question", "pay", lambda p: {**p, "main": {**p["main"], "text": _set_xhook(p["main"]["text"], "Want more Grok Bot usage?")}}, [], False),
+        ("G13", "no concrete item", "pay", lambda p: {**p, "main": {**p["main"], "text": _set_xhook(p["main"]["text"], "Things are looking a little better today.")}}, [], False),
+        ("PASS", "lesson qc PASS + evidence", "lesson-ok", None, [], False),
+        ("G7", "lesson missing qc PASS", "lesson-noqc", None, [], False),
+        ("G7", "lesson example not in evidence", "lesson-badev", None, [], False),
     ]
     bad = 0
     for want, name, kind, fn, extra, hold in cases:
@@ -64,6 +71,19 @@ def main():
         elif kind == "both":  # forger edits the story file AND the page consistently; only the re-fetch can catch it
             nc.save(stp, tamper_story(nc.load(stp))); h = open(pp).read(); open(pp, "w").write(re.sub(r"(<blockquote><p>)You should get ~7%", r"\1You should get ~20%", h, count=1))
         elif kind == "ledger": open(ledger, "a").write(json.dumps({"date": d, "slot": nc.slot(d), "url": "https://x.com/ryanpon/status/1"}) + "\n")
+        elif kind == "lede":
+            new = fn(open(pp).read()); open(pp, "w").write(new)
+        elif kind and kind.startswith("lesson"):
+            ev = os.path.join(t, "evidence.txt")
+            st = nc.load(stp)
+            texts = "\n".join(x.get("text", "") for x in st.get("posts") or [])
+            if kind == "lesson-badev":
+                open(ev, "w").write("Usage went up ~7% and up to ~15% on routine runs, with no quoted examples.")
+            else:
+                open(ev, "w").write(texts)
+            qc = {"verdict": "HOLD" if kind == "lesson-noqc" else "PASS", "by": "Quality Checker", "at": "2026-11-14T17:00:00-06:00"}
+            st = {**st, "source": "lesson", "topic": "lesson", "evidence": [ev], "qc": qc}
+            nc.save(stp, st)
         nc.save(os.path.join(state, f"xpayload-{d}.json"), pay)
         env = {**os.environ, "NAB_NEWS_STATE": state, "NAB_LEDGER": ledger, "NAB_AUTOPOST_ISSUES": os.path.join(t, "issues.md"),
                "NAB_DRYRUN": "1", "NAB_NEWS_CONFIG": cfg, "PYTHONDONTWRITEBYTECODE": "1"}
@@ -80,7 +100,10 @@ def main():
         print(f"{'ok  ' if ok else 'MISS'} {want:4} {name:28} exit {r.returncode:<2} -> {shown[:120]}")
         shutil.rmtree(t, ignore_errors=True)
     cbad, cn = cost_cases(d, a.show_cost_row)
-    print(f"selftest: {len(cases) - bad}/{len(cases)} gate cases, {cn - cbad}/{cn} cost-log cases behaved as expected"); return 1 if bad or cbad else 0
+    hbad, hn = hook_cases()
+    lbad, ln = lesson_cases()
+    print(f"selftest: {len(cases) - bad}/{len(cases)} gate cases, {cn - cbad}/{cn} cost-log cases, {hn - hbad}/{hn} hook cases, {ln - lbad}/{ln} lesson cases behaved as expected")
+    return 1 if bad or cbad or hbad or lbad else 0
 
 POSTED_SIM = r"""
 import json, os, sys, time
@@ -135,6 +158,141 @@ def cost_cases(d, show):
     check("cost_report silent when empty", r1.returncode == 0 and r1.stdout == "" and r2.returncode == 0 and r2.stdout == "", "")
     shutil.rmtree(t, ignore_errors=True)
     return res.count(False), len(res)
+
+
+def _set_xhook(text, hook):
+    """Replace the first hook line of an X post, keeping the rest so G7/G10 still apply."""
+    text = text or ""
+    if re.search(r"\r?\n", text):
+        out, done = [], False
+        for ln in text.splitlines():
+            if not done and ln.strip():
+                out.append(hook); done = True
+            else:
+                out.append(ln)
+        return "\n".join(out)
+    parts = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)
+    return hook + ((" " + parts[1]) if len(parts) > 1 else "")
+
+def _set_lede(html, text):
+    """Replace the first non-meta <p> after <h1> so G13 sees a new page lede."""
+    m = re.search(r"<h1\b.*?</h1>", html, re.S | re.I)
+    start = m.end() if m else 0
+    for p in re.finditer(r"<p\b([^>]*)>(.*?)</p>", html[start:], re.S | re.I):
+        attrs = p.group(1)
+        cls = re.search(r'class="([^"]*)"', attrs)
+        if cls and re.search(r"\b(meta|dim|crumbs|note|stamp)\b", cls.group(1)):
+            continue
+        i, j = start + p.start(), start + p.end()
+        return html[:i] + f'<p>{text}</p>' + html[j:]
+    return html + f"<p>{text}</p>"
+
+def hook_cases():
+    """Unit tests for every G13 pass and fail path, no network and no page copy."""
+    sys.path.insert(0, HERE)
+    import gate
+    src = gate.nc.norm("You should get ~7% more usage out of your plan, and up to ~15% more on routine runs! Improvements to Grok Bot. On Nov 13, 2026 Sam said hello.")
+    names = ["Grok Bot", "Claude", "xAI", "Anthropic", "Grok", "Sam Sokolin"]
+    src_nums = {n for _, n in gate.num_hits(src)}
+    src_need = {}
+    for cls, n in gate.qual_hits(src):
+        src_need[n] = src_need.get(n, cls) & cls
+    def problems(line, x_limit=True):
+        return gate.hook_problems(line, "X main", src, names, src_need, src_nums, x_limit=x_limit)
+    long = "Grok Bot plans now stretch further for anyone who runs a lot of routines, and this opening line is deliberately over the hook limit."
+    cases = [
+        ("PASS", "figure + qualifiers", "Grok Bot plans now stretch about 7% further, up to about 15% on routines."),
+        ("PASS", "named product only", "Grok Bot shipped a quieter harness."),
+        ("PASS", "verbatim quote", '"You should get ~7% more usage out of your plan" landed today.'),
+        ("PASS", "dated event", "On Nov 13, 2026, the harness change shipped."),
+        ("PASS", "here's why not whole line", "Here's why Grok Bot plans got more room."),
+        ("FAIL", "empty", ""),
+        ("FAIL", "too long", long),
+        ("FAIL", "bare question", "Want more Grok Bot usage?"),
+        ("FAIL", "no concrete item", "Things are looking a little better today."),
+        ("FAIL", "you won't believe", "You won't believe what Grok Bot just did."),
+        ("FAIL", "this changes everything", "This changes everything for Grok Bot plans."),
+        ("FAIL", "game-changer", "Grok Bot just shipped a game-changer for plans."),
+        ("FAIL", "shocking", "Shocking news about Grok Bot plans."),
+        ("FAIL", "insane", "An insane Grok Bot update landed today."),
+        ("FAIL", "huge news", "Huge news for Grok Bot users today."),
+        ("FAIL", "mind-blowing", "A mind-blowing Grok Bot update landed."),
+        ("FAIL", "breaking:", "Breaking: Grok Bot plans now stretch further."),
+        ("FAIL", "wait for it", "Wait for it: Grok Bot plans just got more room."),
+        ("FAIL", "here's why whole line", "Here's why."),
+        ("FAIL", "emoji opener", "🚨 Grok Bot plans just got more room."),
+        ("FAIL", "all-caps", "Grok Bot plans just got a HUGE boost."),
+        ("FAIL", "ellipsis teaser", "Grok Bot plans just got more room..."),
+        ("FAIL", "invented figure", "Grok Bot plans now stretch 40% further."),
+        ("FAIL", "dropped qualifier", "Grok Bot plans now stretch 7% further, up to 15% on routines."),
+    ]
+    bad = 0
+    for want, name, line in cases:
+        got = problems(line)
+        if want == "FAIL" and name == "too long" and len(line) <= 120:
+            got = got + ["test setup: line was not over 120"]
+        ok = (want == "PASS" and not got) or (want == "FAIL" and got)
+        bad += not ok
+        shown = (got[0] if got else "PASS")[:100]
+        print(f"{'ok  ' if ok else 'MISS'} G13U {name:28} -> {shown}")
+    return bad, len(cases)
+
+def lesson_cases():
+    """Priority ordering, queue filtering, and moving a posted item to lessons/posted/. No network."""
+    sys.path.insert(0, HERE)
+    import lessons
+    t = tempfile.mkdtemp(prefix="nab-lesson-q-")
+    old = nc.STATE
+    nc.STATE = t
+    res = []
+    def check(name, ok, info=""):
+        res.append(ok); print(f"{'ok  ' if ok else 'MISS'} LSN  {name:28} {info}"[:170])
+    try:
+        qdir, pdir = lessons.queue_dir(), lessons.posted_dir()
+        os.makedirs(qdir, exist_ok=True)
+        def stub(slug, when, priority=False, verdict="PASS"):
+            obj = {
+                "slug": slug, "title": f"Lesson {slug}", "description": "A short lesson from our own drafts.",
+                "body_md": "Grok Bot taught us a hook rule.\n\n- Before: old line here.\n- After: new line here.\n\n## The rule we use\n\nBe specific.",
+                "related_tips": ["before-after-proof", "scripted-brand-cards"],
+                "x_main": 'We rewrote 7 lines. "old line here" became "new line here."',
+                "card_headline": "We rewrote 7 lines.", "card_points": ["A true hook", "From our drafts"],
+                "image_alt": "Card about rewriting first lines.", "note": "From our own drafts.",
+                "source": "lesson", "priority": priority,
+                "qc": {"verdict": verdict, "by": "Quality Checker", "at": when},
+                "evidence": [os.path.join(t, "ev.txt")],
+            }
+            path = os.path.join(qdir, f"{slug}.json")
+            nc.save(path, obj); return path, obj
+        open(os.path.join(t, "ev.txt"), "w").write("old line here\nnew line here\n7 lines\n")
+        a_p, a = stub("older-plain", "2026-11-01T08:00:00-06:00", False)
+        b_p, b = stub("newer-priority", "2026-11-10T08:00:00-06:00", True)
+        c_p, c = stub("no-pass", "2026-11-05T08:00:00-06:00", True, verdict="HOLD")
+        log = []
+        queue = lessons.load_queue(log)
+        slugs = [o["slug"] for _, o in queue]
+        check("queue drops no qc PASS", "no-pass" not in slugs and "older-plain" in slugs and "newer-priority" in slugs, f"queue={slugs} skip={log}")
+        choice, item = lessons.choose([{"key": "x-story"}], queue)
+        check("priority beats X story", choice == "lesson" and item and item[1]["slug"] == "newer-priority", f"{choice} {None if not item else item[1]['slug']}")
+        plain = [(p, o) for p, o in queue if not o.get("priority")]
+        choice, item = lessons.choose([{"key": "x-story"}], plain)
+        check("X wins when no priority", choice == "x" and item is None, str(choice))
+        choice, item = lessons.choose([], plain)
+        check("oldest lesson on quiet X", choice == "lesson" and item and item[1]["slug"] == "older-plain", f"{choice} {None if not item else item[1]['slug']}")
+        choice, item = lessons.choose([], [])
+        check("quiet when both empty", choice == "quiet" and item is None, str(choice))
+        # emit + archive
+        story_p, spec_p = lessons.emit("2026-11-15", a_p, a)
+        story = nc.load(story_p)
+        dest = lessons.archive(story, dry=True)
+        check("dry archive does not move", os.path.isfile(a_p) and dest and dest.endswith("older-plain.json"), dest or "")
+        dest = lessons.archive(story, dry=False)
+        check("posted item moves to posted/", (not os.path.isfile(a_p)) and dest and os.path.isfile(dest) and "/posted/" in dest.replace("\\\\", "/"), dest or "")
+    finally:
+        nc.STATE = old
+        shutil.rmtree(t, ignore_errors=True)
+    return res.count(False), len(res)
+
 
 if __name__ == "__main__":
     sys.exit(main())

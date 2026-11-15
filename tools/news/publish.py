@@ -22,7 +22,7 @@ Cost   every run appends one row to autopost-cost.jsonl (dry runs: news/dryrun/a
 Exit   0 done / nothing to do · 1 stopped (alert logged) · 20 held by G12"""
 import argparse, html, json, os, shlex, subprocess, sys, tempfile, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import nc
+import nc, lessons
 
 PROJECT = "nextaibreakout"
 PY = sys.executable
@@ -221,6 +221,11 @@ def _run(a, dry, rel, d):
     if rc: return fail("x-post", out.strip()[-300:], d)
     RUN["outcome"] = "posted"
     if dry: RUN["note"] = "dry run: nothing was posted"
+    try:
+        st = nc.load(nc.path("story", d))
+        lessons.archive(st, dry=dry)
+    except Exception as e:
+        print(f"[8b] lesson archive skipped ({e.__class__.__name__})")
     print(f"== {mode.strip()} DONE: {url}")
     return 0
 

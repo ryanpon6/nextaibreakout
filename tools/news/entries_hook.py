@@ -15,7 +15,11 @@ ENTRIES_FILE = os.getenv("NAB_ENTRIES", os.path.join(nc.ROOT, "catalog.json"))
 def to_entry(date, title, slug, topic, sources=(), summary=None):
     e = {"id": slug, "date": date, "title": title, "url": f"/blog/{slug}/", "kind": "claude" if topic == "claude" else "grok", "type": "news"}
     if summary: e["summary"] = summary  # the gated description (G7 checked its figures), never new text
-    if sources: e["source"] = "News post from the daily pipeline. Cited X posts: " + ", ".join(sources)
+    if sources and sources[0] == "lessons we learned":
+        ev = ", ".join(sources[1:])
+        e["source"] = "News post from the daily pipeline (lessons we learned)." + (f" Evidence: {ev}" if ev else "")
+    elif sources:
+        e["source"] = "News post from the daily pipeline. Cited X posts: " + ", ".join(sources)
     return e
 
 def register(date, title, slug, topic, sources=(), summary=None):

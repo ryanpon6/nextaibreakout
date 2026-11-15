@@ -5,7 +5,7 @@ Any failure exits 1, appends the reasons to autopost-issues.md, and publish.py s
 Checks (each prints PASS or FAIL):
   G1  ledger      slot nab-news-DATE is not already in posted.jsonl
   G2  timing      not within 60 min of a tip slot (9 AM, 1 PM, 6 PM Atlantic = 7 AM, 11 AM, 4 PM Edmonton today)
-  G3  rule19      no placeholder / TODO / TBD / coming soon / lorem / draft / not written yet / FIXME / {{ }} text,
+  G3  rule19      no placeholder / TODO / TBD / coming soon / lorem / DRAFT or [draft] or 'a draft' / not written yet / FIXME / {{ }} text,
                   no empty img src or alt, empty figure, link, heading, paragraph or list item
   G4  rule20      every token in DESIGN.md's table is in the built style.css with the same value; page uses the
                   site stylesheet, Syne font, peek title and prose layout; no retired teal/gold/off-white hex,
@@ -34,6 +34,22 @@ Checks (each prints PASS or FAIL):
                   touches money, pricing, plans, usage limits, billing or policy (keyword list below, or
                   "sensitive": true in the story file), the gate returns HELD (exit 20) instead of PASS.
                   publish.py then writes news/held-DATE.md and an alert, and waits for publish.py --release DATE.
+  G13 hook        rule 22: line 1 of the X main text and the page lede (first prose paragraph under the h1)
+                  must be a hook: not empty; the X first line is at most about 120 characters; not a bare
+                  question; and it contains at least one concrete item — a figure, a named product or company
+                  (Grok Bot, Claude, xAI, Anthropic, or a name that appears in the cited posts / evidence),
+                  a dated event, or a verbatim quoted phrase from a cited post or evidence file. Every figure
+                  in the hook must appear in the G7 sources, qualifiers kept. Fails on clickbait or hype,
+                  case-insensitive: you won't believe, this changes everything, game.?changer, shocking,
+                  insane, huge news, mind.?blowing, breaking:, wait for it, here's why (as the whole line),
+                  👀/🚨/🔥 openers, all-caps words of 4 or more letters (except known acronyms like AI, API, X),
+                  and ellipsis teasers ending in … or .... Fail closed: a miss is a gate failure (exit 1,
+                  nothing published, a line in autopost-issues.md) and still allows the one spec fix.
+  Lesson source   when story/spec source is "lesson", G7 does not re-fetch X. It requires the qc PASS block
+                  (verdict PASS, by, at) and checks every quoted example (Before:/After: lines, quoted
+                  phrases in the X main text, and blockquotes) verbatim against the listed evidence files
+                  (trailing punctuation may differ). Missing evidence fails closed. Other gates, including
+                  G13, still run. Same exit 1 / autopost-issues.md path as any other gate failure.
 Exit   0 pass · 1 fail (any failure wins over a hold) · 20 held by G12 only
 Usage  gate.py --dist DIR [--date YYYY-MM-DD] [--at "YYYY-MM-DD HH:MM"] [--no-log] [--release]"""
 import argparse, colorsys, datetime as dt, glob, html as H, json, os, re, struct, sys
@@ -42,7 +58,7 @@ import nc
 from fetch import TEAM
 
 RETIRED = ["#274043", "#1F3336", "#E0B84E", "#F5F1E8", "#E8C45A", "Archivo", "gold on teal"]
-R19 = re.compile(r"\b(placeholder|todo|tbd|coming soon|lorem|ipsum|draft|not written yet|fixme|xxx+|insert (?:link|image|here)|example coming)\b|\{\{|\}\}|\[\s*(?:link|image|tk)\s*\]", re.I)
+R19 = re.compile(r"\b(placeholder|todo|tbd|coming soon|lorem|ipsum|not written yet|fixme|xxx+|insert (?:link|image|here)|example coming)\b|\[draft\]|(?-i:\bDRAFT\b)|\b(?:this is a draft|still a draft|is a draft)\b|\{\{|\}\}|\[\s*(?:link|image|tk)\s*\]", re.I)
 URL_RE = re.compile(r"(https?://|www\.)|\b[a-z0-9-]+\.(com|ai|io|org|net|dev|app|co|xyz|gg|me|so|sh|ly|tv|info|us|ca)\b", re.I)  # xpost.py's rule
 SECRET_PATTERNS = [r"gh[pousr]_[A-Za-z0-9]{20,}", r"github_pat_[A-Za-z0-9_]{20,}", r"\bxai-[A-Za-z0-9]{20,}", r"\bsk-[A-Za-z0-9_-]{20,}",
                    r"AKIA[0-9A-Z]{16}", r"-----BEGIN [A-Z ]*PRIVATE KEY", r"Bearer\s+[A-Za-z0-9._~+/-]{20,}", r"AAAAAAAAAAAAAAAAAAAAA[A-Za-z0-9%]{20,}",
@@ -124,6 +140,119 @@ def quoted(text):
         s = (m.group(1) or m.group(2)).strip()
         if len(s.split()) >= 3: out.append(s)
     return out
+
+HOOK_MAX = 120
+HOOK_HYPE = re.compile(r"you won['’]t believe|this changes everything|game.?changer|shocking|\binsane\b|huge news|mind.?blowing|breaking:|wait for it", re.I)
+HOOK_WHY = re.compile(r"^\s*here['’]s why\.?\s*$", re.I)
+HOOK_EMOJI = re.compile(r"^[\s]*[👀🚨🔥]")
+HOOK_ELLIPSIS = re.compile(r"(?:…|\.{3,})\s*$")
+HOOK_DATE = re.compile(rf"\b{MONTH}\s+\d{{1,2}}(?:,\s*\d{{4}})?|\b\d{{1,2}}\s+{MONTH}(?:,?\s*\d{{4}})?|\b\d{{4}}-\d\d-\d\d\b")
+HOOK_BRANDS = ("Grok Bot", "Claude", "xAI", "Anthropic", "Grok")
+HOOK_ACRONYMS = frozenset({"HTML", "HTTP", "HTTPS", "JSON", "NASA", "YAML", "ASCII", "SMTP", "IMAP",
+                           "OPENAI", "LLMS", "AGIS", "ASIS", "RSS", "ATOM", "UTF8", "WEBP", "JPEG", "TIFF",
+                           "SVG", "PNG", "GUID", "UUID", "OAUTH", "OIDC", "SAML", "LDAP", "GRAPHQL", "GRPC"})
+
+def first_line(text):
+    """First hook line: the first non-empty line if the text has a newline, else the first sentence."""
+    raw = text or ""
+    if re.search(r"\r?\n", raw):
+        for ln in raw.splitlines():
+            if ln.strip(): return ln.strip()
+        return ""
+    raw = raw.strip()
+    if not raw: return ""
+    return re.split(r"(?<=[.!?])\s+", raw, maxsplit=1)[0].strip()
+
+def page_lede(main_h, body_md=""):
+    """First prose paragraph under the h1, skipping the date meta line and the lead image."""
+    rest = main_h or ""
+    m = re.search(r"<h1\b.*?</h1>", rest, re.S | re.I)
+    if m: rest = rest[m.end():]
+    for p in re.finditer(r"<p\b([^>]*)>(.*?)</p>", rest, re.S | re.I):
+        attrs, inner = p.group(1), p.group(2)
+        cls = re.search(r'class="([^"]*)"', attrs)
+        if cls and re.search(r"\b(meta|dim|crumbs|note|stamp)\b", cls.group(1)): continue
+        t = visible(inner)
+        if t: return t
+    body = re.split(r"\n##\s", (body_md or "").strip(), maxsplit=1)[0]
+    for para in re.split(r"\n\s*\n", body):
+        para = para.strip()
+        if not para or para.startswith("#"): continue
+        return re.sub(r"^[*_]{1,2}|[*_]{1,2}$", "", para).strip()
+    return ""
+
+def hook_names(story, extra=""):
+    names = list(HOOK_BRANDS)
+    for p in story.get("posts") or []:
+        if p.get("name"): names.append(str(p["name"]))
+        if p.get("user"): names.append(str(p["user"]))
+    out, seen = [], set()
+    for n in names:
+        n = n.strip()
+        if n and n.lower() not in seen:
+            seen.add(n.lower()); out.append(n)
+    return sorted(out, key=len, reverse=True)
+
+def is_lesson(story, spec=None):
+    spec = spec or {}
+    return story.get("source") == "lesson" or story.get("topic") == "lesson" or spec.get("source") == "lesson"
+
+def ev_norm(text):
+    return nc.norm(text or "")
+
+def in_evidence(needle, ev):
+    """True if the example appears verbatim in already-normalised evidence; trailing punct may differ."""
+    n = ev_norm(needle).strip().rstrip(".,;:?!")
+    return bool(n) and n in ev
+
+def lesson_examples(body, x_main, main_h=""):
+    """Quoted examples a lesson must source: Before:/After: lines, X-text quotes, and blockquotes."""
+    out = []
+    for m in re.finditer(r"(?im)^\s*[-*]\s*Before:\s*(.+?)\s*$", body or ""):
+        out.append(m.group(1).strip())
+    for m in re.finditer(r"(?im)^\s*[-*]\s*After:\s*(.+?)\s*$", body or ""):
+        out.append(m.group(1).strip())
+    out += quoted(x_main or "")
+    for m in re.finditer(r"<blockquote><p>(.*?)</p>", main_h or "", re.S):
+        qt = visible(m.group(1)).strip('"\u201c\u201d ')
+        if qt: out.append(qt)
+    return out
+
+def hook_problems(line, where, src_text, names, src_need, src_nums, x_limit=False):
+    """G13 failures for one hook line. Empty list = pass. src_text is already normalised."""
+    p = []
+    line = (line or "").strip()
+    if not line:
+        return [f"{where}: hook line is empty"]
+    if x_limit and len(line) > HOOK_MAX:
+        p.append(f"{where}: hook is {len(line)} characters, limit about {HOOK_MAX}")
+    if line.endswith("?"):
+        p.append(f"{where}: hook is a bare question")
+    if HOOK_HYPE.search(line):
+        p.append(f"{where}: clickbait/hype wording")
+    if HOOK_WHY.match(line):
+        p.append(f"{where}: hook is only \"here's why\"")
+    if HOOK_EMOJI.search(line):
+        p.append(f"{where}: hook opens with a hype emoji")
+    if HOOK_ELLIPSIS.search(line):
+        p.append(f"{where}: hook ends in an ellipsis teaser")
+    for w in re.findall(r"\b[A-Za-z]{4,}\b", line):
+        if w.isupper() and w not in HOOK_ACRONYMS:
+            p.append(f"{where}: all-caps word '{w}'"); break
+    has_quote = any(nc.norm(q) in src_text or in_evidence(q, src_text) for q in quoted(line))
+    has_name = any(re.search(r"(?<!\w)" + re.escape(n) + r"(?!\w)", line, re.I) for n in names)
+    has_date = bool(HOOK_DATE.search(line))
+    figs = num_hits(line)
+    if not (has_quote or has_name or has_date or figs):
+        p.append(f"{where}: hook has no figure, named product or company, dated event, or verbatim quote")
+    qnames = {"upto": "'up to'", "approx": "'~'/'about'"}
+    for _q, n in figs:
+        if n not in src_nums:
+            p.append(f"{where}: figure '{n}' is not in any cited source")
+    for cls, n in qual_hits(line):
+        for k in sorted(src_need.get(n, frozenset()) - cls):
+            p.append(f"{where}: figure '{n}' dropped the source's {qnames[k]} qualifier")
+    return p
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dist", required=True); ap.add_argument("--date", default=nc.today())
@@ -221,58 +350,98 @@ def main():
                       (f'"image": "{nc.SITE}{rel}"', "schema image"), (f'<img src="{rel}"', "lead img")):
         if pat not in page: p6.append(f"{what} does not point at {rel}")
     G.check("G6 image", p6)
-    # G7 claims: re-fetch every cited post here; never trust the text stored in the story file
-    p7 = []; srcs = {}
-    for p in story["posts"]:
-        v = nc.syndication(p["id"])
-        if not v or not v.get("user"): p7.append(f"post {p['id']} could not be re-fetched from X (fail closed)"); continue
-        if v["user"].lower() != str(p.get("user", "")).lower(): p7.append(f"post {p['id']} is by @{v['user']}, story file says @{p.get('user')}")
-        if nc.norm(v["text"]) != nc.norm(p.get("text", "")): p7.append(f"story file text for post {p['id']} differs from X (tampered or edited)")
-        srcs[p["id"]] = nc.norm(v["text"])
-    alltext = " ".join(srcs.values())
-    body = re.split(r"\n## Sources\n", md.split("\n---\n", 1)[-1])[0]
-    for m in re.finditer(r"<blockquote><p>(.*?)</p>(?:<cite>(.*?)</cite>)?</blockquote>", main_h, re.S):
-        qt = nc.norm(visible(m.group(1))).strip('"\u201c\u201d '); cite = m.group(2) or ""
-        ids = re.findall(r"/status/(\d+)", cite)
-        if not ids: p7.append(f"blockquote without a cited post link: '{qt[:50]}'"); continue
-        if ids[0] not in srcs: p7.append(f"blockquote cites unverified post {ids[0]}"); continue
-        if nc.norm(qt) not in srcs[ids[0]]: p7.append(f"blockquote not verbatim in post {ids[0]}: '{qt[:60]}'")
-    for qt in quoted(body.replace("\n>", "\n")) + quoted(pay["main"]["text"]) + quoted(cardtxt):
-        if nc.norm(qt) not in alltext: p7.append(f"quoted phrase not in any cited post: '{qt[:60]}'")
-    if not any(nc.norm(q) in alltext for q in quoted(pay["main"]["text"])):
-        p7.append("main X post has no verbatim quoted phrase (3+ words, in quote marks) of the key claim")
-    claim_txt = " ".join([spec["title"], spec["description"], spec.get("seo_title", ""), spec.get("seo_description", ""), re.sub(r"\]\([^)]*\)", "]", body), pay["main"]["text"], pay["main"].get("alt", ""), cardtxt])
-    src_hits = num_hits(alltext); src_q = {}
-    for q, n in src_hits: src_q.setdefault(n, set()).add(q)
-    for q, n in num_hits(claim_txt):
-        if n not in src_q: p7.append(f"figure '{n}' is not in any cited post")
-    # qualifiers: a class the source ALWAYS uses with a number must be kept on that number everywhere it appears
-    need = {}
-    for cls, n in qual_hits(alltext): need[n] = need.get(n, cls) & cls
-    head = " ".join(x for t in re.findall(r'<title>([^<]*)</title>|content="([^"]*)"', page[:max(page.find("<body"), 0)]) for x in t)
-    places = (("title", spec["title"]), ("SEO title", spec.get("seo_title", "")), ("description", spec["description"]),
-              ("SEO description", spec.get("seo_description", "")), ("body", re.sub(r"\]\([^)]*\)", "]", body)),
-              ("page", vis), ("page <title>/meta", H.unescape(head)), ("X main", pay["main"]["text"]), ("X reply", pay["reply"]["text"]),
-              ("image alt", pay["main"].get("alt", "")), ("card", cardtxt))
-    names = {"upto": "'up to'", "approx": "'~'/'about'"}
-    for where, txt in places:
-        for cls, n in qual_hits(txt):
-            for k in sorted(need.get(n, frozenset()) - cls):
-                p7.append(f"figure '{n}' in {where} dropped the source's {names[k]} qualifier")
-    # "the team says ...": the quoted or linked post in that sentence must be by a TEAM account
-    team_ids = {pid for pid, p in ((p["id"], p) for p in story["posts"]) if str(p.get("user", "")).lower() in TEAM and pid in srcs}
-    team_txt = " ".join(srcs[i] for i in team_ids)
-    for where, txt in places[:4] + (("body", body),) + places[7:]:
-        for m in TEAM_RE.finditer(txt):
-            a0 = max(txt.rfind(". ", 0, m.start()), txt.rfind("\n", 0, m.start())) + 1
-            ends = [i for i in (txt.find(". ", m.end()), txt.find("\n", m.end())) if i != -1]; sent = txt[a0:min(ends) if ends else len(txt)]
-            qs = quoted(sent); links = re.findall(r"(?:x|twitter)\.com/(\w+)/status/(\d+)", sent)
-            bad = [q for q in qs if nc.norm(q) not in team_txt] + [f"@{u}" for u, i in links if u.lower() not in TEAM]
-            if bad: p7.append(f"{where}: '{m.group(0)}' but {', '.join(x[:40] for x in bad)} is not from a TEAM account")
-            elif not qs and not links and not team_ids: p7.append(f"{where}: '{m.group(0)}' but no cited post is by a TEAM account")
-    for pid in set(re.findall(r"(?:x|twitter)\.com/\w+/status/(\d+)", md + page)):
-        if pid not in srcs: p7.append(f"links post {pid}, which was not verified")
-    G.check("G7 claims match cited posts", p7)
+    # G7 claims. X stories: re-fetch every cited post; never trust the story file text.
+    # Lessons: no X re-fetch. Require a qc PASS block and verbatim examples in evidence files.
+    p7 = []; srcs = {}; alltext = ""
+    lesson = is_lesson(story, spec)
+    if lesson:
+        qc = story.get("qc") or spec.get("qc") or {}
+        if not isinstance(qc, dict) or str(qc.get("verdict") or "").strip().upper() != "PASS":
+            p7.append("lesson is missing a qc PASS block")
+        else:
+            if not str(qc.get("by") or "").strip(): p7.append("lesson qc block is missing 'by'")
+            if not str(qc.get("at") or "").strip(): p7.append("lesson qc block is missing 'at'")
+        ev = story.get("evidence") or spec.get("evidence") or []
+        paths = [e if isinstance(e, str) else (e or {}).get("file") or (e or {}).get("path") for e in ev]
+        paths = [x for x in paths if x]
+        if not paths: p7.append("lesson has no evidence files")
+        chunks = []
+        for ep in paths:
+            if not os.path.isfile(str(ep)):
+                p7.append(f"evidence file missing: {ep}"); continue
+            try: chunks.append(open(ep, encoding="utf-8").read())
+            except Exception: p7.append(f"evidence file unreadable: {ep}")
+        alltext = " ".join(nc.norm(c) for c in chunks)
+        body = re.split(r"\n## Sources\n", md.split("\n---\n", 1)[-1])[0]
+        for ex in lesson_examples(body, pay["main"]["text"], main_h):
+            if not in_evidence(ex, alltext):
+                p7.append(f"quoted example not in any evidence file: '{ex[:60]}'")
+        claim_txt = " ".join([spec["title"], spec["description"], spec.get("seo_title", ""), spec.get("seo_description", ""),
+                              re.sub(r"\]\([^)]*\)", "]", body), pay["main"]["text"], pay["main"].get("alt", ""), cardtxt])
+        src_nums = {n for _q, n in num_hits(alltext)}
+        src_need = {}
+        for cls, n in qual_hits(alltext): src_need[n] = src_need.get(n, cls) & cls
+        qnames = {"upto": "'up to'", "approx": "'~'/'about'"}
+        for q, n in num_hits(claim_txt):
+            if n not in src_nums: p7.append(f"figure '{n}' is not in any evidence file")
+        for where, txt in (("title", spec["title"]), ("description", spec["description"]), ("body", body),
+                           ("X main", pay["main"]["text"]), ("card", cardtxt)):
+            for cls, n in qual_hits(txt):
+                for k in sorted(src_need.get(n, frozenset()) - cls):
+                    p7.append(f"figure '{n}' in {where} dropped the source's {qnames[k]} qualifier")
+        G.check("G7 lesson evidence and qc PASS", p7)
+    else:
+        for p in story["posts"]:
+            v = nc.syndication(p["id"])
+            if not v or not v.get("user"): p7.append(f"post {p['id']} could not be re-fetched from X (fail closed)"); continue
+            if v["user"].lower() != str(p.get("user", "")).lower(): p7.append(f"post {p['id']} is by @{v['user']}, story file says @{p.get('user')}")
+            if nc.norm(v["text"]) != nc.norm(p.get("text", "")): p7.append(f"story file text for post {p['id']} differs from X (tampered or edited)")
+            srcs[p["id"]] = nc.norm(v["text"])
+        alltext = " ".join(srcs.values())
+        body = re.split(r"\n## Sources\n", md.split("\n---\n", 1)[-1])[0]
+        for m in re.finditer(r"<blockquote><p>(.*?)</p>(?:<cite>(.*?)</cite>)?</blockquote>", main_h, re.S):
+            qt = nc.norm(visible(m.group(1))).strip('"\u201c\u201d '); cite = m.group(2) or ""
+            ids = re.findall(r"/status/(\d+)", cite)
+            if not ids: p7.append(f"blockquote without a cited post link: '{qt[:50]}'"); continue
+            if ids[0] not in srcs: p7.append(f"blockquote cites unverified post {ids[0]}"); continue
+            if nc.norm(qt) not in srcs[ids[0]]: p7.append(f"blockquote not verbatim in post {ids[0]}: '{qt[:60]}'")
+        for qt in quoted(body.replace("\n>", "\n")) + quoted(pay["main"]["text"]) + quoted(cardtxt):
+            if nc.norm(qt) not in alltext: p7.append(f"quoted phrase not in any cited post: '{qt[:60]}'")
+        if not any(nc.norm(q) in alltext for q in quoted(pay["main"]["text"])):
+            p7.append("main X post has no verbatim quoted phrase (3+ words, in quote marks) of the key claim")
+        claim_txt = " ".join([spec["title"], spec["description"], spec.get("seo_title", ""), spec.get("seo_description", ""), re.sub(r"\]\([^)]*\)", "]", body), pay["main"]["text"], pay["main"].get("alt", ""), cardtxt])
+        src_hits = num_hits(alltext); src_q = {}
+        for q, n in src_hits: src_q.setdefault(n, set()).add(q)
+        for q, n in num_hits(claim_txt):
+            if n not in src_q: p7.append(f"figure '{n}' is not in any cited post")
+        need = {}
+        for cls, n in qual_hits(alltext): need[n] = need.get(n, cls) & cls
+        head = " ".join(x for t in re.findall(r'<title>([^<]*)</title>|content="([^"]*)"', page[:max(page.find("<body"), 0)]) for x in t)
+        places = (("title", spec["title"]), ("SEO title", spec.get("seo_title", "")), ("description", spec["description"]),
+                  ("SEO description", spec.get("seo_description", "")), ("body", re.sub(r"\]\([^)]*\)", "]", body)),
+                  ("page", vis), ("page <title>/meta", H.unescape(head)), ("X main", pay["main"]["text"]), ("X reply", pay["reply"]["text"]),
+                  ("image alt", pay["main"].get("alt", "")), ("card", cardtxt))
+        names = {"upto": "'up to'", "approx": "'~'/'about'"}
+        for where, txt in places:
+            for cls, n in qual_hits(txt):
+                for k in sorted(need.get(n, frozenset()) - cls):
+                    p7.append(f"figure '{n}' in {where} dropped the source's {names[k]} qualifier")
+        team_ids = {pid for pid, p in ((p["id"], p) for p in story["posts"]) if str(p.get("user", "")).lower() in TEAM and pid in srcs}
+        team_txt = " ".join(srcs[i] for i in team_ids)
+        for where, txt in places[:4] + (("body", body),) + places[7:]:
+            for m in TEAM_RE.finditer(txt):
+                a0 = max(txt.rfind(". ", 0, m.start()), txt.rfind("\n", 0, m.start())) + 1
+                ends = [i for i in (txt.find(". ", m.end()), txt.find("\n", m.end())) if i != -1]; sent = txt[a0:min(ends) if ends else len(txt)]
+                qs = quoted(sent); links = re.findall(r"(?:x|twitter)\.com/(\w+)/status/(\d+)", sent)
+                bad = [q for q in qs if nc.norm(q) not in team_txt] + [f"@{u}" for u, i in links if u.lower() not in TEAM]
+                if bad: p7.append(f"{where}: '{m.group(0)}' but {', '.join(x[:40] for x in bad)} is not from a TEAM account")
+                elif not qs and not links and not team_ids: p7.append(f"{where}: '{m.group(0)}' but no cited post is by a TEAM account")
+        for pid in set(re.findall(r"(?:x|twitter)\.com/\w+/status/(\d+)", md + page)):
+            if pid not in srcs: p7.append(f"links post {pid}, which was not verified")
+        src_nums = {n for _q, n in num_hits(alltext)}
+        src_need = need
+        G.check("G7 claims match cited posts", p7)
+
     # G8 secrets
     p8 = []; scan = {"post md": md, "page": page, "x payload": json.dumps(pay), "spec": json.dumps(spec)}
     for k, txt in scan.items():
@@ -318,6 +487,14 @@ def main():
     for pat, what in ((r"landscape\s*specialists", "Landscape Specialists"), (r"\bgavin\b", "Gavin"), (r"[\w.+-]+@[\w-]+\.[\w.]+", "email address"), (r"\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b", "phone number")):
         if re.search(pat, vis + " " + " ".join(xtexts), re.I): p11.append(what)
     G.check("G11 privacy", p11)
+    # G13 hook (rule 22): first line of the X main text and the page lede
+    p13 = []
+    xhook = first_line(pay["main"]["text"])
+    lede = first_line(page_lede(main_h, body))
+    names = hook_names(story)
+    p13 += hook_problems(xhook, "X main", alltext, names, src_need, src_nums, x_limit=True)
+    p13 += hook_problems(lede, "page lede", alltext, names, src_need, src_nums, x_limit=False)
+    G.check("G13 hook", p13)
     # G12 per-post hold (money / pricing / plans / usage limits / billing / policy)
     cfg = nc.config(); G.held = []
     if cfg["hold_money_policy"]:

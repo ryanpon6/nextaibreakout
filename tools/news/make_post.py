@@ -8,6 +8,7 @@ Output blog/posts/DATE-slug.md (kind: news, status: published, per-post share ca
        $NAB_NEWS_STATE/xpayload-DATE.json (main post text, card, alt, reply link) for publish.py.
 The page goes through blog.py like every other post, so it gets the design, /blog/ listing, homepage
 "Latest posts", sitemap.xml, feed.xml, llms.txt, Article + Breadcrumb schema and the share card.
+x_main and body_md must already open with a hook line (G13); this script does not invent one.
 Usage  make_post.py [--date YYYY-MM-DD] [--spec PATH] [--story PATH]"""
 import argparse, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -22,12 +23,19 @@ def q(s): return '"' + str(s).replace("\\", "").replace('"', '\\"') + '"'
 
 def card_html(w, h, spec, story, date):
     import datetime as dt
-    src = next((p for p in story["posts"] if p["id"] == str(spec.get("card_source", ""))), story["posts"][0])
-    nice = dt.datetime.fromisoformat(src["created_at"].replace("Z", "+00:00")).astimezone(nc.MT).strftime("%b %-d, %Y")  # the cited post's date
+    posts = story.get("posts") or []
+    src = next((p for p in posts if p["id"] == str(spec.get("card_source", ""))), posts[0] if posts else None)
+    if src:
+        nice = dt.datetime.fromisoformat(src["created_at"].replace("Z", "+00:00")).astimezone(nc.MT).strftime("%b %-d, %Y")  # the cited post's date
+        credit = f"Source: @{R.e(src['user'])} on X · {nice}"
+    else:
+        try: nice = dt.date.fromisoformat(str(date)).strftime("%b %-d, %Y")
+        except Exception: nice = str(date)
+        credit = f"Source: lessons we learned · {nice}"
     big = w >= 1600; pad = 80 if big else 60
     hs = 76 if big else 54
     pts = "".join(f'<li style="margin:0 0 {14 if big else 8}px">{R.e(p)}</li>' for p in spec["card_points"][:3])
-    body = R.shapes("og" if not big else "default") + R.topbar(pad, 32 if big else 26, "Grok Bot news" if story["topic"] == "grokbot" else "Claude news", 22 if big else 18) + f"""
+    body = R.shapes("og" if not big else "default") + R.topbar(pad, 32 if big else 26, "Claude news" if (story.get("topic")=="claude" or story.get("kind")=="claude") else ("Lessons we learned" if story.get("source")=="lesson" or story.get("topic")=="lesson" else "Grok Bot news"), 22 if big else 18) + f"""
 <div style="position:absolute;right:{pad}px;bottom:{170 if big else 118}px">{R.bot(size="96px" if big else "70px")}</div>
 <div style="position:absolute;right:{pad + (150 if big else 110)}px;bottom:{176 if big else 124}px">{R.bot(c="var(--och)", hr="50% 50% .4em .4em", a="var(--blue)", big=True, size="78px" if big else "58px")}</div>
 <div style="position:absolute;left:{pad}px;right:{360 if big else 280}px;top:{170 if big else 120}px">
@@ -36,7 +44,7 @@ def card_html(w, h, spec, story, date):
   <ul class="paper" style="list-style:none;margin-top:{28 if big else 18}px;border-radius:22px;padding:{24 if big else 16}px {30 if big else 22}px {12 if big else 8}px;font-weight:700;font-size:{34 if big else 24}px;line-height:1.2;letter-spacing:-.02em;display:inline-block">{pts}</ul>
 </div>
 <div style="position:absolute;left:{pad}px;right:{pad}px;bottom:{44 if big else 36}px;border-top:3px solid var(--ink);padding-top:16px;display:flex;justify-content:space-between;font-size:{24 if big else 19}px;font-weight:500">
-  <span style="color:var(--mut)">Source: @{R.e(src["user"])} on X · {nice}</span><span style="font-family:Syne,sans-serif;font-weight:800">nextaibreakout.com</span>
+  <span style="color:var(--mut)">{credit}</span><span style="font-family:Syne,sans-serif;font-weight:800">nextaibreakout.com</span>
 </div>"""
     return R.wrap_page(w, h, body)
 
@@ -57,8 +65,9 @@ def main():
     og = os.path.join(nc.NEWS_IMG, f"{base}.png"); xc = os.path.join(xdir, f"{base}-x.png")
     R.screenshot(card_html(1200, 630, spec, story, a.date), og, 1200, 630)
     R.screenshot(card_html(1600, 900, spec, story, a.date), xc, 1600, 900)
-    cited = [p for p in story["posts"] if p["url"] in spec["body_md"]]
-    if not cited: print("SPEC: body_md must link at least one verified post URL"); return 2
+    lesson = story.get("source") == "lesson" or story.get("topic") == "lesson" or spec.get("source") == "lesson"
+    cited = [p for p in (story.get("posts") or []) if p.get("url") and p["url"] in spec["body_md"]]
+    if not cited and not lesson: print("SPEC: body_md must link at least one verified post URL"); return 2
     import datetime as dt
     when = lambda p: dt.datetime.fromisoformat(p["created_at"].replace("Z", "+00:00")).astimezone(nc.MT).strftime("%b %-d, %Y")
     src_md = "\n".join(f"- [{p.get('name') or p['user']} (@{p['user']}) on X]({p['url']}), {when(p)}" for p in cited)
@@ -78,7 +87,15 @@ def main():
            "main": {"text": spec["x_main"].strip(), "card": xc, "alt": spec["image_alt"]},
            "reply": {"text": REPLY_FMT.format(url=url)}}
     import entries_hook   # tips-index integration point (homepage strips, /tips/, Claude index)
-    ef = entries_hook.register(a.date, spec["title"], slug, story["topic"], [p["url"] for p in cited], spec["description"])
+    if lesson:
+        kind_topic = "claude" if str(story.get("kind") or "").lower() == "claude" else "grok"
+        ev = story.get("evidence") or spec.get("evidence") or []
+        evp = [e if isinstance(e, str) else (e or {}).get("file") or (e or {}).get("path") or "" for e in ev]
+        sources = ["lessons we learned"] + [x for x in evp if x]
+    else:
+        kind_topic = story["topic"]
+        sources = [p["url"] for p in cited]
+    ef = entries_hook.register(a.date, spec["title"], slug, kind_topic, sources, spec["description"])
     pay["entries_file"] = ef
     nc.save(nc.path("xpayload", a.date), pay)
     print(f"WROTE {mdp}\nWROTE {og}\nWROTE {xc}\nWROTE {nc.path('xpayload', a.date)}\nURL {url}")
