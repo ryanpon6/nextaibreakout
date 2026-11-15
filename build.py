@@ -436,6 +436,14 @@ def main():
         shutil.copy(blog_rss, os.path.join(DIST, "feed.xml"))
     if os.getenv("KIT") == "1":
         print("[build] KIT=1 is set, but NAB email sends are stopped and the form was not verified; signup is not injected")
+    # Google Analytics 4 (NextAiBreakout property). Injected into every built page, once.
+    GA = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-J7VKNV3DJ0"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J7VKNV3DJ0");</script>'
+    for root_, _, files in os.walk(DIST):
+        for fn in files:
+            if fn.endswith(".html"):
+                fp = os.path.join(root_, fn); h = open(fp, encoding="utf-8").read()
+                if "G-J7VKNV3DJ0" not in h and "</head>" in h:
+                    open(fp, "w", encoding="utf-8").write(h.replace("</head>", GA + "</head>", 1))
     print("built", DIST)
 
 # ---------------- Frontier Labs ----------------
