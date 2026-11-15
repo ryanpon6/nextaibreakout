@@ -264,6 +264,17 @@
       "summary": "On Nov 14, Day 12 and Day 14 copy was corrected after the first review, then went back to the checker. A pass only covers the version it reviewed.",
       "seq": 1,
       "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
+    },
+    {
+      "id": "hook-line-first",
+      "date": "2026-11-15",
+      "title": "We rewrote the first line of 7 posts. Here's what changed.",
+      "url": "/blog/hook-line-first/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "A new rule for every NextAiBreakout post: open with a true, specific hook line. Seven real before-and-after examples from our own drafts.",
+      "source": "News post from the daily pipeline (lessons we learned).",
+      "seq": 1
     }
   ]
 }
