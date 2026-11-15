@@ -30,7 +30,7 @@ TIPS = [
         "seo_title": "Quality Checker before it reaches you | NextAiBreakout",
         "meta": "A Quality Checker bot reviews my bots' work before it reaches me. Public posts get a full review; daily news goes through an automated gate.",
         "tip": "A Quality Checker bot reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead. I don't want five versions of \"done.\" I want one reviewed answer. Who reviews work before it gets to you?",
-        "how": "I added a fleet-wide Quality Checker that reviews my bots' work before it reaches me. Public posts and anything risky get the full review; daily news posts go through an automated gate instead. Small issues get cleaned up in that pass. Real risks get held. The rules live in a shared file the checker follows.",
+        "how": "Small issues get cleaned up in that pass. Real risks get held. The rules live in a shared file the checker follows.",
         "alt": "Brand card comparing five dones with one checked result.",
         "slot": "A compare card: five dones versus one checked result.",
         "section": "quality",

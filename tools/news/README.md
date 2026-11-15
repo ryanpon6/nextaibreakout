@@ -78,7 +78,7 @@ number or payoff that the post delivers, with the source's qualifiers kept, and 
 In `body_md`: plain `##` subheads; quotes as `> exact post text ~ [Name (@user) on X, Mon D, YYYY](https://x.com/user/status/id)`;
 every quote verbatim, every number from a cited post with its ~/about qualifier kept, no "this week"/"last week" (selfcheck.py blocks it).
 
-## Gate (`gate.py`), proven by `selftest.py` (existing cases plus G13 and lesson cases; cost-log 6/6)
+## Gate (`gate.py`), proven by `selftest.py` (existing cases plus G13, G14 and lesson cases; cost-log 6/6)
 G1 ledger · G2 tip-slot timing (re-checked again right before the X post) · G3 rule 19 · G4 rule 20 design ·
 G5 links 200 over HTTPS · G6 image · G7 claims (the gate re-fetches every cited post itself; quotes verbatim, the X
 post carries one verbatim quoted phrase, every source number keeps its 'up to' and '~'/'about' qualifiers in the title,
@@ -88,7 +88,9 @@ X — it requires the qc PASS block and checks every quoted example verbatim aga
 G8 secrets · G9 SEO · G10 X text (twitter-text weighting) · G11 privacy · G12 money/plans/policy hold ·
 G13 hook (rule 22: line 1 of the X main text and the page lede must be a true, specific hook with a figure, named
 product or company, dated event, or verbatim quote; no clickbait, no bare question; X first line and lede first sentence at most about 120
-characters; a miss is a fail-closed gate failure, same path as the others, and still allows the one spec fix).
+characters; a miss is a fail-closed gate failure, same path as the others, and still allows the one spec fix) ·
+G14 visible dates (Ryan's rule: no month-and-day, ISO or d/m/y date in the card kicker, card lines, X text, reply
+text or page prose; quote citations, JSON-LD, hidden <time> and the pipeline Sources list are exempt).
 Details in the file header. The live check after deploy needs HTTP 200 and the post's title in the HTML.
 
 ## Lessons we learned (`news/lessons/`)

@@ -57,6 +57,12 @@ def main():
         ("G3", "rule 19 'Draft:' label", "page", end("<p>Draft: final copy goes here</p>"), [], False),
         ("G3", "empty section heading", "page", end("<h2>Sources</h2>"), [], False),
         ("G13", "zero-width + emoji opener", "pay", lambda p: {**p, "main": {**p["main"], "text": _set_xhook(p["main"]["text"], "\u200b\U0001F92F Grok Bot plans now stretch about 7% further.")}}, [], False),
+        ("G14", "kicker From the Grok Bot team, Nov 13", "spec", lambda s: {**s, "note": "From the Grok Bot team, Nov 13"}, [], False),
+        ("G14", "card line month-and-day", "spec", lambda s: {**s, "card_points": list(s.get("card_points") or [])[:2] + ["Shipped Nov 13"]}, [], False),
+        ("G14", "X text ISO date", "pay", lambda p: {**p, "main": {**p["main"], "text": p["main"]["text"] + "\nPosted 2026-11-13."}}, [], False),
+        ("G14", "reply text date", "pay", lambda p: {**p, "reply": {**p["reply"], "text": "Posted Nov 13. " + p["reply"]["text"]}}, [], False),
+        ("G14", "page prose November 13", "page", end("<p>We shipped this on November 13, 2026.</p>"), [], False),
+        ("G14", "d/m/y in kicker", "spec", lambda s: {**s, "note": "Shipped 13/11/2026"}, [], False),
     ]
     bad = 0
     for want, name, kind, fn, extra, hold in cases:
@@ -111,9 +117,10 @@ def main():
         shutil.rmtree(t, ignore_errors=True)
     cbad, cn = cost_cases(d, a.show_cost_row)
     hbad, hn = hook_cases()
+    dbad, dn = date_cases()
     lbad, ln = lesson_cases()
-    print(f"selftest: {len(cases) - bad}/{len(cases)} gate cases, {cn - cbad}/{cn} cost-log cases, {hn - hbad}/{hn} hook cases, {ln - lbad}/{ln} lesson cases behaved as expected")
-    return 1 if bad or cbad or hbad or lbad else 0
+    print(f"selftest: {len(cases) - bad}/{len(cases)} gate cases, {cn - cbad}/{cn} cost-log cases, {hn - hbad}/{hn} hook cases, {dn - dbad}/{dn} date cases, {ln - lbad}/{ln} lesson cases behaved as expected")
+    return 1 if bad or cbad or hbad or dbad or lbad else 0
 
 POSTED_SIM = r"""
 import json, os, sys, time
@@ -258,6 +265,50 @@ def hook_cases():
         shown = (got[0] if got else "PASS")[:100]
         print(f"{'ok  ' if ok else 'MISS'} G13U {name:28} -> {shown}")
     return bad, len(cases)
+
+
+def date_cases():
+    """Unit tests for G14 visible-date detection and exemptions. No network and no page copy."""
+    sys.path.insert(0, HERE)
+    import gate
+    cite = "> You should get ~7% more usage! ~ [Sam Sokolin (@SamSokolin) on X, Nov 13, 2026](https://x.com/SamSokolin/status/1)"
+    sources = "## Sources\n\n- [Sam Sokolin (@SamSokolin) on X](https://x.com/x), Nov 13, 2026\n"
+    clean_spec = {
+        "note": "From the Grok Bot team.",
+        "card_headline": "Grok Bot plans now stretch a bit further",
+        "card_points": ["~7% more usage out of your plan", "Up to ~15% more on routine runs"],
+        "x_main": "Grok Bot plans now stretch about 7% further, up to about 15% on routines.",
+        "body_md": "Grok Bot plans now stretch about 7% further.\n\n" + cite + "\n\n" + sources,
+    }
+    html_clean = """<main><h1>T</h1><p class="meta"><time class="vh" datetime="2026-11-14"></time>NextAiBreakout</p>
+<p>Grok Bot plans now stretch about 7% further.</p>
+<blockquote><p>You should get ~7% more usage! ~ <a href="https://x.com/x">Sam Sokolin (@SamSokolin) on X, Nov 13, 2026</a></p></blockquote>
+<h2>Sources</h2><ul><li><a href="https://x.com/x">Sam Sokolin (@SamSokolin) on X</a>, Nov 13, 2026</li></ul>
+<script type="application/ld+json">{"datePublished":"2026-11-14"}</script>
+</main>"""
+    cases = [
+        ("PASS", "citation + sources only", clean_spec, None, ""),
+        ("PASS", "rendered citation + JSON-LD + hidden time", clean_spec, None, html_clean),
+        ("PASS", "Day 1 and Days 10 to 14", {**clean_spec, "note": "The Day 1 tip, Days 10 to 14."}, None, ""),
+        ("PASS", "month and year, no day", {**clean_spec, "note": "From my Grok Bot setup, Nov 2026"}, None, ""),
+        ("FAIL", "real Nov 14 kicker", {**clean_spec, "note": "From the Grok Bot team, Nov 13"}, None, ""),
+        ("FAIL", "November 13, 2026 in prose", {**clean_spec, "body_md": "We shipped this on November 13, 2026.\n\n" + cite}, None, ""),
+        ("FAIL", "ISO in X text", {**clean_spec, "x_main": clean_spec["x_main"] + " Posted 2026-11-13."}, None, ""),
+        ("FAIL", "d/m/y in kicker", {**clean_spec, "note": "Shipped 13/11/2026"}, None, ""),
+        ("FAIL", "card line month-and-day", {**clean_spec, "card_points": ["Shipped Nov 13"]}, None, ""),
+        ("FAIL", "reply text date", clean_spec, {"reply": {"text": "Posted Nov 13. Full story + sources: https://nextaibreakout.com/blog/x/"}, "main": {"text": clean_spec["x_main"]}}, ""),
+        ("FAIL", "13 November 2026", {**clean_spec, "note": "Shipped 13 November 2026"}, None, ""),
+        ("FAIL", "prose date in rendered page", clean_spec, None, html_clean.replace("Grok Bot plans now stretch about 7% further.", "On Nov 14 the team shipped a harness change.")),
+    ]
+    bad = 0
+    for want, name, spec, pay, page in cases:
+        got = gate.visible_date_problems(spec, pay, page)
+        ok = (want == "PASS" and not got) or (want == "FAIL" and got)
+        bad += not ok
+        shown = (got[0] if got else "PASS")[:100]
+        print(f"{'ok  ' if ok else 'MISS'} G14U {name:42} -> {shown}")
+    return bad, len(cases)
+
 
 def lesson_cases():
     """Priority ordering, queue filtering, and moving a posted item to lessons/posted/. No network."""

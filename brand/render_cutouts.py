@@ -181,7 +181,7 @@ def quote_size(text, canvas_w, is_og=False):
 # ---- tip brand cards (same copy as the teal renders) ----
 # layout: quote | bignum | compare | beforeafter
 TIPS = [
-    dict(slug="talk-to-one-lead-bot", layout="quote", pill="Day 1",
+    dict(slug="talk-to-one-lead-bot", layout="quote", pill="Lead",
          quote="I don't talk to my whole Grok Bot fleet. I talk to one lead bot, and it routes work to the specialists. If everyone can ping you, you just built a louder inbox. What's your lead bot actually in charge of?",
          title="Talk to one lead bot"),
     dict(slug="quality-checker-before-it-reaches-you", layout="compare", pill="Quality",

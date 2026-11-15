@@ -46,11 +46,17 @@ Checks (each prints PASS or FAIL):
                   👀/🚨/🔥 openers, all-caps words of 4 or more letters (except known acronyms like AI, API, X),
                   and ellipsis teasers ending in … or .... Fail closed: a miss is a gate failure (exit 1,
                   nothing published, a line in autopost-issues.md) and still allows the one spec fix.
+  G14 visibledate Ryan's no-visible-dates rule: fail if a month-and-day (Nov 13, November 13, 2026),
+                  ISO date (2026-11-13) or d/m/y pattern appears in the card kicker (spec note), card
+                  lines (headline and points), X main text, reply text or page prose. Exempt the quote
+                  citation format '~ [Name (@user) on X, Mon D, YYYY](url)', JSON-LD, hidden <time>,
+                  and the pipeline Sources list (same kind of attribution date). Bare years, "Day 1"
+                  and "Days 10 to 14" are not dates. Fail closed, same path as the other checks.
   Lesson source   when story/spec source is "lesson", G7 does not re-fetch X. It requires the qc PASS block
                   (verdict PASS, by, at, sha256 = lessons.content_hash of the spec and of the queue file, rule 23) and checks every quoted example (Before:/After: lines, quoted
                   phrases in the X main text, and blockquotes) verbatim against the listed evidence files
                   (trailing punctuation may differ). Missing evidence fails closed. Other gates, including
-                  G13, still run. Same exit 1 / autopost-issues.md path as any other gate failure.
+                  G13 and G14, still run. Same exit 1 / autopost-issues.md path as any other gate failure.
 Exit   0 pass · 1 fail (any failure wins over a hold) · 20 held by G12 only
 Usage  gate.py --dist DIR [--date YYYY-MM-DD] [--at "YYYY-MM-DD HH:MM"] [--no-log] [--release]"""
 import argparse, colorsys, datetime as dt, glob, html as H, json, os, re, struct, sys
@@ -156,6 +162,73 @@ HOOK_BRANDS = ("Grok Bot", "Claude", "xAI", "Anthropic", "Grok")
 HOOK_ACRONYMS = frozenset({"HTML", "HTTP", "HTTPS", "JSON", "NASA", "YAML", "ASCII", "SMTP", "IMAP",
                            "OPENAI", "LLMS", "AGIS", "ASIS", "RSS", "ATOM", "UTF8", "WEBP", "JPEG", "TIFF",
                            "SVG", "PNG", "GUID", "UUID", "OAUTH", "OIDC", "SAML", "LDAP", "GRAPHQL", "GRPC"})
+
+
+# G14: visible dates (Ryan's rule). Month+day, ISO, or d/m/y. Not bare years or "Day 1".
+VISIBLE_DATE = re.compile(
+    rf"\b{MONTH}\s+\d{{1,2}}(?:st|nd|rd|th)?(?!\d)(?:,\s*\d{{4}})?"
+    rf"|\b\d{{1,2}}(?:st|nd|rd|th)?\s+{MONTH}(?!\w)(?:,?\s*\d{{4}})?"
+    rf"|\b\d{{4}}-\d{{2}}-\d{{2}}\b"
+    rf"|\b\d{{1,2}}[./-]\d{{1,2}}[./-]\d{{2,4}}\b",
+    re.I,
+)
+# Quote citation: '~ [Name (@user) on X, Mon D, YYYY](url)' and the visible/HTML form after links unwrap.
+CITE_MD = re.compile(rf"~\s*\[[^\]\n]+ on X, {MONTH}\s+\d{{1,2}},\s*\d{{4}}\]\([^)]+\)", re.I)
+CITE_VIS = re.compile(rf"~\s*[^~\n\[\]]+ on X, {MONTH}\s+\d{{1,2}},\s*\d{{4}}", re.I)
+
+def strip_sources_md(text):
+    """Drop the pipeline ## Sources section so attribution dates are not flagged."""
+    return re.sub(r"(?im)^##\s+Sources\b.*?(?=^##\s|\Z)", "\n", text or "", flags=re.S)
+
+def strip_sources_html(h):
+    return re.sub(r"<h2[^>]*>\s*Sources\s*</h2>.*?(?=<h2\b|\Z)", " ", h or "", flags=re.S | re.I)
+
+def strip_date_exemptions(text, is_html=False):
+    """Remove citation format, Sources list, JSON-LD and hidden <time> before scanning for dates."""
+    t = text or ""
+    if is_html:
+        t = re.sub(r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>.*?</script>', " ", t, flags=re.S | re.I)
+        t = re.sub(r"<time\b[^>]*>.*?</time>", " ", t, flags=re.S | re.I)
+        t = strip_sources_html(t)
+        t = CITE_MD.sub(" ", t)
+        t = visible(t)
+        t = CITE_VIS.sub(" ", t)
+        return t
+    t = strip_sources_md(t)
+    t = CITE_MD.sub(" ", t)
+    t = CITE_VIS.sub(" ", t)
+    return t
+
+def date_hits(text):
+    return [m.group(0) for m in VISIBLE_DATE.finditer(text or "")]
+
+def visible_date_problems(spec, pay=None, page=""):
+    """G14 failures for a spec, optional X payload and optional built page. Empty list = pass."""
+    pay = pay or {}
+    problems = []
+    x_text = (pay.get("main") or {}).get("text") or spec.get("x_main") or ""
+    reply = (pay.get("reply") or {}).get("text") or ""
+    fields = [
+        ("card kicker", spec.get("note") or ""),
+        ("card headline", spec.get("card_headline") or ""),
+        ("card lines", "\n".join(spec.get("card_points") or [])),
+        ("X text", x_text),
+        ("reply text", reply),
+    ]
+    for where, raw in fields:
+        hits = date_hits(strip_date_exemptions(raw))
+        if hits:
+            problems.append(f"{where}: visible date {hits[0]!r}")
+    if page:
+        main_h = main_of(page)
+        hits = date_hits(strip_date_exemptions(main_h, is_html=True))
+        if hits:
+            problems.append(f"page prose: visible date {hits[0]!r}")
+    else:
+        hits = date_hits(strip_date_exemptions(spec.get("body_md") or ""))
+        if hits:
+            problems.append(f"page prose: visible date {hits[0]!r}")
+    return problems
 
 def first_line(text):
     """First hook line: the first non-empty line if the text has a newline, else the first sentence."""
@@ -541,6 +614,8 @@ def main():
     p13 += hook_problems(xhook, "X main", alltext, names, src_need, src_nums, x_limit=True, dates_ok=dates_ok)
     p13 += hook_problems(lede, "page lede", alltext, names, src_need, src_nums, x_limit=True, dates_ok=dates_ok)
     G.check("G13 hook", p13)
+    # G14 visible dates (Ryan's rule): card kicker/lines, X text, reply, page prose
+    G.check("G14 visible dates", visible_date_problems(spec, pay, page))
     # G12 per-post hold (money / pricing / plans / usage limits / billing / policy)
     cfg = nc.config(); G.held = []
     if cfg["hold_money_policy"]:
