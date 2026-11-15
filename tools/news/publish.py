@@ -224,8 +224,10 @@ def _run(a, dry, rel, d):
     try:
         st = nc.load(nc.path("story", d))
         lessons.archive(st, dry=dry)
-    except Exception as e:
-        print(f"[8b] lesson archive skipped ({e.__class__.__name__})")
+    except Exception as e:   # posted but not archived: the slug guard in lessons.py stops a repost; still tell CoS
+        print(f"[8b] lesson archive FAILED ({e.__class__.__name__}); slug guard blocks a repost")
+        try: nc.issue("lesson-archive", [f"posted, but the lesson queue item was not moved to lessons/posted/ ({e.__class__.__name__}); move it by hand"], d)
+        except Exception: pass
     print(f"== {mode.strip()} DONE: {url}")
     return 0
 

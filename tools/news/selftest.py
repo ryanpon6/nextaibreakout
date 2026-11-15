@@ -52,6 +52,11 @@ def main():
         ("PASS", "lesson qc PASS + evidence", "lesson-ok", None, [], False),
         ("G7", "lesson missing qc PASS", "lesson-noqc", None, [], False),
         ("G7", "lesson example not in evidence", "lesson-badev", None, [], False),
+        ("G7", "lesson edited after PASS", "lesson-edited", None, [], False),
+        ("G7", "lesson PASS has no sha256", "lesson-nosha", None, [], False),
+        ("G3", "rule 19 'Draft:' label", "page", end("<p>Draft: final copy goes here</p>"), [], False),
+        ("G3", "empty section heading", "page", end("<h2>Sources</h2>"), [], False),
+        ("G13", "zero-width + emoji opener", "pay", lambda p: {**p, "main": {**p["main"], "text": _set_xhook(p["main"]["text"], "\u200b\U0001F92F Grok Bot plans now stretch about 7% further.")}}, [], False),
     ]
     bad = 0
     for want, name, kind, fn, extra, hold in cases:
@@ -81,7 +86,12 @@ def main():
                 open(ev, "w").write("Usage went up ~7% and up to ~15% on routine runs, with no quoted examples.")
             else:
                 open(ev, "w").write(texts)
-            qc = {"verdict": "HOLD" if kind == "lesson-noqc" else "PASS", "by": "Quality Checker", "at": "2026-11-14T17:00:00-06:00"}
+            import lessons as LQ
+            qc = {"verdict": "HOLD" if kind == "lesson-noqc" else "PASS", "by": "Quality Checker", "at": "2026-11-14T17:00:00-06:00",
+                  "sha256": LQ.content_hash(nc.load(sp))}
+            if kind == "lesson-nosha": qc.pop("sha256")
+            if kind == "lesson-edited":   # an edit after the PASS (rule 23): same facts, one word changed
+                spx = nc.load(sp); spx["description"] = spx["description"] + " "; nc.save(sp, spx)
             st = {**st, "source": "lesson", "topic": "lesson", "evidence": [ev], "qc": qc}
             nc.save(stp, st)
         nc.save(os.path.join(state, f"xpayload-{d}.json"), pay)
@@ -225,6 +235,18 @@ def hook_cases():
         ("FAIL", "ellipsis teaser", "Grok Bot plans just got more room..."),
         ("FAIL", "invented figure", "Grok Bot plans now stretch 40% further."),
         ("FAIL", "dropped qualifier", "Grok Bot plans now stretch 7% further, up to 15% on routines."),
+        ("FAIL", "zero-width before emoji", "\u200b\U0001F6A8 Grok Bot plans just got more room."),
+        ("FAIL", "other emoji opener", "\U0001F92F Grok Bot plans just got more room."),
+        ("FAIL", "fullwidth caps", "Grok Bot plans got a \uff28\uff35\uff27\uff25 boost."),
+        ("FAIL", "homoglyph hype word", "Grok Bot: sh\u043ecking plan news."),
+        ("FAIL", "question + closing quote", 'Did Grok Bot plans get more room?"'),
+        ("FAIL", "question ?!", "Did Grok Bot plans get more room?!"),
+        ("FAIL", "ellipsis + closing quote", 'Grok Bot plans just got more room\u2026"'),
+        ("FAIL", "breaking without colon", "Breaking \u2014 Grok Bot plans got more room."),
+        ("FAIL", "wont believe, no apostrophe", "You wont believe what Grok Bot did."),
+        ("FAIL", "double-space hype", "You won't  believe what Grok Bot did."),
+        ("FAIL", "date not in sources", "On Nov 30, 2026, Grok Bot plans got more room."),
+        ("FAIL", "brand as lowercase verb", "grok this: things are better now."),
     ]
     bad = 0
     for want, name, line in cases:
@@ -262,12 +284,25 @@ def lesson_cases():
                 "qc": {"verdict": verdict, "by": "Quality Checker", "at": when},
                 "evidence": [os.path.join(t, "ev.txt")],
             }
+            obj["qc"]["sha256"] = lessons.content_hash(obj)
             path = os.path.join(qdir, f"{slug}.json")
             nc.save(path, obj); return path, obj
         open(os.path.join(t, "ev.txt"), "w").write("old line here\nnew line here\n7 lines\n")
         a_p, a = stub("older-plain", "2026-11-01T08:00:00-06:00", False)
         b_p, b = stub("newer-priority", "2026-11-10T08:00:00-06:00", True)
         c_p, c = stub("no-pass", "2026-11-05T08:00:00-06:00", True, verdict="HOLD")
+        e_p, e = stub("edited-after-pass", "2026-11-02T08:00:00-06:00", True); e["x_main"] += " Edited."; nc.save(e_p, e)
+        n_p, n = stub("no-sha", "2026-11-02T08:00:00-06:00", True); n["qc"].pop("sha256"); nc.save(n_p, n)
+        old_posts = nc.POSTS; nc.POSTS = os.path.join(t, "posts"); os.makedirs(nc.POSTS)
+        open(os.path.join(nc.POSTS, "2026-11-03-already-up.md"), "w").write("x")
+        stub("already-up", "2026-11-03T08:00:00-06:00", True)
+        log = []
+        queue = lessons.load_queue(log)
+        slugs0 = [o["slug"] for _, o in queue]
+        check("queue drops edit after PASS", "edited-after-pass" not in slugs0 and any("sha256 mismatch" in l for l in log), "")
+        check("queue drops PASS without sha", "no-sha" not in slugs0 and any("no sha256" in l for l in log), "")
+        check("queue drops posted slug", "already-up" not in slugs0 and any("already has a site post" in l for l in log), "")
+        for f in ("edited-after-pass", "no-sha", "already-up"): os.remove(os.path.join(qdir, f + ".json"))
         log = []
         queue = lessons.load_queue(log)
         slugs = [o["slug"] for _, o in queue]
@@ -290,6 +325,7 @@ def lesson_cases():
         check("posted item moves to posted/", (not os.path.isfile(a_p)) and dest and os.path.isfile(dest) and "/posted/" in dest.replace("\\\\", "/"), dest or "")
     finally:
         nc.STATE = old
+        nc.POSTS = locals().get("old_posts", nc.POSTS)
         shutil.rmtree(t, ignore_errors=True)
     return res.count(False), len(res)
 

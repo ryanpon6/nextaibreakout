@@ -87,20 +87,23 @@ attribution must quote or link a post by an account in fetch.py's TEAM list; for
 X — it requires the qc PASS block and checks every quoted example verbatim against the listed evidence files) ·
 G8 secrets · G9 SEO · G10 X text (twitter-text weighting) · G11 privacy · G12 money/plans/policy hold ·
 G13 hook (rule 22: line 1 of the X main text and the page lede must be a true, specific hook with a figure, named
-product or company, dated event, or verbatim quote; no clickbait, no bare question; X first line at most about 120
+product or company, dated event, or verbatim quote; no clickbait, no bare question; X first line and lede first sentence at most about 120
 characters; a miss is a fail-closed gate failure, same path as the others, and still allows the one spec fix).
 Details in the file header. The live check after deploy needs HTTP 200 and the post's title in the HTML.
 
 ## Lessons we learned (`news/lessons/`)
 Standing source when there is no new X story, or when a queue item has `"priority": true` (that item is posted
-ahead of an X story; the X story waits for tomorrow). Still one post a day under slot `nab-news-DATE` (G1).
+ahead of an X story; the X story is not logged as covered, so the next run can pick it if it is still inside the 24h window). Still one post a day under slot `nab-news-DATE` (G1).
 Queue folder: `/workspace/shared/nab-relaunch/news/lessons/` (`$NAB_NEWS_STATE/lessons/`). Each item is
 `LESSON-SLUG.json` in the same format as `spec-DATE.json`, plus `"source": "lesson"`,
-`"qc": {"verdict": "PASS", "by": "Quality Checker", "at": ISO time}`, `"evidence": [paths]`, and optional
+`"qc": {"verdict": "PASS", "by": "Quality Checker", "at": ISO time, "sha256": content hash}`, `"evidence": [paths]`, and optional
 `"priority": true` and `"kind": "claude"` (otherwise catalog `kind` is `grok`; `type` is always `news`).
 Examples must be real, quoted from our own files, with those paths listed under `evidence`. After a successful
 post, `publish.py` moves the item to `lessons/posted/` (dry runs only print the move). A gate failure on a
-lesson uses the same fail-closed hold (exit 1, `autopost-issues.md`, one spec fix) as any other story.
+lesson uses the same fail-closed hold (exit 1, `autopost-issues.md`) as any other story, but no spec fix: the
+`qc.sha256` content hash binds the PASS to the exact text (rule 23), so any edit after the PASS fails G7 and the
+queue skips the item until QC re-passes it (`python3 tools/news/lessons.py hash FILE` prints the hash). A lesson whose
+slug already has a `blog/posts/*-SLUG.md` file or a ledger row is skipped (no double post).
 
 ## Tips-index hook
 `entries_hook.py` adds `{id: slug, date, title, url: /blog/slug/, kind, type: news, source}` to `catalog.json`

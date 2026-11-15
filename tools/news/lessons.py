@@ -6,19 +6,53 @@ Posted  $NAB_NEWS_STATE/lessons/posted/   (moved here after a successful post)
 
 Each item uses the same keys as spec-DATE.json, plus:
   source:    "lesson"
-  qc:        {"verdict": "PASS", "by": "Quality Checker", "at": ISO time}
+  qc:        {"verdict": "PASS", "by": "Quality Checker", "at": ISO time, "sha256": content_hash(item)}
+             sha256 binds the PASS to the exact content (rule 23): any edit after the PASS, to any key
+             except "qc" and "priority", changes the hash and the item is skipped / fails G7 until QC
+             re-passes it. Print the hash with: python3 tools/news/lessons.py hash FILE
   evidence:  [paths to our own files the before/after examples are quoted from]
   priority:  optional bool — a priority item is posted ahead of an X story
-             (the X story waits for tomorrow; still one nab-news-DATE slot)
+             (the X story is not logged as covered, so the next run can pick it if it is still inside the 24h window; still one nab-news-DATE slot)
   kind:      optional "claude" or "grok" (default grok)
 
 fetch.py picks at most one item a day. Exit 10 only when the X scan is quiet
 and this queue has no qc-PASS item. The written spec-DATE.json is already
 Quality Checker passed: the routine must not rewrite it.
 """
-import os, re, sys
+import glob, hashlib, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nc
+
+HASH_SKIP = ("qc", "priority")   # scheduling + the PASS block itself; everything else is bound by the hash
+
+def content_hash(obj):
+    """sha256 of the item's content, canonical JSON, without the qc block and priority flag."""
+    body = {k: v for k, v in (obj or {}).items() if k not in HASH_SKIP}
+    return hashlib.sha256(json.dumps(body, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode("utf-8")).hexdigest()
+
+def hash_problem(obj, qc=None):
+    """'' if the qc block's sha256 matches the content, else the reason (fail closed)."""
+    qc = qc if isinstance(qc, dict) else (obj.get("qc") if isinstance(obj.get("qc"), dict) else {})
+    want = str(qc.get("sha256") or "").strip().lower()
+    if not re.fullmatch(r"[0-9a-f]{64}", want): return "qc block has no sha256 content hash (rule 23)"
+    if want != content_hash(obj): return "content changed after the qc PASS (sha256 mismatch, rule 23: needs a fresh QC pass)"
+    return ""
+
+def already_posted(obj):
+    """Reason string if this lesson's slug already has a site post or a ledger row (double-post guard)."""
+    slug = clean_slug(obj)
+    hits = glob.glob(os.path.join(nc.POSTS, f"*-{slug}.md"))
+    if hits: return f"slug '{slug}' already has a site post ({os.path.basename(hits[0])})"
+    url = f"{nc.SITE}/blog/{slug}/"
+    try:
+        for r in nc.ledger_rows():
+            if str(r.get("story_url") or r.get("url") or "").rstrip("/") == url.rstrip("/"): return f"slug '{slug}' already in the ledger ({r.get('slot')})"
+    except Exception as e:
+        return f"ledger unreadable ({e.__class__.__name__}); fail closed"
+    return ""
+
+def clean_slug(obj, path=""):
+    return re.sub(r"[^a-z0-9-]", "", str(obj.get("slug") or os.path.splitext(os.path.basename(path))[0]).lower()).strip("-")[:70] or "lesson"
 
 REQ = ("slug", "title", "description", "body_md", "related_tips", "x_main",
        "card_headline", "card_points", "image_alt", "note")
@@ -72,6 +106,10 @@ def valid(obj, path=""):
     miss = [k for k in REQ if not obj.get(k)]
     if miss: return "missing spec fields: " + ", ".join(miss)
     if not evidence_paths(obj): return "no evidence files"
+    why = hash_problem(obj)
+    if why: return why
+    why = already_posted(obj)
+    if why: return why
     return ""
 
 def load_queue(log=None):
@@ -106,7 +144,7 @@ def emit(date, path, obj):
     """Write story-DATE.json and spec-DATE.json from a queue item. Returns those paths."""
     spec = dict(obj)
     kind = "claude" if is_claude(obj) else "grok"
-    slug = re.sub(r"[^a-z0-9-]", "", str(obj.get("slug") or os.path.splitext(os.path.basename(path))[0]).lower()).strip("-")[:70] or "lesson"
+    slug = clean_slug(obj, path)
     story = {
         "key": slug, "topic": "lesson", "kind": kind, "source": "lesson",
         "headline": str(obj.get("title") or obj.get("card_headline") or "")[:200],
@@ -140,3 +178,6 @@ def archive(story, dry=False):
     os.rename(src, dest)
     print(f"[8b] lesson archived: {dest}")
     return dest
+
+if __name__ == "__main__" and len(sys.argv) == 3 and sys.argv[1] == "hash":
+    print(content_hash(nc.load(sys.argv[2])))

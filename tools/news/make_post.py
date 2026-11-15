@@ -72,6 +72,9 @@ def main():
     when = lambda p: dt.datetime.fromisoformat(p["created_at"].replace("Z", "+00:00")).astimezone(nc.MT).strftime("%b %-d, %Y")
     src_md = "\n".join(f"- [{p.get('name') or p['user']} (@{p['user']}) on X]({p['url']}), {when(p)}" for p in cited)
     if story.get("news_url"): src_md += f"\n- [X's news summary of the story]({story['news_url']})"
+    if lesson and not src_md.strip():   # rule 19: never ship an empty Sources section
+        src_md = "- Every before and after line is quoted word for word from our own queued X drafts for @ryanpon."
+    if not src_md.strip(): print("SPEC: Sources section would be empty"); return 2
     rel_md = "\n".join(f"- [{allt[s]}](/tips/{s}/)" for s in rel)
     fm = {"title": spec["title"], "description": spec["description"], "date": a.date, "status": "published", "slug": slug, "kind": "news",
           "story_key": story["key"], "image": img_rel, "image_alt": spec["image_alt"],

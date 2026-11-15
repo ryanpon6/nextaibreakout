@@ -5,7 +5,8 @@ Any failure exits 1, appends the reasons to autopost-issues.md, and publish.py s
 Checks (each prints PASS or FAIL):
   G1  ledger      slot nab-news-DATE is not already in posted.jsonl
   G2  timing      not within 60 min of a tip slot (9 AM, 1 PM, 6 PM Atlantic = 7 AM, 11 AM, 4 PM Edmonton today)
-  G3  rule19      no placeholder / TODO / TBD / coming soon / lorem / DRAFT or [draft] or 'a draft' / not written yet / FIXME / {{ }} text,
+  G3  rule19      no placeholder / TODO / TBD / coming soon / lorem / draft (only 'N. Draft, then check' and 'draft-then-check' allowed) / not written yet / FIXME / {{ }} text,
+                  no empty section (a heading straight followed by another heading or the end of the article),
                   no empty img src or alt, empty figure, link, heading, paragraph or list item
   G4  rule20      every token in DESIGN.md's table is in the built style.css with the same value; page uses the
                   site stylesheet, Syne font, peek title and prose layout; no retired teal/gold/off-white hex,
@@ -35,10 +36,10 @@ Checks (each prints PASS or FAIL):
                   "sensitive": true in the story file), the gate returns HELD (exit 20) instead of PASS.
                   publish.py then writes news/held-DATE.md and an alert, and waits for publish.py --release DATE.
   G13 hook        rule 22: line 1 of the X main text and the page lede (first prose paragraph under the h1)
-                  must be a hook: not empty; the X first line is at most about 120 characters; not a bare
-                  question; and it contains at least one concrete item — a figure, a named product or company
-                  (Grok Bot, Claude, xAI, Anthropic, or a name that appears in the cited posts / evidence),
-                  a dated event, or a verbatim quoted phrase from a cited post or evidence file. Every figure
+                  must be a hook: not empty; the X first line and the lede's first sentence are at most about 120 characters; not a bare
+                  question (trailing quotes ignored); NFKC, no zero-width/bidi characters, no mixed-script words, no emoji; and it contains at least one concrete item — a figure, a named product or company
+                  (Grok Bot, Claude, xAI, Anthropic, Grok, case-sensitive; or a cited post's author name/handle),
+                  a dated event (the date must be in the sources, a cited post's date or the run date), or a verbatim quoted phrase from a cited post or evidence file. Every figure
                   in the hook must appear in the G7 sources, qualifiers kept. Fails on clickbait or hype,
                   case-insensitive: you won't believe, this changes everything, game.?changer, shocking,
                   insane, huge news, mind.?blowing, breaking:, wait for it, here's why (as the whole line),
@@ -46,7 +47,7 @@ Checks (each prints PASS or FAIL):
                   and ellipsis teasers ending in … or .... Fail closed: a miss is a gate failure (exit 1,
                   nothing published, a line in autopost-issues.md) and still allows the one spec fix.
   Lesson source   when story/spec source is "lesson", G7 does not re-fetch X. It requires the qc PASS block
-                  (verdict PASS, by, at) and checks every quoted example (Before:/After: lines, quoted
+                  (verdict PASS, by, at, sha256 = lessons.content_hash of the spec and of the queue file, rule 23) and checks every quoted example (Before:/After: lines, quoted
                   phrases in the X main text, and blockquotes) verbatim against the listed evidence files
                   (trailing punctuation may differ). Missing evidence fails closed. Other gates, including
                   G13, still run. Same exit 1 / autopost-issues.md path as any other gate failure.
@@ -58,7 +59,10 @@ import nc
 from fetch import TEAM
 
 RETIRED = ["#274043", "#1F3336", "#E0B84E", "#F5F1E8", "#E8C45A", "Archivo", "gold on teal"]
-R19 = re.compile(r"\b(placeholder|todo|tbd|coming soon|lorem|ipsum|not written yet|fixme|xxx+|insert (?:link|image|here)|example coming)\b|\[draft\]|(?-i:\bDRAFT\b)|\b(?:this is a draft|still a draft|is a draft)\b|\{\{|\}\}|\[\s*(?:link|image|tk)\s*\]", re.I)
+R19 = re.compile(r"\b(placeholder|todo|tbd|coming soon|lorem|ipsum|draft|not written yet|fixme|xxx+|insert (?:link|image|here)|example coming)\b|\{\{|\}\}|\[\s*(?:link|image|tk)\s*\]", re.I)
+# Rule 19 stays a hard hold on "draft". Only these exact, sourced uses are blanked before the scan:
+# a numbered lesson heading "N. Draft, then check" and the phrase "draft-then-check" (a pipeline name in our drafts).
+R19_ALLOW = re.compile(r"(?m)(?:^|(?<=\s))\d+\.\s+Draft, then check\b|\bdraft-then-check\b")
 URL_RE = re.compile(r"(https?://|www\.)|\b[a-z0-9-]+\.(com|ai|io|org|net|dev|app|co|xyz|gg|me|so|sh|ly|tv|info|us|ca)\b", re.I)  # xpost.py's rule
 SECRET_PATTERNS = [r"gh[pousr]_[A-Za-z0-9]{20,}", r"github_pat_[A-Za-z0-9_]{20,}", r"\bxai-[A-Za-z0-9]{20,}", r"\bsk-[A-Za-z0-9_-]{20,}",
                    r"AKIA[0-9A-Z]{16}", r"-----BEGIN [A-Z ]*PRIVATE KEY", r"Bearer\s+[A-Za-z0-9._~+/-]{20,}", r"AAAAAAAAAAAAAAAAAAAAA[A-Za-z0-9%]{20,}",
@@ -142,10 +146,11 @@ def quoted(text):
     return out
 
 HOOK_MAX = 120
-HOOK_HYPE = re.compile(r"you won['’]t believe|this changes everything|game.?changer|shocking|\binsane\b|huge news|mind.?blowing|breaking:|wait for it", re.I)
-HOOK_WHY = re.compile(r"^\s*here['’]s why\.?\s*$", re.I)
-HOOK_EMOJI = re.compile(r"^[\s]*[👀🚨🔥]")
-HOOK_ELLIPSIS = re.compile(r"(?:…|\.{3,})\s*$")
+HOOK_HYPE = re.compile(r"you won'?t believe|this changes everything|game.?changer|shocking|\binsane\b|huge news|mind.?blowing|^breaking\b|\bbreaking:|wait for it|you need to (?:see|read|know)|nobody is talking about", re.I)
+HOOK_WHY = re.compile(r"^\s*here's why\.?\s*$", re.I)
+HOOK_EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\u203C\u2049\u3030\u303D\uFE0F]")   # any pictograph in line 1
+HOOK_ELLIPSIS = re.compile(r"(?:…|\.{3,}|(?:\.\s){2,}\.)\s*$")
+HOOK_TAIL = re.compile(r"[\s\"'\u201c\u201d\u2018\u2019\u00bb)\]]+$")
 HOOK_DATE = re.compile(rf"\b{MONTH}\s+\d{{1,2}}(?:,\s*\d{{4}})?|\b\d{{1,2}}\s+{MONTH}(?:,?\s*\d{{4}})?|\b\d{{4}}-\d\d-\d\d\b")
 HOOK_BRANDS = ("Grok Bot", "Claude", "xAI", "Anthropic", "Grok")
 HOOK_ACRONYMS = frozenset({"HTML", "HTTP", "HTTPS", "JSON", "NASA", "YAML", "ASCII", "SMTP", "IMAP",
@@ -218,30 +223,53 @@ def lesson_examples(body, x_main, main_h=""):
         if qt: out.append(qt)
     return out
 
-def hook_problems(line, where, src_text, names, src_need, src_nums, x_limit=False):
-    """G13 failures for one hook line. Empty list = pass. src_text is already normalised."""
-    p = []
-    line = (line or "").strip()
+def hook_clean(line):
+    """(clean line, problems): NFKC (fullwidth/compat letters), fail on invisible format characters and on
+    words that mix Latin with another script (homoglyphs), collapse whitespace, unify apostrophes."""
+    import unicodedata as U
+    raw = line or ""; p = []
+    if any(U.category(ch) == "Cf" for ch in raw):
+        p.append("invisible format character (zero-width / bidi) in the hook")
+    t = U.normalize("NFKC", raw).replace("\u2019", "'").replace("\u2018", "'")
+    t = re.sub(r"[\u200b-\u200f\u2060-\u2064\ufeff\u202a-\u202e]", "", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    for w in re.findall(r"\w+", t):
+        scripts = {U.name(ch, "X").split()[0] for ch in w if ch.isalpha()}
+        if "LATIN" in scripts and len(scripts) > 1: p.append(f"mixed-script word '{w}' (homoglyph?)"); break
+    return t, p
+
+def hook_problems(line, where, src_text, names, src_need, src_nums, x_limit=False, dates_ok=()):
+    """G13 failures for one hook line. Empty list = pass. src_text is already normalised.
+    dates_ok: (Mon, day) pairs a hook date may name besides dates found in src_text (cited post dates, run date)."""
+    line, pre = hook_clean(line)
+    p = [f"{where}: {x}" for x in pre]
     if not line:
-        return [f"{where}: hook line is empty"]
+        return p + [f"{where}: hook line is empty"]
     if x_limit and len(line) > HOOK_MAX:
         p.append(f"{where}: hook is {len(line)} characters, limit about {HOOK_MAX}")
-    if line.endswith("?"):
+    core = HOOK_TAIL.sub("", line)
+    if re.search(r"\?[!?.]*$", core):
         p.append(f"{where}: hook is a bare question")
     if HOOK_HYPE.search(line):
         p.append(f"{where}: clickbait/hype wording")
     if HOOK_WHY.match(line):
         p.append(f"{where}: hook is only \"here's why\"")
     if HOOK_EMOJI.search(line):
-        p.append(f"{where}: hook opens with a hype emoji")
-    if HOOK_ELLIPSIS.search(line):
+        p.append(f"{where}: hook has an emoji (keep line 1 plain)")
+    if HOOK_ELLIPSIS.search(core):
         p.append(f"{where}: hook ends in an ellipsis teaser")
     for w in re.findall(r"\b[A-Za-z]{4,}\b", line):
         if w.isupper() and w not in HOOK_ACRONYMS:
             p.append(f"{where}: all-caps word '{w}'"); break
     has_quote = any(nc.norm(q) in src_text or in_evidence(q, src_text) for q in quoted(line))
-    has_name = any(re.search(r"(?<!\w)" + re.escape(n) + r"(?!\w)", line, re.I) for n in names)
-    has_date = bool(HOOK_DATE.search(line))
+    # brands match case-sensitively ("Grok Bot", not the verb "grok"); cited authors' names/handles case-insensitively
+    has_name = any(re.search(r"(?<!\w)" + re.escape(n) + r"(?!\w)", line, 0 if n in HOOK_BRANDS else re.I) for n in names)
+    has_date = False
+    for m in HOOK_DATE.finditer(line):
+        md_ = re.search(rf"({MONTH})\s+(\d{{1,2}})|(\d{{1,2}})\s+({MONTH})", m.group(0))
+        key = ((md_.group(1) or md_.group(4))[:3].title(), int(md_.group(2) or md_.group(3))) if md_ else None
+        if (key and key in set(dates_ok)) or nc.norm(m.group(0)).lower() in src_text.lower(): has_date = True
+        else: p.append(f"{where}: date '{m.group(0)}' is not in any cited source or post date")
     figs = num_hits(line)
     if not (has_quote or has_name or has_date or figs):
         p.append(f"{where}: hook has no figure, named product or company, dated event, or verbatim quote")
@@ -285,7 +313,7 @@ def main():
     p19 = []
     for where, txt in (("page", vis), ("page head", " ".join(re.findall(r'<title>([^<]*)</title>|content="([^"]*)"', page[:page.find("<body")]) and [x for t in re.findall(r'<title>([^<]*)</title>|content="([^"]*)"', page[:page.find("<body")]) for x in t])),
                        ("x text", " ".join(xtexts)), ("card", cardtxt), ("title/description", spec["title"] + " " + spec["description"])):
-        for m in R19.finditer(txt): p19.append(f"{where}: '{m.group(0)}'")
+        for m in R19.finditer(R19_ALLOW.sub(" ", txt)): p19.append(f"{where}: '{m.group(0)}'")
     for m in re.finditer(r"<img\b[^>]*>", main_h):
         tag = m.group(0)
         if re.search(r'\bsrc=""|\bsrc\s*=\s*""', tag) or "src=" not in tag: p19.append("img with empty src")
@@ -294,6 +322,9 @@ def main():
         for m in re.finditer(rf"<{tag}\b[^>]*>(.*?)</{tag}>", main_h, re.S):
             if not visible(m.group(1)) and "<img" not in m.group(1) and "<svg" not in m.group(1) and "bhead" not in m.group(0): p19.append(f"empty <{tag}>")
     if re.search(r'href=""|href="#"', main_h): p19.append("empty link href")
+    for m in re.finditer(r"<h2\b[^>]*>((?:(?!</?h[1-6]\b).)*?)</h2>\s*(?=<h[12]\b|</article>|</main>|$)"
+                         r"|<h3\b[^>]*>((?:(?!</?h[1-6]\b).)*?)</h3>\s*(?=<h[1-3]\b|</article>|</main>|$)", main_h, re.S):
+        p19.append(f"empty section under heading '{visible(m.group(1) or m.group(2) or '')[:40]}'")
     G.check("G3 rule19 nothing unfinished", p19)
     # G4 rule 20 design
     p20 = []
@@ -361,6 +392,15 @@ def main():
         else:
             if not str(qc.get("by") or "").strip(): p7.append("lesson qc block is missing 'by'")
             if not str(qc.get("at") or "").strip(): p7.append("lesson qc block is missing 'at'")
+        import lessons as LQ   # rule 23: the PASS is bound to the exact content by sha256
+        why = LQ.hash_problem(spec, qc)
+        if why: p7.append(f"spec-{a.date}.json: {why}")
+        lf = story.get("lesson_file")
+        if lf and os.path.isfile(lf):
+            try:
+                why = LQ.hash_problem(nc.load(lf), qc)
+                if why: p7.append(f"queue file {os.path.basename(lf)}: {why}")
+            except Exception as e: p7.append(f"queue file {lf} unreadable ({e.__class__.__name__})")
         ev = story.get("evidence") or spec.get("evidence") or []
         paths = [e if isinstance(e, str) else (e or {}).get("file") or (e or {}).get("path") for e in ev]
         paths = [x for x in paths if x]
@@ -492,8 +532,14 @@ def main():
     xhook = first_line(pay["main"]["text"])
     lede = first_line(page_lede(main_h, body))
     names = hook_names(story)
-    p13 += hook_problems(xhook, "X main", alltext, names, src_need, src_nums, x_limit=True)
-    p13 += hook_problems(lede, "page lede", alltext, names, src_need, src_nums, x_limit=False)
+    dates_ok = set()
+    for d_ in [a.date] + [str(p.get("created_at") or "") for p in story.get("posts") or []]:
+        try:
+            x_ = dt.datetime.fromisoformat(d_.replace("Z", "+00:00")); x_ = x_.astimezone(nc.MT) if x_.tzinfo else x_
+            dates_ok.add((x_.strftime("%b"), x_.day))
+        except Exception: pass
+    p13 += hook_problems(xhook, "X main", alltext, names, src_need, src_nums, x_limit=True, dates_ok=dates_ok)
+    p13 += hook_problems(lede, "page lede", alltext, names, src_need, src_nums, x_limit=True, dates_ok=dates_ok)
     G.check("G13 hook", p13)
     # G12 per-post hold (money / pricing / plans / usage limits / billing / policy)
     cfg = nc.config(); G.held = []

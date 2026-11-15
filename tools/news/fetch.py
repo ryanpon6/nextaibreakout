@@ -9,7 +9,7 @@ Work   re-reads every post from X's public embed endpoint (no login, no X API sp
 Output story-YYYY-MM-DD.json with the picked story and the verified post text the gate checks quotes against.
        If the X scan is quiet, or a queue item has priority:true, a qc-PASS item from news/lessons/ is
        written as both story-DATE.json and spec-DATE.json (topic "lesson") and this exits 0. A priority
-       lesson is posted ahead of an X story; the X story waits for tomorrow. Still one nab-news-DATE slot.
+       lesson is posted ahead of an X story; the X story is not logged as covered, so the next run can pick it if it is still inside the 24h window. Still one nab-news-DATE slot.
 Exit   0 = a story was picked (X or lesson) · 10 = quiet day (no X story and no qc-PASS lesson) · 2 = bad input.
 Cost   every run starts a fresh run record (news/metrics-DATE.json) with the agent's X read count
        (--x-reads N, or "x_reads" in the candidates file) and this script's embed fetches. A quiet day or bad
@@ -95,17 +95,19 @@ def run(a):
                        "news_url": s.get("news_url") if str(s.get("news_url", "")).startswith("https://x.com/") else None,
                        "score": sum(p["likes"] for p in posts), "posts": posts})
     for ln in log: print("  " + ln)
-    if a.log_trends: append_trends(a.date, log, picked)
     qlog = []
     queue = lessons.load_queue(qlog)
     for ln in qlog: print("  " + ln)
     choice, item = lessons.choose(picked, queue)
+    if a.log_trends:   # a story deferred by a priority lesson is logged without its post URLs, so tomorrow can still pick it
+        append_trends(a.date, log + [f"deferred for a priority lesson (not covered): {s['key']}" for s in picked] if choice == "lesson" else log,
+                      [] if choice == "lesson" else picked)
     if choice == "quiet":
         print("QUIET: no new notable Grok Bot or Claude story in the last 24h, and no qc-PASS lesson in the queue"); return done(nc.QUIET, "quiet")
     if choice == "lesson":
         path, obj = item
         story_p, spec_p = lessons.emit(a.date, path, obj)
-        why = "priority lesson, X story waits for tomorrow" if obj.get("priority") and picked else "quiet X scan, oldest qc-PASS lesson"
+        why = "priority lesson, X story deferred" if obj.get("priority") and picked else "quiet X scan, oldest qc-PASS lesson"
         print(f"LESSON {obj.get('slug')} ({why}) -> {story_p}")
         print(f"SPEC already written from the queue (do not rewrite): {spec_p}")
         return done(0)
@@ -122,6 +124,7 @@ def append_trends(date, log, picked):
             for p in s["posts"][:3]: f.write(f"- {s['key']}: @{p['user']} {p['url']} ({p['likes']} likes)\n")
         for ln in log:
             if "skip" in ln: f.write(f"- seen, not used: {ln}\n")
+            elif ln.startswith("deferred"): f.write(f"- {ln}\n")
 
 if __name__ == "__main__":
     sys.exit(main())
