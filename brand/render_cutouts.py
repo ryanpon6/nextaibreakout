@@ -229,7 +229,7 @@ TIPS = [
          title="Daily news posts go out after a gate"),
     dict(slug="open-with-a-hook-line", layout="bignum", pill="Writing",
          number="7", label="First lines rewritten.",
-         sub="Days 10 to 14, and two weekly thread openers. Nov 14, 2026."),
+         sub="Days 10 to 14, and two weekly thread openers."),
     dict(slug="turn-lessons-into-posts", layout="compare", pill="Lessons",
          headline="A lesson becomes a post.",
          left_pill="We fixed it", right_pill="Now it's a post",
