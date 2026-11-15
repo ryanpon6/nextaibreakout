@@ -327,7 +327,7 @@ BY_SLUG = {t["slug"]: t for t in TIPS}
 START_HERE = (
     ("talk-to-one-lead-bot", "I talk to one lead bot, and it routes work to the specialists."),
     ("drafts-only-approval", "Sends, spending and sign-ins still wait for my OK."),
-    ("quality-checker-before-it-reaches-you", "Every bot's work goes through a Quality Checker before it reaches me."),
+    ("quality-checker-before-it-reaches-you", "A Quality Checker bot reviews work before it reaches me. Small issues get cleaned up, and real risks get held."),
     ("approve-spend-and-credentials", "Spending and credentials stay on a one-tap approval. I still press the button."),
     ("watch-usage-pause-routines", "I watch the meter and pause routines before they all crash."),
 )
