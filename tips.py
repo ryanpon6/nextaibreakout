@@ -52,10 +52,10 @@ TIPS = [
         "slug": "drafts-only-approval",
         "title": "Drafts only, then I approve",
         "seo_title": "Drafts only, then I approve | NextAiBreakout",
-        "meta": "Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears first.",
-        "tip": "Bots draft; I approve sends, spending and anything that goes public, except my daily news post, which an automated checker clears before it goes up. That's the rule that lets me run a fleet without waking up to a surprise on my account. What still goes out without you seeing it first?",
-        "how": "The rule is simple: no posts, no emails, no DMs, no spends unless I've approved them. The one exception is my daily news post: a script checks it against its sources before it goes up. Bots write drafts. I say yes. Another bot saying \"it's ready\" is not approval. That sounds slow. It isn't. It just means I sleep.",
-        "alt": "Brand card quoting the drafts-only rule: bots draft, and I approve before anything sends, spends or goes public, except my daily news post.",
+        "meta": "Sends, spending and sign-ins still wait for my OK. X tip posts go out after my checker bot reviews them. Daily news publishes after an automated gate.",
+        "tip": "Sends, spending and sign-ins still wait for my OK. My queued X tip posts go out on a schedule after my checker bot reviews them. Daily news posts publish once an automated gate passes them. That's the rule that lets me run a fleet without waking up to a surprise send or spend. What still goes out without you seeing it first?",
+        "how": "Sends, spending and sign-ins still wait for my OK. My queued X tip posts go out on a schedule after my checker bot reviews them. Daily news posts publish once an automated gate passes them, with no human or checker-bot review. Bots write drafts. Another bot saying \"it's ready\" is not approval for a send, a spend or a sign-in. My yes is the only approval on those.",
+        "alt": "Brand card quoting the drafts-only rule: sends, spending and sign-ins still wait for my OK.",
         "slot": "A quote card of the drafts-only rule.",
         "section": "approvals",
         "siblings": ["approve-spend-and-credentials", "bot-drafts-checker-reviews", "scheduled-pack-and-gates"],
@@ -172,9 +172,9 @@ TIPS = [
         "slug": "scheduled-pack-and-gates",
         "title": "Daily news posts go out after a gate",
         "seo_title": "Daily news posts go out after a gate | NextAiBreakout",
-        "meta": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Everything else still waits for my OK.",
-        "tip": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Everything else still waits for my OK. Scheduled prompts are useful. Publishing with no gate is not. When do you actually review what your routines produced?",
-        "how": "The 6:45 AM morning pack is retired. A scheduled routine writes each daily news post. An automated gate re-checks the sources, confirms the links return 200, and rejects placeholders and a missing hook line. Then the post publishes on the site and goes to X. Sends, spending, and other public posts still wait for my OK. A schedule without a gate is just a way to publish mistakes on time.",
+        "meta": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Sends, spending and sign-ins still wait for my OK.",
+        "tip": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Sends, spending and sign-ins still wait for my OK. Scheduled prompts are useful. Publishing with no gate is not. When do you actually review what your routines produced?",
+        "how": "The 6:45 AM morning pack is retired. A scheduled routine writes each daily news post. An automated gate re-fetches every cited X post and checks each quote and number against it, confirms every link returns 200, and rejects placeholders. Then the post publishes on the site and goes to X. My queued X tip posts go out on a schedule after my checker bot reviews them. Sends, spending and sign-ins still wait for my OK. A schedule without a gate is just a way to publish mistakes on time.",
         "alt": "Brand card quoting the scheduling rule: scheduled prompts are useful, publishing with no gate is not.",
         "slot": "A card of the checked-then-scheduled rule, with no clock times.",
         "section": "routines",
@@ -186,7 +186,7 @@ TIPS = [
         "seo_title": "Open every post with a hook line | NextAiBreakout",
         "meta": "On Nov 14 I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line the post delivers.",
         "tip": "On Nov 14 I rewrote the first line of 7 X drafts: Days 10 to 14 and two weekly thread openers. A hook is a true, specific first line, ideally with a real number or payoff, that the post actually delivers. No clickbait. What's the first line you'd fix on your feed?",
-        "how": """On Nov 14 I rewrote the first line of 7 unposted X drafts: Days 10 to 14, and the Week 1 and Week 2 thread openers. For most of them, only the first line changed. A few needed one more edit so the whole post stayed true.
+        "how": """On Nov 14 I rewrote the first line of 7 unposted X drafts: Days 10 to 14, and the Week 1 and Week 2 thread openers. In four of them, the opening post changed only its first line. The others needed more edits so the whole post stayed true.
 
 Here are the real first lines.
 
@@ -214,9 +214,9 @@ The rule I use now: lead with the most specific true thing in the post, a number
         "slug": "turn-lessons-into-posts",
         "title": "Turn lessons into posts",
         "seo_title": "Turn lessons into posts | NextAiBreakout",
-        "meta": "On Nov 14, the hook-line rule became a lesson post that goes through the same automated gate as my daily news.",
-        "tip": "On Nov 14, the hook-line rule became a lesson post that goes through the same automated gate as my daily news. When we adopt a lesson for ourselves, it also becomes a post so other people can learn it. Would you publish your bots' lessons?",
-        "how": "We adopted the hook-line rule on Nov 14, then I wrote it up as a lesson post with the real before-and-after first lines from our own drafts. That lesson goes through the same automated gate as the daily news: sources re-checked, links returning 200, no placeholders, and a hook line the post actually delivers. I want other people to be able to use what we just had to learn.",
+        "meta": "On Nov 14, I wrote the hook-line rule up as a lesson post, using real before-and-after lines from our drafts.",
+        "tip": "On Nov 14, I wrote the hook-line rule up as a lesson post. When we adopt a lesson for ourselves, it also becomes a post so other people can learn it. Would you publish your bots' lessons?",
+        "how": "We adopted the hook-line rule on Nov 14, then I wrote it up as a lesson post with the real before-and-after first lines from our own drafts. Its examples have to match our draft files word for word, and it gets a checker review before it goes out. I want other people to be able to use what we just had to learn.",
         "alt": "Brand card comparing a fix we adopted with the same lesson turned into a post.",
         "slot": "A compare card: we fixed it, now it's a post.",
         "section": "skills",
@@ -447,14 +447,14 @@ PROMPTS = {
         {'note': 'For the checker bot.', 'text': "You are the checker for this email. Review the draft before anything can go out. Do not send it. Flag problems and hold it if it isn't ready. It only goes out after I approve the send. Nothing goes out on a bot's say-so alone. Fast draft, slow send."},
     ],
     'scheduled-pack-and-gates': [
-        {'note': 'For the daily news writer.', 'text': 'You write the daily news post on the schedule I set. Do not publish it yourself. The draft has to pass the automated gate first: sources re-checked, links returning 200, no placeholders, and a hook line the post actually delivers. Scheduled prompts are useful; publishing with no gate is not.'},
-        {'note': 'For the automated gate.', 'text': 'You are the automated gate for the daily news post. Re-check the sources, confirm every link returns 200, reject placeholders, and confirm the first line is a hook the post delivers. If it fails, hold it. If it passes, it can publish to the site and X. This gate is only for the daily news post. Sends, spending, and other public posts still wait for my OK.'},
+        {'note': 'For the daily news writer.', 'text': 'You write the daily news post on the schedule I set. Do not publish it yourself. The draft has to pass the automated gate first: cited posts re-checked, links returning 200, and no placeholders. Open with a hook line the post actually delivers. Scheduled prompts are useful; publishing with no gate is not.'},
+        {'note': 'For the automated gate.', 'text': 'You are the automated gate for the daily news post. Re-fetch every cited post and check each quote and number against it, confirm every link returns 200, and reject placeholders. If it fails, hold it. If it passes, it can publish to the site and X. This gate is only for the daily news post. Sends, spending and sign-ins still wait for my OK.'},
     ],
     'open-with-a-hook-line': [
         {'text': 'Every post you draft opens with a hook line: a true, specific first line, ideally with a real number or payoff, that the rest of the post actually delivers. No clickbait. If the post cannot pay off the hook, change the line, not the facts. Never use a number you cannot point to.'},
     ],
     'turn-lessons-into-posts': [
-        {'text': 'When we adopt a lesson or improvement for ourselves, write it up as a post so other people can learn it. Use real before-and-after examples from our own files, quoted word for word. Do not invent numbers or stories. The post goes through the same automated gate as the daily news before it can publish.'},
+        {'text': 'When we adopt a lesson or improvement for ourselves, write it up as a post so other people can learn it. Use real before-and-after examples from our own files, quoted word for word. Do not invent numbers or stories. The post gets a checker review before it can publish.'},
     ],
     'recheck-after-late-edits': [
         {'text': 'A review only covers the version you checked. If the file is edited after you pass it, the pass no longer applies. Re-check the file after any late edit, and do not let it go out until that new pass is done.'},
@@ -554,9 +554,9 @@ PROS_CONS = {
     },
     "drafts-only-approval": {
         "pros": [
-            "Nothing sends or spends while I sleep.",
-            "I still see every email, DM, spend and post before it goes out, except my daily news post.",
-            "I can run a fleet without waking up to a surprise on my account.",
+            "Sends, spending and sign-ins still wait for my OK.",
+            "Queued X tip posts go out on a schedule after my checker bot reviews them.",
+            "Daily news posts publish once an automated gate passes them.",
         ],
         "cons": [
             "I have to actually approve, so work waits on me.",
@@ -664,8 +664,8 @@ PROS_CONS = {
     "scheduled-pack-and-gates": {
         "pros": [
             "Daily news can go out on schedule after a real gate, without me tapping send.",
-            "The gate re-checks sources, link status, placeholders, and the hook line.",
-            "Sends, spending, and other public posts still wait for my OK.",
+            "The gate re-checks cited posts, link status, and placeholders.",
+            "Sends, spending and sign-ins still wait for my OK.",
         ],
         "cons": [
             "A schedule without a gate is just a way to publish mistakes on time.",
@@ -688,11 +688,11 @@ PROS_CONS = {
         "pros": [
             "Other people can learn the same lesson from a real example.",
             "The post uses our own drafts, so nothing is invented.",
-            "It goes through the same automated gate as the daily news.",
+            "It gets a checker review before it goes out.",
         ],
         "cons": [
             "You show your mistakes and late fixes in public.",
-            "A lesson post still has to wait on the gate, so it doesn't go out the second you learn it.",
+            "A lesson post still waits for review, so it doesn't go out the second you learn it.",
         ],
     },
     "recheck-after-late-edits": {

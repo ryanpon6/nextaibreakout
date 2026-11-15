@@ -41,7 +41,7 @@
       "url": "/tips/drafts-only-approval/",
       "kind": "grok",
       "type": "tip",
-      "summary": "Bots draft; I approve sends, spending and anything that goes public. The one exception is my daily news post, which an automated checker clears first.",
+      "summary": "Sends, spending and sign-ins still wait for my OK. X tip posts go out after my checker bot reviews them. Daily news publishes after an automated gate.",
       "seq": 10,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },
@@ -151,7 +151,7 @@
       "url": "/tips/scheduled-pack-and-gates/",
       "kind": "grok",
       "type": "tip",
-      "summary": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Everything else still waits for my OK.",
+      "summary": "Daily news posts write, pass an automated gate, and go out to the site and X on a schedule. Sends, spending and sign-ins still wait for my OK.",
       "seq": 20,
       "source": "First added in git commit 803137e on 2026-11-12 (America/Halifax, UTC-4), \"Add /tips/ hub and 14 Grok Bot tip pages (preview only)\". tips.py also uses 2026-11-12 as the sitemap lastmod and draft day."
     },
@@ -250,7 +250,7 @@
       "url": "/tips/turn-lessons-into-posts/",
       "kind": "grok",
       "type": "tip",
-      "summary": "On Nov 14, the hook-line rule became a lesson post that goes through the same automated gate as my daily news.",
+      "summary": "On Nov 14, I wrote the hook-line rule up as a lesson post, using real before-and-after lines from our drafts.",
       "seq": 2,
       "source": "First published 2026-11-14 (America/Edmonton) on the tips-hooks branch."
     },
