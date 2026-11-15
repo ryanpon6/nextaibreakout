@@ -2,7 +2,7 @@
 
 Matches the live site after the Bot Cut-outs redesign (Claude, commit 420352a, chosen by Ryan). Read `DESIGN.md` in the repo root before changing a card, a tip, or a colour. The earlier Pacific Sea Teal and gold look is retired for new work. A teal Day 1 card is kept as `day1.png.bak-teal` in `/workspace/shared/nab-relaunch/cards/`.
 
-Renderer: `brand/render_cutouts.py`. Tip brand cards live in `static/images/tips/*.webp` (1200×675) with matching `*-og.jpg` share images (1200×630). The default share image is `static/og-default.png` (1200×630), produced by `og_brand()` in `build.py` via the same renderer. Daily X cards are 1600×900 PNGs in `/workspace/shared/nab-relaunch/cards/dayN.png`.
+Renderer: `brand/render_cutouts.py`. Tip brand cards live in `static/images/tips/*.webp` (1200×675) with matching `*-og.jpg` share images (1200×630). The default share image is `static/og-default.jpg` (1200×630; a PNG is kept at `static/og-default.png` for the old URL), produced by `brand/render_og_photo.py` and copied by `og_brand()` in `build.py`. Tip cards still use `brand/render_cutouts.py`. Daily X cards are 1600×900 PNGs in `/workspace/shared/nab-relaunch/cards/dayN.png`.
 
 ## The idea
 A pale gallery wall with paper cut-out shapes, drawn like a comic. Three original robots stand for the three roles on this site. Do not swap in the Grok logo, the xAI logo, or any other company's mascot.

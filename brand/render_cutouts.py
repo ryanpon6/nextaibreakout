@@ -500,10 +500,9 @@ def main():
     do_x = "--x-cards" in args or "--x-cards-only" in args
     if do_tips:
         render_all_tips()
-        og = os.path.join(STATIC, "og-default.png")
-        render_og_default(og)
-        shutil.copy2(og, os.path.join(STATIC, "og.png"))
-        print("copied og.png")
+        # Default OG is the photo card. Do not overwrite it with the cut-outs drawing.
+        from render_og_photo import main as render_og_photo
+        render_og_photo()
     if do_x:
         render_x_cards()
 

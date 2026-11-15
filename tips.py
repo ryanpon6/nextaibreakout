@@ -782,7 +782,7 @@ def tip_page(t, year):
     extra = B.ld(article_ld(t, url))
     html_page = page(t["seo_title"], t["meta"], path_of(t["slug"]), extra, main, year)
     og = f"{SITE}/images/tips/{t['slug']}-og.jpg"
-    return html_page.replace(f"{SITE}/og-default.png", og)
+    return html_page.replace(f"{SITE}{B.OG_DEFAULT}", og)
 
 
 def first_sentence(text):

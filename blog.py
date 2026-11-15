@@ -83,18 +83,18 @@ def write(DIST, rel, s):
 def apply(DIST, t):
     ps = posts(); year = t.year
     if not ps: print("[blog] no published posts"); return
-    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": {"@type": "ImageObject", "url": SITE + "/og-default.png"}}
+    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": {"@type": "ImageObject", "url": SITE + B.OG_DEFAULT}}
     for p in ps:
         path = f"/blog/{p['slug']}/"; url = SITE + path
         title = p.get("seo_title") or B.seo_title(p["title"]); desc = p.get("seo_description") or p["description"]
         mod = p.get("modified") or p["date"]
         j = {"@context": "https://schema.org", "@graph": [
             {"@type": "Article", "headline": title, "name": p["title"], "description": desc, "datePublished": p["date"], "dateModified": mod,
-             "author": org, "publisher": org, "image": SITE + "/og-default.png", "mainEntityOfPage": {"@type": "WebPage", "@id": url}, "url": url,
+             "author": org, "publisher": org, "image": SITE + B.OG_DEFAULT, "mainEntityOfPage": {"@type": "WebPage", "@id": url}, "url": url,
              **({"keywords": [k.strip() for k in p["keywords"].split(",")]} if p.get("keywords") else {})},
             {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}, {"@type": "ListItem", "position": 3, "name": p["title"], "item": url}]}]}
-        img = p.get("image")  # optional per-post share card (news posts); falls back to og-default.png
+        img = p.get("image")  # optional per-post share card (news posts); falls back to the default share image
         if img:
             j["@graph"][0]["image"] = SITE + img
         extra = B.ld(j) + f'<meta property="article:published_time" content="{p["date"]}"><meta property="article:modified_time" content="{mod}">'
@@ -104,7 +104,7 @@ def apply(DIST, t):
                 + f'{md(p["body"])}\n</article></main>')
         h = page(title, desc, path, extra, main, year, "article")
         if img:
-            h = h.replace(f'content="{SITE}/og-default.png"', f'content="{SITE}{img}"')
+            h = h.replace(f'content="{SITE}{B.OG_DEFAULT}"', f'content="{SITE}{img}"')
         write(DIST, f"blog/{p['slug']}/index.html", h)
     desc = f"Guides I write, including a Claude Code guide, plus daily Grok Bot news posts checked by an automated gate."
     lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time datetime="{p["date"]}">{nice(p["date"])}</time> · {e(p["description"])}</p></li>' for p in ps)

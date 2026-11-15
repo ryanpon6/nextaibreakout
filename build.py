@@ -7,7 +7,9 @@ SEO2 = os.getenv("SEO2") == "1"  # SEO fixes + archive/item pages: off by defaul
 import re as _re
 def re_strip(s): return _re.sub(r"\s+", " ", html.unescape(_re.sub(r"<[^>]+>", "", s))).strip()  # Frontier Labs pages: off by default so the hourly cron deploy does not publish them yet
 SITE = "https://nextaibreakout.com"; BRAND = "NextAiBreakout"; TAG = "Grok Bot tips, with the real build behind each one."
-DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
+OG_DEFAULT = "/og-default.jpg"
+OG_ALT = "GROK BOT TIPS & TRICKS, nextaibreakout.com, with a white robot figurine"
+DESC = "Grok Bot and Claude tips I've tested, plus daily AI news, with sources."
 X_URL = "https://x.com/ryanpon"; X_HANDLE = "@ryanpon"
 H1_TEXT = "Grok Bot tips from a fleet that actually ran."
 # One <h1>, three lines. Each line slides up on load (style.css: .hero h1 .ln). Crawlers read it as one sentence.
@@ -118,9 +120,9 @@ def head(title, desc, path, root="", extra=""):
 <meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{path}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="{BRAND}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
-<meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{SITE}/og-default.png">
-<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}/og-default.png"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
+<meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{SITE}{OG_DEFAULT}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(OG_ALT)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{SITE}{OG_DEFAULT}"><meta name="twitter:site" content="{X_HANDLE}"><meta name="twitter:creator" content="{X_HANDLE}">
 <meta name="color-scheme" content="light"><meta name="theme-color" content="{THEME}">
 <link rel="icon" href="/favicon.svg?v={ICON_VER}" type="image/svg+xml"><link rel="icon" href="/favicon.png?v={ICON_VER}" type="image/png" sizes="32x32"><link rel="icon" href="/favicon.ico?v={ICON_VER}" sizes="16x16 32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ICON_VER}" sizes="180x180">{FONTS}<link rel="stylesheet" href="/style.css?v={VER}">{labscss}{extra}{MENU_JS}{SCROLL_JS}</head><body>
 <header class="top"><a class="brand" href="/" aria-label="{BRAND} home">{NAVWORD}</a>
@@ -162,28 +164,22 @@ def short(s, n=64):
     s = s.split(". ")[0].rstrip(".")
     return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
 def og_brand():
-    """Bot Cut-outs default OG image. See DESIGN.md. No Grok/xAI logos, no ranking art."""
-    dest = os.path.join(DIST, "og-default.png")
-    try:
-        import sys
-        brand_dir = os.path.join(ROOT, "brand")
-        if brand_dir not in sys.path:
-            sys.path.insert(0, brand_dir)
-        from render_cutouts import render_og_default
-        render_og_default(dest)
-        if os.path.isfile(dest) and os.path.getsize(dest) > 1000:
-            shutil.copy(dest, os.path.join(DIST, "og.png"))
-            return
-    except Exception:
-        pass
-    fallback = os.path.join(ROOT, "static", "og-default.png")
-    if os.path.isfile(fallback):
-        shutil.copy(fallback, dest)
-        shutil.copy(fallback, os.path.join(DIST, "og.png"))
+    """Copy the default share image (photo + Syne text from brand/render_og_photo.py)."""
+    static = os.path.join(ROOT, "static")
+    pairs = (
+        ("og-default.jpg", "og-default.jpg"),
+        ("og-default.png", "og-default.png"),
+        ("og.jpg", "og.jpg"),
+        ("og.png", "og.png"),
+    )
+    for src_name, dest_name in pairs:
+        src = os.path.join(static, src_name)
+        if os.path.isfile(src):
+            shutil.copy(src, os.path.join(DIST, dest_name))
 
 
 HOME_TITLE = "Grok Bot tips with real builds | NextAiBreakout"
-HOME_DESC = "Grok Bot tips with the real build behind each one: the problem, how I did it, and what happened. Plus a separate page for Claude."
+HOME_DESC = "Grok Bot and Claude tips I've tested, plus daily AI news, with sources."
 ABOUT_TITLE = "About this site | NextAiBreakout"
 ABOUT_DESC = "Why I built NextAiBreakout: I'm not a coder, I run a company, and I only publish Grok Bot and Claude tips I've tested and can prove."
 LLMS = """# NextAiBreakout
@@ -229,7 +225,7 @@ def home_page(year):
 <ul class="posts rv">{post_html}</ul>
 </div></section>""" if posts else ""
     tape = "one lead bot <i>✶</i> a quality checker <i>✶</i> nothing posts unchecked <i>✶</i> no fix without proof <i>✶</i> quiet unless something changed <i>✶</i> one job per bot <i>✶</i>"
-    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png",
+    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + OG_DEFAULT,
            "sameAs": [X_URL]}
     website = {"@type": "WebSite", "name": BRAND, "url": SITE + "/", "description": HOME_DESC, "inLanguage": "en-CA",
                "publisher": {"@id": SITE + "/#org"}}
@@ -312,7 +308,7 @@ def about_page(year):
         "@graph": [
             {"@type": "AboutPage", "name": "About this site", "url": url, "description": ABOUT_DESC,
              "isPartOf": {"@type": "WebSite", "name": BRAND, "url": SITE + "/"}},
-            {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + "/og-default.png", "sameAs": [X_URL]},
+            {"@type": "Organization", "name": BRAND, "url": SITE + "/", "logo": SITE + OG_DEFAULT, "sameAs": [X_URL]},
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "About", "item": url},
@@ -386,7 +382,7 @@ def main():
     open(os.path.join(DIST, "404.html"), "w", encoding="utf-8").write(not_found_page(t.year))
     static_dir = os.path.join(ROOT, "static")
     for f in os.listdir(static_dir):
-        if f in ("og.png", "og-default.png"):
+        if f in ("og.png", "og-default.png", "og.jpg", "og-default.jpg"):
             continue
         src = os.path.join(static_dir, f)
         dest = os.path.join(DIST, f)
@@ -403,11 +399,8 @@ def main():
     write_redirects()
     copy_functions()
     og_brand()
-    if not os.path.exists(os.path.join(DIST, "og-default.png")):
-        src = os.path.join(ROOT, "static", "og-default.png")
-        if os.path.isfile(src):
-            shutil.copy(src, os.path.join(DIST, "og-default.png"))
-            shutil.copy(src, os.path.join(DIST, "og.png"))
+    if not os.path.exists(os.path.join(DIST, "og-default.jpg")):
+        og_brand()
     sitemap_urls = [("/", day, "weekly"), ("/about", day, "monthly"), ("/claude/", day, "monthly")]
     open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8").write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'

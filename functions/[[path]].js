@@ -57,6 +57,8 @@ function isProtected(path) {
     "/tips.css",
     "/og.png",
     "/og-default.png",
+    "/og-default.jpg",
+    "/og.jpg",
     "/fonts",
   ];
   for (const p of keep) {
