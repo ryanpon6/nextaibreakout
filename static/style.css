@@ -224,9 +224,8 @@ h1:has(.circ),h2:has(.circ){line-height:1.2}
 /* footer */
 body>footer{max-width:none;margin:0;border-top:var(--line);font-size:14px;color:var(--mut)}
 body>footer>*{max-width:1120px;margin-left:auto;margin-right:auto;padding-left:22px;padding-right:22px}
-.fbase{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:0 28px;padding-top:14px}
+.fbase{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:0 28px;padding-top:14px;padding-bottom:26px}
 .fmeta{display:flex;flex-wrap:wrap;gap:0 18px;font-weight:700;color:var(--ink)}
-.fnote{margin:0 auto;padding-bottom:26px;font-size:13px}
 
 /* scroll-driven motion: only where the browser supports it; everything is fully visible without it */
 @supports (animation-timeline: view()){
