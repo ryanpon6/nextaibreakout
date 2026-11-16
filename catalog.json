@@ -275,6 +275,17 @@
       "summary": "A new rule for every NextAiBreakout post: open with a true, specific hook line. Seven real before-and-after examples from our own drafts.",
       "source": "News post from the daily pipeline (lessons we learned).",
       "seq": 1
+    },
+    {
+      "id": "skills-vs-bots-hybrid",
+      "date": "2026-11-15",
+      "title": "Your skills and your bots are not the same thing",
+      "url": "/blog/skills-vs-bots-hybrid/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Why full skills inside bots cost tokens on every turn, and the LIGHT MODE / FULL SKILL MODE setup I use instead across 11 skills.",
+      "source": "News post from the daily pipeline (lessons we learned).",
+      "seq": 2
     }
   ]
 }

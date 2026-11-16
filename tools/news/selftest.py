@@ -386,6 +386,35 @@ def lesson_cases():
         check("dry archive does not move", os.path.isfile(a_p) and dest and dest.endswith("older-plain.json"), dest or "")
         dest = lessons.archive(story, dry=False)
         check("posted item moves to posted/", (not os.path.isfile(a_p)) and dest and os.path.isfile(dest) and "/posted/" in dest.replace("\\\\", "/"), dest or "")
+        # make_post.py lesson Sources line + --site-only (page only, nothing for publish.py to post)
+        import make_post as MP, entries_hook as EH
+        drafts_ev = [os.path.join(t, "x-drafts.md")]
+        ba = {**a, "evidence": drafts_ev}
+        check("drafts line: before/after", MP.lesson_sources_md(ba) == MP.DRAFTS_LINE, MP.lesson_sources_md(ba))
+        plain_note = {**a, "body_md": "I added a mode section to all 11 skills.\n\n**What I changed**\n\n- One new bot.", "evidence": drafts_ev,
+                      "note": "From my own Grok Bot setup.", "sources": ["internal note: /workspace/shared/x-drafts.md, approved Nov 15, 2026"]}
+        got = MP.lesson_sources_md(plain_note)
+        check("no drafts line w/o before/after", got == "- From my own Grok Bot setup. No outside posts are cited." and "internal" not in got and "Nov" not in got, got)
+        got = MP.lesson_sources_md({**plain_note, "public_sources": ["My own Grok Bot skills and bots."]})
+        check("public_sources wins", got == "- My own Grok Bot skills and bots.", got)
+        old_img, old_shot, old_ef = nc.NEWS_IMG, MP.R.screenshot, EH.ENTRIES_FILE
+        try:
+            nc.NEWS_IMG = os.path.join(t, "img"); EH.ENTRIES_FILE = os.path.join(t, "no-catalog.json")
+            MP.R.screenshot = lambda html, dest, w, h: open(dest, "wb").write(b"png")
+            sp_site = os.path.join(t, "site-only-spec.json"); nc.save(sp_site, {**plain_note, "slug": "site-only-note"})
+            before = sorted(os.listdir(t))
+            rc = MP.main(["--date", "2026-11-15", "--spec", sp_site, "--site-only"])
+            mdp = os.path.join(nc.POSTS, "2026-11-15-site-only-note.md"); md = open(mdp).read() if os.path.isfile(mdp) else ""
+            new = sorted(set(os.listdir(t)) - set(before) - {"img"})
+            ok = (rc == 0 and "## Sources\n\n- From my own Grok Bot setup. No outside posts are cited." in md and MP.DRAFTS_LINE not in md
+                  and not os.path.exists(nc.path("xpayload", "2026-11-15")) and not os.path.isdir(os.path.join(t, "cards")) and not new
+                  and os.path.isfile(os.path.join(nc.NEWS_IMG, "2026-11-15-site-only-note.png")))
+            check("site-only: page, no X payload", ok, f"rc={rc} new={new}")
+            check("site-only post blocks X later", "already has a site post" in lessons.already_posted({"slug": "site-only-note"}), "")
+            sp_x = os.path.join(t, "x-spec.json"); nc.save(sp_x, {**plain_note, "slug": "x-story-note", "source": "x"})
+            check("site-only refuses X stories", MP.main(["--date", "2026-11-15", "--spec", sp_x, "--site-only"]) == 2, "")
+        finally:
+            nc.NEWS_IMG, MP.R.screenshot, EH.ENTRIES_FILE = old_img, old_shot, old_ef
     finally:
         nc.STATE = old
         nc.POSTS = locals().get("old_posts", nc.POSTS)

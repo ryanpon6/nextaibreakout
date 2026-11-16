@@ -11,6 +11,8 @@ One routine a day. Scripts do the fetching and checking; the AI only writes when
 | 4 | `publish.py` | no | build, selfcheck, cjkcheck, `gate.py`, commit + push main (ff only), wrangler deploy, live 200 check, X post + link reply (`xnews.py`), ledger |
 
 State files live in `/workspace/shared/nab-relaunch/news/` (override with `NAB_NEWS_STATE`).
+
+Page only, no X post (lessons): `make_post.py --date D --spec PATH --site-only` writes the post md, OG card and tips-index entry, but no X card and no `xpayload`, and writes nothing to the state dir. Commit and ship it with a normal site release (never through `publish.py`). Once the post is in `blog/posts/`, `lessons.already_posted()` blocks the same slug from ever being posted from `news/lessons/`. A lesson's Sources line comes from `public_sources` if the spec has it; the fixed queued-drafts line appears only when the body has `- Before:`/`- After:` lines and the evidence includes `x-drafts`; otherwise it reads `- NOTE No outside posts are cited.` The spec's internal `sources` notes are never printed.
 ## Switches
 - **Kill switch:** delete `/workspace/shared/nab-relaunch/autopost-live.flag`. Live runs stop at step 0 and log a dated
   line saying so. Recreate the file (only after a QC PASS) to turn auto-publishing back on.

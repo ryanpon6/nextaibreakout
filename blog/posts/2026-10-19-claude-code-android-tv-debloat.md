@@ -2,6 +2,7 @@
 title: "AI didn't invent Android TV debloating, but one repo says it's now a 15-minute job"
 description: "People are using Claude Code to disable bloat and home-screen ad rows on Android and Google TVs over ADB. What it does, what it doesn't, and how to do it safely."
 date: 2026-10-19
+modified: 2026-11-15
 status: published
 slug: claude-code-android-tv-debloat
 seo_title: "cleanyourtv: Debloat Android TV With Claude Code"
@@ -9,7 +10,7 @@ seo_description: "How people use Claude Code and the cleanyourtv repo to debloat
 keywords: "Claude Code, Android TV, Google TV, debloat, smart TV, ADB, cleanyourtv"
 ---
 
-Posts saying Claude Code fixed people's smart TVs spread fast this weekend. Some is real, some is stretched. Here's what the original posts and the repo actually show.
+Posts saying Claude Code fixed people's smart TVs spread fast. Some is real, some is stretched. Here's what the original posts and the repo actually show.
 
 ## What happened
 
