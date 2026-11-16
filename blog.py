@@ -105,6 +105,8 @@ def apply(DIST, t):
         h = page(title, desc, path, extra, main, year, "article")
         if img:
             h = h.replace(f'content="{SITE}{B.OG_DEFAULT}"', f'content="{SITE}{img}"')
+            # the per-post card gets its own alt text (the site default alt describes the default image)
+            h = h.replace(f'<meta property="og:image:alt" content="{e(B.OG_ALT)}">', f'<meta property="og:image:alt" content="{e(p.get("image_alt") or p["title"])}">', 1)
         write(DIST, f"blog/{p['slug']}/index.html", h)
     desc = f"Guides I write, including a Claude Code guide, plus daily Grok Bot news posts checked by an automated gate."
     lis = "".join(f'<li><a href="/blog/{p["slug"]}/">{e(p["title"])}</a><p class="dim"><time class="vh" datetime="{p["date"]}"></time>{e(p["description"])}</p></li>' for p in ps)

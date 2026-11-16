@@ -15,7 +15,9 @@ ENTRIES_FILE = os.getenv("NAB_ENTRIES", os.path.join(nc.ROOT, "catalog.json"))
 def to_entry(date, title, slug, topic, sources=(), summary=None):
     e = {"id": slug, "date": date, "title": title, "url": f"/blog/{slug}/", "kind": "claude" if topic == "claude" else "grok", "type": "news"}
     if summary: e["summary"] = summary  # the gated description (G7 checked its figures), never new text
-    if sources and sources[0] == "lessons we learned":
+    if sources and sources[0] == "site-only lesson":
+        e["source"] = "Lesson post, published on the site only with make_post.py --site-only (not by the daily pipeline, no X post)."
+    elif sources and sources[0] == "lessons we learned":
         e["source"] = "News post from the daily pipeline (lessons we learned)."
     elif sources:
         e["source"] = "News post from the daily pipeline. Cited X posts: " + ", ".join(sources)

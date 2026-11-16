@@ -284,7 +284,7 @@
       "kind": "grok",
       "type": "news",
       "summary": "Why full skills inside bots cost tokens on every turn, and the LIGHT MODE / FULL SKILL MODE setup I use instead across 11 skills.",
-      "source": "News post from the daily pipeline (lessons we learned).",
+      "source": "Lesson post, published on the site only with make_post.py --site-only (not by the daily pipeline, no X post).",
       "seq": 2
     }
   ]

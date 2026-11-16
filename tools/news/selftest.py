@@ -3,7 +3,7 @@
 FAIL (or G12 to HOLD). Nothing here touches the real post, ledger, issues file, site or X. G7 re-fetches the cited
 posts from X's public embed endpoint in every X-story case, so those need network. Lesson cases and hook_cases do not.
 Usage  selftest.py --dist DIR --date YYYY-MM-DD   (the copy must pass the gate with G12 off)"""
-import argparse, json, os, re, shutil, subprocess, sys, tempfile
+import argparse, glob, json, os, re, shutil, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import nc
 
@@ -411,6 +411,19 @@ def lesson_cases():
                   and os.path.isfile(os.path.join(nc.NEWS_IMG, "2026-11-15-site-only-note.png")))
             check("site-only: page, no X payload", ok, f"rc={rc} new={new}")
             check("site-only post blocks X later", "already has a site post" in lessons.already_posted({"slug": "site-only-note"}), "")
+            md0 = open(mdp).read()
+            rc2 = MP.main(["--date", "2026-11-16", "--spec", sp_site, "--site-only"])
+            check("site-only refuses existing post", rc2 == 2 and open(mdp).read() == md0 and not glob.glob(os.path.join(nc.POSTS, "2026-11-16-*")), f"rc={rc2}")
+            old_ledger = nc.LEDGER; nc.LEDGER = os.path.join(t, "ledger.jsonl")
+            try:
+                open(nc.LEDGER, "w").write(json.dumps({"slot": "nab-news-2026-11-10", "story_url": f"{nc.SITE}/blog/ledger-dup/"}) + "\n")
+                sp_l = os.path.join(t, "ledger-spec.json"); nc.save(sp_l, {**plain_note, "slug": "ledger-dup"})
+                rc3 = MP.main(["--date", "2026-11-16", "--spec", sp_l, "--site-only"])
+                check("site-only refuses ledger slug", rc3 == 2 and not glob.glob(os.path.join(nc.POSTS, "*-ledger-dup.md")), f"rc={rc3}")
+            finally:
+                nc.LEDGER = old_ledger
+            src = EH.to_entry("2026-11-15", "T", "site-only-note", "grok", ["site-only lesson"]).get("source", "")
+            check("site-only catalog source", "daily pipeline" in src and "not by the daily pipeline" in src and "site only" in src, src)
             sp_x = os.path.join(t, "x-spec.json"); nc.save(sp_x, {**plain_note, "slug": "x-story-note", "source": "x"})
             check("site-only refuses X stories", MP.main(["--date", "2026-11-15", "--spec", sp_x, "--site-only"]) == 2, "")
         finally:

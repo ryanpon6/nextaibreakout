@@ -12,8 +12,8 @@ x_main and body_md must already open with a hook line (G13); this script does no
 --site-only (lessons only): page only. Writes the post md, the OG card and the catalog entry; writes NO X card and NO
        xpayload, so publish.py has nothing to post. Without --story it builds the lesson story from the spec in memory
        (nothing is written to $NAB_NEWS_STATE). Use it to put a QC-passed lesson on the site without an X post: commit the
-       outputs and ship them with the normal site release. The new post also trips lessons.already_posted(), so the same
-       slug can never be posted to X later from lessons/.
+       outputs and ship them with the normal site release. It refuses a slug that already has a site post or a ledger row
+       (lessons.already_posted), and the new post trips that same guard, so the slug can never be posted to X later from lessons/.
 Lesson Sources line (lesson_sources_md): the spec's internal "sources"/"evidence" notes are never printed.
        public_sources (list of QC-passed public lines) wins; else the fixed queued-drafts line, only when the body really
        quotes "- Before:"/"- After:" lines and the evidence includes our x-drafts file; else "- NOTE No outside posts are cited."
@@ -74,6 +74,10 @@ def main(argv=None):
     if miss: print("SPEC MISSING: " + ", ".join(miss)); return 2
     slug = re.sub(r"[^a-z0-9-]", "", spec["slug"].lower()).strip("-")[:70]
     if a.site_only and spec.get("source") != "lesson": print("SITE-ONLY: only for lesson specs (source: lesson)"); return 2
+    if a.site_only:   # never a second page for the same slug (site post file, or a ledger row)
+        import glob, lessons
+        dup = lessons.already_posted({**spec, "slug": slug}) or next((f"post file exists: {os.path.basename(f)}" for f in glob.glob(os.path.join(nc.POSTS, f"*-{slug}.md"))), "")
+        if dup: print(f"SITE-ONLY REFUSED: {dup}"); return 2
     if a.site_only and not a.story:
         story = {"key": slug, "topic": "lesson", "source": "lesson", "posts": [],
                  "kind": "claude" if str(spec.get("kind") or "").lower() == "claude" else "grok", "evidence": spec.get("evidence") or []}
@@ -115,7 +119,7 @@ def main(argv=None):
     url = f"{nc.SITE}/blog/{slug}/"
     if a.site_only:
         import entries_hook
-        ef = entries_hook.register(a.date, spec["title"], slug, "claude" if story.get("kind") == "claude" else "grok", ["lessons we learned"], spec["description"])
+        ef = entries_hook.register(a.date, spec["title"], slug, "claude" if story.get("kind") == "claude" else "grok", ["site-only lesson"], spec["description"])
         print(f"WROTE {mdp}\nWROTE {og}\nSITE-ONLY: no X card, no xpayload (publish.py has nothing to post)\nENTRIES {ef}\nURL {url}")
         return 0
     pay = {"date": a.date, "slot": nc.slot(a.date), "slug": slug, "url": url, "post_md": mdp, "og_image": og, "x_card": xc,
