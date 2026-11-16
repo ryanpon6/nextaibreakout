@@ -3,3 +3,4 @@
 /about.html    /about    301
 /grok-bot      /tips/    301
 /grok-bot/     /tips/    301
+/rss.xml       /feed.xml 301

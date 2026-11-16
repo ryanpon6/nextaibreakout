@@ -130,8 +130,7 @@ def head(title, desc, path, root="", extra=""):
 <nav id="site-nav" aria-label="Primary"><a href="/tips/">Grok Bot Tips</a><a href="/claude/">Claude Tips</a><a href="/blog/">Blog</a><a href="/about">About</a></nav></header>"""
 
 def foot(year, root=""):
-    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Grok Bot Tips</a><a href="/claude/">Claude Tips</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="/feed.xml">RSS</a><a href="{root}llms.txt">llms.txt</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div>
-<p class="fnote">Daily news posts publish once an automated gate passes them. Other posts publish on a schedule after my checker bot reviews them. Sends, spending and sign-ins still wait for my OK.</p></footer>"""
+    return f"""<footer><div class="fbase"><span>© {year} NextAiBreakout.com. {TAG}</span><span class="fmeta"><a href="/tips/">Grok Bot Tips</a><a href="/claude/">Claude Tips</a><a href="/blog/">Blog</a><a href="/about">About</a><a href="{X_URL}" rel="me noopener" target="_blank">X {X_HANDLE}</a></span></div></footer>"""
 
 def row(i, n):
     return f"""<tr data-src="{i['source']}" data-tag="{i['tag']}"><td class="rk">{n}</td>
@@ -436,7 +435,16 @@ def main():
             if fn.endswith(".html"):
                 fp = os.path.join(root_, fn); h = open(fp, encoding="utf-8").read()
                 if "G-J7VKNV3DJ0" not in h and "</head>" in h:
-                    open(fp, "w", encoding="utf-8").write(h.replace("</head>", GA + "</head>", 1))
+                    h = h.replace("</head>", GA + "</head>", 1)
+                # Feed and llms.txt stay discoverable from every page's <head> (the footer no longer links them).
+                hl = h[:h.find("</head>")] if "</head>" in h else ""
+                add = ""
+                if hl and 'type="application/rss+xml" title="' + BRAND + '" href="/feed.xml"' not in hl:
+                    add += f'<link rel="alternate" type="application/rss+xml" title="{BRAND}" href="/feed.xml">'
+                if hl and 'href="/llms.txt"' not in hl:
+                    add += '<link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt">'
+                if add: h = h.replace("</head>", add + "</head>", 1)
+                open(fp, "w", encoding="utf-8").write(h)
     print("built", DIST)
 
 # ---------------- Frontier Labs ----------------
