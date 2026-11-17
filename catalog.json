@@ -286,6 +286,17 @@
       "summary": "Why full skills inside bots cost tokens on every turn, and the LIGHT MODE / FULL SKILL MODE setup I use instead across 11 skills.",
       "source": "Lesson post, published on the site only with make_post.py --site-only (not by the daily pipeline, no X post).",
       "seq": 2
+    },
+    {
+      "id": "grok-bot-las-vegas-sphere",
+      "date": "2026-11-17",
+      "title": "SpaceX puts Grok Bot on the Las Vegas Sphere",
+      "url": "/blog/grok-bot-las-vegas-sphere/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "SpaceX is advertising Grok Bot on the Las Vegas Sphere with the line \"Every driver needs their crew.\" What showed up and how the tagline fits real use.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/bot/status/2122386524297974128, https://x.com/SawyerMerritt/status/2122387167397716223, https://x.com/benjitaylor/status/2122394272091848868, https://x.com/spcxGOD/status/2122393033102508373",
+      "seq": 1
     }
   ]
 }
