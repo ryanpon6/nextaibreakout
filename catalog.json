@@ -297,6 +297,17 @@
       "summary": "SpaceX is advertising Grok Bot on the Las Vegas Sphere with the line \"Every driver needs their crew.\" What showed up and how the tagline fits real use.",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/bot/status/2122386524297974128, https://x.com/SawyerMerritt/status/2122387167397716223, https://x.com/benjitaylor/status/2122394272091848868, https://x.com/spcxGOD/status/2122393033102508373",
       "seq": 1
+    },
+    {
+      "id": "spacex-cfo-grok-bot-best-agentic-ai",
+      "date": "2026-11-18",
+      "title": "SpaceX CFO calls Grok Bot the best agentic AI out there",
+      "url": "/blog/spacex-cfo-grok-bot-best-agentic-ai/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "SpaceX CFO Bret Johnsen called Grok Bot \"probably the best agentic AI solution out there.\" What he said, and what it means if you run bots.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/cb_doge/status/2122780502277140508, https://x.com/Napoleon__Bon/status/2122951536838099171",
+      "seq": 2
     }
   ]
 }
