@@ -308,6 +308,17 @@
       "summary": "SpaceX CFO Bret Johnsen called Grok Bot \"probably the best agentic AI solution out there.\" What he said, and what it means if you run bots.",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/cb_doge/status/2122780502277140508, https://x.com/Napoleon__Bon/status/2122951536838099171",
       "seq": 2
+    },
+    {
+      "id": "lauren-tan-automate-anything-grok-bot",
+      "date": "2026-11-19",
+      "title": "Lauren Tan on how to automate anything with Grok Bot",
+      "url": "/blog/lauren-tan-automate-anything-grok-bot/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Lauren Tan of the Grok Bot team says a lot of people aren't using Grok Bot to its full potential. What she said, plus Elon's smart-employee line.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/poteto/status/2123159537016533493, https://x.com/elonmusk/status/2123161902683746640, https://x.com/ericzakariasson/status/2123102642704675241, https://x.com/eeelistar/status/2123304111345180986",
+      "seq": 3
     }
   ]
 }
