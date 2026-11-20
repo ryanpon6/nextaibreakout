@@ -180,6 +180,7 @@ def _run(a, dry, rel, d):
     else:
         for g in git_steps[2:]:
             rc, out = sh(g)
+            if rc and "nothing to commit" in out: print("    (already committed; continuing)"); continue
             if rc: return fail("git", out[-200:], d)
         rc, out = sh("git push origin HEAD:main")
         if rc:
