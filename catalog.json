@@ -319,6 +319,17 @@
       "summary": "Lauren Tan of the Grok Bot team says a lot of people aren't using Grok Bot to its full potential. What she said, plus Elon's smart-employee line.",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/poteto/status/2123159537016533493, https://x.com/elonmusk/status/2123161902683746640, https://x.com/ericzakariasson/status/2123102642704675241, https://x.com/eeelistar/status/2123304111345180986",
       "seq": 3
+    },
+    {
+      "id": "obsidian-official-grok-bot-plugin",
+      "date": "2026-11-20",
+      "title": "Obsidian ships an official plugin for Grok Bot",
+      "url": "/blog/obsidian-official-grok-bot-plugin/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Obsidian says Grok Bot can now create, search and manage notes in your vault, update links and build Bases and Canvas files. What I haven't tested yet.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/obsdmd/status/2123484964268413341, https://x.com/kartikktwt/status/2123495335754674324, https://x.com/EricSoundMinds/status/2123575858682331207",
+      "seq": 4
     }
   ]
 }
