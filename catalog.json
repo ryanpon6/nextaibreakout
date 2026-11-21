@@ -330,6 +330,17 @@
       "summary": "Obsidian says Grok Bot can now create, search and manage notes in your vault, update links and build Bases and Canvas files. What I haven't tested yet.",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/obsdmd/status/2123484964268413341, https://x.com/kartikktwt/status/2123495335754674324, https://x.com/EricSoundMinds/status/2123575858682331207",
       "seq": 4
+    },
+    {
+      "id": "grok-bot-usage-burns-too-fast",
+      "date": "2026-11-21",
+      "title": "Grok Bot usage burns too fast, and 572 users said why",
+      "url": "/blog/grok-bot-usage-burns-too-fast/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Larsen Cundric asked what eats Grok Bot usage and 572 people answered, with a line to paste to your bot for each. What I do, and what I haven't checked.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2123827993382687217, https://x.com/larsencc/status/2123891636694298977",
+      "seq": 1
     }
   ]
 }
