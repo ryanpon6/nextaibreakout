@@ -385,6 +385,17 @@
       "summary": "On a quiet news day, my pipeline's check script ran about 11 seconds and stopped. Cheap checks first; the model writes only when there's a real story.",
       "seq": 1,
       "source": "First published 2026-11-22 (America/Edmonton) on the tips-refill branch."
+    },
+    {
+      "id": "grok-bot-finds-missing-amazon-refunds",
+      "date": "2026-11-22",
+      "title": "Grok Bot found $590.62 in missing Amazon refunds for one user",
+      "url": "/blog/grok-bot-finds-missing-amazon-refunds/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Christopher Stanley had Grok Bot check his Amazon orders. He says it found $590.62 in missing refunds and got support to agree to issue them.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2124280710747840889, https://x.com/cstanley/status/2124314532126323042",
+      "seq": 6
     }
   ]
 }
