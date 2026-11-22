@@ -254,8 +254,8 @@ The full review happens once, on the final version, right before it goes public.
         "slug": "goal-block-in-bot-profiles",
         "title": "Put a goal block in each bot's profile",
         "seo_title": "A goal block in each bot's profile | NextAiBreakout",
-        "meta": "14 of my Grok Bots carry the same three lines in their profile: a goal, what done looks like, and when to ask me.",
-        "tip": "14 of my Grok Bots carry the same three lines in their profile: a goal, what done looks like, and when to ask me. The point is that I stop repeating myself to the same bots. What would your bot's done-when line say?",
+        "meta": "14 of my Grok Bots have the same three-line block in their profile: a goal, what done looks like, and when to ask me.",
+        "tip": "14 of my Grok Bots have the same three-line block in their profile: a goal, what done looks like, and when to ask me. The point is that I stop repeating myself to the same bots. What would your bot's done-when line say?",
         "how": """Each block is three short lines at the end of the bot's profile.
 
 GOAL: what the bot is for, in one sentence.
