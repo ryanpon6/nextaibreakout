@@ -385,6 +385,50 @@
       "summary": "On a quiet news day, my pipeline's check script ran about 11 seconds and stopped. Cheap checks first; the model writes only when there's a real story.",
       "seq": 1,
       "source": "First published 2026-11-22 (America/Edmonton) on the tips-refill branch."
+    },
+    {
+      "id": "grok-writes-the-claude-brief",
+      "date": "2026-11-22",
+      "title": "Have your Grok Bot write the Claude prompt",
+      "url": "/claude/grok-writes-the-claude-brief/",
+      "kind": "claude",
+      "type": "tip",
+      "summary": "My Grok Bot writes my Claude prompts, paste-ready, with a How to verify list for each fix.",
+      "seq": 4,
+      "source": "Preview on branch claude-tips, 2026-11-22 (America/Edmonton). Set to the real go-live day if it ships later."
+    },
+    {
+      "id": "claude-and-grok-check-each-other",
+      "date": "2026-11-22",
+      "title": "Use Claude and Grok to check each other",
+      "url": "/claude/claude-and-grok-check-each-other/",
+      "kind": "claude",
+      "type": "tip",
+      "summary": "Claude lists the claims with no source. My Grok Bot checks each one against official sources.",
+      "seq": 3,
+      "source": "Preview on branch claude-tips, 2026-11-22 (America/Edmonton). Set to the real go-live day if it ships later."
+    },
+    {
+      "id": "diff-claude-code-before-it-ships",
+      "date": "2026-11-22",
+      "title": "Diff Claude's code against live before it ships",
+      "url": "/claude/diff-claude-code-before-it-ships/",
+      "kind": "claude",
+      "type": "tip",
+      "summary": "Back up live, diff Claude's file against the running code, deploy, then check the live result.",
+      "seq": 2,
+      "source": "Preview on branch claude-tips, 2026-11-22 (America/Edmonton). Set to the real go-live day if it ships later."
+    },
+    {
+      "id": "proof-standard-in-the-claude-brief",
+      "date": "2026-11-22",
+      "title": "Put the proof standard in the Claude brief",
+      "url": "/claude/proof-standard-in-the-claude-brief/",
+      "kind": "claude",
+      "type": "tip",
+      "summary": "Say what counts as proof in the brief. Until then it's attempted, not verified.",
+      "seq": 1,
+      "source": "Preview on branch claude-tips, 2026-11-22 (America/Edmonton). Set to the real go-live day if it ships later."
     }
   ]
 }

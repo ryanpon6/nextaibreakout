@@ -1,0 +1,9 @@
+Blabara speed fixes (approved by [my brother and me]). Goal: get closer to [a faster keyboard app]'s speed without switching off Grok.
+
+What we saw in an older copy of the code (please check it against your current build): [two network calls run back to back after the user stops talking].
+
+FIX 2 (do first, smaller): [skip the second call unless the user picked a style that needs it].
+
+FIX 1 (bigger): [stream the audio while the user is talking].
+
+Proof required before calling it faster: time from releasing the button to text appearing, on a real phone, on the old build vs the new build, for the same 3 clips (short, medium, and a Rephrase one), with the numbers shown. Until then, call it "speed-up attempted, not verified."

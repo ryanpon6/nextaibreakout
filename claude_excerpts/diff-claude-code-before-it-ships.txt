@@ -1,0 +1,18 @@
+$ diff deployed-index.js claude-fix-index.js
+13c13,14
+<   const isPublic = path === "[public feed]" || path === "[refresh]";
+>   const isPublic = path === "[public feed]";
+>   const isRefresh = path === "[refresh]";
+21c22,26
+>   if (isRefresh) {
+>     sess = await validSession(request, env2);
+>     if (![signed in as staff] && ![has the refresh key])
+>       return json({ error: "Sign in required" }, 401);
+[...]
+1846a1852
+>   if (cached && !markersArePrivate(cached)) cached = null;
+2007,2010c2013
+<   map_markers: { custom: rows(9).map((x) => ({ lat: x.lat, lng: x.lng, [...]
+>   map_markers: await buildPublicMarkers(env2, rows(9), rows(10))
+2013a2017,2122
+> // Every lat/lng is rounded to 2 decimals (~1 km) before it leaves the worker.

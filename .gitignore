@@ -51,6 +51,8 @@ __pycache__/
 *.pem
 *.key
 !/claude.py
+!/claude_tips.py
+!/claude_excerpts/
 !/functions/
 !/functions/**
 !/brand/

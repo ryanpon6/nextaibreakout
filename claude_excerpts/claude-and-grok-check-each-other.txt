@@ -1,0 +1,18 @@
+FROM CLAUDE'S REVIEW OF THE PLAN
+Any claim on the Grok list stays out until Grok returns a source.
+| # | Claim to confirm | For post | Where to look |
+| G1 | [a city grading rule] | #9, #13 | [the city's official guideline] |
+...
+| G15 | [a provincial rule] | #4 | [the province's official guide] |
+
+FROM GROK'S RESEARCH (G1–G15)
+Sources: official only. No blogs or forums. Quotes are verbatim.
+⚠ Read first: contradictions with the v2.1 brief
+1. [The new city rule one post was built on] is ON HOLD.
+   Do not write "starts [date]".
+...
+7. Framing check: [a developer and a builder were mixed up].
+
+FROM CLAUDE'S NEXT VERSION
+v2.2, after Grok's G1–G15 research: [that post] moves and is rescoped.
+Claude independently confirmed the pause through news coverage.

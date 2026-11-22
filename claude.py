@@ -2,6 +2,7 @@
 import os
 import build as B
 import catalog as C
+import claude_tips as CT
 
 e = B.e
 SITE = B.SITE
@@ -9,7 +10,7 @@ BRAND = B.BRAND
 PATH = "/claude/"
 TITLE = "Claude Tips | NextAiBreakout"
 H1 = "Claude Tips"
-META = "Claude Tips I have published, including the Claude Code Android TV guide, and a note on a Landscape Specialists build. This site is Grok Bot first."
+META = "Claude Tips from how I use Claude with my Grok Bots: a bot writes the brief, Claude builds or reviews, and the bots check the result before it ships."
 
 
 def apply(DIST, t):
@@ -48,7 +49,7 @@ def apply(DIST, t):
         list_lede = "This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude Tips is the list of Claude write-ups I have published."
     else:
         list_block = f'<h2 class="tips-index-h">All tips, newest first</h2>\n{C.listing_html(dated, "tips-index")}'
-        list_lede = "This site is Grok Bot first. I'm not going to mix both tools into every tip. Claude Tips is the list of Claude write-ups I have published."
+        list_lede = "This site is Grok Bot first, but I use Claude with my Grok Bots on the same jobs. These tips are about the handoffs between them, from real briefs and files."
     # n==0 copy must not be a "coming soon". Today there is one published tip, so this branch will not render.
     # Keep it only so a future empty catalog does not emit an empty list.
     main = f"""<main class="prose">
@@ -58,6 +59,7 @@ def apply(DIST, t):
 {list_block}
 <p>After the one-day Blabara build, website and Google Play setup continued with Grok and Claude. The one-day build itself is the one my brother and I did with a team of Grok Bots, not with Claude.</p>
 <p>Claude is what builds the Blabara app in a separate repo, ryanpon6/voicekey-app. The Chief of Staff bot does not edit or push there.</p>
+{CT.loop_html()}
 <h2>How this site was built</h2>
 <p>Although I mostly use Claude for coding because it produces better results, I relied on Grok to help build this website. Once Grok creates the site and I add the final touches, I use Claude to refine the template and confirm the code structure is correct.</p>
 <h2>A real build: my landscaping company's site</h2>

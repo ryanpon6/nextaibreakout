@@ -422,6 +422,8 @@ def main():
     blog.apply(DIST, t)
     import claude
     claude.apply(DIST, t)
+    import claude_tips
+    claude_tips.apply(DIST, t)
     # Site feed at /feed.xml (same items as the blog feed; no hourly ranking items).
     blog_rss = os.path.join(DIST, "blog", "rss.xml")
     if os.path.isfile(blog_rss):
