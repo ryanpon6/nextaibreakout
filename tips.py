@@ -264,7 +264,7 @@ DONE WHEN: what finished looks like, in terms someone else can check.
 
 ASK ME WHEN: the moments it has to stop and come to me first.
 
-Every ask line covers the same core list: sends, spending, deletes, publishing, permissions and live accounts. Then each bot adds its own. My site bot's ask line adds any visible change before it deploys, and it allows hotfixes for a broken site as long as the bot reports them after. Its done line includes builds that pass my checker's rules.
+The ask line holds the hard stops, and each bot's list fits its job. My trading bots stop before any trade. My site bot stops before any visible change goes live, though it can hotfix a broken site and report after. Most of them also stop before spending money. My site bot's done line includes builds that pass my checker's rules.
 
 The done line is the one I'd write first. It's how a bot knows it's finished without asking me.""",
         "alt": "Brand card quoting the three-line goal block: goal, done when, ask me when.",
@@ -296,7 +296,7 @@ Without a starting point, a better month and a lucky month look the same.""",
         "tip": "On a quiet news day in my cost log, the check script ran for about 11 seconds and stopped. Nothing cleared the bar, so no post got written. Cheap checks first, and the model only writes when there's a real story. What's the cheapest check you could put in front of your bot?",
         "how": """My daily news run starts with scripts, not writing. A small script re-reads every candidate X post from X's public embed, drops anything older than 24 hours or already covered on the site, and applies a notability bar. The biggest post in the story needs at least 500 likes, or 200 if Elon Musk, xAI or a Grok Bot team account posted it. If nothing clears the bar and no checked lesson is waiting in the queue, the run stops quietly. On that quiet day, the script made zero X API calls, and the writing step never started.
 
-Every run, quiet or not, adds one line to a cost log: the outcome, X calls by type, whether the AI wrote anything, and how long it took. Every failure adds an entry to an issues file. A small script with no AI in it watches that file and only speaks up when something new lands. One morning it showed the gate holding a news post twice for the same two reasons: a 164-character description against my 155 limit, and the word "draft" left on the page.
+Every run, quiet or not, adds one line to a cost log: the outcome, X calls by type, whether the AI wrote anything, and how long it took. Every failure adds an entry to an issues file. A small script with no AI in it watches that file and only speaks up when something new lands. One morning that file showed the gate stopping a news post twice for the same two reasons: a 164-character description against my 155 limit, and the word "draft" left on the page.
 
 That's now a fleet rule. Before a bot produces a post, page or report, it runs the cheap checks, then reads the recent entries in its results log if it has one, so it doesn't repeat a miss that's already written down.""",
         "alt": "Brand card with 11 sec, labeled: about that long, on a quiet news day.",
