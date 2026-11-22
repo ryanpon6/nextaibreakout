@@ -2,13 +2,13 @@ Written for [me] to paste into Claude. Paste everything below the line.
 ---
 Hi Claude, two small fixes on [my company site] before I send more people to the site from X. Please keep everything else exactly as it is: same look, same numbers, same dashboard counts.
 
-## 1. Stop the public map data from pinpointing client houses
-Where it leaks: [a public data feed the homepage reads] (no login).
+## 1. [Round the public map data]
+[Where it is]: [a public data feed the homepage reads] (no login).
 What I want: [...] Do it on the worker side, not just in the page script, because the raw feed is public.
 [...]
 How to verify:
 1. After you deploy, run the cache refresh so the old cached JSON is gone.
-2. Open [the feed]. [...] No two markers should point at a single house.
+2. Open [the feed]. Every [location] should be gone, or have no more than 2 decimal places.
 [...]
 4. Tell me what changed and paste a short sample of the new JSON.
 
