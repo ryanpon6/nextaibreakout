@@ -19,7 +19,7 @@ CLAUDE_TIPS = [
         "title": "Have your Grok Bot write the Claude prompt",
         "seo_title": "Have your Grok Bot write the Claude prompt | NextAiBreakout",
         "meta": "My Grok Bot writes my Claude prompts, paste-ready, with a How to verify list for each fix and one line up top: keep everything else exactly as it is.",
-        "tip": "Stop writing Claude prompts from scratch. My Grok Bot writes them for me, ready to paste, and I just drop them into Claude. The last one asked for two fixes on my company site, gave each fix its own How to verify list, and opened with one line: please keep everything else exactly as it is. What would your bot put in that first line?",
+        "tip": "Stop writing Claude prompts from scratch. My Grok Bot writes them for me, ready to paste, and I paste them into Claude. One of them asked for two fixes on my company site, gave each fix its own How to verify list, and opened with one line: please keep everything else exactly as it is. What would your bot put in that first line?",
         "how": """My Grok Bots already had the details. A public data feed on my company site carried map points precise enough to land on a single client's house. So instead of me explaining that to Claude, my lead bot wrote the brief and handed it to me with one instruction: paste everything below the line.
 
 The brief has a simple shape. One line on what we're fixing and why, then the guard rail: keep everything else exactly as it is, same look, same numbers. Each fix says where the problem is, what I want (a best option and a second best), and a numbered How to verify list I can check myself. It asks Claude to list anything it isn't sure about instead of guessing, and to tell me what changed.
