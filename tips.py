@@ -234,6 +234,76 @@ The rule I use now: lead with the most specific true thing in the post, a number
         "section": "quality",
         "siblings": ["open-with-a-hook-line", "quality-checker-before-it-reaches-you", "scheduled-pack-and-gates"],
     },
+    {
+        "slug": "light-pass-then-full-review",
+        "title": "Light checks for drafts, one full review at the end",
+        "seo_title": "Light checks for drafts, full review last | NextAiBreakout",
+        "meta": "The back-and-forth between my site bot and checker bot was about 44% of my fleet's usage in one week. Now drafts get one light pass.",
+        "tip": "My site bot and my checker bot going back and forth was about 44% of my whole fleet's usage in one week. Now drafts get one light pass, and the full review happens once, on the final version, before anything goes public. Where does your review time actually go?",
+        "how": """Two rules in my checker's shared rules file split reviews by risk. The full review covers anything public, anything sent to customers, and anything that touches money, accounts or permissions. The light check covers internal reports and drafts passed between bots. It confirms numbers and claims match their source, looks for secrets and invented facts, and runs once with no re-renders.
+
+The second rule came out of the usage audit. Work-in-progress pages and drafts get one light pass, and the checker reports every issue in a single reply, with no repeat rounds over wording. A bot asks for a pass only when its work is finished, not after each small edit.
+
+The full review happens once, on the final version, right before it goes public. If anyone edits the file after that pass, it needs another one. When I'm not sure which tier fits, I use the higher one.""",
+        "alt": "Brand card with 44%, labeled: about that much fleet usage went to review rounds.",
+        "slot": "A number card: about 44% of fleet usage went to review back-and-forth.",
+        "section": "quality",
+        "siblings": ["quality-checker-before-it-reaches-you", "recheck-after-late-edits", "bot-drafts-checker-reviews"],
+    },
+    {
+        "slug": "goal-block-in-bot-profiles",
+        "title": "Put a goal block in each bot's profile",
+        "seo_title": "A goal block in each bot's profile | NextAiBreakout",
+        "meta": "14 of my Grok Bots carry the same three lines in their profile: a goal, what done looks like, and when to ask me.",
+        "tip": "14 of my Grok Bots carry the same three lines in their profile: a goal, what done looks like, and when to ask me. The point is that I stop repeating myself to the same bots. What would your bot's done-when line say?",
+        "how": """Each block is three short lines at the end of the bot's profile.
+
+GOAL: what the bot is for, in one sentence.
+
+DONE WHEN: what finished looks like, in terms someone else can check.
+
+ASK ME WHEN: the moments it has to stop and come to me first.
+
+Every ask line covers the same core list: sends, spending, deletes, publishing, permissions and live accounts. Then each bot adds its own. My site bot's ask line adds any visible change before it deploys, and it allows hotfixes for a broken site as long as the bot reports them after. Its done line includes builds that pass my checker's rules.
+
+The done line is the one I'd write first. It's how a bot knows it's finished without asking me.""",
+        "alt": "Brand card quoting the three-line goal block: goal, done when, ask me when.",
+        "slot": "A quote card of the three goal-block labels.",
+        "section": "job-descriptions",
+        "siblings": ["talk-to-one-lead-bot", "approve-spend-and-credentials", "shared-skills-across-bots"],
+    },
+    {
+        "slug": "baseline-before-site-changes",
+        "title": "Save a baseline before you change the site",
+        "seo_title": "Save a baseline before you change the site | NextAiBreakout",
+        "meta": "My site bot doesn't deploy until it diffs the new sitemap against the live one. Save a baseline first, or you can't tell if the edit worked.",
+        "tip": "My site bot doesn't deploy until it diffs the new sitemap against the live one. A stale copy of the site would quietly roll back pages that are already live. Save a baseline first, or you can't tell if the edit worked. What do you compare against before you ship?",
+        "how": """Before any deploy, my site bot fast-forwards its copy of the repo to the latest main, builds the site, and diffs the built sitemap against the live one. Other bots commit to the same repo, so its copy can fall behind. If the diff shows live pages going missing, the copy is stale, and deploying it would roll those pages back. If the only change is the page it meant to add, it's safe to ship.
+
+The same idea works for search traffic. Before changing pages for search, I saved a starting point from Search Console for my sites: clicks, impressions, average position, the submitted sitemaps, and how each homepage is indexed. A monthly review compares against that file.
+
+Without a starting point, a better month and a lucky month look the same.""",
+        "alt": "Brand card comparing shipping with no baseline to diffing against live first.",
+        "slot": "A before-and-after card: ship blind versus diff against live first.",
+        "section": "safety",
+        "siblings": ["before-after-proof", "recheck-after-late-edits", "scheduled-pack-and-gates"],
+    },
+    {
+        "slug": "cheap-checks-before-writing",
+        "title": "Run cheap checks before the bot writes",
+        "seo_title": "Run cheap checks before the bot writes | NextAiBreakout",
+        "meta": "On a quiet news day, my pipeline's check script ran about 11 seconds and stopped. Cheap checks first; the model writes only when there's a real story.",
+        "tip": "On a quiet news day in my cost log, the check script ran for about 11 seconds and stopped. Nothing cleared the bar, so no post got written. Cheap checks first, and the model only writes when there's a real story. What's the cheapest check you could put in front of your bot?",
+        "how": """My daily news run starts with scripts, not writing. A small script re-reads every candidate X post from X's public embed, drops anything older than 24 hours or already covered on the site, and applies a notability bar. The biggest post in the story needs at least 500 likes, or 200 if Elon Musk, xAI or a Grok Bot team account posted it. If nothing clears the bar and no checked lesson is waiting in the queue, the run stops quietly. On that quiet day, the script made zero X API calls, and the writing step never started.
+
+Every run, quiet or not, adds one line to a cost log: the outcome, X calls by type, whether the AI wrote anything, and how long it took. Every failure adds an entry to an issues file. A small script with no AI in it watches that file and only speaks up when something new lands. One morning it showed the gate holding a news post twice for the same two reasons: a 164-character description against my 155 limit, and the word "draft" left on the page.
+
+That's now a fleet rule. Before a bot produces a post, page or report, it runs the cheap checks, then reads the recent entries in its results log if it has one, so it doesn't repeat a miss that's already written down.""",
+        "alt": "Brand card with 11 sec, labeled: about that long, on a quiet news day.",
+        "slot": "A number card: about 11 seconds on a quiet news day, no post written.",
+        "section": "usage",
+        "siblings": ["scheduled-pack-and-gates", "watch-usage-pause-routines", "light-pass-then-full-review"],
+    },
 ]
 
 
@@ -375,6 +445,10 @@ CAPTIONS = {
     "change-only-watches": 'The change-only watch rule, as a brand card.',
     "script-before-model": 'The script-before-model rule, as a brand card.',
     "human-publish-gate": 'The human publish gate, as a brand card.',
+    "light-pass-then-full-review": "About 44% of fleet usage, as a brand card.",
+    "goal-block-in-bot-profiles": "The three-line goal block, as a brand card.",
+    "baseline-before-site-changes": "Baseline first, then change.",
+    "cheap-checks-before-writing": "About 11 seconds on a quiet news day, as a brand card.",
 }
 
 
@@ -488,6 +562,19 @@ PROMPTS = {
     ],
     'recheck-after-late-edits': [
         {'text': 'A review only covers the version you checked. If the file is edited after you pass it, the pass no longer applies. Re-check the file after any late edit, and do not let it go out until that new pass is done.'},
+    ],
+    "light-pass-then-full-review": [
+        {"note": "For the checker bot.", "text": "You are my checker bot. Scale your review to the risk. Drafts and in-progress work passed between bots get one light pass: check that numbers and claims match their source, and look for secrets and invented facts. Report every issue in one reply, with no repeat rounds over wording. Anything going public, to customers, or touching money, accounts or permissions gets one full review, on the final version. If the file changes after your pass, it needs another pass. When you're not sure which tier fits, use the full review."},
+        {"note": "For the bot doing the work.", "text": "Ask the checker for a pass only when your work is finished, not after each small edit. Batch your fixes. Ask for the full review once, on the final version, before it goes public."},
+    ],
+    "goal-block-in-bot-profiles": [
+        {"text": "Add three lines to the end of your profile, one sentence each. GOAL: what you're for. DONE WHEN: what finished looks like, in terms someone else can check. ASK ME WHEN: the moments you stop and ask me first. Always include sends, spending, deletes, publishing, permissions and live accounts in that last line. Show me the three lines before you save them."},
+    ],
+    "baseline-before-site-changes": [
+        {"text": "Before you deploy the site, update your copy to the latest main, build it, and compare the built sitemap with the live one. If live pages would disappear, stop and tell me, because your copy is stale. Only deploy when the differences are the pages you meant to change. Before changing pages for search, save a starting point first (clicks, impressions and average position from Search Console) so we can tell later whether the change worked."},
+    ],
+    "cheap-checks-before-writing": [
+        {"text": "Before you write anything, run the cheap checks first: scripts that confirm there's something new, that it clears the bar I set, and that it isn't already covered. If nothing passes, stop quietly and don't send a nothing-today message. Then read the recent entries in your results log so you don't repeat a miss we've already written down. Only then write. Every run, quiet or not, adds one short line to the log, with real numbers only."},
     ],
 }
 
@@ -735,6 +822,50 @@ PROS_CONS = {
             "If I skip the re-check, a failed line can still go out.",
         ],
     },
+    "light-pass-then-full-review": {
+        "pros": [
+            "Drafts move faster, because one pass covers them.",
+            "Every issue arrives in one reply, not spread over rounds.",
+            "The full review still happens on the version that actually goes public.",
+        ],
+        "cons": [
+            "A light pass can miss something the full review only catches at the end.",
+            "A late edit still needs another pass, so a sloppy finish costs a round.",
+        ],
+    },
+    "goal-block-in-bot-profiles": {
+        "pros": [
+            "I stop repeating the same goal to the same bot.",
+            "Each bot knows when to stop and ask, instead of guessing.",
+            "A checker can hold work against a written done line.",
+        ],
+        "cons": [
+            "A stale goal keeps steering the bot until I update it.",
+            "Three lines can't cover every case, so some questions still come to me.",
+        ],
+    },
+    "baseline-before-site-changes": {
+        "pros": [
+            "A stale copy gets caught before it overwrites live pages.",
+            "I can point to what changed instead of guessing.",
+            "The sitemap diff is one quick command before each deploy.",
+        ],
+        "cons": [
+            "A sitemap diff catches missing or added pages, not a page that broke.",
+            "A baseline only helps if someone goes back and compares.",
+        ],
+    },
+    "cheap-checks-before-writing": {
+        "pros": [
+            "A quiet day costs seconds of script time, not a written post.",
+            "The model only writes when a story clears the bar.",
+            "A logged miss gets read before the next run instead of repeated.",
+        ],
+        "cons": [
+            "A fixed bar can skip a real story that's still small.",
+            "The logs only help if the bot actually reads them before it starts.",
+        ],
+    },
 }
 
 
@@ -812,6 +943,8 @@ def tip_page(t, year):
     extra = B.ld(article_ld(t, url))
     html_page = page(t["seo_title"], t["meta"], path_of(t["slug"]), extra, main, year)
     og = f"{SITE}/images/tips/{t['slug']}-og.jpg"
+    # Share image is the tip's own card, so its alt must describe that card, not the site-wide default.
+    html_page = html_page.replace(f'<meta property="og:image:alt" content="{e(B.OG_ALT)}">', f'<meta property="og:image:alt" content="{e(t["alt"])}">', 1)
     return html_page.replace(f"{SITE}{B.OG_DEFAULT}", og)
 
 
