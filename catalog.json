@@ -396,6 +396,17 @@
       "summary": "Christopher Stanley had Grok Bot check his Amazon orders. He says it found $590.62 in missing refunds and got support to agree to issue them.",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2124280710747840889, https://x.com/cstanley/status/2124314532126323042",
       "seq": 6
+    },
+    {
+      "id": "cz-uses-grok-bot-to-clean-up-follows",
+      "date": "2026-11-23",
+      "title": "CZ used Grok Bot to clean up the accounts he follows on X",
+      "url": "/blog/cz-uses-grok-bot-to-clean-up-follows/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Binance co-founder CZ says he had Grok Bot unfollow inactive and abusive accounts, and told it to keep constructive critics. Elon Musk replied \"Cool\".",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2124733560947138910, https://x.com/cz_binance/status/2124698685116383430",
+      "seq": 1
     }
   ]
 }
