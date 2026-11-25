@@ -407,6 +407,17 @@
       "summary": "Binance co-founder CZ says he had Grok Bot unfollow inactive and abusive accounts, and told it to keep constructive critics. Elon Musk replied \"Cool\".",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2124733560947138910, https://x.com/cz_binance/status/2124698685116383430",
       "seq": 1
+    },
+    {
+      "id": "grok-bot-black-friday-deals",
+      "date": "2026-11-25",
+      "title": "Elon Musk says Grok Bot can find real Black Friday deals",
+      "url": "/blog/grok-bot-black-friday-deals/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Elon Musk says Grok Bot can research the best Black Friday deals and confirm they're authentic. Here's what I'd set up and what users built.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2125464682580623467, https://x.com/insomnia_vip/status/2125529663439077850",
+      "seq": 1
     }
   ]
 }
