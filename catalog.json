@@ -418,6 +418,17 @@
       "summary": "Elon Musk says Grok Bot can research the best Black Friday deals and confirm they're authentic. Here's what I'd set up and what users built.",
       "source": "News post from the daily pipeline. Cited X posts: https://x.com/elonmusk/status/2125464682580623467, https://x.com/insomnia_vip/status/2125529663439077850",
       "seq": 1
+    },
+    {
+      "id": "grok-bot-restock-alerts-slack-bots",
+      "date": "2026-11-26",
+      "title": "Grok Bot 1.3.0 adds restock alerts and smarter Slack bots",
+      "url": "/blog/grok-bot-restock-alerts-slack-bots/",
+      "kind": "grok",
+      "type": "news",
+      "summary": "Grok Bot 1.3.0 is rolling out with smarter Slack bots, restock alerts, mobile buy now and bots that hand tasks to other bots. Here's what I'd try first.",
+      "source": "News post from the daily pipeline. Cited X posts: https://x.com/ericzakariasson/status/2125675144173556124, https://x.com/mark_k/status/2125686210152518004, https://x.com/alexmichael/status/2125678183332577371",
+      "seq": 1
     }
   ]
 }
